@@ -1,0 +1,22 @@
+name: 补充面经或来源
+description: 提交公开链接和可核查的信息
+title: "[来源] "
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 原始链接
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 日期、岗位、方向与简短说明
+      description: 无法确定的日期请注明；区分亲历复盘、转载与模拟题。
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: 访问和使用限制
+      description: 如登录、付费、推广、日期冲突、作者更正。

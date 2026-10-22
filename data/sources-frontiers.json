@@ -1,0 +1,842 @@
+[
+  {
+    "id": "FR-2201.11903",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "source_type": "paper",
+    "published": "2022-01-28",
+    "topics": [
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "经典；页面 v6 修订于 2023-01-10；核查摘要与版本。"
+  },
+  {
+    "id": "FR-2202.06991",
+    "title": "Transformer Memory as a Differentiable Search Index",
+    "url": "https://arxiv.org/abs/2202.06991",
+    "source_type": "paper",
+    "published": "2022-02-14",
+    "topics": [
+      "search",
+      "domain"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "经典 DSI；核查生成文档 ID 的摘要论点。"
+  },
+  {
+    "id": "FR-2203.11171",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "url": "https://arxiv.org/abs/2203.11171",
+    "source_type": "paper",
+    "published": "2022-03-21",
+    "topics": [
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "ICLR 2023；核查采样轨迹与答案聚合机制。"
+  },
+  {
+    "id": "FR-2212.04356",
+    "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "url": "https://arxiv.org/abs/2212.04356",
+    "source_type": "paper",
+    "published": "2022-12-06",
+    "topics": [
+      "multimodal",
+      "audio"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Whisper 经典；仅作为语音识别研究基线。"
+  },
+  {
+    "id": "FR-2212.09748",
+    "title": "Scalable Diffusion Models with Transformers",
+    "url": "https://arxiv.org/abs/2212.09748",
+    "source_type": "paper",
+    "published": "2022-12-19",
+    "topics": [
+      "multimodal",
+      "generation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "DiT；页面 v2 修订于 2023-03-02。"
+  },
+  {
+    "id": "FR-2301.12597",
+    "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+    "url": "https://arxiv.org/abs/2301.12597",
+    "source_type": "paper",
+    "published": "2023-01-30",
+    "topics": [
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查冻结编码器、LLM 与 Q-Former 连接机制。"
+  },
+  {
+    "id": "FR-2303.15343",
+    "title": "Sigmoid Loss for Language Image Pre-Training",
+    "url": "https://arxiv.org/abs/2303.15343",
+    "source_type": "paper",
+    "published": "2023-03-27",
+    "topics": [
+      "multimodal",
+      "pretraining"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查图文成对 sigmoid 目标；不将原文成绩写成当前排名。"
+  },
+  {
+    "id": "FR-2303.17564",
+    "title": "BloombergGPT: A Large Language Model for Finance",
+    "url": "https://arxiv.org/abs/2303.17564",
+    "source_type": "paper",
+    "published": "2023-03-30",
+    "topics": [
+      "domain",
+      "finance"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查领域和通用数据混合；不外推投资回报。"
+  },
+  {
+    "id": "FR-2304.08485",
+    "title": "Visual Instruction Tuning",
+    "url": "https://arxiv.org/abs/2304.08485",
+    "source_type": "paper",
+    "published": "2023-04-17",
+    "topics": [
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "LLaVA；核查视觉指令微调与编码器接入。"
+  },
+  {
+    "id": "FR-2305.04388",
+    "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+    "url": "https://arxiv.org/abs/2305.04388",
+    "source_type": "paper",
+    "published": "2023-05-07",
+    "topics": [
+      "reasoning",
+      "evaluation",
+      "safety"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查解释与输入偏置不一致的研究发现；不外推所有模型。"
+  },
+  {
+    "id": "FR-2305.05065",
+    "title": "Recommender Systems with Generative Retrieval",
+    "url": "https://arxiv.org/abs/2305.05065",
+    "source_type": "paper",
+    "published": "2023-05-08",
+    "topics": [
+      "recommendation",
+      "search",
+      "domain"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "TIGER 路线；核查语义 ID 和自回归推荐机制。"
+  },
+  {
+    "id": "FR-2305.09617",
+    "title": "Towards Expert-Level Medical Question Answering with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.09617",
+    "source_type": "paper",
+    "published": "2023-05-16",
+    "topics": [
+      "domain",
+      "medical"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Med-PaLM 2；医学问答研究，不是临床许可或诊疗建议。"
+  },
+  {
+    "id": "FR-2305.10355",
+    "title": "Evaluating Object Hallucination in Large Vision-Language Models",
+    "url": "https://arxiv.org/abs/2305.10355",
+    "source_type": "paper",
+    "published": "2023-05-17",
+    "topics": [
+      "multimodal",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "POPE；核查对象幻觉的问答式评测范围。"
+  },
+  {
+    "id": "FR-2305.10601",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.10601",
+    "source_type": "paper",
+    "published": "2023-05-17",
+    "topics": [
+      "reasoning",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查中间文本搜索与回溯；原始成绩不作当前排名。"
+  },
+  {
+    "id": "FR-2305.20050",
+    "title": "Let's Verify Step by Step",
+    "url": "https://arxiv.org/abs/2305.20050",
+    "source_type": "paper",
+    "published": "2023-05-31",
+    "topics": [
+      "reasoning",
+      "post-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "PRM 与过程监督；核查特定数学任务内的对比结论。"
+  },
+  {
+    "id": "FR-2306.05685",
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "url": "https://arxiv.org/abs/2306.05685",
+    "source_type": "paper",
+    "published": "2023-06-09",
+    "topics": [
+      "evaluation",
+      "alignment"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查位置、冗长、自我偏好与裁判局限。"
+  },
+  {
+    "id": "FR-2307.15818",
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "url": "https://arxiv.org/abs/2307.15818",
+    "source_type": "paper",
+    "published": "2023-07-28",
+    "topics": [
+      "embodied",
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查动作 token 与视觉语言共同训练机制。"
+  },
+  {
+    "id": "FR-2308.12950",
+    "title": "Code Llama: Open Foundation Models for Code",
+    "url": "https://arxiv.org/abs/2308.12950",
+    "source_type": "paper",
+    "published": "2023-08-24",
+    "topics": [
+      "code",
+      "pretraining"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查代码专门化、infilling 与上下文任务。"
+  },
+  {
+    "id": "FR-2310.06770",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "url": "https://arxiv.org/abs/2310.06770",
+    "source_type": "paper",
+    "published": "2023-10-10",
+    "topics": [
+      "code",
+      "agents",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查真实仓库 issue 任务；子集与工具需另固定版本。"
+  },
+  {
+    "id": "FR-2311.12022",
+    "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+    "url": "https://arxiv.org/abs/2311.12022",
+    "source_type": "paper",
+    "published": "2023-11-20",
+    "topics": [
+      "evaluation",
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查专家科学问题的任务定义；不引用旧成绩代表现在。"
+  },
+  {
+    "id": "FR-2311.15127",
+    "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+    "url": "https://arxiv.org/abs/2311.15127",
+    "source_type": "paper",
+    "published": "2023-11-25",
+    "topics": [
+      "multimodal",
+      "generation",
+      "video"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查视频扩散的数据策展与多阶段训练。"
+  },
+  {
+    "id": "FR-2311.16079",
+    "title": "MEDITRON-70B: Scaling Medical Pretraining for Large Language Models",
+    "url": "https://arxiv.org/abs/2311.16079",
+    "source_type": "paper",
+    "published": "2023-11-27",
+    "topics": [
+      "domain",
+      "medical"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查医学继续预训练语料与任务；不作临床有效性证明。"
+  },
+  {
+    "id": "FR-2311.16502",
+    "title": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
+    "url": "https://arxiv.org/abs/2311.16502",
+    "source_type": "paper",
+    "published": "2023-11-27",
+    "topics": [
+      "multimodal",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查学科、多图像类型与混合能力任务定义。"
+  },
+  {
+    "id": "FR-2401.05566",
+    "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+    "url": "https://arxiv.org/abs/2401.05566",
+    "source_type": "paper",
+    "published": "2024-01-10",
+    "topics": [
+      "safety",
+      "alignment"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查人为构造后门实验；不声称所有自然训练模型有同类行为。"
+  },
+  {
+    "id": "FR-2402.03300",
+    "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "url": "https://arxiv.org/abs/2402.03300",
+    "source_type": "paper",
+    "published": "2024-02-05",
+    "topics": [
+      "reasoning",
+      "post-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查 GRPO 提出与数据选择；公式为教学性概括，变体需查代码。"
+  },
+  {
+    "id": "FR-2402.04249",
+    "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+    "url": "https://arxiv.org/abs/2402.04249",
+    "source_type": "paper",
+    "published": "2024-02-06",
+    "topics": [
+      "safety",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查标准化红队评价框架；专题不提供实际攻击载荷。"
+  },
+  {
+    "id": "FR-2402.19173",
+    "title": "StarCoder 2 and The Stack v2: The Next Generation",
+    "url": "https://arxiv.org/abs/2402.19173",
+    "source_type": "paper",
+    "published": "2024-02-29",
+    "topics": [
+      "code",
+      "pretraining",
+      "data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查代码数据来源与模型研究范围。"
+  },
+  {
+    "id": "FR-2403.07974",
+    "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+    "url": "https://arxiv.org/abs/2403.07974",
+    "source_type": "paper",
+    "published": "2024-03-12",
+    "topics": [
+      "code",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查持续新题、修复、执行与测试输出预测；不承诺绝对无污染。"
+  },
+  {
+    "id": "FR-2404.01318",
+    "title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models",
+    "url": "https://arxiv.org/abs/2404.01318",
+    "source_type": "paper",
+    "published": "2024-03-28",
+    "topics": [
+      "safety",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "arXiv 标识月份为 2404，但页面初次提交日为 2024-03-28；据页面记录。"
+  },
+  {
+    "id": "FR-2405.15793",
+    "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+    "url": "https://arxiv.org/abs/2405.15793",
+    "source_type": "paper",
+    "published": "2024-05-06",
+    "topics": [
+      "code",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查 ACI 接口设计及论文任务定义。"
+  },
+  {
+    "id": "FR-2406.01574",
+    "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+    "url": "https://arxiv.org/abs/2406.01574",
+    "source_type": "paper",
+    "published": "2024-06-03",
+    "topics": [
+      "evaluation",
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查任务难度、选项与 prompt 稳定性，不作当前榜单。"
+  },
+  {
+    "id": "FR-2406.09246",
+    "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "url": "https://arxiv.org/abs/2406.09246",
+    "source_type": "paper",
+    "published": "2024-06-13",
+    "topics": [
+      "embodied",
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查开放 VLA、多示范数据与适配研究。"
+  },
+  {
+    "id": "FR-2406.13352",
+    "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+    "url": "https://arxiv.org/abs/2406.13352",
+    "source_type": "paper",
+    "published": "2024-06-19",
+    "topics": [
+      "safety",
+      "agents",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查不可信工具数据的提示注入和任务效用评测。"
+  },
+  {
+    "id": "FR-2408.03314",
+    "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+    "url": "https://arxiv.org/abs/2408.03314",
+    "source_type": "paper",
+    "published": "2024-08-06",
+    "topics": [
+      "reasoning",
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查题目难度与测试时预算分配；不泛化特定数字优势。"
+  },
+  {
+    "id": "FR-2408.06292",
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "url": "https://arxiv.org/abs/2408.06292",
+    "source_type": "paper",
+    "published": "2024-08-12",
+    "topics": [
+      "research",
+      "ai4science",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查自动科研流程；自评与独立认可分开，不宣称结果已独立验证。"
+  },
+  {
+    "id": "FR-2409.12191",
+    "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+    "url": "https://arxiv.org/abs/2409.12191",
+    "source_type": "paper",
+    "published": "2024-09-18",
+    "topics": [
+      "multimodal",
+      "architecture"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查动态分辨率、M-RoPE 与图视频输入机制。"
+  },
+  {
+    "id": "FR-2410.24164",
+    "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+    "url": "https://arxiv.org/abs/2410.24164",
+    "source_type": "paper",
+    "published": "2024-10-31",
+    "topics": [
+      "embodied",
+      "generation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面 v4 修订于 2026-01-08，论文标注 RSS 2025；核查流匹配与 VLM 结合。"
+  },
+  {
+    "id": "FR-2411.04368",
+    "title": "Measuring short-form factuality in large language models",
+    "url": "https://arxiv.org/abs/2411.04368",
+    "source_type": "paper",
+    "published": "2024-11-07",
+    "topics": [
+      "evaluation",
+      "factuality"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "SimpleQA；核查正确、错误、未尝试三类与校准意图。"
+  },
+  {
+    "id": "FR-2501.12948",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "source_type": "paper",
+    "published": "2025-01-22",
+    "topics": [
+      "reasoning",
+      "post-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面 v2 修订于 2026-01-04；流程差异另核对官方仓库，不混淆 Zero 与 R1。"
+  },
+  {
+    "id": "FR-2501.14249",
+    "title": "Humanity's Last Exam",
+    "url": "https://arxiv.org/abs/2501.14249",
+    "source_type": "paper",
+    "published": "2025-01-24",
+    "topics": [
+      "evaluation",
+      "reasoning",
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开并定位摘要；核查时为 v12，修订于 2026-10-19；不混用旧版题量。"
+  },
+  {
+    "id": "FR-2501.19393",
+    "title": "s1: Simple test-time scaling",
+    "url": "https://arxiv.org/abs/2501.19393",
+    "source_type": "paper",
+    "published": "2025-01-31",
+    "topics": [
+      "reasoning",
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查 budget forcing；不将单一数学设置外推所有任务。"
+  },
+  {
+    "id": "FR-2502.13923",
+    "title": "Qwen2.5-VL Technical Report",
+    "url": "https://arxiv.org/abs/2502.13923",
+    "source_type": "paper",
+    "published": "2025-02-19",
+    "topics": [
+      "multimodal",
+      "video",
+      "documents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查文档抽取、定位、动态分辨率与时间编码。"
+  },
+  {
+    "id": "FR-2503.20215",
+    "title": "Qwen2.5-Omni Technical Report",
+    "url": "https://arxiv.org/abs/2503.20215",
+    "source_type": "paper",
+    "published": "2025-03-26",
+    "topics": [
+      "multimodal",
+      "audio",
+      "video"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查流式多模态、Thinker-Talker 与音视频对齐。"
+  },
+  {
+    "id": "FR-2504.16054",
+    "title": "π0.5: a Vision-Language-Action Model with Open-World Generalization",
+    "url": "https://arxiv.org/abs/2504.16054",
+    "source_type": "paper",
+    "published": "2025-04-22",
+    "topics": [
+      "embodied",
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查异构共同训练与新环境泛化研究；不外推任意场景安全。"
+  },
+  {
+    "id": "FR-2511.21631",
+    "title": "Qwen3-VL Technical Report",
+    "url": "https://arxiv.org/abs/2511.21631",
+    "source_type": "paper",
+    "published": "2025-11-26",
+    "topics": [
+      "multimodal",
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要；核查长交错上下文与模型家族，不复制自报领先表述。"
+  },
+  {
+    "id": "FR-2601.11868",
+    "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+    "url": "https://arxiv.org/abs/2601.11868",
+    "source_type": "paper",
+    "published": "2026-01-17",
+    "topics": [
+      "agents",
+      "code",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要；明确研究 Terminal-Bench 2.0 终端任务，不把论文分数作现在排名。"
+  },
+  {
+    "id": "FR-2601.16725",
+    "title": "LongCat-Flash-Thinking-2601 Technical Report",
+    "url": "https://arxiv.org/abs/2601.16725",
+    "source_type": "paper",
+    "published": "2026-01-23",
+    "topics": [
+      "reasoning",
+      "agents",
+      "post-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要及版本；v2 为 2026-02-01；核查环境、噪声与 Heavy Thinking 论点，均作为报告主张。"
+  },
+  {
+    "id": "FR-2602.05382",
+    "title": "VRIQ: Benchmarking and Diagnosing the Visual-Reasoning IQ of Vision-Language Models",
+    "url": "https://arxiv.org/abs/2602.05382",
+    "source_type": "paper",
+    "published": "2026-02-05",
+    "topics": [
+      "multimodal",
+      "evaluation",
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要；v2 为 2026-10-10；核查描述干预与感知/推理诊断，不抄排名数字。"
+  },
+  {
+    "id": "FR-2603.24755",
+    "title": "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks",
+    "url": "https://arxiv.org/abs/2603.24755",
+    "source_type": "paper",
+    "published": "2026-03-25",
+    "topics": [
+      "code",
+      "agents",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要；v2 为 2026-05-07；题量等与初版二手摘要不同，正文不混用数字。"
+  },
+  {
+    "id": "FR-repo-r1",
+    "title": "DeepSeek-R1 official repository",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "reasoning",
+      "post-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开并定位 cold-start 与 model summary；核查 R1-Zero、R1 及蒸馏说明。"
+  },
+  {
+    "id": "FR-repo-qwen3-coder",
+    "title": "Qwen3-Coder official repository",
+    "url": "https://github.com/QwenLM/Qwen3-Coder",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "code",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开当前 README；核查工具解析器、tokenizer 和模板注意事项；动态页面，未知首发日记 null。"
+  },
+  {
+    "id": "FR-repo-swebench",
+    "title": "SWE-bench official repository",
+    "url": "https://github.com/SWE-bench/SWE-bench",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "code",
+      "agents",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开 README 并核查 full、Lite、Verified 集合和容器评测说明；动态页面。"
+  },
+  {
+    "id": "FR-repo-alphafold3",
+    "title": "AlphaFold 3 official inference repository",
+    "url": "https://github.com/google-deepmind/alphafold3",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "domain"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开 README 并定位用途说明；核查理论预测与非临床用途边界；不混淆代码和参数授权。"
+  },
+  {
+    "id": "FR-repo-funsearch",
+    "title": "FunSearch official repository",
+    "url": "https://github.com/google-deepmind/funsearch",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "research",
+      "code"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开 README；核查程序构造、评价示例以及未含完整模型与运行基础设施的说明。"
+  },
+  {
+    "id": "FR-repo-ai-scientist",
+    "title": "The AI Scientist official repository",
+    "url": "https://github.com/SakanaAI/AI-Scientist",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "research",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开官方项目页面；不根据仓库存在推断所有论文实验可复现。"
+  },
+  {
+    "id": "FR-nist-genai-profile",
+    "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "safety",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开官方 PDF 正文；封面为 July 2024，未精确核实发布日故 published 为 null；框架参考不等于法律认证。"
+  },
+  {
+    "id": "FR-paper-funsearch",
+    "title": "Mathematical discoveries from program search with large language models",
+    "url": "https://www.nature.com/articles/s41586-023-06924-6",
+    "source_type": "paper",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "research"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "官方搜索摘要标注 Nature 2023；工具打开正文被 cookie 认证重定向阻断，未读取全文；另打开官方代码库。"
+  },
+  {
+    "id": "FR-paper-alphafold3",
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "url": "https://www.nature.com/articles/s41586-024-07487-w",
+    "source_type": "paper",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "domain"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "官方搜索摘要标注 Nature 2024；正文 cookie 认证重定向阻断，未读取全文；具体用途边界核对官方仓库。"
+  },
+  {
+    "id": "FR-paper-ai-research-2026",
+    "title": "Towards end-to-end automation of AI research",
+    "url": "https://www.nature.com/articles/s41586-026-10265-5",
+    "source_type": "paper",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "research",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "官方 Nature 搜索摘要与 DOI 确认 2026 论文标题；正文 cookie 认证重定向阻断，仅作后续研究入口，不引用详细实验或成绩。"
+  }
+]

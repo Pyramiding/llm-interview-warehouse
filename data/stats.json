@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-22",
+  "interview_records": 30,
+  "reading_resources": 10,
+  "topics": 15,
+  "topic_questions": 270,
+  "practice_questions": 26,
+  "total_questions": 296,
+  "normalized_source_urls": 198,
+  "research_source_urls": 158,
+  "verification": {
+    "opened": 167,
+    "search_excerpt": 31
+  },
+  "interviews_by_year": {
+    "2023": 5,
+    "2024": 9,
+    "2025": 11,
+    "2026": 5
+  }
+}

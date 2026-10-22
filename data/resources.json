@@ -1,0 +1,112 @@
+[
+  {
+    "id": "RES001",
+    "title": "llm_interview_note",
+    "url": "https://github.com/wdndev/llm_interview_note",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "中文算法与应用知识笔记；适合作为漏项清单，不将汇编题目视为已验证企业真题。"
+  },
+  {
+    "id": "RES002",
+    "title": "LLMForEverybody",
+    "url": "https://github.com/luhengshiwo/LLMForEverybody",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "从预训练到推理、量化、Agent和数学的中文学习入口；含商业课程推广。"
+  },
+  {
+    "id": "RES003",
+    "title": "Awesome-LLM-Interview",
+    "url": "https://github.com/laoshan-song/Awesome-LLM-Interview",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "包含基础、系统和前沿主题的面试准备仓库；与本仓库互补阅读。"
+  },
+  {
+    "id": "RES004",
+    "title": "AIGC-Interview-Book",
+    "url": "https://github.com/WeThinkIn/AIGC-Interview-Book",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "较宽领域的中文面试与学习汇编；需区分模拟解析、转载与作者亲历。"
+  },
+  {
+    "id": "RES005",
+    "title": "LLM Interview Questions and Answers Hub",
+    "url": "https://github.com/KalyanKS-NLP/LLM-Interview-Questions-and-Answers-Hub",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "英语问答资源，适合双语表达和术语检查；不逐题核实公司归属。"
+  },
+  {
+    "id": "RES006",
+    "title": "LLMInterviewQuestions",
+    "url": "https://github.com/llmgenai/LLMInterviewQuestions",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "英语问题集合；仓库描述中的公司标签不等于本项目独立验证。"
+  },
+  {
+    "id": "RES007",
+    "title": "面试面经｜大模型面试八股含答案",
+    "url": "https://www.cvmart.net/community/detail/7940",
+    "source_type": "interview_collection",
+    "published": "2023-08-17",
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "2023年早期中文汇编，可观察考点演进；部分答案过时或不严谨，应用一手资料纠正。"
+  },
+  {
+    "id": "RES008",
+    "title": "字节校招面试官划重点",
+    "url": "https://www.nowcoder.com/discuss/534332638086148096",
+    "source_type": "preparation_resource",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "2023年企业招聘账号给出的面试建议入口，强调对SFT/RLHF等技术的深入理解。"
+  },
+  {
+    "id": "RES009",
+    "title": "27届秋招大模型岗面经",
+    "url": "https://onlyar.site/2026/08/11/NLP-Interview-Knowkedge/",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "2026年个人博客检索线索；当前全文抓取超时，仅将其作为待补充阅读入口。"
+  },
+  {
+    "id": "RES010",
+    "title": "Tech Interview Handbook",
+    "url": "https://github.com/yangshun/tech-interview-handbook",
+    "source_type": "preparation_resource",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "通用编码与行为面试准备，弥补只刷大模型概念而忽视编码的短板。"
+  }
+]

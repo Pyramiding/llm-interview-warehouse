@@ -1,0 +1,3790 @@
+[
+  {
+    "id": "E001",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "source_type": "paper",
+    "published": "2020-05-22",
+    "topics": [
+      "rag"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "原论文摘要与版本页；讨论参数化/非参数化记忆和两种 RAG 公式。",
+    "canonical_url": "https://arxiv.org/abs/2005.11401",
+    "aliases": [
+      "E001"
+    ]
+  },
+  {
+    "id": "E002",
+    "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+    "url": "https://arxiv.org/abs/2004.04906",
+    "source_type": "paper",
+    "published": "2020-04-10",
+    "topics": [
+      "rag"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "双编码器检索原论文；摘要与元数据已打开。",
+    "canonical_url": "https://arxiv.org/abs/2004.04906",
+    "aliases": [
+      "E002"
+    ]
+  },
+  {
+    "id": "E003",
+    "title": "Precise Zero-Shot Dense Retrieval without Relevance Labels",
+    "url": "https://arxiv.org/abs/2212.10496",
+    "source_type": "paper",
+    "published": "2022-12-20",
+    "topics": [
+      "rag"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "HyDE 原论文；假设文档并非事实来源。",
+    "canonical_url": "https://arxiv.org/abs/2212.10496",
+    "aliases": [
+      "E003"
+    ]
+  },
+  {
+    "id": "E004",
+    "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+    "url": "https://arxiv.org/abs/2310.11511",
+    "source_type": "paper",
+    "published": "2023-10-17",
+    "topics": [
+      "rag"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "打开摘要与版本元数据；自适应检索和反思 token。",
+    "canonical_url": "https://arxiv.org/abs/2310.11511",
+    "aliases": [
+      "E004"
+    ]
+  },
+  {
+    "id": "E005",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "url": "https://arxiv.org/abs/2307.03172",
+    "source_type": "paper",
+    "published": "2023-07-06",
+    "topics": [
+      "rag"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "历史模型的位置敏感性实验，不能直接外推所有新模型。",
+    "canonical_url": "https://arxiv.org/abs/2307.03172",
+    "aliases": [
+      "E005",
+      "foundations-arxiv-2307-03172"
+    ]
+  },
+  {
+    "id": "E006",
+    "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+    "url": "https://arxiv.org/abs/2404.16130",
+    "source_type": "paper",
+    "published": "2024-04-24",
+    "topics": [
+      "rag"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "原论文初稿 2024，页面显示 2025-02-19 修订。",
+    "canonical_url": "https://arxiv.org/abs/2404.16130",
+    "aliases": [
+      "E006"
+    ]
+  },
+  {
+    "id": "E007",
+    "title": "Microsoft GraphRAG",
+    "url": "https://github.com/microsoft/graphrag",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "rag"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Microsoft 官方实现仓库；动态内容，未锁定 commit。",
+    "canonical_url": "https://github.com/microsoft/graphrag",
+    "aliases": [
+      "E007"
+    ]
+  },
+  {
+    "id": "E008",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "source_type": "paper",
+    "published": "2022-10-06",
+    "topics": [
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "论文初稿 2022，ICLR 2023；打开摘要与元数据。",
+    "canonical_url": "https://arxiv.org/abs/2210.03629",
+    "aliases": [
+      "E008"
+    ]
+  },
+  {
+    "id": "E009",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "source_type": "paper",
+    "published": "2023-02-09",
+    "topics": [
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "工具调用数据生成与训练原论文。",
+    "canonical_url": "https://arxiv.org/abs/2302.04761",
+    "aliases": [
+      "E009"
+    ]
+  },
+  {
+    "id": "E010",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2303.11366",
+    "source_type": "paper",
+    "published": "2023-03-20",
+    "topics": [
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "文字反馈与 episodic memory，不是参数梯度更新。",
+    "canonical_url": "https://arxiv.org/abs/2303.11366",
+    "aliases": [
+      "E010"
+    ]
+  },
+  {
+    "id": "E011",
+    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+    "url": "https://arxiv.org/abs/2307.13854",
+    "source_type": "paper",
+    "published": "2023-07-25",
+    "topics": [
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "真实可复现 Web 环境原论文；不把历史分数当当前能力。",
+    "canonical_url": "https://arxiv.org/abs/2307.13854",
+    "aliases": [
+      "E011"
+    ]
+  },
+  {
+    "id": "E012",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "url": "https://arxiv.org/abs/2310.06770",
+    "source_type": "paper",
+    "published": "2023-10-10",
+    "topics": [
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "原论文与摘要页；榜单子集、版本和预算必须分别说明。",
+    "canonical_url": "https://arxiv.org/abs/2310.06770",
+    "aliases": [
+      "E012",
+      "FR-2310.06770"
+    ]
+  },
+  {
+    "id": "E013",
+    "title": "AgentBench: Evaluating LLMs as Agents",
+    "url": "https://arxiv.org/abs/2308.03688",
+    "source_type": "paper",
+    "published": "2023-08-07",
+    "topics": [
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面显示 2025-10-04 修订；多环境 Agent 评测。",
+    "canonical_url": "https://arxiv.org/abs/2308.03688",
+    "aliases": [
+      "E013"
+    ]
+  },
+  {
+    "id": "E014",
+    "title": "Model Context Protocol Specification 2025-06-18",
+    "url": "https://modelcontextprotocol.io/specification/2025-06-18",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "明确版本号为 2025-06-18；未单独核实出版日，因此 published 留空。打开了概述、JSON-RPC、角色与功能描述。",
+    "canonical_url": "https://modelcontextprotocol.io/specification/2025-06-18",
+    "aliases": [
+      "E014"
+    ]
+  },
+  {
+    "id": "E015",
+    "title": "Building effective agents",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "source_type": "official_docs",
+    "published": "2024-12-19",
+    "topics": [
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Anthropic 官方工程文章；页面提示工具生态已变化，仅引用工作流与 Agent 的架构区分。",
+    "canonical_url": "https://www.anthropic.com/research/building-effective-agents",
+    "aliases": [
+      "E015"
+    ]
+  },
+  {
+    "id": "E016",
+    "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "source_type": "paper",
+    "published": "2023-09-12",
+    "topics": [
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "PagedAttention / vLLM 原论文；性能数字依原实验条件。",
+    "canonical_url": "https://arxiv.org/abs/2309.06180",
+    "aliases": [
+      "E016"
+    ]
+  },
+  {
+    "id": "E017",
+    "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+    "url": "https://arxiv.org/abs/2205.14135",
+    "source_type": "paper",
+    "published": "2022-05-27",
+    "topics": [
+      "inference",
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "IO-aware exact attention 原论文。",
+    "canonical_url": "https://arxiv.org/abs/2205.14135",
+    "aliases": [
+      "E017",
+      "foundations-arxiv-2205-14135"
+    ]
+  },
+  {
+    "id": "E018",
+    "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+    "url": "https://arxiv.org/abs/2307.08691",
+    "source_type": "paper",
+    "published": "2023-07-17",
+    "topics": [
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "工作划分与并行改进原论文。",
+    "canonical_url": "https://arxiv.org/abs/2307.08691",
+    "aliases": [
+      "E018"
+    ]
+  },
+  {
+    "id": "E019",
+    "title": "Fast Inference from Transformers via Speculative Decoding",
+    "url": "https://arxiv.org/abs/2211.17192",
+    "source_type": "paper",
+    "published": "2022-11-30",
+    "topics": [
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "初稿 2022，ICML 2023；精确分布推测解码。",
+    "canonical_url": "https://arxiv.org/abs/2211.17192",
+    "aliases": [
+      "E019"
+    ]
+  },
+  {
+    "id": "E020",
+    "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+    "url": "https://arxiv.org/abs/2302.01318",
+    "source_type": "paper",
+    "published": "2023-02-02",
+    "topics": [
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "推测采样与拒绝校正原论文。",
+    "canonical_url": "https://arxiv.org/abs/2302.01318",
+    "aliases": [
+      "E020"
+    ]
+  },
+  {
+    "id": "E021",
+    "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+    "url": "https://arxiv.org/abs/2305.13245",
+    "source_type": "paper",
+    "published": "2023-05-22",
+    "topics": [
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "分组查询注意力与 uptraining 原论文。",
+    "canonical_url": "https://arxiv.org/abs/2305.13245",
+    "aliases": [
+      "E021",
+      "foundations-arxiv-2305-13245"
+    ]
+  },
+  {
+    "id": "E022",
+    "title": "vLLM Automatic Prefix Caching",
+    "url": "https://docs.vllm.ai/en/latest/features/automatic_prefix_caching/",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "动态 latest 官方文档；旧 .html 路径打开后重定向至此。",
+    "canonical_url": "https://docs.vllm.ai/en/latest/features/automatic_prefix_caching",
+    "aliases": [
+      "E022"
+    ]
+  },
+  {
+    "id": "E023",
+    "title": "vLLM Optimization and Tuning",
+    "url": "https://docs.vllm.ai/en/latest/configuration/optimization/",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "动态 latest 官方文档；部署参数与默认值须按安装版本复核。",
+    "canonical_url": "https://docs.vllm.ai/en/latest/configuration/optimization",
+    "aliases": [
+      "E023"
+    ]
+  },
+  {
+    "id": "E024",
+    "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+    "url": "https://arxiv.org/abs/1910.02054",
+    "source_type": "paper",
+    "published": "2019-10-04",
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "经典分片训练原论文，页面含 2020 修订。",
+    "canonical_url": "https://arxiv.org/abs/1910.02054",
+    "aliases": [
+      "E024"
+    ]
+  },
+  {
+    "id": "E025",
+    "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+    "url": "https://arxiv.org/abs/1909.08053",
+    "source_type": "paper",
+    "published": "2019-09-17",
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "经典张量并行原论文。",
+    "canonical_url": "https://arxiv.org/abs/1909.08053",
+    "aliases": [
+      "E025"
+    ]
+  },
+  {
+    "id": "E026",
+    "title": "Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM",
+    "url": "https://arxiv.org/abs/2104.04473",
+    "source_type": "paper",
+    "published": "2021-04-09",
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "组合并行与流水线调度原论文。",
+    "canonical_url": "https://arxiv.org/abs/2104.04473",
+    "aliases": [
+      "E026"
+    ]
+  },
+  {
+    "id": "E027",
+    "title": "DeepSpeed Zero Redundancy Optimizer Tutorial",
+    "url": "https://www.deepspeed.ai/tutorials/zero/",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "打开正文核对 ZeRO 1/2/3 的状态分片定义。",
+    "canonical_url": "https://www.deepspeed.ai/tutorials/zero",
+    "aliases": [
+      "E027"
+    ]
+  },
+  {
+    "id": "E028",
+    "title": "PyTorch FullyShardedDataParallel",
+    "url": "https://docs.pytorch.org/docs/2.14/fsdp.html",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "由 stable 链接跳转后打开明确文档版本；不代表用户已安装此版本。",
+    "canonical_url": "https://docs.pytorch.org/docs/2.14/fsdp.html",
+    "aliases": [
+      "E028"
+    ]
+  },
+  {
+    "id": "E029",
+    "title": "PyTorch Distributed communication package",
+    "url": "https://docs.pytorch.org/docs/2.14/distributed.html",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "由 stable 链接跳转后打开明确文档版本。",
+    "canonical_url": "https://docs.pytorch.org/docs/2.14/distributed.html",
+    "aliases": [
+      "E029"
+    ]
+  },
+  {
+    "id": "E030",
+    "title": "NVIDIA NCCL Troubleshooting",
+    "url": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/troubleshooting.html",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "官方排障入口含拓扑、网络、runtime、性能、日志与 RAS 分类。",
+    "canonical_url": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/troubleshooting.html",
+    "aliases": [
+      "E030"
+    ]
+  },
+  {
+    "id": "E031",
+    "title": "Megatron Bridge Parallelisms Guide",
+    "url": "https://docs.nvidia.com/nemo/megatron-bridge/latest/parallelisms.html",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "NVIDIA 官方动态指南；仅用于基本并行语义，不推断后续模型进展。",
+    "canonical_url": "https://docs.nvidia.com/nemo/megatron-bridge/latest/parallelisms.html",
+    "aliases": [
+      "E031"
+    ]
+  },
+  {
+    "id": "E032",
+    "title": "The Llama 3 Herd of Models",
+    "url": "https://arxiv.org/abs/2407.21783",
+    "source_type": "paper",
+    "published": "2024-07-31",
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "大规模训练技术报告；原实验规模与资源不能直接外推。",
+    "canonical_url": "https://arxiv.org/abs/2407.21783",
+    "aliases": [
+      "E032",
+      "foundations-arxiv-2407-21783"
+    ]
+  },
+  {
+    "id": "E033",
+    "title": "DeepSeek-V3 Technical Report",
+    "url": "https://arxiv.org/abs/2412.19437",
+    "source_type": "paper",
+    "published": "2024-12-27",
+    "topics": [
+      "distributed-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面显示 2025-02-18 修订；MoE 与低精度训练案例。",
+    "canonical_url": "https://arxiv.org/abs/2412.19437",
+    "aliases": [
+      "E033",
+      "foundations-arxiv-2412-19437"
+    ]
+  },
+  {
+    "id": "E034",
+    "title": "Distilling the Knowledge in a Neural Network",
+    "url": "https://arxiv.org/abs/1503.02531",
+    "source_type": "paper",
+    "published": "2015-03-09",
+    "topics": [
+      "compression"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "经典蒸馏原论文。",
+    "canonical_url": "https://arxiv.org/abs/1503.02531",
+    "aliases": [
+      "E034",
+      "foundations-arxiv-1503-02531"
+    ]
+  },
+  {
+    "id": "E035",
+    "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+    "url": "https://arxiv.org/abs/2210.17323",
+    "source_type": "paper",
+    "published": "2022-10-31",
+    "topics": [
+      "compression"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "近似二阶信息的训练后权重量化。",
+    "canonical_url": "https://arxiv.org/abs/2210.17323",
+    "aliases": [
+      "E035"
+    ]
+  },
+  {
+    "id": "E036",
+    "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+    "url": "https://arxiv.org/abs/2211.10438",
+    "source_type": "paper",
+    "published": "2022-11-18",
+    "topics": [
+      "compression"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "激活/权重等价缩放与 W8A8。",
+    "canonical_url": "https://arxiv.org/abs/2211.10438",
+    "aliases": [
+      "E036"
+    ]
+  },
+  {
+    "id": "E037",
+    "title": "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
+    "url": "https://arxiv.org/abs/2306.00978",
+    "source_type": "paper",
+    "published": "2023-06-01",
+    "topics": [
+      "compression",
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面显示 2026-04-25 修订；不要把初稿年与修订年混淆。",
+    "canonical_url": "https://arxiv.org/abs/2306.00978",
+    "aliases": [
+      "E037"
+    ]
+  },
+  {
+    "id": "E038",
+    "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+    "url": "https://arxiv.org/abs/2305.14314",
+    "source_type": "paper",
+    "published": "2023-05-23",
+    "topics": [
+      "compression"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "低比特冻结底座与 LoRA、NF4、double quantization。",
+    "canonical_url": "https://arxiv.org/abs/2305.14314",
+    "aliases": [
+      "E038",
+      "foundations-arxiv-2305-14314"
+    ]
+  },
+  {
+    "id": "E039",
+    "title": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+    "url": "https://arxiv.org/abs/2301.00774",
+    "source_type": "paper",
+    "published": "2023-01-02",
+    "topics": [
+      "compression"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "一次性稀疏剪枝原论文。",
+    "canonical_url": "https://arxiv.org/abs/2301.00774",
+    "aliases": [
+      "E039"
+    ]
+  },
+  {
+    "id": "E040",
+    "title": "A Simple and Effective Pruning Approach for Large Language Models",
+    "url": "https://arxiv.org/abs/2306.11695",
+    "source_type": "paper",
+    "published": "2023-06-20",
+    "topics": [
+      "compression"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Wanda 原论文；激活与权重组合重要性。",
+    "canonical_url": "https://arxiv.org/abs/2306.11695",
+    "aliases": [
+      "E040"
+    ]
+  },
+  {
+    "id": "E041",
+    "title": "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes",
+    "url": "https://arxiv.org/abs/2305.02301",
+    "source_type": "paper",
+    "published": "2023-05-03",
+    "topics": [
+      "compression"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "理由作为额外监督的多任务蒸馏。",
+    "canonical_url": "https://arxiv.org/abs/2305.02301",
+    "aliases": [
+      "E041"
+    ]
+  },
+  {
+    "id": "E042",
+    "title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache",
+    "url": "https://arxiv.org/abs/2402.02750",
+    "source_type": "paper",
+    "published": "2024-02-05",
+    "topics": [
+      "compression",
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "K/V 不同分组轴与低比特 cache 的原论文。",
+    "canonical_url": "https://arxiv.org/abs/2402.02750",
+    "aliases": [
+      "E042"
+    ]
+  },
+  {
+    "id": "E043",
+    "title": "Compact Language Models via Pruning and Knowledge Distillation",
+    "url": "https://arxiv.org/abs/2407.14679",
+    "source_type": "paper",
+    "published": "2024-07-19",
+    "topics": [
+      "compression"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Minitron；结构化剪枝与蒸馏，成本依复用教师的前提。",
+    "canonical_url": "https://arxiv.org/abs/2407.14679",
+    "aliases": [
+      "E043"
+    ]
+  },
+  {
+    "id": "E044",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "source_type": "paper",
+    "published": "2025-01-22",
+    "topics": [
+      "compression"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面显示 2026-01-04 修订；蒸馏 dense 学生模型，不等于复制教师全部能力。",
+    "canonical_url": "https://arxiv.org/abs/2501.12948",
+    "aliases": [
+      "E044",
+      "foundations-arxiv-2501-12948",
+      "FR-2501.12948"
+    ]
+  },
+  {
+    "id": "E045",
+    "title": "PyTorch data utilities: DistributedSampler",
+    "url": "https://docs.pytorch.org/docs/2.14/data.html#torch.utils.data.distributed.DistributedSampler",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "distributed_training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "交叉审读核查官方采样器文档；drop_last=False时为均分rank可能补索引，不应把绝不重复当成DDP必要条件。",
+    "canonical_url": "https://docs.pytorch.org/docs/2.14/data.html",
+    "aliases": [
+      "E045"
+    ]
+  },
+  {
+    "id": "FR-2201.11903",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "source_type": "paper",
+    "published": "2022-01-28",
+    "topics": [
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "经典；页面 v6 修订于 2023-01-10；核查摘要与版本。",
+    "canonical_url": "https://arxiv.org/abs/2201.11903",
+    "aliases": [
+      "FR-2201.11903"
+    ]
+  },
+  {
+    "id": "FR-2202.06991",
+    "title": "Transformer Memory as a Differentiable Search Index",
+    "url": "https://arxiv.org/abs/2202.06991",
+    "source_type": "paper",
+    "published": "2022-02-14",
+    "topics": [
+      "search",
+      "domain"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "经典 DSI；核查生成文档 ID 的摘要论点。",
+    "canonical_url": "https://arxiv.org/abs/2202.06991",
+    "aliases": [
+      "FR-2202.06991"
+    ]
+  },
+  {
+    "id": "FR-2203.11171",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "url": "https://arxiv.org/abs/2203.11171",
+    "source_type": "paper",
+    "published": "2022-03-21",
+    "topics": [
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "ICLR 2023；核查采样轨迹与答案聚合机制。",
+    "canonical_url": "https://arxiv.org/abs/2203.11171",
+    "aliases": [
+      "FR-2203.11171"
+    ]
+  },
+  {
+    "id": "FR-2212.04356",
+    "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "url": "https://arxiv.org/abs/2212.04356",
+    "source_type": "paper",
+    "published": "2022-12-06",
+    "topics": [
+      "multimodal",
+      "audio"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Whisper 经典；仅作为语音识别研究基线。",
+    "canonical_url": "https://arxiv.org/abs/2212.04356",
+    "aliases": [
+      "FR-2212.04356"
+    ]
+  },
+  {
+    "id": "FR-2212.09748",
+    "title": "Scalable Diffusion Models with Transformers",
+    "url": "https://arxiv.org/abs/2212.09748",
+    "source_type": "paper",
+    "published": "2022-12-19",
+    "topics": [
+      "multimodal",
+      "generation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "DiT；页面 v2 修订于 2023-03-02。",
+    "canonical_url": "https://arxiv.org/abs/2212.09748",
+    "aliases": [
+      "FR-2212.09748"
+    ]
+  },
+  {
+    "id": "FR-2301.12597",
+    "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+    "url": "https://arxiv.org/abs/2301.12597",
+    "source_type": "paper",
+    "published": "2023-01-30",
+    "topics": [
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查冻结编码器、LLM 与 Q-Former 连接机制。",
+    "canonical_url": "https://arxiv.org/abs/2301.12597",
+    "aliases": [
+      "FR-2301.12597"
+    ]
+  },
+  {
+    "id": "FR-2303.15343",
+    "title": "Sigmoid Loss for Language Image Pre-Training",
+    "url": "https://arxiv.org/abs/2303.15343",
+    "source_type": "paper",
+    "published": "2023-03-27",
+    "topics": [
+      "multimodal",
+      "pretraining"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查图文成对 sigmoid 目标；不将原文成绩写成当前排名。",
+    "canonical_url": "https://arxiv.org/abs/2303.15343",
+    "aliases": [
+      "FR-2303.15343"
+    ]
+  },
+  {
+    "id": "FR-2303.17564",
+    "title": "BloombergGPT: A Large Language Model for Finance",
+    "url": "https://arxiv.org/abs/2303.17564",
+    "source_type": "paper",
+    "published": "2023-03-30",
+    "topics": [
+      "domain",
+      "finance"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查领域和通用数据混合；不外推投资回报。",
+    "canonical_url": "https://arxiv.org/abs/2303.17564",
+    "aliases": [
+      "FR-2303.17564"
+    ]
+  },
+  {
+    "id": "FR-2304.08485",
+    "title": "Visual Instruction Tuning",
+    "url": "https://arxiv.org/abs/2304.08485",
+    "source_type": "paper",
+    "published": "2023-04-17",
+    "topics": [
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "LLaVA；核查视觉指令微调与编码器接入。",
+    "canonical_url": "https://arxiv.org/abs/2304.08485",
+    "aliases": [
+      "FR-2304.08485"
+    ]
+  },
+  {
+    "id": "FR-2305.04388",
+    "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+    "url": "https://arxiv.org/abs/2305.04388",
+    "source_type": "paper",
+    "published": "2023-05-07",
+    "topics": [
+      "reasoning",
+      "evaluation",
+      "safety"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查解释与输入偏置不一致的研究发现；不外推所有模型。",
+    "canonical_url": "https://arxiv.org/abs/2305.04388",
+    "aliases": [
+      "FR-2305.04388"
+    ]
+  },
+  {
+    "id": "FR-2305.05065",
+    "title": "Recommender Systems with Generative Retrieval",
+    "url": "https://arxiv.org/abs/2305.05065",
+    "source_type": "paper",
+    "published": "2023-05-08",
+    "topics": [
+      "recommendation",
+      "search",
+      "domain"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "TIGER 路线；核查语义 ID 和自回归推荐机制。",
+    "canonical_url": "https://arxiv.org/abs/2305.05065",
+    "aliases": [
+      "FR-2305.05065"
+    ]
+  },
+  {
+    "id": "FR-2305.09617",
+    "title": "Towards Expert-Level Medical Question Answering with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.09617",
+    "source_type": "paper",
+    "published": "2023-05-16",
+    "topics": [
+      "domain",
+      "medical"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Med-PaLM 2；医学问答研究，不是临床许可或诊疗建议。",
+    "canonical_url": "https://arxiv.org/abs/2305.09617",
+    "aliases": [
+      "FR-2305.09617"
+    ]
+  },
+  {
+    "id": "FR-2305.10355",
+    "title": "Evaluating Object Hallucination in Large Vision-Language Models",
+    "url": "https://arxiv.org/abs/2305.10355",
+    "source_type": "paper",
+    "published": "2023-05-17",
+    "topics": [
+      "multimodal",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "POPE；核查对象幻觉的问答式评测范围。",
+    "canonical_url": "https://arxiv.org/abs/2305.10355",
+    "aliases": [
+      "FR-2305.10355"
+    ]
+  },
+  {
+    "id": "FR-2305.10601",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.10601",
+    "source_type": "paper",
+    "published": "2023-05-17",
+    "topics": [
+      "reasoning",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查中间文本搜索与回溯；原始成绩不作当前排名。",
+    "canonical_url": "https://arxiv.org/abs/2305.10601",
+    "aliases": [
+      "FR-2305.10601"
+    ]
+  },
+  {
+    "id": "FR-2306.05685",
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "url": "https://arxiv.org/abs/2306.05685",
+    "source_type": "paper",
+    "published": "2023-06-09",
+    "topics": [
+      "evaluation",
+      "alignment"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查位置、冗长、自我偏好与裁判局限。",
+    "canonical_url": "https://arxiv.org/abs/2306.05685",
+    "aliases": [
+      "FR-2306.05685"
+    ]
+  },
+  {
+    "id": "FR-2307.15818",
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "url": "https://arxiv.org/abs/2307.15818",
+    "source_type": "paper",
+    "published": "2023-07-28",
+    "topics": [
+      "embodied",
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查动作 token 与视觉语言共同训练机制。",
+    "canonical_url": "https://arxiv.org/abs/2307.15818",
+    "aliases": [
+      "FR-2307.15818"
+    ]
+  },
+  {
+    "id": "FR-2308.12950",
+    "title": "Code Llama: Open Foundation Models for Code",
+    "url": "https://arxiv.org/abs/2308.12950",
+    "source_type": "paper",
+    "published": "2023-08-24",
+    "topics": [
+      "code",
+      "pretraining"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查代码专门化、infilling 与上下文任务。",
+    "canonical_url": "https://arxiv.org/abs/2308.12950",
+    "aliases": [
+      "FR-2308.12950"
+    ]
+  },
+  {
+    "id": "FR-2311.12022",
+    "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+    "url": "https://arxiv.org/abs/2311.12022",
+    "source_type": "paper",
+    "published": "2023-11-20",
+    "topics": [
+      "evaluation",
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查专家科学问题的任务定义；不引用旧成绩代表现在。",
+    "canonical_url": "https://arxiv.org/abs/2311.12022",
+    "aliases": [
+      "FR-2311.12022"
+    ]
+  },
+  {
+    "id": "FR-2311.15127",
+    "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+    "url": "https://arxiv.org/abs/2311.15127",
+    "source_type": "paper",
+    "published": "2023-11-25",
+    "topics": [
+      "multimodal",
+      "generation",
+      "video"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查视频扩散的数据策展与多阶段训练。",
+    "canonical_url": "https://arxiv.org/abs/2311.15127",
+    "aliases": [
+      "FR-2311.15127"
+    ]
+  },
+  {
+    "id": "FR-2311.16079",
+    "title": "MEDITRON-70B: Scaling Medical Pretraining for Large Language Models",
+    "url": "https://arxiv.org/abs/2311.16079",
+    "source_type": "paper",
+    "published": "2023-11-27",
+    "topics": [
+      "domain",
+      "medical"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查医学继续预训练语料与任务；不作临床有效性证明。",
+    "canonical_url": "https://arxiv.org/abs/2311.16079",
+    "aliases": [
+      "FR-2311.16079"
+    ]
+  },
+  {
+    "id": "FR-2311.16502",
+    "title": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
+    "url": "https://arxiv.org/abs/2311.16502",
+    "source_type": "paper",
+    "published": "2023-11-27",
+    "topics": [
+      "multimodal",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查学科、多图像类型与混合能力任务定义。",
+    "canonical_url": "https://arxiv.org/abs/2311.16502",
+    "aliases": [
+      "FR-2311.16502"
+    ]
+  },
+  {
+    "id": "FR-2401.05566",
+    "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+    "url": "https://arxiv.org/abs/2401.05566",
+    "source_type": "paper",
+    "published": "2024-01-10",
+    "topics": [
+      "safety",
+      "alignment"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查人为构造后门实验；不声称所有自然训练模型有同类行为。",
+    "canonical_url": "https://arxiv.org/abs/2401.05566",
+    "aliases": [
+      "FR-2401.05566"
+    ]
+  },
+  {
+    "id": "FR-2402.04249",
+    "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+    "url": "https://arxiv.org/abs/2402.04249",
+    "source_type": "paper",
+    "published": "2024-02-06",
+    "topics": [
+      "safety",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查标准化红队评价框架；专题不提供实际攻击载荷。",
+    "canonical_url": "https://arxiv.org/abs/2402.04249",
+    "aliases": [
+      "FR-2402.04249"
+    ]
+  },
+  {
+    "id": "FR-2402.19173",
+    "title": "StarCoder 2 and The Stack v2: The Next Generation",
+    "url": "https://arxiv.org/abs/2402.19173",
+    "source_type": "paper",
+    "published": "2024-02-29",
+    "topics": [
+      "code",
+      "pretraining",
+      "data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查代码数据来源与模型研究范围。",
+    "canonical_url": "https://arxiv.org/abs/2402.19173",
+    "aliases": [
+      "FR-2402.19173"
+    ]
+  },
+  {
+    "id": "FR-2403.07974",
+    "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+    "url": "https://arxiv.org/abs/2403.07974",
+    "source_type": "paper",
+    "published": "2024-03-12",
+    "topics": [
+      "code",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查持续新题、修复、执行与测试输出预测；不承诺绝对无污染。",
+    "canonical_url": "https://arxiv.org/abs/2403.07974",
+    "aliases": [
+      "FR-2403.07974"
+    ]
+  },
+  {
+    "id": "FR-2404.01318",
+    "title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models",
+    "url": "https://arxiv.org/abs/2404.01318",
+    "source_type": "paper",
+    "published": "2024-03-28",
+    "topics": [
+      "safety",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "arXiv 标识月份为 2404，但页面初次提交日为 2024-03-28；据页面记录。",
+    "canonical_url": "https://arxiv.org/abs/2404.01318",
+    "aliases": [
+      "FR-2404.01318"
+    ]
+  },
+  {
+    "id": "FR-2405.15793",
+    "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+    "url": "https://arxiv.org/abs/2405.15793",
+    "source_type": "paper",
+    "published": "2024-05-06",
+    "topics": [
+      "code",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查 ACI 接口设计及论文任务定义。",
+    "canonical_url": "https://arxiv.org/abs/2405.15793",
+    "aliases": [
+      "FR-2405.15793"
+    ]
+  },
+  {
+    "id": "FR-2406.01574",
+    "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+    "url": "https://arxiv.org/abs/2406.01574",
+    "source_type": "paper",
+    "published": "2024-06-03",
+    "topics": [
+      "evaluation",
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查任务难度、选项与 prompt 稳定性，不作当前榜单。",
+    "canonical_url": "https://arxiv.org/abs/2406.01574",
+    "aliases": [
+      "FR-2406.01574"
+    ]
+  },
+  {
+    "id": "FR-2406.09246",
+    "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "url": "https://arxiv.org/abs/2406.09246",
+    "source_type": "paper",
+    "published": "2024-06-13",
+    "topics": [
+      "embodied",
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查开放 VLA、多示范数据与适配研究。",
+    "canonical_url": "https://arxiv.org/abs/2406.09246",
+    "aliases": [
+      "FR-2406.09246"
+    ]
+  },
+  {
+    "id": "FR-2406.13352",
+    "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+    "url": "https://arxiv.org/abs/2406.13352",
+    "source_type": "paper",
+    "published": "2024-06-19",
+    "topics": [
+      "safety",
+      "agents",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查不可信工具数据的提示注入和任务效用评测。",
+    "canonical_url": "https://arxiv.org/abs/2406.13352",
+    "aliases": [
+      "FR-2406.13352"
+    ]
+  },
+  {
+    "id": "FR-2408.03314",
+    "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+    "url": "https://arxiv.org/abs/2408.03314",
+    "source_type": "paper",
+    "published": "2024-08-06",
+    "topics": [
+      "reasoning",
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查题目难度与测试时预算分配；不泛化特定数字优势。",
+    "canonical_url": "https://arxiv.org/abs/2408.03314",
+    "aliases": [
+      "FR-2408.03314"
+    ]
+  },
+  {
+    "id": "FR-2408.06292",
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "url": "https://arxiv.org/abs/2408.06292",
+    "source_type": "paper",
+    "published": "2024-08-12",
+    "topics": [
+      "research",
+      "ai4science",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查自动科研流程；自评与独立认可分开，不宣称结果已独立验证。",
+    "canonical_url": "https://arxiv.org/abs/2408.06292",
+    "aliases": [
+      "FR-2408.06292"
+    ]
+  },
+  {
+    "id": "FR-2409.12191",
+    "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+    "url": "https://arxiv.org/abs/2409.12191",
+    "source_type": "paper",
+    "published": "2024-09-18",
+    "topics": [
+      "multimodal",
+      "architecture"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查动态分辨率、M-RoPE 与图视频输入机制。",
+    "canonical_url": "https://arxiv.org/abs/2409.12191",
+    "aliases": [
+      "FR-2409.12191"
+    ]
+  },
+  {
+    "id": "FR-2410.24164",
+    "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+    "url": "https://arxiv.org/abs/2410.24164",
+    "source_type": "paper",
+    "published": "2024-10-31",
+    "topics": [
+      "embodied",
+      "generation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面 v4 修订于 2026-01-08，论文标注 RSS 2025；核查流匹配与 VLM 结合。",
+    "canonical_url": "https://arxiv.org/abs/2410.24164",
+    "aliases": [
+      "FR-2410.24164"
+    ]
+  },
+  {
+    "id": "FR-2411.04368",
+    "title": "Measuring short-form factuality in large language models",
+    "url": "https://arxiv.org/abs/2411.04368",
+    "source_type": "paper",
+    "published": "2024-11-07",
+    "topics": [
+      "evaluation",
+      "factuality"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "SimpleQA；核查正确、错误、未尝试三类与校准意图。",
+    "canonical_url": "https://arxiv.org/abs/2411.04368",
+    "aliases": [
+      "FR-2411.04368"
+    ]
+  },
+  {
+    "id": "FR-2501.14249",
+    "title": "Humanity's Last Exam",
+    "url": "https://arxiv.org/abs/2501.14249",
+    "source_type": "paper",
+    "published": "2025-01-24",
+    "topics": [
+      "evaluation",
+      "reasoning",
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开并定位摘要；核查时为 v12，修订于 2026-10-19；不混用旧版题量。",
+    "canonical_url": "https://arxiv.org/abs/2501.14249",
+    "aliases": [
+      "FR-2501.14249"
+    ]
+  },
+  {
+    "id": "FR-2501.19393",
+    "title": "s1: Simple test-time scaling",
+    "url": "https://arxiv.org/abs/2501.19393",
+    "source_type": "paper",
+    "published": "2025-01-31",
+    "topics": [
+      "reasoning",
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查 budget forcing；不将单一数学设置外推所有任务。",
+    "canonical_url": "https://arxiv.org/abs/2501.19393",
+    "aliases": [
+      "FR-2501.19393"
+    ]
+  },
+  {
+    "id": "FR-2502.13923",
+    "title": "Qwen2.5-VL Technical Report",
+    "url": "https://arxiv.org/abs/2502.13923",
+    "source_type": "paper",
+    "published": "2025-02-19",
+    "topics": [
+      "multimodal",
+      "video",
+      "documents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查文档抽取、定位、动态分辨率与时间编码。",
+    "canonical_url": "https://arxiv.org/abs/2502.13923",
+    "aliases": [
+      "FR-2502.13923"
+    ]
+  },
+  {
+    "id": "FR-2503.20215",
+    "title": "Qwen2.5-Omni Technical Report",
+    "url": "https://arxiv.org/abs/2503.20215",
+    "source_type": "paper",
+    "published": "2025-03-26",
+    "topics": [
+      "multimodal",
+      "audio",
+      "video"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查流式多模态、Thinker-Talker 与音视频对齐。",
+    "canonical_url": "https://arxiv.org/abs/2503.20215",
+    "aliases": [
+      "FR-2503.20215"
+    ]
+  },
+  {
+    "id": "FR-2504.16054",
+    "title": "π0.5: a Vision-Language-Action Model with Open-World Generalization",
+    "url": "https://arxiv.org/abs/2504.16054",
+    "source_type": "paper",
+    "published": "2025-04-22",
+    "topics": [
+      "embodied",
+      "multimodal"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核查异构共同训练与新环境泛化研究；不外推任意场景安全。",
+    "canonical_url": "https://arxiv.org/abs/2504.16054",
+    "aliases": [
+      "FR-2504.16054"
+    ]
+  },
+  {
+    "id": "FR-2511.21631",
+    "title": "Qwen3-VL Technical Report",
+    "url": "https://arxiv.org/abs/2511.21631",
+    "source_type": "paper",
+    "published": "2025-11-26",
+    "topics": [
+      "multimodal",
+      "inference"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要；核查长交错上下文与模型家族，不复制自报领先表述。",
+    "canonical_url": "https://arxiv.org/abs/2511.21631",
+    "aliases": [
+      "FR-2511.21631"
+    ]
+  },
+  {
+    "id": "FR-2601.11868",
+    "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+    "url": "https://arxiv.org/abs/2601.11868",
+    "source_type": "paper",
+    "published": "2026-01-17",
+    "topics": [
+      "agents",
+      "code",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要；明确研究 Terminal-Bench 2.0 终端任务，不把论文分数作现在排名。",
+    "canonical_url": "https://arxiv.org/abs/2601.11868",
+    "aliases": [
+      "FR-2601.11868"
+    ]
+  },
+  {
+    "id": "FR-2601.16725",
+    "title": "LongCat-Flash-Thinking-2601 Technical Report",
+    "url": "https://arxiv.org/abs/2601.16725",
+    "source_type": "paper",
+    "published": "2026-01-23",
+    "topics": [
+      "reasoning",
+      "agents",
+      "post-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要及版本；v2 为 2026-02-01；核查环境、噪声与 Heavy Thinking 论点，均作为报告主张。",
+    "canonical_url": "https://arxiv.org/abs/2601.16725",
+    "aliases": [
+      "FR-2601.16725"
+    ]
+  },
+  {
+    "id": "FR-2602.05382",
+    "title": "VRIQ: Benchmarking and Diagnosing the Visual-Reasoning IQ of Vision-Language Models",
+    "url": "https://arxiv.org/abs/2602.05382",
+    "source_type": "paper",
+    "published": "2026-02-05",
+    "topics": [
+      "multimodal",
+      "evaluation",
+      "reasoning"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要；v2 为 2026-10-10；核查描述干预与感知/推理诊断，不抄排名数字。",
+    "canonical_url": "https://arxiv.org/abs/2602.05382",
+    "aliases": [
+      "FR-2602.05382"
+    ]
+  },
+  {
+    "id": "FR-2603.24755",
+    "title": "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks",
+    "url": "https://arxiv.org/abs/2603.24755",
+    "source_type": "paper",
+    "published": "2026-03-25",
+    "topics": [
+      "code",
+      "agents",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开摘要；v2 为 2026-05-07；题量等与初版二手摘要不同，正文不混用数字。",
+    "canonical_url": "https://arxiv.org/abs/2603.24755",
+    "aliases": [
+      "FR-2603.24755"
+    ]
+  },
+  {
+    "id": "FR-nist-genai-profile",
+    "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "source_type": "official_docs",
+    "published": null,
+    "topics": [
+      "safety",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开官方 PDF 正文；封面为 July 2024，未精确核实发布日故 published 为 null；框架参考不等于法律认证。",
+    "canonical_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "aliases": [
+      "FR-nist-genai-profile"
+    ]
+  },
+  {
+    "id": "FR-paper-ai-research-2026",
+    "title": "Towards end-to-end automation of AI research",
+    "url": "https://www.nature.com/articles/s41586-026-10265-5",
+    "source_type": "paper",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "research",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "官方 Nature 搜索摘要与 DOI 确认 2026 论文标题；正文 cookie 认证重定向阻断，仅作后续研究入口，不引用详细实验或成绩。",
+    "canonical_url": "https://www.nature.com/articles/s41586-026-10265-5",
+    "aliases": [
+      "FR-paper-ai-research-2026"
+    ]
+  },
+  {
+    "id": "FR-paper-alphafold3",
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "url": "https://www.nature.com/articles/s41586-024-07487-w",
+    "source_type": "paper",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "domain"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "官方搜索摘要标注 Nature 2024；正文 cookie 认证重定向阻断，未读取全文；具体用途边界核对官方仓库。",
+    "canonical_url": "https://www.nature.com/articles/s41586-024-07487-w",
+    "aliases": [
+      "FR-paper-alphafold3"
+    ]
+  },
+  {
+    "id": "FR-paper-funsearch",
+    "title": "Mathematical discoveries from program search with large language models",
+    "url": "https://www.nature.com/articles/s41586-023-06924-6",
+    "source_type": "paper",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "research"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "官方搜索摘要标注 Nature 2023；工具打开正文被 cookie 认证重定向阻断，未读取全文；另打开官方代码库。",
+    "canonical_url": "https://www.nature.com/articles/s41586-023-06924-6",
+    "aliases": [
+      "FR-paper-funsearch"
+    ]
+  },
+  {
+    "id": "FR-repo-ai-scientist",
+    "title": "The AI Scientist official repository",
+    "url": "https://github.com/SakanaAI/AI-Scientist",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "research",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开官方项目页面；不根据仓库存在推断所有论文实验可复现。",
+    "canonical_url": "https://github.com/SakanaAI/AI-Scientist",
+    "aliases": [
+      "FR-repo-ai-scientist"
+    ]
+  },
+  {
+    "id": "FR-repo-alphafold3",
+    "title": "AlphaFold 3 official inference repository",
+    "url": "https://github.com/google-deepmind/alphafold3",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "domain"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开 README 并定位用途说明；核查理论预测与非临床用途边界；不混淆代码和参数授权。",
+    "canonical_url": "https://github.com/google-deepmind/alphafold3",
+    "aliases": [
+      "FR-repo-alphafold3"
+    ]
+  },
+  {
+    "id": "FR-repo-funsearch",
+    "title": "FunSearch official repository",
+    "url": "https://github.com/google-deepmind/funsearch",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "ai4science",
+      "research",
+      "code"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开 README；核查程序构造、评价示例以及未含完整模型与运行基础设施的说明。",
+    "canonical_url": "https://github.com/google-deepmind/funsearch",
+    "aliases": [
+      "FR-repo-funsearch"
+    ]
+  },
+  {
+    "id": "FR-repo-qwen3-coder",
+    "title": "Qwen3-Coder official repository",
+    "url": "https://github.com/QwenLM/Qwen3-Coder",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "code",
+      "agents"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开当前 README；核查工具解析器、tokenizer 和模板注意事项；动态页面，未知首发日记 null。",
+    "canonical_url": "https://github.com/QwenLM/Qwen3-Coder",
+    "aliases": [
+      "FR-repo-qwen3-coder"
+    ]
+  },
+  {
+    "id": "FR-repo-r1",
+    "title": "DeepSeek-R1 official repository",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "reasoning",
+      "post-training"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开并定位 cold-start 与 model summary；核查 R1-Zero、R1 及蒸馏说明。",
+    "canonical_url": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "aliases": [
+      "FR-repo-r1"
+    ]
+  },
+  {
+    "id": "FR-repo-swebench",
+    "title": "SWE-bench official repository",
+    "url": "https://github.com/SWE-bench/SWE-bench",
+    "source_type": "official_repo",
+    "published": null,
+    "topics": [
+      "code",
+      "agents",
+      "evaluation"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已打开 README 并核查 full、Lite、Verified 集合和容器评测说明；动态页面。",
+    "canonical_url": "https://github.com/SWE-bench/SWE-bench",
+    "aliases": [
+      "FR-repo-swebench"
+    ]
+  },
+  {
+    "id": "INT001",
+    "title": "理想+ 大模型面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/9541c5c4a7254d7296a3b34ae675e355",
+    "year": 2023,
+    "published": "2023-11-02",
+    "event_date": "2023-10-10",
+    "companies": [
+      "理想"
+    ],
+    "role": "大模型应用/算法",
+    "topics": [
+      "02",
+      "03",
+      "06",
+      "08",
+      "11",
+      "15"
+    ],
+    "summary": "以 NL2SQL 项目为主，涉及数据构造、底座选择、SFT、推理步骤、评测与上线资源。",
+    "reading_tip": "练习用一个输入输出样例走通链路，并说明指标局限。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "原文记载一面10.10、二面10.13；年份结合发帖时间。企业与结果为作者自述。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/9541c5c4a7254d7296a3b34ae675e355",
+    "aliases": [
+      "INT001"
+    ]
+  },
+  {
+    "id": "INT002",
+    "title": "2023秋招nlp算法面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/3bda1df276f846bda205394f0ee76c84",
+    "year": 2023,
+    "published": "2023-10-25",
+    "event_date": null,
+    "companies": [
+      "多家公司（未逐题归属）"
+    ],
+    "role": "NLP算法",
+    "topics": [
+      "01",
+      "03",
+      "05",
+      "09"
+    ],
+    "summary": "汇总注意力、归一化、PEFT、DeepSpeed 以及多道算法手写题。",
+    "reading_tip": "把架构解释、张量形状和可运行代码串起来；不能把全部题归给某一家企业。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/3bda1df276f846bda205394f0ee76c84",
+    "aliases": [
+      "INT002"
+    ]
+  },
+  {
+    "id": "INT003",
+    "title": "金山nlp算法",
+    "url": "https://www.nowcoder.com/feed/main/detail/eacf3c402e8c4d029e8551cb6fec747a",
+    "year": 2023,
+    "published": "2023-10-12",
+    "event_date": "2023-09-26",
+    "companies": [
+      "金山办公"
+    ],
+    "role": "NLP算法",
+    "topics": [
+      "01",
+      "02",
+      "04",
+      "09"
+    ],
+    "summary": "两轮涉及 mask、位置编码、数据加载、极端样本不均衡和 RLHF。",
+    "reading_tip": "纠正原帖可能的术语笔误，按论文理解 mask 与归一化；复习传统 NLP。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/eacf3c402e8c4d029e8551cb6fec747a",
+    "aliases": [
+      "INT003"
+    ]
+  },
+  {
+    "id": "INT004",
+    "title": "百度2024秋招机器学习一面面经",
+    "url": "https://www.nowcoder.com/discuss/519497796483858432",
+    "year": 2023,
+    "published": "2023-08-16",
+    "event_date": null,
+    "companies": [
+      "百度"
+    ],
+    "role": "机器学习/数据挖掘/NLP-T",
+    "topics": [
+      "02",
+      "04",
+      "15"
+    ],
+    "summary": "在传统机器学习项目讨论中穿插大模型与 RLHF。",
+    "reading_tip": "标题的2024是招聘届次，不能当作面试发生年份。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/discuss/519497796483858432",
+    "aliases": [
+      "INT004"
+    ]
+  },
+  {
+    "id": "INT005",
+    "title": "百度昆仑芯-深度学习框架高性能研发实习生面经",
+    "url": "https://www.nowcoder.com/discuss/538309440781537280",
+    "year": 2023,
+    "published": "2023-10-02",
+    "event_date": null,
+    "companies": [
+      "百度昆仑芯"
+    ],
+    "role": "框架/高性能研发实习",
+    "topics": [
+      "01",
+      "08",
+      "09",
+      "10"
+    ],
+    "summary": "覆盖 Transformer、量化、TVM、容器及 C++/Python 基础。",
+    "reading_tip": "Infra 岗要补工程语言与系统知识；不能仅背模型公式。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/discuss/538309440781537280",
+    "aliases": [
+      "INT005"
+    ]
+  },
+  {
+    "id": "INT006",
+    "title": "NLP & 大模型春招记录",
+    "url": "https://www.nowcoder.com/discuss/601149086300971008",
+    "year": 2024,
+    "published": "2024-04-15",
+    "event_date": null,
+    "companies": [
+      "蔚来",
+      "金山",
+      "OPPO",
+      "三星西安研究所",
+      "摩尔线程",
+      "携程",
+      "Shopee"
+    ],
+    "role": "NLP/多模态/机器学习",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "08",
+      "09",
+      "10",
+      "12"
+    ],
+    "summary": "长篇多公司复盘，贯穿架构、LoRA/QLoRA、训练显存、ZeRO、长上下文及手写注意力。",
+    "reading_tip": "按公司和轮次回原帖阅读；页面显示已编辑日期，不等于初次发布。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面显示2024-04-15已编辑，面试主要在3月至4月。题目及结果为作者自述；原帖部分技术说法需要用一手文献纠正。",
+    "canonical_url": "https://www.nowcoder.com/discuss/601149086300971008",
+    "aliases": [
+      "INT006"
+    ]
+  },
+  {
+    "id": "INT007",
+    "title": "上海人工智能实验室大模型算法实习面经",
+    "url": "https://www.nowcoder.com/discuss/601548478774304768?sourceSSR=subject",
+    "year": 2024,
+    "published": "2024-03-24",
+    "event_date": null,
+    "companies": [
+      "上海人工智能实验室"
+    ],
+    "role": "大模型算法实习/预训练",
+    "topics": [
+      "02",
+      "03",
+      "04",
+      "13"
+    ],
+    "summary": "细问 RLHF 目标、KL、PPO 比率、奖励模型、数据质量和安全过滤。",
+    "reading_tip": "重点练公式中每个分布的角色以及数据过滤的精确率/召回率权衡。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "搜索结果提供较完整正文；直接打开页面只返回导航，未据此宣称全文访问。",
+    "canonical_url": "https://www.nowcoder.com/discuss/601548478774304768",
+    "aliases": [
+      "INT007"
+    ]
+  },
+  {
+    "id": "INT008",
+    "title": "大模型基础架构岗面经（二）",
+    "url": "https://www.nowcoder.com/discuss/656279057671155712",
+    "year": 2024,
+    "published": "2024-08-22",
+    "event_date": null,
+    "companies": [
+      "未明确"
+    ],
+    "role": "大模型基础架构",
+    "topics": [
+      "02",
+      "05",
+      "08",
+      "09"
+    ],
+    "summary": "涉及并行策略、显存优化、Scaling Law、ZeRO 和长文本训练。",
+    "reading_tip": "以硬件、通信和序列长度为约束解释策略选择，避免只列并行缩写。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "检索摘要含正文；打开受限。企业名称未明确，不推测。",
+    "canonical_url": "https://www.nowcoder.com/discuss/656279057671155712",
+    "aliases": [
+      "INT008"
+    ]
+  },
+  {
+    "id": "INT009",
+    "title": "阿里斑马智行 - NLP算法工程师面经",
+    "url": "https://www.nowcoder.com/discuss/677124510016962560",
+    "year": 2024,
+    "published": null,
+    "event_date": "2024-10-11",
+    "companies": [
+      "斑马智行"
+    ],
+    "role": "NLP算法",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "06",
+      "13"
+    ],
+    "summary": "两轮涉及 SFT、DPO/PPO、长文本与 RAG、收敛判断、过拟合及 PyTorch。",
+    "reading_tip": "用验证集与测试集职责解释实验设计；面试日期取正文而非评论。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "搜索结果可见一面2024-10-11、二面2024-10-17；页面直接访问受限，发布日期不确定。",
+    "canonical_url": "https://www.nowcoder.com/discuss/677124510016962560",
+    "aliases": [
+      "INT009"
+    ]
+  },
+  {
+    "id": "INT010",
+    "title": "字节 大模型算法 一二三面 面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/ef14567a048e4e3fa30cbe28eb5c59e3",
+    "year": 2024,
+    "published": "2024-08-20",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "大模型算法",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "15"
+    ],
+    "summary": "多轮算法岗位记录，包含端到端大模型与多个小模型的方案比较。",
+    "reading_tip": "训练之外还要准备延迟、维护、数据量和误差传播等取舍。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/ef14567a048e4e3fa30cbe28eb5c59e3",
+    "aliases": [
+      "INT010"
+    ]
+  },
+  {
+    "id": "INT011",
+    "title": "美团到店-大模型算法面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/e63b60a0727f4117a3c8ed9381719d66",
+    "year": 2024,
+    "published": "2024-08-30",
+    "event_date": null,
+    "companies": [
+      "美团到店"
+    ],
+    "role": "大模型算法/安全",
+    "topics": [
+      "04",
+      "13"
+    ],
+    "summary": "涉及对大模型安全范围的理解。",
+    "reading_tip": "把输入、模型、工具和数据权限的安全分层展开，答案不要停留在敏感词。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/e63b60a0727f4117a3c8ed9381719d66",
+    "aliases": [
+      "INT011"
+    ]
+  },
+  {
+    "id": "INT012",
+    "title": "大模型实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/1f93defebd7e4d4c93aaaa2eafcfd5ff",
+    "year": 2024,
+    "published": "2024-06-19",
+    "event_date": null,
+    "companies": [
+      "未明确"
+    ],
+    "role": "大模型实习",
+    "topics": [
+      "02",
+      "03",
+      "06",
+      "15"
+    ],
+    "summary": "出现以一万份 PDF 构建垂直领域模型的开放场景题。",
+    "reading_tip": "先判断知识更新和行为适配需求，再选 RAG、继续预训练或 SFT。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/1f93defebd7e4d4c93aaaa2eafcfd5ff",
+    "aliases": [
+      "INT012"
+    ]
+  },
+  {
+    "id": "INT013",
+    "title": "达摩院 暑期实习 决策智能实验室 大模型算法",
+    "url": "https://www.nowcoder.com/discuss/611678861075521536?sourceSSR=subject",
+    "year": 2024,
+    "published": "2024-04-21",
+    "event_date": "2024-03-20",
+    "companies": [
+      "阿里达摩院"
+    ],
+    "role": "决策智能/大模型算法",
+    "topics": [
+      "02",
+      "04",
+      "11",
+      "13",
+      "15"
+    ],
+    "summary": "围绕数学教育场景、RLHF、CoT、幻觉、论文贡献及 NumPy 操作追问。",
+    "reading_tip": "将研究兴趣落成可检验的任务、基线、数据与评价方法。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/discuss/611678861075521536",
+    "aliases": [
+      "INT013"
+    ]
+  },
+  {
+    "id": "INT014",
+    "title": "滴滴大模型一面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/de165d62324c4e3493e45b421e0e2a79",
+    "year": 2024,
+    "published": "2024-08-15",
+    "event_date": "2024-08-13",
+    "companies": [
+      "滴滴"
+    ],
+    "role": "大模型算法",
+    "topics": [
+      "01",
+      "04",
+      "11",
+      "13"
+    ],
+    "summary": "考查奖励模型、DPO 长度变化、指令跟随/数学评测、学习率与手写注意力。",
+    "reading_tip": "区分不同 benchmark 的任务定义；不要把原帖提问中的隐含前提当成事实。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/de165d62324c4e3493e45b421e0e2a79",
+    "aliases": [
+      "INT014"
+    ]
+  },
+  {
+    "id": "INT015",
+    "title": "网易有道 多模态实习（20250120）",
+    "url": "https://www.nowcoder.com/feed/main/detail/47856df8818c4ac59c47a8299bc98e7b",
+    "year": 2025,
+    "published": "2025-02-21",
+    "event_date": "2025-01-20",
+    "companies": [
+      "网易有道"
+    ],
+    "role": "OCR/多模态实习",
+    "topics": [
+      "01",
+      "06",
+      "12"
+    ],
+    "summary": "考查 embedding 与 reranker、BLIP、视觉文本融合以及多头注意力。",
+    "reading_tip": "讲清训练目标、连接模块、模态 token 形状和任务差异。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/47856df8818c4ac59c47a8299bc98e7b",
+    "aliases": [
+      "INT015"
+    ]
+  },
+  {
+    "id": "INT016",
+    "title": "阿里云 AI平台研发 一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/7fa8ae2f1c2e42909e664dce6cbc8190",
+    "year": 2025,
+    "published": "2025-03-04",
+    "event_date": null,
+    "companies": [
+      "阿里云"
+    ],
+    "role": "AI平台研发",
+    "topics": [
+      "01",
+      "06",
+      "07",
+      "13",
+      "15"
+    ],
+    "summary": "从 RAG 项目延伸到多路召回、MRR、双塔、ES 以及后端系统。",
+    "reading_tip": "应用岗位要能解释业务人群、数据规模和系统选型，不能只讲框架。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/7fa8ae2f1c2e42909e664dce6cbc8190",
+    "aliases": [
+      "INT016"
+    ]
+  },
+  {
+    "id": "INT017",
+    "title": "字节 腾讯 小红书 一面面经 + 字节二面 + 字节hr面",
+    "url": "https://www.nowcoder.com/discuss/725486180468383744?sourceSSR=dynamic",
+    "year": 2025,
+    "published": "2025-03-05",
+    "event_date": null,
+    "companies": [
+      "字节跳动",
+      "腾讯",
+      "小红书"
+    ],
+    "role": "算法/多模态实习",
+    "topics": [
+      "01",
+      "04",
+      "12",
+      "13"
+    ],
+    "summary": "较长项目深挖，穿插 LLaVA、BLIP2/Q-Former、DPO/PPO 与图像质量分析场景。",
+    "reading_tip": "准备论文贡献和无额外人工标注条件下的实验设计。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/discuss/725486180468383744",
+    "aliases": [
+      "INT017"
+    ]
+  },
+  {
+    "id": "INT018",
+    "title": "整理下近期的大模型日常实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/44b2baec47c740c4b9bccb8a013abd56",
+    "year": 2025,
+    "published": "2025-05-07",
+    "event_date": null,
+    "companies": [
+      "字节跳动",
+      "百度",
+      "快手"
+    ],
+    "role": "大模型/多模态日常实习",
+    "topics": [
+      "01",
+      "05",
+      "06",
+      "07",
+      "12"
+    ],
+    "summary": "跨公司记录涉及 MoE、RAG、工具调用、CLIP/BLIP 和视频应用场景。",
+    "reading_tip": "把对比学习、视觉编码器与多模态连接方式串联复习。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/44b2baec47c740c4b9bccb8a013abd56",
+    "aliases": [
+      "INT018"
+    ]
+  },
+  {
+    "id": "INT019",
+    "title": "已拒offer:美团北斗大模型面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/9a16bab549424dc98a11cf6b7c5bbe2a",
+    "year": 2025,
+    "published": "2025-06-06",
+    "event_date": null,
+    "companies": [
+      "美团"
+    ],
+    "role": "大模型/多模态/研究",
+    "topics": [
+      "03",
+      "12",
+      "13",
+      "15"
+    ],
+    "summary": "论文和实习深挖，涉及多模态对抗研究、soft prompt、多目标训练和创新点。",
+    "reading_tip": "研究面重点准备贡献归因、基线和失败分析；原帖含辅导推广，结果不独立核实。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/9a16bab549424dc98a11cf6b7c5bbe2a",
+    "aliases": [
+      "INT019"
+    ]
+  },
+  {
+    "id": "INT020",
+    "title": "大模型应用工程师面经~ AI相关岗位内推",
+    "url": "https://www.nowcoder.com/discuss/779119510631563264?sourceSSR=subject",
+    "year": 2025,
+    "published": "2025-07-27",
+    "event_date": null,
+    "companies": [
+      "未逐题明确"
+    ],
+    "role": "大模型应用/训练工程",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "09"
+    ],
+    "summary": "汇集 R1 冷启动、MLA、精度格式、显存、遗忘、AMP 与 ZeRO 等题。",
+    "reading_tip": "原帖含内推与术语笔误，按技术主题学习，不据此认定题目归属。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/discuss/779119510631563264",
+    "aliases": [
+      "INT020"
+    ]
+  },
+  {
+    "id": "INT021",
+    "title": "大模型应用开发面经（5年经验）",
+    "url": "https://www.nowcoder.com/feed/main/detail/129eaa1c20444651ac3b932e200d3da4",
+    "year": 2025,
+    "published": "2025-07-27",
+    "event_date": null,
+    "companies": [
+      "多家公司（未逐题归属）"
+    ],
+    "role": "大模型应用开发/社招",
+    "topics": [
+      "03",
+      "06",
+      "07",
+      "08",
+      "13"
+    ],
+    "summary": "面向社招应用岗，涵盖 Agent 框架、MCP、RAG、推理参数和项目效果。",
+    "reading_tip": "把作者个人招聘体验与可验证技术结论分开；优先练项目效果闭环。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/129eaa1c20444651ac3b932e200d3da4",
+    "aliases": [
+      "INT021"
+    ]
+  },
+  {
+    "id": "INT022",
+    "title": "得物-算法平台-AI算法工程实习生 面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/ba4249c6ea534790b0d0770dc339566b",
+    "year": 2025,
+    "published": "2025-07-29",
+    "event_date": "2025-07-10",
+    "companies": [
+      "得物"
+    ],
+    "role": "AI算法工程/部署优化",
+    "topics": [
+      "08",
+      "09",
+      "10",
+      "12"
+    ],
+    "summary": "问推理优化、端侧部署、CUDA、多卡经验和商品理解相关项目。",
+    "reading_tip": "如实区分做过、用过和仅了解的内容，工程面可据实谈排障。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/ba4249c6ea534790b0d0770dc339566b",
+    "aliases": [
+      "INT022"
+    ]
+  },
+  {
+    "id": "INT023",
+    "title": "Shopee多模态大模型实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/a7bc823430d646cd876d46035eb0caa0",
+    "year": 2025,
+    "published": "2025-10-19",
+    "event_date": null,
+    "companies": [
+      "Shopee"
+    ],
+    "role": "多模态大模型实习",
+    "topics": [
+      "01",
+      "03",
+      "12"
+    ],
+    "summary": "项目与论文为主，穿插归一化、残差连接、LoRA 位置和初始化。",
+    "reading_tip": "准备初始化为何保持初始模型行为、哪些层值得注入适配器。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/a7bc823430d646cd876d46035eb0caa0",
+    "aliases": [
+      "INT023"
+    ]
+  },
+  {
+    "id": "INT024",
+    "title": "字节筋斗云计划面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/5cdc00cc16ff4b16aac7d69b37db6b8d",
+    "year": 2025,
+    "published": "2025-10-26",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "算法/研究项目",
+    "topics": [
+      "02",
+      "04",
+      "12"
+    ],
+    "summary": "围绕 GRPO、视觉 grounding、数据飞轮和概率动态规划。",
+    "reading_tip": "原帖带有“某算法不能用于某场景”的提问前提；作答应分析假设而非直接接受。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/5cdc00cc16ff4b16aac7d69b37db6b8d",
+    "aliases": [
+      "INT024"
+    ]
+  },
+  {
+    "id": "INT025",
+    "title": "26届秋招｜字节大模型算法岗面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/029a292419294b4a8227acde5a00124b",
+    "year": 2025,
+    "published": "2025-11-01",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "大模型算法/秋招",
+    "topics": [
+      "01",
+      "02",
+      "04",
+      "07",
+      "11"
+    ],
+    "summary": "多轮涉及训练数据管线、GRPO、R1 奖励、Agent 和手写 MHA。",
+    "reading_tip": "26届是毕业届次；实际页面日期是2025年。原帖含辅导推广。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/029a292419294b4a8227acde5a00124b",
+    "aliases": [
+      "INT025"
+    ]
+  },
+  {
+    "id": "INT026",
+    "title": "字节 260901 一面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/fa50ef5521f84cb788f911cd31e5a98a",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-09-01",
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "AI大模型开发平台/后端",
+    "topics": [
+      "06",
+      "07",
+      "13",
+      "14"
+    ],
+    "summary": "围绕 Agent 回归评测、RAG 切分、线上反馈、长程轨迹和框架选型。",
+    "reading_tip": "原帖标题为260901，当前页面10-04已编辑；二次汇编曾标成10月面试，应保留冲突。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "面试日期由标题解析；页面仅显示10-04已编辑、未显年份；年份由标题260901确定。未用推荐区转载日期替代。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/fa50ef5521f84cb788f911cd31e5a98a",
+    "aliases": [
+      "INT026"
+    ]
+  },
+  {
+    "id": "INT027",
+    "title": "面经复盘（2026.5.7）",
+    "url": "https://www.nowcoder.com/feed/main/detail/124b6e9db981458e839e1771d9b4da04",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-05-07",
+    "companies": [
+      "北京星龙数智科技"
+    ],
+    "role": "后端/大模型应用实习",
+    "topics": [
+      "06",
+      "07",
+      "15"
+    ],
+    "summary": "以 Java 工程基础为主，另有 RAG 文档处理、低质量与低召回排查。",
+    "reading_tip": "适合后端转应用岗，说明基础系统能力仍然影响面试。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "正文明确面试时间2026-05-07；页面显示09-21发帖，年份未单列，不填写精确发布日期。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/124b6e9db981458e839e1771d9b4da04",
+    "aliases": [
+      "INT027"
+    ]
+  },
+  {
+    "id": "INT028",
+    "title": "27实习快手NLP算法面经分享",
+    "url": "https://www.nowcoder.com/feed/main/detail/dcad6dc4e9fb4acfa1a11b1dae95b6cc",
+    "year": 2026,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "快手"
+    ],
+    "role": "NLP算法实习",
+    "topics": [
+      "02",
+      "03",
+      "04",
+      "12",
+      "13"
+    ],
+    "summary": "考查基座模型选择、全参与 LoRA、数据多样性、复读幻觉以及何时进入 RL。",
+    "reading_tip": "适合练数据诊断和阶段切换标准；不要把汇编的日期直接当面试日期。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "原页面仅显示04-28，按27届实习语境推断归入2026；未确认精确面试日。二次汇编标05-07，与原页显示不同。",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/dcad6dc4e9fb4acfa1a11b1dae95b6cc",
+    "aliases": [
+      "INT028"
+    ]
+  },
+  {
+    "id": "INT029",
+    "title": "秋招实录｜连面3场AI-Agent后端岗",
+    "url": "https://www.nowcoder.com/discuss/919608103723622400?sourceSSR=post",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-08",
+    "companies": [
+      "网易（可见片段）",
+      "其他企业待原文核实"
+    ],
+    "role": "AI Agent后端/校招",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "summary": "可见片段涉及框架选型、工具输出校验、向量库分片和召回速度。",
+    "reading_tip": "搜索可见范围仅详细展开网易场次；不补写其余两场企业与题目。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "正文片段明确2026-08与27届背景；直接打开只返回导航。页面08-19未单列年份，发布日期留空。",
+    "canonical_url": "https://www.nowcoder.com/discuss/919608103723622400",
+    "aliases": [
+      "INT029"
+    ]
+  },
+  {
+    "id": "INT030",
+    "title": "后端/全栈面经一次性放出",
+    "url": "https://www.nowcoder.com/discuss/932058602422956032?sourceSSR=post",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-07至2026-09",
+    "companies": [
+      "字节跳动",
+      "哔哩哔哩",
+      "美团",
+      "百度",
+      "其他公司"
+    ],
+    "role": "后端/Agent/AI Coding",
+    "topics": [
+      "06",
+      "07",
+      "13",
+      "14",
+      "15"
+    ],
+    "summary": "多公司自述覆盖 Agent 合法输出、跨模型工作流、AI Coding、RAG 及大量工程基础。",
+    "reading_tip": "面向工程岗应练习架构和边界；大模型相关问题仅占原帖部分。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "正文多处明确2026年面试；当前页面09-24已编辑，发布日期未单列年份。",
+    "canonical_url": "https://www.nowcoder.com/discuss/932058602422956032",
+    "aliases": [
+      "INT030"
+    ]
+  },
+  {
+    "id": "RES001",
+    "title": "llm_interview_note",
+    "url": "https://github.com/wdndev/llm_interview_note",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "中文算法与应用知识笔记；适合作为漏项清单，不将汇编题目视为已验证企业真题。",
+    "canonical_url": "https://github.com/wdndev/llm_interview_note",
+    "aliases": [
+      "RES001"
+    ]
+  },
+  {
+    "id": "RES002",
+    "title": "LLMForEverybody",
+    "url": "https://github.com/luhengshiwo/LLMForEverybody",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "从预训练到推理、量化、Agent和数学的中文学习入口；含商业课程推广。",
+    "canonical_url": "https://github.com/luhengshiwo/LLMForEverybody",
+    "aliases": [
+      "RES002"
+    ]
+  },
+  {
+    "id": "RES003",
+    "title": "Awesome-LLM-Interview",
+    "url": "https://github.com/laoshan-song/Awesome-LLM-Interview",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "包含基础、系统和前沿主题的面试准备仓库；与本仓库互补阅读。",
+    "canonical_url": "https://github.com/laoshan-song/Awesome-LLM-Interview",
+    "aliases": [
+      "RES003"
+    ]
+  },
+  {
+    "id": "RES004",
+    "title": "AIGC-Interview-Book",
+    "url": "https://github.com/WeThinkIn/AIGC-Interview-Book",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "较宽领域的中文面试与学习汇编；需区分模拟解析、转载与作者亲历。",
+    "canonical_url": "https://github.com/WeThinkIn/AIGC-Interview-Book",
+    "aliases": [
+      "RES004"
+    ]
+  },
+  {
+    "id": "RES005",
+    "title": "LLM Interview Questions and Answers Hub",
+    "url": "https://github.com/KalyanKS-NLP/LLM-Interview-Questions-and-Answers-Hub",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "英语问答资源，适合双语表达和术语检查；不逐题核实公司归属。",
+    "canonical_url": "https://github.com/KalyanKS-NLP/LLM-Interview-Questions-and-Answers-Hub",
+    "aliases": [
+      "RES005"
+    ]
+  },
+  {
+    "id": "RES006",
+    "title": "LLMInterviewQuestions",
+    "url": "https://github.com/llmgenai/LLMInterviewQuestions",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "英语问题集合；仓库描述中的公司标签不等于本项目独立验证。",
+    "canonical_url": "https://github.com/llmgenai/LLMInterviewQuestions",
+    "aliases": [
+      "RES006"
+    ]
+  },
+  {
+    "id": "RES007",
+    "title": "面试面经｜大模型面试八股含答案",
+    "url": "https://www.cvmart.net/community/detail/7940",
+    "source_type": "interview_collection",
+    "published": "2023-08-17",
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "2023年早期中文汇编，可观察考点演进；部分答案过时或不严谨，应用一手资料纠正。",
+    "canonical_url": "https://www.cvmart.net/community/detail/7940",
+    "aliases": [
+      "RES007"
+    ]
+  },
+  {
+    "id": "RES008",
+    "title": "字节校招面试官划重点",
+    "url": "https://www.nowcoder.com/discuss/534332638086148096",
+    "source_type": "preparation_resource",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "2023年企业招聘账号给出的面试建议入口，强调对SFT/RLHF等技术的深入理解。",
+    "canonical_url": "https://www.nowcoder.com/discuss/534332638086148096",
+    "aliases": [
+      "RES008"
+    ]
+  },
+  {
+    "id": "RES009",
+    "title": "27届秋招大模型岗面经",
+    "url": "https://onlyar.site/2026/08/11/NLP-Interview-Knowkedge/",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "2026年个人博客检索线索；当前全文抓取超时，仅将其作为待补充阅读入口。",
+    "canonical_url": "https://onlyar.site/2026/08/11/NLP-Interview-Knowkedge",
+    "aliases": [
+      "RES009"
+    ]
+  },
+  {
+    "id": "RES010",
+    "title": "Tech Interview Handbook",
+    "url": "https://github.com/yangshun/tech-interview-handbook",
+    "source_type": "preparation_resource",
+    "published": null,
+    "topics": [],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "通用编码与行为面试准备，弥补只刷大模型概念而忽视编码的短板。",
+    "canonical_url": "https://github.com/yangshun/tech-interview-handbook",
+    "aliases": [
+      "RES010"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-1502-03167",
+    "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+    "url": "https://arxiv.org/abs/1502.03167",
+    "source_type": "paper",
+    "published": "2015-02-11",
+    "note": "批归一化对照。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/1502.03167",
+    "aliases": [
+      "foundations-arxiv-1502-03167"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-1506-02438",
+    "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation",
+    "url": "https://arxiv.org/abs/1506.02438",
+    "source_type": "paper",
+    "published": "2015-06-08",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "GAE 原始论文；日期按 arXiv 首次提交。",
+    "canonical_url": "https://arxiv.org/abs/1506.02438",
+    "aliases": [
+      "foundations-arxiv-1506-02438"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-1706-03762",
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "source_type": "paper",
+    "published": "2017-06-12",
+    "note": "Transformer 基础起点。",
+    "topics": [
+      "transformer-and-math",
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/1706.03762",
+    "aliases": [
+      "foundations-arxiv-1706-03762"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-1707-06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "source_type": "paper",
+    "published": "2017-07-20",
+    "note": "策略比率与裁剪目标。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/1707.06347",
+    "aliases": [
+      "foundations-arxiv-1707-06347"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-1910-07467",
+    "title": "Root Mean Square Layer Normalization",
+    "url": "https://arxiv.org/abs/1910.07467",
+    "source_type": "paper",
+    "published": "2019-10-16",
+    "note": "RMSNorm 定义。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/1910.07467",
+    "aliases": [
+      "foundations-arxiv-1910-07467"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-1911-02150",
+    "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+    "url": "https://arxiv.org/abs/1911.02150",
+    "source_type": "paper",
+    "published": "2019-11-06",
+    "note": "MQA 与解码带宽。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/1911.02150",
+    "aliases": [
+      "foundations-arxiv-1911-02150"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2001-08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "url": "https://arxiv.org/abs/2001.08361",
+    "source_type": "paper",
+    "published": "2020-01-23",
+    "note": "经验缩放背景。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2001.08361",
+    "aliases": [
+      "foundations-arxiv-2001-08361"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2002-04745",
+    "title": "On Layer Normalization in the Transformer Architecture",
+    "url": "https://arxiv.org/abs/2002.04745",
+    "source_type": "paper",
+    "published": "2020-02-12",
+    "note": "Pre-LN/Post-LN 梯度分析。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2002.04745",
+    "aliases": [
+      "foundations-arxiv-2002-04745"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2002-05202",
+    "title": "GLU Variants Improve Transformer",
+    "url": "https://arxiv.org/abs/2002.05202",
+    "source_type": "paper",
+    "published": "2020-02-12",
+    "note": "门控 FFN。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2002.05202",
+    "aliases": [
+      "foundations-arxiv-2002-05202"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2004-10964",
+    "title": "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks",
+    "url": "https://arxiv.org/abs/2004.10964",
+    "source_type": "paper",
+    "published": "2020-04-23",
+    "note": "领域持续预训练。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2004.10964",
+    "aliases": [
+      "foundations-arxiv-2004-10964"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2101-00190",
+    "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+    "url": "https://arxiv.org/abs/2101.00190",
+    "source_type": "paper",
+    "published": "2021-01-01",
+    "note": "连续前缀适应。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2101.00190",
+    "aliases": [
+      "foundations-arxiv-2101-00190"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2101-03961",
+    "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+    "url": "https://arxiv.org/abs/2101.03961",
+    "source_type": "paper",
+    "published": "2021-01-11",
+    "note": "稀疏路由与负载。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2101.03961",
+    "aliases": [
+      "foundations-arxiv-2101-03961"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2104-08691",
+    "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+    "url": "https://arxiv.org/abs/2104.08691",
+    "source_type": "paper",
+    "published": "2021-04-18",
+    "note": "软提示适应。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2104.08691",
+    "aliases": [
+      "foundations-arxiv-2104-08691"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2104-09864",
+    "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+    "url": "https://arxiv.org/abs/2104.09864",
+    "source_type": "paper",
+    "published": "2021-04-20",
+    "note": "RoPE 位置编码。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2104.09864",
+    "aliases": [
+      "foundations-arxiv-2104-09864"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2106-09685",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "source_type": "paper",
+    "published": "2021-06-17",
+    "note": "低秩增量与冻结主干。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2106.09685",
+    "aliases": [
+      "foundations-arxiv-2106-09685"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2107-06499",
+    "title": "Deduplicating Training Data Makes Language Models Better",
+    "url": "https://arxiv.org/abs/2107.06499",
+    "source_type": "paper",
+    "published": "2021-07-14",
+    "note": "重复、记忆与污染。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2107.06499",
+    "aliases": [
+      "foundations-arxiv-2107-06499"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2203-02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "source_type": "paper",
+    "published": "2022-03-04",
+    "note": "SFT、奖励与 RLHF。",
+    "topics": [
+      "transformer-and-math",
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2203.02155",
+    "aliases": [
+      "foundations-arxiv-2203-02155"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2203-15556",
+    "title": "Training Compute-Optimal Large Language Models",
+    "url": "https://arxiv.org/abs/2203.15556",
+    "source_type": "paper",
+    "published": "2022-03-29",
+    "note": "训练预算分配；经验比例不可当普遍定律。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2203.15556",
+    "aliases": [
+      "foundations-arxiv-2203-15556"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2210-11416",
+    "title": "Scaling Instruction-Finetuned Language Models",
+    "url": "https://arxiv.org/abs/2210.11416",
+    "source_type": "paper",
+    "published": "2022-10-20",
+    "note": "任务多样性与指令训练。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2210.11416",
+    "aliases": [
+      "foundations-arxiv-2210-11416"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2212-08073",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "url": "https://arxiv.org/abs/2212.08073",
+    "source_type": "paper",
+    "published": "2022-12-15",
+    "note": "原则引导与 AI 反馈。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2212.08073",
+    "aliases": [
+      "foundations-arxiv-2212-08073"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2212-10560",
+    "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+    "url": "https://arxiv.org/abs/2212.10560",
+    "source_type": "paper",
+    "published": "2022-12-20",
+    "note": "合成指令与过滤。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2212.10560",
+    "aliases": [
+      "foundations-arxiv-2212-10560"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2305-11206",
+    "title": "LIMA: Less Is More for Alignment",
+    "url": "https://arxiv.org/abs/2305.11206",
+    "source_type": "paper",
+    "published": "2023-05-18",
+    "note": "精挑 SFT 数据；结论限原设定。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2305.11206",
+    "aliases": [
+      "foundations-arxiv-2305-11206"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2305-16264",
+    "title": "Scaling Data-Constrained Language Models",
+    "url": "https://arxiv.org/abs/2305.16264",
+    "source_type": "paper",
+    "published": "2023-05-25",
+    "note": "数据受限与重复训练。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2305.16264",
+    "aliases": [
+      "foundations-arxiv-2305-16264"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2305-17493",
+    "title": "The Curse of Recursion: Training on Generated Data Makes Models Forget",
+    "url": "https://arxiv.org/abs/2305.17493",
+    "source_type": "paper",
+    "published": "2023-05-27",
+    "note": "递归合成数据风险；不推断一切合成数据有害。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2305.17493",
+    "aliases": [
+      "foundations-arxiv-2305-17493"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2305-18290",
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "url": "https://arxiv.org/abs/2305.18290",
+    "source_type": "paper",
+    "published": "2023-05-29",
+    "note": "KL 正则目标与成对偏好推导；另打开 v3 HTML 核对。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2305.18290",
+    "aliases": [
+      "foundations-arxiv-2305-18290"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2305-20050",
+    "title": "Let's Verify Step by Step",
+    "url": "https://arxiv.org/abs/2305.20050",
+    "source_type": "paper",
+    "published": "2023-05-31",
+    "note": "过程监督与结果监督。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2305.20050",
+    "aliases": [
+      "foundations-arxiv-2305-20050",
+      "FR-2305.20050"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2306-11644",
+    "title": "Textbooks Are All You Need",
+    "url": "https://arxiv.org/abs/2306.11644",
+    "source_type": "paper",
+    "published": "2023-06-20",
+    "note": "教育性与合成代码数据。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2306.11644",
+    "aliases": [
+      "foundations-arxiv-2306-11644"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2306-15595",
+    "title": "Extending Context Window of Large Language Models via Positional Interpolation",
+    "url": "https://arxiv.org/abs/2306.15595",
+    "source_type": "paper",
+    "published": "2023-06-27",
+    "note": "位置插值。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2306.15595",
+    "aliases": [
+      "foundations-arxiv-2306-15595"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2307-09288",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "url": "https://arxiv.org/abs/2307.09288",
+    "source_type": "paper",
+    "published": "2023-07-18",
+    "note": "解码与后训练公开实例。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2307.09288",
+    "aliases": [
+      "foundations-arxiv-2307-09288"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2309-00071",
+    "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+    "url": "https://arxiv.org/abs/2309.00071",
+    "source_type": "paper",
+    "published": "2023-08-31",
+    "note": "初次提交为 2023-08-31；页面有 2026-02-06 v3 修订，不记为新论文。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2309.00071",
+    "aliases": [
+      "foundations-arxiv-2309-00071"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2310-01889",
+    "title": "Ring Attention with Blockwise Transformers for Near-Infinite Context",
+    "url": "https://arxiv.org/abs/2310.01889",
+    "source_type": "paper",
+    "published": "2023-10-03",
+    "note": "序列分布式注意力。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2310.01889",
+    "aliases": [
+      "foundations-arxiv-2310-01889"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2310-06825",
+    "title": "Mistral 7B",
+    "url": "https://arxiv.org/abs/2310.06825",
+    "source_type": "paper",
+    "published": "2023-10-10",
+    "note": "滑窗和 GQA 实例。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2310.06825",
+    "aliases": [
+      "foundations-arxiv-2310-06825"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2312-00752",
+    "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "url": "https://arxiv.org/abs/2312.00752",
+    "source_type": "paper",
+    "published": "2023-12-01",
+    "note": "选择性状态空间。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2312.00752",
+    "aliases": [
+      "foundations-arxiv-2312-00752"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2401-04088",
+    "title": "Mixtral of Experts",
+    "url": "https://arxiv.org/abs/2401.04088",
+    "source_type": "paper",
+    "published": "2024-01-08",
+    "note": "稀疏专家实例。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2401.04088",
+    "aliases": [
+      "foundations-arxiv-2401-04088"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2401-06066",
+    "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+    "url": "https://arxiv.org/abs/2401.06066",
+    "source_type": "paper",
+    "published": "2024-01-11",
+    "note": "细粒度与共享专家。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2401.06066",
+    "aliases": [
+      "foundations-arxiv-2401-06066"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2402-00159",
+    "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
+    "url": "https://arxiv.org/abs/2402.00159",
+    "source_type": "paper",
+    "published": "2024-01-31",
+    "note": "开放多源预训练语料。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2402.00159",
+    "aliases": [
+      "foundations-arxiv-2402-00159"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2402-00838",
+    "title": "OLMo: Accelerating the Science of Language Models",
+    "url": "https://arxiv.org/abs/2402.00838",
+    "source_type": "paper",
+    "published": "2024-02-01",
+    "note": "训练数据、代码及复现资产。",
+    "topics": [
+      "pretraining-and-data",
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2402.00838",
+    "aliases": [
+      "foundations-arxiv-2402-00838"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2402-03300",
+    "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "url": "https://arxiv.org/abs/2402.03300",
+    "source_type": "paper",
+    "published": "2024-02-05",
+    "note": "GRPO 与数学训练。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2402.03300",
+    "aliases": [
+      "foundations-arxiv-2402-03300",
+      "FR-2402.03300"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2402-09353",
+    "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+    "url": "https://arxiv.org/abs/2402.09353",
+    "source_type": "paper",
+    "published": "2024-02-14",
+    "note": "幅度与方向分解。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2402.09353",
+    "aliases": [
+      "foundations-arxiv-2402-09353"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2402-12354",
+    "title": "LoRA+: Efficient Low Rank Adaptation of Large Models",
+    "url": "https://arxiv.org/abs/2402.12354",
+    "source_type": "paper",
+    "published": "2024-02-19",
+    "note": "A/B 不同学习率。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2402.12354",
+    "aliases": [
+      "foundations-arxiv-2402-12354"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2403-07691",
+    "title": "ORPO: Monolithic Preference Optimization without Reference Model",
+    "url": "https://arxiv.org/abs/2403.07691",
+    "source_type": "paper",
+    "published": "2024-03-12",
+    "note": "不使用显式参考模型的偏好路线；仅作延伸阅读。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2403.07691",
+    "aliases": [
+      "foundations-arxiv-2403-07691"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2404-06654",
+    "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+    "url": "https://arxiv.org/abs/2404.06654",
+    "source_type": "paper",
+    "published": "2024-04-09",
+    "note": "有效长上下文评测。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2404.06654",
+    "aliases": [
+      "foundations-arxiv-2404-06654"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2405-04434",
+    "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+    "url": "https://arxiv.org/abs/2405.04434",
+    "source_type": "paper",
+    "published": "2024-05-07",
+    "note": "MLA 与 MoE；另打开 v5 HTML 核对。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2405.04434",
+    "aliases": [
+      "foundations-arxiv-2405-04434"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2405-14734",
+    "title": "SimPO: Simple Preference Optimization with a Reference-Free Reward",
+    "url": "https://arxiv.org/abs/2405.14734",
+    "source_type": "paper",
+    "published": "2024-05-23",
+    "note": "长度归一化偏好目标。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2405.14734",
+    "aliases": [
+      "foundations-arxiv-2405-14734"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2405-21060",
+    "title": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+    "url": "https://arxiv.org/abs/2405.21060",
+    "source_type": "paper",
+    "published": "2024-05-31",
+    "note": "Mamba-2 与状态空间对偶。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2405.21060",
+    "aliases": [
+      "foundations-arxiv-2405-21060"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2406-11794",
+    "title": "DataComp-LM: In search of the next generation of training sets for language models",
+    "url": "https://arxiv.org/abs/2406.11794",
+    "source_type": "paper",
+    "published": "2024-06-17",
+    "note": "受控数据实验。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2406.11794",
+    "aliases": [
+      "foundations-arxiv-2406-11794"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2406-17557",
+    "title": "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale",
+    "url": "https://arxiv.org/abs/2406.17557",
+    "source_type": "paper",
+    "published": "2024-06-25",
+    "note": "网页清洗、去重与质量过滤。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2406.17557",
+    "aliases": [
+      "foundations-arxiv-2406-17557"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2503-14476",
+    "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+    "url": "https://arxiv.org/abs/2503.14476",
+    "source_type": "paper",
+    "published": "2025-03-18",
+    "note": "大规模推理 RL；日期按 arXiv 首次提交，另打开 v2 HTML 核对。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2503.14476",
+    "aliases": [
+      "foundations-arxiv-2503-14476"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2503-20783",
+    "title": "Understanding R1-Zero-Like Training: A Critical Perspective",
+    "url": "https://arxiv.org/abs/2503.20783",
+    "source_type": "paper",
+    "published": "2025-03-26",
+    "note": "Dr. GRPO 与优化偏置；另打开 v2 HTML 核对。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2503.20783",
+    "aliases": [
+      "foundations-arxiv-2503-20783"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2504-13837",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "url": "https://arxiv.org/abs/2504.13837",
+    "source_type": "paper",
+    "published": "2025-04-18",
+    "note": "用 pass@k 研究 RLVR 能力边界，结论不超出实验范围。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2504.13837",
+    "aliases": [
+      "foundations-arxiv-2504-13837"
+    ]
+  },
+  {
+    "id": "foundations-arxiv-2505-09388",
+    "title": "Qwen3 Technical Report",
+    "url": "https://arxiv.org/abs/2505.09388",
+    "source_type": "paper",
+    "published": "2025-05-14",
+    "note": "dense/MoE、思考模式与预算。",
+    "topics": [
+      "pretraining-and-data",
+      "sft-and-peft",
+      "alignment-and-rl",
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://arxiv.org/abs/2505.09388",
+    "aliases": [
+      "foundations-arxiv-2505-09388"
+    ]
+  },
+  {
+    "id": "foundations-official-docs-01",
+    "title": "PyTorch 2.14 CrossEntropyLoss",
+    "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.CrossEntropyLoss.html",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "损失、ignore_index 与归一化；打开 stable 重定向后的版本页。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.CrossEntropyLoss.html",
+    "aliases": [
+      "foundations-official-docs-01"
+    ]
+  },
+  {
+    "id": "foundations-official-docs-02",
+    "title": "PyTorch 2.14 AdamW",
+    "url": "https://docs.pytorch.org/docs/2.14/generated/torch.optim.AdamW.html",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "解耦 weight decay；打开 stable 重定向后的版本页。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://docs.pytorch.org/docs/2.14/generated/torch.optim.AdamW.html",
+    "aliases": [
+      "foundations-official-docs-02"
+    ]
+  },
+  {
+    "id": "foundations-official-docs-03",
+    "title": "Hugging Face PEFT LoRA reference",
+    "url": "https://huggingface.co/docs/peft/main/package_reference/lora",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档，接口应按实际安装版本复核。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://huggingface.co/docs/peft/main/package_reference/lora",
+    "aliases": [
+      "foundations-official-docs-03"
+    ]
+  },
+  {
+    "id": "foundations-official-docs-04",
+    "title": "Hugging Face Tokenizers: The tokenization pipeline",
+    "url": "https://huggingface.co/docs/tokenizers/main/en/pipeline",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档，使用概念流程，不承诺固定 API。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://huggingface.co/docs/tokenizers/main/en/pipeline",
+    "aliases": [
+      "foundations-official-docs-04"
+    ]
+  },
+  {
+    "id": "foundations-official-docs-05",
+    "title": "Hugging Face Transformers: Chat templates",
+    "url": "https://huggingface.co/docs/transformers/main/chat_templating",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档，模板与特殊 token 概念。",
+    "topics": [
+      "pretraining-and-data",
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://huggingface.co/docs/transformers/main/chat_templating",
+    "aliases": [
+      "foundations-official-docs-05"
+    ]
+  },
+  {
+    "id": "foundations-official-docs-06",
+    "title": "Hugging Face TRL: GRPO Trainer",
+    "url": "https://huggingface.co/docs/trl/main/en/grpo_trainer",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档；框架默认值不能冒充原论文设定。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://huggingface.co/docs/trl/main/en/grpo_trainer",
+    "aliases": [
+      "foundations-official-docs-06"
+    ]
+  },
+  {
+    "id": "foundations-official-docs-07",
+    "title": "Hugging Face TRL: SFT Trainer",
+    "url": "https://huggingface.co/docs/trl/main/en/sft_trainer",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档；监督范围与数据格式。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "canonical_url": "https://huggingface.co/docs/trl/main/en/sft_trainer",
+    "aliases": [
+      "foundations-official-docs-07"
+    ]
+  }
+]

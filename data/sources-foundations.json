@@ -1,0 +1,872 @@
+[
+  {
+    "id": "foundations-arxiv-1502-03167",
+    "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+    "url": "https://arxiv.org/abs/1502.03167",
+    "source_type": "paper",
+    "published": "2015-02-11",
+    "note": "批归一化对照。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-1503-02531",
+    "title": "Distilling the Knowledge in a Neural Network",
+    "url": "https://arxiv.org/abs/1503.02531",
+    "source_type": "paper",
+    "published": "2015-03-09",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "软目标与温度；日期按 arXiv 首次提交，不是研讨会报告时间。"
+  },
+  {
+    "id": "foundations-arxiv-1506-02438",
+    "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation",
+    "url": "https://arxiv.org/abs/1506.02438",
+    "source_type": "paper",
+    "published": "2015-06-08",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "GAE 原始论文；日期按 arXiv 首次提交。"
+  },
+  {
+    "id": "foundations-arxiv-1706-03762",
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "source_type": "paper",
+    "published": "2017-06-12",
+    "note": "Transformer 基础起点。",
+    "topics": [
+      "transformer-and-math",
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-1707-06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "source_type": "paper",
+    "published": "2017-07-20",
+    "note": "策略比率与裁剪目标。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-1910-07467",
+    "title": "Root Mean Square Layer Normalization",
+    "url": "https://arxiv.org/abs/1910.07467",
+    "source_type": "paper",
+    "published": "2019-10-16",
+    "note": "RMSNorm 定义。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-1911-02150",
+    "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+    "url": "https://arxiv.org/abs/1911.02150",
+    "source_type": "paper",
+    "published": "2019-11-06",
+    "note": "MQA 与解码带宽。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2001-08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "url": "https://arxiv.org/abs/2001.08361",
+    "source_type": "paper",
+    "published": "2020-01-23",
+    "note": "经验缩放背景。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2002-04745",
+    "title": "On Layer Normalization in the Transformer Architecture",
+    "url": "https://arxiv.org/abs/2002.04745",
+    "source_type": "paper",
+    "published": "2020-02-12",
+    "note": "Pre-LN/Post-LN 梯度分析。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2002-05202",
+    "title": "GLU Variants Improve Transformer",
+    "url": "https://arxiv.org/abs/2002.05202",
+    "source_type": "paper",
+    "published": "2020-02-12",
+    "note": "门控 FFN。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2004-10964",
+    "title": "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks",
+    "url": "https://arxiv.org/abs/2004.10964",
+    "source_type": "paper",
+    "published": "2020-04-23",
+    "note": "领域持续预训练。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2101-00190",
+    "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+    "url": "https://arxiv.org/abs/2101.00190",
+    "source_type": "paper",
+    "published": "2021-01-01",
+    "note": "连续前缀适应。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2101-03961",
+    "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+    "url": "https://arxiv.org/abs/2101.03961",
+    "source_type": "paper",
+    "published": "2021-01-11",
+    "note": "稀疏路由与负载。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2104-08691",
+    "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+    "url": "https://arxiv.org/abs/2104.08691",
+    "source_type": "paper",
+    "published": "2021-04-18",
+    "note": "软提示适应。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2104-09864",
+    "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+    "url": "https://arxiv.org/abs/2104.09864",
+    "source_type": "paper",
+    "published": "2021-04-20",
+    "note": "RoPE 位置编码。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2106-09685",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "source_type": "paper",
+    "published": "2021-06-17",
+    "note": "低秩增量与冻结主干。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2107-06499",
+    "title": "Deduplicating Training Data Makes Language Models Better",
+    "url": "https://arxiv.org/abs/2107.06499",
+    "source_type": "paper",
+    "published": "2021-07-14",
+    "note": "重复、记忆与污染。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2203-02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "source_type": "paper",
+    "published": "2022-03-04",
+    "note": "SFT、奖励与 RLHF。",
+    "topics": [
+      "transformer-and-math",
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2203-15556",
+    "title": "Training Compute-Optimal Large Language Models",
+    "url": "https://arxiv.org/abs/2203.15556",
+    "source_type": "paper",
+    "published": "2022-03-29",
+    "note": "训练预算分配；经验比例不可当普遍定律。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2205-14135",
+    "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+    "url": "https://arxiv.org/abs/2205.14135",
+    "source_type": "paper",
+    "published": "2022-05-27",
+    "note": "分块与在线 softmax。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2210-11416",
+    "title": "Scaling Instruction-Finetuned Language Models",
+    "url": "https://arxiv.org/abs/2210.11416",
+    "source_type": "paper",
+    "published": "2022-10-20",
+    "note": "任务多样性与指令训练。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2212-08073",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "url": "https://arxiv.org/abs/2212.08073",
+    "source_type": "paper",
+    "published": "2022-12-15",
+    "note": "原则引导与 AI 反馈。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2212-10560",
+    "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+    "url": "https://arxiv.org/abs/2212.10560",
+    "source_type": "paper",
+    "published": "2022-12-20",
+    "note": "合成指令与过滤。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2305-11206",
+    "title": "LIMA: Less Is More for Alignment",
+    "url": "https://arxiv.org/abs/2305.11206",
+    "source_type": "paper",
+    "published": "2023-05-18",
+    "note": "精挑 SFT 数据；结论限原设定。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2305-13245",
+    "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+    "url": "https://arxiv.org/abs/2305.13245",
+    "source_type": "paper",
+    "published": "2023-05-22",
+    "note": "分组 KV 头。",
+    "topics": [
+      "transformer-and-math",
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2305-14314",
+    "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+    "url": "https://arxiv.org/abs/2305.14314",
+    "source_type": "paper",
+    "published": "2023-05-23",
+    "note": "NF4、量化常数与低秩微调。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2305-16264",
+    "title": "Scaling Data-Constrained Language Models",
+    "url": "https://arxiv.org/abs/2305.16264",
+    "source_type": "paper",
+    "published": "2023-05-25",
+    "note": "数据受限与重复训练。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2305-17493",
+    "title": "The Curse of Recursion: Training on Generated Data Makes Models Forget",
+    "url": "https://arxiv.org/abs/2305.17493",
+    "source_type": "paper",
+    "published": "2023-05-27",
+    "note": "递归合成数据风险；不推断一切合成数据有害。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2305-18290",
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "url": "https://arxiv.org/abs/2305.18290",
+    "source_type": "paper",
+    "published": "2023-05-29",
+    "note": "KL 正则目标与成对偏好推导；另打开 v3 HTML 核对。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2305-20050",
+    "title": "Let's Verify Step by Step",
+    "url": "https://arxiv.org/abs/2305.20050",
+    "source_type": "paper",
+    "published": "2023-05-31",
+    "note": "过程监督与结果监督。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2306-11644",
+    "title": "Textbooks Are All You Need",
+    "url": "https://arxiv.org/abs/2306.11644",
+    "source_type": "paper",
+    "published": "2023-06-20",
+    "note": "教育性与合成代码数据。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2306-15595",
+    "title": "Extending Context Window of Large Language Models via Positional Interpolation",
+    "url": "https://arxiv.org/abs/2306.15595",
+    "source_type": "paper",
+    "published": "2023-06-27",
+    "note": "位置插值。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2307-03172",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "url": "https://arxiv.org/abs/2307.03172",
+    "source_type": "paper",
+    "published": "2023-07-06",
+    "note": "证据位置与有效上下文。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2307-09288",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "url": "https://arxiv.org/abs/2307.09288",
+    "source_type": "paper",
+    "published": "2023-07-18",
+    "note": "解码与后训练公开实例。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2309-00071",
+    "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+    "url": "https://arxiv.org/abs/2309.00071",
+    "source_type": "paper",
+    "published": "2023-08-31",
+    "note": "初次提交为 2023-08-31；页面有 2026-02-06 v3 修订，不记为新论文。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2310-01889",
+    "title": "Ring Attention with Blockwise Transformers for Near-Infinite Context",
+    "url": "https://arxiv.org/abs/2310.01889",
+    "source_type": "paper",
+    "published": "2023-10-03",
+    "note": "序列分布式注意力。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2310-06825",
+    "title": "Mistral 7B",
+    "url": "https://arxiv.org/abs/2310.06825",
+    "source_type": "paper",
+    "published": "2023-10-10",
+    "note": "滑窗和 GQA 实例。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2312-00752",
+    "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "url": "https://arxiv.org/abs/2312.00752",
+    "source_type": "paper",
+    "published": "2023-12-01",
+    "note": "选择性状态空间。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2401-04088",
+    "title": "Mixtral of Experts",
+    "url": "https://arxiv.org/abs/2401.04088",
+    "source_type": "paper",
+    "published": "2024-01-08",
+    "note": "稀疏专家实例。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2401-06066",
+    "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+    "url": "https://arxiv.org/abs/2401.06066",
+    "source_type": "paper",
+    "published": "2024-01-11",
+    "note": "细粒度与共享专家。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2402-00159",
+    "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
+    "url": "https://arxiv.org/abs/2402.00159",
+    "source_type": "paper",
+    "published": "2024-01-31",
+    "note": "开放多源预训练语料。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2402-00838",
+    "title": "OLMo: Accelerating the Science of Language Models",
+    "url": "https://arxiv.org/abs/2402.00838",
+    "source_type": "paper",
+    "published": "2024-02-01",
+    "note": "训练数据、代码及复现资产。",
+    "topics": [
+      "pretraining-and-data",
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2402-03300",
+    "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "url": "https://arxiv.org/abs/2402.03300",
+    "source_type": "paper",
+    "published": "2024-02-05",
+    "note": "GRPO 与数学训练。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2402-09353",
+    "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+    "url": "https://arxiv.org/abs/2402.09353",
+    "source_type": "paper",
+    "published": "2024-02-14",
+    "note": "幅度与方向分解。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2402-12354",
+    "title": "LoRA+: Efficient Low Rank Adaptation of Large Models",
+    "url": "https://arxiv.org/abs/2402.12354",
+    "source_type": "paper",
+    "published": "2024-02-19",
+    "note": "A/B 不同学习率。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2403-07691",
+    "title": "ORPO: Monolithic Preference Optimization without Reference Model",
+    "url": "https://arxiv.org/abs/2403.07691",
+    "source_type": "paper",
+    "published": "2024-03-12",
+    "note": "不使用显式参考模型的偏好路线；仅作延伸阅读。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2404-06654",
+    "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+    "url": "https://arxiv.org/abs/2404.06654",
+    "source_type": "paper",
+    "published": "2024-04-09",
+    "note": "有效长上下文评测。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2405-04434",
+    "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+    "url": "https://arxiv.org/abs/2405.04434",
+    "source_type": "paper",
+    "published": "2024-05-07",
+    "note": "MLA 与 MoE；另打开 v5 HTML 核对。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2405-14734",
+    "title": "SimPO: Simple Preference Optimization with a Reference-Free Reward",
+    "url": "https://arxiv.org/abs/2405.14734",
+    "source_type": "paper",
+    "published": "2024-05-23",
+    "note": "长度归一化偏好目标。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2405-21060",
+    "title": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+    "url": "https://arxiv.org/abs/2405.21060",
+    "source_type": "paper",
+    "published": "2024-05-31",
+    "note": "Mamba-2 与状态空间对偶。",
+    "topics": [
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2406-11794",
+    "title": "DataComp-LM: In search of the next generation of training sets for language models",
+    "url": "https://arxiv.org/abs/2406.11794",
+    "source_type": "paper",
+    "published": "2024-06-17",
+    "note": "受控数据实验。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2406-17557",
+    "title": "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale",
+    "url": "https://arxiv.org/abs/2406.17557",
+    "source_type": "paper",
+    "published": "2024-06-25",
+    "note": "网页清洗、去重与质量过滤。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2407-21783",
+    "title": "The Llama 3 Herd of Models",
+    "url": "https://arxiv.org/abs/2407.21783",
+    "source_type": "paper",
+    "published": "2024-07-31",
+    "note": "大规模训练实例。",
+    "topics": [
+      "transformer-and-math",
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2412-19437",
+    "title": "DeepSeek-V3 Technical Report",
+    "url": "https://arxiv.org/abs/2412.19437",
+    "source_type": "paper",
+    "published": "2024-12-27",
+    "note": "MoE、低精度与系统协同；另打开 v2 HTML 核对。",
+    "topics": [
+      "transformer-and-math",
+      "pretraining-and-data",
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2501-12948",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "source_type": "paper",
+    "published": "2025-01-22",
+    "note": "初次提交为 2025-01-22；页面有 2026-01-04 v2 修订，未误记首发。",
+    "topics": [
+      "sft-and-peft",
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2503-14476",
+    "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+    "url": "https://arxiv.org/abs/2503.14476",
+    "source_type": "paper",
+    "published": "2025-03-18",
+    "note": "大规模推理 RL；日期按 arXiv 首次提交，另打开 v2 HTML 核对。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2503-20783",
+    "title": "Understanding R1-Zero-Like Training: A Critical Perspective",
+    "url": "https://arxiv.org/abs/2503.20783",
+    "source_type": "paper",
+    "published": "2025-03-26",
+    "note": "Dr. GRPO 与优化偏置；另打开 v2 HTML 核对。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2504-13837",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "url": "https://arxiv.org/abs/2504.13837",
+    "source_type": "paper",
+    "published": "2025-04-18",
+    "note": "用 pass@k 研究 RLVR 能力边界，结论不超出实验范围。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-arxiv-2505-09388",
+    "title": "Qwen3 Technical Report",
+    "url": "https://arxiv.org/abs/2505.09388",
+    "source_type": "paper",
+    "published": "2025-05-14",
+    "note": "dense/MoE、思考模式与预算。",
+    "topics": [
+      "pretraining-and-data",
+      "sft-and-peft",
+      "alignment-and-rl",
+      "architectures-moe-long-context"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-official-docs-01",
+    "title": "PyTorch 2.14 CrossEntropyLoss",
+    "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.CrossEntropyLoss.html",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "损失、ignore_index 与归一化；打开 stable 重定向后的版本页。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-official-docs-02",
+    "title": "PyTorch 2.14 AdamW",
+    "url": "https://docs.pytorch.org/docs/2.14/generated/torch.optim.AdamW.html",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "解耦 weight decay；打开 stable 重定向后的版本页。",
+    "topics": [
+      "transformer-and-math"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-official-docs-03",
+    "title": "Hugging Face PEFT LoRA reference",
+    "url": "https://huggingface.co/docs/peft/main/package_reference/lora",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档，接口应按实际安装版本复核。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-official-docs-04",
+    "title": "Hugging Face Tokenizers: The tokenization pipeline",
+    "url": "https://huggingface.co/docs/tokenizers/main/en/pipeline",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档，使用概念流程，不承诺固定 API。",
+    "topics": [
+      "pretraining-and-data"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-official-docs-05",
+    "title": "Hugging Face Transformers: Chat templates",
+    "url": "https://huggingface.co/docs/transformers/main/chat_templating",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档，模板与特殊 token 概念。",
+    "topics": [
+      "pretraining-and-data",
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-official-docs-06",
+    "title": "Hugging Face TRL: GRPO Trainer",
+    "url": "https://huggingface.co/docs/trl/main/en/grpo_trainer",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档；框架默认值不能冒充原论文设定。",
+    "topics": [
+      "alignment-and-rl"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  },
+  {
+    "id": "foundations-official-docs-07",
+    "title": "Hugging Face TRL: SFT Trainer",
+    "url": "https://huggingface.co/docs/trl/main/en/sft_trainer",
+    "source_type": "official_docs",
+    "published": null,
+    "note": "动态 main 文档；监督范围与数据格式。",
+    "topics": [
+      "sft-and-peft"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened"
+  }
+]

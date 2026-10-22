@@ -1,0 +1,2074 @@
+[
+  {
+    "id": "F01",
+    "title": "从张量形状写出一次自注意力，为什么要除以平方根？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f01",
+    "kind": "topic"
+  },
+  {
+    "id": "F02",
+    "title": "自回归训练能并行，为何生成仍需逐 token？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f02",
+    "kind": "topic"
+  },
+  {
+    "id": "F03",
+    "title": "多头注意力与一个宽头有什么区别？参数量怎样估算？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f03",
+    "kind": "topic"
+  },
+  {
+    "id": "F04",
+    "title": "完整 attention 的时间、显存复杂度应如何拆分？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f04",
+    "kind": "topic"
+  },
+  {
+    "id": "F05",
+    "title": "手推稳定 softmax，以及 FlashAttention 的分块合并公式。",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f05",
+    "kind": "topic"
+  },
+  {
+    "id": "F06",
+    "title": "LayerNorm、RMSNorm 和 BatchNorm 各沿哪个维度归一化？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f06",
+    "kind": "topic"
+  },
+  {
+    "id": "F07",
+    "title": "Pre-LN 和 Post-LN 的残差路径为何影响训练稳定性？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f07",
+    "kind": "topic"
+  },
+  {
+    "id": "F08",
+    "title": "SwiGLU 为什么有三个矩阵，隐藏宽度为什么常不同于普通 FFN？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f08",
+    "kind": "topic"
+  },
+  {
+    "id": "F09",
+    "title": "RoPE 如何把绝对位置转成相对位置信息？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f09",
+    "kind": "topic"
+  },
+  {
+    "id": "F10",
+    "title": "交叉熵的梯度如何推导？为什么不能先 softmax 再传给 CrossEntropyLoss？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f10",
+    "kind": "topic"
+  },
+  {
+    "id": "F11",
+    "title": "困惑度如何计算？能否用它比较不同 tokenizer？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f11",
+    "kind": "topic"
+  },
+  {
+    "id": "F12",
+    "title": "KL 散度的两个方向分别偏好什么？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f12",
+    "kind": "topic"
+  },
+  {
+    "id": "F13",
+    "title": "温度、top-k、top-p 怎样改变采样分布？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f13",
+    "kind": "topic"
+  },
+  {
+    "id": "F14",
+    "title": "AdamW 与 Adam 加 L2 正则有什么区别？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f14",
+    "kind": "topic"
+  },
+  {
+    "id": "F15",
+    "title": "梯度累计与大 batch 何时等价，何时不等价？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f15",
+    "kind": "topic"
+  },
+  {
+    "id": "F16",
+    "title": "BF16、FP16 的差别会如何影响数值稳定性？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f16",
+    "kind": "topic"
+  },
+  {
+    "id": "F17",
+    "title": "给定配置，怎样估算 dense decoder 参数量？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f17",
+    "kind": "topic"
+  },
+  {
+    "id": "F18",
+    "title": "如何证明一个 attention 实现是正确的？",
+    "path": "docs/topics/01-transformer-and-math.md",
+    "anchor": "f18",
+    "kind": "topic"
+  },
+  {
+    "id": "P01",
+    "title": "预训练、持续预训练、SFT 分别优化什么？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p01",
+    "kind": "topic"
+  },
+  {
+    "id": "P02",
+    "title": "如何解释 Chinchilla scaling law，哪些条件不可省？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p02",
+    "kind": "topic"
+  },
+  {
+    "id": "P03",
+    "title": "为什么不少模型选择超过训练算力最优点继续训练？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p03",
+    "kind": "topic"
+  },
+  {
+    "id": "P04",
+    "title": "给定参数、token 和集群，如何估算训练时间？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p04",
+    "kind": "topic"
+  },
+  {
+    "id": "P05",
+    "title": "怎样把 Common Crawl 变成可训练的数据集？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p05",
+    "kind": "topic"
+  },
+  {
+    "id": "P06",
+    "title": "精确去重、近似去重、子串去重分别解决什么问题？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p06",
+    "kind": "topic"
+  },
+  {
+    "id": "P07",
+    "title": "训练集与 benchmark 去污染应如何实施？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p07",
+    "kind": "topic"
+  },
+  {
+    "id": "P08",
+    "title": "如何设计中文、多语言与代码数据混合？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p08",
+    "kind": "topic"
+  },
+  {
+    "id": "P09",
+    "title": "Tokenizer 的设计为什么会影响算力和多语言公平性？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p09",
+    "kind": "topic"
+  },
+  {
+    "id": "P10",
+    "title": "Sequence packing 怎样避免 padding 浪费与样本串扰？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p10",
+    "kind": "topic"
+  },
+  {
+    "id": "P11",
+    "title": "质量分类器的阈值为什么必须通过训练消融确定？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p11",
+    "kind": "topic"
+  },
+  {
+    "id": "P12",
+    "title": "合成数据有什么价值，如何避免循环训练退化？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p12",
+    "kind": "topic"
+  },
+  {
+    "id": "P13",
+    "title": "数据不足时重复训练，怎样判断收益递减？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p13",
+    "kind": "topic"
+  },
+  {
+    "id": "P14",
+    "title": "持续预训练如何降低灾难性遗忘？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p14",
+    "kind": "topic"
+  },
+  {
+    "id": "P15",
+    "title": "训练 loss 突然尖峰，如何分层排查？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p15",
+    "kind": "topic"
+  },
+  {
+    "id": "P16",
+    "title": "怎样设计可信的预训练小规模消融？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p16",
+    "kind": "topic"
+  },
+  {
+    "id": "P17",
+    "title": "一个可复现的训练检查点需要包含什么？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p17",
+    "kind": "topic"
+  },
+  {
+    "id": "P18",
+    "title": "读 Llama 3、DeepSeek-V3、Qwen3 报告，面试中应如何比较？",
+    "path": "docs/topics/02-pretraining-and-data.md",
+    "anchor": "p18",
+    "kind": "topic"
+  },
+  {
+    "id": "S01",
+    "title": "SFT 的训练目标是什么，哪些 token 应计算损失？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s01",
+    "kind": "topic"
+  },
+  {
+    "id": "S02",
+    "title": "Chat template 为什么属于模型接口的一部分？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s02",
+    "kind": "topic"
+  },
+  {
+    "id": "S03",
+    "title": "高质量 SFT 数据应如何定义，而不是只看数量？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s03",
+    "kind": "topic"
+  },
+  {
+    "id": "S04",
+    "title": "LoRA 的公式、形状与参数节省如何推导？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s04",
+    "kind": "topic"
+  },
+  {
+    "id": "S05",
+    "title": "LoRA 为什么常初始化一侧为零，另一侧随机？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s05",
+    "kind": "topic"
+  },
+  {
+    "id": "S06",
+    "title": "Rank、alpha、学习率和 target_modules 应如何联合选择？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s06",
+    "kind": "topic"
+  },
+  {
+    "id": "S07",
+    "title": "冻结主干后，为什么 LoRA 仍然需要不少激活显存？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s07",
+    "kind": "topic"
+  },
+  {
+    "id": "S08",
+    "title": "QLoRA 的“4-bit 训练”究竟指什么？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s08",
+    "kind": "topic"
+  },
+  {
+    "id": "S09",
+    "title": "LoRA 是否可以无损合并进主干？量化主干又如何？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s09",
+    "kind": "topic"
+  },
+  {
+    "id": "S10",
+    "title": "Prompt tuning、Prefix tuning、Adapter 与 LoRA 如何选？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s10",
+    "kind": "topic"
+  },
+  {
+    "id": "S11",
+    "title": "DoRA、LoRA+ 各改变了什么？如何谨慎比较？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s11",
+    "kind": "topic"
+  },
+  {
+    "id": "S12",
+    "title": "SFT loss 下降但回答变差，怎样排查？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s12",
+    "kind": "topic"
+  },
+  {
+    "id": "S13",
+    "title": "如何生成与筛选指令数据，避免教师自我强化？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s13",
+    "kind": "topic"
+  },
+  {
+    "id": "S14",
+    "title": "知识蒸馏的 hard target 和 soft target 有何区别？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s14",
+    "kind": "topic"
+  },
+  {
+    "id": "S15",
+    "title": "推理轨迹蒸馏时，“长思维链越多越好”有什么问题？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s15",
+    "kind": "topic"
+  },
+  {
+    "id": "S16",
+    "title": "多任务 SFT 怎样处理样本量和长度不均衡？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s16",
+    "kind": "topic"
+  },
+  {
+    "id": "S17",
+    "title": "多适配器服务时如何管理兼容性和版本？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s17",
+    "kind": "topic"
+  },
+  {
+    "id": "S18",
+    "title": "面试中的 SFT 项目复盘应给出哪些可审查证据？",
+    "path": "docs/topics/03-sft-and-peft.md",
+    "anchor": "s18",
+    "kind": "topic"
+  },
+  {
+    "id": "A01",
+    "title": "SFT → 奖励模型 → RLHF 的典型流程是什么？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a01",
+    "kind": "topic"
+  },
+  {
+    "id": "A02",
+    "title": "Bradley–Terry 偏好模型怎样训练奖励函数？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a02",
+    "kind": "topic"
+  },
+  {
+    "id": "A03",
+    "title": "KL 正则的 RLHF 目标和最优策略有什么关系？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a03",
+    "kind": "topic"
+  },
+  {
+    "id": "A04",
+    "title": "REINFORCE 为什么能用不可微的规则奖励？baseline 有何作用？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a04",
+    "kind": "topic"
+  },
+  {
+    "id": "A05",
+    "title": "PPO 的 clipping 目标写出来，各项指什么？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a05",
+    "kind": "topic"
+  },
+  {
+    "id": "A06",
+    "title": "Advantage、value、return 和 GAE 如何区分？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a06",
+    "kind": "topic"
+  },
+  {
+    "id": "A07",
+    "title": "从 KL 正则目标推导 DPO loss。",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a07",
+    "kind": "topic"
+  },
+  {
+    "id": "A08",
+    "title": "DPO 的 β、数据质量和长度偏差应如何解释？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a08",
+    "kind": "topic"
+  },
+  {
+    "id": "A09",
+    "title": "Offline DPO 与在线 RL 何时各有优势？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a09",
+    "kind": "topic"
+  },
+  {
+    "id": "A10",
+    "title": "GRPO 为什么不需要独立 critic，组内优势怎样构造？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a10",
+    "kind": "topic"
+  },
+  {
+    "id": "A11",
+    "title": "GRPO 的长度归一化和标准差归一化为什么会产生偏置？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a11",
+    "kind": "topic"
+  },
+  {
+    "id": "A12",
+    "title": "RLVR 中“可验证”指什么，奖励设计会在哪些地方失效？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a12",
+    "kind": "topic"
+  },
+  {
+    "id": "A13",
+    "title": "Outcome reward 与 process reward 分别有哪些取舍？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a13",
+    "kind": "topic"
+  },
+  {
+    "id": "A14",
+    "title": "Reward hacking 与过度优化怎样识别和缓解？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a14",
+    "kind": "topic"
+  },
+  {
+    "id": "A15",
+    "title": "RLAIF 和 Constitutional AI 是否意味着没有人类监督？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a15",
+    "kind": "topic"
+  },
+  {
+    "id": "A16",
+    "title": "RL 到底是在发现新能力，还是提高已有正确轨迹的采样概率？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a16",
+    "kind": "topic"
+  },
+  {
+    "id": "A17",
+    "title": "长推理 RL 的系统瓶颈怎样分析？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a17",
+    "kind": "topic"
+  },
+  {
+    "id": "A18",
+    "title": "设计一套对齐实验，你会同时监控哪些指标？",
+    "path": "docs/topics/04-alignment-and-rl.md",
+    "anchor": "a18",
+    "kind": "topic"
+  },
+  {
+    "id": "M01",
+    "title": "Decoder-only、encoder-only 与 encoder-decoder 的核心区别是什么？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m01",
+    "kind": "topic"
+  },
+  {
+    "id": "M02",
+    "title": "MHA、MQA、GQA 如何影响质量与 KV cache？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m02",
+    "kind": "topic"
+  },
+  {
+    "id": "M03",
+    "title": "手算一个 GQA 模型的 KV cache 大小。",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m03",
+    "kind": "topic"
+  },
+  {
+    "id": "M04",
+    "title": "MLA 与 GQA 的压缩思路有什么不同？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m04",
+    "kind": "topic"
+  },
+  {
+    "id": "M05",
+    "title": "MoE 的总参数与激活参数分别影响什么？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m05",
+    "kind": "topic"
+  },
+  {
+    "id": "M06",
+    "title": "Token-choice 路由的 top-k 与专家容量如何工作？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m06",
+    "kind": "topic"
+  },
+  {
+    "id": "M07",
+    "title": "为什么 MoE 会负载不均，辅助平衡损失怎样理解？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m07",
+    "kind": "topic"
+  },
+  {
+    "id": "M08",
+    "title": "细粒度专家与共享专家分别解决什么问题？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m08",
+    "kind": "topic"
+  },
+  {
+    "id": "M09",
+    "title": "Expert parallel 与 tensor parallel 有何区别，MoE 为什么常受通信限制？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m09",
+    "kind": "topic"
+  },
+  {
+    "id": "M10",
+    "title": "延长上下文为何不能只修改 max_position_embeddings？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m10",
+    "kind": "topic"
+  },
+  {
+    "id": "M11",
+    "title": "Position Interpolation 如何扩展 RoPE 长度？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m11",
+    "kind": "topic"
+  },
+  {
+    "id": "M12",
+    "title": "YaRN 与统一位置插值相比，关注哪些额外设计？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m12",
+    "kind": "topic"
+  },
+  {
+    "id": "M13",
+    "title": "Sliding window attention 的感受野与复杂度怎样计算？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m13",
+    "kind": "topic"
+  },
+  {
+    "id": "M14",
+    "title": "Ring Attention 或上下文并行解决的是什么瓶颈？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m14",
+    "kind": "topic"
+  },
+  {
+    "id": "M15",
+    "title": "如何构建比单针检索更可靠的长上下文评测？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m15",
+    "kind": "topic"
+  },
+  {
+    "id": "M16",
+    "title": "Mamba 的 selective state space 与 attention 如何取舍？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m16",
+    "kind": "topic"
+  },
+  {
+    "id": "M17",
+    "title": "Mamba-2、混合架构和线性注意力应怎样比较？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m17",
+    "kind": "topic"
+  },
+  {
+    "id": "M18",
+    "title": "如果设计一个长上下文 MoE 服务，应如何做架构决策？",
+    "path": "docs/topics/05-architectures-moe-long-context.md",
+    "anchor": "m18",
+    "kind": "topic"
+  },
+  {
+    "id": "R01",
+    "title": "RAG 与微调分别解决什么问题，如何选择？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r01",
+    "kind": "topic"
+  },
+  {
+    "id": "R02",
+    "title": "从文档到回答，一条可观测的 RAG 链路包含什么？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r02",
+    "kind": "topic"
+  },
+  {
+    "id": "R03",
+    "title": "切块大小、重叠和父子块怎样选择？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r03",
+    "kind": "topic"
+  },
+  {
+    "id": "R04",
+    "title": "双编码器为何适合召回，交叉编码器为何适合重排？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r04",
+    "kind": "topic"
+  },
+  {
+    "id": "R05",
+    "title": "稀疏与稠密检索如何融合，RRF 如何计算？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r05",
+    "kind": "topic"
+  },
+  {
+    "id": "R06",
+    "title": "向量检索的 recall、精度、延迟如何权衡？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r06",
+    "kind": "topic"
+  },
+  {
+    "id": "R07",
+    "title": "如何训练领域 embedding，如何发现假负例？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r07",
+    "kind": "topic"
+  },
+  {
+    "id": "R08",
+    "title": "查询改写、多查询与 HyDE 有何区别？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r08",
+    "kind": "topic"
+  },
+  {
+    "id": "R09",
+    "title": "如何处理多跳问题与需要全库总结的问题？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r09",
+    "kind": "topic"
+  },
+  {
+    "id": "R10",
+    "title": "长上下文模型普及后，是否还需要 RAG？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r10",
+    "kind": "topic"
+  },
+  {
+    "id": "R11",
+    "title": "RAG 评测如何拆解，何时可用 LLM 当裁判？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r11",
+    "kind": "topic"
+  },
+  {
+    "id": "R12",
+    "title": "Self-RAG 和普通“先检索再生成”有哪些不同？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r12",
+    "kind": "topic"
+  },
+  {
+    "id": "R13",
+    "title": "检索增强系统如何防止权限泄漏与提示注入？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r13",
+    "kind": "topic"
+  },
+  {
+    "id": "R14",
+    "title": "系统设计：为千万文档、分钟级更新的企业知识库设计 RAG。",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r14",
+    "kind": "topic"
+  },
+  {
+    "id": "R15",
+    "title": "定量设计：top-k 增大为何可能降低最终准确率？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r15",
+    "kind": "topic"
+  },
+  {
+    "id": "R16",
+    "title": "排障：embedding 升级后召回率突然下降，如何定位？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r16",
+    "kind": "topic"
+  },
+  {
+    "id": "R17",
+    "title": "排障：召回了正确原文，回答仍旧错，下一步做什么？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r17",
+    "kind": "topic"
+  },
+  {
+    "id": "R18",
+    "title": "如何做一个能写进简历的 RAG 项目复盘？",
+    "path": "docs/topics/06-rag-and-retrieval.md",
+    "anchor": "r18",
+    "kind": "topic"
+  },
+  {
+    "id": "G01",
+    "title": "什么情况下应使用 Agent，什么情况下固定工作流更合适？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g01",
+    "kind": "topic"
+  },
+  {
+    "id": "G02",
+    "title": "ReAct 的核心闭环是什么，能解决与不能解决什么？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g02",
+    "kind": "topic"
+  },
+  {
+    "id": "G03",
+    "title": "工具 schema 应怎样设计，为什么类型正确仍可能业务错误？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g03",
+    "kind": "topic"
+  },
+  {
+    "id": "G04",
+    "title": "Toolformer 与提示模型调用工具的区别是什么？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g04",
+    "kind": "topic"
+  },
+  {
+    "id": "G05",
+    "title": "Agent 记忆应该保存什么，如何避免记忆污染？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g05",
+    "kind": "topic"
+  },
+  {
+    "id": "G06",
+    "title": "如何让 Agent 可靠地停止、请求澄清或升级人工？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g06",
+    "kind": "topic"
+  },
+  {
+    "id": "G07",
+    "title": "多 Agent 的收益、通信成本和失效模式是什么？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g07",
+    "kind": "topic"
+  },
+  {
+    "id": "G08",
+    "title": "Agent 评测为什么不能只看最终文本？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g08",
+    "kind": "topic"
+  },
+  {
+    "id": "G09",
+    "title": "编码 Agent 用 SWE-bench 时应注意哪些评价边界？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g09",
+    "kind": "topic"
+  },
+  {
+    "id": "G10",
+    "title": "MCP 解决什么，不解决什么？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g10",
+    "kind": "topic"
+  },
+  {
+    "id": "G11",
+    "title": "Agent 面对提示注入，如何区分指令和不可信数据？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g11",
+    "kind": "topic"
+  },
+  {
+    "id": "G12",
+    "title": "如何设计工具重试、幂等与补偿？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g12",
+    "kind": "topic"
+  },
+  {
+    "id": "G13",
+    "title": "定量推导：长任务的成功率为什么下降很快？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g13",
+    "kind": "topic"
+  },
+  {
+    "id": "G14",
+    "title": "系统设计：做一个可执行企业工单的 Agent。",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g14",
+    "kind": "topic"
+  },
+  {
+    "id": "G15",
+    "title": "Agent 的延迟和成本怎样优化？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g15",
+    "kind": "topic"
+  },
+  {
+    "id": "G16",
+    "title": "排障：Agent 一直调用同一工具，如何查？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g16",
+    "kind": "topic"
+  },
+  {
+    "id": "G17",
+    "title": "排障：模型换代后工具调用率变高，但成功率变低，如何解释？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g17",
+    "kind": "topic"
+  },
+  {
+    "id": "G18",
+    "title": "如何训练一个更会使用工具的模型？",
+    "path": "docs/topics/07-agents-and-tool-use.md",
+    "anchor": "g18",
+    "kind": "topic"
+  },
+  {
+    "id": "I01",
+    "title": "Prefill 与 decode 为什么瓶颈不同？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i01",
+    "kind": "topic"
+  },
+  {
+    "id": "I02",
+    "title": "TTFT、TPOT、ITL、吞吐量分别代表什么？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i02",
+    "kind": "topic"
+  },
+  {
+    "id": "I03",
+    "title": "定量推导：KV cache 显存如何估算？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i03",
+    "kind": "topic"
+  },
+  {
+    "id": "I04",
+    "title": "MHA、MQA、GQA 对推理有什么影响？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i04",
+    "kind": "topic"
+  },
+  {
+    "id": "I05",
+    "title": "PagedAttention 解决什么，分页有哪些代价？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i05",
+    "kind": "topic"
+  },
+  {
+    "id": "I06",
+    "title": "Continuous batching 与静态 batching 有什么区别？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i06",
+    "kind": "topic"
+  },
+  {
+    "id": "I07",
+    "title": "Chunked prefill 如何平衡 TTFT 和输出流畅度？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i07",
+    "kind": "topic"
+  },
+  {
+    "id": "I08",
+    "title": "FlashAttention 为什么是 exact attention，为什么还能更快？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i08",
+    "kind": "topic"
+  },
+  {
+    "id": "I09",
+    "title": "Prefix caching 的命中条件和收益边界是什么？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i09",
+    "kind": "topic"
+  },
+  {
+    "id": "I10",
+    "title": "推测解码如何做到加速而保持目标分布？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i10",
+    "kind": "topic"
+  },
+  {
+    "id": "I11",
+    "title": "定量推导：推测解码的理想收益上限怎样估算？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i11",
+    "kind": "topic"
+  },
+  {
+    "id": "I12",
+    "title": "Tensor parallel 与多副本部署如何选择？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i12",
+    "kind": "topic"
+  },
+  {
+    "id": "I13",
+    "title": "Prefill/decode 分离为什么可能有效，又为什么可能不划算？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i13",
+    "kind": "topic"
+  },
+  {
+    "id": "I14",
+    "title": "系统设计：如何搭建有延迟 SLO 的多租户推理服务？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i14",
+    "kind": "topic"
+  },
+  {
+    "id": "I15",
+    "title": "排障：显存还有空闲却 OOM，怎样定位？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i15",
+    "kind": "topic"
+  },
+  {
+    "id": "I16",
+    "title": "排障：吞吐正常但 TTFT 或 ITL 尾延迟很差，如何排查？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i16",
+    "kind": "topic"
+  },
+  {
+    "id": "I17",
+    "title": "为什么量化模型有时更慢？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i17",
+    "kind": "topic"
+  },
+  {
+    "id": "I18",
+    "title": "如何提交可信的推理性能报告？",
+    "path": "docs/topics/08-inference-and-serving.md",
+    "anchor": "i18",
+    "kind": "topic"
+  },
+  {
+    "id": "D01",
+    "title": "数据、张量、流水线、上下文和专家并行分别切什么？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d01",
+    "kind": "topic"
+  },
+  {
+    "id": "D02",
+    "title": "DDP 一步训练中发生了什么，何时同步梯度？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d02",
+    "kind": "topic"
+  },
+  {
+    "id": "D03",
+    "title": "定量推导：为什么 7B 模型全参训练远不止 14 GB？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d03",
+    "kind": "topic"
+  },
+  {
+    "id": "D04",
+    "title": "ZeRO-1/2/3 的区别和代价是什么？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d04",
+    "kind": "topic"
+  },
+  {
+    "id": "D05",
+    "title": "FSDP 的 wrap 粒度、预取与重分片为什么重要？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d05",
+    "kind": "topic"
+  },
+  {
+    "id": "D06",
+    "title": "Tensor parallel 如何切 Transformer 的 MLP？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d06",
+    "kind": "topic"
+  },
+  {
+    "id": "D07",
+    "title": "流水线并行的 bubble 如何估算与改善？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d07",
+    "kind": "topic"
+  },
+  {
+    "id": "D08",
+    "title": "梯度累积是否等价于大 batch，loss 应如何归一化？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d08",
+    "kind": "topic"
+  },
+  {
+    "id": "D09",
+    "title": "Activation checkpointing 节约什么，代价是什么？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d09",
+    "kind": "topic"
+  },
+  {
+    "id": "D10",
+    "title": "定量推导：Ring all-reduce 的通信成本如何估算？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d10",
+    "kind": "topic"
+  },
+  {
+    "id": "D11",
+    "title": "MoE 训练为何对通信与负载均衡更敏感？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d11",
+    "kind": "topic"
+  },
+  {
+    "id": "D12",
+    "title": "BF16、FP16、FP8 训练应该怎样讨论稳定性？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d12",
+    "kind": "topic"
+  },
+  {
+    "id": "D13",
+    "title": "MFU、HFU 和 tokens/s 应怎样解释？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d13",
+    "kind": "topic"
+  },
+  {
+    "id": "D14",
+    "title": "系统设计：如何规划一个可恢复的多节点预训练任务？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d14",
+    "kind": "topic"
+  },
+  {
+    "id": "D15",
+    "title": "排障：多卡训练卡在 collective，如何定位？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d15",
+    "kind": "topic"
+  },
+  {
+    "id": "D16",
+    "title": "排障：从 8 卡扩到 64 卡，吞吐只提高两倍，如何分析？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d16",
+    "kind": "topic"
+  },
+  {
+    "id": "D17",
+    "title": "排障：训练突然出现 NaN 或 loss spike，怎样缩小范围？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d17",
+    "kind": "topic"
+  },
+  {
+    "id": "D18",
+    "title": "一个优秀的分布式训练项目复盘应有哪些证据？",
+    "path": "docs/topics/09-distributed-training.md",
+    "anchor": "d18",
+    "kind": "topic"
+  },
+  {
+    "id": "C01",
+    "title": "量化、剪枝、蒸馏分别改变什么？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c01",
+    "kind": "topic"
+  },
+  {
+    "id": "C02",
+    "title": "定量推导：线性量化中的 scale 与 zero point 如何计算？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c02",
+    "kind": "topic"
+  },
+  {
+    "id": "C03",
+    "title": "Per-tensor、per-channel、group-wise 量化如何选？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c03",
+    "kind": "topic"
+  },
+  {
+    "id": "C04",
+    "title": "PTQ 与 QAT 有何区别，校准数据应怎么选？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c04",
+    "kind": "topic"
+  },
+  {
+    "id": "C05",
+    "title": "GPTQ 的核心优化目标是什么？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c05",
+    "kind": "topic"
+  },
+  {
+    "id": "C06",
+    "title": "AWQ 为什么看激活统计，而不只看权重绝对值？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c06",
+    "kind": "topic"
+  },
+  {
+    "id": "C07",
+    "title": "SmoothQuant 如何处理 activation outlier？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c07",
+    "kind": "topic"
+  },
+  {
+    "id": "C08",
+    "title": "QLoRA 的 4bit 在哪里，为什么还能反向传播？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c08",
+    "kind": "topic"
+  },
+  {
+    "id": "C09",
+    "title": "KV cache 量化与权重量化为什么是两类问题？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c09",
+    "kind": "topic"
+  },
+  {
+    "id": "C10",
+    "title": "非结构化、半结构化和结构化剪枝有何区别？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c10",
+    "kind": "topic"
+  },
+  {
+    "id": "C11",
+    "title": "Wanda 的重要性指标为何同时使用权重与激活？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c11",
+    "kind": "topic"
+  },
+  {
+    "id": "C12",
+    "title": "经典知识蒸馏的温度、KL 方向与 T² 是什么？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c12",
+    "kind": "topic"
+  },
+  {
+    "id": "C13",
+    "title": "Logit、特征、序列和推理轨迹蒸馏分别需要什么？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c13",
+    "kind": "topic"
+  },
+  {
+    "id": "C14",
+    "title": "如何理解 DeepSeek-R1 的小模型蒸馏案例？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c14",
+    "kind": "topic"
+  },
+  {
+    "id": "C15",
+    "title": "剪枝后蒸馏与从头训练小模型如何公平比较？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c15",
+    "kind": "topic"
+  },
+  {
+    "id": "C16",
+    "title": "系统设计：单张 24 GiB 显卡部署 14B 模型，应怎样规划？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c16",
+    "kind": "topic"
+  },
+  {
+    "id": "C17",
+    "title": "排障：量化后总体 perplexity 正常，但业务质量明显下降，如何查？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c17",
+    "kind": "topic"
+  },
+  {
+    "id": "C18",
+    "title": "如何报告压缩收益与模型退化，使结论可信？",
+    "path": "docs/topics/10-compression-and-distillation.md",
+    "anchor": "c18",
+    "kind": "topic"
+  },
+  {
+    "id": "T01",
+    "title": "你怎样判断一个模型的“推理能力”变强，而不只是答案格式变好？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t01",
+    "kind": "topic"
+  },
+  {
+    "id": "T02",
+    "title": "CoT 为什么可能有效？从概率分解解释它的能力与局限。",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t02",
+    "kind": "topic"
+  },
+  {
+    "id": "T03",
+    "title": "Self-consistency 与普通多数投票有什么关系？为什么收益会饱和？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t03",
+    "kind": "topic"
+  },
+  {
+    "id": "T04",
+    "title": "pass@k、best-of-N 和最终部署准确率为什么不能混用？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t04",
+    "kind": "topic"
+  },
+  {
+    "id": "T05",
+    "title": "过程奖励 PRM 与结果奖励 ORM 的监督对象、成本和风险有何不同？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t05",
+    "kind": "topic"
+  },
+  {
+    "id": "T06",
+    "title": "只有终局 0/1 奖励，为什么仍可能学出有用的中间行为？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t06",
+    "kind": "topic"
+  },
+  {
+    "id": "T07",
+    "title": "GRPO 为什么能省去独立价值模型？组内相对优势有什么问题？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t07",
+    "kind": "topic"
+  },
+  {
+    "id": "T08",
+    "title": "R1-Zero 与 R1 的训练差异，能支持哪些结论？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t08",
+    "kind": "topic"
+  },
+  {
+    "id": "T09",
+    "title": "可验证奖励 RLVR 为什么仍会 reward hacking？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t09",
+    "kind": "topic"
+  },
+  {
+    "id": "T10",
+    "title": "推理蒸馏要保留长轨迹还是只保留答案？怎样设计实验？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t10",
+    "kind": "topic"
+  },
+  {
+    "id": "T11",
+    "title": "固定推理预算下，应该增加深度、采样宽度还是模型大小？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t11",
+    "kind": "topic"
+  },
+  {
+    "id": "T12",
+    "title": "Tree of Thoughts 与直接生成长 CoT 的关键差异是什么？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t12",
+    "kind": "topic"
+  },
+  {
+    "id": "T13",
+    "title": "推理长度增加不再涨分，如何诊断 overthinking？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t13",
+    "kind": "topic"
+  },
+  {
+    "id": "T14",
+    "title": "“请检查并修正答案”为什么可能没有效果？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t14",
+    "kind": "topic"
+  },
+  {
+    "id": "T15",
+    "title": "如何设计工具增强推理，避免“会调用 Python”成为新的脆弱点？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t15",
+    "kind": "topic"
+  },
+  {
+    "id": "T16",
+    "title": "Lean 等形式化验证能否保证模型给出的数学结论正确？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t16",
+    "kind": "topic"
+  },
+  {
+    "id": "T17",
+    "title": "可读的思维链是否是可靠解释？如何研究 faithfulness？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t17",
+    "kind": "topic"
+  },
+  {
+    "id": "T18",
+    "title": "读一篇 2026 推理技术报告，你会如何设计复现实验与反证？",
+    "path": "docs/topics/11-reasoning-and-test-time-compute.md",
+    "anchor": "t18",
+    "kind": "topic"
+  },
+  {
+    "id": "V01",
+    "title": "一个典型视觉语言大模型如何把图片接入语言模型？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v01",
+    "kind": "topic"
+  },
+  {
+    "id": "V02",
+    "title": "CLIP 式对比目标与 SigLIP 式 sigmoid 目标有什么差别？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v02",
+    "kind": "topic"
+  },
+  {
+    "id": "V03",
+    "title": "Q-Former、MLP 投影与 token resampler 应如何选？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v03",
+    "kind": "topic"
+  },
+  {
+    "id": "V04",
+    "title": "为什么多模态训练常划分对齐、指令微调等阶段？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v04",
+    "kind": "topic"
+  },
+  {
+    "id": "V05",
+    "title": "动态分辨率解决什么问题？代价如何随视觉 token 数增长？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v05",
+    "kind": "topic"
+  },
+  {
+    "id": "V06",
+    "title": "多模态位置编码为何不能直接照搬一维文本位置？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v06",
+    "kind": "topic"
+  },
+  {
+    "id": "V07",
+    "title": "文档理解如何区分 OCR、布局、结构抽取与推理错误？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v07",
+    "kind": "topic"
+  },
+  {
+    "id": "V08",
+    "title": "Grounding 的框坐标应如何表示、训练和评测？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v08",
+    "kind": "topic"
+  },
+  {
+    "id": "V09",
+    "title": "多图比较和变化检测为何比单图描述更难？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v09",
+    "kind": "topic"
+  },
+  {
+    "id": "V10",
+    "title": "长视频理解如何在采样预算内保留关键事件？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v10",
+    "kind": "topic"
+  },
+  {
+    "id": "V11",
+    "title": "ASR→LLM→TTS 管线与原生音频模型，各有什么适用边界？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v11",
+    "kind": "topic"
+  },
+  {
+    "id": "V12",
+    "title": "视觉幻觉怎样测？POPE 能覆盖全部问题吗？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v12",
+    "kind": "topic"
+  },
+  {
+    "id": "V13",
+    "title": "MMMU 类学科多模态基准究竟在测哪些混合能力？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v13",
+    "kind": "topic"
+  },
+  {
+    "id": "V14",
+    "title": "如何将“没看清”与“看清后推错”分开研究？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v14",
+    "kind": "topic"
+  },
+  {
+    "id": "V15",
+    "title": "多模态推理什么时候应调用裁剪、OCR、绘图或几何工具？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v15",
+    "kind": "topic"
+  },
+  {
+    "id": "V16",
+    "title": "DiT、latent diffusion 与自回归视觉 token，分别解决什么问题？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v16",
+    "kind": "topic"
+  },
+  {
+    "id": "V17",
+    "title": "视频生成为什么不是把图像生成重复多次？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v17",
+    "kind": "topic"
+  },
+  {
+    "id": "V18",
+    "title": "如何为多模态服务做预算、批处理与线上回归？",
+    "path": "docs/topics/12-multimodal.md",
+    "anchor": "v18",
+    "kind": "topic"
+  },
+  {
+    "id": "E01",
+    "title": "为一个新大模型设计评测，你会先问哪些问题？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e01",
+    "kind": "topic"
+  },
+  {
+    "id": "E02",
+    "title": "如何识别与降低训练集污染，而不宣称“绝对无污染”？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e02",
+    "kind": "topic"
+  },
+  {
+    "id": "E03",
+    "title": "两个模型相差 1 个百分点，怎样判断差异是否值得相信？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e03",
+    "kind": "topic"
+  },
+  {
+    "id": "E04",
+    "title": "LLM-as-a-judge 有哪些系统性偏差？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e04",
+    "kind": "topic"
+  },
+  {
+    "id": "E05",
+    "title": "被评回答会“说服裁判”，怎样保证评分可信？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e05",
+    "kind": "topic"
+  },
+  {
+    "id": "E06",
+    "title": "GPQA、MMLU-Pro、HLE 各能说明什么，不能说明什么？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e06",
+    "kind": "topic"
+  },
+  {
+    "id": "E07",
+    "title": "幻觉、事实错误、缺乏依据与无法回答有何区别？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e07",
+    "kind": "topic"
+  },
+  {
+    "id": "E08",
+    "title": "自信度、校准与选择性回答应怎样评估？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e08",
+    "kind": "topic"
+  },
+  {
+    "id": "E09",
+    "title": "RAG 评测为什么必须同时检查检索、证据利用和答案？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e09",
+    "kind": "topic"
+  },
+  {
+    "id": "E10",
+    "title": "Agent 评测如何从“调用格式正确”走向“任务可靠完成”？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e10",
+    "kind": "topic"
+  },
+  {
+    "id": "E11",
+    "title": "怎样同时测安全拒绝与正常请求的可用性？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e11",
+    "kind": "topic"
+  },
+  {
+    "id": "E12",
+    "title": "越狱防御实验怎样定义威胁模型与公平比较？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e12",
+    "kind": "topic"
+  },
+  {
+    "id": "E13",
+    "title": "Prompt injection 与用户直接提出违规请求有什么区别？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e13",
+    "kind": "topic"
+  },
+  {
+    "id": "E14",
+    "title": "安全微调能否证明模型不存在后门或欺骗行为？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e14",
+    "kind": "topic"
+  },
+  {
+    "id": "E15",
+    "title": "训练数据隐私风险与检索权限风险应如何分开处理？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e15",
+    "kind": "topic"
+  },
+  {
+    "id": "E16",
+    "title": "公平性评测为什么不能只比较不同群体的一个总分？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e16",
+    "kind": "topic"
+  },
+  {
+    "id": "E17",
+    "title": "从一次红队测试到持续风险管理，需要补哪些闭环？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e17",
+    "kind": "topic"
+  },
+  {
+    "id": "E18",
+    "title": "2026 年继续使用旧 benchmark 时，怎样保持结果可比与有效？",
+    "path": "docs/topics/13-evaluation-and-safety.md",
+    "anchor": "e18",
+    "kind": "topic"
+  },
+  {
+    "id": "B01",
+    "title": "代码模型与通用语言模型的训练差异在哪里？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b01",
+    "kind": "topic"
+  },
+  {
+    "id": "B02",
+    "title": "Fill-in-the-Middle 如何构造？与普通续写目标冲突吗？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b02",
+    "kind": "topic"
+  },
+  {
+    "id": "B03",
+    "title": "为什么通过单元测试不等于程序正确？怎样评测代码生成？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b03",
+    "kind": "topic"
+  },
+  {
+    "id": "B04",
+    "title": "代码数据如何去重、切分并处理仓库级泄漏？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b04",
+    "kind": "topic"
+  },
+  {
+    "id": "B05",
+    "title": "代码后训练怎样利用执行反馈？上线还要检查哪些接口细节？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b05",
+    "kind": "topic"
+  },
+  {
+    "id": "B06",
+    "title": "仓库级上下文应该一次性塞入，还是分步检索？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b06",
+    "kind": "topic"
+  },
+  {
+    "id": "B07",
+    "title": "Agent-computer interface 为什么会显著影响软件 Agent？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b07",
+    "kind": "topic"
+  },
+  {
+    "id": "B08",
+    "title": "SWE-bench 衡量什么？读榜单时要核对哪些设置？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b08",
+    "kind": "topic"
+  },
+  {
+    "id": "B09",
+    "title": "2026 年怎样评测 Agent 多轮开发造成的代码退化？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b09",
+    "kind": "topic"
+  },
+  {
+    "id": "B10",
+    "title": "如何把代码 Agent 的执行能力限制在用户授权范围内？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b10",
+    "kind": "topic"
+  },
+  {
+    "id": "B11",
+    "title": "VLM、VLA、传统模仿学习策略分别是什么关系？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b11",
+    "kind": "topic"
+  },
+  {
+    "id": "B12",
+    "title": "动作离散 token 与连续动作头各有什么优劣？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b12",
+    "kind": "topic"
+  },
+  {
+    "id": "B13",
+    "title": "π0 为什么使用 flow matching？与语言自回归有什么区别？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b13",
+    "kind": "topic"
+  },
+  {
+    "id": "B14",
+    "title": "Action chunking 为什么有效，又为什么可能降低反应速度？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b14",
+    "kind": "topic"
+  },
+  {
+    "id": "B15",
+    "title": "多机器人数据如何共享？跨 embodiment 泛化难在哪里？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b15",
+    "kind": "topic"
+  },
+  {
+    "id": "B16",
+    "title": "为什么离线动作误差很小，真实执行仍可能失败？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b16",
+    "kind": "topic"
+  },
+  {
+    "id": "B17",
+    "title": "如何评估“新场景泛化”，而不是复现示范？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b17",
+    "kind": "topic"
+  },
+  {
+    "id": "B18",
+    "title": "高层语言规划、世界模型与低层控制怎样组成可靠系统？",
+    "path": "docs/topics/14-code-and-embodied-models.md",
+    "anchor": "b18",
+    "kind": "topic"
+  },
+  {
+    "id": "X01",
+    "title": "一个垂直领域任务，何时选提示、RAG、SFT、继续预训练或从头训练？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x01",
+    "kind": "topic"
+  },
+  {
+    "id": "X02",
+    "title": "领域数据与通用数据如何混合，才能兼顾专业性与泛化？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x02",
+    "kind": "topic"
+  },
+  {
+    "id": "X03",
+    "title": "专业术语、数字、单位和符号怎样影响模型适配？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x03",
+    "kind": "topic"
+  },
+  {
+    "id": "X04",
+    "title": "LLM 如何用于推荐？生成语义 ID 与生成自然语言推荐有何不同？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x04",
+    "kind": "topic"
+  },
+  {
+    "id": "X05",
+    "title": "生成式检索与双塔向量检索、倒排检索有什么根本差异？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x05",
+    "kind": "topic"
+  },
+  {
+    "id": "X06",
+    "title": "推荐系统接入大模型后，如何避免离线涨分、线上无收益？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x06",
+    "kind": "topic"
+  },
+  {
+    "id": "X07",
+    "title": "搜索中的 query rewrite、rerank 与答案生成应如何分别评估？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x07",
+    "kind": "topic"
+  },
+  {
+    "id": "X08",
+    "title": "医学考试高分能否说明模型可以用于临床诊疗？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x08",
+    "kind": "topic"
+  },
+  {
+    "id": "X09",
+    "title": "医疗领域继续预训练，应怎样组织证据、数据隐私与跨机构验证？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x09",
+    "kind": "topic"
+  },
+  {
+    "id": "X10",
+    "title": "金融大模型怎样处理时间、精确数字与决策风险？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x10",
+    "kind": "topic"
+  },
+  {
+    "id": "X11",
+    "title": "法律、企业制度等规则密集领域，如何处理版本与适用范围？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x11",
+    "kind": "topic"
+  },
+  {
+    "id": "X12",
+    "title": "AI for Science 都是“大语言模型”吗？AlphaFold 类方法与 LLM 科研助手有何不同？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x12",
+    "kind": "topic"
+  },
+  {
+    "id": "X13",
+    "title": "FunSearch 类“生成候选 + 可执行评价”与让模型直接回答有什么不同？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x13",
+    "kind": "topic"
+  },
+  {
+    "id": "X14",
+    "title": "自动科研 Agent 的“生成论文”与“产生可靠新知识”差在哪里？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x14",
+    "kind": "topic"
+  },
+  {
+    "id": "X15",
+    "title": "面试官让你提出一个大模型研究方向，怎样避免只有口号？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x15",
+    "kind": "topic"
+  },
+  {
+    "id": "X16",
+    "title": "怎样设计消融，使提升真的能归因于你提出的模块？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x16",
+    "kind": "topic"
+  },
+  {
+    "id": "X17",
+    "title": "复现一篇论文时，哪些证据应保存，哪些主张不能轻易接受？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x17",
+    "kind": "topic"
+  },
+  {
+    "id": "X18",
+    "title": "如何在研究面试中讲清自己的项目，并诚实划分个人贡献？",
+    "path": "docs/topics/15-domain-models-and-research.md",
+    "anchor": "x18",
+    "kind": "topic"
+  },
+  {
+    "id": "H01",
+    "title": "实现数值稳定的softmax",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h01",
+    "kind": "practice"
+  },
+  {
+    "id": "H02",
+    "title": "实现带causal mask的scaled dot-product attention",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h02",
+    "kind": "practice"
+  },
+  {
+    "id": "H03",
+    "title": "把单头改成multi-head attention",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h03",
+    "kind": "practice"
+  },
+  {
+    "id": "H04",
+    "title": "实现LayerNorm与RMSNorm",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h04",
+    "kind": "practice"
+  },
+  {
+    "id": "H05",
+    "title": "实现RoPE的成对旋转",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h05",
+    "kind": "practice"
+  },
+  {
+    "id": "H06",
+    "title": "计算LoRA可训练参数与合并结果",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h06",
+    "kind": "practice"
+  },
+  {
+    "id": "H07",
+    "title": "写DPO单样本loss的稳定计算",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h07",
+    "kind": "practice"
+  },
+  {
+    "id": "H08",
+    "title": "实现top-k/top-p采样前的候选截断",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h08",
+    "kind": "practice"
+  },
+  {
+    "id": "H09",
+    "title": "实现Recall@k、MRR与nDCG",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h09",
+    "kind": "practice"
+  },
+  {
+    "id": "H10",
+    "title": "写RRF融合并处理重复ID",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h10",
+    "kind": "practice"
+  },
+  {
+    "id": "H11",
+    "title": "估算GQA的KV cache",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h11",
+    "kind": "practice"
+  },
+  {
+    "id": "H12",
+    "title": "估算训练显存与优化器状态",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h12",
+    "kind": "practice"
+  },
+  {
+    "id": "H13",
+    "title": "推导交叉熵与softmax的梯度",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h13",
+    "kind": "practice"
+  },
+  {
+    "id": "H14",
+    "title": "实现一个小型BPE训练器",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h14",
+    "kind": "practice"
+  },
+  {
+    "id": "H15",
+    "title": "实现带重试的工具状态机",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h15",
+    "kind": "practice"
+  },
+  {
+    "id": "H16",
+    "title": "实现流式JSON输出校验与回归回放",
+    "path": "docs/preparation/coding-and-estimation.md",
+    "anchor": "h16",
+    "kind": "practice"
+  },
+  {
+    "id": "J01",
+    "title": "给企业一万份PDF做问答，你如何从零落地？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j01",
+    "kind": "practice"
+  },
+  {
+    "id": "J02",
+    "title": "客服Agent会查询订单并执行退款，怎么设计？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j02",
+    "kind": "practice"
+  },
+  {
+    "id": "J03",
+    "title": "模型上线后答案变差，你如何定位？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j03",
+    "kind": "practice"
+  },
+  {
+    "id": "J04",
+    "title": "7B模型微调后通用能力下降，应做什么？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j04",
+    "kind": "practice"
+  },
+  {
+    "id": "J05",
+    "title": "GRPO的奖励涨了，但真实任务成功率没涨？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j05",
+    "kind": "practice"
+  },
+  {
+    "id": "J06",
+    "title": "推理延迟突然升高，显存却没满？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j06",
+    "kind": "practice"
+  },
+  {
+    "id": "J07",
+    "title": "分布式训练扩卡后反而变慢？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j07",
+    "kind": "practice"
+  },
+  {
+    "id": "J08",
+    "title": "多模态模型在截图任务好，在真实相机输入差？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j08",
+    "kind": "practice"
+  },
+  {
+    "id": "J09",
+    "title": "Coding Agent通过了单元测试，为什么还不能合并？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j09",
+    "kind": "practice"
+  },
+  {
+    "id": "J10",
+    "title": "如果入职后要独立做一项研究，你怎么选题？",
+    "path": "docs/preparation/projects-and-system-design.md",
+    "anchor": "j10",
+    "kind": "practice"
+  }
+]

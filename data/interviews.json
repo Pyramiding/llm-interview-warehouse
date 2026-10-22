@@ -1,0 +1,744 @@
+[
+  {
+    "id": "INT001",
+    "title": "理想+ 大模型面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/9541c5c4a7254d7296a3b34ae675e355",
+    "year": 2023,
+    "published": "2023-11-02",
+    "event_date": "2023-10-10",
+    "companies": [
+      "理想"
+    ],
+    "role": "大模型应用/算法",
+    "topics": [
+      "02",
+      "03",
+      "06",
+      "08",
+      "11",
+      "15"
+    ],
+    "summary": "以 NL2SQL 项目为主，涉及数据构造、底座选择、SFT、推理步骤、评测与上线资源。",
+    "reading_tip": "练习用一个输入输出样例走通链路，并说明指标局限。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "原文记载一面10.10、二面10.13；年份结合发帖时间。企业与结果为作者自述。"
+  },
+  {
+    "id": "INT002",
+    "title": "2023秋招nlp算法面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/3bda1df276f846bda205394f0ee76c84",
+    "year": 2023,
+    "published": "2023-10-25",
+    "event_date": null,
+    "companies": [
+      "多家公司（未逐题归属）"
+    ],
+    "role": "NLP算法",
+    "topics": [
+      "01",
+      "03",
+      "05",
+      "09"
+    ],
+    "summary": "汇总注意力、归一化、PEFT、DeepSpeed 以及多道算法手写题。",
+    "reading_tip": "把架构解释、张量形状和可运行代码串起来；不能把全部题归给某一家企业。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT003",
+    "title": "金山nlp算法",
+    "url": "https://www.nowcoder.com/feed/main/detail/eacf3c402e8c4d029e8551cb6fec747a",
+    "year": 2023,
+    "published": "2023-10-12",
+    "event_date": "2023-09-26",
+    "companies": [
+      "金山办公"
+    ],
+    "role": "NLP算法",
+    "topics": [
+      "01",
+      "02",
+      "04",
+      "09"
+    ],
+    "summary": "两轮涉及 mask、位置编码、数据加载、极端样本不均衡和 RLHF。",
+    "reading_tip": "纠正原帖可能的术语笔误，按论文理解 mask 与归一化；复习传统 NLP。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT004",
+    "title": "百度2024秋招机器学习一面面经",
+    "url": "https://www.nowcoder.com/discuss/519497796483858432",
+    "year": 2023,
+    "published": "2023-08-16",
+    "event_date": null,
+    "companies": [
+      "百度"
+    ],
+    "role": "机器学习/数据挖掘/NLP-T",
+    "topics": [
+      "02",
+      "04",
+      "15"
+    ],
+    "summary": "在传统机器学习项目讨论中穿插大模型与 RLHF。",
+    "reading_tip": "标题的2024是招聘届次，不能当作面试发生年份。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT005",
+    "title": "百度昆仑芯-深度学习框架高性能研发实习生面经",
+    "url": "https://www.nowcoder.com/discuss/538309440781537280",
+    "year": 2023,
+    "published": "2023-10-02",
+    "event_date": null,
+    "companies": [
+      "百度昆仑芯"
+    ],
+    "role": "框架/高性能研发实习",
+    "topics": [
+      "01",
+      "08",
+      "09",
+      "10"
+    ],
+    "summary": "覆盖 Transformer、量化、TVM、容器及 C++/Python 基础。",
+    "reading_tip": "Infra 岗要补工程语言与系统知识；不能仅背模型公式。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT006",
+    "title": "NLP & 大模型春招记录",
+    "url": "https://www.nowcoder.com/discuss/601149086300971008",
+    "year": 2024,
+    "published": "2024-04-15",
+    "event_date": null,
+    "companies": [
+      "蔚来",
+      "金山",
+      "OPPO",
+      "三星西安研究所",
+      "摩尔线程",
+      "携程",
+      "Shopee"
+    ],
+    "role": "NLP/多模态/机器学习",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "08",
+      "09",
+      "10",
+      "12"
+    ],
+    "summary": "长篇多公司复盘，贯穿架构、LoRA/QLoRA、训练显存、ZeRO、长上下文及手写注意力。",
+    "reading_tip": "按公司和轮次回原帖阅读；页面显示已编辑日期，不等于初次发布。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面显示2024-04-15已编辑，面试主要在3月至4月。题目及结果为作者自述；原帖部分技术说法需要用一手文献纠正。"
+  },
+  {
+    "id": "INT007",
+    "title": "上海人工智能实验室大模型算法实习面经",
+    "url": "https://www.nowcoder.com/discuss/601548478774304768?sourceSSR=subject",
+    "year": 2024,
+    "published": "2024-03-24",
+    "event_date": null,
+    "companies": [
+      "上海人工智能实验室"
+    ],
+    "role": "大模型算法实习/预训练",
+    "topics": [
+      "02",
+      "03",
+      "04",
+      "13"
+    ],
+    "summary": "细问 RLHF 目标、KL、PPO 比率、奖励模型、数据质量和安全过滤。",
+    "reading_tip": "重点练公式中每个分布的角色以及数据过滤的精确率/召回率权衡。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "搜索结果提供较完整正文；直接打开页面只返回导航，未据此宣称全文访问。"
+  },
+  {
+    "id": "INT008",
+    "title": "大模型基础架构岗面经（二）",
+    "url": "https://www.nowcoder.com/discuss/656279057671155712",
+    "year": 2024,
+    "published": "2024-08-22",
+    "event_date": null,
+    "companies": [
+      "未明确"
+    ],
+    "role": "大模型基础架构",
+    "topics": [
+      "02",
+      "05",
+      "08",
+      "09"
+    ],
+    "summary": "涉及并行策略、显存优化、Scaling Law、ZeRO 和长文本训练。",
+    "reading_tip": "以硬件、通信和序列长度为约束解释策略选择，避免只列并行缩写。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "检索摘要含正文；打开受限。企业名称未明确，不推测。"
+  },
+  {
+    "id": "INT009",
+    "title": "阿里斑马智行 - NLP算法工程师面经",
+    "url": "https://www.nowcoder.com/discuss/677124510016962560",
+    "year": 2024,
+    "published": null,
+    "event_date": "2024-10-11",
+    "companies": [
+      "斑马智行"
+    ],
+    "role": "NLP算法",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "06",
+      "13"
+    ],
+    "summary": "两轮涉及 SFT、DPO/PPO、长文本与 RAG、收敛判断、过拟合及 PyTorch。",
+    "reading_tip": "用验证集与测试集职责解释实验设计；面试日期取正文而非评论。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "搜索结果可见一面2024-10-11、二面2024-10-17；页面直接访问受限，发布日期不确定。"
+  },
+  {
+    "id": "INT010",
+    "title": "字节 大模型算法 一二三面 面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/ef14567a048e4e3fa30cbe28eb5c59e3",
+    "year": 2024,
+    "published": "2024-08-20",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "大模型算法",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "15"
+    ],
+    "summary": "多轮算法岗位记录，包含端到端大模型与多个小模型的方案比较。",
+    "reading_tip": "训练之外还要准备延迟、维护、数据量和误差传播等取舍。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT011",
+    "title": "美团到店-大模型算法面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/e63b60a0727f4117a3c8ed9381719d66",
+    "year": 2024,
+    "published": "2024-08-30",
+    "event_date": null,
+    "companies": [
+      "美团到店"
+    ],
+    "role": "大模型算法/安全",
+    "topics": [
+      "04",
+      "13"
+    ],
+    "summary": "涉及对大模型安全范围的理解。",
+    "reading_tip": "把输入、模型、工具和数据权限的安全分层展开，答案不要停留在敏感词。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT012",
+    "title": "大模型实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/1f93defebd7e4d4c93aaaa2eafcfd5ff",
+    "year": 2024,
+    "published": "2024-06-19",
+    "event_date": null,
+    "companies": [
+      "未明确"
+    ],
+    "role": "大模型实习",
+    "topics": [
+      "02",
+      "03",
+      "06",
+      "15"
+    ],
+    "summary": "出现以一万份 PDF 构建垂直领域模型的开放场景题。",
+    "reading_tip": "先判断知识更新和行为适配需求，再选 RAG、继续预训练或 SFT。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT013",
+    "title": "达摩院 暑期实习 决策智能实验室 大模型算法",
+    "url": "https://www.nowcoder.com/discuss/611678861075521536?sourceSSR=subject",
+    "year": 2024,
+    "published": "2024-04-21",
+    "event_date": "2024-03-20",
+    "companies": [
+      "阿里达摩院"
+    ],
+    "role": "决策智能/大模型算法",
+    "topics": [
+      "02",
+      "04",
+      "11",
+      "13",
+      "15"
+    ],
+    "summary": "围绕数学教育场景、RLHF、CoT、幻觉、论文贡献及 NumPy 操作追问。",
+    "reading_tip": "将研究兴趣落成可检验的任务、基线、数据与评价方法。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT014",
+    "title": "滴滴大模型一面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/de165d62324c4e3493e45b421e0e2a79",
+    "year": 2024,
+    "published": "2024-08-15",
+    "event_date": "2024-08-13",
+    "companies": [
+      "滴滴"
+    ],
+    "role": "大模型算法",
+    "topics": [
+      "01",
+      "04",
+      "11",
+      "13"
+    ],
+    "summary": "考查奖励模型、DPO 长度变化、指令跟随/数学评测、学习率与手写注意力。",
+    "reading_tip": "区分不同 benchmark 的任务定义；不要把原帖提问中的隐含前提当成事实。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT015",
+    "title": "网易有道 多模态实习（20250120）",
+    "url": "https://www.nowcoder.com/feed/main/detail/47856df8818c4ac59c47a8299bc98e7b",
+    "year": 2025,
+    "published": "2025-02-21",
+    "event_date": "2025-01-20",
+    "companies": [
+      "网易有道"
+    ],
+    "role": "OCR/多模态实习",
+    "topics": [
+      "01",
+      "06",
+      "12"
+    ],
+    "summary": "考查 embedding 与 reranker、BLIP、视觉文本融合以及多头注意力。",
+    "reading_tip": "讲清训练目标、连接模块、模态 token 形状和任务差异。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT016",
+    "title": "阿里云 AI平台研发 一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/7fa8ae2f1c2e42909e664dce6cbc8190",
+    "year": 2025,
+    "published": "2025-03-04",
+    "event_date": null,
+    "companies": [
+      "阿里云"
+    ],
+    "role": "AI平台研发",
+    "topics": [
+      "01",
+      "06",
+      "07",
+      "13",
+      "15"
+    ],
+    "summary": "从 RAG 项目延伸到多路召回、MRR、双塔、ES 以及后端系统。",
+    "reading_tip": "应用岗位要能解释业务人群、数据规模和系统选型，不能只讲框架。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT017",
+    "title": "字节 腾讯 小红书 一面面经 + 字节二面 + 字节hr面",
+    "url": "https://www.nowcoder.com/discuss/725486180468383744?sourceSSR=dynamic",
+    "year": 2025,
+    "published": "2025-03-05",
+    "event_date": null,
+    "companies": [
+      "字节跳动",
+      "腾讯",
+      "小红书"
+    ],
+    "role": "算法/多模态实习",
+    "topics": [
+      "01",
+      "04",
+      "12",
+      "13"
+    ],
+    "summary": "较长项目深挖，穿插 LLaVA、BLIP2/Q-Former、DPO/PPO 与图像质量分析场景。",
+    "reading_tip": "准备论文贡献和无额外人工标注条件下的实验设计。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT018",
+    "title": "整理下近期的大模型日常实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/44b2baec47c740c4b9bccb8a013abd56",
+    "year": 2025,
+    "published": "2025-05-07",
+    "event_date": null,
+    "companies": [
+      "字节跳动",
+      "百度",
+      "快手"
+    ],
+    "role": "大模型/多模态日常实习",
+    "topics": [
+      "01",
+      "05",
+      "06",
+      "07",
+      "12"
+    ],
+    "summary": "跨公司记录涉及 MoE、RAG、工具调用、CLIP/BLIP 和视频应用场景。",
+    "reading_tip": "把对比学习、视觉编码器与多模态连接方式串联复习。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT019",
+    "title": "已拒offer:美团北斗大模型面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/9a16bab549424dc98a11cf6b7c5bbe2a",
+    "year": 2025,
+    "published": "2025-06-06",
+    "event_date": null,
+    "companies": [
+      "美团"
+    ],
+    "role": "大模型/多模态/研究",
+    "topics": [
+      "03",
+      "12",
+      "13",
+      "15"
+    ],
+    "summary": "论文和实习深挖，涉及多模态对抗研究、soft prompt、多目标训练和创新点。",
+    "reading_tip": "研究面重点准备贡献归因、基线和失败分析；原帖含辅导推广，结果不独立核实。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT020",
+    "title": "大模型应用工程师面经~ AI相关岗位内推",
+    "url": "https://www.nowcoder.com/discuss/779119510631563264?sourceSSR=subject",
+    "year": 2025,
+    "published": "2025-07-27",
+    "event_date": null,
+    "companies": [
+      "未逐题明确"
+    ],
+    "role": "大模型应用/训练工程",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "09"
+    ],
+    "summary": "汇集 R1 冷启动、MLA、精度格式、显存、遗忘、AMP 与 ZeRO 等题。",
+    "reading_tip": "原帖含内推与术语笔误，按技术主题学习，不据此认定题目归属。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT021",
+    "title": "大模型应用开发面经（5年经验）",
+    "url": "https://www.nowcoder.com/feed/main/detail/129eaa1c20444651ac3b932e200d3da4",
+    "year": 2025,
+    "published": "2025-07-27",
+    "event_date": null,
+    "companies": [
+      "多家公司（未逐题归属）"
+    ],
+    "role": "大模型应用开发/社招",
+    "topics": [
+      "03",
+      "06",
+      "07",
+      "08",
+      "13"
+    ],
+    "summary": "面向社招应用岗，涵盖 Agent 框架、MCP、RAG、推理参数和项目效果。",
+    "reading_tip": "把作者个人招聘体验与可验证技术结论分开；优先练项目效果闭环。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT022",
+    "title": "得物-算法平台-AI算法工程实习生 面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/ba4249c6ea534790b0d0770dc339566b",
+    "year": 2025,
+    "published": "2025-07-29",
+    "event_date": "2025-07-10",
+    "companies": [
+      "得物"
+    ],
+    "role": "AI算法工程/部署优化",
+    "topics": [
+      "08",
+      "09",
+      "10",
+      "12"
+    ],
+    "summary": "问推理优化、端侧部署、CUDA、多卡经验和商品理解相关项目。",
+    "reading_tip": "如实区分做过、用过和仅了解的内容，工程面可据实谈排障。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT023",
+    "title": "Shopee多模态大模型实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/a7bc823430d646cd876d46035eb0caa0",
+    "year": 2025,
+    "published": "2025-10-19",
+    "event_date": null,
+    "companies": [
+      "Shopee"
+    ],
+    "role": "多模态大模型实习",
+    "topics": [
+      "01",
+      "03",
+      "12"
+    ],
+    "summary": "项目与论文为主，穿插归一化、残差连接、LoRA 位置和初始化。",
+    "reading_tip": "准备初始化为何保持初始模型行为、哪些层值得注入适配器。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT024",
+    "title": "字节筋斗云计划面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/5cdc00cc16ff4b16aac7d69b37db6b8d",
+    "year": 2025,
+    "published": "2025-10-26",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "算法/研究项目",
+    "topics": [
+      "02",
+      "04",
+      "12"
+    ],
+    "summary": "围绕 GRPO、视觉 grounding、数据飞轮和概率动态规划。",
+    "reading_tip": "原帖带有“某算法不能用于某场景”的提问前提；作答应分析假设而非直接接受。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT025",
+    "title": "26届秋招｜字节大模型算法岗面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/029a292419294b4a8227acde5a00124b",
+    "year": 2025,
+    "published": "2025-11-01",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "大模型算法/秋招",
+    "topics": [
+      "01",
+      "02",
+      "04",
+      "07",
+      "11"
+    ],
+    "summary": "多轮涉及训练数据管线、GRPO、R1 奖励、Agent 和手写 MHA。",
+    "reading_tip": "26届是毕业届次；实际页面日期是2025年。原帖含辅导推广。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面内容属于作者自述，未向企业独立核实。"
+  },
+  {
+    "id": "INT026",
+    "title": "字节 260901 一面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/fa50ef5521f84cb788f911cd31e5a98a",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-09-01",
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "AI大模型开发平台/后端",
+    "topics": [
+      "06",
+      "07",
+      "13",
+      "14"
+    ],
+    "summary": "围绕 Agent 回归评测、RAG 切分、线上反馈、长程轨迹和框架选型。",
+    "reading_tip": "原帖标题为260901，当前页面10-04已编辑；二次汇编曾标成10月面试，应保留冲突。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "面试日期由标题解析；页面仅显示10-04已编辑、未显年份；年份由标题260901确定。未用推荐区转载日期替代。"
+  },
+  {
+    "id": "INT027",
+    "title": "面经复盘（2026.5.7）",
+    "url": "https://www.nowcoder.com/feed/main/detail/124b6e9db981458e839e1771d9b4da04",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-05-07",
+    "companies": [
+      "北京星龙数智科技"
+    ],
+    "role": "后端/大模型应用实习",
+    "topics": [
+      "06",
+      "07",
+      "15"
+    ],
+    "summary": "以 Java 工程基础为主，另有 RAG 文档处理、低质量与低召回排查。",
+    "reading_tip": "适合后端转应用岗，说明基础系统能力仍然影响面试。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "正文明确面试时间2026-05-07；页面显示09-21发帖，年份未单列，不填写精确发布日期。"
+  },
+  {
+    "id": "INT028",
+    "title": "27实习快手NLP算法面经分享",
+    "url": "https://www.nowcoder.com/feed/main/detail/dcad6dc4e9fb4acfa1a11b1dae95b6cc",
+    "year": 2026,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "快手"
+    ],
+    "role": "NLP算法实习",
+    "topics": [
+      "02",
+      "03",
+      "04",
+      "12",
+      "13"
+    ],
+    "summary": "考查基座模型选择、全参与 LoRA、数据多样性、复读幻觉以及何时进入 RL。",
+    "reading_tip": "适合练数据诊断和阶段切换标准；不要把汇编的日期直接当面试日期。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "原页面仅显示04-28，按27届实习语境推断归入2026；未确认精确面试日。二次汇编标05-07，与原页显示不同。"
+  },
+  {
+    "id": "INT029",
+    "title": "秋招实录｜连面3场AI-Agent后端岗",
+    "url": "https://www.nowcoder.com/discuss/919608103723622400?sourceSSR=post",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-08",
+    "companies": [
+      "网易（可见片段）",
+      "其他企业待原文核实"
+    ],
+    "role": "AI Agent后端/校招",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "summary": "可见片段涉及框架选型、工具输出校验、向量库分片和召回速度。",
+    "reading_tip": "搜索可见范围仅详细展开网易场次；不补写其余两场企业与题目。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "正文片段明确2026-08与27届背景；直接打开只返回导航。页面08-19未单列年份，发布日期留空。"
+  },
+  {
+    "id": "INT030",
+    "title": "后端/全栈面经一次性放出",
+    "url": "https://www.nowcoder.com/discuss/932058602422956032?sourceSSR=post",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-07至2026-09",
+    "companies": [
+      "字节跳动",
+      "哔哩哔哩",
+      "美团",
+      "百度",
+      "其他公司"
+    ],
+    "role": "后端/Agent/AI Coding",
+    "topics": [
+      "06",
+      "07",
+      "13",
+      "14",
+      "15"
+    ],
+    "summary": "多公司自述覆盖 Agent 合法输出、跨模型工作流、AI Coding、RAG 及大量工程基础。",
+    "reading_tip": "面向工程岗应练习架构和边界；大模型相关问题仅占原帖部分。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "正文多处明确2026年面试；当前页面09-24已编辑，发布日期未单列年份。"
+  }
+]
