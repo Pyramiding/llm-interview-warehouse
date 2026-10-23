@@ -32,7 +32,7 @@
 
 - [INT047 · 字节【大模型评测平台】产品岗-面试总结与复盘](README.md#int047) — 2024；opened
 
-## 牛客（30条记录）
+## 牛客（37条记录）
 
 - [INT001 · 理想+ 大模型面经](README.md#int001) — 2023；opened
 - [INT002 · 2023秋招nlp算法面经](README.md#int002) — 2023；search_excerpt
@@ -64,8 +64,15 @@
 - [INT028 · 27实习快手NLP算法面经分享](README.md#int028) — 2026；opened
 - [INT029 · 秋招实录｜连面3场AI-Agent后端岗](README.md#int029) — 2026；search_excerpt
 - [INT030 · 后端/全栈面经一次性放出](README.md#int030) — 2026；opened
+- [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101) — 2025；opened
+- [INT102 · 京东广告算法日常实习二面(业务面)](README.md#int102) — 2024；search_excerpt
+- [INT103 · 字节广告算法中台秋招面经](README.md#int103) — 2025；opened
+- [INT104 · OC了，分享一下美团智能客服面经](README.md#int104) — 2023；search_excerpt
+- [INT105 · 快手 推荐大模型 三面 面经](README.md#int105) — 2024；opened
+- [INT111 · 算法岗-日常实习-面经](README.md#int111) — 2025；opened
+- [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112) — 2026；opened
 
-## 知乎（15条记录）
+## 知乎（20条记录）
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031) — 2023；opened
 - [INT032 · 分享俩挂得很彻底的挂经，xAI & 英伟达](README.md#int032) — 2023；opened
@@ -82,10 +89,18 @@
 - [INT044 · 大模型面经-腾讯混元](README.md#int044) — 2025；search_excerpt
 - [INT045 · 大模型面经-美团](README.md#int045) — 2025；search_excerpt
 - [INT048 · 国内20家公司大模型岗位面试经验汇总](README.md#int048) — 年份未确认；search_excerpt
+- [INT106 · 淘天大模型面经：搜推智能产品事业部多模态方向（编目标题）](README.md#int106) — 年份未确认；opened
+- [INT107 · 通义实验室大模型三面记录（编目标题）](README.md#int107) — 年份未确认；search_excerpt
+- [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108) — 2023；opened
+- [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109) — 年份未确认；opened
+- [INT110 · MiniMax：HPC / MLSys 面经（编目标题）](README.md#int110) — 年份未确认；opened
 
-## 脉脉（1条记录）
+## 脉脉（4条记录）
 
 - [INT046 · 字节大模型面试经历分享](README.md#int046) — 2025；opened
+- [INT113 · 快手三面](README.md#int113) — 2024；opened
+- [INT114 · 面试字节大模型（LLMs）RAG被问麻了](README.md#int114) — 2025；opened
+- [INT115 · 网易大模型面经 刷到就是老天在救你](README.md#int115) — 2024；opened
 
 ## 二次汇编与学习资料（不计为亲历面经）
 
@@ -123,6 +138,18 @@
 ### 其他公开来源
 
 - [RES007 · 面试面经｜大模型面试八股含答案](https://www.cvmart.net/community/detail/7940) — interview_collection；search_excerpt
+- [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](https://mj.mianlingai.com/interview/kuaishou-ai-fullstack-first-round-2920564/) — interview_collection；opened
+- [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](https://kkcocoa.github.io/ai-infra-field-notes/web/docs/interview/recent-field-reports.html) — interview_collection；opened
+
+### 微信公众号
+
+- [RES204 · 阿里面试官追问：Code Agent 跑到一半挂了，怎么恢复而且不重复执行？](https://mp.weixin.qq.com/s/ZEnLKeBzcPEi4aozwqgrJg) — interview_collection；metadata_only
+- [RES205 · 阿里面试官追问：Code Agent 为什么不能直接给它 root 权限？](https://mp.weixin.qq.com/s/zjcDUcA00S8d7y_KZmSiLg) — interview_collection；metadata_only
+- [RES206 · 问的最多的大模型 Agent 算法面试题：设计Agent记忆系统？](https://mp.weixin.qq.com/s/un7kxtWpzn3uuon7MZu29A) — interview_collection；metadata_only
+- [RES207 · 字节 Agent 岗二面：RAG 的 Top-K 是不是越大越好？](https://mp.weixin.qq.com/s/J8JfTyQ0cf95vZ_WoOk4PA) — interview_collection；metadata_only
+- [RES208 · 淘天一面最高频：多Agent怎么协作？99%的人答错了第一步](https://mp.weixin.qq.com/s/2pVa6s1hZu5NoUPyJfySSA) — interview_collection；metadata_only
+- [RES209 · 秋招大模型agent算法面经整理](https://mp.weixin.qq.com/s/vVAkHo6SlAc1uHgkhInAJw) — interview_collection；metadata_only
+- [RES210 · 大模型 Agent 面试高频100题——基础篇](https://mp.weixin.qq.com/s/Lv5n69-o-j8B_mp6636qlw) — interview_collection；metadata_only
 
 ### 掘金
 
@@ -132,6 +159,11 @@
 ### 牛客
 
 - [RES008 · 字节校招面试官划重点](https://www.nowcoder.com/discuss/534332638086148096) — preparation_resource；search_excerpt
+- [RES201 · 支付宝营销产品AI+营销产品面经 二面](https://www.nowcoder.com/discuss/797130657037058048) — interview_collection；search_excerpt
+- [RES202 · 美团大模型产品面经](https://www.nowcoder.com/discuss/794983760348323840) — interview_collection；opened
+- [RES216 · 蚂蚁集团 AI Agent 开发：复活赛深挖 CR Agent，问得比任何一家都深](https://www.nowcoder.com/discuss/938917486311825408) — interview_collection；opened
+- [RES217 · 字节 AI Agent 开发 一面（抖音电商 · 一面掉池子里面了）](https://www.nowcoder.com/discuss/932407145864130560) — interview_collection；opened
+- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](https://www.nowcoder.com/discuss/863386997749051392) — preparation_resource；search_excerpt
 
 ### 知乎
 
@@ -145,15 +177,28 @@
 - [RES111 · 字节-大模型产品经理面经&已入职](https://zhuanlan.zhihu.com/p/1939023208675251496) — interview_collection；search_excerpt
 - [RES112 · 智普AIGC产品实习生上岸面经（已拿offer）](https://zhuanlan.zhihu.com/p/718606787) — interview_collection；search_excerpt
 - [RES113 · 2024年LLM实习岗面经（一名大四学生的碎碎念）](https://zhuanlan.zhihu.com/p/13549947405) — preparation_resource；search_excerpt
+- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](https://zhuanlan.zhihu.com/p/683860215) — interview_collection；search_excerpt
+- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](https://zhuanlan.zhihu.com/p/705847442) — interview_collection；opened
+- [RES213 · 字节多模态算法面试转述（编目标题）](https://zhuanlan.zhihu.com/p/703505786) — interview_collection；search_excerpt
+- [RES214 · 淘天算法岗两轮面试转述（编目标题）](https://zhuanlan.zhihu.com/p/748669057) — interview_collection；search_excerpt
+- [RES215 · 回忆 LLM 推理优化实习招聘：面试官视角与 CUTLASS 问答（编目标题）](https://zhuanlan.zhihu.com/p/23109780409) — preparation_resource；search_excerpt
+- [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](https://zhuanlan.zhihu.com/p/688624199) — interview_collection；opened
+- [RES221 · RL Interview Questions 2026（知乎中文版线索）](https://zhuanlan.zhihu.com/p/2046740446353811230) — interview_collection；search_excerpt
 
 ### 脉脉
 
 - [RES101 · 爆料阿里大模型二面面经](https://maimai.cn/article/detail?efid=d4IUNQ1B6eQV1Q0AHoc05Q&fid=1886178001) — interview_collection；opened
 - [RES102 · 字节大模型算法实习岗面经](https://maimai.cn/article/detail?efid=k92vRsIeGQp3tcuZmijWPw&fid=1868316767) — interview_collection；opened
 - [RES103 · 百度大模型面经流程内容爆料](https://maimai.cn/article/detail?efid=J8J-bnh6hJar4r7MsytWlw&fid=1886334696) — interview_collection；opened
+- [RES222 · 爆料美团大模型算法面经](https://maimai.cn/article/detail?efid=PYiKFP7lu0E6qJv-qmdrGg&fid=1886172297) — interview_collection；opened
+- [RES223 · 快手大模型算法面经爆料](https://maimai.cn/article/detail?efid=GFkBvvFRRFde7pIL_6W76w&fid=1886162560) — interview_collection；opened
+- [RES224 · 腾讯青云面试经验爆料](https://maimai.cn/article/detail?efid=z2SwqbKDABVjHKCl-WQjrQ&fid=1886162446) — interview_collection；opened
+- [RES225 · 得物-算法工程师面经（本人大模型方向）](https://maimai.cn/article/detail?efid=9doXZsjxTubIY101QN3Z4w&fid=1883689082) — interview_collection；opened
+- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](https://maimai.cn/article/detail?efid=YtzWOuNqe9-yvP6SDq2gzQ&fid=1860907933) — interview_collection；opened
+- [RES227 · 字节面试（ai 算法岗）](https://maimai.cn/article/detail?efid=BOclibqdjcktH7_Z2lPUPg&fid=1887131994) — interview_collection；opened
 
-## 尚无可核验面经的平台
+## 尚无公开自述记录的平台
 
-以下平台即使有检索尝试也不能据此声称已覆盖：GitHub、小红书、微信公众号、掘金
+以下平台即使有汇编、元数据或检索尝试，也不能据此声称已有亲历原帖覆盖：GitHub、小红书、微信公众号、掘金
 
-详见[检索覆盖与限制](../research-platforms-a.md)及[其他公开平台检索](../research-platforms-b.md)。
+详见[本轮检索与限制](../platform-expansion-2026-10-23.md)、[首次平台检索](../research-platforms-a.md)及[其他公开平台检索](../research-platforms-b.md)。

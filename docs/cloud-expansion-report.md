@@ -1,5 +1,7 @@
 # 2026-10-22 云端扩充交付记录
 
+本页保留前一轮整理快照；最新增补与平台限制见[2026-10-23更新记录](platform-expansion-2026-10-23.md)。
+
 [返回首页](../README.md) · [按公司查面经](interviews/by-company.md) · [按平台查资料](interviews/by-platform.md) · [全部题目](question-index.md)
 
 ## 发布状态

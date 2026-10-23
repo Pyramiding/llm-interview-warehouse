@@ -32,6 +32,10 @@
 
 - [IB008 · Meta onsite E5 MLE 多半挂经](README.md#ib008) — 2025；search_excerpt
 
+## HPC/MLSys/大模型推理优化（1条记录）
+
+- [INT110 · MiniMax：HPC / MLSys 面经（编目标题）](README.md#int110) — 年份未确认；opened
+
 ## LLM Inference/Serving/ML Systems（1条记录）
 
 - [IB012 · 赛博土木LLM Inference Role面试总结](README.md#ib012) — 年份未确认；opened
@@ -55,6 +59,10 @@
 ## NLP/多模态/机器学习（1条记录）
 
 - [INT006 · NLP & 大模型春招记录](README.md#int006) — 2024；opened
+
+## NLP/大模型算法与 Agent 应用（1条记录）
+
+- [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108) — 2023；opened
 
 ## NLP/搜索/大模型实习（1条记录）
 
@@ -110,6 +118,10 @@
 
 - [INT023 · Shopee多模态大模型实习面经](README.md#int023) — 2025；search_excerpt
 
+## 大模型/RAG（具体岗位未列）（1条记录）
+
+- [INT114 · 面试字节大模型（LLMs）RAG被问麻了](README.md#int114) — 2025；opened
+
 ## 大模型/多模态/研究（1条记录）
 
 - [INT019 · 已拒offer:美团北斗大模型面经](README.md#int019) — 2025；search_excerpt
@@ -129,6 +141,10 @@
 ## 大模型实习（1条记录）
 
 - [INT012 · 大模型实习面经](README.md#int012) — 2024；search_excerpt
+
+## 大模型平台 Agentic 全栈研发实习（1条记录）
+
+- [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112) — 2026；opened
 
 ## 大模型应用/算法（1条记录）
 
@@ -173,6 +189,10 @@
 
 - [INT007 · 上海人工智能实验室大模型算法实习面经](README.md#int007) — 2024；search_excerpt
 
+## 大模型算法工程师（1条记录）
+
+- [INT115 · 网易大模型面经 刷到就是老天在救你](README.md#int115) — 2024；opened
+
 ## 大模型算法校招（1条记录）
 
 - [INT038 · 滴滴2025届秋招提前批大模型算法工程师](README.md#int038) — 2024；search_excerpt
@@ -185,9 +205,33 @@
 
 - [INT046 · 字节大模型面试经历分享](README.md#int046) — 2025；opened
 
+## 大语言模型算法（1条记录）
+
+- [INT107 · 通义实验室大模型三面记录（编目标题）](README.md#int107) — 年份未确认；search_excerpt
+
+## 广告算法/TAC（大模型与搜推交叉面）（1条记录）
+
+- [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101) — 2025；opened
+
+## 广告算法中台（1条记录）
+
+- [INT103 · 字节广告算法中台秋招面经](README.md#int103) — 2025；opened
+
+## 广告算法日常实习（1条记录）
+
+- [INT102 · 京东广告算法日常实习二面(业务面)](README.md#int102) — 2024；search_excerpt
+
+## 推荐大模型算法（1条记录）
+
+- [INT105 · 快手 推荐大模型 三面 面经](README.md#int105) — 2024；opened
+
 ## 搜广推算法校招/实习（1条记录）
 
 - [INT041 · 2025届搜广推算法方向求职历程（SSP、头部计划）](README.md#int041) — 2024；search_excerpt
+
+## 搜推智能产品事业部/多模态大模型（1条记录）
+
+- [INT106 · 淘天大模型面经：搜推智能产品事业部多模态方向（编目标题）](README.md#int106) — 年份未确认；opened
 
 ## 搜索推荐算法校招（1条记录）
 
@@ -196,6 +240,14 @@
 ## 文心一言大模型算法校招（1条记录）
 
 - [INT039 · 百度2025届秋招提前批文心一言大模型算法工程师](README.md#int039) — 2024；search_excerpt
+
+## 智能客服算法日常实习（1条记录）
+
+- [INT104 · OC了，分享一下美团智能客服面经](README.md#int104) — 2023；search_excerpt
+
+## 未明确（正文谈及视频理解大模型）（1条记录）
+
+- [INT113 · 快手三面](README.md#int113) — 2024；opened
 
 ## 未明确（面试体验复盘）（1条记录）
 
@@ -217,6 +269,10 @@
 
 - [INT034 · 英伟达, 深度学习框架岗工程师面经](README.md#int034) — 2023；search_excerpt
 
+## 电商搜广推/视觉语言大模型算法（1条记录）
+
+- [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109) — 年份未确认；opened
+
 ## 算法/多模态实习（1条记录）
 
 - [INT017 · 字节 腾讯 小红书 一面面经 + 字节二面 + 字节hr面](README.md#int017) — 2025；search_excerpt
@@ -224,3 +280,7 @@
 ## 算法/研究项目（1条记录）
 
 - [INT024 · 字节筋斗云计划面经](README.md#int024) — 2025；search_excerpt
+
+## 语音/时序算法实习为主，兼有大模型与其他算法岗位（1条记录）
+
+- [INT111 · 算法岗-日常实习-面经](README.md#int111) — 2025；opened

@@ -1,0 +1,121 @@
+{
+  "as_of": "2026-10-23",
+  "note": "本文件保存检索与排除日志；已收录条目以 interviews.json/resources.json 主表为准，不在本文件重复计数。",
+  "interview_ids": [
+    "INT106",
+    "INT107",
+    "INT108",
+    "INT109",
+    "INT110"
+  ],
+  "resource_ids": [
+    "RES211",
+    "RES212",
+    "RES213",
+    "RES214",
+    "RES215"
+  ],
+  "search_log": [
+    {
+      "query": "site:zhuanlan.zhihu.com 大模型 搜索 推荐 广告 面经 字节；site:zhuanlan.zhihu.com 大模型 增长 营销 算法 面经",
+      "findings": "中文宽检索常返回培训引流题库、传统搜推面经或既有条目，未直接新增可归为 LLM × 增长/营销技术亲历的记录。随后改用同站公开英文索引逐篇识别作者与经历主体。",
+      "limitations": "检索未命中不代表平台没有相关帖子；没有根据标题补出不可见题目。",
+      "urls": []
+    },
+    {
+      "query": "site:zhihu.com/en/article \"interview\" \"LoRA\"；site:zhihu.com/en/article \"interview\" \"Qwen\"",
+      "findings": "发现小森学 AI 的淘天搜推多模态及通义实验室三面，同一作者但不同岗位经历；均不在原有 59 篇清单。",
+      "limitations": "淘天正文可读；通义直接打开进入安全验证，仅索引内容可见。两篇仅见编辑时间，未填首次发布时间。",
+      "urls": [
+        "https://www.zhihu.com/en/article/26593966342",
+        "https://www.zhihu.com/en/article/27695292600"
+      ]
+    },
+    {
+      "query": "site:zhihu.com/en/article \"interview\" \"LLM\"；site:zhihu.com/en/article \"interview\" \"Search\" \"large models\"",
+      "findings": "发现 Neob0dy 拼多多多模态算法岗亲历，正文含技术面与职位说明，和社区 TEMU 转述文章为不同内容。",
+      "limitations": "仅见 2025-03-24 编辑日期，职位说明与实际提问分开编目；中文原链 403。",
+      "urls": [
+        "https://www.zhihu.com/en/article/32463510329"
+      ]
+    },
+    {
+      "query": "site:zhihu.com/en/article \"interview experience\" \"MiniMax\"",
+      "findings": "发现 Drew 的 MiniMax HPC/MLSys 一面亲历；公开英文正文可读，包含项目追问与具体推理系统主题。",
+      "limitations": "二面章节尚无内容；不将作者关于算子/框架的项目判断当成普适结论。",
+      "urls": [
+        "https://www.zhihu.com/en/article/1916169254023193052"
+      ]
+    },
+    {
+      "query": "site:zhihu.com/en/article \"interview\" \"DeepSpeed\"；site:zhihu.com/en/article \"interview\" \"RAG\"",
+      "findings": "发现学车辆算法工程师的多年更新日记，其中明确出现 2023 年大模型面试段落和后续系统、DPO 面试。",
+      "limitations": "主文与末尾其他文章日期不同；只记录主文编辑日期。跨年日记不按公司拆成多条，避免人为膨胀数量。",
+      "urls": [
+        "https://www.zhihu.com/en/article/450141617"
+      ]
+    },
+    {
+      "query": "site:zhihu.com/en/article \"interview\" \"recommendation\" \"LoRA\"；site:zhihu.com/en/article \"interview\" \"advertising\" \"Qwen\"",
+      "findings": "发现搜推/NLP/LLM 多岗位社区整理，收作资源；淘天及拼多多亲历与 LLM × 搜推方向直接相关。",
+      "limitations": "增长、营销命中多为运营职位或媒体人物访谈，不符合技术面经口径，未纳入；社区整理不能算独立面试候选人。",
+      "urls": [
+        "https://www.zhihu.com/en/article/683860215"
+      ]
+    },
+    {
+      "query": "site:zhihu.com/en/article \"Large Model Interview\"；site:zhihu.com/en/article \"interview experience\" \"DPO\"",
+      "findings": "识别字节多模态、淘天算法岗及 TEMU 专题为明确转述他人或社群整理，单列资源；面试官推理优化回忆归辅助阅读。",
+      "limitations": "安全验证或超时的页面仅用可见索引；具体经历真实性无法通过公共文章独立确认。",
+      "urls": [
+        "https://www.zhihu.com/en/article/703505786",
+        "https://www.zhihu.com/en/article/748669057",
+        "https://www.zhihu.com/en/article/705847442",
+        "https://www.zhihu.com/en/article/23109780409"
+      ]
+    },
+    {
+      "query": "site:zhihu.com/en/article \"interview\" \"GRPO\"；site:zhuanlan.zhihu.com \"2026年RL方向面经合集\"",
+      "findings": "发现 2026 RL 汇编与 RL Infra 标题线索，但另一研究分工已收录前者，本文件不重复添加；没有据二手目录生成未见题目。",
+      "limitations": "若原始正文不可见，仅目录日期不能视为论文或面经首次发文日期。",
+      "urls": [
+        "https://zhuanlan.zhihu.com/p/2046740446353811230",
+        "https://zhuanlan.zhihu.com/p/2049823086212542992"
+      ]
+    },
+    {
+      "query": "site:mp.weixin.qq.com 大模型 搜广推 面经；site:mp.weixin.qq.com 大模型 广告 算法 面经；site:mp.weixin.qq.com 大模型 营销 面经",
+      "findings": "宽检索以公众号索引/二手合集为主，未获得可独立确认为新亲历的公众号正文；主任务另有专人负责公众号目录。",
+      "limitations": "收到平台访问边界后，未用浏览器、命令行或其他表面读取/绕过 mp 微信正文；本文件没有公众号 opened 记录。",
+      "urls": []
+    },
+    {
+      "query": "GitHub AwesomeInterview 公开目录中的公众号原链核对（前期发现）",
+      "findings": "目录列出“说说我的实习面试历程，也许对你有帮助”及淘天大模型算法面试标题；只作为候选线索，不在未见正文时补题目或确认作者亲历。",
+      "limitations": "原链未取得相关正文；后续已停止直接读取 mp 正文。既有 AwesomeInterview 资源不重复添加。",
+      "urls": [
+        "https://mp.weixin.qq.com/s/4psrnFwGDriWrqAuiRFzTQ",
+        "https://mp.weixin.qq.com/s/sI74FEJ_l9p9IUxbdtP3Og"
+      ]
+    },
+    {
+      "query": "公开面经汇总页及 AI Infra field reports 的知乎原链核对",
+      "findings": "用于发现原链，排除了与既有 657826357、690801254、691407440 等相同作者/同文的转载或回答版本。",
+      "limitations": "二手汇总标题、日期与转载内容不能自动转成独立亲历证据；仅作为发现工具，未收作新的面经。",
+      "urls": [
+        "https://keepkeen.github.io/blog/llm-recruit-interview-roundup/",
+        "https://kkcocoa.github.io/ai-infra-field-notes/web/docs/interview/recent-field-reports.html",
+        "https://hub.baai.ac.cn/view/31151"
+      ]
+    },
+    {
+      "query": "site:zhihu.com/en/article \"interview\" \"marketing\" \"model\"；site:zhihu.com/en/article \"interview\" \"growth\" \"LLM\"",
+      "findings": "命中媒体人物访谈、运营/营销面试和不相关论文/课程，未找到足够证据新增 LLM × 增长/营销技术亲历。",
+      "limitations": "英文 interview 同时可能是求职面试与媒体访谈，逐条区分；搜索结果中相关内容推荐区不归入主文提问。",
+      "urls": [
+        "https://www.zhihu.com/en/article/658961575",
+        "https://www.zhihu.com/en/article/719419138"
+      ]
+    }
+  ]
+}

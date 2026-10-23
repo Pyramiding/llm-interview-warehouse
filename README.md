@@ -2,20 +2,22 @@
 
 **按研究方向分类的中文大模型面经与题解仓库。** 从公开面经找问法，从一手论文和官方文档校正答案，再用项目、手写和估算练习验证理解。
 
-资料查阅截止：**2026-10-22**。面经重点覆盖**2023—2026年**，必要基础文献追溯到更早年份。
+最近增补：**2026-10-23**。面经重点覆盖**2023—2026年**，必要基础文献追溯到更早年份；各来源实际查阅日逐条保留。
 
 <!-- STATS:START -->
-**59篇公开面经 · 23个专题 · 414道专题题解 + 26道项目/手写练习 · 281个去重来源链接**
+**74篇公开面经 · 23个专题 · 414道专题题解 + 26道项目/手写练习 · 323个去重来源链接**
 
-另附39个补充阅读入口；研究来源包含183个规范化链接。题目数不含追问；来源数按链接归一化，并非独立论文或企业真题数量。
+另附66个补充阅读入口（含仅元数据项）；研究来源包含183个规范化链接。题目数不含追问；来源数按链接归一化，并非独立论文或企业真题数量。
 <!-- STATS:END -->
 
 ## 从这里开始
 
 - **按目标公司准备：** [按公司查面经（跨公司导航）](docs/interviews/by-company.md)
+- **按公司与业务交叉查：** [公司×搜广推、增长、营销、风控、语音、客服](docs/interviews/company-direction.md)
 - **按资料范围筛选：** [来源平台](docs/interviews/by-platform.md) · [岗位](docs/interviews/by-role.md) · [年份](docs/interviews/by-year.md) · [业务领域](docs/interviews/by-domain.md)
 - **先看实际问法：** [公开面经索引](docs/interviews/README.md) · [按研究方向找面经](docs/interviews/by-topic.md) · [按公司找面经](docs/interviews/by-company.md)
-- **本轮更新：** [增量、检索缺口与验证报告](docs/cloud-expansion-report.md)
+- **补充汇编与解析：** [分级阅读入口](docs/interviews/resources.md)（含公众号原链与仅元数据项，不计亲历）
+- **本轮更新：** [2026-10-23平台增补、公司/方向入口与检索缺口](docs/platform-expansion-2026-10-23.md) · [前一轮扩充记录](docs/cloud-expansion-report.md)
 - **系统查漏补缺：** [全部题目与稳定ID](docs/question-index.md) · [来源目录](docs/source-catalog.md) · [覆盖范围与缺口](docs/coverage.md)
 - **开始练习：** [岗位路线与7/30天计划](docs/preparation/learning-paths.md) · [项目深挖与系统设计](docs/preparation/projects-and-system-design.md) · [手写题与定量估算](docs/preparation/coding-and-estimation.md)
 - **临面复习：** [30个易错结论](docs/preparation/quick-reference.md) · [收集与核验方法](docs/methodology.md)

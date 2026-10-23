@@ -1,5 +1,7 @@
 # 公开来源检索记录：GitHub、V2EX、掘金、CSDN、一亩三分地
 
+本页保留前一轮整理快照；最新增补与平台限制见[2026-10-23更新记录](platform-expansion-2026-10-23.md)。
+
 查阅日：2026-10-22（Asia/Shanghai）。这是本轮实际检索覆盖记录，不是平台完整抓取，也不是招聘市场样本。只有公开页面、公开可见首段和公开搜索片段；未登录、购买积分、获取付费答案或绕过访问限制。
 
 [全部公开面经合集](interviews/README.md) · [按公司查面经](interviews/by-company.md) · [完整来源目录](source-catalog.md)

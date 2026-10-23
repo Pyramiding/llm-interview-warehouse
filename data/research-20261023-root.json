@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-10-23",
+  "note": "本文件保存检索与排除日志；已收录条目以 interviews.json/resources.json 主表为准，不在本文件重复计数。",
+  "interview_ids": [
+    "INT101",
+    "INT102",
+    "INT103",
+    "INT104",
+    "INT105"
+  ],
+  "resource_ids": [
+    "RES201",
+    "RES202",
+    "RES203",
+    "RES204",
+    "RES205",
+    "RES206",
+    "RES207",
+    "RES208",
+    "RES209",
+    "RES210"
+  ],
+  "search_log": [
+    {
+      "query": "公众号面经及公开发布者目录",
+      "findings": "保留6个微信原始直链；仅核对发布者目录元数据。",
+      "limitations": "原文未读取；不计自述面经；目录含培训推广。",
+      "urls": [
+        "https://agentalpha.top/gzh",
+        "https://mp.weixin.qq.com/s/ZEnLKeBzcPEi4aozwqgrJg",
+        "https://mp.weixin.qq.com/s/zjcDUcA00S8d7y_KZmSiLg",
+        "https://mp.weixin.qq.com/s/un7kxtWpzn3uuon7MZu29A",
+        "https://mp.weixin.qq.com/s/J8JfTyQ0cf95vZ_WoOk4PA",
+        "https://mp.weixin.qq.com/s/2pVa6s1hZu5NoUPyJfySSA",
+        "https://mp.weixin.qq.com/s/vVAkHo6SlAc1uHgkhInAJw"
+      ]
+    },
+    {
+      "query": "大模型×广告/推荐/客服/增长/营销 面经",
+      "findings": "补5条牛客公开自述及3个分级资源；快手推荐转发追到原帖去重。",
+      "limitations": "京东广告、美团客服仅搜索正文片段；增长和营销产品资源与算法岗分开。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/5a84170b44414088a499aba903ce88a9",
+        "https://www.nowcoder.com/feed/main/detail/772d12d029c344729c46d4d68903f239",
+        "https://www.nowcoder.com/feed/main/detail/aa2752aa21f94b8f8527b24ff820483d",
+        "https://www.nowcoder.com/feed/main/detail/a525d27e7e3f4d67b99d27d7c46c7ff2",
+        "https://www.nowcoder.com/feed/main/detail/2f808b0007c14ad6950a604e1d17848c",
+        "https://www.nowcoder.com/discuss/797130657037058048",
+        "https://www.nowcoder.com/discuss/794983760348323840",
+        "https://mj.mianlingai.com/interview/kuaishou-ai-fullstack-first-round-2920564/"
+      ]
+    },
+    {
+      "query": "大模型 面经 mp.weixin.qq.com/s 公开原链回溯",
+      "findings": "杨夕Agent基础篇的公开转载给出具体微信原链。",
+      "limitations": "微信正文未读；不以转载时间补原发日，只列metadata_only资源。",
+      "urls": [
+        "https://jishuzhan.net/article/2054009908189204481",
+        "https://mp.weixin.qq.com/s/Lv5n69-o-j8B_mp6636qlw"
+      ]
+    }
+  ]
+}

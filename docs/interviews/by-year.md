@@ -4,7 +4,7 @@
 
 本页覆盖多家公司。企业、岗位及经历属于原作者自述；业务标签只依据可见标题、岗位或摘要中的明确词语，不据公司业务推断，每题也不自动归属公司。年份未知单列，资料年份不等于面试发生年份。
 
-## 2023（10条记录）
+## 2023（12条记录）
 
 - [INT001 · 理想+ 大模型面经](README.md#int001) — 2023；opened
 - [INT002 · 2023秋招nlp算法面经](README.md#int002) — 2023；search_excerpt
@@ -16,8 +16,10 @@
 - [INT033 · OpenAI，面试总结（非面经），挂了。](README.md#int033) — 2023；search_excerpt
 - [INT034 · 英伟达, 深度学习框架岗工程师面经](README.md#int034) — 2023；search_excerpt
 - [IB005 · 小众过经：LLM初创Mozilla.ai Research Scientist](README.md#ib005) — 2023；opened
+- [INT104 · OC了，分享一下美团智能客服面经](README.md#int104) — 2023；search_excerpt
+- [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108) — 2023；opened
 
-## 2024（19条记录）
+## 2024（23条记录）
 
 - [INT006 · NLP & 大模型春招记录](README.md#int006) — 2024；opened
 - [INT007 · 上海人工智能实验室大模型算法实习面经](README.md#int007) — 2024；search_excerpt
@@ -38,8 +40,12 @@
 - [IB003 · tt 2-2 LLM 面经1](README.md#ib003) — 2024；opened
 - [IB004 · Microsoft Research Intern PhD面试经过，纯数转LLM经验分享](README.md#ib004) — 2024；opened
 - [IB007 · 条纹MLE七轮面试完整过经](README.md#ib007) — 2024；opened
+- [INT102 · 京东广告算法日常实习二面(业务面)](README.md#int102) — 2024；search_excerpt
+- [INT105 · 快手 推荐大模型 三面 面经](README.md#int105) — 2024；opened
+- [INT113 · 快手三面](README.md#int113) — 2024；opened
+- [INT115 · 网易大模型面经 刷到就是老天在救你](README.md#int115) — 2024；opened
 
-## 2025（20条记录）
+## 2025（24条记录）
 
 - [INT015 · 网易有道 多模态实习（20250120）](README.md#int015) — 2025；search_excerpt
 - [INT016 · 阿里云 AI平台研发 一面](README.md#int016) — 2025；search_excerpt
@@ -61,8 +67,12 @@
 - [IB006 · Software Engineer第一次去ML Coding Interview的小小震撼](README.md#ib006) — 2025；opened
 - [IB008 · Meta onsite E5 MLE 多半挂经](README.md#ib008) — 2025；search_excerpt
 - [IB013 · 最近在面试AI Agent开发工程师](README.md#ib013) — 2025；opened
+- [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101) — 2025；opened
+- [INT103 · 字节广告算法中台秋招面经](README.md#int103) — 2025；opened
+- [INT111 · 算法岗-日常实习-面经](README.md#int111) — 2025；opened
+- [INT114 · 面试字节大模型（LLMs）RAG被问麻了](README.md#int114) — 2025；opened
 
-## 2026（8条记录）
+## 2026（9条记录）
 
 - [INT026 · 字节 260901 一面面经](README.md#int026) — 2026；opened
 - [INT027 · 面经复盘（2026.5.7）](README.md#int027) — 2026；opened
@@ -72,8 +82,13 @@
 - [IB002 · 盛大集团面经：Agent/全栈三轮复盘](README.md#ib002) — 2026；opened
 - [IB011 · 一个搜广推MLE在AI转型期的面试观察](README.md#ib011) — 2026；opened
 - [RES009 · 27届秋招大模型岗面经](README.md#res009) — 2026；opened
+- [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112) — 2026；opened
 
-## 年份未确认（2条记录）
+## 年份未确认（6条记录）
 
 - [INT048 · 国内20家公司大模型岗位面试经验汇总](README.md#int048) — 年份未确认；search_excerpt
 - [IB012 · 赛博土木LLM Inference Role面试总结](README.md#ib012) — 年份未确认；opened
+- [INT106 · 淘天大模型面经：搜推智能产品事业部多模态方向（编目标题）](README.md#int106) — 年份未确认；opened
+- [INT107 · 通义实验室大模型三面记录（编目标题）](README.md#int107) — 年份未确认；search_excerpt
+- [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109) — 年份未确认；opened
+- [INT110 · MiniMax：HPC / MLSys 面经（编目标题）](README.md#int110) — 年份未确认；opened

@@ -23,7 +23,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "原文记载一面10.10、二面10.13；年份结合发帖时间。企业与结果为作者自述。"
+    "note": "原文记载一面10.10、二面10.13；年份结合发帖时间。企业与结果为作者自述。",
+    "domains": []
   },
   {
     "id": "INT002",
@@ -47,7 +48,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT003",
@@ -71,7 +73,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT004",
@@ -94,7 +97,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT005",
@@ -118,7 +122,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT006",
@@ -152,7 +157,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "页面显示2024-04-15已编辑，面试主要在3月至4月。题目及结果为作者自述；原帖部分技术说法需要用一手文献纠正。"
+    "note": "页面显示2024-04-15已编辑，面试主要在3月至4月。题目及结果为作者自述；原帖部分技术说法需要用一手文献纠正。",
+    "domains": []
   },
   {
     "id": "INT007",
@@ -176,7 +182,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "搜索结果提供较完整正文；直接打开页面只返回导航，未据此宣称全文访问。"
+    "note": "搜索结果提供较完整正文；直接打开页面只返回导航，未据此宣称全文访问。",
+    "domains": []
   },
   {
     "id": "INT008",
@@ -200,7 +207,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "检索摘要含正文；打开受限。企业名称未明确，不推测。"
+    "note": "检索摘要含正文；打开受限。企业名称未明确，不推测。",
+    "domains": []
   },
   {
     "id": "INT009",
@@ -225,7 +233,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "搜索结果可见一面2024-10-11、二面2024-10-17；页面直接访问受限，发布日期不确定。"
+    "note": "搜索结果可见一面2024-10-11、二面2024-10-17；页面直接访问受限，发布日期不确定。",
+    "domains": []
   },
   {
     "id": "INT010",
@@ -249,7 +258,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT011",
@@ -271,7 +281,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT012",
@@ -295,7 +306,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT013",
@@ -320,7 +332,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT014",
@@ -344,7 +357,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT015",
@@ -367,7 +381,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT016",
@@ -392,7 +407,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT017",
@@ -418,7 +434,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT018",
@@ -445,7 +462,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT019",
@@ -469,7 +487,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT020",
@@ -494,7 +513,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT021",
@@ -519,7 +539,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT022",
@@ -543,7 +564,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT023",
@@ -566,7 +588,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT024",
@@ -589,7 +612,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT025",
@@ -614,7 +638,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面内容属于作者自述，未向企业独立核实。"
+    "note": "页面内容属于作者自述，未向企业独立核实。",
+    "domains": []
   },
   {
     "id": "INT026",
@@ -638,7 +663,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "面试日期由标题解析；页面仅显示10-04已编辑、未显年份；年份由标题260901确定。未用推荐区转载日期替代。"
+    "note": "面试日期由标题解析；页面仅显示10-04已编辑、未显年份；年份由标题260901确定。未用推荐区转载日期替代。",
+    "domains": []
   },
   {
     "id": "INT027",
@@ -661,7 +687,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "正文明确面试时间2026-05-07；页面显示09-21发帖，年份未单列，不填写精确发布日期。"
+    "note": "正文明确面试时间2026-05-07；页面显示09-21发帖，年份未单列，不填写精确发布日期。",
+    "domains": []
   },
   {
     "id": "INT028",
@@ -686,7 +713,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "原页面仅显示04-28，按27届实习语境推断归入2026；未确认精确面试日。二次汇编标05-07，与原页显示不同。"
+    "note": "原页面仅显示04-28，按27届实习语境推断归入2026；未确认精确面试日。二次汇编标05-07，与原页显示不同。",
+    "domains": []
   },
   {
     "id": "INT029",
@@ -710,7 +738,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "正文片段明确2026-08与27届背景；直接打开只返回导航。页面08-19未单列年份，发布日期留空。"
+    "note": "正文片段明确2026-08与27届背景；直接打开只返回导航。页面08-19未单列年份，发布日期留空。",
+    "domains": []
   },
   {
     "id": "INT030",
@@ -739,7 +768,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "正文多处明确2026年面试；当前页面09-24已编辑，发布日期未单列年份。"
+    "note": "正文多处明确2026年面试；当前页面09-24已编辑，发布日期未单列年份。",
+    "domains": []
   },
   {
     "id": "INT031",
@@ -786,7 +816,8 @@
     "verification": "opened",
     "note": "Rooters原作。公开英文页面 https://www.zhihu.com/en/article/657826357 可读，智源 https://hub.baai.ac.cn/view/31151 为Datawhale于2023-09-28转载，称源自微信公众号；只计一条。published为原作编辑日；面试约2023年3月起，精确日不详。原帖中的光年之外、360、腾讯、小红书为简历拒绝，未列入面试公司映射。企业/结果均为自述。 另核验CSDN转载 https://blog.csdn.net/2401_84204413/article/details/144358836 ，正文与本篇同源，2024-12-10为转载日；不重复计来源记录。",
     "platform": "知乎",
-    "author": "Rooters"
+    "author": "Rooters",
+    "domains": []
   },
   {
     "id": "INT032",
@@ -814,7 +845,8 @@
     "verification": "opened",
     "note": "原作者Rooters；知乎公开英文页 https://www.zhihu.com/en/article/658685266 与腾讯云 https://cloud.tencent.com/developer/article/2354049 正文可读。原作显示2023-09-27编辑；腾讯云同步于2023-11-02并标微信原始发表2023-10-30，均不是面试日。同源不另计。 与INT034同作者NVIDIA框架岗经历为不同岗位/不同文章，不能合并其RL与框架问题。",
     "platform": "知乎",
-    "author": "Rooters"
+    "author": "Rooters",
+    "domains": []
   },
   {
     "id": "INT033",
@@ -835,7 +867,8 @@
     "verification": "search_excerpt",
     "note": "Rooters自述；直接打开403，搜索片段可核验内推与onsite经历；技术岗位名称、面试日期未知。",
     "platform": "知乎",
-    "author": "Rooters"
+    "author": "Rooters",
+    "domains": []
   },
   {
     "id": "INT034",
@@ -858,7 +891,8 @@
     "verification": "search_excerpt",
     "note": "Rooters原帖搜索可见HM匹配框架岗位；同作者另一公开文章的相关推荐可见screen内容。直接正文不可得；发布日期为搜索显示/相关页编辑日，不等于面试日。 与INT032中NVIDIA Research Scientist的RL面不同，本篇为框架工程师，按独立公开文章记录。",
     "platform": "知乎",
-    "author": "Rooters"
+    "author": "Rooters",
+    "domains": []
   },
   {
     "id": "INT036",
@@ -888,7 +922,10 @@
     "verification": "search_excerpt",
     "note": "原帖作者“一个优秀的coder”；页面搜索显示2024-07-25编辑，标题2025为毕业届次。该页不同片段含8月/9月轮次，编辑日期与内容可能更新不同步，故不推定每轮年份/精确面试日。数组仅保留片段明确有轮次或offer的公司；其余简历拒绝未映射。",
     "platform": "知乎",
-    "author": "一个优秀的coder"
+    "author": "一个优秀的coder",
+    "domains": [
+      "搜索"
+    ]
   },
   {
     "id": "INT037",
@@ -914,7 +951,11 @@
     "verification": "search_excerpt",
     "note": "Cyril-KI自述；搜索可见2024-12-11编辑。2025是招聘届次；面试日未知，直接打开403。",
     "platform": "知乎",
-    "author": "Cyril-KI"
+    "author": "Cyril-KI",
+    "domains": [
+      "搜索",
+      "推荐"
+    ]
   },
   {
     "id": "INT038",
@@ -939,7 +980,8 @@
     "verification": "search_excerpt",
     "note": "Cyril-KI自述；2024-12-11为编辑日，片段提9.13 OC不等于面试日；2025是届次。直接正文403。",
     "platform": "知乎",
-    "author": "Cyril-KI"
+    "author": "Cyril-KI",
+    "domains": []
   },
   {
     "id": "INT039",
@@ -964,7 +1006,8 @@
     "verification": "search_excerpt",
     "note": "Cyril-KI自述；搜索可见2024-12-11编辑；2025是招聘届次，面试日未知。直接打开403。",
     "platform": "知乎",
-    "author": "Cyril-KI"
+    "author": "Cyril-KI",
+    "domains": []
   },
   {
     "id": "INT040",
@@ -990,7 +1033,10 @@
     "verification": "search_excerpt",
     "note": "CKLSniper记录；P7为作者标签而非官方职级认定。直接全文未取得，仅公开搜索片段；精确面试日未知。",
     "platform": "知乎",
-    "author": "CKLSniper"
+    "author": "CKLSniper",
+    "domains": [
+      "用户增长"
+    ]
   },
   {
     "id": "INT041",
@@ -1018,7 +1064,11 @@
     "verification": "search_excerpt",
     "note": "正文搜索明确2024年3月日常实习，2025为毕业届次/发布年。只映射片段明确公司，小红书为企业而非来源平台；精确面试日不详。",
     "platform": "知乎",
-    "author": null
+    "author": null,
+    "domains": [
+      "广告",
+      "推荐"
+    ]
   },
   {
     "id": "INT042",
@@ -1045,7 +1095,8 @@
     "verification": "search_excerpt",
     "note": "JerryYin777自述；已公开片段支持二十余场经历、研究背景及两家公司轮次，其余未明确的公司不补猜。百度Eval组工作描述是作者感受，不作事实承诺。",
     "platform": "知乎",
-    "author": "JerryYin777"
+    "author": "JerryYin777",
+    "domains": []
   },
   {
     "id": "INT043",
@@ -1069,7 +1120,8 @@
     "verification": "search_excerpt",
     "note": "作者“走丢的小公举”；搜索显示2025-07-04编辑，直接403。公司未在已取得片段明确，不推测。",
     "platform": "知乎",
-    "author": "走丢的小公举"
+    "author": "走丢的小公举",
+    "domains": []
   },
   {
     "id": "INT044",
@@ -1094,7 +1146,8 @@
     "verification": "search_excerpt",
     "note": "作者小森学AI；2025-03-13为页面编辑时间。仅搜索片段，不独立核验其亲历身份或企业流程；面试日未知。",
     "platform": "知乎",
-    "author": "小森学AI"
+    "author": "小森学AI",
+    "domains": []
   },
   {
     "id": "INT045",
@@ -1118,7 +1171,8 @@
     "verification": "search_excerpt",
     "note": "作者小森学AI；仅搜索片段，未向作者或企业确认亲历身份；日期是页面发布而非面试日。",
     "platform": "知乎",
-    "author": "小森学AI"
+    "author": "小森学AI",
+    "domains": []
   },
   {
     "id": "INT046",
@@ -1143,7 +1197,10 @@
     "verification": "opened",
     "note": "脉脉公开正文可读，作者陈乐（页面职业为AI产品经理），岗位名取正文“运营专家”；面试日未列。正文自述未通过，未向企业核实。",
     "platform": "脉脉",
-    "author": "陈乐"
+    "author": "陈乐",
+    "domains": [
+      "风控"
+    ]
   },
   {
     "id": "INT047",
@@ -1167,7 +1224,8 @@
     "verification": "opened",
     "note": "产品蝶道自述；页面正文明确3.5晚7点，年份结合正文“24年年后”；岗位调转与面试时长均属作者经历。",
     "platform": "人人都是产品经理",
-    "author": "产品蝶道"
+    "author": "产品蝶道",
+    "domains": []
   },
   {
     "id": "INT048",
@@ -1197,7 +1255,10 @@
     "verification": "search_excerpt",
     "note": "作者林夕，转载 https://modelers.csdn.net/699e8c0d7bbde9200b995541.html 明确原帖链接；原帖直接403，搜索支持上述轮次。面试年份及原发日无法从已取得片段确认，year=null；转载2025日期不作面试年。 掘金 https://juejin.cn/post/7496346585509494799 的字节AML首条描述与原作一致，2025-04-22为转载日，归并同源。",
     "platform": "知乎",
-    "author": "林夕"
+    "author": "林夕",
+    "domains": [
+      "风控"
+    ]
   },
   {
     "id": "IB001",
@@ -1219,7 +1280,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "亲历自述；海外公司匿名不补猜名称。年份据发帖与“最近两周”，具体面试日未知。"
+    "note": "亲历自述；海外公司匿名不补猜名称。年份据发帖与“最近两周”，具体面试日未知。",
+    "domains": []
   },
   {
     "id": "IB002",
@@ -1241,7 +1303,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "亲历自述，子公司未明确不猜名。同作者掘金 https://juejin.cn/post/7648519141299339279 为同源版本，不另计；标题毕业9个月与正文5个月不一致，保留歧义。"
+    "note": "亲历自述，子公司未明确不猜名。同作者掘金 https://juejin.cn/post/7648519141299339279 为同源版本，不另计；标题毕业9个月与正文5个月不一致，保留歧义。",
+    "domains": []
   },
   {
     "id": "IB003",
@@ -1263,7 +1326,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "作者填报面试季为2024年4—6月；opened仅指公开首段，积分188限制后的正文未取得，未绕过。"
+    "note": "作者填报面试季为2024年4—6月；opened仅指公开首段，积分188限制后的正文未取得，未绕过。",
+    "domains": []
   },
   {
     "id": "IB004",
@@ -1285,7 +1349,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "正文明确岗位并非MSR，不能被标题Research误导。公开段落有5月15日首轮及5月17日二轮；积分限制内技术细节未读取。"
+    "note": "正文明确岗位并非MSR，不能被标题Research误导。公开段落有5月15日首轮及5月17日二轮；积分限制内技术细节未读取。",
+    "domains": []
   },
   {
     "id": "IB005",
@@ -1307,7 +1372,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "作者填报2023年7—9月。仅公开首段与尾段可读，积分限制内追问未取得；不把当年业务讨论当现况。"
+    "note": "作者填报2023年7—9月。仅公开首段与尾段可读，积分限制内追问未取得；不把当年业务讨论当现况。",
+    "domains": []
   },
   {
     "id": "IB006",
@@ -1327,7 +1393,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "企业未公开，companies为空，不从评论猜企业。自述上周面试，具体日未知；公开正文可读，附件需登录。"
+    "note": "企业未公开，companies为空，不从评论猜企业。自述上周面试，具体日未知；公开正文可读，附件需登录。",
+    "domains": []
   },
   {
     "id": "IB007",
@@ -1349,7 +1416,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "面试年据作者填报2024年10—12月，不以2025年发帖替代。标题“过经”与正文未获offer不同，不替作者统一结果；部分正文积分限制。"
+    "note": "面试年据作者填报2024年10—12月，不以2025年发帖替代。标题“过经”与正文未获offer不同，不替作者统一结果；部分正文积分限制。",
+    "domains": []
   },
   {
     "id": "IB008",
@@ -1371,7 +1439,10 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "search_excerpt",
-    "note": "页面首段可读，客服设计细节仅搜索片段可见，故保守标search_excerpt；多数正文积分限制。发表日不能直接等同面试日。"
+    "note": "页面首段可读，客服设计细节仅搜索片段可见，故保守标search_excerpt；多数正文积分限制。发表日不能直接等同面试日。",
+    "domains": [
+      "客服"
+    ]
   },
   {
     "id": "IB011",
@@ -1393,7 +1464,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "论坛分区虽为“求职（非面经）”，正文明确本人多场面试观察，按内容收录亲历复盘。列出的公司有投递/邀约/联系混合，未逐一确认已面试，companies不猜填；作者填报2026年4—6月。"
+    "note": "论坛分区虽为“求职（非面经）”，正文明确本人多场面试观察，按内容收录亲历复盘。列出的公司有投递/邀约/联系混合，未逐一确认已面试，companies不猜填；作者填报2026年4—6月。",
+    "domains": []
   },
   {
     "id": "IB012",
@@ -1413,7 +1485,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "公开正文自述面试观察，企业未明确不映射企业。发布2026-09-07，“最近一段时间”不足以精确确认各场年份，year与event_date均null；附件需登录，未读取。"
+    "note": "公开正文自述面试观察，企业未明确不映射企业。发布2026-09-07，“最近一段时间”不足以精确确认各场年份，year与event_date均null；附件需登录，未读取。",
+    "domains": []
   },
   {
     "id": "IB013",
@@ -1439,7 +1512,8 @@
     "source_type": "interview_self_report",
     "accessed": "2026-10-22",
     "verification": "opened",
-    "note": "作者自述获得三家公司offer但未逐题归属。页面展示2025-09-24为修改时间，原发布日未知故published=null；正文自述当年8月起面试约一月。正文到Q5处付费截断，仅摘要公开部分，不绕付费。"
+    "note": "作者自述获得三家公司offer但未逐题归属。页面展示2025-09-24为修改时间，原发布日未知故published=null；正文自述当年8月起面试约一月。正文到Q5处付费截断，仅摘要公开部分，不绕付费。",
+    "domains": []
   },
   {
     "id": "RES009",
@@ -1472,6 +1546,444 @@
     "verification": "opened",
     "note": "原RES009待核阅读入口本轮获得公开正文，保留原ID重分类，不算净新增来源。event_date仅取最早明确技术面2026-08-07；后续多轮至9月，不表示所有轮次同日；网页路径日期不当作发布日期。",
     "platform": "个人博客",
-    "author": "Only(AR)"
+    "author": "Only(AR)",
+    "domains": [
+      "搜索"
+    ]
+  },
+  {
+    "title": "字节-tac-面经-算法-大模型-搜推（持续记录）",
+    "url": "https://www.nowcoder.com/feed/main/detail/5a84170b44414088a499aba903ce88a9",
+    "year": 2025,
+    "published": "2025-05-08",
+    "event_date": null,
+    "companies": [
+      "字节"
+    ],
+    "role": "广告算法/TAC（大模型与搜推交叉面）",
+    "topics": [
+      "01",
+      "02",
+      "03",
+      "16",
+      "17",
+      "18"
+    ],
+    "domains": [
+      "搜索",
+      "广告",
+      "推荐"
+    ],
+    "summary": "围绕冷启动中LLM的作用、长尾与多峰数据、AUC、优化器及对比损失追问，并有Top-K和对比损失手写。",
+    "reading_tip": "把冷启动定义、LLM提供的信息、对照实验与线上指标串起来；不要把“模型更大”直接当作收益。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "已读取原帖相关正文；日期是页面标记的编辑日。作者明确说广告算法岗位、交叉面涉及LLM+搜推，未给出具体业务组与面试日。原帖有关SGD/Adam的提问是待讨论命题，不作为正确技术结论。",
+    "id": "INT101"
+  },
+  {
+    "title": "京东广告算法日常实习二面(业务面)",
+    "url": "https://www.nowcoder.com/feed/main/detail/772d12d029c344729c46d4d68903f239",
+    "year": 2024,
+    "published": "2024-12-30",
+    "event_date": null,
+    "companies": [
+      "京东"
+    ],
+    "role": "广告算法日常实习",
+    "topics": [
+      "06",
+      "15",
+      "17"
+    ],
+    "domains": [
+      "广告"
+    ],
+    "summary": "广告岗位业务面复盘涉及大模型密文检索项目、搜广推基础及NLP与业务结合的方向选择。",
+    "reading_tip": "准备项目的检索对象、加密边界和评测方法；原帖没有展开密文检索实现，不据此编造方案。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "search_excerpt",
+    "note": "已核对搜索中可见的标题、日期及正文片段；直接打开仅得页面壳，未取得完整正文。企业和岗位来自标题；不能把部门方向问答推成公司统一研发路线。",
+    "id": "INT102"
+  },
+  {
+    "title": "字节广告算法中台秋招面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/aa2752aa21f94b8f8527b24ff820483d",
+    "year": 2025,
+    "published": "2025-11-11",
+    "event_date": null,
+    "companies": [
+      "字节"
+    ],
+    "role": "广告算法中台",
+    "topics": [
+      "01",
+      "02",
+      "08",
+      "17",
+      "18"
+    ],
+    "domains": [
+      "广告",
+      "推荐"
+    ],
+    "summary": "从损失函数与归一化追到FlashAttention、KV cache，以及高维稀疏行为链和通用文本语料在训练中的差异。",
+    "reading_tip": "重点练习如何表示用户行为序列、控制词表或标识空间，并说明样本量、泛化和服务成本的取舍。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "已打开原帖正文；作者区分一二面和三面，但未给面试日期或团队细节。搜推数据问题为面试开放题，摘要不复制作者临场答案，也不把问题中的假设写成已证实事实。",
+    "id": "INT103"
+  },
+  {
+    "title": "OC了，分享一下美团智能客服面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/a525d27e7e3f4d67b99d27d7c46c7ff2",
+    "year": 2023,
+    "published": "2023-07-04",
+    "event_date": "2023-06-21 / 2023-06-29",
+    "companies": [
+      "美团"
+    ],
+    "role": "智能客服算法日常实习",
+    "topics": [
+      "01",
+      "02",
+      "03",
+      "23"
+    ],
+    "domains": [
+      "客服"
+    ],
+    "summary": "两轮论文深挖涉及T5、Sentence-BERT、BART预训练，随后交流ChatGPT、参数高效微调及算法手写。",
+    "reading_tip": "用论文与项目解释为什么选编码器、编码解码器或LLM方案；这篇不是客服Agent完整系统设计题单。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "search_excerpt",
+    "note": "搜索公开片段含发布时间和两轮问题；直接原链只返回页面壳，标片段核验。原文写6.21与6.29两轮，年份结合2023年发帖归组；结果是作者自述。",
+    "id": "INT104"
+  },
+  {
+    "title": "快手 推荐大模型 三面 面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/2f808b0007c14ad6950a604e1d17848c",
+    "year": 2024,
+    "published": "2024-09-11",
+    "event_date": null,
+    "companies": [
+      "快手"
+    ],
+    "role": "推荐大模型算法",
+    "topics": [
+      "02",
+      "12",
+      "13",
+      "18"
+    ],
+    "domains": [
+      "推荐"
+    ],
+    "summary": "围绕实习数据流程、合成数据利弊、人工与自动评估、离线和线上指标，讨论LLM在召回、精排及多模态推荐中的作用。",
+    "reading_tip": "先选清LLM位于召回还是排序链路，再说明数据、效果、延迟与业务指标如何验证。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "已从转发页追到RZ_Q原帖，并打开原帖相关正文。页面标记2024-09-11已编辑，不当作原始发布时间；转发6b398b64d5a646b085b82a05dec4ce5c不另计一条。",
+    "id": "INT105"
+  },
+  {
+    "title": "淘天大模型面经：搜推智能产品事业部多模态方向（编目标题）",
+    "url": "https://zhuanlan.zhihu.com/p/26593966342",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "淘天集团"
+    ],
+    "role": "搜推智能产品事业部/多模态大模型",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "12",
+      "16",
+      "18"
+    ],
+    "summary": "作者自述三轮面试，讨论 CLIP/BLIP、视觉连接器、Qwen-VL、LoRA、PPO/DPO，并回忆注意力实现与序列编码题。",
+    "reading_tip": "将视觉模型设计动机、训练目标与搜推场景需求联系起来；原文没有给出可直接复用的标准答案。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "小森学AI",
+    "platform": "知乎",
+    "note": "证据：同 ID 的知乎公开英文页 https://www.zhihu.com/en/article/26593966342 已打开并读到三轮正文、部门与第一人称项目叙述。中文原链本轮返回 403；英文视图存在机器翻译误差，标题为依据正文的中文编目。仅见编辑时间 2025-03-03 19:59，首次发布时间和面试日期留空。公司、流程与评价均为作者自述，未经企业确认。",
+    "evidence_url": "https://www.zhihu.com/en/article/26593966342",
+    "id": "INT106",
+    "domains": [
+      "搜索",
+      "推荐"
+    ]
+  },
+  {
+    "title": "通义实验室大模型三面记录（编目标题）",
+    "url": "https://zhuanlan.zhihu.com/p/27695292600",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "阿里巴巴通义实验室"
+    ],
+    "role": "大语言模型算法",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "08",
+      "09"
+    ],
+    "summary": "索引呈现作者自述三轮面试，围绕 Qwen/DeepSeek 架构、长上下文、MoE/MLA、对齐、ZeRO、精度与显存优化。",
+    "reading_tip": "按模型设计、后训练和系统优化三条线准备；注意模型版本、损失定义和工程条件。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "search_excerpt",
+    "author": "小森学AI",
+    "platform": "知乎",
+    "note": "证据：公开搜索索引中的同 ID 英文文章 https://www.zhihu.com/en/article/27695292600 可见作者、部门、三轮分节与第一人称 Qwen 实习项目叙述。直接打开英文页进入安全验证，未获取原始正文，未继续尝试；故仅为 search_excerpt。索引仅见编辑时间 2025-03-03 19:57，不能当作首次发布时间或面试日期。摘要仅取可见主题，不确认企业或题目真实性。",
+    "evidence_url": "https://www.zhihu.com/en/article/27695292600",
+    "id": "INT107",
+    "domains": []
+  },
+  {
+    "title": "机械转算法经历记录：含 2023—2024 大模型面试（编目标题）",
+    "url": "https://zhuanlan.zhihu.com/p/450141617",
+    "year": 2023,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "中兴",
+      "百度",
+      "阿里巴巴"
+    ],
+    "role": "NLP/大模型算法与 Agent 应用",
+    "topics": [
+      "01",
+      "04",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "summary": "持续更新的个人日记含中兴大模型岗位、百度 NLP 及后续模型公司面试，涉及语义匹配/RAG、Agent、训练推理系统和 DPO。",
+    "reading_tip": "先定位日记中的年份与公司段落，再提取技术主题；对作者和面试官的具体技术观点应另查一手资料。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "学车辆算法工程师",
+    "platform": "知乎",
+    "note": "证据：公开英文页 https://www.zhihu.com/en/article/450141617 已读到 2023-03-07 百度面试、2023-12-12 中兴大模型面试段落，以及后续 GLM/ZeRO/GPTQ/AWQ/vLLM 和 DPO 回忆。year=2023 仅定位其中明确的 LLM 面试年份；文章覆盖多个年份，event_date 留空。仅见主文编辑时间 2025-07-22 00:19，首次发布时间未知。其他段落公司名存在英译歧义，未据回译扩展公司字段；作者的主观评价不作客观结论。",
+    "evidence_url": "https://www.zhihu.com/en/article/450141617",
+    "id": "INT108",
+    "domains": []
+  },
+  {
+    "title": "拼多多多模态大模型算法工程师面试（编目标题）",
+    "url": "https://zhuanlan.zhihu.com/p/32463510329",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "拼多多"
+    ],
+    "role": "电商搜广推/视觉语言大模型算法",
+    "topics": [
+      "01",
+      "12",
+      "16",
+      "18"
+    ],
+    "summary": "作者自述多模态大模型岗两轮技术面、HR 面及追加笔试，涉及视觉项目、CLIP/MoCo、优化器与编码；职位说明列出电商搜广推链路。",
+    "reading_tip": "区分正文真正回忆的提问与附录岗位要求；面试涉及较多视觉和优化基础，不能将整份岗位说明当成题目清单。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "Neob0dy",
+    "platform": "知乎",
+    "note": "证据：已打开 https://www.zhihu.com/en/article/32463510329，正文含第一人称两轮技术面、HR 与笔试过程，以及搜广推多模态职位说明。中文原链返回 403，核验采用同 ID 公开英文视图。仅见主文编辑时间 2025-03-24 20:34，面试及首次发文日期未知。搜广推商业指标见职位说明，不能据此声称每项都被问过；不将作者回忆中的算法表述当作标准答案。",
+    "evidence_url": "https://www.zhihu.com/en/article/32463510329",
+    "id": "INT109",
+    "domains": [
+      "搜索",
+      "推荐"
+    ]
+  },
+  {
+    "title": "MiniMax：HPC / MLSys 面经（编目标题）",
+    "url": "https://zhuanlan.zhihu.com/p/1916169254023193052",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "MiniMax"
+    ],
+    "role": "HPC/MLSys/大模型推理优化",
+    "topics": [
+      "01",
+      "08",
+      "09",
+      "10"
+    ],
+    "summary": "作者回忆 HPC 一面，从超算与推理项目延伸至 Flash/FlexAttention、投机解码并发性能、AWQ、块稀疏和容器编码。",
+    "reading_tip": "用实际形状、批量与硬件条件解释性能边界；原文中关于框架能力及算子选择的说法具有版本和项目条件。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "Drew",
+    "platform": "知乎",
+    "note": "证据：已打开并读到同 ID 公开英文页 https://www.zhihu.com/en/article/1916169254023193052 的一面项目、问答、编码及获二面邀请叙述；二面只有待更新标题，未据此编造二面内容。仅见编辑时间 2025-06-17 16:30，首次发布时间和面试日期未知。公司与过程为作者自述，技术回答仍需查官方资料，不能推广成所有并发场景下的结论。",
+    "evidence_url": "https://www.zhihu.com/en/article/1916169254023193052",
+    "id": "INT110",
+    "domains": []
+  },
+  {
+    "title": "算法岗-日常实习-面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/c6e933488ad344268581130c8360e53c",
+    "year": 2025,
+    "published": "2025-10-01",
+    "event_date": null,
+    "companies": [
+      "贝壳找房",
+      "标贝科技",
+      "智谱华章",
+      "小红书",
+      "滴滴",
+      "阿里巴巴",
+      "快手"
+    ],
+    "role": "语音/时序算法实习为主，兼有大模型与其他算法岗位",
+    "topics": [
+      "01",
+      "06",
+      "12",
+      "22"
+    ],
+    "summary": "作者复盘多公司日常实习，题目涉及语音预处理、声纹识别、Whisper、VITS、Transformer与RAG；各题没有逐公司标注。",
+    "reading_tip": "按语音识别、声纹、语音合成与RAG分别整理项目追问；勿把汇总题目归给每家公司，也勿把安全或支付岗位自行等同于大模型风控岗。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "author": "算法小白a",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "页面明确发布时间2025-10-01；正文列9月2日至18日的八次岗位经历，涉及七家公司，其中滴滴有两个岗位。event_date置空以免把多轮经历压成同一天。语音岗位明确为贝壳找房、标贝科技；大模型岗为智谱华章，其余公司方向按原帖保留，题目未逐题归属。作者自述结果与身份未独立核实。",
+    "id": "INT111",
+    "domains": [
+      "语音"
+    ]
+  },
+  {
+    "title": "小红书大模型平台 Agentic 全栈研发练习生 一面凉经",
+    "url": "https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-08-06",
+    "companies": [
+      "小红书"
+    ],
+    "role": "大模型平台 Agentic 全栈研发实习",
+    "topics": [
+      "06",
+      "07",
+      "08"
+    ],
+    "summary": "作者自述2026年8月6日参加一面，复盘Agent写操作边界、编排与意图分流、Skill/Tool、容量扩展及业务RAG，并夹杂Java和数据库基础。",
+    "reading_tip": "围绕自己项目讲清工具权限、模糊请求处理、框架选型与扩容假设；客服只是面试官对项目用途的比较问句，不能据此认定为客服岗位。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "author": "暴龙战士6657",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "正文明确面试时间2026.8.6；页面仅显示08-07 15:08已编辑，未独立确认原发布时间，published留空。标题原文为“练习生”，岗位规范描述使用实习。并发/日请求量为面试假设场景，非公司实际线上规模；亲历与结果为作者自述。",
+    "id": "INT112",
+    "domains": []
+  },
+  {
+    "title": "快手三面",
+    "url": "https://maimai.cn/article/detail?efid=tQ6y6KsnmUiyP8-Rei34lQ&fid=1849300408",
+    "year": 2024,
+    "published": "2024-10-08",
+    "event_date": null,
+    "companies": [
+      "快手"
+    ],
+    "role": "未明确（正文谈及视频理解大模型）",
+    "topics": [
+      "01",
+      "12"
+    ],
+    "summary": "第一人称回顾第三轮面试：二分算法、实习与场景追问，末尾谈视频理解大模型及可能的交叉面。",
+    "reading_tip": "适合观察项目、论文与编程如何共同被评价；正文未给出视频理解的具体技术题，不补写。",
+    "source_type": "interview_self_report",
+    "author": "陈羽",
+    "note": "已打开具体脉脉原帖并得到相关正文。标题明确快手，正文为第一人称求职叙述；页面职业为 iOS 开发工程师，不据此推断面试岗位。没有面试日期和团队信息；企业经历未独立核实。",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "platform": "脉脉",
+    "id": "INT113",
+    "domains": []
+  },
+  {
+    "title": "面试字节大模型（LLMs）RAG被问麻了",
+    "url": "https://maimai.cn/article/detail?efid=aBczVUm1UEwT0Mk_BAbpCg&fid=1874356190",
+    "year": 2025,
+    "published": "2025-05-09",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "大模型/RAG（具体岗位未列）",
+    "topics": [
+      "01",
+      "03",
+      "06",
+      "08",
+      "13"
+    ],
+    "summary": "标题自述字节大模型面试，正文列出 LoRA、注意力、位置编码、RAG 全链路、幻觉、7B 显存估算、实习论文及链表题。",
+    "reading_tip": "把微调、检索和资源估算串成项目说明；评论中的额外题与发帖者题单分开，不推断搜索业务团队。",
+    "source_type": "interview_self_report",
+    "author": "偷捧时间煮酒",
+    "note": "已打开带 from=single_feed 参数的原帖并读取正文、日期及作者评论；本记录去掉追踪参数。标题自述经历，正文以题单为主，未列轮次、面试日或业务团队；作者在评论称可分享试题，但原创性、面试真实性未经独立确认。RAG 不等于搜索业务线，不添加搜广推标签。",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "platform": "脉脉",
+    "id": "INT114",
+    "domains": []
+  },
+  {
+    "title": "网易大模型面经 刷到就是老天在救你",
+    "url": "https://maimai.cn/article/detail?efid=ThjskRbjpDKI6hRNSR6O1g&fid=1855725087",
+    "year": 2024,
+    "published": "2024-11-30",
+    "event_date": null,
+    "companies": [
+      "网易"
+    ],
+    "role": "大模型算法工程师",
+    "topics": [
+      "02",
+      "03",
+      "13"
+    ],
+    "summary": "第一人称描述约一小时的技术面，公开部分聚焦项目目标、训练数据构造、Prompt/Adapter/LoRA 微调选择及效果评估。",
+    "reading_tip": "按数据来源、方法取舍、对照指标准备项目；仅保留公开可读部分，不把自述 offer 结果视为独立证据。",
+    "source_type": "interview_self_report",
+    "author": "徐力",
+    "note": "已打开具体原帖并得到相关正文。标题企业与正文方向明确，正文使用第一人称；页面职业为电子商务，作者原创与经历未向企业核实。没有面试日、团队及明确业务领域，不能根据网易品牌推断游戏、营销或客服。",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "platform": "脉脉",
+    "id": "INT115",
+    "domains": []
   }
 ]

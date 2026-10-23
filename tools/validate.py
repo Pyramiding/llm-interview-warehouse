@@ -7,7 +7,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
-from build_indexes import TOPICS, canonical_url
+from build_indexes import AS_OF, DOMAIN_RULES, TOPICS, canonical_url
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
@@ -26,11 +26,17 @@ for file in [ROOT/'data/interviews.json', ROOT/'data/resources.json'] + sorted((
         source_ids.append(row.get('id'))
         if urlsplit(row.get('url', '')).scheme not in {'https', 'http'}:
             errors.append(f'{file.name}/{row.get("id")}: invalid URL')
-        if row.get('verification') not in {'opened', 'search_excerpt'}:
+        if row.get('verification') not in {'opened', 'search_excerpt', 'metadata_only'}:
             errors.append(f'{file.name}/{row.get("id")}: invalid verification')
         published = row.get('published')
-        if published and re.fullmatch(r'\d{4}-\d{2}-\d{2}', published) and published > '2026-10-22':
+        if published and re.fullmatch(r'\d{4}-\d{2}-\d{2}', published) and published > AS_OF:
             errors.append(f'{file.name}/{row.get("id")}: future publication')
+        if file.name in {'interviews.json', 'resources.json'}:
+            domains = row.get('domains')
+            if not isinstance(domains,list) or any(not isinstance(x,str) for x in domains):
+                errors.append(f'{file.name}/{row.get("id")}: domains must be a reviewed list')
+            elif not set(domains) <= {name for name,_ in DOMAIN_RULES}:
+                errors.append(f'{file.name}/{row.get("id")}: unknown business domain')
 for id, count in Counter(source_ids).items():
     if count > 1:
         errors.append(f'duplicate source id: {id}')
@@ -88,6 +94,7 @@ for key,value in checks.items():
     if stats[key] != value: errors.append(f'{key}: stale statistics')
 if len(sources) != checks['normalized_source_urls']: errors.append('source catalog mismatch')
 for row in interviews:
+    if row.get('verification') == 'metadata_only': errors.append(f'{row["id"]}: metadata alone cannot establish an interview self-report')
     for field in ('year','event_date','companies','role','summary','reading_tip'):
         if field not in row: errors.append(f'{row["id"]}: missing interview field {field}')
     if row.get('year') is not None and row['year'] not in range(2023,2027):

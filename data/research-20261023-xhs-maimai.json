@@ -1,0 +1,359 @@
+{
+  "as_of": "2026-10-23",
+  "note": "本文件保存检索与排除日志；已收录条目以 interviews.json/resources.json 主表为准，不在本文件重复计数。",
+  "interview_ids": [
+    "INT113",
+    "INT114",
+    "INT115"
+  ],
+  "resource_ids": [
+    "RES222",
+    "RES223",
+    "RES224",
+    "RES225",
+    "RES226",
+    "RES227"
+  ],
+  "search_log": [
+    {
+      "query": "去重：读取 data/interviews.json 与 data/resources.json",
+      "findings": "检索前读取 59 条面经和 39 条资源；已排除既有脉脉字节运营、阿里二面、字节算法实习、百度算法转述。",
+      "limitations": "按 URL 与脉脉 fid 双重比对；未修改既有数据。",
+      "urls": []
+    },
+    {
+      "query": "site.xiaohongshu.com 大模型 面经 搜索 推荐 算法",
+      "findings": "未取得可核实的小红书内容帖正文；返回项主要是小红书招聘、商业帮助页，或站外以小红书公司为主题的题库。",
+      "limitations": "严格区分发布平台与面试企业；招聘、论文、培训题库不计为内容平台亲历。",
+      "urls": [
+        "https://job.xiaohongshu.com/social/position/13035?referer_code=NUX4SLO4SHA6",
+        "https://agentalpha.top/interview/company/xiaohongshu"
+      ]
+    },
+    {
+      "query": "site.xiaohongshu.com 大模型 面经 风控 营销 客服",
+      "findings": "未取得可核实的小红书内容帖正文；返回项主要是小红书招聘、商业帮助页，或站外以小红书公司为主题的题库。",
+      "limitations": "严格区分发布平台与面试企业；招聘、论文、培训题库不计为内容平台亲历。",
+      "urls": [
+        "https://job.xiaohongshu.com/social/position/13035?referer_code=NUX4SLO4SHA6",
+        "https://agentalpha.top/interview/company/xiaohongshu"
+      ]
+    },
+    {
+      "query": "\"大模型\" \"面经\" domains:xiaohongshu.com,xhslink.com",
+      "findings": "未取得可核实的小红书内容帖正文；返回项主要是小红书招聘、商业帮助页，或站外以小红书公司为主题的题库。",
+      "limitations": "严格区分发布平台与面试企业；招聘、论文、培训题库不计为内容平台亲历。",
+      "urls": [
+        "https://job.xiaohongshu.com/social/position/13035?referer_code=NUX4SLO4SHA6",
+        "https://agentalpha.top/interview/company/xiaohongshu"
+      ]
+    },
+    {
+      "query": "\"算法\" \"面经\" \"推荐\" domains:xiaohongshu.com,xhslink.com",
+      "findings": "未取得可核实的小红书内容帖正文；返回项主要是小红书招聘、商业帮助页，或站外以小红书公司为主题的题库。",
+      "limitations": "严格区分发布平台与面试企业；招聘、论文、培训题库不计为内容平台亲历。",
+      "urls": [
+        "https://job.xiaohongshu.com/social/position/13035?referer_code=NUX4SLO4SHA6",
+        "https://agentalpha.top/interview/company/xiaohongshu"
+      ]
+    },
+    {
+      "query": "\"面经\" \"LLM\" site:xiaohongshu.com/explore/",
+      "findings": "搜索工具返回 Empty search results。",
+      "limitations": "没有可据以提取题目、公司、日期的原帖，不据此断言平台不存在相关内容。",
+      "urls": []
+    },
+    {
+      "query": "\"大模型面经\" \"小红书\" \"xhslink\"",
+      "findings": "搜索工具返回 Empty search results。",
+      "limitations": "没有可据以提取题目、公司、日期的原帖，不据此断言平台不存在相关内容。",
+      "urls": []
+    },
+    {
+      "query": "\"面经\" \"RAG\" domains:xiaohongshu.com",
+      "findings": "搜索工具返回 Empty search results。",
+      "limitations": "没有可据以提取题目、公司、日期的原帖，不据此断言平台不存在相关内容。",
+      "urls": []
+    },
+    {
+      "query": "\"面经\" \"大模型\" domains:xhslink.com",
+      "findings": "搜索工具返回 Empty search results。",
+      "limitations": "没有可据以提取题目、公司、日期的原帖，不据此断言平台不存在相关内容。",
+      "urls": []
+    },
+    {
+      "query": "\"大模型\" \"面经\" domains:maimai.cn",
+      "findings": "找到网易、快手、美团、得物、字节等正文与少量重复项。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=ThjskRbjpDKI6hRNSR6O1g&fid=1855725087",
+        "https://maimai.cn/article/detail?efid=PYiKFP7lu0E6qJv-qmdrGg&fid=1886172297",
+        "https://maimai.cn/article/detail?efid=GFkBvvFRRFde7pIL_6W76w&fid=1886162560",
+        "https://maimai.cn/article/detail?efid=9doXZsjxTubIY101QN3Z4w&fid=1883689082"
+      ]
+    },
+    {
+      "query": "\"LLM\" \"面经\" domains:maimai.cn",
+      "findings": "主要命中既有字节实习、百度转述，以及旧 Java 面经因作者昵称带“大模型程序员”被误召回。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=k92vRsIeGQp3tcuZmijWPw&fid=1868316767",
+        "https://maimai.cn/article/detail?efid=UGo-VEU9Gz-6M76f7A6L7Q&fid=1741711172"
+      ]
+    },
+    {
+      "query": "\"面经\" \"大模型\" \"广告\" domains:maimai.cn",
+      "findings": "没有取得明确 LLM×广告技术面亲历；出现 AI 搜索招聘和旧 Java 广告开发经历。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=idU830J4DxLQJ_x8buoD1w&fid=1895321545"
+      ]
+    },
+    {
+      "query": "\"面经\" \"大模型\" \"搜索\" domains:maimai.cn",
+      "findings": "搜索招聘、泛题库及转述占主导；不得用招聘职责替代面试题。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": []
+    },
+    {
+      "query": "\"面经\" \"大模型\" \"风控\" domains:maimai.cn",
+      "findings": "未取得同时明确企业、LLM 风控与实际技术面经过的新增原帖。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": []
+    },
+    {
+      "query": "\"面经\" \"大模型\" \"语音\" domains:maimai.cn",
+      "findings": "未取得明确语音大模型技术面亲历；一般语音或旧开发材料不纳入。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": []
+    },
+    {
+      "query": "\"大模型\" \"一面\" \"阿里\" domains:maimai.cn",
+      "findings": "找到阿里面试准备建议与职业规划师案例，不作为亲历。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=80w2-40V3J4W3cLzOu9RtA&fid=1872923909"
+      ]
+    },
+    {
+      "query": "\"大模型\" \"一面\" \"腾讯\" domains:maimai.cn",
+      "findings": "招聘和泛行业报道较多；后续改用 RAG 和青云检索。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": []
+    },
+    {
+      "query": "\"大模型\" \"面经\" \"小米\" domains:maimai.cn",
+      "findings": "未取得新增可用原帖，未用公司名补足条数。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": []
+    },
+    {
+      "query": "\"大模型\" \"面经\" \"京东\" domains:maimai.cn",
+      "findings": "找到职业规划师的淘天候选人包装案例，其中京东是被声称的既往经历，不是面试企业。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=OdIaGxgXOo_kq7_EZLHl9w&fid=1905660292"
+      ]
+    },
+    {
+      "query": "\"面经\" \"RAG\" domains:maimai.cn",
+      "findings": "命中字节 RAG、自述不充分的 AI 测试题单与培训机构薪资文。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=aBczVUm1UEwT0Mk_BAbpCg&fid=1874356190",
+        "https://maimai.cn/article/detail?efid=QKCb3TrBwA0LamtZuEMIwQ&fid=1922441013"
+      ]
+    },
+    {
+      "query": "\"面经\" \"SFT\" domains:maimai.cn",
+      "findings": "主要是既有字节大模型实习转述，去重。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=k92vRsIeGQp3tcuZmijWPw&fid=1868316767"
+      ]
+    },
+    {
+      "query": "\"面经\" \"推荐算法\" domains:maimai.cn",
+      "findings": "美团转述明确出现推荐曝光偏差；2020—2021 旧后端推荐材料不是大模型面经。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=PYiKFP7lu0E6qJv-qmdrGg&fid=1886172297",
+        "https://maimai.cn/article/detail?efid=d0wNSNgjg6LwvlPIWgW8Xg&fid=1665297357"
+      ]
+    },
+    {
+      "query": "\"面经\" \"语音算法\" domains:maimai.cn",
+      "findings": "没有新增可用的 LLM 语音亲历。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": []
+    },
+    {
+      "query": "\"大模型\" \"面试\" \"算法\" domains:maimai.cn",
+      "findings": "找到字节 AI 算法、理想多模态自动驾驶与一般准备文。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=YtzWOuNqe9-yvP6SDq2gzQ&fid=1860907933",
+        "https://maimai.cn/article/detail?efid=BOclibqdjcktH7_Z2lPUPg&fid=1887131994"
+      ]
+    },
+    {
+      "query": "\"面经\" \"AIGC\" domains:maimai.cn",
+      "findings": "结果主要为泛建议与招聘，无新增强证据亲历。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": []
+    },
+    {
+      "query": "\"面经\" \"GPT\" domains:maimai.cn",
+      "findings": "找到理想候选人经历转述。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=YtzWOuNqe9-yvP6SDq2gzQ&fid=1860907933"
+      ]
+    },
+    {
+      "query": "\"面经\" \"大模型\" -程序员 -Leon -招聘 -薪资 -Charles domains:maimai.cn",
+      "findings": "负词仍未完全排除猎头与旧 Java 页面，必须人工阅读全文判断；找到快手第三轮自述。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=tQ6y6KsnmUiyP8-Rei34lQ&fid=1849300408"
+      ]
+    },
+    {
+      "query": "\"面试\" \"RAG\" \"字节\" domains:maimai.cn",
+      "findings": "找到 2025-05-09 字节 RAG 帖，公开正文及作者评论可读。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=aBczVUm1UEwT0Mk_BAbpCg&fid=1874356190"
+      ]
+    },
+    {
+      "query": "\"面试\" \"大模型\" \"蚂蚁\" domains:maimai.cn",
+      "findings": "命中蚂蚁官方校招宣传及岗位招聘，无具体技术面题单。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=7O642ybbuk7OUfUcKaMN6Q&fid=1829436822"
+      ]
+    },
+    {
+      "query": "\"面试\" \"大模型\" \"快手\" domains:maimai.cn",
+      "findings": "找到快手三面自述及猎头算法题单。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=tQ6y6KsnmUiyP8-Rei34lQ&fid=1849300408",
+        "https://maimai.cn/article/detail?efid=GFkBvvFRRFde7pIL_6W76w&fid=1886162560"
+      ]
+    },
+    {
+      "query": "\"面试\" \"客服\" \"大模型\" domains:maimai.cn",
+      "findings": "多为培训案例、智能客服架构准备文章及岗位宣传，不混入亲历。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=6hpectZSpIzf-wIGqGZjFA&fid=1917029393",
+        "https://maimai.cn/article/detail?efid=_tuQeN9TujmrEuHWX5QpnQ&fid=1921114714"
+      ]
+    },
+    {
+      "query": "\"面经\" \"风控\" \"LLM\" domains:maimai.cn",
+      "findings": "未得到新增强证据原帖。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": []
+    },
+    {
+      "query": "\"面经\" \"营销\" \"大模型\" domains:maimai.cn",
+      "findings": "得物发帖账号的“营销总经理”是作者职业，不是面试领域，不能归为 LLM 营销面经。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=9doXZsjxTubIY101QN3Z4w&fid=1883689082"
+      ]
+    },
+    {
+      "query": "\"二面\" \"RAG\" \"我\" domains:maimai.cn",
+      "findings": "找到腾讯青云多轮 RAG / RL / 论文追问的猎头转述。",
+      "limitations": "仅使用公开可见正文；作者、企业、岗位、日期按页面明示；没有证据的业务归属留空；所有面试真实性均未经企业独立核实。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=z2SwqbKDABVjHKCl-WQjrQ&fid=1886162446"
+      ]
+    },
+    {
+      "query": "\"xiaohongshu.com/explore\" \"面经\"；\"xiaohongshu.com/discovery/item\" \"大模型\"；\"xhslink.com\" \"面经\"",
+      "findings": "发现牛客的百度 Agent 小红书短链及 Bubblevan 公开二手索引；没有据二手页面内容认定原帖已读。",
+      "limitations": "索引可作为继续核验入口，无法替代具体原帖正文。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/115afd1d798e421ea99a316635fa754d?sourceSSR=dynamic",
+        "https://bubblevan.github.io/career/interview/2026-09-sources/"
+      ]
+    },
+    {
+      "query": "打开小红书候选：百度智能体开发面经（标题取牛客转发页）",
+      "findings": "牛客转发页给出具体短链 http://xhslink.com/o/4EsXP4O44Xf；已请求打开。",
+      "limitations": "web 工具返回 URL not accessible，未获得小红书正文或可核实跳转目标；不提取题目、不确认原帖公司和岗位、不计面经。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/115afd1d798e421ea99a316635fa754d?sourceSSR=dynamic",
+        "http://xhslink.com/o/4EsXP4O44Xf"
+      ]
+    },
+    {
+      "query": "从公开二手索引点击小红书候选：28 届 Agent 算法日常实习战况",
+      "findings": "索引标题为“28 届 Agent 算法日常实习战况”；实际点击所列完整短链，工具观察到重定向至对应 discovery/item（urls 保留去分享追踪参数后的目标）。",
+      "limitations": "工具返回 500 / target not accessible / non-retryable error；没有获得笔记正文或图片。标题与业务信息只属于二手索引陈述；未登录、未绕过访问控制，不计面经，不复制二手题单。",
+      "urls": [
+        "https://bubblevan.github.io/career/interview/2026-09-sources/",
+        "https://xhslink.cn/o/2Ff43lHgA4H",
+        "https://www.xiaohongshu.com/discovery/item/6a8da4e70000000020038067"
+      ]
+    },
+    {
+      "query": "从公开二手索引点击小红书候选：“基础知识不扎实”的 Agent 面评",
+      "findings": "索引标题为““基础知识不扎实”的 Agent 面评”；实际点击所列完整短链，工具观察到重定向至对应 discovery/item（urls 保留去分享追踪参数后的目标）。",
+      "limitations": "工具返回 500 / target not accessible / non-retryable error；没有获得笔记正文或图片。标题与业务信息只属于二手索引陈述；未登录、未绕过访问控制，不计面经，不复制二手题单。",
+      "urls": [
+        "https://bubblevan.github.io/career/interview/2026-09-sources/",
+        "https://xhslink.cn/o/9263zmd2LIO",
+        "https://www.xiaohongshu.com/discovery/item/6a9046aa000000000302ae36"
+      ]
+    },
+    {
+      "query": "从公开二手索引点击小红书候选：字节 AI 应用日常实习二面",
+      "findings": "索引标题为“字节 AI 应用日常实习二面”；实际点击所列完整短链，工具观察到重定向至对应 discovery/item（urls 保留去分享追踪参数后的目标）。",
+      "limitations": "工具返回 500 / target not accessible / non-retryable error；没有获得笔记正文或图片。标题与业务信息只属于二手索引陈述；未登录、未绕过访问控制，不计面经，不复制二手题单。",
+      "urls": [
+        "https://bubblevan.github.io/career/interview/2026-09-sources/",
+        "https://xhslink.cn/o/8Po9hYxpCJG",
+        "https://www.xiaohongshu.com/discovery/item/6a8edd4c00000000200390f7"
+      ]
+    },
+    {
+      "query": "从公开二手索引点击小红书候选：字节 AI 应用日常实习一面",
+      "findings": "索引标题为“字节 AI 应用日常实习一面”；实际点击所列完整短链，工具观察到重定向至对应 discovery/item（urls 保留去分享追踪参数后的目标）。",
+      "limitations": "工具返回 500 / target not accessible / non-retryable error；没有获得笔记正文或图片。标题与业务信息只属于二手索引陈述；未登录、未绕过访问控制，不计面经，不复制二手题单。",
+      "urls": [
+        "https://bubblevan.github.io/career/interview/2026-09-sources/",
+        "https://xhslink.cn/o/2CiQSocZDRv",
+        "https://www.xiaohongshu.com/discovery/item/6a7f0536000000003400f657"
+      ]
+    },
+    {
+      "query": "\"xhslink.com\" \"大模型\" \"面试\"；\"xhslink.com\" \"RAG\" \"面经\"；\"小红书\" \"面经\" \"原文\" \"Agent\"",
+      "findings": "还找到 Offer 面试官知识讲解短链和收费资料推广，不属于可确认亲历。",
+      "limitations": "未付费，未下载图文或绕过登录；仅保存检索入口。",
+      "urls": [
+        "https://www.nowcoder.com/discuss/825122024920985600",
+        "http://xhslink.com/o/9If4fL2eS0F",
+        "https://www.douyin.com/video/7660891129529699752",
+        "https://xhslink.com/m/A1589gEVLVi"
+      ]
+    },
+    {
+      "query": "已打开但不纳入：一般阿里指南、职业规划师案例和泛 AI 测试题库",
+      "findings": "阿里一般指南已打开但缺少具体轮次与亲历证据；Charles 的 P5/P6 案例是第三人称候选人包装与指导文；AI 测试帖无企业、岗位经历证据。",
+      "limitations": "不以模拟、建议或无法核实的巨大业绩数字补足企业面经。智能客服架构页打开为 Cache miss，仅搜索摘要，不标 opened。",
+      "urls": [
+        "https://maimai.cn/article/detail?efid=80w2-40V3J4W3cLzOu9RtA&fid=1872923909",
+        "https://maimai.cn/article/detail?efid=HPrHV5rpbhzIpkmBw7ZvsA&fid=1905480635",
+        "https://maimai.cn/article/detail?efid=OdIaGxgXOo_kq7_EZLHl9w&fid=1905660292",
+        "https://maimai.cn/article/detail?efid=QKCb3TrBwA0LamtZuEMIwQ&fid=1922441013",
+        "https://maimai.cn/article/detail?efid=6hpectZSpIzf-wIGqGZjFA&fid=1917029393"
+      ]
+    }
+  ]
+}

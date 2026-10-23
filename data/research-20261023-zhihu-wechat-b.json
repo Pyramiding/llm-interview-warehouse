@@ -1,0 +1,97 @@
+{
+  "as_of": "2026-10-23",
+  "note": "本文件保存检索与排除日志；已收录条目以 interviews.json/resources.json 主表为准，不在本文件重复计数。",
+  "interview_ids": [
+    "INT111",
+    "INT112"
+  ],
+  "resource_ids": [
+    "RES216",
+    "RES217",
+    "RES218",
+    "RES219",
+    "RES220",
+    "RES221"
+  ],
+  "search_log": [
+    {
+      "query": "site:zhuanlan.zhihu.com 大模型 面经 风控 蚂蚁 2025；site:zhuanlan.zhihu.com 语音 大模型 面经 腾讯 字节；site:zhuanlan.zhihu.com 大模型 客服 算法 面经",
+      "findings": "定向检索命中多为课程推广、项目包装和机构题库；未发现足够证据将其新增为风控/语音/客服亲历。",
+      "limitations": "检索无命中不等于平台不存在相关面经；不从公司业务或作者雇主反推岗位。营销材料无原帖/作者经历依据时排除。",
+      "urls": [
+        "https://zhuanlan.zhihu.com/p/2039673415901106968",
+        "https://zhuanlan.zhihu.com/p/1939002307070124480",
+        "https://zhuanlan.zhihu.com/p/1982503426660197677"
+      ]
+    },
+    {
+      "query": "site:mp.weixin.qq.com 大模型 面经 阿里 腾讯 字节；site:mp.weixin.qq.com \"面经\" \"语音\"；site:mp.weixin.qq.com \"面经\" \"客服\"；site:mp.weixin.qq.com \"面经\" \"风控\"",
+      "findings": "本支没有取得满足原作者、公司岗位与技术问题均可核对的新增微信原文。",
+      "limitations": "搜索覆盖与微信公众号抓取受限；不把搜索失败写成站点无内容。agentalpha.top/gzh由主代理研究，本支未重复收录。",
+      "urls": []
+    },
+    {
+      "query": "\"语音\" \"面经\" \"大模型\" \"牛客\"；\"搞定日处理\" \"500\" \"语音通话\"",
+      "findings": "定位语音/时序综合日常实习原帖与VoiceNexus教学材料；前者进入亲历，后者进入准备资源。",
+      "limitations": "综合原帖未逐题标公司；VoiceNexus没有可核对面试轮次且正文读取失败，仅搜索片段，不能计实际公司面经或采信性能数字。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/c6e933488ad344268581130c8360e53c",
+        "https://www.nowcoder.com/discuss/863386997749051392",
+        "https://api-cdn.nowcoder.com/discuss/863386997749051392?sourceSSR=users"
+      ]
+    },
+    {
+      "query": "\"小红书\" \"大模型平台\" \"Agentic\" \"面经\"",
+      "findings": "打开小红书Agentic全栈一面原帖，正文明确2026-08-06面试，题目包括工具边界、编排、容量和RAG。",
+      "limitations": "仅是作者自述；客服出现在比较问句中，不据此增加客服岗位标签。页面08-07是编辑时间且不显示年份，原发布日留空。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8"
+      ]
+    },
+    {
+      "query": "\"蚂蚁\" \"复活赛\" \"CR Agent\"；\"CR Agent\" \"面试\"；\"蚂蚁\" \"风控归因\" \"面经\"",
+      "findings": "从面灵聚合页回溯到牛客CR Agent原帖，成功读取公开前14问，保守列资源。",
+      "limitations": "后60%付费未读取。聚合页的风控释义、三级架构、面试月份和结果不能自动转为原帖已核实内容；原帖可见日期无年份。",
+      "urls": [
+        "https://mj.mianlingai.com/company/蚂蚁集团/",
+        "https://mj.mianlingai.com/interview/antgroup-ai-agent-938917486311825408/",
+        "https://www.nowcoder.com/discuss/938917486311825408?sourceSSR=enterprise"
+      ]
+    },
+    {
+      "query": "\"风控归因\" \"Agent\" \"字节\" \"面试\"；\"932407145864130560\"",
+      "findings": "找到字节抖音电商Agent一面公开首段，候选项目明确自称风控归因，追问架构与摘要压缩。",
+      "limitations": "对话体内容且同账号提供多家付费面经，未独立核实亲历，列整理资源；不把候选项目方向等同招聘业务，不读取付费后段，不推断年份。",
+      "urls": [
+        "https://www.nowcoder.com/discuss/932407145864130560?sourceSSR=post"
+      ]
+    },
+    {
+      "query": "大模型面经 知乎 美团 RAG 算法 实习；\"688624199\"",
+      "findings": "中文直链受限但知乎英文页可读，开头明确社区讨论整理；含RAG评价、文档表格、坏召回与DPO等题目，列资源。",
+      "limitations": "机构社区转述不等于账号本人亲历，编辑日不当发布日期，不将DPO输出变长的设问当普遍定理。",
+      "urls": [
+        "https://zhuanlan.zhihu.com/p/688624199",
+        "https://www.zhihu.com/en/article/688624199"
+      ]
+    },
+    {
+      "query": "知乎 AI Infra 面经 2026；\"AI Infra\" \"面试问题\" \"张朱墨\"；\"vLLM面试\" \"恋秋\"",
+      "findings": "发现AI Infra Field Notes来源雷达，可按公开原帖索引继续回溯，作为一条汇编资源收录。",
+      "limitations": "本次只核对索引文本与来源边界，不把索引内各行重复计为独立亲历，不推断所称高频具有代表性。",
+      "urls": [
+        "https://kkcocoa.github.io/ai-infra-field-notes/web/docs/interview/recent-field-reports.html"
+      ]
+    },
+    {
+      "query": "\"2046740446353811230\"；\"RL Interview Questions 2026\" \"sheriyuo\"",
+      "findings": "定位Xiuyu Li的RL算法/Infra汇编与公开镜像，镜像有原X及知乎链接，结构为19+16题。",
+      "limitations": "主URL知乎正文未取得，verification保持search_excerpt；镜像日期不是知乎发布日期。合并为一条资源，不把镜像、X和知乎三次计数。",
+      "urls": [
+        "https://zhuanlan.zhihu.com/p/2046740446353811230",
+        "https://x.com/sheriyuo/status/2063295181131247674",
+        "https://www.jxxy.net/ai/articles/sheriyuo-rl-interview-questions-2026/"
+      ]
+    }
+  ]
+}
