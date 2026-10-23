@@ -1,4 +1,4 @@
-# llm-interview--warehouse
+# llm-interview-warehouse
 
 **按研究方向分类的中文大模型面经与题解仓库。** 从公开面经找问法，从一手论文和官方文档校正答案，再用项目、手写和估算练习验证理解。
 

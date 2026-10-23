@@ -2,7 +2,7 @@
 
 本仓库中由维护者原创编写的文字、题解与整理结构采用 [Creative Commons Attribution 4.0 International（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/) 授权，署名可使用仓库名称与链接：
 
-`Pyramiding / llm-interview--warehouse — https://github.com/Pyramiding/llm-interview--warehouse`
+`Pyramiding / llm-interview-warehouse — https://github.com/Pyramiding/llm-interview-warehouse`
 
 复用时注明来源及修改。`tools/`中的原创程序采用[MIT License](tools/LICENSE)。
 

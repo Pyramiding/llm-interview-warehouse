@@ -6,7 +6,7 @@
 
 基于远端 main `32c1e61aa8b1fa881e07a2d12456d0e4345d539b` 完成本轮扩充。云端阶段因 GitHub 连接返回 `403 Resource not accessible by integration`，仅交付了完整更新包，未更新远端。
 
-**2026-10-23 已通过本机现有 GitHub 授权补提交。** 同步前核对了更新包全部62个文件的校验和，重新运行结构、链接与计算示例检查。实际发布记录见[仓库提交历史](https://github.com/Pyramiding/llm-interview--warehouse/commits/main/)。研究资料的查阅截止日仍为2026-10-22；本轮为一次性扩充，未设置定时任务。
+**2026-10-23 已通过本机现有 GitHub 授权补提交。** 同步前核对了更新包全部62个文件的校验和，重新运行结构、链接与计算示例检查。实际发布记录见[仓库提交历史](https://github.com/Pyramiding/llm-interview-warehouse/commits/main/)。研究资料的查阅截止日仍为2026-10-22；本轮为一次性扩充，未设置定时任务。
 
 ## 增量与统计口径
 
