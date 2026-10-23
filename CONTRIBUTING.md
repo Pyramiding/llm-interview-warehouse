@@ -10,6 +10,8 @@
 
 猎头转述、课程题单及解析放`data/resources.json`，可添加`companies`、`topics`、`domains`和可读版本`evidence_url`以进入交叉索引。只有发布者目录元数据时用`metadata_only`并填写依据URL；此状态不得进入自述面经表。未能核对正文的小红书二手短链仅记检索日志。
 
+牛客只见月日时不要按查阅年份补日期。LeetCode的帖子短链、数值ID地址和评论入口需核对同源后合并；跨站镜像可作为`repost_reference`入口连接`related_interview_id`，不重复算面试。普通SWE允许使用AI写代码、传统MLE/推荐基础材料可列工程邻接资源，不据此称为LLM岗位亲历。
+
 ## 补充题目或技术来源
 
 题目放入对应专题，使用该专题未占用的ID，并含难度/岗位、答题要点、追问、误区。添加原始论文或官方文档链接，说明版本。文献元数据放到对应`data/sources-*.json`；额外汇编放`data/resources.json`。`data/sources.json`和导航页由脚本生成，不直接手改。

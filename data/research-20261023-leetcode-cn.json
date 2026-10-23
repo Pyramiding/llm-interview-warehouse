@@ -1,0 +1,71 @@
+{
+  "as_of": "2026-10-23",
+  "note": "本文件保存查询与排除日志；收录条目以interviews.json/resources.json主表为准，日志不重复计数。",
+  "interview_ids": [
+    "INT201",
+    "INT202",
+    "INT203"
+  ],
+  "resource_ids": [
+    "RES301",
+    "RES302",
+    "RES303"
+  ],
+  "search_log": [
+    {
+      "query": "site:leetcode.cn/discuss 大模型/NLP/LLM 面经",
+      "findings": "找到匿名多公司NLP复盘、eBay/字节混合复盘；相同NLP原帖短链qKaoC9与3581570评论入口合并。",
+      "limitations": "搜索包含大量内推与旧题，不能据站点标签认定LLM岗位；部分直接读取超时。",
+      "urls": [
+        "https://leetcode.cn/discuss/post/3581570/-/comments/2942582/",
+        "https://leetcode.cn/discuss/post/qKaoC9/",
+        "https://leetcode.cn/discuss/post/ffaIj1/"
+      ]
+    },
+    {
+      "query": "site:leetcode.cn 面经 ChatGPT/LoRA/SFT/推理/RAG",
+      "findings": "反复命中同一NLP文章；C++预后处理文章只有邻接相关，作为资源；不重复计原帖评论。",
+      "limitations": "推荐流/评论区日期和文章发文日可能不同；未核对的日期留空。",
+      "urls": [
+        "https://leetcode.cn/discuss/post/3579869/-/comments/2932627/"
+      ]
+    },
+    {
+      "query": "site:leetcode.cn 面经 AI Agent / 2025 / 2026",
+      "findings": "收录smilecode个人转型求职复盘；Harness按汇编分级。",
+      "limitations": "smilecode技术清单是学习路线，非逐轮真题；原雇主不当应聘公司。",
+      "urls": [
+        "https://leetcode.cn/discuss/post/4002434/zhong-nian-lao-deng-zhao-gong-zuo-liang-303tn/",
+        "https://leetcode.cn/discuss/post/4020674/harnessmian-shi-zhen-ti-jie-xi-by-chow-2-ck1b/"
+      ]
+    },
+    {
+      "query": "排除：内推｜AI Agent面经，凉了",
+      "findings": "标题称Agent面经，搜索可见内容主要是匿名小公司开场与拼多多招聘内推，没有具体技术题可核对。",
+      "limitations": "不将推广拼多多写为实际面试公司，不计面经或有效资源。",
+      "urls": [
+        "https://leetcode.cn/discuss/post/3993854/ai-agentmian-jing-liang-liao-by-you-mao-tvvcy/"
+      ]
+    },
+    {
+      "query": "排除：旧视觉/传统算法题库、岗位招聘、转行求助",
+      "findings": "未把2021传统算法面经、只发布JD的达摩院/蚂蚁/淘宝闪购内推，以及无实际面试经过的转行求助纳入LLM亲历。",
+      "limitations": "传统RL里的multi-agent不等于LLM Agent；大模型只是题目背景的练习不构成LLM岗位面经。",
+      "urls": [
+        "https://leetcode.cn/discuss/post/N43pTW/",
+        "https://leetcode.cn/discuss/post/3153076/teng-xun-gun-suan-fa-gong-cheng-shi-gun-zbq6k/",
+        "https://leetcode.cn/discuss/post/yMt3PX/",
+        "https://leetcode.cn/circle/discuss/fvqTY2/"
+      ]
+    },
+    {
+      "query": "同源核验：eBay-AI算法工程师&字节数据科学面经 -site:leetcode.cn",
+      "findings": "追到葛小小的2024年牛客原帖并打开正文；面试经历使用原帖，匿名LeetCode页只列镜像。",
+      "limitations": "不同平台发布者关系未确认，不重复计为两位候选人或两次面试经历。",
+      "urls": [
+        "https://www.nowcoder.com/discuss/674299026405171200",
+        "https://leetcode.cn/discuss/post/ffaIj1/"
+      ]
+    }
+  ]
+}

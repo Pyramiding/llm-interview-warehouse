@@ -1133,7 +1133,7 @@
   {
     "title": "爆料美团大模型算法面经",
     "url": "https://maimai.cn/article/detail?efid=PYiKFP7lu0E6qJv-qmdrGg&fid=1886172297",
-    "source_type": "interview_collection",
+    "source_type": "repost_reference",
     "published": "2025-09-01",
     "topics": [
       "01",
@@ -1145,14 +1145,16 @@
     ],
     "role": "大模型算法（转述题单）",
     "author": "Leon",
-    "note": "已打开正文。页面职业为资深猎头顾问，并以“爆料者称”转述，不计亲历。可见问题涉及 Prompt/Prefix Tuning 的场景取舍、推荐曝光偏差、表示学习、归一化和位置编码；足以关联推荐主题，但没有可核实业务组或面试日期。不把转述内容当作美团统一题库。",
+    "note": "已打开正文。页面职业为资深猎头顾问，并以“爆料者称”转述，不计亲历。可见问题涉及 Prompt/Prefix Tuning 的场景取舍、推荐曝光偏差、表示学习、归一化和位置编码；足以关联推荐主题，但没有可核实业务组或面试日期。不把转述内容当作美团统一题库。 本轮逐项比对：前九项顺序与措辞和Aorni23牛客复盘同文，作为同源转载关联主记录，不另计面试经历。脉脉未注明原链，直接搬运路径仍是推断，可能经其他中间来源。",
     "accessed": "2026-10-23",
     "verification": "opened",
     "platform": "脉脉",
     "id": "RES222",
     "domains": [
       "推荐"
-    ]
+    ],
+    "related_interview_id": "INT211",
+    "evidence_url": "https://www.nowcoder.com/feed/main/detail/b0859aa60f9440ed875f7d3178933ce9"
   },
   {
     "title": "快手大模型算法面经爆料",
@@ -1269,5 +1271,174 @@
     "domains": [
       "推荐"
     ]
+  },
+  {
+    "title": "面经｜社招释然科技｜一面已凉",
+    "url": "https://leetcode.cn/discuss/post/3579869/-/comments/2932627/",
+    "source_type": "preparation_resource",
+    "published": null,
+    "companies": [
+      "释然科技"
+    ],
+    "role": "AI音视频预后处理/C++工程邻接面经",
+    "topics": [
+      "08",
+      "12"
+    ],
+    "domains": [],
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "Fool_one",
+    "note": "已读到第一人称原帖正文；面试集中在音视频编解码、OpenCV、socket、并发/积压、智能指针和SQL。反问提到为AI大模型进行预后处理及GPU编码，但没有证明是LLM算法/推理岗位，保守列工程邻接阅读，不加入LLM亲历数量；不把作者原雇主声网列为招聘公司。年/月日未取得，不猜填。",
+    "id": "RES301"
+  },
+  {
+    "title": "分享｜Harness工程面试真题",
+    "url": "https://leetcode.cn/discuss/post/4020674/harnessmian-shi-zhen-ti-jie-xi-by-chow-2-ck1b/",
+    "source_type": "interview_collection",
+    "published": "2026-08-31",
+    "companies": [],
+    "role": "Agent/Harness面试准备汇编",
+    "topics": [
+      "07",
+      "08",
+      "13"
+    ],
+    "domains": [],
+    "accessed": "2026-10-23",
+    "verification": "search_excerpt",
+    "author": "PolyMath",
+    "note": "公开搜索可见日期和概念/部署/评测/Token成本等归纳，直接打开只得页面壳，没有读取全文。没有候选人具体面试过程，按整理资源收录；文中“必考”“200行”等断言与滴滴/美团/阿里归属未追到原帖，不据此填公司或采用为标准答案。",
+    "id": "RES302"
+  },
+  {
+    "title": "分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）",
+    "url": "https://leetcode.cn/discuss/post/ffaIj1/",
+    "source_type": "repost_reference",
+    "published": null,
+    "companies": [
+      "eBay",
+      "字节"
+    ],
+    "role": "AI算法/数据科学实习复盘镜像",
+    "topics": [
+      "01",
+      "12"
+    ],
+    "domains": [],
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "evidence_url": "https://www.nowcoder.com/discuss/674299026405171200",
+    "note": "已读公开镜像，文本与2024-10-11的葛小小牛客原帖同源；匿名镜像账号与原作者身份未确认。仅作LeetCode平台阅读入口，主面经使用牛客原帖，不计为第二篇面试。镜像发布日未知，不能照搬原帖编辑日。",
+    "id": "RES303",
+    "related_interview_id": "INT202"
+  },
+  {
+    "title": "Microsoft L65 Interview Experience",
+    "url": "https://leetcode.com/discuss/post/7637330/",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "Microsoft"
+    ],
+    "role": "Senior Backend / Ads / Distributed Systems（题单标题标L65）",
+    "topics": [
+      "06",
+      "07",
+      "08",
+      "16",
+      "17"
+    ],
+    "domains": [
+      "搜索",
+      "广告"
+    ],
+    "summary": "五轮题单包含广告RTB与预算节奏、搜索API的倒排与地理索引、BM25与嵌入、RAG取舍、广告Agent自动化和分布式可靠性。",
+    "reading_tip": "按广告系统与搜索系统两个案例练设计，逐项说明模型收益与工程约束；不要把清单当成逐轮亲历已证实。",
+    "source_type": "interview_collection",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "标题声称面试经验，但公开正文主要是结构化问题列表，缺少明确候选人第一人称流程证据，保守归为题单资源，不计自述。搜索与广告标签来自明确设计题，不按Microsoft业务范围推断；支付可靠性提及欺诈不足以增加风控标签。未见可确认日期。",
+    "evidence_url": "https://leetcode.com/discuss/post/7637330/",
+    "id": "RES304"
+  },
+  {
+    "title": "Google MLE | L6 | Interview Experience and Resources for preparation",
+    "url": "https://leetcode.com/discuss/post/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/",
+    "year": 2024,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "Google"
+    ],
+    "role": "MLE L6（传统ML基础补充）",
+    "topics": [
+      "13",
+      "15",
+      "21"
+    ],
+    "domains": [
+      "风控"
+    ],
+    "summary": "作者描述传统MLE面试流程和准备建议，涉及内容审核系统设计、流量/数据问题、编码与领导力。适合作为机器学习系统设计基础材料。",
+    "reading_tip": "重点借鉴数据、指标与系统权衡的表达；原文没有明确LLM应用，不能据此统计大模型岗位或大模型风控面经。",
+    "source_type": "preparation_resource",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "属于有亲历叙述但未见LLM证据的邻接资源，未进入LLM自述统计。风控标签仅对应明确的传统内容审核设计；与LLM安全应用有边界。检索片段出现2024年11月两个日期，但标签不足以确定发布/编辑日，published留空。实测旧路径https://leetcode.com/discuss/interview-experience/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/重定向到本条新路径，同篇只计一次。",
+    "evidence_url": "https://leetcode.com/discuss/post/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/",
+    "id": "RES305"
+  },
+  {
+    "title": "Meta | SWE-ML | E5 | London | Offer",
+    "url": "https://leetcode.com/discuss/post/7066005/",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "Meta"
+    ],
+    "role": "SWE-ML E5（传统推荐基础补充）",
+    "topics": [
+      "08",
+      "15",
+      "18"
+    ],
+    "domains": [
+      "推荐"
+    ],
+    "summary": "作者自述编码、两轮低延迟推荐系统设计和行为面，提到数据、评测、冷启动与时间约束下的方案权衡，随后进行团队匹配。",
+    "reading_tip": "用于补足经典推荐系统设计基础；尊重作者不披露精确题目的边界，不根据概括还原所谓原题。",
+    "source_type": "preparation_resource",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "公开正文没有明确LLM或生成式推荐证据，故只列传统推荐邻接资源，不计LLM亲历。推荐标签来自作者明确描述的设计范围；不因页面可被搜索到而标为搜索。旧路径试开失败，没有观察到旧新URL重定向。日期未知。",
+    "evidence_url": "https://leetcode.com/discuss/post/7066005/",
+    "id": "RES306"
+  },
+  {
+    "title": "Rippling SDE 2 L6 2026",
+    "url": "https://leetcode.com/discuss/post/8367124/",
+    "year": 2026,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "Rippling"
+    ],
+    "role": "SDE 2 / L6（按标题保留，不跨公司换算）",
+    "topics": [
+      "14",
+      "15"
+    ],
+    "domains": [],
+    "summary": "普通SWE面试自述，作者在澄清设计、伪代码和复杂度后使用LLM生成实现，并核查接口和代码；实际题目主要是面向对象设计与后端系统。",
+    "reading_tip": "用来练习AI辅助编码中的需求澄清、验证与责任归属；它不能证明应聘者面试的是LLM岗位。",
+    "source_type": "preparation_resource",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "工程邻接资源：允许AI生成代码不等同于LLM技术面经。作者提到的缓存/事务练习有明确未被本次面试问到的补充，不当作真题。标题归组2026，精确日期未知；新闻聚合场景也不足以推断大模型推荐业务。",
+    "evidence_url": "https://leetcode.com/discuss/post/8367124/",
+    "id": "RES307"
   }
 ]

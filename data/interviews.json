@@ -1985,5 +1985,907 @@
     "platform": "脉脉",
     "id": "INT115",
     "domains": []
+  },
+  {
+    "title": "面经｜面了20家，30多场，为您带来NLP独家面经",
+    "url": "https://leetcode.cn/discuss/post/3581570/-/comments/2942582/",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [],
+    "role": "NLP/大模型算法社招（多家匿名公司）",
+    "topics": [
+      "01",
+      "03",
+      "05",
+      "06",
+      "07",
+      "09",
+      "13",
+      "16",
+      "18"
+    ],
+    "domains": [
+      "搜索",
+      "推荐"
+    ],
+    "summary": "作者按多轮求职记录LLM架构与参数估算、SFT/LoRA、显存、RAG、向量索引及Agent，并提及搜索指标和LLM结合推荐。",
+    "reading_tip": "按每段匿名岗位提取问法，练习项目目标、模型选型、检索指标与代码；不能按公司颜色或行业暗语猜企业身份。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "search_excerpt",
+    "author": "点点",
+    "evidence_url": "https://leetcode.cn/discuss/post/qKaoC9/",
+    "note": "搜索索引可见从2月9日至3月12日的第一人称求职流水账及相关题目；原帖短链和数值ID评论入口标题、作者与正文相同，只计一条。直接打开短链超时、评论入口cache miss，故为片段核验。没有可确定年份/发布日期；不能只凭2月29日猜2024年。企业均匿名，红色/橙色/蓝色大厂不反向实名。搜索与推荐标签只对应文中具体技术问题，不能分配给全部匿名岗位。",
+    "id": "INT201"
+  },
+  {
+    "title": "分享｜eBay-AI算法工程师&字节数据科学面经",
+    "url": "https://www.nowcoder.com/discuss/674299026405171200",
+    "year": 2024,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "eBay",
+      "字节"
+    ],
+    "role": "eBay AI算法实习 / 字节数据科学实习",
+    "topics": [
+      "01",
+      "12"
+    ],
+    "domains": [],
+    "summary": "作者自述eBay技术面与字节数据科学一面；eBay部分围绕CV大模型论文、CLIP与CNN、编程语言和算法，字节部分侧重英文交流及实习项目。",
+    "reading_tip": "视觉语言模型的论文深挖与工程编码一起准备；不能把eBay的CLIP问题归给字节，也不能把未回应的小红书投递当面试。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "葛小小",
+    "note": "已取得牛客原帖及LeetCode匿名镜像正文，两者文字和时间线同源，仅算一篇复盘。牛客显示2024-10-11已编辑，首次发布日期未知，published留空；正文只有10月9日至11日，逐轮年份未明示，event_date留空，year仅按原帖归组为2024。eBay的CLIP/CV大模型问题不归给字节；字节部分为数据科学项目面。小红书仅投递未获回应，不列面试公司。LeetCode镜像发布者与原作者关系未确认，另列转载入口，不重复计面试。",
+    "evidence_url": "https://leetcode.cn/discuss/post/ffaIj1/",
+    "id": "INT202"
+  },
+  {
+    "title": "分享｜中年老登找工作两个月总结",
+    "url": "https://leetcode.cn/discuss/post/4002434/zhong-nian-lao-deng-zhao-gong-zuo-liang-303tn/",
+    "year": 2026,
+    "published": "2026-07-27",
+    "event_date": "2026-06 / 2026-07",
+    "companies": [],
+    "role": "Agent开发/数据闭环社招复盘（目标企业匿名）",
+    "topics": [
+      "06",
+      "07",
+      "13",
+      "14"
+    ],
+    "domains": [],
+    "summary": "作者回顾Agent开发转型求职，介绍以代码Agent CLI练习工具、Skill、MCP、上下文、记忆、RAG、审计及评测的准备路径。",
+    "reading_tip": "适合补项目准备路线；原文没有逐公司逐轮题单，不能把作者学习清单写成实际面试问题。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "smilecode",
+    "note": "已取得公开正文，搜索页显示2026-07-27发布、07-28编辑，published记录原发日，编辑日只留备注。正文明确6/7月求职。原雇主“鹅厂”不是招聘方，目标传统软件公司匿名，故companies=[]。简历投递量、offer、代码量及“学完即可过面试”等仅为作者自述，不采用为通过率、工作量或学习效果证据。",
+    "id": "INT203"
+  },
+  {
+    "title": "京东零售大模型搜索算法实习一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/454b18e5fd7b4a2b994074cff94d756b",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "京东"
+    ],
+    "role": "京东零售/大模型搜索算法实习",
+    "topics": [
+      "03",
+      "04",
+      "13",
+      "16"
+    ],
+    "domains": [
+      "搜索"
+    ],
+    "summary": "作者回忆搜索算法实习一面，围绕实习项目、生成幻觉/重复判断、关键词替换、LoRA 与全参选择、SFT/DPO 数据差异及编码。",
+    "reading_tip": "用一个真实 query 说明项目链路，再解释训练数据、损失与效果验证之间的关系。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "OC 通知快快来",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/feed/main/detail/454b18e5fd7b4a2b994074cff94d756b",
+    "note": "证据：已打开具体原帖正文，标题明确京东零售搜索算法，开头自述分享近期面经，随后列项目、基础与代码题。页面仅显示 04-16 20:20，无年份，year/published/event_date 均留空；未采用二手汇编为其添加 2026 年。企业与经历为作者自述。",
+    "id": "INT204"
+  },
+  {
+    "title": "字节搜索广告 后端开发一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/ff1932e4e5e04c82befaba3201944039",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "搜索广告/后端开发",
+    "topics": [
+      "07",
+      "08",
+      "17"
+    ],
+    "domains": [
+      "搜索",
+      "广告"
+    ],
+    "summary": "第一人称复盘搜索广告后端一面；先问个人 Agent 项目所用模型、部署与推理框架，再深入 Redis、过滤器、数据库和编码。",
+    "reading_tip": "既准备 Agent 的模型与部署选择，也准备支撑线上服务的缓存、持久化和故障处理。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "牛客810197670号",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/feed/main/detail/ff1932e4e5e04c82befaba3201944039",
+    "note": "证据：已读原帖，作者具体描述非互联网实习、Agent 玩具项目、答题失误与编码调试，标题明确搜索广告。LLM 问题针对候选人个人项目，不能推断部门采用该 Agent 架构或模型。页面仅 04-24 03:20，无年份，全部日期字段留空。",
+    "id": "INT205"
+  },
+  {
+    "title": "字节国际化广告算法开发实习一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/917811659748436eaed5c3cbead002b5",
+    "year": 2025,
+    "published": "2025-04-10",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "国际化广告/算法开发实习",
+    "topics": [
+      "03",
+      "17"
+    ],
+    "domains": [
+      "广告"
+    ],
+    "summary": "作者回忆三个 LLM 项目被逐一追问，并讨论 LoRA 低秩假设、冻结权重与其他 PEFT 方法；反问得知业务为 AI 广告生成。",
+    "reading_tip": "将 LoRA 的低秩参数化、训练时哪些参数改变及项目收益讲清楚；广告生成仅是作者复述的业务背景。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "LoskiClaw",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/feed/main/detail/917811659748436eaed5c3cbead002b5",
+    "note": "证据：已读具体原帖，标题、第一人称项目复盘与反问均可见；反问明确提及为 TikTok 生成广告，支持广告标签。页面完整时间 2025-04-10 18:41，未标已编辑，作为发帖日期；没有明确面试日期。企业与业务为作者自述，未独立核实。",
+    "id": "INT206"
+  },
+  {
+    "title": "字节懂车帝大模型日常实习面经（已oc版",
+    "url": "https://www.nowcoder.com/feed/main/detail/c9a565e394314f1bba946858778989db",
+    "year": 2025,
+    "published": "2025-11-13",
+    "event_date": null,
+    "companies": [
+      "字节跳动/懂车帝"
+    ],
+    "role": "大模型日常实习",
+    "topics": [
+      "07",
+      "13",
+      "17"
+    ],
+    "domains": [
+      "广告"
+    ],
+    "summary": "作者自述两轮面试，追问用户画像与 Agent 工具设计、稳定 JSON 输出，并从其此前广告项目讨论 LLM 与传统广告算法取舍。",
+    "reading_tip": "把过往项目与当前岗位的交集讲具体；比较大模型和传统广告模型时同时说明时延、成本与效果证据。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "工作小梦想",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/feed/main/detail/c9a565e394314f1bba946858778989db",
+    "note": "证据：已读一面与二面正文，页面完整发帖时间为 2025-11-13 06:10，未见编辑标识；面试日未知。广告讨论明确由候选人此前实习项目引出，不据此认定懂车帝该组就是广告业务组。没有把用户画像自动标为用户增长或营销；OC 是作者自述。",
+    "id": "INT207"
+  },
+  {
+    "title": "腾讯 -暑期实习-PCG技术线-推荐算法",
+    "url": "https://www.nowcoder.com/feed/main/detail/d4646934dcc14201b444d7d70f4f56f7",
+    "year": 2024,
+    "published": null,
+    "event_date": "2024-03-20",
+    "companies": [
+      "腾讯"
+    ],
+    "role": "PCG/推荐算法暑期实习",
+    "topics": [
+      "01",
+      "13",
+      "18"
+    ],
+    "domains": [
+      "推荐"
+    ],
+    "summary": "作者记录推荐算法一面，讨论召回、类别不平衡、线上线下评测差异、DeepFM/DIEN、AUC/GAUC，并问到对大模型推荐的了解。",
+    "reading_tip": "以传统推荐链路为基础，再解释大模型可以在哪一环节发挥作用；原文没有展开 LLM 推荐方案细节。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "No_Game_No_Life",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/feed/main/detail/d4646934dcc14201b444d7d70f4f56f7",
+    "note": "证据：已读原帖相关正文，作者具体记载 2024-03-20 14:30、63 分钟的一面，附项目与编码过程及过面自述。页头 2024-03-28 13:43 标已编辑，只记录在此，不当作首次发布日期，因此 published=null。LLM 只出现开放提问，不能扩写为已问过生成式推荐细节。",
+    "id": "INT208"
+  },
+  {
+    "title": "28届双非本末9硕 腾讯wxg推荐算法凉经",
+    "url": "https://www.nowcoder.com/feed/main/detail/19d5ea0eda0e40de8a060ac516703c58",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "腾讯"
+    ],
+    "role": "WXG/推荐算法",
+    "topics": [
+      "01",
+      "04",
+      "08",
+      "10",
+      "13",
+      "18"
+    ],
+    "domains": [
+      "推荐"
+    ],
+    "summary": "作者复盘 WXG 推荐算法面试，从快手快聘实习谈 LLM 标签生成、蒸馏、图召回与排序评估，再讨论 DPO、注意力及 KV Cache。",
+    "reading_tip": "区分前雇主项目、个人论文与应聘团队；准备从标签质量、召回和排序指标一直讲到线上时延成本。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "玛卡巴卡_du",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/feed/main/detail/19d5ea0eda0e40de8a060ac516703c58?sourceSSR=enterprise",
+    "note": "证据：已读带 sourceSSR=enterprise 的原帖正文及楼主回复，正文为第一人称复盘，楼主后回复已挂。标题为腾讯 WXG；快手是过去实习公司，不加入本条应聘公司。页头仅 09-17 02:05 已编辑，无年份；28 届是毕业届别，不能推测面试年，故 year/published/event_date 留空。搜索缓存旧标题为“面经”，本条采用打开页“凉经”。",
+    "id": "INT209"
+  },
+  {
+    "title": "美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）",
+    "url": "https://www.nowcoder.com/discuss/764866992443572224",
+    "year": 2025,
+    "published": "2025-06-18",
+    "event_date": "2025-06-10",
+    "companies": [
+      "美团"
+    ],
+    "role": "核心本地商业/业务研发平台/用户增长算法",
+    "topics": [
+      "01",
+      "13",
+      "19",
+      "20"
+    ],
+    "domains": [
+      "用户增长",
+      "营销"
+    ],
+    "summary": "用户增长岗两轮复盘覆盖基础模型、评测、用户画像与 ESMM；反问介绍营销 Uplift 及使用 LLM 挖掘用户行为/query 特征的业务方向。",
+    "reading_tip": "明确哪些是实际技术提问、哪些是反问获得的业务介绍；用增量收益与实验说明增长建模的目标。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "牛客74877437号",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/discuss/764866992443572224",
+    "note": "证据：已读原帖，正文明确部门业务为用户增长，一面 2025-06-10、二面 2025-06-12；页面发帖时间 2025-06-18 15:08。event_date 记录一面，二面保留在备注。营销 Uplift 与 LLM 特征挖掘出现在反问中的业务介绍，不声称候选人被考过 Uplift/LLM 具体算法。另见 feed/b7dd64ef... 是他人引用，不重复计数。",
+    "id": "INT210"
+  },
+  {
+    "title": "美团大模型算法工程师一面面经（攒rp）",
+    "url": "https://www.nowcoder.com/feed/main/detail/b0859aa60f9440ed875f7d3178933ce9",
+    "year": 2025,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "美团"
+    ],
+    "role": "大模型算法工程师",
+    "topics": [
+      "01",
+      "03",
+      "18"
+    ],
+    "domains": [
+      "推荐"
+    ],
+    "summary": "作者回忆项目深挖后讨论 Prompt/Prefix Tuning、推荐曝光偏差、正则化/归一化、位置编码及文本/item 表示学习。",
+    "reading_tip": "把项目采用的方法与曝光偏差等推荐问题联系起来；没有明确编码题题意时不要从通用题库补齐。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "Aorni23",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/feed/main/detail/b0859aa60f9440ed875f7d3178933ce9",
+    "note": "证据：已读原帖，第一人称复盘含面试时长分配及推荐曝光偏差问题，故推荐标签表示提问涉及该领域，不确认具体业务组。仅见 2025-08-29 15:37 已编辑；正文有 2025 秋招标签，year=2025，published=null。投递 8.18/一面 8.27 只给月日，event_date 留空，不推定具体年日。",
+    "id": "INT211"
+  },
+  {
+    "title": "大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理",
+    "url": "https://www.nowcoder.com/discuss/744319938189438976",
+    "year": 2025,
+    "published": "2025-04-22",
+    "event_date": null,
+    "companies": [
+      "腾讯音乐娱乐集团"
+    ],
+    "role": "QQ 音乐/技术研究/NLP 暑期实习",
+    "topics": [
+      "01",
+      "03",
+      "05",
+      "06",
+      "08",
+      "12",
+      "13"
+    ],
+    "domains": [],
+    "summary": "作者记录三轮技术面与 HR 面，讨论 RAG 文档处理、微调、评测、注意力/位置编码、推理缓存、多模态与编码。",
+    "reading_tip": "适合复盘完整项目链路及显存/参数量计算；把“RoPE 无限外推”等面试设问当作待审查命题。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "Redefinition233",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/discuss/744319938189438976",
+    "note": "证据：已读原帖各轮正文及作者项目经历，页面完整发帖日期为 2025-04-22，面试日未知。QQ 音乐是明确部门，但正文没有说明音乐推荐、搜索或语音业务，因此 domains=[]；RAG、beam search 与 prefix cache 不等于业务搜索标签。原文的问题前提及回答不能充作标准结论。",
+    "id": "INT212"
+  },
+  {
+    "title": "美团 大模型算法工程师 配送 一面（附带吐槽）",
+    "url": "https://www.nowcoder.com/discuss/660643811655184384",
+    "year": 2024,
+    "published": "2024-09-04",
+    "event_date": null,
+    "companies": [
+      "美团"
+    ],
+    "role": "配送/大模型算法工程师",
+    "topics": [
+      "01",
+      "03"
+    ],
+    "domains": [],
+    "summary": "作者复盘配送算法岗一面，围绕实习中 LLM 判别任务、token 交叉熵与分类头设计讨论，并回忆中位数编码题。",
+    "reading_tip": "准备解释生成式损失与判别式任务的关系，并用数据说明方案取舍；面试评价应按个人感受理解。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "author": "纠结的变色龙躺平又起来了",
+    "platform": "牛客",
+    "evidence_url": "https://www.nowcoder.com/discuss/660643811655184384",
+    "note": "证据：已读原帖，标题明确配送，正文有自然第一人称对话及反问；发帖日期为 2024-09-04，文中面试 8.28 未写年份，event_date 留空。评论区别人提到搜推广，不属于本帖候选人的主文提问，因此不贴搜索/广告/推荐标签。对面试官的能力评价仅是作者看法。",
+    "id": "INT213"
+  },
+  {
+    "title": "字节跳动风控算法一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/08c77582e2684108860965cd500e227b",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "风控算法实习（Data中台，作者转述）",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "12",
+      "13",
+      "21"
+    ],
+    "domains": [
+      "风控"
+    ],
+    "summary": "围绕视觉问答一致性、LLM评审选样、LoRA显存、多模态架构和位置编码追问；反问部分明确说明内容与欺诈风险、攻击检测和隐藏网址识别等业务。",
+    "reading_tip": "把样本选择和下游效果的对照实验说清，再区分模型评审、多模态识别与风险决策的误差；团队业务描述只作为作者转述。",
+    "author": "JIWOO担",
+    "note": "公开原帖相关正文已取得（?sourceSSR=dynamic）。页面仅04-16 15:57，正文没有可靠年份或精确面试日，均留空，不从推荐区日期补年。风控标签由标题和反问中的团队业务明确支持；LoRA与评审项目属于候选经历。原帖称团队支持抖音与TikTok，属于面试官信息的个人转述，未独立核实。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT214"
+  },
+  {
+    "title": "字节风控算法面经",
+    "url": "https://www.nowcoder.com/discuss/799371978426564608",
+    "year": 2025,
+    "published": "2025-09-21",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "风控算法（校招或社招性质未说明）",
+    "topics": [
+      "01",
+      "05",
+      "21"
+    ],
+    "domains": [
+      "风控"
+    ],
+    "summary": "匿名作者按三轮记录风控算法面试，涉及MQA/GQA、状态空间模型、RoPE、SHAP计算复杂度，以及如何把大模型用于风控。",
+    "reading_tip": "将经典风控解释方法与大模型应用放在同一套成本、可靠性和误报漏报约束下讨论；三轮代码题另行练习。",
+    "author": "匿名牛油（不愿透露姓名的神秘牛友）",
+    "note": "取得公开三轮题单（?sourceSSR=enterprise），页面明确2025-09-21；面试日期未知。按匿名个人面经收录，经历与身份未独立核实；页面有订阅专刊入口，本条不声称读取任何额外付费内容。原文“L1实现特征同进同出”等是作者转述的问句，不能当作L1必然具有组选择性质的结论。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT215"
+  },
+  {
+    "title": "美团Keeta Agent开发（智能客服方向）一面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/abef26e941054c9db854cba7c81049cd",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "美团"
+    ],
+    "role": "Keeta Agent开发（智能客服方向）",
+    "topics": [
+      "03",
+      "04",
+      "06",
+      "07",
+      "13",
+      "23"
+    ],
+    "domains": [
+      "客服"
+    ],
+    "summary": "从候选人的健康问诊Agent、记忆和RAG切入，讨论外卖商户、用户和骑手的客服流程；还追问医疗项目的SFT/DPO数据与评测。",
+    "reading_tip": "分别说明知识咨询与订单状态流转需要的检索、权限和业务动作；把医疗训练项目与目标客服场景的迁移边界讲清。",
+    "author": "苹果梨_23206",
+    "note": "已打开相关正文。页面只显示04-28 09:14，未明确年份，不能依据所提工具猜年份。客服由标题和设计场景共同支持；医疗是候选项目，不是招聘团队业务。原文LM-VK名称未独立核对，未把它当作已确认的标准技术名词；“订单类用skill”等是该场面试中的转述，不是普遍适用的架构定律。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT216"
+  },
+  {
+    "title": "腾讯客服-一、二、三、四、五与六面面经（录用评估中）",
+    "url": "https://www.nowcoder.com/discuss/807984499236601856",
+    "year": 2025,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "腾讯"
+    ],
+    "role": "腾讯客服后台开发（作者自述TEG）",
+    "topics": [
+      "03",
+      "06",
+      "13",
+      "23"
+    ],
+    "domains": [
+      "客服"
+    ],
+    "summary": "作者记录六轮后台开发面试，包含知识图谱与RAG项目、NER微调经验、客服回答反馈设计，以及数据库、分布式与协作问题。",
+    "reading_tip": "区分客服业务中的后台工程岗与模型算法岗，准备检索数据处理、应用效果和反馈闭环；个人项目效果不能推成模型家族的普遍优劣。",
+    "author": "两月团子跑一生",
+    "note": "公开正文可读；2025-10-16为已编辑时间，原始发帖日未知。正文跨国庆前后多轮，未给逐轮日期，event_date留空。职位明确是后台开发而非人工客服或纯算法岗；知识图谱题材属于个人项目。标题时点是录用评估中，不把它写成已录取；个人对行业/招聘流程的判断不作为仓库结论。 首发日未确认，published留空，编辑日只作备注。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT217"
+  },
+  {
+    "title": "阿里云 AI Infer 一面",
+    "url": "https://www.nowcoder.com/discuss/921086976030150656",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-08-23",
+    "companies": [
+      "阿里云"
+    ],
+    "role": "AI Infra（政企业务、偏工程，Agentic RL训练）",
+    "topics": [
+      "04",
+      "07",
+      "09",
+      "10",
+      "13"
+    ],
+    "domains": [],
+    "summary": "作者明确记录2026年8月23日面试，讨论OPD选样、过程与结果奖励、多轮RL的用户模拟器、约束遵循、评测及verl AgentLoop。",
+    "reading_tip": "把奖励来源、模拟器偏差、训练数据选择和线上评测连成闭环；项目定制编程题未公开具体题面，不能补造。",
+    "author": "不愿吃饼的少年很活泼",
+    "note": "公开相关正文已取得（?sourceSSR=dynamic）；正文明确面试年月日，页面仅08-23已编辑，所以published留空。标题原文为AI Infer，正文自称AI Infra并在反问中写Agentic RL训练、2B方向。转人工率只是项目追问之一，原文未明确招聘团队就是客服组，domains不据此贴客服标签。公开题面不含三道定制编程题的内容。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT218"
+  },
+  {
+    "title": "2025春招实习面经汇总（已接阿里offer）",
+    "url": "https://www.nowcoder.com/discuss/736868736837173248",
+    "year": 2025,
+    "published": null,
+    "event_date": "2025-02-24 至 2025-04-16（多公司、多轮）",
+    "companies": [
+      "美团",
+      "阿里巴巴",
+      "蚂蚁集团",
+      "快手",
+      "寒武纪",
+      "百度",
+      "字节跳动"
+    ],
+    "role": "AI Infra/C++/大模型训练与推理系统实习（多岗位复盘）",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "08",
+      "09",
+      "10"
+    ],
+    "domains": [],
+    "summary": "同一作者按公司和轮次复盘训练推理岗位，涉及CUDA算子、KV缓存、量化、GPU内存管理、分布式训练、推理引擎选型和性能排查。",
+    "reading_tip": "按原帖的具体公司与岗位回看问题，准备可量化优化项目；不要把某轮问法、硬件时延或架构假设归给全部公司。",
+    "author": "HocRiser",
+    "note": "正文为同一候选人亲历汇总，不是多作者题库，整篇计一条。2025-04-17为编辑日；时间范围是正文可见轮次，非每家公司均覆盖全程。阿里含控股、国际与淘天岗位；腾讯仅在其它经历中简提，未额外列为技术题归属。字节有通用广告客户端岗，但不将它等同LLM广告算法，因此业务标签留空。原帖硬件时延及若干架构设问不直接采作技术事实。 首发日未确认，published留空，编辑日只作备注。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT219"
+  },
+  {
+    "title": "ai infra实习 阿里云面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/87e2d275ec62435ca036b6a99eb972be",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "阿里云"
+    ],
+    "role": "AI Infra实习",
+    "topics": [
+      "08",
+      "09"
+    ],
+    "domains": [],
+    "summary": "约四十分钟的项目深聊，公开记录LLM推理瓶颈、互联建模与硬件形态等追问，题单较短。",
+    "reading_tip": "用实际模型、工作负载和硬件约束分析推理瓶颈；原帖没展开的互联建模方案不自行补成企业真题细节。",
+    "author": "bug杀手锏",
+    "note": "已打开原帖相关正文；页面只有03-01 01:30，全文没有明确年份，published/year/event_date均留空。记录只有五项简短项目问题，不能当成完整面试流程、标准题库或具体团队职责说明。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT220"
+  },
+  {
+    "title": "腾讯大模型（技术研究-自然语言处理）面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/c8ddab6cf8ea467c9e4003c9256616cb",
+    "year": 2025,
+    "published": "2025-04-19",
+    "event_date": null,
+    "companies": [
+      "腾讯"
+    ],
+    "role": "技术研究—自然语言处理/大模型暑期实习",
+    "topics": [
+      "03",
+      "04",
+      "05",
+      "06",
+      "13"
+    ],
+    "domains": [],
+    "summary": "三轮技术面复盘包含DeepSeek报告讲解、GRPO公式、LoRA实验、Embedding训练与RAG评测，场景追问涉及实体错配和跨季度表格漏召回。",
+    "reading_tip": "把检索召回覆盖、重排、实体一致性和最终回答分别验证；训练路线比较以原论文为准，勿记反R1与R1-Zero。",
+    "author": "LB_Blancos",
+    "note": "相关正文已读取（?sourceSSR=users）；页面明确2025-04-19，作者称补发，实际逐轮日期未给。原文有关R1/R1-Zero冷启动与改进方向的问句存在混用，本仓库只记录主题，不把它们当正确技术前提。RAG检索属于技术问题，不足以证明招聘团队做搜索业务；domains留空。原帖末有引流关键词，但未见课程/付费内容要求。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT221"
+  },
+  {
+    "title": "腾讯提前批一面面经（挑战全网最晚hhh，热乎的~）",
+    "url": "https://www.nowcoder.com/feed/main/detail/138f454de8b5418084358eb20315a9df",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-03-02",
+    "companies": [
+      "腾讯"
+    ],
+    "role": "腾讯文档后端开发",
+    "topics": [
+      "06",
+      "07",
+      "14"
+    ],
+    "domains": [],
+    "summary": "作者记录腾讯文档后端一面，项目部分讨论RAG切片、评测优化、Function Calling、Skill、MCP及AI编程，同时考查网络与消息队列。",
+    "reading_tip": "说明检索与工具调用在项目里的实际职责、评测方法和失败处理；这些追问不意味着岗位名称就是Agent工程师。",
+    "author": "EaXon",
+    "note": "正文明确面试时间2026年3月2日15:00、腾讯文档和后端开发岗位；页面仅03-03已编辑，published留空。作者资料显示字节实习经历，不能据此把这场面试归给字节。标题中的最晚是个人表达，不是统计结论；结果仅为作者更新的自述。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT222"
+  },
+  {
+    "title": "BAT集齐？暑期实习面经分享",
+    "url": "https://www.nowcoder.com/discuss/730368110854676480",
+    "year": 2025,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "字节跳动",
+      "蚂蚁集团",
+      "阿里云"
+    ],
+    "role": "后端/AI应用与大模型工程暑期实习（多公司）",
+    "topics": [
+      "03",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "21"
+    ],
+    "domains": [
+      "风控"
+    ],
+    "summary": "作者按公司复盘后端与AI应用面试：蚂蚁侧重工作流节点和项目；阿里云含限时RAG实现、推理框架、蒸馏与KV缓存；字节含SFT和智能体项目。",
+    "reading_tip": "沿原文公司分段练习，先完成简版RAG编码，再解释数据流、推理与部署；蚂蚁风控业务陈述不代表所有公司或岗位都问风控算法。",
+    "author": "时不时删库跑路",
+    "note": "已读取公开正文（?sourceSSR=users）；2025-03-15是已编辑时间，逐轮日期未知。风控仅来自作者对蚂蚁面试官的转述，不把字节或阿里云也标为风控组。腾讯只在开头对比且指向作者以前帖子，本条不将腾讯列入可见技术轮次。字节“营销之类的”表述较含糊，未额外贴营销标签。多轮、多公司整篇只计一条，结果不独立核实。 首发日未确认，published留空，编辑日只作备注。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT223"
+  },
+  {
+    "title": "有赞面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/02ff128c01184e9587b4a24994c1ff0b",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "有赞"
+    ],
+    "role": "技术面，具体职位名未写（Java后端与RAG项目）",
+    "topics": [
+      "06",
+      "08",
+      "22"
+    ],
+    "domains": [
+      "语音"
+    ],
+    "summary": "从两段实习的异步编排、数据同步和分布式锁追问到候选项目中的Qwen语音链路、断连恢复、文档解析兜底及向量检索评价。",
+    "reading_tip": "分别画清同步数据流与语音请求时序，说明断连重试、幂等和检索兜底；项目里的券与订单场景不能直接认定为招聘组业务。",
+    "author": "发offer给我发好的呀",
+    "note": "已获得公开相关正文（?sourceSSR=enterprise）。页面只有05-15 16:16，未给年份，日期字段与year均留空。语音标签仅由候选项目的WebSocket+Qwen链路支持，招聘职位是否属语音团队未知。原帖“outlook+MQ”等术语疑有笔误，未擅自改成已核实实现；不将过往新人券项目标为当前营销岗位。",
+    "source_type": "interview_self_report",
+    "platform": "牛客",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "id": "INT224"
+  },
+  {
+    "title": "Avaamo | Interview (All rounds) | Senior MLE | Bengaluru",
+    "url": "https://leetcode.com/discuss/post/6879712/interview-senior-mle-avaamo-bengaluru-by-l9sy/",
+    "year": 2024,
+    "published": null,
+    "event_date": "2024-12",
+    "companies": [
+      "Avaamo"
+    ],
+    "role": "Senior Machine Learning Engineer",
+    "topics": [
+      "01",
+      "03",
+      "06",
+      "08",
+      "13"
+    ],
+    "domains": [],
+    "summary": "作者自述2024年12月参加三轮Senior MLE面试。技术范围包括RAG切分与评测、嵌入训练、双塔与交叉编码器、LoRA、生成采样、向量数据库、延迟和语义缓存。",
+    "reading_tip": "按检索、生成、评测和服务延迟四段整理自己的项目；文中问题清单可用于检查知识缺口，作者回答不能直接当标准答案。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "面试月由正文明确给出；公开正文未显示可确定的发帖日。仅自述chatbot框架相关工作，不能据此标为客服业务。与Google Gemini HM、Amazon Applied DS页面存在公开目录互链，不将其视为已核实的独立作者身份。实测旧地址https://leetcode.com/discuss/interview-experience/6879712/重定向至https://leetcode.com/discuss/post/6879712/，同篇只计一次。",
+    "evidence_url": "https://leetcode.com/discuss/post/6879712/interview-senior-mle-avaamo-bengaluru-by-l9sy/",
+    "id": "INT225"
+  },
+  {
+    "title": "Google SWE 3 (L4) ML Role — Feedback & Team Match Update, What Are My Chances?",
+    "url": "https://leetcode.com/discuss/post/7016988/google-swe-3-l4-ml-role-feedback-team-ma-or7c/",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "Google"
+    ],
+    "role": "SWE 3 / L4，ML方向（作者自述）",
+    "topics": [
+      "06",
+      "15"
+    ],
+    "domains": [],
+    "summary": "作者自述Google ML方向面试，包含算法轮和问答机器人ML系统设计；设计讨论从基础管线扩展到RAG，随后披露级别反馈和团队匹配进展。",
+    "reading_tip": "围绕问答系统说明何时引入检索、如何评价端到端质量，并把设计复盘与级别反馈分开阅读。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "虽以征询录用机会结尾，正文有已完成面试轮次的第一人称叙述，故收为面经；不是录用结果核验。问答机器人未明确用于客服，不填写客服或搜索业务标签。未见可确定的发布日期/面试日，不能用页脚年份补齐。试开的旧路径不可访问，未观察到新旧地址重定向关系。",
+    "evidence_url": "https://leetcode.com/discuss/post/7016988/google-swe-3-l4-ml-role-feedback-team-ma-or7c/",
+    "id": "INT226"
+  },
+  {
+    "title": "Amazon SDE Internship Interview Experience (2026)",
+    "url": "https://leetcode.com/discuss/post/8379852/amazon-sde-internship-interview-experien-xu0m/",
+    "year": 2026,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "Amazon"
+    ],
+    "role": "SDE Intern",
+    "topics": [
+      "02",
+      "06",
+      "07"
+    ],
+    "domains": [],
+    "summary": "作者记录OA后的两轮面试。项目追问涉及GenAI、向量数据库、MCP、tokenization和LLM基础，同时考察算法与项目设计选择。",
+    "reading_tip": "准备把向量库、MCP和tokenization分别放回具体项目链路说明用途；不要因出现术语就假定是专门的研究岗。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "2026来自标题；正文未给出可确认的精确发帖日或面试日。普通SDE实习岗位中确有明确LLM/GenAI技术追问，收录时保留岗位边界；未核实最终录用结果。",
+    "evidence_url": "https://leetcode.com/discuss/post/8379852/amazon-sde-internship-interview-experien-xu0m/",
+    "id": "INT227"
+  },
+  {
+    "title": "Amazon SDE-1 Interview Experience (TCS → Amazon, 2 YOE) — Timeline, Preparation & Offer",
+    "url": "https://leetcode.com/discuss/post/8542365/amazon-sde-1-interview-experience-tcs-am-8dyr/",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-05-08",
+    "companies": [
+      "Amazon"
+    ],
+    "role": "SDE-1",
+    "topics": [
+      "07",
+      "14",
+      "15"
+    ],
+    "domains": [],
+    "summary": "作者自述2026年完成Amazon SDE-1面试并获offer。除算法、行为和架构讨论，一轮围绕其简历中的GenAI实践，追问开发中使用AI、Agent及工作流的经验。",
+    "reading_tip": "用实际开发任务说明Agent的输入、工具、验证和人工介入；算法链接只作为同类题型参考。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "TCS是作者前雇主，不是本条面试企业。event_date记录正文明确的首批技术面日期2026-05-08；后续轮次多次改期，作者另述2026-09-21收到offer，不能将所有轮次压成同一天。原文特别说明所链接算法题是相似题型，不是逐字原题。发布日期未确认。",
+    "evidence_url": "https://leetcode.com/discuss/post/8542365/amazon-sde-1-interview-experience-tcs-am-8dyr/",
+    "id": "INT228"
+  },
+  {
+    "title": "Kotak Mahindra Bank Data Scientist Interview Experience",
+    "url": "https://leetcode.com/discuss/post/8149507/",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "Kotak Mahindra Bank"
+    ],
+    "role": "Data Science / SDE1（作者表述）",
+    "topics": [
+      "02",
+      "03",
+      "06",
+      "13"
+    ],
+    "domains": [],
+    "summary": "作者自述Data Science面试，传统ML之外涉及RAG与微调选择、tokenization、幻觉、向量文档更新、数据投毒、prompt injection及敏感信息泄露，并有数据处理和业务分析轮。",
+    "reading_tip": "分别回答检索更新、安全威胁和业务分析题；对攻击术语先定义威胁模型，再讨论可验证的防护措施。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "这是银行企业补充案例，不冒称互联网大厂。RAG安全、模型攻击和银行名称均不足以证明岗位负责欺诈风控，domains留空。正文包含本人多轮流程；末尾的待遇/入职咨询不作为技术依据。未见可确定日期，作者身份和结果未经独立证实。",
+    "evidence_url": "https://leetcode.com/discuss/post/8149507/",
+    "id": "INT229"
+  },
+  {
+    "title": "Groww SDE intern Interview Experience (AI/LLM) role | 6 month",
+    "url": "https://leetcode.com/discuss/post/7311827/",
+    "year": 2025,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "Groww"
+    ],
+    "role": "SDE Intern（AI/LLM，六个月）",
+    "topics": [
+      "15"
+    ],
+    "domains": [],
+    "summary": "作者自述通过内推参加实习面试。第二轮先讨论本人AI/GenAI项目和LLM理解，再完成设计与伪代码题；技术反馈后原计划的HR轮取消。",
+    "reading_tip": "适合了解AI/LLM实习中项目讲解与编码并重的结构；原文未提供详细LLM技术问题，不能扩写成模型知识题单。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "公开页同时显示2025-10-29与2025-10-30，未明确区分发布/编辑标签，因此仅归组2025，published和event_date留空。金融科技企业名称不能证明风控业务；不根据作者自评推断实际淘汰原因。",
+    "evidence_url": "https://leetcode.com/discuss/post/7311827/",
+    "id": "INT230"
+  },
+  {
+    "title": "Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru",
+    "url": "https://leetcode.com/discuss/post/7936329/google-hiring-manager-round-gemini-appli-mb5k/",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "Google"
+    ],
+    "role": "SWE III ML，Gemini Applications团队HM轮",
+    "topics": [
+      "03",
+      "07",
+      "13",
+      "15"
+    ],
+    "domains": [],
+    "summary": "作者记录约30分钟的Gemini Applications招聘经理轮，围绕项目评测、受约束的多任务系统、golden dataset、prompt与微调的取舍、缺少新数据时如何迭代展开。",
+    "reading_tip": "区分面试官提问、作者当场回答、作者事后写的期望回答及候选人反问；据此练习评测闭环而非背诵所谓官方答案。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "Gemini Applications团队与岗位由正文明确自述。agentic-based evaluation被作者标为期望回答，不能当作Google官方标准；可靠性与内部Agent框架部分属于候选人反问。页面没有可确定日期。与Avaamo及Amazon Applied DS存在目录互链，不推定匿名作者独立身份。",
+    "evidence_url": "https://leetcode.com/discuss/post/7936329/google-hiring-manager-round-gemini-appli-mb5k/",
+    "id": "INT231"
+  },
+  {
+    "title": "Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist",
+    "url": "https://leetcode.com/discuss/post/6871782/amazon-online-1st-round-bengaluru-applie-uiwk/",
+    "year": 2025,
+    "published": null,
+    "event_date": "2025-05",
+    "companies": [
+      "Amazon"
+    ],
+    "role": "Applied Data Scientist",
+    "topics": [
+      "01",
+      "03",
+      "08"
+    ],
+    "domains": [],
+    "summary": "作者自述2025年5月参加首轮，集中讨论BERT/GPT的QKV与mask、解码架构、估计量与偏差方差、采样随机性，以及预训练后少量任务数据仍有效的原因。",
+    "reading_tip": "把注意力结构、采样参数和小样本迁移的统计解释串起来；原文含启发式追问，需要自行辨析前提是否成立。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-23",
+    "verification": "opened",
+    "note": "面试年月由正文明确给出；发帖日未知。作者只记录首轮，并称后续编码和项目轮已排期，不能写成完整面试流程或已获offer。QKV的Query不是搜索业务证据。与Avaamo和Google Gemini HM存在目录互链，不推定匿名作者独立身份。",
+    "evidence_url": "https://leetcode.com/discuss/post/6871782/amazon-online-1st-round-bengaluru-applie-uiwk/",
+    "id": "INT232"
   }
 ]

@@ -1,0 +1,96 @@
+{
+  "as_of": "2026-10-23",
+  "note": "本文件保存查询与排除日志；收录条目以interviews.json/resources.json主表为准，日志不重复计数。",
+  "interview_ids": [
+    "INT204",
+    "INT205",
+    "INT206",
+    "INT207",
+    "INT208",
+    "INT209",
+    "INT210",
+    "INT211",
+    "INT212",
+    "INT213"
+  ],
+  "resource_ids": [],
+  "search_log": [
+    {
+      "query": "site:nowcoder.com/feed/main/detail 大模型 搜索 算法 面经；site:nowcoder.com 大模型 搜索 面经 实习",
+      "findings": "发现京东零售搜索算法实习与字节搜索广告后端原帖并取得正文；搜索结果包含大量 RAG 项目，未一律贴搜索业务标签。",
+      "limitations": "京东与字节后端页头仅月日，年份不推断；字节 LLM 问题源自候选人的玩具项目。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/454b18e5fd7b4a2b994074cff94d756b",
+        "https://www.nowcoder.com/feed/main/detail/ff1932e4e5e04c82befaba3201944039"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com 大模型 广告算法 一面 我；site:nowcoder.com 阿里妈妈 大模型 面经",
+      "findings": "发现字节国际化广告生成与懂车帝两篇自然复盘；后者广告讨论由过去实习引出。既有字节广告中台面经不重复。",
+      "limitations": "没有因用户画像、AI 广告生成就自动追加用户增长或营销标签；未找到足够可核对的新阿里妈妈 LLM 亲历。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/917811659748436eaed5c3cbead002b5",
+        "https://www.nowcoder.com/feed/main/detail/c9a565e394314f1bba946858778989db",
+        "https://www.nowcoder.com/feed/main/detail/aa2752aa21f94b8f8527b24ff820483d"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com 大模型 推荐算法 面经 二面 2024；28届双非本末9硕 腾讯wxg推荐算法面经",
+      "findings": "发现腾讯 PCG 推荐一面与 WXG 推荐复盘，两条原帖均取得相关正文。WXG 索引旧标题和打开页标题略有变化，采用打开页标题。",
+      "limitations": "PCG 的 LLM 提问只有开放了解题，不补造详细题目；WXG 快手只是过去实习单位，届别不是日历年份。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/d4646934dcc14201b444d7d70f4f56f7",
+        "https://www.nowcoder.com/feed/main/detail/19d5ea0eda0e40de8a060ac516703c58?sourceSSR=enterprise"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com 大模型 增长算法 面经；site:nowcoder.com 营销 大模型 算法 面经",
+      "findings": "发现美团用户增长岗 2025 年一二面，原帖明确用户增长、营销 Uplift 与大模型特征挖掘；营销岗传统面经主要是 BERT/Transformer 基础。",
+      "limitations": "LLM/Uplift 在反问业务介绍中，未伪称具体算法提问；不因传统“模型”词语把其他营销面经当作生成式 LLM 技术面经。",
+      "urls": [
+        "https://www.nowcoder.com/discuss/764866992443572224",
+        "https://www.nowcoder.com/discuss/576803962838401024"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com 大模型 美团 推荐 一面 面经；site:nowcoder.com 大模型 腾讯音乐 实习 面经",
+      "findings": "读到美团 Prompt/Prefix Tuning 与曝光偏差、腾讯音乐三轮 NLP，以及美团配送一面的具体正文。保留领域证据弱的两篇为 domains=[]。",
+      "limitations": "没有将普通部门品牌、RAG、作者职业或评论区内容当作业务归属证据；已编辑页不记录首次发文日。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/b0859aa60f9440ed875f7d3178933ce9",
+        "https://www.nowcoder.com/discuss/744319938189438976",
+        "https://www.nowcoder.com/discuss/660643811655184384"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com 大模型 搜索 推荐 广告 面经（筛选转述、推广和模拟）",
+      "findings": "排除已在主表的 tac、广告中台、快手推荐三面；排除显式课程推广、社群汇编、模拟答案及 offer 选择帖，未为凑量纳入个人亲历。",
+      "limitations": "宣传型帖子即使第一人称也不自动确认原创；部分问题明显为编写的场景设问，缺少自然经历证据，不作企业真题认定。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/0503d45073494879bbe91f5fccd6efbe",
+        "https://www.nowcoder.com/discuss/919617105761165312",
+        "https://www.nowcoder.com/discuss/932089164487458816",
+        "https://www.nowcoder.com/feed/main/detail/40cd65b873aa47e4ad1f4fc82b6480e2"
+      ]
+    },
+    {
+      "query": "百度 提前批 算法 一面面经；这周的一些面经；小红书大模型算法岗一面面经",
+      "findings": "另有百度推荐和多公司复盘的索引线索，但直接打开仅页脚/访问失败，未计入本批已读亲历；小红书候选作者为推广账号，未计入。",
+      "limitations": "索引内容与可读正文核验状态严格区分；没有用搜索引擎抓取时间或二手汇编的年份填原帖。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/4420f9cd36684a0798d68d346630f59f",
+        "https://www.nowcoder.com/feed/main/detail/f8b3c6d34d244ec58a18cc59919ec738",
+        "https://api-cdn.nowcoder.com/feed/main/detail/18a77b92694b41acb722a8152d0c35b3?sourceSSR=users"
+      ]
+    },
+    {
+      "query": "京东面经 京东大模型算法岗面经-01；美团用户增长面经引用链检查",
+      "findings": "京东 934254714856669184 汇编第 7 条与本次京东零售原帖内容一致；美团 feed/b7dd64ef... 明示引用牛客74877437号，两者均使用具体原帖计数。",
+      "limitations": "汇编携带的精确年份不倒灌到仅有月日的原帖；同文 feed/discuss 及引用转发不算新增独立经历。",
+      "urls": [
+        "https://www.nowcoder.com/discuss/934254714856669184",
+        "https://www.nowcoder.com/feed/main/detail/b7dd64ef9cde438ab8d7ca9f047118ae"
+      ]
+    }
+  ]
+}

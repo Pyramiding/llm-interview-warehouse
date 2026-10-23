@@ -1,0 +1,184 @@
+{
+  "as_of": "2026-10-23",
+  "note": "本文件保存查询与排除日志；收录条目以interviews.json/resources.json主表为准，日志不重复计数。",
+  "interview_ids": [
+    "INT225",
+    "INT226",
+    "INT227",
+    "INT228",
+    "INT229",
+    "INT230",
+    "INT231",
+    "INT232"
+  ],
+  "resource_ids": [
+    "RES304",
+    "RES305",
+    "RES306",
+    "RES307"
+  ],
+  "search_log": [
+    {
+      "query": "site:leetcode.com/discuss \"LLM\" \"interview experience\"",
+      "findings": "找到Avaamo、Google问答机器人等候选；旧年普通MLE结果仅作排除线索。",
+      "limitations": "检索命中不等于亲历或LLM岗位；页面页脚年份不作发布日期。",
+      "urls": [
+        "https://leetcode.com/discuss/post/6879712/interview-senior-mle-avaamo-bengaluru-by-l9sy/",
+        "https://leetcode.com/discuss/post/7016988/google-swe-3-l4-ml-role-feedback-team-ma-or7c/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss \"GenAI\" \"interview\"",
+      "findings": "发现Amazon等SDE轮次中的GenAI内容，后续按技术细节区分实质讨论和泛泛工具使用。",
+      "limitations": "仅有AI使用/信任等行为题的帖子未为凑量计入LLM自述。",
+      "urls": [
+        "https://leetcode.com/discuss/post/8379852/amazon-sde-internship-interview-experien-xu0m/",
+        "https://leetcode.com/discuss/post/8542365/amazon-sde-1-interview-experience-tcs-am-8dyr/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss \"ML System Design\" \"experience\"",
+      "findings": "Google L6与Meta E5有传统ML/推荐系统设计流程，已作为基础邻接资源。",
+      "limitations": "传统MLE、内容审核或推荐设计没有LLM证据时不计LLM亲历。",
+      "urls": [
+        "https://leetcode.com/discuss/post/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/",
+        "https://leetcode.com/discuss/post/7066005/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss \"RAG\" \"interview experience\"",
+      "findings": "发现RAG面经与Microsoft多领域问题清单，正文核对后分别归类。",
+      "limitations": "RAG不自动意味着搜索业务，题单不自动等于求职者亲历。",
+      "urls": [
+        "https://leetcode.com/discuss/post/6879712/interview-senior-mle-avaamo-bengaluru-by-l9sy/",
+        "https://leetcode.com/discuss/post/7637330/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss/post \"GenAI\" \"Interview Experience\" Amazon",
+      "findings": "筛出Amazon 2026实习和SDE-1两条，分别有向量库/MCP与Agent工作流的实际追问。",
+      "limitations": "更多命中只有日常AI生产力或模糊GenAI轮次描述，未额外收录；未采用待遇为技术证据。",
+      "urls": [
+        "https://leetcode.com/discuss/post/8379852/amazon-sde-internship-interview-experien-xu0m/",
+        "https://leetcode.com/discuss/post/8542365/amazon-sde-1-interview-experience-tcs-am-8dyr/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss/post \"LLM\" \"Meta\" \"interview\"",
+      "findings": "Meta SWE-ML公开面经有低延迟推荐设计，但未见LLM，保留基础阅读价值。",
+      "limitations": "不将传统推荐归为大模型推荐；作者保留了精确题目。",
+      "urls": [
+        "https://leetcode.com/discuss/post/7066005/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss/post \"RAG\" \"Microsoft\" \"interview\"",
+      "findings": "Microsoft L65清单明确涵盖搜索、广告、RAG和Agent，作为题单资源。",
+      "limitations": "第一人称面试过程证据不足，不计求职者自述。",
+      "urls": [
+        "https://leetcode.com/discuss/post/7637330/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss/post \"LLM\" \"Applied Scientist\"",
+      "findings": "公开互链帮助定位Amazon Applied Data Scientist第一轮LLM理论面经。",
+      "limitations": "岗位名按正文Applied Data Scientist保留，不改为Applied Scientist；仅首轮，无完整流程/结果证据。",
+      "urls": [
+        "https://leetcode.com/discuss/post/6871782/amazon-online-1st-round-bengaluru-applie-uiwk/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss/post \"LLM\" \"interview experience\" -Amazon -compensation -preparation",
+      "findings": "找到Groww AI/LLM实习、Kotak Data Science、Rippling AI辅助编码等候选。",
+      "limitations": "Groww只给LLM项目讨论概况；Kotak是银行补充案例；Rippling普通SWE转为工程邻接资源。",
+      "urls": [
+        "https://leetcode.com/discuss/post/7311827/",
+        "https://leetcode.com/discuss/post/8149507/",
+        "https://leetcode.com/discuss/post/8367124/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss/post \"GenAI\" \"Applied Scientist\" interview -compensation",
+      "findings": "继续核对GenAI岗位及应用面试线索，并排除没有技术正文的薪资/求助结果。",
+      "limitations": "本轮未以新的薄弱片段扩充亲历条数。",
+      "urls": [
+        "https://leetcode.com/discuss/post/6871782/amazon-online-1st-round-bengaluru-applie-uiwk/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss/post \"Machine Learning Engineer\" \"RAG\" \"interview\"",
+      "findings": "Avaamo正文包含多轮RAG、嵌入、PEFT与服务侧问题。",
+      "limitations": "只保留原文可见问题主题，不将作者答案包装成官方解答。",
+      "urls": [
+        "https://leetcode.com/discuss/post/6879712/interview-senior-mle-avaamo-bengaluru-by-l9sy/"
+      ]
+    },
+    {
+      "query": "site:leetcode.com/discuss/post \"LLM\" \"inference\" \"interview\"",
+      "findings": "补充采样、服务延迟与向量数据库相关候选，最终保留明确亲历及一条问题清单。",
+      "limitations": "未找到足够证据补出专门大厂推理Infra岗位亲历；不因泛称inference而标签分布式训练。",
+      "urls": [
+        "https://leetcode.com/discuss/post/6879712/interview-senior-mle-avaamo-bengaluru-by-l9sy/",
+        "https://leetcode.com/discuss/post/7637330/"
+      ]
+    },
+    {
+      "query": "逐条打开12个候选原帖",
+      "findings": "本文件8条LLM自述及4条补充资源均成功读取与条目相关的公开正文，verification=opened。",
+      "limitations": "opened只表示读到相关正文；作者身份、公司面试流程、结果和文中技术答案均未独立核实，未知日期保持null。未使用登录、付费、受限接口或访问控制绕过。",
+      "urls": [
+        "https://leetcode.com/discuss/post/6879712/interview-senior-mle-avaamo-bengaluru-by-l9sy/",
+        "https://leetcode.com/discuss/post/7016988/google-swe-3-l4-ml-role-feedback-team-ma-or7c/",
+        "https://leetcode.com/discuss/post/8379852/amazon-sde-internship-interview-experien-xu0m/",
+        "https://leetcode.com/discuss/post/8542365/amazon-sde-1-interview-experience-tcs-am-8dyr/",
+        "https://leetcode.com/discuss/post/8149507/",
+        "https://leetcode.com/discuss/post/7311827/",
+        "https://leetcode.com/discuss/post/7936329/google-hiring-manager-round-gemini-appli-mb5k/",
+        "https://leetcode.com/discuss/post/6871782/amazon-online-1st-round-bengaluru-applie-uiwk/",
+        "https://leetcode.com/discuss/post/7637330/",
+        "https://leetcode.com/discuss/post/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/",
+        "https://leetcode.com/discuss/post/7066005/",
+        "https://leetcode.com/discuss/post/8367124/"
+      ]
+    },
+    {
+      "query": "核对LeetCode旧interview-experience路径与新post路径",
+      "findings": "仅两条实际观察到工具报告重定向：Avaamo旧路径→/discuss/post/6879712/；Google L6完整旧路径→新完整路径。",
+      "limitations": "这两条各只计一篇；不能假定任意旧路径和新路径相同数值ID一定同源。",
+      "urls": [
+        "https://leetcode.com/discuss/interview-experience/6879712/",
+        "https://leetcode.com/discuss/post/6879712/",
+        "https://leetcode.com/discuss/interview-experience/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/",
+        "https://leetcode.com/discuss/post/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/"
+      ]
+    },
+    {
+      "query": "试开Meta和Google L4候选旧路径",
+      "findings": "新路径均有相关正文；两个候选旧路径未能成功读取。",
+      "limitations": "没有观察到重定向，故不把它们写成已核实别名；网络/路由失败不能据此判定帖子删除。",
+      "urls": [
+        "https://leetcode.com/discuss/interview-experience/7066005/",
+        "https://leetcode.com/discuss/interview-experience/7016988/",
+        "https://leetcode.com/discuss/post/7066005/",
+        "https://leetcode.com/discuss/post/7016988/google-swe-3-l4-ml-role-feedback-team-ma-or7c/"
+      ]
+    },
+    {
+      "query": "沿Avaamo公开Other Interviews目录点击Google Gemini HM、Amazon Applied DS",
+      "findings": "点击先出现LeetCode Leaving LeetCode提示页，可见目标URL；随后以正常直接地址打开目标公开正文。",
+      "limitations": "Google HM目标为HTTPS，Amazon目录目标为HTTP，实际读到正文使用HTTPS；未观察服务器HTTP→HTTPS跳转，不宣称此映射。Google HM页也显示互链，不能由匿名目录推断独立受访人数。",
+      "urls": [
+        "https://leetcode.com/link/?target=https%3A%2F%2Fleetcode.com%2Fdiscuss%2Fpost%2F7936329%2Fgoogle-hiring-manager-round-gemini-appli-mb5k%2F",
+        "https://leetcode.com/discuss/post/7936329/google-hiring-manager-round-gemini-appli-mb5k/",
+        "http://leetcode.com/discuss/post/6871782/amazon-online-1st-round-bengaluru-applie-uiwk/",
+        "https://leetcode.com/discuss/post/6871782/amazon-online-1st-round-bengaluru-applie-uiwk/"
+      ]
+    },
+    {
+      "query": "范围与检索缺口复核",
+      "findings": "交付8条LLM/GenAI/RAG/Agent面试自述，以及4条有分级边界的补充资源；业务标签仅取可见明确设计场景。",
+      "limitations": "本轮明确LLM亲历没有足够证据归入搜广推、增长、营销、风控、语音或客服，均留空业务标签。微软题单支持搜索/广告，传统MLE资源支持审核/推荐，但不能视为这些业务已有LLM亲历覆盖；未按公司主营业务补标签。",
+      "urls": []
+    }
+  ]
+}

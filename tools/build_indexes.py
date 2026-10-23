@@ -47,6 +47,13 @@ def write(path, text):
 
 def canonical_url(url):
     parts = urlsplit(url)
+    host = parts.netloc.lower().removeprefix('www.')
+    if host in {'leetcode.cn', 'leetcode.com'}:
+        # Slugs and comment URLs under the same numeric post are one source.
+        # Older Discuss routes/short IDs need observed redirects, not guessed IDs.
+        match = re.match(r'/discuss/post/(\d+)(?:/|$)', parts.path)
+        if match:
+            return f'https://{host}/discuss/post/{match.group(1)}'
     if parts.netloc in {'arxiv.org', 'www.arxiv.org'}:
         match = re.match(r'/(?:abs|html|pdf)/(\d{4}\.\d{4,5})(?:v\d+)?(?:\.pdf)?', parts.path)
         if match:
@@ -82,8 +89,11 @@ def question_records():
 
 COMPANY_ALIASES = {'字节跳动': '字节', '抖音': '字节', '阿里巴巴': '阿里', '阿里云': '阿里', '淘天': '阿里', '淘天集团': '阿里', '百度公司': '百度', '腾讯公司': '腾讯', '快手科技': '快手', '理想汽车': '理想', '美团到店': '美团', '阿里达摩院': '阿里', '网易（可见片段）': '网易', '支付宝': '蚂蚁集团', '蚂蚁': '蚂蚁集团'}
 COMPANY_ALIASES.update({'阿里巴巴通义实验室':'阿里', '飞猪':'阿里', '拼多多/TEMU':'拼多多', '智谱华章':'智谱', '智谱AI':'智谱'})
+COMPANY_ALIASES.update({'字节跳动/懂车帝':'字节', 'Microsoft':'微软', 'Microsoft Research':'微软', '亚马逊':'Amazon', '谷歌':'Google'})
 NON_COMPANIES = {'未明确', '未确认', '多家公司（未逐题归属）', '多家公司未逐题归属', '多家公司', '未说明', '未逐题明确', '其他企业待原文核实', '其他公司'}
 PLATFORMS = {'nowcoder.com':'牛客', 'zhihu.com':'知乎', 'mp.weixin.qq.com':'微信公众号', 'github.com':'GitHub', 'xiaohongshu.com':'小红书', 'xhslink.com':'小红书', 'xhslink.cn':'小红书', 'maimai.cn':'脉脉', 'v2ex.com':'V2EX', 'juejin.cn':'掘金', 'csdn.net':'CSDN', '1point3acres.com':'一亩三分地', 'woshipm.com':'人人都是产品经理', 'onlyar.site':'个人博客'}
+PLATFORMS.update({'leetcode.cn':'LeetCode中文站', 'leetcode.com':'LeetCode国际站'})
+PLATFORM_ANCHORS = {'牛客':'platform-nowcoder', 'LeetCode中文站':'platform-leetcode-cn', 'LeetCode国际站':'platform-leetcode-global'}
 DOMAIN_RULES = [('搜索', ('搜索','query','检索排序')), ('广告', ('广告','出价','ctr','cvr')), ('推荐', ('推荐','召回排序')), ('用户增长', ('增长','uplift','ltv')), ('营销', ('营销','触达','归因')), ('风控', ('风控','欺诈','内容审核')), ('语音', ('语音','asr','tts')), ('客服', ('客服','转人工'))]
 
 def platform(item):
@@ -103,7 +113,8 @@ def normalized_companies(item):
                    for c in item.get('companies',[])}) or ['公司未明确']
 
 def record_link(item, resource=False):
-    return f'[{item["id"]} · {md_cell(item["title"])}]({"resources.md" if resource else "README.md"}#{item["id"].lower()})'
+    label = {'preparation_resource':'（准备/邻接阅读）', 'repost_reference':'（同源转载）'}.get(item.get('source_type'),'') if resource else ''
+    return f'[{item["id"]} · {md_cell(item["title"])}]({"resources.md" if resource else "README.md"}#{item["id"].lower()}){label}'
 
 def build_resource_index(resources):
     page = ['# 汇编、解析与待核验阅读入口', '', '[返回首页](../../README.md) · [按公司](by-company.md) · [按研究方向](by-topic.md) · [公司×业务方向](company-direction.md)', '',
@@ -117,7 +128,10 @@ def build_resource_index(resources):
                  f'- **日期：** 发布/编辑 {x.get("published") or "未确认"}；查阅 {x["accessed"]}。',
                  f'- **核验：** `{x["verification"]}`；{x["note"]}', '']
         if x.get('summary'): page += [f'- **摘要：** {x["summary"]}', '']
+        if x.get('role'): page += [f'- **岗位/阅读范围：** {x["role"]}。', '']
         if x.get('evidence_url'): page += [f'- **元数据/可读版本依据：** [核验页面]({x["evidence_url"]})。', '']
+        if x.get('related_interview_id'):
+            page += [f'- **同源主记录：** [{x["related_interview_id"]}](README.md#{x["related_interview_id"].lower()})；不另计面试经历。', '']
     write(ROOT/'docs/interviews/resources.md','\n'.join(page))
 
 def build_company_direction(interviews, resources):
@@ -131,7 +145,7 @@ def build_company_direction(interviews, resources):
                 companies = normalized_companies(x)
                 names = companies if len(companies)==1 else ['多公司复盘（未逐公司映射）']
                 for company in names: groups[company][kind].append(x)
-        page += [f'## {domain}', '', '| 公司/资料归属 | 公开自述面经 | 汇编、解析与元数据入口 |', '|---|---|---|']
+        page += [f'## {domain}', '', '| 公司/资料归属 | 公开自述面经 | 补充阅读（汇编/准备/转载） |', '|---|---|---|']
         for company,rows in sorted(groups.items()):
             cells = ['<br>'.join(record_link(x,bool(kind)) for x in entries) or '—' for kind,entries in enumerate(rows)]
             page += [f'| {md_cell(company)} | {cells[0]} | {cells[1]} |']
@@ -145,7 +159,11 @@ def build_facets(interviews, resources):
         for item in interviews:
             for value in facets(item,kind): groups[value].append(item)
         page = [f'# 按{title}查公开面经', '', '[全部公开面经](README.md) · [按公司](by-company.md) · [按平台](by-platform.md) · [按岗位](by-role.md) · [按年份](by-year.md) · [按业务领域](by-domain.md)', '', '本页覆盖多家公司。企业、岗位及经历属于原作者自述；业务标签只依据可见标题、岗位或摘要中的明确词语，不据公司业务推断，每题也不自动归属公司。年份未知单列，资料年份不等于面试发生年份。', '']
+        if kind == 'platform':
+            page += [' · '.join(f'[{name}](#{anchor})' for name,anchor in PLATFORM_ANCHORS.items() if name in groups), '']
         for value,items in sorted(groups.items()):
+            if kind == 'platform' and value in PLATFORM_ANCHORS:
+                page += [f'<a id="{PLATFORM_ANCHORS[value]}"></a>', '']
             page += [f'## {value}（{len(items)}条记录）', '']
             page += [f'- [{x["id"]} · {x["title"]}](README.md#{x["id"].lower()}) — {x.get("year") or "年份未确认"}；{x["verification"]}' for x in items]
             page += ['']

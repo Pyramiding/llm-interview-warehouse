@@ -1,0 +1,87 @@
+{
+  "as_of": "2026-10-23",
+  "note": "本文件保存查询与排除日志；收录条目以interviews.json/resources.json主表为准，日志不重复计数。",
+  "interview_ids": [
+    "INT214",
+    "INT215",
+    "INT216",
+    "INT217",
+    "INT218",
+    "INT219",
+    "INT220",
+    "INT221",
+    "INT222",
+    "INT223",
+    "INT224"
+  ],
+  "resource_ids": [],
+  "search_log": [
+    {
+      "query": "site:nowcoder.com \"面经\" \"大模型\" \"风控\"；site:nowcoder.com/feed/main/detail \"大模型\" \"风控\" \"面经\"",
+      "findings": "找到字节风控两篇自然轮次复盘，以及BAT多公司实习中的蚂蚁风控业务说明。三篇均打开相关正文，标签分别保留岗位与多公司归属边界。",
+      "limitations": "字节一面只见月日，未猜年份。另一条匿名三轮记录不代表身份或流程得到独立证实；BAT中的风控只明确指蚂蚁。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/08c77582e2684108860965cd500e227b",
+        "https://www.nowcoder.com/discuss/799371978426564608",
+        "https://www.nowcoder.com/discuss/730368110854676480"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com \"面经\" \"客服\" \"RAG\"；site:nowcoder.com \"智能客服\" \"算法\" \"面经\"；site:nowcoder.com \"面经\" \"客服\" \"Agent\" -AIGC小白 -三年面试 -RockyDing",
+      "findings": "取得美团Keeta智能客服Agent与腾讯客服后台六轮原帖；二者分别是Agent开发与后台开发，未统称为客服算法岗位。",
+      "limitations": "美团原帖仅月日；腾讯截至标题为录用评估中，不冒称录取。既有美团a525d27e7e3f4d67b99d27d7c46c7ff2不重复收录。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/abef26e941054c9db854cba7c81049cd",
+        "https://www.nowcoder.com/discuss/807984499236601856",
+        "https://www.nowcoder.com/feed/main/detail/a525d27e7e3f4d67b99d27d7c46c7ff2"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com \"面经\" \"语音\" \"大模型\"；site:nowcoder.com \"语音大模型\" \"面经\"；site:nowcoder.com \"面经\" \"语音\" \"Whisper\"；site:nowcoder.com \"面经\" \"语音\" \"Qwen\"",
+      "findings": "发现有赞原帖中明确的WebSocket+Qwen语音链路技术追问，保留为项目领域；本轮未取得新的、公司岗位也明确为大厂语音大模型的自然自述。",
+      "limitations": "既有c6e933488ad344268581130c8360e53c不重复。MiniMax内推题单未证明发布者亲历；一般音视频编解码面经缺少LLM关联，不为填数纳入。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/02ff128c01184e9587b4a24994c1ff0b",
+        "https://www.nowcoder.com/feed/main/detail/c6e933488ad344268581130c8360e53c",
+        "https://www.nowcoder.com/feed/main/detail/98addb5e40324dc3b7cd771a89480df6",
+        "https://www.nowcoder.com/feed/main/detail/685e7b6748c34a86ac63d5f4a30ebd31"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com \"AI Infra\" \"面经\"；site:nowcoder.com \"LLM\" \"推理\" \"面经\" \"快手\" -模拟 -RockyDing -林小白zii",
+      "findings": "取得阿里云Agentic RL原帖、HocRiser的2025多公司Infra实习复盘，以及阿里云短篇项目面经；多公司汇总仍计一条。",
+      "limitations": "不将页面只显示月日的阿里云短文归到2026；不同公司题目和硬件假设不合并为统一流程。",
+      "urls": [
+        "https://www.nowcoder.com/discuss/921086976030150656",
+        "https://www.nowcoder.com/discuss/736868736837173248",
+        "https://www.nowcoder.com/feed/main/detail/87e2d275ec62435ca036b6a99eb972be"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com \"RAG\" \"面经\" \"腾讯\" -林小白zii -模拟 -AIGC小白入门记 -RockyDing",
+      "findings": "获得腾讯自然语言处理三轮原帖和腾讯文档后端一面；前者含实体错配与表格漏召回，后者含RAG与工具调用项目。",
+      "limitations": "腾讯NLP原文对R1与R1-Zero问句有混用，明确不作为技术结论。腾讯文档是后台开发，不改写成Agent岗位；RAG检索技术不等于搜索业务部门。",
+      "urls": [
+        "https://www.nowcoder.com/feed/main/detail/c8ddab6cf8ea467c9e4003c9256616cb",
+        "https://www.nowcoder.com/feed/main/detail/138f454de8b5418084358eb20315a9df"
+      ]
+    },
+    {
+      "query": "site:nowcoder.com \"风控\" \"面经\" \"蚂蚁\" \"大模型\" -林小白zii -AIGC小白入门记；原帖与整理版本辨别",
+      "findings": "搜索同时返回林小白zii的多篇汇编和RockyDing的三年面试五年模拟；只用作回溯线索，优先取得自然候选原帖，不另扩充大量同质资源。",
+      "limitations": "不能把一个合集中的多段当多名亲历，也不能用模拟答案补原帖未公开的定制编程题。资源本轮没有必需净新增，resources保持空数组。",
+      "urls": [
+        "https://www.nowcoder.com/discuss/932089164487458816",
+        "https://www.nowcoder.com/discuss/933731201871806464?sourceSSR=enterprise",
+        "https://www.nowcoder.com/discuss/923565131533930496?sourceSSR=enterprise",
+        "https://www.nowcoder.com/discuss/922659809084571648?sourceSSR=home"
+      ]
+    },
+    {
+      "query": "去重与访问范围核对：当前74条面经、66条资源及本轮规范",
+      "findings": "先读取CONTRIBUTING与当前数据；按牛客路径去参数、统一www/api-cdn域名比对，11个主URL均无重复。仅打开公开牛客网页，没有访问微信公众号。",
+      "limitations": "URL去重不能穷尽所有跨平台搬运；各条均保留作者和轮次特征，未发现与现有条目明显同文。亲历、团队和结果仍是作者自述。",
+      "urls": []
+    }
+  ]
+}

@@ -19,7 +19,7 @@
 - [INT104 · OC了，分享一下美团智能客服面经](README.md#int104) — 2023；search_excerpt
 - [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108) — 2023；opened
 
-## 2024（23条记录）
+## 2024（27条记录）
 
 - [INT006 · NLP & 大模型春招记录](README.md#int006) — 2024；opened
 - [INT007 · 上海人工智能实验室大模型算法实习面经](README.md#int007) — 2024；search_excerpt
@@ -44,8 +44,12 @@
 - [INT105 · 快手 推荐大模型 三面 面经](README.md#int105) — 2024；opened
 - [INT113 · 快手三面](README.md#int113) — 2024；opened
 - [INT115 · 网易大模型面经 刷到就是老天在救你](README.md#int115) — 2024；opened
+- [INT202 · 分享｜eBay-AI算法工程师&字节数据科学面经](README.md#int202) — 2024；opened
+- [INT208 · 腾讯 -暑期实习-PCG技术线-推荐算法](README.md#int208) — 2024；opened
+- [INT213 · 美团 大模型算法工程师 配送 一面（附带吐槽）](README.md#int213) — 2024；opened
+- [INT225 · Avaamo | Interview (All rounds) | Senior MLE | Bengaluru](README.md#int225) — 2024；opened
 
-## 2025（24条记录）
+## 2025（36条记录）
 
 - [INT015 · 网易有道 多模态实习（20250120）](README.md#int015) — 2025；search_excerpt
 - [INT016 · 阿里云 AI平台研发 一面](README.md#int016) — 2025；search_excerpt
@@ -71,8 +75,20 @@
 - [INT103 · 字节广告算法中台秋招面经](README.md#int103) — 2025；opened
 - [INT111 · 算法岗-日常实习-面经](README.md#int111) — 2025；opened
 - [INT114 · 面试字节大模型（LLMs）RAG被问麻了](README.md#int114) — 2025；opened
+- [INT206 · 字节国际化广告算法开发实习一面](README.md#int206) — 2025；opened
+- [INT207 · 字节懂车帝大模型日常实习面经（已oc版](README.md#int207) — 2025；opened
+- [INT210 · 美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）](README.md#int210) — 2025；opened
+- [INT211 · 美团大模型算法工程师一面面经（攒rp）](README.md#int211) — 2025；opened
+- [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212) — 2025；opened
+- [INT215 · 字节风控算法面经](README.md#int215) — 2025；opened
+- [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217) — 2025；opened
+- [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219) — 2025；opened
+- [INT221 · 腾讯大模型（技术研究-自然语言处理）面经](README.md#int221) — 2025；opened
+- [INT223 · BAT集齐？暑期实习面经分享](README.md#int223) — 2025；opened
+- [INT230 · Groww SDE intern Interview Experience (AI/LLM) role | 6 month](README.md#int230) — 2025；opened
+- [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232) — 2025；opened
 
-## 2026（9条记录）
+## 2026（14条记录）
 
 - [INT026 · 字节 260901 一面面经](README.md#int026) — 2026；opened
 - [INT027 · 面经复盘（2026.5.7）](README.md#int027) — 2026；opened
@@ -83,8 +99,13 @@
 - [IB011 · 一个搜广推MLE在AI转型期的面试观察](README.md#ib011) — 2026；opened
 - [RES009 · 27届秋招大模型岗面经](README.md#res009) — 2026；opened
 - [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112) — 2026；opened
+- [INT203 · 分享｜中年老登找工作两个月总结](README.md#int203) — 2026；opened
+- [INT218 · 阿里云 AI Infer 一面](README.md#int218) — 2026；opened
+- [INT222 · 腾讯提前批一面面经（挑战全网最晚hhh，热乎的~）](README.md#int222) — 2026；opened
+- [INT227 · Amazon SDE Internship Interview Experience (2026)](README.md#int227) — 2026；opened
+- [INT228 · Amazon SDE-1 Interview Experience (TCS → Amazon, 2 YOE) — Timeline, Preparation & Offer](README.md#int228) — 2026；opened
 
-## 年份未确认（6条记录）
+## 年份未确认（17条记录）
 
 - [INT048 · 国内20家公司大模型岗位面试经验汇总](README.md#int048) — 年份未确认；search_excerpt
 - [IB012 · 赛博土木LLM Inference Role面试总结](README.md#ib012) — 年份未确认；opened
@@ -92,3 +113,14 @@
 - [INT107 · 通义实验室大模型三面记录（编目标题）](README.md#int107) — 年份未确认；search_excerpt
 - [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109) — 年份未确认；opened
 - [INT110 · MiniMax：HPC / MLSys 面经（编目标题）](README.md#int110) — 年份未确认；opened
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201) — 年份未确认；search_excerpt
+- [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204) — 年份未确认；opened
+- [INT205 · 字节搜索广告 后端开发一面](README.md#int205) — 年份未确认；opened
+- [INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209) — 年份未确认；opened
+- [INT214 · 字节跳动风控算法一面](README.md#int214) — 年份未确认；opened
+- [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216) — 年份未确认；opened
+- [INT220 · ai infra实习 阿里云面经](README.md#int220) — 年份未确认；opened
+- [INT224 · 有赞面经](README.md#int224) — 年份未确认；opened
+- [INT226 · Google SWE 3 (L4) ML Role — Feedback & Team Match Update, What Are My Chances?](README.md#int226) — 年份未确认；opened
+- [INT229 · Kotak Mahindra Bank Data Scientist Interview Experience](README.md#int229) — 年份未确认；opened
+- [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231) — 年份未确认；opened

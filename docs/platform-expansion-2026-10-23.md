@@ -1,5 +1,7 @@
 # 2026-10-23 平台面经增补与核验记录
 
+本页保留知乎/微信/小红书/脉脉这一轮的增量快照；后续更新见[牛客与LeetCode增补](nowcoder-leetcode-2026-10-23.md)。
+
 [返回首页](../README.md) · [按公司](interviews/by-company.md) · [按研究方向](interviews/by-topic.md) · [公司×业务方向](interviews/company-direction.md) · [补充资源](interviews/resources.md)
 
 ## 本轮增量

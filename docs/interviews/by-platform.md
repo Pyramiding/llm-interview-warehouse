@@ -4,9 +4,31 @@
 
 本页覆盖多家公司。企业、岗位及经历属于原作者自述；业务标签只依据可见标题、岗位或摘要中的明确词语，不据公司业务推断，每题也不自动归属公司。年份未知单列，资料年份不等于面试发生年份。
 
+[牛客](#platform-nowcoder) · [LeetCode中文站](#platform-leetcode-cn) · [LeetCode国际站](#platform-leetcode-global)
+
 ## CSDN（1条记录）
 
 - [IB013 · 最近在面试AI Agent开发工程师](README.md#ib013) — 2025；opened
+
+<a id="platform-leetcode-cn"></a>
+
+## LeetCode中文站（2条记录）
+
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201) — 年份未确认；search_excerpt
+- [INT203 · 分享｜中年老登找工作两个月总结](README.md#int203) — 2026；opened
+
+<a id="platform-leetcode-global"></a>
+
+## LeetCode国际站（8条记录）
+
+- [INT225 · Avaamo | Interview (All rounds) | Senior MLE | Bengaluru](README.md#int225) — 2024；opened
+- [INT226 · Google SWE 3 (L4) ML Role — Feedback & Team Match Update, What Are My Chances?](README.md#int226) — 年份未确认；opened
+- [INT227 · Amazon SDE Internship Interview Experience (2026)](README.md#int227) — 2026；opened
+- [INT228 · Amazon SDE-1 Interview Experience (TCS → Amazon, 2 YOE) — Timeline, Preparation & Offer](README.md#int228) — 2026；opened
+- [INT229 · Kotak Mahindra Bank Data Scientist Interview Experience](README.md#int229) — 年份未确认；opened
+- [INT230 · Groww SDE intern Interview Experience (AI/LLM) role | 6 month](README.md#int230) — 2025；opened
+- [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231) — 年份未确认；opened
+- [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232) — 2025；opened
 
 ## V2EX（2条记录）
 
@@ -32,7 +54,9 @@
 
 - [INT047 · 字节【大模型评测平台】产品岗-面试总结与复盘](README.md#int047) — 2024；opened
 
-## 牛客（37条记录）
+<a id="platform-nowcoder"></a>
+
+## 牛客（59条记录）
 
 - [INT001 · 理想+ 大模型面经](README.md#int001) — 2023；opened
 - [INT002 · 2023秋招nlp算法面经](README.md#int002) — 2023；search_excerpt
@@ -71,6 +95,28 @@
 - [INT105 · 快手 推荐大模型 三面 面经](README.md#int105) — 2024；opened
 - [INT111 · 算法岗-日常实习-面经](README.md#int111) — 2025；opened
 - [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112) — 2026；opened
+- [INT202 · 分享｜eBay-AI算法工程师&字节数据科学面经](README.md#int202) — 2024；opened
+- [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204) — 年份未确认；opened
+- [INT205 · 字节搜索广告 后端开发一面](README.md#int205) — 年份未确认；opened
+- [INT206 · 字节国际化广告算法开发实习一面](README.md#int206) — 2025；opened
+- [INT207 · 字节懂车帝大模型日常实习面经（已oc版](README.md#int207) — 2025；opened
+- [INT208 · 腾讯 -暑期实习-PCG技术线-推荐算法](README.md#int208) — 2024；opened
+- [INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209) — 年份未确认；opened
+- [INT210 · 美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）](README.md#int210) — 2025；opened
+- [INT211 · 美团大模型算法工程师一面面经（攒rp）](README.md#int211) — 2025；opened
+- [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212) — 2025；opened
+- [INT213 · 美团 大模型算法工程师 配送 一面（附带吐槽）](README.md#int213) — 2024；opened
+- [INT214 · 字节跳动风控算法一面](README.md#int214) — 年份未确认；opened
+- [INT215 · 字节风控算法面经](README.md#int215) — 2025；opened
+- [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216) — 年份未确认；opened
+- [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217) — 2025；opened
+- [INT218 · 阿里云 AI Infer 一面](README.md#int218) — 2026；opened
+- [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219) — 2025；opened
+- [INT220 · ai infra实习 阿里云面经](README.md#int220) — 年份未确认；opened
+- [INT221 · 腾讯大模型（技术研究-自然语言处理）面经](README.md#int221) — 2025；opened
+- [INT222 · 腾讯提前批一面面经（挑战全网最晚hhh，热乎的~）](README.md#int222) — 2026；opened
+- [INT223 · BAT集齐？暑期实习面经分享](README.md#int223) — 2025；opened
+- [INT224 · 有赞面经](README.md#int224) — 年份未确认；opened
 
 ## 知乎（20条记录）
 
@@ -129,6 +175,19 @@
 - [RB007 · AI Engineering Interview Questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions) — interview_collection；opened
 - [RB008 · Awesome LLM System Design](https://github.com/neurarch-ai/awesome-llm-system-design) — interview_collection；opened
 - [RB009 · AIMLInterviews](https://github.com/alirezadir/AIMLInterviews) — interview_collection；opened
+
+### LeetCode中文站
+
+- [RES301 · 面经｜社招释然科技｜一面已凉](https://leetcode.cn/discuss/post/3579869/-/comments/2932627/) — preparation_resource；opened
+- [RES302 · 分享｜Harness工程面试真题](https://leetcode.cn/discuss/post/4020674/harnessmian-shi-zhen-ti-jie-xi-by-chow-2-ck1b/) — interview_collection；search_excerpt
+- [RES303 · 分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）](https://leetcode.cn/discuss/post/ffaIj1/) — repost_reference；opened
+
+### LeetCode国际站
+
+- [RES304 · Microsoft L65 Interview Experience](https://leetcode.com/discuss/post/7637330/) — interview_collection；opened
+- [RES305 · Google MLE | L6 | Interview Experience and Resources for preparation](https://leetcode.com/discuss/post/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/) — preparation_resource；opened
+- [RES306 · Meta | SWE-ML | E5 | London | Offer](https://leetcode.com/discuss/post/7066005/) — preparation_resource；opened
+- [RES307 · Rippling SDE 2 L6 2026](https://leetcode.com/discuss/post/8367124/) — preparation_resource；opened
 
 ### 一亩三分地
 
@@ -190,7 +249,7 @@
 - [RES101 · 爆料阿里大模型二面面经](https://maimai.cn/article/detail?efid=d4IUNQ1B6eQV1Q0AHoc05Q&fid=1886178001) — interview_collection；opened
 - [RES102 · 字节大模型算法实习岗面经](https://maimai.cn/article/detail?efid=k92vRsIeGQp3tcuZmijWPw&fid=1868316767) — interview_collection；opened
 - [RES103 · 百度大模型面经流程内容爆料](https://maimai.cn/article/detail?efid=J8J-bnh6hJar4r7MsytWlw&fid=1886334696) — interview_collection；opened
-- [RES222 · 爆料美团大模型算法面经](https://maimai.cn/article/detail?efid=PYiKFP7lu0E6qJv-qmdrGg&fid=1886172297) — interview_collection；opened
+- [RES222 · 爆料美团大模型算法面经](https://maimai.cn/article/detail?efid=PYiKFP7lu0E6qJv-qmdrGg&fid=1886172297) — repost_reference；opened
 - [RES223 · 快手大模型算法面经爆料](https://maimai.cn/article/detail?efid=GFkBvvFRRFde7pIL_6W76w&fid=1886162560) — interview_collection；opened
 - [RES224 · 腾讯青云面试经验爆料](https://maimai.cn/article/detail?efid=z2SwqbKDABVjHKCl-WQjrQ&fid=1886162446) — interview_collection；opened
 - [RES225 · 得物-算法工程师面经（本人大模型方向）](https://maimai.cn/article/detail?efid=9doXZsjxTubIY101QN3Z4w&fid=1883689082) — interview_collection；opened

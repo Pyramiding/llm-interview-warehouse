@@ -43,6 +43,19 @@
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
 - [INT113 · 快手三面](README.md#int113)（2024；未明确（正文谈及视频理解大模型））
 - [INT114 · 面试字节大模型（LLMs）RAG被问麻了](README.md#int114)（2025；大模型/RAG（具体岗位未列））
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
+- [INT202 · 分享｜eBay-AI算法工程师&字节数据科学面经](README.md#int202)（2024；eBay AI算法实习 / 字节数据科学实习）
+- [INT208 · 腾讯 -暑期实习-PCG技术线-推荐算法](README.md#int208)（2024；PCG/推荐算法暑期实习）
+- [INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209)（年份未确认；WXG/推荐算法）
+- [INT210 · 美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）](README.md#int210)（2025；核心本地商业/业务研发平台/用户增长算法）
+- [INT211 · 美团大模型算法工程师一面面经（攒rp）](README.md#int211)（2025；大模型算法工程师）
+- [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212)（2025；QQ 音乐/技术研究/NLP 暑期实习）
+- [INT213 · 美团 大模型算法工程师 配送 一面（附带吐槽）](README.md#int213)（2024；配送/大模型算法工程师）
+- [INT214 · 字节跳动风控算法一面](README.md#int214)（年份未确认；风控算法实习（Data中台，作者转述））
+- [INT215 · 字节风控算法面经](README.md#int215)（2025；风控算法（校招或社招性质未说明））
+- [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
+- [INT225 · Avaamo | Interview (All rounds) | Senior MLE | Bengaluru](README.md#int225)（2024；Senior Machine Learning Engineer）
+- [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232)（2025；Applied Data Scientist）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -52,17 +65,18 @@
 - [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — opened
 - [RB004 · LLM-Algorithm-Intern-Guide](resources.md#rb004) — search_excerpt
 - [RB009 · AIMLInterviews](resources.md#rb009) — opened
-- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010) — search_excerpt
+- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010)（准备/邻接阅读） — search_excerpt
 - [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — opened
 - [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — metadata_only
 - [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — search_excerpt
 - [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
 - [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
 - [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — opened
-- [RES222 · 爆料美团大模型算法面经](resources.md#res222) — opened
+- [RES222 · 爆料美团大模型算法面经](resources.md#res222)（同源转载） — opened
 - [RES223 · 快手大模型算法面经爆料](resources.md#res223) — opened
 - [RES224 · 腾讯青云面试经验爆料](resources.md#res224) — opened
 - [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
+- [RES303 · 分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）](resources.md#res303)（同源转载） — opened
 
 ## 02 · 预训练与数据工程
 
@@ -86,6 +100,8 @@
 - [INT104 · OC了，分享一下美团智能客服面经](README.md#int104)（2023；智能客服算法日常实习）
 - [INT105 · 快手 推荐大模型 三面 面经](README.md#int105)（2024；推荐大模型算法）
 - [INT115 · 网易大模型面经 刷到就是老天在救你](README.md#int115)（2024；大模型算法工程师）
+- [INT227 · Amazon SDE Internship Interview Experience (2026)](README.md#int227)（2026；SDE Intern）
+- [INT229 · Kotak Mahindra Bank Data Scientist Interview Experience](README.md#int229)（年份未确认；Data Science / SDE1（作者表述））
 
 ### 补充汇编与解析（不计亲历）
 
@@ -122,6 +138,22 @@
 - [INT107 · 通义实验室大模型三面记录（编目标题）](README.md#int107)（年份未确认；大语言模型算法）
 - [INT114 · 面试字节大模型（LLMs）RAG被问麻了](README.md#int114)（2025；大模型/RAG（具体岗位未列））
 - [INT115 · 网易大模型面经 刷到就是老天在救你](README.md#int115)（2024；大模型算法工程师）
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
+- [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204)（年份未确认；京东零售/大模型搜索算法实习）
+- [INT206 · 字节国际化广告算法开发实习一面](README.md#int206)（2025；国际化广告/算法开发实习）
+- [INT211 · 美团大模型算法工程师一面面经（攒rp）](README.md#int211)（2025；大模型算法工程师）
+- [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212)（2025；QQ 音乐/技术研究/NLP 暑期实习）
+- [INT213 · 美团 大模型算法工程师 配送 一面（附带吐槽）](README.md#int213)（2024；配送/大模型算法工程师）
+- [INT214 · 字节跳动风控算法一面](README.md#int214)（年份未确认；风控算法实习（Data中台，作者转述））
+- [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216)（年份未确认；Keeta Agent开发（智能客服方向））
+- [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217)（2025；腾讯客服后台开发（作者自述TEG））
+- [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
+- [INT221 · 腾讯大模型（技术研究-自然语言处理）面经](README.md#int221)（2025；技术研究—自然语言处理/大模型暑期实习）
+- [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
+- [INT225 · Avaamo | Interview (All rounds) | Senior MLE | Bengaluru](README.md#int225)（2024；Senior Machine Learning Engineer）
+- [INT229 · Kotak Mahindra Bank Data Scientist Interview Experience](README.md#int229)（年份未确认；Data Science / SDE1（作者表述））
+- [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231)（年份未确认；SWE III ML，Gemini Applications团队HM轮）
+- [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232)（2025；Applied Data Scientist）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -132,7 +164,7 @@
 - [RES108 · 大模型面试汇总：美团大模型日常实习](resources.md#res108) — search_excerpt
 - [RES109 · AIGC大模型面经汇总，太全了！](resources.md#res109) — search_excerpt
 - [RES110 · 【LLM】大模型面试准备-3（题库整理篇）](resources.md#res110) — search_excerpt
-- [RES113 · 2024年LLM实习岗面经（一名大四学生的碎碎念）](resources.md#res113) — search_excerpt
+- [RES113 · 2024年LLM实习岗面经（一名大四学生的碎碎念）](resources.md#res113)（准备/邻接阅读） — search_excerpt
 - [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — opened
 - [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
 - [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — opened
@@ -145,7 +177,7 @@
 - [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
 - [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
 - [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — opened
-- [RES222 · 爆料美团大模型算法面经](resources.md#res222) — opened
+- [RES222 · 爆料美团大模型算法面经](resources.md#res222)（同源转载） — opened
 - [RES223 · 快手大模型算法面经爆料](resources.md#res223) — opened
 - [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
 
@@ -176,6 +208,13 @@
 - [INT106 · 淘天大模型面经：搜推智能产品事业部多模态方向（编目标题）](README.md#int106)（年份未确认；搜推智能产品事业部/多模态大模型）
 - [INT107 · 通义实验室大模型三面记录（编目标题）](README.md#int107)（年份未确认；大语言模型算法）
 - [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108)（2023；NLP/大模型算法与 Agent 应用）
+- [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204)（年份未确认；京东零售/大模型搜索算法实习）
+- [INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209)（年份未确认；WXG/推荐算法）
+- [INT214 · 字节跳动风控算法一面](README.md#int214)（年份未确认；风控算法实习（Data中台，作者转述））
+- [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216)（年份未确认；Keeta Agent开发（智能客服方向））
+- [INT218 · 阿里云 AI Infer 一面](README.md#int218)（2026；AI Infra（政企业务、偏工程，Agentic RL训练））
+- [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
+- [INT221 · 腾讯大模型（技术研究-自然语言处理）面经](README.md#int221)（2025；技术研究—自然语言处理/大模型暑期实习）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -210,6 +249,10 @@
 - [INT039 · 百度2025届秋招提前批文心一言大模型算法工程师](README.md#int039)（2024；文心一言大模型算法校招）
 - [INT045 · 大模型面经-美团](README.md#int045)（2025；大模型算法）
 - [INT107 · 通义实验室大模型三面记录（编目标题）](README.md#int107)（年份未确认；大语言模型算法）
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
+- [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212)（2025；QQ 音乐/技术研究/NLP 暑期实习）
+- [INT215 · 字节风控算法面经](README.md#int215)（2025；风控算法（校招或社招性质未说明））
+- [INT221 · 腾讯大模型（技术研究-自然语言处理）面经](README.md#int221)（2025；技术研究—自然语言处理/大模型暑期实习）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -218,7 +261,7 @@
 - [RES107 · 大模型面试汇总：美团大模型算法-袋鼠的心跳](resources.md#res107) — search_excerpt
 - [RB001 · AI-Interview-Code](resources.md#rb001) — search_excerpt
 - [RB004 · LLM-Algorithm-Intern-Guide](resources.md#rb004) — search_excerpt
-- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010) — search_excerpt
+- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010)（准备/邻接阅读） — search_excerpt
 - [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — opened
 - [RB018 · 阿里云多模态大模型岗三面面经](resources.md#rb018) — search_excerpt
 - [RES223 · 快手大模型算法面经爆料](resources.md#res223) — opened
@@ -245,17 +288,30 @@
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
 - [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112)（2026；大模型平台 Agentic 全栈研发实习）
 - [INT114 · 面试字节大模型（LLMs）RAG被问麻了](README.md#int114)（2025；大模型/RAG（具体岗位未列））
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
+- [INT203 · 分享｜中年老登找工作两个月总结](README.md#int203)（2026；Agent开发/数据闭环社招复盘（目标企业匿名））
+- [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212)（2025；QQ 音乐/技术研究/NLP 暑期实习）
+- [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216)（年份未确认；Keeta Agent开发（智能客服方向））
+- [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217)（2025；腾讯客服后台开发（作者自述TEG））
+- [INT221 · 腾讯大模型（技术研究-自然语言处理）面经](README.md#int221)（2025；技术研究—自然语言处理/大模型暑期实习）
+- [INT222 · 腾讯提前批一面面经（挑战全网最晚hhh，热乎的~）](README.md#int222)（2026；腾讯文档后端开发）
+- [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
+- [INT224 · 有赞面经](README.md#int224)（年份未确认；技术面，具体职位名未写（Java后端与RAG项目））
+- [INT225 · Avaamo | Interview (All rounds) | Senior MLE | Bengaluru](README.md#int225)（2024；Senior Machine Learning Engineer）
+- [INT226 · Google SWE 3 (L4) ML Role — Feedback & Team Match Update, What Are My Chances?](README.md#int226)（年份未确认；SWE 3 / L4，ML方向（作者自述））
+- [INT227 · Amazon SDE Internship Interview Experience (2026)](README.md#int227)（2026；SDE Intern）
+- [INT229 · Kotak Mahindra Bank Data Scientist Interview Experience](README.md#int229)（年份未确认；Data Science / SDE1（作者表述））
 
 ### 补充汇编与解析（不计亲历）
 
 - [RES102 · 字节大模型算法实习岗面经](resources.md#res102) — opened
 - [RES108 · 大模型面试汇总：美团大模型日常实习](resources.md#res108) — search_excerpt
-- [RES113 · 2024年LLM实习岗面经（一名大四学生的碎碎念）](resources.md#res113) — search_excerpt
+- [RES113 · 2024年LLM实习岗面经（一名大四学生的碎碎念）](resources.md#res113)（准备/邻接阅读） — search_excerpt
 - [RB003 · llm-interview-notes](resources.md#rb003) — opened
 - [RB006 · agent-interview-hub](resources.md#rb006) — opened
 - [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
 - [RB008 · Awesome LLM System Design](resources.md#rb008) — opened
-- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011) — search_excerpt
+- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（准备/邻接阅读） — search_excerpt
 - [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — opened
 - [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — search_excerpt
 - [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — opened
@@ -265,9 +321,10 @@
 - [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
 - [RES216 · 蚂蚁集团 AI Agent 开发：复活赛深挖 CR Agent，问得比任何一家都深](resources.md#res216) — opened
 - [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — opened
-- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219) — search_excerpt
+- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） — search_excerpt
 - [RES224 · 腾讯青云面试经验爆料](resources.md#res224) — opened
 - [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
 
 ## 07 · Agent与工具调用
 
@@ -290,6 +347,17 @@
 - [RES009 · 27届秋招大模型岗面经](README.md#res009)（2026；大模型算法/Code Agent/Agent开发校招）
 - [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108)（2023；NLP/大模型算法与 Agent 应用）
 - [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112)（2026；大模型平台 Agentic 全栈研发实习）
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
+- [INT203 · 分享｜中年老登找工作两个月总结](README.md#int203)（2026；Agent开发/数据闭环社招复盘（目标企业匿名））
+- [INT205 · 字节搜索广告 后端开发一面](README.md#int205)（年份未确认；搜索广告/后端开发）
+- [INT207 · 字节懂车帝大模型日常实习面经（已oc版](README.md#int207)（2025；大模型日常实习）
+- [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216)（年份未确认；Keeta Agent开发（智能客服方向））
+- [INT218 · 阿里云 AI Infer 一面](README.md#int218)（2026；AI Infra（政企业务、偏工程，Agentic RL训练））
+- [INT222 · 腾讯提前批一面面经（挑战全网最晚hhh，热乎的~）](README.md#int222)（2026；腾讯文档后端开发）
+- [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
+- [INT227 · Amazon SDE Internship Interview Experience (2026)](README.md#int227)（2026；SDE Intern）
+- [INT228 · Amazon SDE-1 Interview Experience (TCS → Amazon, 2 YOE) — Timeline, Preparation & Offer](README.md#int228)（2026；SDE-1）
+- [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231)（年份未确认；SWE III ML，Gemini Applications团队HM轮）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -300,8 +368,8 @@
 - [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
 - [RB008 · Awesome LLM System Design](resources.md#rb008) — opened
 - [RB009 · AIMLInterviews](resources.md#rb009) — opened
-- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010) — search_excerpt
-- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011) — search_excerpt
+- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010)（准备/邻接阅读） — search_excerpt
+- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（准备/邻接阅读） — search_excerpt
 - [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — opened
 - [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — opened
 - [RES204 · 阿里面试官追问：Code Agent 跑到一半挂了，怎么恢复而且不重复执行？](resources.md#res204) — metadata_only
@@ -313,6 +381,8 @@
 - [RES210 · 大模型 Agent 面试高频100题——基础篇](resources.md#res210) — metadata_only
 - [RES216 · 蚂蚁集团 AI Agent 开发：复活赛深挖 CR Agent，问得比任何一家都深](resources.md#res216) — opened
 - [RES217 · 字节 AI Agent 开发 一面（抖音电商 · 一面掉池子里面了）](resources.md#res217) — opened
+- [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — search_excerpt
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
 
 ## 08 · 推理优化与在线服务
 
@@ -336,6 +406,15 @@
 - [INT110 · MiniMax：HPC / MLSys 面经（编目标题）](README.md#int110)（年份未确认；HPC/MLSys/大模型推理优化）
 - [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112)（2026；大模型平台 Agentic 全栈研发实习）
 - [INT114 · 面试字节大模型（LLMs）RAG被问麻了](README.md#int114)（2025；大模型/RAG（具体岗位未列））
+- [INT205 · 字节搜索广告 后端开发一面](README.md#int205)（年份未确认；搜索广告/后端开发）
+- [INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209)（年份未确认；WXG/推荐算法）
+- [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212)（2025；QQ 音乐/技术研究/NLP 暑期实习）
+- [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
+- [INT220 · ai infra实习 阿里云面经](README.md#int220)（年份未确认；AI Infra实习）
+- [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
+- [INT224 · 有赞面经](README.md#int224)（年份未确认；技术面，具体职位名未写（Java后端与RAG项目））
+- [INT225 · Avaamo | Interview (All rounds) | Senior MLE | Bengaluru](README.md#int225)（2024；Senior Machine Learning Engineer）
+- [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232)（2025；Applied Data Scientist）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -344,19 +423,23 @@
 - [RB006 · agent-interview-hub](resources.md#rb006) — opened
 - [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
 - [RB008 · Awesome LLM System Design](resources.md#rb008) — opened
-- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011) — search_excerpt
+- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（准备/邻接阅读） — search_excerpt
 - [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — opened
 - [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — opened
 - [RES204 · 阿里面试官追问：Code Agent 跑到一半挂了，怎么恢复而且不重复执行？](resources.md#res204) — metadata_only
 - [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — metadata_only
 - [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
 - [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
-- [RES215 · 回忆 LLM 推理优化实习招聘：面试官视角与 CUTLASS 问答（编目标题）](resources.md#res215) — search_excerpt
-- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219) — search_excerpt
+- [RES215 · 回忆 LLM 推理优化实习招聘：面试官视角与 CUTLASS 问答（编目标题）](resources.md#res215)（准备/邻接阅读） — search_excerpt
+- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） — search_excerpt
 - [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](resources.md#res220) — opened
 - [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — search_excerpt
 - [RES225 · 得物-算法工程师面经（本人大模型方向）](resources.md#res225) — opened
 - [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
+- [RES301 · 面经｜社招释然科技｜一面已凉](resources.md#res301)（准备/邻接阅读） — opened
+- [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — search_excerpt
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
+- [RES306 · Meta \| SWE-ML \| E5 \| London \| Offer](resources.md#res306)（准备/邻接阅读） — opened
 
 ## 09 · 分布式训练与AI Infra
 
@@ -379,6 +462,11 @@
 - [INT107 · 通义实验室大模型三面记录（编目标题）](README.md#int107)（年份未确认；大语言模型算法）
 - [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108)（2023；NLP/大模型算法与 Agent 应用）
 - [INT110 · MiniMax：HPC / MLSys 面经（编目标题）](README.md#int110)（年份未确认；HPC/MLSys/大模型推理优化）
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
+- [INT218 · 阿里云 AI Infer 一面](README.md#int218)（2026；AI Infra（政企业务、偏工程，Agentic RL训练））
+- [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
+- [INT220 · ai infra实习 阿里云面经](README.md#int220)（年份未确认；AI Infra实习）
+- [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
 
 ### 补充汇编与解析（不计亲历）
 
@@ -387,7 +475,7 @@
 - [RB003 · llm-interview-notes](resources.md#rb003) — opened
 - [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — opened
 - [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
-- [RES215 · 回忆 LLM 推理优化实习招聘：面试官视角与 CUTLASS 问答（编目标题）](resources.md#res215) — search_excerpt
+- [RES215 · 回忆 LLM 推理优化实习招聘：面试官视角与 CUTLASS 问答（编目标题）](resources.md#res215)（准备/邻接阅读） — search_excerpt
 - [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](resources.md#res220) — opened
 - [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — search_excerpt
 - [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
@@ -402,6 +490,10 @@
 - [INT032 · 分享俩挂得很彻底的挂经，xAI & 英伟达](README.md#int032)（2023；模型算法/Research Scientist）
 - [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108)（2023；NLP/大模型算法与 Agent 应用）
 - [INT110 · MiniMax：HPC / MLSys 面经（编目标题）](README.md#int110)（年份未确认；HPC/MLSys/大模型推理优化）
+- [INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209)（年份未确认；WXG/推荐算法）
+- [INT218 · 阿里云 AI Infer 一面](README.md#int218)（2026；AI Infra（政企业务、偏工程，Agentic RL训练））
+- [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
+- [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
 
 ## 11 · 推理能力与测试时计算
 
@@ -438,6 +530,9 @@
 - [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109)（年份未确认；电商搜广推/视觉语言大模型算法）
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
 - [INT113 · 快手三面](README.md#int113)（2024；未明确（正文谈及视频理解大模型））
+- [INT202 · 分享｜eBay-AI算法工程师&字节数据科学面经](README.md#int202)（2024；eBay AI算法实习 / 字节数据科学实习）
+- [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212)（2025；QQ 音乐/技术研究/NLP 暑期实习）
+- [INT214 · 字节跳动风控算法一面](README.md#int214)（年份未确认；风控算法实习（Data中台，作者转述））
 
 ### 补充汇编与解析（不计亲历）
 
@@ -455,6 +550,8 @@
 - [RES225 · 得物-算法工程师面经（本人大模型方向）](resources.md#res225) — opened
 - [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
 - [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
+- [RES301 · 面经｜社招释然科技｜一面已凉](resources.md#res301)（准备/邻接阅读） — opened
+- [RES303 · 分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）](resources.md#res303)（同源转载） — opened
 
 ## 13 · 评测与安全
 
@@ -484,6 +581,22 @@
 - [INT105 · 快手 推荐大模型 三面 面经](README.md#int105)（2024；推荐大模型算法）
 - [INT114 · 面试字节大模型（LLMs）RAG被问麻了](README.md#int114)（2025；大模型/RAG（具体岗位未列））
 - [INT115 · 网易大模型面经 刷到就是老天在救你](README.md#int115)（2024；大模型算法工程师）
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
+- [INT203 · 分享｜中年老登找工作两个月总结](README.md#int203)（2026；Agent开发/数据闭环社招复盘（目标企业匿名））
+- [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204)（年份未确认；京东零售/大模型搜索算法实习）
+- [INT207 · 字节懂车帝大模型日常实习面经（已oc版](README.md#int207)（2025；大模型日常实习）
+- [INT208 · 腾讯 -暑期实习-PCG技术线-推荐算法](README.md#int208)（2024；PCG/推荐算法暑期实习）
+- [INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209)（年份未确认；WXG/推荐算法）
+- [INT210 · 美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）](README.md#int210)（2025；核心本地商业/业务研发平台/用户增长算法）
+- [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212)（2025；QQ 音乐/技术研究/NLP 暑期实习）
+- [INT214 · 字节跳动风控算法一面](README.md#int214)（年份未确认；风控算法实习（Data中台，作者转述））
+- [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216)（年份未确认；Keeta Agent开发（智能客服方向））
+- [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217)（2025；腾讯客服后台开发（作者自述TEG））
+- [INT218 · 阿里云 AI Infer 一面](README.md#int218)（2026；AI Infra（政企业务、偏工程，Agentic RL训练））
+- [INT221 · 腾讯大模型（技术研究-自然语言处理）面经](README.md#int221)（2025；技术研究—自然语言处理/大模型暑期实习）
+- [INT225 · Avaamo | Interview (All rounds) | Senior MLE | Bengaluru](README.md#int225)（2024；Senior Machine Learning Engineer）
+- [INT229 · Kotak Mahindra Bank Data Scientist Interview Experience](README.md#int229)（年份未确认；Data Science / SDE1（作者表述））
+- [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231)（年份未确认；SWE III ML，Gemini Applications团队HM轮）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -498,6 +611,8 @@
 - [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — opened
 - [RES205 · 阿里面试官追问：Code Agent 为什么不能直接给它 root 权限？](resources.md#res205) — metadata_only
 - [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
+- [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — search_excerpt
+- [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（准备/邻接阅读） — opened
 
 ## 14 · 代码模型与具身智能
 
@@ -506,12 +621,16 @@
 - [INT026 · 字节 260901 一面面经](README.md#int026)（2026；AI大模型开发平台/后端）
 - [INT030 · 后端/全栈面经一次性放出](README.md#int030)（2026；后端/Agent/AI Coding）
 - [IB002 · 盛大集团面经：Agent/全栈三轮复盘](README.md#ib002)（2026；Agent/全栈）
+- [INT203 · 分享｜中年老登找工作两个月总结](README.md#int203)（2026；Agent开发/数据闭环社招复盘（目标企业匿名））
+- [INT222 · 腾讯提前批一面面经（挑战全网最晚hhh，热乎的~）](README.md#int222)（2026；腾讯文档后端开发）
+- [INT228 · Amazon SDE-1 Interview Experience (TCS → Amazon, 2 YOE) — Timeline, Preparation & Offer](README.md#int228)（2026；SDE-1）
 
 ### 补充汇编与解析（不计亲历）
 
 - [RB009 · AIMLInterviews](resources.md#rb009) — opened
 - [RES205 · 阿里面试官追问：Code Agent 为什么不能直接给它 root 权限？](resources.md#res205) — metadata_only
 - [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
+- [RES307 · Rippling SDE 2 L6 2026](resources.md#res307)（准备/邻接阅读） — opened
 
 ## 15 · 领域模型与研究设计
 
@@ -539,6 +658,10 @@
 - [IB005 · 小众过经：LLM初创Mozilla.ai Research Scientist](README.md#ib005)（2023；Research Scientist）
 - [IB007 · 条纹MLE七轮面试完整过经](README.md#ib007)（2024；Machine Learning Engineer）
 - [INT102 · 京东广告算法日常实习二面(业务面)](README.md#int102)（2024；广告算法日常实习）
+- [INT226 · Google SWE 3 (L4) ML Role — Feedback & Team Match Update, What Are My Chances?](README.md#int226)（年份未确认；SWE 3 / L4，ML方向（作者自述））
+- [INT228 · Amazon SDE-1 Interview Experience (TCS → Amazon, 2 YOE) — Timeline, Preparation & Offer](README.md#int228)（2026；SDE-1）
+- [INT230 · Groww SDE intern Interview Experience (AI/LLM) role | 6 month](README.md#int230)（2025；SDE Intern（AI/LLM，六个月））
+- [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231)（年份未确认；SWE III ML，Gemini Applications团队HM轮）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -547,7 +670,10 @@
 - [RES111 · 字节-大模型产品经理面经&已入职](resources.md#res111) — search_excerpt
 - [RES112 · 智普AIGC产品实习生上岸面经（已拿offer）](resources.md#res112) — search_excerpt
 - [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — opened
-- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011) — search_excerpt
+- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（准备/邻接阅读） — search_excerpt
+- [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（准备/邻接阅读） — opened
+- [RES306 · Meta \| SWE-ML \| E5 \| London \| Offer](resources.md#res306)（准备/邻接阅读） — opened
+- [RES307 · Rippling SDE 2 L6 2026](resources.md#res307)（准备/邻接阅读） — opened
 
 ## 16 · 大模型与搜索
 
@@ -561,6 +687,8 @@
 - [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101)（2025；广告算法/TAC（大模型与搜推交叉面））
 - [INT106 · 淘天大模型面经：搜推智能产品事业部多模态方向（编目标题）](README.md#int106)（年份未确认；搜推智能产品事业部/多模态大模型）
 - [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109)（年份未确认；电商搜广推/视觉语言大模型算法）
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
+- [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204)（年份未确认；京东零售/大模型搜索算法实习）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -569,6 +697,7 @@
 - [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
 - [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — search_excerpt
 - [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — search_excerpt
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
 
 ## 17 · 大模型与广告
 
@@ -579,10 +708,14 @@
 - [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101)（2025；广告算法/TAC（大模型与搜推交叉面））
 - [INT102 · 京东广告算法日常实习二面(业务面)](README.md#int102)（2024；广告算法日常实习）
 - [INT103 · 字节广告算法中台秋招面经](README.md#int103)（2025；广告算法中台）
+- [INT205 · 字节搜索广告 后端开发一面](README.md#int205)（年份未确认；搜索广告/后端开发）
+- [INT206 · 字节国际化广告算法开发实习一面](README.md#int206)（2025；国际化广告/算法开发实习）
+- [INT207 · 字节懂车帝大模型日常实习面经（已oc版](README.md#int207)（2025；大模型日常实习）
 
 ### 补充汇编与解析（不计亲历）
 
 - [RB001 · AI-Interview-Code](resources.md#rb001) — search_excerpt
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
 
 ## 18 · 大模型与推荐
 
@@ -596,6 +729,10 @@
 - [INT105 · 快手 推荐大模型 三面 面经](README.md#int105)（2024；推荐大模型算法）
 - [INT106 · 淘天大模型面经：搜推智能产品事业部多模态方向（编目标题）](README.md#int106)（年份未确认；搜推智能产品事业部/多模态大模型）
 - [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109)（年份未确认；电商搜广推/视觉语言大模型算法）
+- [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
+- [INT208 · 腾讯 -暑期实习-PCG技术线-推荐算法](README.md#int208)（2024；PCG/推荐算法暑期实习）
+- [INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209)（年份未确认；WXG/推荐算法）
+- [INT211 · 美团大模型算法工程师一面面经（攒rp）](README.md#int211)（2025；大模型算法工程师）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -604,14 +741,16 @@
 - [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — search_excerpt
 - [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — search_excerpt
 - [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — search_excerpt
-- [RES222 · 爆料美团大模型算法面经](resources.md#res222) — opened
+- [RES222 · 爆料美团大模型算法面经](resources.md#res222)（同源转载） — opened
 - [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
+- [RES306 · Meta \| SWE-ML \| E5 \| London \| Offer](resources.md#res306)（准备/邻接阅读） — opened
 
 ## 19 · 大模型与增长
 
 [进入专题题解](../topics/19-llm-growth.md) · 因果、uplift、LTV、实验与策略
 
 - [INT040 · 硕五算法面经-增长方向](README.md#int040)（2025；增长算法/作者标注P7）
+- [INT210 · 美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）](README.md#int210)（2025；核心本地商业/业务研发平台/用户增长算法）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -622,7 +761,7 @@
 
 [进入专题题解](../topics/20-llm-marketing.md) · 受众、内容、触达、归因与合规
 
-当前没有直接归入的亲历面经；专题题解为公开研究延伸。
+- [INT210 · 美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）](README.md#int210)（2025；核心本地商业/业务研发平台/用户增长算法）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -636,23 +775,28 @@
 
 - [INT046 · 字节大模型面试经历分享](README.md#int046)（2025；大模型运营专家）
 - [INT048 · 国内20家公司大模型岗位面试经验汇总](README.md#int048)（年份未确认；大模型/多模态算法）
+- [INT214 · 字节跳动风控算法一面](README.md#int214)（年份未确认；风控算法实习（Data中台，作者转述））
+- [INT215 · 字节风控算法面经](README.md#int215)（2025；风控算法（校招或社招性质未说明））
+- [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
 
 ### 补充汇编与解析（不计亲历）
 
 - [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
 - [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
 - [RES217 · 字节 AI Agent 开发 一面（抖音电商 · 一面掉池子里面了）](resources.md#res217) — opened
+- [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（准备/邻接阅读） — opened
 
 ## 22 · 大模型与语音
 
 [进入专题题解](../topics/22-llm-speech.md) · ASR、TTS、实时交互与打断
 
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
+- [INT224 · 有赞面经](README.md#int224)（年份未确认；技术面，具体职位名未写（Java后端与RAG项目））
 
 ### 补充汇编与解析（不计亲历）
 
 - [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
-- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219) — search_excerpt
+- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） — search_excerpt
 
 ## 23 · 大模型与客服
 
@@ -660,10 +804,12 @@
 
 - [IB008 · Meta onsite E5 MLE 多半挂经](README.md#ib008)（2025；E5 Machine Learning Engineer）
 - [INT104 · OC了，分享一下美团智能客服面经](README.md#int104)（2023；智能客服算法日常实习）
+- [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216)（年份未确认；Keeta Agent开发（智能客服方向））
+- [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217)（2025；腾讯客服后台开发（作者自述TEG））
 
 ### 补充汇编与解析（不计亲历）
 
 - [RB006 · agent-interview-hub](resources.md#rb006) — opened
 - [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
 - [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — search_excerpt
-- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219) — search_excerpt
+- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） — search_excerpt
