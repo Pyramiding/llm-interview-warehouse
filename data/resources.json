@@ -88,17 +88,6 @@
     "note": "2023年企业招聘账号给出的面试建议入口，强调对SFT/RLHF等技术的深入理解。"
   },
   {
-    "id": "RES009",
-    "title": "27届秋招大模型岗面经",
-    "url": "https://onlyar.site/2026/08/11/NLP-Interview-Knowkedge/",
-    "source_type": "interview_collection",
-    "published": null,
-    "topics": [],
-    "accessed": "2026-10-22",
-    "verification": "search_excerpt",
-    "note": "2026年个人博客检索线索；当前全文抓取超时，仅将其作为待补充阅读入口。"
-  },
-  {
     "id": "RES010",
     "title": "Tech Interview Handbook",
     "url": "https://github.com/yangshun/tech-interview-handbook",
@@ -108,5 +97,534 @@
     "accessed": "2026-10-22",
     "verification": "opened",
     "note": "通用编码与行为面试准备，弥补只刷大模型概念而忽视编码的短板。"
+  },
+  {
+    "id": "RES101",
+    "title": "爆料阿里大模型二面面经",
+    "url": "https://maimai.cn/article/detail?efid=d4IUNQ1B6eQV1Q0AHoc05Q&fid=1886178001",
+    "source_type": "interview_collection",
+    "published": "2025-09-01",
+    "topics": [
+      "01",
+      "03",
+      "05",
+      "08",
+      "15"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Leon（页面职业资深猎头顾问）以“爆料者称”转述；覆盖prefill、GQA、KV cache及电商场景。二次转述，不计亲历，未定位原始求职者/面试日。只摘要与外链。",
+    "platform": "脉脉",
+    "companies": [
+      "阿里巴巴"
+    ],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES102",
+    "title": "字节大模型算法实习岗面经",
+    "url": "https://maimai.cn/article/detail?efid=k92vRsIeGQp3tcuZmijWPw&fid=1868316767",
+    "source_type": "interview_collection",
+    "published": "2025-03-15",
+    "topics": [
+      "03",
+      "04",
+      "06",
+      "13"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Leon（资深猎头顾问）整理SFT数据、DPO、InfoNCE、语义表征、评测及少样本分类；未明确自己是候选人，按二次整理，不计亲历。面试日未知。",
+    "platform": "脉脉",
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES103",
+    "title": "百度大模型面经流程内容爆料",
+    "url": "https://maimai.cn/article/detail?efid=J8J-bnh6hJar4r7MsytWlw&fid=1886334696",
+    "source_type": "interview_collection",
+    "published": "2025-09-02",
+    "topics": [
+      "03",
+      "04",
+      "05",
+      "09"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Leon以“爆料者称”转述DeepSeek机制、混合精度、训练显存与偏好数据构造。非亲历；面试日未知；文中技术说法不视作标准答案。",
+    "platform": "脉脉",
+    "companies": [
+      "百度"
+    ],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES104",
+    "title": "大模型面试汇总：字节AI搜面经",
+    "url": "https://zhuanlan.zhihu.com/p/1998498626075373913",
+    "source_type": "interview_collection",
+    "published": "2026-01-24",
+    "topics": [
+      "04",
+      "16"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "momo的“大模型面试汇总”专栏条目。公开片段涉及DPO数据构成、冲突学习信号与GRPO奖励设计。仅片段，原始候选人及日期未核明，保守按二次整理，不计亲历。",
+    "platform": "知乎",
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES105",
+    "title": "大模型面试汇总：哈啰大模型算法",
+    "url": "https://zhuanlan.zhihu.com/p/1998499407176429779",
+    "source_type": "interview_collection",
+    "published": "2026-01-24",
+    "topics": [
+      "07",
+      "15",
+      "20"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "momo汇总专栏条目；片段介绍两段实习背景，项目深挖、Agent反思与营销业务。原作者链未核明，不计亲历。",
+    "platform": "知乎",
+    "companies": [
+      "哈啰"
+    ],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES106",
+    "title": "大模型面试汇总：腾讯大模型算法日常实习",
+    "url": "https://zhuanlan.zhihu.com/p/1997087164006155782",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "03",
+      "04",
+      "13"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "momo汇总专栏条目，片段涉及项目讨论、SFT/DPO/GRPO适用性和奖励融合；日期不能仅由相对时间推算，原始候选人未核明，不计亲历。",
+    "platform": "知乎",
+    "companies": [
+      "腾讯"
+    ],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES107",
+    "title": "大模型面试汇总：美团大模型算法-袋鼠的心跳",
+    "url": "https://zhuanlan.zhihu.com/p/1999880734219969724",
+    "source_type": "interview_collection",
+    "published": "2026-01-28",
+    "topics": [
+      "05"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "momo汇总专栏，公开片段包含MoE、负载均衡。标题“已OC”为页面自述，未独立验证；未定位原始候选人，不计亲历。",
+    "platform": "知乎",
+    "companies": [
+      "美团"
+    ],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES108",
+    "title": "大模型面试汇总：美团大模型日常实习",
+    "url": "https://zhuanlan.zhihu.com/p/2000170723654779295",
+    "source_type": "interview_collection",
+    "published": "2026-01-29",
+    "topics": [
+      "03",
+      "06"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "momo汇总专栏条目，片段围绕实际产品是否使用大模型、训练/微调与RAG分块重排。转载 https://post.smzdm.com/p/amoq2m4v/ 同源，不额外计数；原始候选人未核明。",
+    "platform": "知乎",
+    "companies": [
+      "美团"
+    ],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES109",
+    "title": "AIGC大模型面经汇总，太全了！",
+    "url": "https://zhuanlan.zhihu.com/p/694464483",
+    "source_type": "interview_collection",
+    "published": "2024-04-25",
+    "topics": [
+      "03",
+      "04",
+      "12"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "牛客账号在知乎发布的2024年AIGC面经二次汇总；不是独立求职者亲历，不把聚合数量当独立原帖数量。可作为原帖发现线索。",
+    "platform": "知乎",
+    "companies": [],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES110",
+    "title": "【LLM】大模型面试准备-3（题库整理篇）",
+    "url": "https://zhuanlan.zhihu.com/p/651328706",
+    "source_type": "interview_collection",
+    "published": "2023-09-10",
+    "topics": [
+      "01",
+      "03",
+      "09",
+      "12"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "公开片段明确参考网络面经作题库整理；仅作知识补缺，不包装成某企业真实题库。",
+    "platform": "知乎",
+    "companies": [],
+    "role": "面试整理/学习资源"
+  },
+  {
+    "id": "RES111",
+    "title": "字节-大模型产品经理面经&已入职",
+    "url": "https://zhuanlan.zhihu.com/p/1939023208675251496",
+    "source_type": "interview_collection",
+    "published": "2025-08-13",
+    "topics": [
+      "13",
+      "15"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "薛老板（求职辅导账号）分享候选人背景、逐轮反馈与求职路径，可能为辅导案例；非已核验原始候选人，保守归二次整理。2026为毕业届次，非面试年。",
+    "platform": "知乎",
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "AIGC产品求职案例"
+  },
+  {
+    "id": "RES112",
+    "title": "智普AIGC产品实习生上岸面经（已拿offer）",
+    "url": "https://zhuanlan.zhihu.com/p/718606787",
+    "source_type": "interview_collection",
+    "published": "2025-02-13",
+    "topics": [
+      "13",
+      "15"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "薛老板聊产品栏目中的候选人案例：公开片段包含211硕士研一、三轮产品实习面试与商业化方向；不是栏目作者本人的已核验亲历。不修正原题“智普”并以正文所指智谱作公司标签。",
+    "platform": "知乎",
+    "companies": [
+      "智谱AI"
+    ],
+    "role": "AIGC产品实习求职案例"
+  },
+  {
+    "id": "RES113",
+    "title": "2024年LLM实习岗面经（一名大四学生的碎碎念）",
+    "url": "https://zhuanlan.zhihu.com/p/13549947405",
+    "source_type": "preparation_resource",
+    "published": "2024-12-19",
+    "topics": [
+      "03",
+      "06"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "原作讨论作者LLM开发竞赛、GraphRAG研究与实习意向；现有片段不足以确认本人实际面试轮次，按求职方向准备材料，不计亲历。直接正文403。",
+    "platform": "知乎",
+    "companies": [],
+    "role": "LLM实习求职定位"
+  },
+  {
+    "id": "RB001",
+    "title": "AI-Interview-Code",
+    "url": "https://github.com/bbruceyuan/AI-Interview-Code",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "01",
+      "05",
+      "16",
+      "17",
+      "18"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "大模型与搜广推手写实现汇编，如注意力与AUC；只提供目录外链，作者所称面试用途不等于逐题公司核验。"
+  },
+  {
+    "id": "RB002",
+    "title": "DeepLearing-Interview-Awesome-2024",
+    "url": "https://github.com/315386775/DeepLearing-Interview-Awesome-2024",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "01",
+      "03",
+      "12",
+      "15"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "CV/AIGC/LLM问答汇编；README明确部分答案不全、未按频次难度排序，适合作为查漏目录。"
+  },
+  {
+    "id": "RB003",
+    "title": "llm-interview-notes",
+    "url": "https://github.com/Imironman123/llm-interview-notes",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "算法、应用与Infra面试整理，含公司横向对比；仓库自述公开经验综合整理，不能拆成多个独立亲历样本。工程量级非实际线上承诺。"
+  },
+  {
+    "id": "RB004",
+    "title": "LLM-Algorithm-Intern-Guide",
+    "url": "https://github.com/Junvate/LLM-Algorithm-Intern-Guide",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "01",
+      "04",
+      "05"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "实习备考目录，混合作者被问知识点与小红书采集，题解托管飞书；2026届是毕业届次，不当面试年，未打开飞书子文档。"
+  },
+  {
+    "id": "RB005",
+    "title": "AwesomeInterview：按公司组织的面试入口",
+    "url": "https://github.com/yang19527/AwesomeInterview",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "03",
+      "04",
+      "07",
+      "12",
+      "16",
+      "18",
+      "21"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "公司分类目录含百度、腾讯、阿里、字节及蚂蚁风控等入口；不少子链接指向公众号或知识星球，未读受限内容，不能按标题证明亲历。"
+  },
+  {
+    "id": "RB006",
+    "title": "agent-interview-hub",
+    "url": "https://github.com/Zchary1106/agent-interview-hub",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "06",
+      "07",
+      "08",
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "国内外公司岗位要求、题库与网络整理；“真实面经”是该仓库作者分类，本仓库仅认定二次汇编，需回溯原帖。"
+  },
+  {
+    "id": "RB007",
+    "title": "AI Engineering Interview Questions",
+    "url": "https://github.com/amitshekhariitbhu/ai-engineering-interview-questions",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "06",
+      "07",
+      "08",
+      "21",
+      "22",
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "英文问答目录覆盖实时语音、推荐、内容审核、风控和Text-to-SQL；包含外部课程链接，适合比较设计题覆盖面，不作真题来源。"
+  },
+  {
+    "id": "RB008",
+    "title": "Awesome LLM System Design",
+    "url": "https://github.com/neurarch-ai/awesome-llm-system-design",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "06",
+      "07",
+      "08",
+      "13"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "应用科学家、ML与Infra岗位的系统设计准备汇编，涵盖RAG、服务与评测；是备考指南而非作者逐场面试记录。"
+  },
+  {
+    "id": "RB009",
+    "title": "AIMLInterviews",
+    "url": "https://github.com/alirezadir/AIMLInterviews",
+    "source_type": "interview_collection",
+    "published": null,
+    "topics": [
+      "01",
+      "07",
+      "12",
+      "14"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "生成式、Agent、多模态与具身面试学习指南；外部产品/作者经验不能视作企业官方题库。"
+  },
+  {
+    "id": "RB010",
+    "title": "ML Coding 25年资料收集Part2",
+    "url": "https://www.1point3acres.com/bbs/thread-1149304-1-1.html",
+    "source_type": "preparation_resource",
+    "published": "2025-10-09",
+    "topics": [
+      "01",
+      "05",
+      "07"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "niming1024整理ML/线性代数、CV/LLM/Agent编码准备资源。平台归类“求职（非面经）”，因此不计亲历数量；附件或外部资料可能受限。"
+  },
+  {
+    "id": "RB011",
+    "title": "ML System Design 25年资料收集Part3",
+    "url": "https://www.1point3acres.com/bbs/thread-1155950-1-1.html",
+    "source_type": "preparation_resource",
+    "published": "2025-11-26",
+    "topics": [
+      "06",
+      "07",
+      "08",
+      "15"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "niming1024的ML/GenAI系统设计资料目录；包含工程案例入口，区分研究延伸、案例与真题。"
+  },
+  {
+    "id": "RB012",
+    "title": "大模型算法方向实习面试经验复盘",
+    "url": "https://blog.csdn.net/2401_85378759/article/details/145360438",
+    "source_type": "interview_collection",
+    "published": "2025-01-25",
+    "topics": [
+      "01",
+      "03",
+      "04",
+      "09"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面以第一人称描述基础不足及实习面试，但夹带资料包推广、原始作者与面试企业不可确认，保守列二次整理。搜索发布2025-01-25，页面“最新推荐文章”2026-07-07不是面试日期。"
+  },
+  {
+    "id": "RB013",
+    "title": "2025最新大模型算法社招面经，持续更新中",
+    "url": "https://blog.csdn.net/weixin_43440181/article/details/149254081",
+    "source_type": "interview_collection",
+    "published": "2025-07-10",
+    "topics": [
+      "03",
+      "06",
+      "07",
+      "13"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "页面自称亲身经历并列多公司，但缺逐场日期和归属、夹资料包推广，保守列汇编；公开段落适合检查微调/应用项目的效果与迁移追问。搜索原发布2025-07-10，“最新推荐文章”2026-06-07不作面试日。"
+  },
+  {
+    "id": "RB014",
+    "title": "26秋招大模型技术岗位面试题+面经（六）：美团",
+    "url": "https://blog.csdn.net/2401_83173765/article/details/148292555",
+    "source_type": "interview_collection",
+    "published": "2025-05-28",
+    "topics": [
+      "03",
+      "04",
+      "12",
+      "16",
+      "18",
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "二次题目汇编含多模态推荐、客服与排序规划；“26秋招”是招募届次，搜索发布2025-05-28，未证实面试年月或每道题部门。"
+  },
+  {
+    "id": "RB015",
+    "title": "26秋招大模型技术岗位面试题+面经（九）：小红书",
+    "url": "https://blog.csdn.net/2401_83173765/article/details/148292651",
+    "source_type": "interview_collection",
+    "published": "2025-05-28",
+    "topics": [
+      "06",
+      "12",
+      "18"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "公司题目汇编含Text-to-SQL、推荐与图分布式；这里小红书是被面试公司，不代表来源平台为小红书。不能归为作者本人亲历。"
+  },
+  {
+    "title": "面字节豆包大模型岗，三轮技术面都问了啥？",
+    "url": "https://juejin.cn/post/7595232643464134690",
+    "source_type": "interview_collection",
+    "published": "2026-01-15",
+    "topics": [
+      "03",
+      "04",
+      "05",
+      "06",
+      "08"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "未取得明确第一人称亲历/原作者身份依据，保守按面试整理而非独立面经。页面使用经历复盘形式，作者身份与企业未独立核实；检索显示1月14日，打开页面为1月15日，以页面为准。具体面试日未知，year按发帖年组织，非已确认面试年。",
+    "id": "RB017"
+  },
+  {
+    "title": "阿里云多模态大模型岗三面面经",
+    "url": "https://juejin.cn/post/7546495958554755098",
+    "source_type": "interview_collection",
+    "published": "2025-09-06",
+    "topics": [
+      "02",
+      "05",
+      "12"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "未取得明确第一人称亲历/原作者身份依据，保守按面试整理而非独立面经。面试复盘形式，亲历真实性未独立核实；公开打开仅Please wait，只有搜索片段可核对，含学习资料推广。year按发布年组织，面试年未明确。",
+    "id": "RB018"
   }
 ]

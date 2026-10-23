@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [来源规范](methodology.md)
 
-共198个规范化来源链接：30条面经记录、10个补充入口，以及专题研究来源。计数方法及局限见来源规范。查阅日期均记录于JSON。
+共281个规范化来源链接：59条面经记录、39个补充入口，以及专题研究来源。计数方法及局限见来源规范。查阅日期均记录于JSON。
 
 ## 公开面经
 
@@ -38,6 +38,35 @@
 | INT028 | [27实习快手NLP算法面经分享](https://www.nowcoder.com/feed/main/detail/dcad6dc4e9fb4acfa1a11b1dae95b6cc) | 未确认/持续更新 | opened | 原页面仅显示04-28，按27届实习语境推断归入2026；未确认精确面试日。二次汇编标05-07，与原页显示不同。 |
 | INT029 | [秋招实录｜连面3场AI-Agent后端岗](https://www.nowcoder.com/discuss/919608103723622400?sourceSSR=post) | 未确认/持续更新 | search_excerpt | 正文片段明确2026-08与27届背景；直接打开只返回导航。页面08-19未单列年份，发布日期留空。 |
 | INT030 | [后端/全栈面经一次性放出](https://www.nowcoder.com/discuss/932058602422956032?sourceSSR=post) | 未确认/持续更新 | opened | 正文多处明确2026年面试；当前页面09-24已编辑，发布日期未单列年份。 |
+| INT031 | [国内大模型公司，粗略面经+感受+一些包裹](https://zhuanlan.zhihu.com/p/657826357) | 2023-09-22 | opened | Rooters原作。公开英文页面 https://www.zhihu.com/en/article/657826357 可读，智源 https://hub.baai.ac.cn/view/31151 为Datawhale于2023-09-28转载，称源自微信公众号；只计一条。published为原作编辑日；面试约2023年3月起，精确日不详。原帖中的光年之外、360、腾讯、小红书为简历拒绝，未列入面试公司映射。企业/结果均为自述。 另核验CSDN转载 https://blog.csdn.net/2401_84204413/article/details/144358836 ，正文与本篇同源，2024-12-10为转载日；不重复计来源记录。 |
+| INT032 | [分享俩挂得很彻底的挂经，xAI & 英伟达](https://zhuanlan.zhihu.com/p/658685266) | 2023-09-27 | opened | 原作者Rooters；知乎公开英文页 https://www.zhihu.com/en/article/658685266 与腾讯云 https://cloud.tencent.com/developer/article/2354049 正文可读。原作显示2023-09-27编辑；腾讯云同步于2023-11-02并标微信原始发表2023-10-30，均不是面试日。同源不另计。 与INT034同作者NVIDIA框架岗经历为不同岗位/不同文章，不能合并其RL与框架问题。 |
+| INT033 | [OpenAI，面试总结（非面经），挂了。](https://zhuanlan.zhihu.com/p/658886757) | 2023-09-28 | search_excerpt | Rooters自述；直接打开403，搜索片段可核验内推与onsite经历；技术岗位名称、面试日期未知。 |
+| INT034 | [英伟达, 深度学习框架岗工程师面经](https://zhuanlan.zhihu.com/p/658609960) | 2023-09-27 | search_excerpt | Rooters原帖搜索可见HM匹配框架岗位；同作者另一公开文章的相关推荐可见screen内容。直接正文不可得；发布日期为搜索显示/相关页编辑日，不等于面试日。 与INT032中NVIDIA Research Scientist的RL面不同，本篇为框架工程师，按独立公开文章记录。 |
+| INT036 | [2025届NLP算法岗实习面经](https://zhuanlan.zhihu.com/p/708809155) | 2024-07-25 | search_excerpt | 原帖作者“一个优秀的coder”；页面搜索显示2024-07-25编辑，标题2025为毕业届次。该页不同片段含8月/9月轮次，编辑日期与内容可能更新不同步，故不推定每轮年份/精确面试日。数组仅保留片段明确有轮次或offer的公司；其余简历拒绝未映射。 |
+| INT037 | [美团2025届秋招搜索推荐算法工程师](https://zhuanlan.zhihu.com/p/6808399916) | 2024-12-11 | search_excerpt | Cyril-KI自述；搜索可见2024-12-11编辑。2025是招聘届次；面试日未知，直接打开403。 |
+| INT038 | [滴滴2025届秋招提前批大模型算法工程师](https://zhuanlan.zhihu.com/p/6726777955) | 2024-12-11 | search_excerpt | Cyril-KI自述；2024-12-11为编辑日，片段提9.13 OC不等于面试日；2025是届次。直接正文403。 |
+| INT039 | [百度2025届秋招提前批文心一言大模型算法工程师](https://zhuanlan.zhihu.com/p/6728042720) | 2024-12-11 | search_excerpt | Cyril-KI自述；搜索可见2024-12-11编辑；2025是招聘届次，面试日未知。直接打开403。 |
+| INT040 | [硕五算法面经-增长方向](https://zhuanlan.zhihu.com/p/1895267898429252416) | 2025-04-15 | search_excerpt | CKLSniper记录；P7为作者标签而非官方职级认定。直接全文未取得，仅公开搜索片段；精确面试日未知。 |
+| INT041 | [2025届搜广推算法方向求职历程（SSP、头部计划）](https://zhuanlan.zhihu.com/p/23907591319) | 2025-02-15 | search_excerpt | 正文搜索明确2024年3月日常实习，2025为毕业届次/发布年。只映射片段明确公司，小红书为企业而非来源平台；精确面试日不详。 |
+| INT042 | [本科生24暑期实习NLP（Infra & LLM）算法工程师面经](https://zhuanlan.zhihu.com/p/691407440) | 2024-04-09 | search_excerpt | JerryYin777自述；已公开片段支持二十余场经历、研究背景及两家公司轮次，其余未明确的公司不补猜。百度Eval组工作描述是作者感受，不作事实承诺。 |
+| INT043 | [大模型应用算法社招经历分享](https://zhuanlan.zhihu.com/p/1916537835437143109) | 2025-07-04 | search_excerpt | 作者“走丢的小公举”；搜索显示2025-07-04编辑，直接403。公司未在已取得片段明确，不推测。 |
+| INT044 | [大模型面经-腾讯混元](https://zhuanlan.zhihu.com/p/30044960843) | 2025-03-13 | search_excerpt | 作者小森学AI；2025-03-13为页面编辑时间。仅搜索片段，不独立核验其亲历身份或企业流程；面试日未知。 |
+| INT045 | [大模型面经-美团](https://zhuanlan.zhihu.com/p/1887887871496668839) | 2025-03-25 | search_excerpt | 作者小森学AI；仅搜索片段，未向作者或企业确认亲历身份；日期是页面发布而非面试日。 |
+| INT046 | [字节大模型面试经历分享](https://maimai.cn/article/detail?efid=9vrc-hrQm2g7A_EJI404pQ&fid=1886188250) | 2025-09-01 | opened | 脉脉公开正文可读，作者陈乐（页面职业为AI产品经理），岗位名取正文“运营专家”；面试日未列。正文自述未通过，未向企业核实。 |
+| INT047 | [字节【大模型评测平台】产品岗-面试总结与复盘](https://www.woshipm.com/zhichang/6008160.html) | 2024-03-11 | opened | 产品蝶道自述；页面正文明确3.5晚7点，年份结合正文“24年年后”；岗位调转与面试时长均属作者经历。 |
+| INT048 | [国内20家公司大模型岗位面试经验汇总](https://zhuanlan.zhihu.com/p/690801254) | 未确认/持续更新 | search_excerpt | 作者林夕，转载 https://modelers.csdn.net/699e8c0d7bbde9200b995541.html 明确原帖链接；原帖直接403，搜索支持上述轮次。面试年份及原发日无法从已取得片段确认，year=null；转载2025日期不作面试年。 掘金 https://juejin.cn/post/7496346585509494799 的字节AML首条描述与原作一致，2025-04-22为转载日，归并同源。 |
+| IB001 | [八年前端分享最近两周面试情况](https://www.v2ex.com/t/1110790) | 2025-02-11 | opened | 亲历自述；海外公司匿名不补猜名称。年份据发帖与“最近两周”，具体面试日未知。 |
+| IB002 | [盛大集团面经：Agent/全栈三轮复盘](https://www.v2ex.com/t/1218676) | 2026-06-08 | opened | 亲历自述，子公司未明确不猜名。同作者掘金 https://juejin.cn/post/7648519141299339279 为同源版本，不另计；标题毕业9个月与正文5个月不一致，保留歧义。 |
+| IB003 | [tt 2-2 LLM 面经1](https://www.1point3acres.com/bbs/thread-1074897-1-1.html) | 2024-07-06 | opened | 作者填报面试季为2024年4—6月；opened仅指公开首段，积分188限制后的正文未取得，未绕过。 |
+| IB004 | [Microsoft Research Intern PhD面试经过，纯数转LLM经验分享](https://www.1point3acres.com/bbs/thread-1068145-1-1.html) | 2024-05-23 | opened | 正文明确岗位并非MSR，不能被标题Research误导。公开段落有5月15日首轮及5月17日二轮；积分限制内技术细节未读取。 |
+| IB005 | [小众过经：LLM初创Mozilla.ai Research Scientist](https://www.1point3acres.com/bbs/thread-1017014-1-1.html) | 2023-09-21 | opened | 作者填报2023年7—9月。仅公开首段与尾段可读，积分限制内追问未取得；不把当年业务讨论当现况。 |
+| IB006 | [Software Engineer第一次去ML Coding Interview的小小震撼](https://www.1point3acres.com/bbs/thread-1137862-1-1.html) | 2025-07-21 | opened | 企业未公开，companies为空，不从评论猜企业。自述上周面试，具体日未知；公开正文可读，附件需登录。 |
+| IB007 | [条纹MLE七轮面试完整过经](https://www.1point3acres.com/bbs/thread-1115570-1-1.html) | 2025-03-04 | opened | 面试年据作者填报2024年10—12月，不以2025年发帖替代。标题“过经”与正文未获offer不同，不替作者统一结果；部分正文积分限制。 |
+| IB008 | [Meta onsite E5 MLE 多半挂经](https://www.1point3acres.com/bbs/thread-1155462-1-1.html) | 2025-11-22 | search_excerpt | 页面首段可读，客服设计细节仅搜索片段可见，故保守标search_excerpt；多数正文积分限制。发表日不能直接等同面试日。 |
+| IB011 | [一个搜广推MLE在AI转型期的面试观察](https://www.1point3acres.com/bbs/thread-1184044-1-1.html) | 2026-07-25 | opened | 论坛分区虽为“求职（非面经）”，正文明确本人多场面试观察，按内容收录亲历复盘。列出的公司有投递/邀约/联系混合，未逐一确认已面试，companies不猜填；作者填报2026年4—6月。 |
+| IB012 | [赛博土木LLM Inference Role面试总结](https://www.1point3acres.com/bbs/thread-1188659-1-1.html) | 2026-09-07 | opened | 公开正文自述面试观察，企业未明确不映射企业。发布2026-09-07，“最近一段时间”不足以精确确认各场年份，year与event_date均null；附件需登录，未读取。 |
+| IB013 | [最近在面试AI Agent开发工程师](https://blog.csdn.net/weixin_43958728/article/details/152039160) | 未确认/持续更新 | opened | 作者自述获得三家公司offer但未逐题归属。页面展示2025-09-24为修改时间，原发布日未知故published=null；正文自述当年8月起面试约一月。正文到Q5处付费截断，仅摘要公开部分，不绕付费。 |
+| RES009 | [27届秋招大模型岗面经](https://onlyar.site/2026/08/11/NLP-Interview-Knowkedge/) | 未确认/持续更新 | opened | 原RES009待核阅读入口本轮获得公开正文，保留原ID重分类，不算净新增来源。event_date仅取最早明确技术面2026-08-07；后续多轮至9月，不表示所有轮次同日；网页路径日期不当作发布日期。 |
 
 ## 补充阅读/汇编
 
@@ -51,13 +80,67 @@
 | RES006 | [LLMInterviewQuestions](https://github.com/llmgenai/LLMInterviewQuestions) | 未确认/持续更新 | opened | 英语问题集合；仓库描述中的公司标签不等于本项目独立验证。 |
 | RES007 | [面试面经｜大模型面试八股含答案](https://www.cvmart.net/community/detail/7940) | 2023-08-17 | search_excerpt | 2023年早期中文汇编，可观察考点演进；部分答案过时或不严谨，应用一手资料纠正。 |
 | RES008 | [字节校招面试官划重点](https://www.nowcoder.com/discuss/534332638086148096) | 未确认/持续更新 | search_excerpt | 2023年企业招聘账号给出的面试建议入口，强调对SFT/RLHF等技术的深入理解。 |
-| RES009 | [27届秋招大模型岗面经](https://onlyar.site/2026/08/11/NLP-Interview-Knowkedge/) | 未确认/持续更新 | search_excerpt | 2026年个人博客检索线索；当前全文抓取超时，仅将其作为待补充阅读入口。 |
 | RES010 | [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) | 未确认/持续更新 | opened | 通用编码与行为面试准备，弥补只刷大模型概念而忽视编码的短板。 |
+| RES101 | [爆料阿里大模型二面面经](https://maimai.cn/article/detail?efid=d4IUNQ1B6eQV1Q0AHoc05Q&fid=1886178001) | 2025-09-01 | opened | Leon（页面职业资深猎头顾问）以“爆料者称”转述；覆盖prefill、GQA、KV cache及电商场景。二次转述，不计亲历，未定位原始求职者/面试日。只摘要与外链。 |
+| RES102 | [字节大模型算法实习岗面经](https://maimai.cn/article/detail?efid=k92vRsIeGQp3tcuZmijWPw&fid=1868316767) | 2025-03-15 | opened | Leon（资深猎头顾问）整理SFT数据、DPO、InfoNCE、语义表征、评测及少样本分类；未明确自己是候选人，按二次整理，不计亲历。面试日未知。 |
+| RES103 | [百度大模型面经流程内容爆料](https://maimai.cn/article/detail?efid=J8J-bnh6hJar4r7MsytWlw&fid=1886334696) | 2025-09-02 | opened | Leon以“爆料者称”转述DeepSeek机制、混合精度、训练显存与偏好数据构造。非亲历；面试日未知；文中技术说法不视作标准答案。 |
+| RES104 | [大模型面试汇总：字节AI搜面经](https://zhuanlan.zhihu.com/p/1998498626075373913) | 2026-01-24 | search_excerpt | momo的“大模型面试汇总”专栏条目。公开片段涉及DPO数据构成、冲突学习信号与GRPO奖励设计。仅片段，原始候选人及日期未核明，保守按二次整理，不计亲历。 |
+| RES105 | [大模型面试汇总：哈啰大模型算法](https://zhuanlan.zhihu.com/p/1998499407176429779) | 2026-01-24 | search_excerpt | momo汇总专栏条目；片段介绍两段实习背景，项目深挖、Agent反思与营销业务。原作者链未核明，不计亲历。 |
+| RES106 | [大模型面试汇总：腾讯大模型算法日常实习](https://zhuanlan.zhihu.com/p/1997087164006155782) | 未确认/持续更新 | search_excerpt | momo汇总专栏条目，片段涉及项目讨论、SFT/DPO/GRPO适用性和奖励融合；日期不能仅由相对时间推算，原始候选人未核明，不计亲历。 |
+| RES107 | [大模型面试汇总：美团大模型算法-袋鼠的心跳](https://zhuanlan.zhihu.com/p/1999880734219969724) | 2026-01-28 | search_excerpt | momo汇总专栏，公开片段包含MoE、负载均衡。标题“已OC”为页面自述，未独立验证；未定位原始候选人，不计亲历。 |
+| RES108 | [大模型面试汇总：美团大模型日常实习](https://zhuanlan.zhihu.com/p/2000170723654779295) | 2026-01-29 | search_excerpt | momo汇总专栏条目，片段围绕实际产品是否使用大模型、训练/微调与RAG分块重排。转载 https://post.smzdm.com/p/amoq2m4v/ 同源，不额外计数；原始候选人未核明。 |
+| RES109 | [AIGC大模型面经汇总，太全了！](https://zhuanlan.zhihu.com/p/694464483) | 2024-04-25 | search_excerpt | 牛客账号在知乎发布的2024年AIGC面经二次汇总；不是独立求职者亲历，不把聚合数量当独立原帖数量。可作为原帖发现线索。 |
+| RES110 | [【LLM】大模型面试准备-3（题库整理篇）](https://zhuanlan.zhihu.com/p/651328706) | 2023-09-10 | search_excerpt | 公开片段明确参考网络面经作题库整理；仅作知识补缺，不包装成某企业真实题库。 |
+| RES111 | [字节-大模型产品经理面经&已入职](https://zhuanlan.zhihu.com/p/1939023208675251496) | 2025-08-13 | search_excerpt | 薛老板（求职辅导账号）分享候选人背景、逐轮反馈与求职路径，可能为辅导案例；非已核验原始候选人，保守归二次整理。2026为毕业届次，非面试年。 |
+| RES112 | [智普AIGC产品实习生上岸面经（已拿offer）](https://zhuanlan.zhihu.com/p/718606787) | 2025-02-13 | search_excerpt | 薛老板聊产品栏目中的候选人案例：公开片段包含211硕士研一、三轮产品实习面试与商业化方向；不是栏目作者本人的已核验亲历。不修正原题“智普”并以正文所指智谱作公司标签。 |
+| RES113 | [2024年LLM实习岗面经（一名大四学生的碎碎念）](https://zhuanlan.zhihu.com/p/13549947405) | 2024-12-19 | search_excerpt | 原作讨论作者LLM开发竞赛、GraphRAG研究与实习意向；现有片段不足以确认本人实际面试轮次，按求职方向准备材料，不计亲历。直接正文403。 |
+| RB001 | [AI-Interview-Code](https://github.com/bbruceyuan/AI-Interview-Code) | 未确认/持续更新 | search_excerpt | 大模型与搜广推手写实现汇编，如注意力与AUC；只提供目录外链，作者所称面试用途不等于逐题公司核验。 |
+| RB002 | [DeepLearing-Interview-Awesome-2024](https://github.com/315386775/DeepLearing-Interview-Awesome-2024) | 未确认/持续更新 | opened | CV/AIGC/LLM问答汇编；README明确部分答案不全、未按频次难度排序，适合作为查漏目录。 |
+| RB003 | [llm-interview-notes](https://github.com/Imironman123/llm-interview-notes) | 未确认/持续更新 | opened | 算法、应用与Infra面试整理，含公司横向对比；仓库自述公开经验综合整理，不能拆成多个独立亲历样本。工程量级非实际线上承诺。 |
+| RB004 | [LLM-Algorithm-Intern-Guide](https://github.com/Junvate/LLM-Algorithm-Intern-Guide) | 未确认/持续更新 | search_excerpt | 实习备考目录，混合作者被问知识点与小红书采集，题解托管飞书；2026届是毕业届次，不当面试年，未打开飞书子文档。 |
+| RB005 | [AwesomeInterview：按公司组织的面试入口](https://github.com/yang19527/AwesomeInterview) | 未确认/持续更新 | opened | 公司分类目录含百度、腾讯、阿里、字节及蚂蚁风控等入口；不少子链接指向公众号或知识星球，未读受限内容，不能按标题证明亲历。 |
+| RB006 | [agent-interview-hub](https://github.com/Zchary1106/agent-interview-hub) | 未确认/持续更新 | opened | 国内外公司岗位要求、题库与网络整理；“真实面经”是该仓库作者分类，本仓库仅认定二次汇编，需回溯原帖。 |
+| RB007 | [AI Engineering Interview Questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions) | 未确认/持续更新 | opened | 英文问答目录覆盖实时语音、推荐、内容审核、风控和Text-to-SQL；包含外部课程链接，适合比较设计题覆盖面，不作真题来源。 |
+| RB008 | [Awesome LLM System Design](https://github.com/neurarch-ai/awesome-llm-system-design) | 未确认/持续更新 | opened | 应用科学家、ML与Infra岗位的系统设计准备汇编，涵盖RAG、服务与评测；是备考指南而非作者逐场面试记录。 |
+| RB009 | [AIMLInterviews](https://github.com/alirezadir/AIMLInterviews) | 未确认/持续更新 | opened | 生成式、Agent、多模态与具身面试学习指南；外部产品/作者经验不能视作企业官方题库。 |
+| RB010 | [ML Coding 25年资料收集Part2](https://www.1point3acres.com/bbs/thread-1149304-1-1.html) | 2025-10-09 | search_excerpt | niming1024整理ML/线性代数、CV/LLM/Agent编码准备资源。平台归类“求职（非面经）”，因此不计亲历数量；附件或外部资料可能受限。 |
+| RB011 | [ML System Design 25年资料收集Part3](https://www.1point3acres.com/bbs/thread-1155950-1-1.html) | 2025-11-26 | search_excerpt | niming1024的ML/GenAI系统设计资料目录；包含工程案例入口，区分研究延伸、案例与真题。 |
+| RB012 | [大模型算法方向实习面试经验复盘](https://blog.csdn.net/2401_85378759/article/details/145360438) | 2025-01-25 | opened | 页面以第一人称描述基础不足及实习面试，但夹带资料包推广、原始作者与面试企业不可确认，保守列二次整理。搜索发布2025-01-25，页面“最新推荐文章”2026-07-07不是面试日期。 |
+| RB013 | [2025最新大模型算法社招面经，持续更新中](https://blog.csdn.net/weixin_43440181/article/details/149254081) | 2025-07-10 | opened | 页面自称亲身经历并列多公司，但缺逐场日期和归属、夹资料包推广，保守列汇编；公开段落适合检查微调/应用项目的效果与迁移追问。搜索原发布2025-07-10，“最新推荐文章”2026-06-07不作面试日。 |
+| RB014 | [26秋招大模型技术岗位面试题+面经（六）：美团](https://blog.csdn.net/2401_83173765/article/details/148292555) | 2025-05-28 | search_excerpt | 二次题目汇编含多模态推荐、客服与排序规划；“26秋招”是招募届次，搜索发布2025-05-28，未证实面试年月或每道题部门。 |
+| RB015 | [26秋招大模型技术岗位面试题+面经（九）：小红书](https://blog.csdn.net/2401_83173765/article/details/148292651) | 2025-05-28 | search_excerpt | 公司题目汇编含Text-to-SQL、推荐与图分布式；这里小红书是被面试公司，不代表来源平台为小红书。不能归为作者本人亲历。 |
+| RB017 | [面字节豆包大模型岗，三轮技术面都问了啥？](https://juejin.cn/post/7595232643464134690) | 2026-01-15 | opened | 未取得明确第一人称亲历/原作者身份依据，保守按面试整理而非独立面经。页面使用经历复盘形式，作者身份与企业未独立核实；检索显示1月14日，打开页面为1月15日，以页面为准。具体面试日未知，year按发帖年组织，非已确认面试年。 |
+| RB018 | [阿里云多模态大模型岗三面面经](https://juejin.cn/post/7546495958554755098) | 2025-09-06 | search_excerpt | 未取得明确第一人称亲历/原作者身份依据，保守按面试整理而非独立面经。面试复盘形式，亲历真实性未独立核实；公开打开仅Please wait，只有搜索片段可核对，含学习资料推广。year按发布年组织，面试年未明确。 |
 
 ## 论文、官方仓库与文档
 
 | ID | 来源 | 日期 | 核验 | 说明 |
 |---|---|---|---|---|
+| AB-01 | [Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning](https://arxiv.org/abs/1706.03461) | 2017-06-12 | opened | 已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。 |
+| AB-02 | [The Benefits of Controlled Experimentation at Scale](https://www.microsoft.com/en-us/research/publication/the-benefits-of-controlled-experimentation-at-scale/) | 2017-08 | opened | 已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。 |
+| AB-03 | [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) | 2017-06-14 | opened | 已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。 |
+| AB-04 | [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | 未确认/持续更新 | opened | 已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。 |
+| AB-05 | [Llama Guard 3 model card](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Guard3/8B/MODEL_CARD.md) | 未确认/持续更新 | opened | 已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。 |
+| AB-07 | [Moshi: a speech-text foundation model for real-time dialogue](https://arxiv.org/abs/2410.00037) | 2024-09-17 | opened | 已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。 |
+| AB-08 | [F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching](https://arxiv.org/abs/2410.06885) | 2024-10-09 | opened | 已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。 |
+| AB-09 | [τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045) | 2024-06-17 | opened | 已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。 |
+| AB-11 | [Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792) | 2016-06-24 | opened | 已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。 |
+| AB-12 | [Turning Whisper into Real-Time Transcription System](https://arxiv.org/abs/2307.14743) | 2023-07-27 | opened | 已核查作者摘要：Whisper原版非实时设计，Whisper-Streaming使用local agreement；本文不照搬实验延迟。 |
+| AB-13 | [InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents](https://arxiv.org/abs/2403.02691) | 2024-03-05 | opened | 已核查作者摘要：外部内容间接提示注入评测；系统隔离与权限方案为原创工程设计，不宣称由该基准保证防护。 |
+| APP-A-CLV | [Counting Your Customers the Easy Way: An Alternative to the Pareto/NBD Model](https://www.brucehardie.com/papers/018/) | 未确认/持续更新 | opened | 核对作者/出版机构公开摘要与相关机制；CLV刊于2005年春季，未推测具体发布日期。业务方案和公式示意为编者延伸。 |
+| APP-A-DELAY | [A Feedback Shift Correction in Predicting Conversion Rates under Delayed Feedback](https://arxiv.org/abs/2002.02068) | 2020-02-06 | opened | 已取得论文/出版机构公开摘要，核对标题、日期及相关机制；未声称阅读全文。 |
+| APP-A-DIN | [Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978) | 2017-06-21 | opened | 已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。 |
+| APP-A-DR | [Doubly Robust Policy Evaluation and Learning](https://arxiv.org/abs/1103.4601) | 2011-03-23 | opened | 已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。 |
+| APP-A-ESMM | [Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate](https://arxiv.org/abs/1804.07931) | 2018-04-21 | opened | 已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。 |
+| APP-A-EXP | [Beyond Power Analysis: Metric Sensitivity Analysis in A/B Tests](https://www.microsoft.com/en-us/research/articles/beyond-power-analysis-metric-sensitivity-in-a-b-tests/) | 2021-04-06 | opened | 已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。 |
+| APP-A-FLARE | [Active Retrieval Augmented Generation](https://arxiv.org/abs/2305.06983) | 2023-05-11 | opened | 已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。 |
+| APP-A-IH | [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/abs/2404.13208) | 2024-04-19 | opened | 已取得论文/出版机构公开摘要，核对标题、日期及相关机制；未声称阅读全文。 |
+| APP-A-NEG | [Nonuniform Negative Sampling and Log Odds Correction with Rare Events Data](https://arxiv.org/abs/2110.13048) | 2021-10-25 | opened | 已取得论文/出版机构公开摘要，核对标题、日期及相关机制；未声称阅读全文。 |
+| APP-A-PRIMER | [Recommender Systems: A Primer](https://arxiv.org/abs/2302.02579) | 2023-02-06 | opened | 已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。 |
+| APP-A-RANK | [Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents](https://arxiv.org/abs/2304.09542) | 2023-04-19 | opened | 已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。 |
+| APP-A-RTB | [Real-Time Bidding Benchmarking with iPinYou Dataset](https://arxiv.org/abs/1407.7073) | 2014-07-25 | opened | 已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。 |
+| APP-A-SAS | [Self-Attentive Sequential Recommendation](https://arxiv.org/abs/1808.09781) | 2018-08-20 | opened | 已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。 |
+| APP-A-SGD | [Towards Scalable Multi-Domain Conversational Agents: The Schema-Guided Dialogue Dataset](https://ojs.aaai.org/index.php/AAAI/article/view/6394) | 2020-04-03 | opened | 已取得论文/出版机构公开摘要，核对标题、日期及相关机制；未声称阅读全文。 |
 | E001 | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | 2020-05-22 | opened | 原论文摘要与版本页；讨论参数化/非参数化记忆和两种 RAG 公式。 |
 | E002 | [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906) | 2020-04-10 | opened | 双编码器检索原论文；摘要与元数据已打开。 |
 | E003 | [Precise Zero-Shot Dense Retrieval without Relevance Labels](https://arxiv.org/abs/2212.10496) | 2022-12-20 | opened | HyDE 原论文；假设文档并非事实来源。 |

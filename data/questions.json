@@ -1890,6 +1890,1014 @@
     "kind": "topic"
   },
   {
+    "id": "AA01",
+    "title": "怎样把大模型接入搜索全链路，而不是只在末端接一个问答框？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa01",
+    "kind": "topic"
+  },
+  {
+    "id": "AA02",
+    "title": "Query理解的意图、实体、槽位和硬约束如何共同建模？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa02",
+    "kind": "topic"
+  },
+  {
+    "id": "AA03",
+    "title": "如何证明query改写带来的是有效召回而非意图漂移？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa03",
+    "kind": "topic"
+  },
+  {
+    "id": "AA04",
+    "title": "倒排、双塔和生成式检索应怎样组合？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa04",
+    "kind": "topic"
+  },
+  {
+    "id": "AA05",
+    "title": "生成式docid如何设计，为什么索引更新是关键难点？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa05",
+    "kind": "topic"
+  },
+  {
+    "id": "AA06",
+    "title": "点击日志如何变成排序标签，而不把位置偏差学成相关性？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa06",
+    "kind": "topic"
+  },
+  {
+    "id": "AA07",
+    "title": "LLM精排选pointwise、pairwise还是listwise？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa07",
+    "kind": "topic"
+  },
+  {
+    "id": "AA08",
+    "title": "长文档搜索的切块和文档聚合如何影响排名？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa08",
+    "kind": "topic"
+  },
+  {
+    "id": "AA09",
+    "title": "生成答案怎样与链接列表协同，而不是遮盖证据不足？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa09",
+    "kind": "topic"
+  },
+  {
+    "id": "AA10",
+    "title": "复杂多跳搜索如何控制检索轮次与漂移？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa10",
+    "kind": "topic"
+  },
+  {
+    "id": "AA11",
+    "title": "怎样用LLM教师蒸馏搜索排序，同时审计教师偏差？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa11",
+    "kind": "topic"
+  },
+  {
+    "id": "AA12",
+    "title": "搜索评测如何同时覆盖相关性、答案和业务KPI？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa12",
+    "kind": "topic"
+  },
+  {
+    "id": "AA13",
+    "title": "训练搜索模型如何防止时间与用户泄漏？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa13",
+    "kind": "topic"
+  },
+  {
+    "id": "AA14",
+    "title": "搜索延迟预算如何在改写、重排和答案之间分配？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa14",
+    "kind": "topic"
+  },
+  {
+    "id": "AA15",
+    "title": "如何处理索引权限、恶意页面和提示注入？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa15",
+    "kind": "topic"
+  },
+  {
+    "id": "AA16",
+    "title": "项目深挖：你如何证明提升来自改写而不是候选数增加？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa16",
+    "kind": "topic"
+  },
+  {
+    "id": "AA17",
+    "title": "开放设计：为电商构建“预算内适合老人”的搜索。",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa17",
+    "kind": "topic"
+  },
+  {
+    "id": "AA18",
+    "title": "搜索LLM上线后效果衰退，怎样定位？",
+    "path": "docs/topics/16-llm-search.md",
+    "anchor": "aa18",
+    "kind": "topic"
+  },
+  {
+    "id": "AB01",
+    "title": "广告链路中LLM应放在哪些环节？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab01",
+    "kind": "topic"
+  },
+  {
+    "id": "AB02",
+    "title": "如何将自然语言投放诉求转换为可执行定向？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab02",
+    "kind": "topic"
+  },
+  {
+    "id": "AB03",
+    "title": "广告语义召回与传统ID/行为召回如何融合？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab03",
+    "kind": "topic"
+  },
+  {
+    "id": "AB04",
+    "title": "LLM特征怎样进入CTR模型而不放大线上成本？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab04",
+    "kind": "topic"
+  },
+  {
+    "id": "AB05",
+    "title": "DIN式候选相关兴趣与通用LLM画像有何互补？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab05",
+    "kind": "topic"
+  },
+  {
+    "id": "AB06",
+    "title": "CTR、CVR、CTCVR的条件关系怎样写清？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab06",
+    "kind": "topic"
+  },
+  {
+    "id": "AB07",
+    "title": "延迟转化和归因窗口如何影响训练标签？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab07",
+    "kind": "topic"
+  },
+  {
+    "id": "AB08",
+    "title": "负采样之后如何恢复可用于出价的概率？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab08",
+    "kind": "topic"
+  },
+  {
+    "id": "AB09",
+    "title": "eCPM排序与广告主价值排序有什么差别？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab09",
+    "kind": "topic"
+  },
+  {
+    "id": "AB10",
+    "title": "自动出价如何兼顾预算、目标成本和流量波动？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab10",
+    "kind": "topic"
+  },
+  {
+    "id": "AB11",
+    "title": "如何评估LLM创意，而非只看文案吸引力？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab11",
+    "kind": "topic"
+  },
+  {
+    "id": "AB12",
+    "title": "创意和定向同时变化怎样做实验？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab12",
+    "kind": "topic"
+  },
+  {
+    "id": "AB13",
+    "title": "广告增量评估为何不等于归因ROAS？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab13",
+    "kind": "topic"
+  },
+  {
+    "id": "AB14",
+    "title": "新广告冷启动如何利用大模型而不饿死探索？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab14",
+    "kind": "topic"
+  },
+  {
+    "id": "AB15",
+    "title": "离线反事实评估广告策略需要哪些日志？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab15",
+    "kind": "topic"
+  },
+  {
+    "id": "AB16",
+    "title": "广告模型的成本与可靠性如何验收？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab16",
+    "kind": "topic"
+  },
+  {
+    "id": "AB17",
+    "title": "项目深挖：你如何解释AUC改善但广告收益下降？",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab17",
+    "kind": "topic"
+  },
+  {
+    "id": "AB18",
+    "title": "开放设计：给中小商家做可控的投放助手。",
+    "path": "docs/topics/17-llm-ads.md",
+    "anchor": "ab18",
+    "kind": "topic"
+  },
+  {
+    "id": "AC01",
+    "title": "传统推荐多阶段架构与LLM应怎样分工？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac01",
+    "kind": "topic"
+  },
+  {
+    "id": "AC02",
+    "title": "语义ID推荐与文本推荐到底生成什么？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac02",
+    "kind": "topic"
+  },
+  {
+    "id": "AC03",
+    "title": "语义ID怎样兼顾内容语义和协同行为？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac03",
+    "kind": "topic"
+  },
+  {
+    "id": "AC04",
+    "title": "序列推荐训练样本与LLM上下文如何对齐？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac04",
+    "kind": "topic"
+  },
+  {
+    "id": "AC05",
+    "title": "长行为序列为何不能只取最近N条？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac05",
+    "kind": "topic"
+  },
+  {
+    "id": "AC06",
+    "title": "候选相关兴趣与全局用户向量有何取舍？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac06",
+    "kind": "topic"
+  },
+  {
+    "id": "AC07",
+    "title": "新用户、新物品和新品类冷启动应如何分别处理？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac07",
+    "kind": "topic"
+  },
+  {
+    "id": "AC08",
+    "title": "推荐负样本怎样选才有意义？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac08",
+    "kind": "topic"
+  },
+  {
+    "id": "AC09",
+    "title": "LLM生成兴趣标签怎样建立质量闭环？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac09",
+    "kind": "topic"
+  },
+  {
+    "id": "AC10",
+    "title": "多任务排序怎样协调点击、观看、转化与满意度？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac10",
+    "kind": "topic"
+  },
+  {
+    "id": "AC11",
+    "title": "生成式推荐如何输出多样的合法列表？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac11",
+    "kind": "topic"
+  },
+  {
+    "id": "AC12",
+    "title": "解释型推荐如何避免编造用户偏好或商品属性？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac12",
+    "kind": "topic"
+  },
+  {
+    "id": "AC13",
+    "title": "如何设计推荐的离线与线上评测？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac13",
+    "kind": "topic"
+  },
+  {
+    "id": "AC14",
+    "title": "推荐反馈回路如何影响探索与公平性？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac14",
+    "kind": "topic"
+  },
+  {
+    "id": "AC15",
+    "title": "推荐LLM的在线成本怎样估算？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac15",
+    "kind": "topic"
+  },
+  {
+    "id": "AC16",
+    "title": "如何研究新物品加入与码本更新？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac16",
+    "kind": "topic"
+  },
+  {
+    "id": "AC17",
+    "title": "项目深挖：你怎样证明LLM语义特征具有独立增益？",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac17",
+    "kind": "topic"
+  },
+  {
+    "id": "AC18",
+    "title": "开放设计：为内容社区构建可更新的对话式推荐。",
+    "path": "docs/topics/18-llm-recommendation.md",
+    "anchor": "ac18",
+    "kind": "topic"
+  },
+  {
+    "id": "AD01",
+    "title": "增长问题怎样转成可验证的模型目标？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad01",
+    "kind": "topic"
+  },
+  {
+    "id": "AD02",
+    "title": "购买概率模型与uplift模型有什么区别？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad02",
+    "kind": "topic"
+  },
+  {
+    "id": "AD03",
+    "title": "怎样构建增长实验数据而不产生干预后泄漏？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad03",
+    "kind": "topic"
+  },
+  {
+    "id": "AD04",
+    "title": "T-learner、S-learner、X-learner怎样比较？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad04",
+    "kind": "topic"
+  },
+  {
+    "id": "AD05",
+    "title": "如何评估uplift排序而不是只看AUC？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad05",
+    "kind": "topic"
+  },
+  {
+    "id": "AD06",
+    "title": "发券策略如何纳入成本和自然转化？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad06",
+    "kind": "topic"
+  },
+  {
+    "id": "AD07",
+    "title": "LTV预测怎样处理观察窗、删失和折现？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad07",
+    "kind": "topic"
+  },
+  {
+    "id": "AD08",
+    "title": "LLM怎样从用户反馈中提取可验证的流失信号？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad08",
+    "kind": "topic"
+  },
+  {
+    "id": "AD09",
+    "title": "增长A/B测试怎样选随机化单位？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad09",
+    "kind": "topic"
+  },
+  {
+    "id": "AD10",
+    "title": "CUPED怎样提高实验敏感性，条件是什么？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad10",
+    "kind": "topic"
+  },
+  {
+    "id": "AD11",
+    "title": "多指标、多分群和反复看结果怎样控制误报？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad11",
+    "kind": "topic"
+  },
+  {
+    "id": "AD12",
+    "title": "长期留存与短期代理指标如何协调？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad12",
+    "kind": "topic"
+  },
+  {
+    "id": "AD13",
+    "title": "增长策略何时用contextual bandit，何时保留固定实验？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad13",
+    "kind": "topic"
+  },
+  {
+    "id": "AD14",
+    "title": "离线策略评估如何说明支持重叠与方差？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad14",
+    "kind": "topic"
+  },
+  {
+    "id": "AD15",
+    "title": "LLM增长助手如何执行个性化触达并保留边界？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad15",
+    "kind": "topic"
+  },
+  {
+    "id": "AD16",
+    "title": "增长模型训练与服务如何控制漂移和成本？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad16",
+    "kind": "topic"
+  },
+  {
+    "id": "AD17",
+    "title": "项目深挖：你怎样证明新增用户来自模型而非渠道变化？",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad17",
+    "kind": "topic"
+  },
+  {
+    "id": "AD18",
+    "title": "开放设计：对沉默用户做有限预算的召回策略。",
+    "path": "docs/topics/19-llm-growth.md",
+    "anchor": "ad18",
+    "kind": "topic"
+  },
+  {
+    "id": "MA01",
+    "title": "营销系统中 LLM 应放在哪一层？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma01",
+    "kind": "topic"
+  },
+  {
+    "id": "MA02",
+    "title": "怎样建立受众标签而不让模型臆造用户属性？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma02",
+    "kind": "topic"
+  },
+  {
+    "id": "MA03",
+    "title": "高转化受众与高增量受众为何不同？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma03",
+    "kind": "topic"
+  },
+  {
+    "id": "MA04",
+    "title": "多渠道、多文案如何组织训练样本？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma04",
+    "kind": "topic"
+  },
+  {
+    "id": "MA05",
+    "title": "如何把品牌风格 SFT 与商品事实分开？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma05",
+    "kind": "topic"
+  },
+  {
+    "id": "MA06",
+    "title": "如何评价创意质量而非只看流畅度？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma06",
+    "kind": "topic"
+  },
+  {
+    "id": "MA07",
+    "title": "如何控制素材生成的组合爆炸？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma07",
+    "kind": "topic"
+  },
+  {
+    "id": "MA08",
+    "title": "营销 bandit 能代替 A/B 吗？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma08",
+    "kind": "topic"
+  },
+  {
+    "id": "MA09",
+    "title": "最后点击归因为什么不等于因果贡献？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma09",
+    "kind": "topic"
+  },
+  {
+    "id": "MA10",
+    "title": "频控与触达时机怎样建模？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma10",
+    "kind": "topic"
+  },
+  {
+    "id": "MA11",
+    "title": "如何设计新商品、新人群的冷启动？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma11",
+    "kind": "topic"
+  },
+  {
+    "id": "MA12",
+    "title": "怎样应对生成内容的事实与承诺错误？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma12",
+    "kind": "topic"
+  },
+  {
+    "id": "MA13",
+    "title": "怎样研究个性化文案是否有真实价值？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma13",
+    "kind": "topic"
+  },
+  {
+    "id": "MA14",
+    "title": "营销在线链路如何降级？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma14",
+    "kind": "topic"
+  },
+  {
+    "id": "MA15",
+    "title": "离线 uplift 评价如何避免自欺？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma15",
+    "kind": "topic"
+  },
+  {
+    "id": "MA16",
+    "title": "怎样分析营销模型的漂移？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma16",
+    "kind": "topic"
+  },
+  {
+    "id": "MA17",
+    "title": "项目深挖时怎样说明自己的增量贡献？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma17",
+    "kind": "topic"
+  },
+  {
+    "id": "MA18",
+    "title": "开放设计：有限预算下做跨渠道新品营销？",
+    "path": "docs/topics/20-llm-marketing.md",
+    "anchor": "ma18",
+    "kind": "topic"
+  },
+  {
+    "id": "RI01",
+    "title": "LLM 与传统风控图、规则和评分卡怎样协同？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri01",
+    "kind": "topic"
+  },
+  {
+    "id": "RI02",
+    "title": "欺诈标签为何延迟且带有选择偏差？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri02",
+    "kind": "topic"
+  },
+  {
+    "id": "RI03",
+    "title": "极不均衡样本怎样评估？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri03",
+    "kind": "topic"
+  },
+  {
+    "id": "RI04",
+    "title": "风险阈值怎样根据错误代价确定？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri04",
+    "kind": "topic"
+  },
+  {
+    "id": "RI05",
+    "title": "模型自报置信度能作为风险概率吗？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri05",
+    "kind": "topic"
+  },
+  {
+    "id": "RI06",
+    "title": "LLM 如何提取欺诈证据而非编造指控？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri06",
+    "kind": "topic"
+  },
+  {
+    "id": "RI07",
+    "title": "内容审核如何设计类别体系？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri07",
+    "kind": "topic"
+  },
+  {
+    "id": "RI08",
+    "title": "多模态审核怎样处理文本与图像冲突？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri08",
+    "kind": "topic"
+  },
+  {
+    "id": "RI09",
+    "title": "对抗与提示注入应该如何测试？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri09",
+    "kind": "topic"
+  },
+  {
+    "id": "RI10",
+    "title": "图风控与 LLM 语义特征如何防泄漏？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri10",
+    "kind": "topic"
+  },
+  {
+    "id": "RI11",
+    "title": "人工审核队列如何按价值路由？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri11",
+    "kind": "topic"
+  },
+  {
+    "id": "RI12",
+    "title": "怎样监测概念漂移和标签漂移？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri12",
+    "kind": "topic"
+  },
+  {
+    "id": "RI13",
+    "title": "如何训练安全审核器并保留弃权能力？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri13",
+    "kind": "topic"
+  },
+  {
+    "id": "RI14",
+    "title": "实时风控如何约束延迟与成本？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri14",
+    "kind": "topic"
+  },
+  {
+    "id": "RI15",
+    "title": "如何设计公平性和申诉评价？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri15",
+    "kind": "topic"
+  },
+  {
+    "id": "RI16",
+    "title": "怎样评价规则更新与模型上线？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri16",
+    "kind": "topic"
+  },
+  {
+    "id": "RI17",
+    "title": "项目深挖应展示哪些失败案例？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri17",
+    "kind": "topic"
+  },
+  {
+    "id": "RI18",
+    "title": "开放设计：做内容与交易联合风险辅助系统？",
+    "path": "docs/topics/21-llm-risk.md",
+    "anchor": "ri18",
+    "kind": "topic"
+  },
+  {
+    "id": "SP01",
+    "title": "ASR→LLM→TTS 与原生语音模型如何选？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp01",
+    "kind": "topic"
+  },
+  {
+    "id": "SP02",
+    "title": "语音训练数据如何切分？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp02",
+    "kind": "topic"
+  },
+  {
+    "id": "SP03",
+    "title": "WER 降低为什么业务未改善？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp03",
+    "kind": "topic"
+  },
+  {
+    "id": "SP04",
+    "title": "流式 ASR 如何处理部分结果反复改写？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp04",
+    "kind": "topic"
+  },
+  {
+    "id": "SP05",
+    "title": "VAD 与端点检测怎样权衡？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp05",
+    "kind": "topic"
+  },
+  {
+    "id": "SP06",
+    "title": "实时语音延迟预算如何分解？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp06",
+    "kind": "topic"
+  },
+  {
+    "id": "SP07",
+    "title": "如何实现可靠打断与取消？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp07",
+    "kind": "topic"
+  },
+  {
+    "id": "SP08",
+    "title": "TTS 自回归与 flow matching 怎样比较？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp08",
+    "kind": "topic"
+  },
+  {
+    "id": "SP09",
+    "title": "语音 codec token 率如何影响系统？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp09",
+    "kind": "topic"
+  },
+  {
+    "id": "SP10",
+    "title": "TTS 如何评价自然度和可懂度？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp10",
+    "kind": "topic"
+  },
+  {
+    "id": "SP11",
+    "title": "语音克隆如何定义授权与边界？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp11",
+    "kind": "topic"
+  },
+  {
+    "id": "SP12",
+    "title": "LLM 能否安全纠正 ASR 文本？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp12",
+    "kind": "topic"
+  },
+  {
+    "id": "SP13",
+    "title": "语音情绪识别为何要谨慎？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp13",
+    "kind": "topic"
+  },
+  {
+    "id": "SP14",
+    "title": "多语言、口音和 code-switch 如何评测？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp14",
+    "kind": "topic"
+  },
+  {
+    "id": "SP15",
+    "title": "训练语音对话模型需要什么监督？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp15",
+    "kind": "topic"
+  },
+  {
+    "id": "SP16",
+    "title": "实时服务怎样容量规划和降级？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp16",
+    "kind": "topic"
+  },
+  {
+    "id": "SP17",
+    "title": "项目深挖怎样定位语音系统失败？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp17",
+    "kind": "topic"
+  },
+  {
+    "id": "SP18",
+    "title": "开放设计：有工具操作的实时语音客服？",
+    "path": "docs/topics/22-llm-speech.md",
+    "anchor": "sp18",
+    "kind": "topic"
+  },
+  {
+    "id": "CS01",
+    "title": "客服系统为何不应只做一个问答 RAG？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs01",
+    "kind": "topic"
+  },
+  {
+    "id": "CS02",
+    "title": "知识库如何处理版本和适用范围？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs02",
+    "kind": "topic"
+  },
+  {
+    "id": "CS03",
+    "title": "多轮客服状态应怎样表示？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs03",
+    "kind": "topic"
+  },
+  {
+    "id": "CS04",
+    "title": "知识问答和工具执行的训练标签如何不同？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs04",
+    "kind": "topic"
+  },
+  {
+    "id": "CS05",
+    "title": "工具调用如何防止重复退款和越权？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs05",
+    "kind": "topic"
+  },
+  {
+    "id": "CS06",
+    "title": "客服项目怎样评价任务成功？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs06",
+    "kind": "topic"
+  },
+  {
+    "id": "CS07",
+    "title": "转人工怎样优化而不是追求最低比例？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs07",
+    "kind": "topic"
+  },
+  {
+    "id": "CS08",
+    "title": "怎样做答案置信与拒答？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs08",
+    "kind": "topic"
+  },
+  {
+    "id": "CS09",
+    "title": "客服中的提示注入为何可能来自知识库？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs09",
+    "kind": "topic"
+  },
+  {
+    "id": "CS10",
+    "title": "SFT、偏好优化和规则系统各学什么？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs10",
+    "kind": "topic"
+  },
+  {
+    "id": "CS11",
+    "title": "如何建立在线客服 KPI 树？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs11",
+    "kind": "topic"
+  },
+  {
+    "id": "CS12",
+    "title": "客服质检标签如何避免循环自证？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs12",
+    "kind": "topic"
+  },
+  {
+    "id": "CS13",
+    "title": "情绪识别与安抚如何不越界？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs13",
+    "kind": "topic"
+  },
+  {
+    "id": "CS14",
+    "title": "如何降低长会话上下文成本？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs14",
+    "kind": "topic"
+  },
+  {
+    "id": "CS15",
+    "title": "线上灰度如何检验真实增量？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs15",
+    "kind": "topic"
+  },
+  {
+    "id": "CS16",
+    "title": "多租户、多语言客服系统如何隔离？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs16",
+    "kind": "topic"
+  },
+  {
+    "id": "CS17",
+    "title": "项目深挖如何展示可复现的改进？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs17",
+    "kind": "topic"
+  },
+  {
+    "id": "CS18",
+    "title": "开放设计：退款改签售后助手如何端到端落地？",
+    "path": "docs/topics/23-llm-service.md",
+    "anchor": "cs18",
+    "kind": "topic"
+  },
+  {
     "id": "H01",
     "title": "实现数值稳定的softmax",
     "path": "docs/preparation/coding-and-estimation.md",

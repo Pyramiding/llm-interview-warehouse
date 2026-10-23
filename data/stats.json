@@ -1,21 +1,44 @@
 {
   "as_of": "2026-10-22",
-  "interview_records": 30,
-  "reading_resources": 10,
-  "topics": 15,
-  "topic_questions": 270,
+  "interview_records": 59,
+  "reading_resources": 39,
+  "topics": 23,
+  "topic_questions": 414,
   "practice_questions": 26,
-  "total_questions": 296,
-  "normalized_source_urls": 198,
-  "research_source_urls": 158,
+  "total_questions": 440,
+  "normalized_source_urls": 281,
+  "research_source_urls": 183,
   "verification": {
-    "opened": 167,
-    "search_excerpt": 31
+    "opened": 220,
+    "search_excerpt": 61
   },
   "interviews_by_year": {
-    "2023": 5,
-    "2024": 9,
-    "2025": 11,
-    "2026": 5
+    "2023": 10,
+    "2024": 19,
+    "2025": 20,
+    "2026": 8,
+    "null": 2
+  },
+  "interviews_by_platform": {
+    "牛客": 30,
+    "知乎": 15,
+    "脉脉": 1,
+    "人人都是产品经理": 1,
+    "V2EX": 2,
+    "一亩三分地": 8,
+    "CSDN": 1,
+    "个人博客": 1
+  },
+  "interview_source_types": {
+    "interview_self_report": 59
+  },
+  "interviews_by_domain": {
+    "业务领域未明确": 49,
+    "搜索": 4,
+    "推荐": 4,
+    "用户增长": 1,
+    "广告": 1,
+    "风控": 2,
+    "客服": 1
   }
 }

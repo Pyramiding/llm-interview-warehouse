@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [真实面经入口](interviews/README.md)
 
-共 **296道原创题/练习**，追问不另计。专题题为研究延伸，项目与手写为原创练习；它们不是未经核实的企业真题。
+共 **440道原创题/练习**，追问不另计。专题题为研究延伸，项目与手写为原创练习；它们不是未经核实的企业真题。
 
 ## Transformer、概率与训练数学
 
@@ -318,6 +318,174 @@
 - [X16 · 怎样设计消融，使提升真的能归因于你提出的模块？](topics/15-domain-models-and-research.md#x16)
 - [X17 · 复现一篇论文时，哪些证据应保存，哪些主张不能轻易接受？](topics/15-domain-models-and-research.md#x17)
 - [X18 · 如何在研究面试中讲清自己的项目，并诚实划分个人贡献？](topics/15-domain-models-and-research.md#x18)
+
+## 16. 大模型 + 搜索
+
+- [AA01 · 怎样把大模型接入搜索全链路，而不是只在末端接一个问答框？](topics/16-llm-search.md#aa01)
+- [AA02 · Query理解的意图、实体、槽位和硬约束如何共同建模？](topics/16-llm-search.md#aa02)
+- [AA03 · 如何证明query改写带来的是有效召回而非意图漂移？](topics/16-llm-search.md#aa03)
+- [AA04 · 倒排、双塔和生成式检索应怎样组合？](topics/16-llm-search.md#aa04)
+- [AA05 · 生成式docid如何设计，为什么索引更新是关键难点？](topics/16-llm-search.md#aa05)
+- [AA06 · 点击日志如何变成排序标签，而不把位置偏差学成相关性？](topics/16-llm-search.md#aa06)
+- [AA07 · LLM精排选pointwise、pairwise还是listwise？](topics/16-llm-search.md#aa07)
+- [AA08 · 长文档搜索的切块和文档聚合如何影响排名？](topics/16-llm-search.md#aa08)
+- [AA09 · 生成答案怎样与链接列表协同，而不是遮盖证据不足？](topics/16-llm-search.md#aa09)
+- [AA10 · 复杂多跳搜索如何控制检索轮次与漂移？](topics/16-llm-search.md#aa10)
+- [AA11 · 怎样用LLM教师蒸馏搜索排序，同时审计教师偏差？](topics/16-llm-search.md#aa11)
+- [AA12 · 搜索评测如何同时覆盖相关性、答案和业务KPI？](topics/16-llm-search.md#aa12)
+- [AA13 · 训练搜索模型如何防止时间与用户泄漏？](topics/16-llm-search.md#aa13)
+- [AA14 · 搜索延迟预算如何在改写、重排和答案之间分配？](topics/16-llm-search.md#aa14)
+- [AA15 · 如何处理索引权限、恶意页面和提示注入？](topics/16-llm-search.md#aa15)
+- [AA16 · 项目深挖：你如何证明提升来自改写而不是候选数增加？](topics/16-llm-search.md#aa16)
+- [AA17 · 开放设计：为电商构建“预算内适合老人”的搜索。](topics/16-llm-search.md#aa17)
+- [AA18 · 搜索LLM上线后效果衰退，怎样定位？](topics/16-llm-search.md#aa18)
+
+## 17. 大模型 + 广告
+
+- [AB01 · 广告链路中LLM应放在哪些环节？](topics/17-llm-ads.md#ab01)
+- [AB02 · 如何将自然语言投放诉求转换为可执行定向？](topics/17-llm-ads.md#ab02)
+- [AB03 · 广告语义召回与传统ID/行为召回如何融合？](topics/17-llm-ads.md#ab03)
+- [AB04 · LLM特征怎样进入CTR模型而不放大线上成本？](topics/17-llm-ads.md#ab04)
+- [AB05 · DIN式候选相关兴趣与通用LLM画像有何互补？](topics/17-llm-ads.md#ab05)
+- [AB06 · CTR、CVR、CTCVR的条件关系怎样写清？](topics/17-llm-ads.md#ab06)
+- [AB07 · 延迟转化和归因窗口如何影响训练标签？](topics/17-llm-ads.md#ab07)
+- [AB08 · 负采样之后如何恢复可用于出价的概率？](topics/17-llm-ads.md#ab08)
+- [AB09 · eCPM排序与广告主价值排序有什么差别？](topics/17-llm-ads.md#ab09)
+- [AB10 · 自动出价如何兼顾预算、目标成本和流量波动？](topics/17-llm-ads.md#ab10)
+- [AB11 · 如何评估LLM创意，而非只看文案吸引力？](topics/17-llm-ads.md#ab11)
+- [AB12 · 创意和定向同时变化怎样做实验？](topics/17-llm-ads.md#ab12)
+- [AB13 · 广告增量评估为何不等于归因ROAS？](topics/17-llm-ads.md#ab13)
+- [AB14 · 新广告冷启动如何利用大模型而不饿死探索？](topics/17-llm-ads.md#ab14)
+- [AB15 · 离线反事实评估广告策略需要哪些日志？](topics/17-llm-ads.md#ab15)
+- [AB16 · 广告模型的成本与可靠性如何验收？](topics/17-llm-ads.md#ab16)
+- [AB17 · 项目深挖：你如何解释AUC改善但广告收益下降？](topics/17-llm-ads.md#ab17)
+- [AB18 · 开放设计：给中小商家做可控的投放助手。](topics/17-llm-ads.md#ab18)
+
+## 18. 大模型 + 推荐
+
+- [AC01 · 传统推荐多阶段架构与LLM应怎样分工？](topics/18-llm-recommendation.md#ac01)
+- [AC02 · 语义ID推荐与文本推荐到底生成什么？](topics/18-llm-recommendation.md#ac02)
+- [AC03 · 语义ID怎样兼顾内容语义和协同行为？](topics/18-llm-recommendation.md#ac03)
+- [AC04 · 序列推荐训练样本与LLM上下文如何对齐？](topics/18-llm-recommendation.md#ac04)
+- [AC05 · 长行为序列为何不能只取最近N条？](topics/18-llm-recommendation.md#ac05)
+- [AC06 · 候选相关兴趣与全局用户向量有何取舍？](topics/18-llm-recommendation.md#ac06)
+- [AC07 · 新用户、新物品和新品类冷启动应如何分别处理？](topics/18-llm-recommendation.md#ac07)
+- [AC08 · 推荐负样本怎样选才有意义？](topics/18-llm-recommendation.md#ac08)
+- [AC09 · LLM生成兴趣标签怎样建立质量闭环？](topics/18-llm-recommendation.md#ac09)
+- [AC10 · 多任务排序怎样协调点击、观看、转化与满意度？](topics/18-llm-recommendation.md#ac10)
+- [AC11 · 生成式推荐如何输出多样的合法列表？](topics/18-llm-recommendation.md#ac11)
+- [AC12 · 解释型推荐如何避免编造用户偏好或商品属性？](topics/18-llm-recommendation.md#ac12)
+- [AC13 · 如何设计推荐的离线与线上评测？](topics/18-llm-recommendation.md#ac13)
+- [AC14 · 推荐反馈回路如何影响探索与公平性？](topics/18-llm-recommendation.md#ac14)
+- [AC15 · 推荐LLM的在线成本怎样估算？](topics/18-llm-recommendation.md#ac15)
+- [AC16 · 如何研究新物品加入与码本更新？](topics/18-llm-recommendation.md#ac16)
+- [AC17 · 项目深挖：你怎样证明LLM语义特征具有独立增益？](topics/18-llm-recommendation.md#ac17)
+- [AC18 · 开放设计：为内容社区构建可更新的对话式推荐。](topics/18-llm-recommendation.md#ac18)
+
+## 19. 大模型 + 用户增长
+
+- [AD01 · 增长问题怎样转成可验证的模型目标？](topics/19-llm-growth.md#ad01)
+- [AD02 · 购买概率模型与uplift模型有什么区别？](topics/19-llm-growth.md#ad02)
+- [AD03 · 怎样构建增长实验数据而不产生干预后泄漏？](topics/19-llm-growth.md#ad03)
+- [AD04 · T-learner、S-learner、X-learner怎样比较？](topics/19-llm-growth.md#ad04)
+- [AD05 · 如何评估uplift排序而不是只看AUC？](topics/19-llm-growth.md#ad05)
+- [AD06 · 发券策略如何纳入成本和自然转化？](topics/19-llm-growth.md#ad06)
+- [AD07 · LTV预测怎样处理观察窗、删失和折现？](topics/19-llm-growth.md#ad07)
+- [AD08 · LLM怎样从用户反馈中提取可验证的流失信号？](topics/19-llm-growth.md#ad08)
+- [AD09 · 增长A/B测试怎样选随机化单位？](topics/19-llm-growth.md#ad09)
+- [AD10 · CUPED怎样提高实验敏感性，条件是什么？](topics/19-llm-growth.md#ad10)
+- [AD11 · 多指标、多分群和反复看结果怎样控制误报？](topics/19-llm-growth.md#ad11)
+- [AD12 · 长期留存与短期代理指标如何协调？](topics/19-llm-growth.md#ad12)
+- [AD13 · 增长策略何时用contextual bandit，何时保留固定实验？](topics/19-llm-growth.md#ad13)
+- [AD14 · 离线策略评估如何说明支持重叠与方差？](topics/19-llm-growth.md#ad14)
+- [AD15 · LLM增长助手如何执行个性化触达并保留边界？](topics/19-llm-growth.md#ad15)
+- [AD16 · 增长模型训练与服务如何控制漂移和成本？](topics/19-llm-growth.md#ad16)
+- [AD17 · 项目深挖：你怎样证明新增用户来自模型而非渠道变化？](topics/19-llm-growth.md#ad17)
+- [AD18 · 开放设计：对沉默用户做有限预算的召回策略。](topics/19-llm-growth.md#ad18)
+
+## 20. 大模型与营销：受众、内容、触达与增量
+
+- [MA01 · 营销系统中 LLM 应放在哪一层？](topics/20-llm-marketing.md#ma01)
+- [MA02 · 怎样建立受众标签而不让模型臆造用户属性？](topics/20-llm-marketing.md#ma02)
+- [MA03 · 高转化受众与高增量受众为何不同？](topics/20-llm-marketing.md#ma03)
+- [MA04 · 多渠道、多文案如何组织训练样本？](topics/20-llm-marketing.md#ma04)
+- [MA05 · 如何把品牌风格 SFT 与商品事实分开？](topics/20-llm-marketing.md#ma05)
+- [MA06 · 如何评价创意质量而非只看流畅度？](topics/20-llm-marketing.md#ma06)
+- [MA07 · 如何控制素材生成的组合爆炸？](topics/20-llm-marketing.md#ma07)
+- [MA08 · 营销 bandit 能代替 A/B 吗？](topics/20-llm-marketing.md#ma08)
+- [MA09 · 最后点击归因为什么不等于因果贡献？](topics/20-llm-marketing.md#ma09)
+- [MA10 · 频控与触达时机怎样建模？](topics/20-llm-marketing.md#ma10)
+- [MA11 · 如何设计新商品、新人群的冷启动？](topics/20-llm-marketing.md#ma11)
+- [MA12 · 怎样应对生成内容的事实与承诺错误？](topics/20-llm-marketing.md#ma12)
+- [MA13 · 怎样研究个性化文案是否有真实价值？](topics/20-llm-marketing.md#ma13)
+- [MA14 · 营销在线链路如何降级？](topics/20-llm-marketing.md#ma14)
+- [MA15 · 离线 uplift 评价如何避免自欺？](topics/20-llm-marketing.md#ma15)
+- [MA16 · 怎样分析营销模型的漂移？](topics/20-llm-marketing.md#ma16)
+- [MA17 · 项目深挖时怎样说明自己的增量贡献？](topics/20-llm-marketing.md#ma17)
+- [MA18 · 开放设计：有限预算下做跨渠道新品营销？](topics/20-llm-marketing.md#ma18)
+
+## 21. 大模型与风控：欺诈、审核、代价与漂移
+
+- [RI01 · LLM 与传统风控图、规则和评分卡怎样协同？](topics/21-llm-risk.md#ri01)
+- [RI02 · 欺诈标签为何延迟且带有选择偏差？](topics/21-llm-risk.md#ri02)
+- [RI03 · 极不均衡样本怎样评估？](topics/21-llm-risk.md#ri03)
+- [RI04 · 风险阈值怎样根据错误代价确定？](topics/21-llm-risk.md#ri04)
+- [RI05 · 模型自报置信度能作为风险概率吗？](topics/21-llm-risk.md#ri05)
+- [RI06 · LLM 如何提取欺诈证据而非编造指控？](topics/21-llm-risk.md#ri06)
+- [RI07 · 内容审核如何设计类别体系？](topics/21-llm-risk.md#ri07)
+- [RI08 · 多模态审核怎样处理文本与图像冲突？](topics/21-llm-risk.md#ri08)
+- [RI09 · 对抗与提示注入应该如何测试？](topics/21-llm-risk.md#ri09)
+- [RI10 · 图风控与 LLM 语义特征如何防泄漏？](topics/21-llm-risk.md#ri10)
+- [RI11 · 人工审核队列如何按价值路由？](topics/21-llm-risk.md#ri11)
+- [RI12 · 怎样监测概念漂移和标签漂移？](topics/21-llm-risk.md#ri12)
+- [RI13 · 如何训练安全审核器并保留弃权能力？](topics/21-llm-risk.md#ri13)
+- [RI14 · 实时风控如何约束延迟与成本？](topics/21-llm-risk.md#ri14)
+- [RI15 · 如何设计公平性和申诉评价？](topics/21-llm-risk.md#ri15)
+- [RI16 · 怎样评价规则更新与模型上线？](topics/21-llm-risk.md#ri16)
+- [RI17 · 项目深挖应展示哪些失败案例？](topics/21-llm-risk.md#ri17)
+- [RI18 · 开放设计：做内容与交易联合风险辅助系统？](topics/21-llm-risk.md#ri18)
+
+## 22. 大模型与语音：识别、合成和实时交互
+
+- [SP01 · ASR→LLM→TTS 与原生语音模型如何选？](topics/22-llm-speech.md#sp01)
+- [SP02 · 语音训练数据如何切分？](topics/22-llm-speech.md#sp02)
+- [SP03 · WER 降低为什么业务未改善？](topics/22-llm-speech.md#sp03)
+- [SP04 · 流式 ASR 如何处理部分结果反复改写？](topics/22-llm-speech.md#sp04)
+- [SP05 · VAD 与端点检测怎样权衡？](topics/22-llm-speech.md#sp05)
+- [SP06 · 实时语音延迟预算如何分解？](topics/22-llm-speech.md#sp06)
+- [SP07 · 如何实现可靠打断与取消？](topics/22-llm-speech.md#sp07)
+- [SP08 · TTS 自回归与 flow matching 怎样比较？](topics/22-llm-speech.md#sp08)
+- [SP09 · 语音 codec token 率如何影响系统？](topics/22-llm-speech.md#sp09)
+- [SP10 · TTS 如何评价自然度和可懂度？](topics/22-llm-speech.md#sp10)
+- [SP11 · 语音克隆如何定义授权与边界？](topics/22-llm-speech.md#sp11)
+- [SP12 · LLM 能否安全纠正 ASR 文本？](topics/22-llm-speech.md#sp12)
+- [SP13 · 语音情绪识别为何要谨慎？](topics/22-llm-speech.md#sp13)
+- [SP14 · 多语言、口音和 code-switch 如何评测？](topics/22-llm-speech.md#sp14)
+- [SP15 · 训练语音对话模型需要什么监督？](topics/22-llm-speech.md#sp15)
+- [SP16 · 实时服务怎样容量规划和降级？](topics/22-llm-speech.md#sp16)
+- [SP17 · 项目深挖怎样定位语音系统失败？](topics/22-llm-speech.md#sp17)
+- [SP18 · 开放设计：有工具操作的实时语音客服？](topics/22-llm-speech.md#sp18)
+
+## 23. 大模型与客服：知识、状态、执行和质检
+
+- [CS01 · 客服系统为何不应只做一个问答 RAG？](topics/23-llm-service.md#cs01)
+- [CS02 · 知识库如何处理版本和适用范围？](topics/23-llm-service.md#cs02)
+- [CS03 · 多轮客服状态应怎样表示？](topics/23-llm-service.md#cs03)
+- [CS04 · 知识问答和工具执行的训练标签如何不同？](topics/23-llm-service.md#cs04)
+- [CS05 · 工具调用如何防止重复退款和越权？](topics/23-llm-service.md#cs05)
+- [CS06 · 客服项目怎样评价任务成功？](topics/23-llm-service.md#cs06)
+- [CS07 · 转人工怎样优化而不是追求最低比例？](topics/23-llm-service.md#cs07)
+- [CS08 · 怎样做答案置信与拒答？](topics/23-llm-service.md#cs08)
+- [CS09 · 客服中的提示注入为何可能来自知识库？](topics/23-llm-service.md#cs09)
+- [CS10 · SFT、偏好优化和规则系统各学什么？](topics/23-llm-service.md#cs10)
+- [CS11 · 如何建立在线客服 KPI 树？](topics/23-llm-service.md#cs11)
+- [CS12 · 客服质检标签如何避免循环自证？](topics/23-llm-service.md#cs12)
+- [CS13 · 情绪识别与安抚如何不越界？](topics/23-llm-service.md#cs13)
+- [CS14 · 如何降低长会话上下文成本？](topics/23-llm-service.md#cs14)
+- [CS15 · 线上灰度如何检验真实增量？](topics/23-llm-service.md#cs15)
+- [CS16 · 多租户、多语言客服系统如何隔离？](topics/23-llm-service.md#cs16)
+- [CS17 · 项目深挖如何展示可复现的改进？](topics/23-llm-service.md#cs17)
+- [CS18 · 开放设计：退款改签售后助手如何端到端落地？](topics/23-llm-service.md#cs18)
 
 ## 手写题与定量估算：16组原创练习
 

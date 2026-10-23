@@ -1,0 +1,180 @@
+[
+  {
+    "id": "AB-01",
+    "title": "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning",
+    "url": "https://arxiv.org/abs/1706.03461",
+    "source_type": "paper",
+    "published": "2017-06-12",
+    "topics": [
+      "20"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-02",
+    "title": "The Benefits of Controlled Experimentation at Scale",
+    "url": "https://www.microsoft.com/en-us/research/publication/the-benefits-of-controlled-experimentation-at-scale/",
+    "source_type": "official",
+    "published": "2017-08",
+    "topics": [
+      "20",
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-03",
+    "title": "On Calibration of Modern Neural Networks",
+    "url": "https://arxiv.org/abs/1706.04599",
+    "source_type": "paper",
+    "published": "2017-06-14",
+    "topics": [
+      "20",
+      "21",
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-04",
+    "title": "NIST AI Risk Management Framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "source_type": "official",
+    "published": null,
+    "topics": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-05",
+    "title": "Llama Guard 3 model card",
+    "url": "https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Guard3/8B/MODEL_CARD.md",
+    "source_type": "official",
+    "published": null,
+    "topics": [
+      "21",
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-06",
+    "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "url": "https://arxiv.org/abs/2212.04356",
+    "source_type": "paper",
+    "published": "2022-12-06",
+    "topics": [
+      "22"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-07",
+    "title": "Moshi: a speech-text foundation model for real-time dialogue",
+    "url": "https://arxiv.org/abs/2410.00037",
+    "source_type": "paper",
+    "published": "2024-09-17",
+    "topics": [
+      "22"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-08",
+    "title": "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
+    "url": "https://arxiv.org/abs/2410.06885",
+    "source_type": "paper",
+    "published": "2024-10-09",
+    "topics": [
+      "22"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-09",
+    "title": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+    "url": "https://arxiv.org/abs/2406.12045",
+    "source_type": "paper",
+    "published": "2024-06-17",
+    "topics": [
+      "22",
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-10",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "source_type": "paper",
+    "published": "2020-05-22",
+    "topics": [
+      "20",
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-11",
+    "title": "Wide & Deep Learning for Recommender Systems",
+    "url": "https://arxiv.org/abs/1606.07792",
+    "source_type": "paper",
+    "published": "2016-06-24",
+    "topics": [
+      "20"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要或官方页面；用于机制入口，业务作答与设计为原创。经典来源早于2023年，保留首次公开日期；动态官方页日期未知。"
+  },
+  {
+    "id": "AB-12",
+    "title": "Turning Whisper into Real-Time Transcription System",
+    "url": "https://arxiv.org/abs/2307.14743",
+    "source_type": "paper",
+    "published": "2023-07-27",
+    "topics": [
+      "22"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要：Whisper原版非实时设计，Whisper-Streaming使用local agreement；本文不照搬实验延迟。"
+  },
+  {
+    "id": "AB-13",
+    "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+    "url": "https://arxiv.org/abs/2403.02691",
+    "source_type": "paper",
+    "published": "2024-03-05",
+    "topics": [
+      "23"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已核查作者摘要：外部内容间接提示注入评测；系统隔离与权限方案为原创工程设计，不宣称由该基准保证防护。"
+  }
+]

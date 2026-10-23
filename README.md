@@ -5,19 +5,22 @@
 资料查阅截止：**2026-10-22**。面经重点覆盖**2023—2026年**，必要基础文献追溯到更早年份。
 
 <!-- STATS:START -->
-**30篇公开面经 · 15个专题 · 270道专题题解 + 26道项目/手写练习 · 198个去重来源链接**
+**59篇公开面经 · 23个专题 · 414道专题题解 + 26道项目/手写练习 · 281个去重来源链接**
 
-另附10个补充阅读入口；研究来源包含158个规范化链接。题目数不含追问；来源数按链接归一化，并非独立论文或企业真题数量。
+另附39个补充阅读入口；研究来源包含183个规范化链接。题目数不含追问；来源数按链接归一化，并非独立论文或企业真题数量。
 <!-- STATS:END -->
 
 ## 从这里开始
 
+- **按目标公司准备：** [按公司查面经（跨公司导航）](docs/interviews/by-company.md)
+- **按资料范围筛选：** [来源平台](docs/interviews/by-platform.md) · [岗位](docs/interviews/by-role.md) · [年份](docs/interviews/by-year.md) · [业务领域](docs/interviews/by-domain.md)
 - **先看实际问法：** [公开面经索引](docs/interviews/README.md) · [按研究方向找面经](docs/interviews/by-topic.md) · [按公司找面经](docs/interviews/by-company.md)
+- **本轮更新：** [增量、检索缺口与验证报告](docs/cloud-expansion-report.md)
 - **系统查漏补缺：** [全部题目与稳定ID](docs/question-index.md) · [来源目录](docs/source-catalog.md) · [覆盖范围与缺口](docs/coverage.md)
 - **开始练习：** [岗位路线与7/30天计划](docs/preparation/learning-paths.md) · [项目深挖与系统设计](docs/preparation/projects-and-system-design.md) · [手写题与定量估算](docs/preparation/coding-and-estimation.md)
 - **临面复习：** [30个易错结论](docs/preparation/quick-reference.md) · [收集与核验方法](docs/methodology.md)
 
-## 15个研究与工程方向
+## 研究、工程与应用专题
 
 专题题解均为**原创研究延伸题**，每题包含难度/岗位、作答要点、追问与误区。它们与具体企业之间没有未经证实的“真题”对应关系。
 
@@ -38,15 +41,23 @@
 | 13 | [评测与安全](docs/topics/13-evaluation-and-safety.md) | 污染、统计、LLM裁判、幻觉、对齐安全、隐私与鲁棒性 |
 | 14 | [代码模型与具身智能](docs/topics/14-code-and-embodied-models.md) | Coding Agent、软件基准、VLA、动作表示与世界模型 |
 | 15 | [领域模型与研究设计](docs/topics/15-domain-models-and-research.md) | 搜索推荐、医疗金融、AI4Science、消融与研究选题 |
+| 16 | [大模型与搜索](docs/topics/16-llm-search.md) | query理解、改写、生成式检索、排序与答案 |
+| 17 | [大模型与广告](docs/topics/17-llm-ads.md) | 定向、召回排序、创意、出价与增量 |
+| 18 | [大模型与推荐](docs/topics/18-llm-recommendation.md) | 生成式召回、用户序列、冷启与反馈 |
+| 19 | [大模型与增长](docs/topics/19-llm-growth.md) | 因果、uplift、LTV、实验与策略 |
+| 20 | [大模型与营销](docs/topics/20-llm-marketing.md) | 受众、内容、触达、归因与合规 |
+| 21 | [大模型与风控](docs/topics/21-llm-risk.md) | 欺诈、审核、代价阈值、漂移与人审 |
+| 22 | [大模型与语音](docs/topics/22-llm-speech.md) | ASR、TTS、实时交互与打断 |
+| 23 | [大模型与客服](docs/topics/23-llm-service.md) | 知识、多轮状态、工具执行、转人工与质检 |
 
 ## 面经怎么读
 
-以下三个入口都汇总多家公司的面经，可按年份、研究方向或公司查找：
+以下入口都汇总多家公司的面经，可按年份、研究方向或公司查找：
 
 | 入口 | 页面包含什么 | 适合怎么查 |
 |---|---|---|
-| [全部公开面经合集（30篇，2023—2026）](docs/interviews/README.md) | 按资料年份整理的完整索引，包含字节、阿里、腾讯、美团、滴滴等多家公司及多公司求职复盘 | 按年份浏览，再进入具体记录或原帖 |
-| [按研究方向查面经（15个方向，跨公司）](docs/interviews/by-topic.md) | 按预训练、微调、对齐、RAG、Agent、推理、多模态等方向汇总各公司的相关记录 | 围绕目标岗位或技术方向准备 |
+| [全部公开面经合集（跨公司，重点2023—2026）](docs/interviews/README.md) | 按资料年份整理的完整索引，包含字节、阿里、腾讯、美团、滴滴等多家公司及多公司求职复盘 | 按年份浏览，再进入具体记录或原帖 |
+| [按研究方向查面经（研究与应用，跨公司）](docs/interviews/by-topic.md) | 按预训练、微调、对齐、RAG、Agent、推理、多模态等方向汇总各公司的相关记录 | 围绕目标岗位或技术方向准备 |
 | [按公司查面经（多公司导航）](docs/interviews/by-company.md) | 汇总全部记录中的公司名称及对应面经，一篇涉及多家公司的复盘保留为同一条记录 | 先选目标公司，再查看相关年份、岗位与考点 |
 
 进入索引后，每条记录都提供原始链接、日期、作者自述的企业/岗位、方向、短摘要、阅读建议、核验状态与限制。点击记录标题可继续阅读面经原文。
@@ -68,6 +79,9 @@
 python3 tools/search.py GRPO
 python3 tools/search.py --interviews --year 2024
 python3 tools/search.py --interviews --topic 06
+python3 tools/search.py --interviews --company 字节跳动
+python3 tools/search.py --interviews --platform 知乎
+python3 tools/search.py --interviews --domain 搜索
 
 # 更新导航和检查内容结构
 python3 tools/build_indexes.py

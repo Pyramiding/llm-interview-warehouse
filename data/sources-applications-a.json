@@ -1,0 +1,246 @@
+[
+  {
+    "id": "APP-A-DSI",
+    "title": "Transformer Memory as a Differentiable Search Index",
+    "url": "https://arxiv.org/abs/2202.06991",
+    "source_type": "paper",
+    "published": "2022-02-14",
+    "topics": [
+      "16"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-RANK",
+    "title": "Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents",
+    "url": "https://arxiv.org/abs/2304.09542",
+    "source_type": "paper",
+    "published": "2023-04-19",
+    "topics": [
+      "16"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-FLARE",
+    "title": "Active Retrieval Augmented Generation",
+    "url": "https://arxiv.org/abs/2305.06983",
+    "source_type": "paper",
+    "published": "2023-05-11",
+    "topics": [
+      "16"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-TIGER",
+    "title": "Recommender Systems with Generative Retrieval",
+    "url": "https://arxiv.org/abs/2305.05065",
+    "source_type": "paper",
+    "published": "2023-05-08",
+    "topics": [
+      "18"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-DIN",
+    "title": "Deep Interest Network for Click-Through Rate Prediction",
+    "url": "https://arxiv.org/abs/1706.06978",
+    "source_type": "paper",
+    "published": "2017-06-21",
+    "topics": [
+      "17",
+      "18"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-ESMM",
+    "title": "Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate",
+    "url": "https://arxiv.org/abs/1804.07931",
+    "source_type": "paper",
+    "published": "2018-04-21",
+    "topics": [
+      "17",
+      "18"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-RTB",
+    "title": "Real-Time Bidding Benchmarking with iPinYou Dataset",
+    "url": "https://arxiv.org/abs/1407.7073",
+    "source_type": "paper",
+    "published": "2014-07-25",
+    "topics": [
+      "17"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-WIDE",
+    "title": "Wide & Deep Learning for Recommender Systems",
+    "url": "https://arxiv.org/abs/1606.07792",
+    "source_type": "paper",
+    "published": "2016-06-24",
+    "topics": [
+      "17",
+      "18"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-SAS",
+    "title": "Self-Attentive Sequential Recommendation",
+    "url": "https://arxiv.org/abs/1808.09781",
+    "source_type": "paper",
+    "published": "2018-08-20",
+    "topics": [
+      "18"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-PRIMER",
+    "title": "Recommender Systems: A Primer",
+    "url": "https://arxiv.org/abs/2302.02579",
+    "source_type": "paper",
+    "published": "2023-02-06",
+    "topics": [
+      "18"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-DR",
+    "title": "Doubly Robust Policy Evaluation and Learning",
+    "url": "https://arxiv.org/abs/1103.4601",
+    "source_type": "paper",
+    "published": "2011-03-23",
+    "topics": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-CATE",
+    "title": "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning",
+    "url": "https://arxiv.org/abs/1706.03461",
+    "source_type": "paper",
+    "published": "2017-06-12",
+    "topics": [
+      "17",
+      "19"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-EXP",
+    "title": "Beyond Power Analysis: Metric Sensitivity Analysis in A/B Tests",
+    "url": "https://www.microsoft.com/en-us/research/articles/beyond-power-analysis-metric-sensitivity-in-a-b-tests/",
+    "source_type": "official_documentation",
+    "published": "2021-04-06",
+    "topics": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得作者论文摘要/机构正文，核对标题、首发日期及相关机制；未把摘要访问描述为阅读全文。传统基础与原创应用设计明确区分。"
+  },
+  {
+    "id": "APP-A-SGD",
+    "title": "Towards Scalable Multi-Domain Conversational Agents: The Schema-Guided Dialogue Dataset",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6394",
+    "source_type": "paper",
+    "published": "2020-04-03",
+    "topics": [
+      "16"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得论文/出版机构公开摘要，核对标题、日期及相关机制；未声称阅读全文。"
+  },
+  {
+    "id": "APP-A-IH",
+    "title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+    "url": "https://arxiv.org/abs/2404.13208",
+    "source_type": "paper",
+    "published": "2024-04-19",
+    "topics": [
+      "16"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得论文/出版机构公开摘要，核对标题、日期及相关机制；未声称阅读全文。"
+  },
+  {
+    "id": "APP-A-NEG",
+    "title": "Nonuniform Negative Sampling and Log Odds Correction with Rare Events Data",
+    "url": "https://arxiv.org/abs/2110.13048",
+    "source_type": "paper",
+    "published": "2021-10-25",
+    "topics": [
+      "17"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得论文/出版机构公开摘要，核对标题、日期及相关机制；未声称阅读全文。"
+  },
+  {
+    "id": "APP-A-DELAY",
+    "title": "A Feedback Shift Correction in Predicting Conversion Rates under Delayed Feedback",
+    "url": "https://arxiv.org/abs/2002.02068",
+    "source_type": "paper",
+    "published": "2020-02-06",
+    "topics": [
+      "17"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "已取得论文/出版机构公开摘要，核对标题、日期及相关机制；未声称阅读全文。"
+  },
+  {
+    "id": "APP-A-CLV",
+    "title": "Counting Your Customers the Easy Way: An Alternative to the Pareto/NBD Model",
+    "url": "https://www.brucehardie.com/papers/018/",
+    "source_type": "paper",
+    "published": null,
+    "topics": [
+      "19"
+    ],
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "核对作者/出版机构公开摘要与相关机制；CLV刊于2005年春季，未推测具体发布日期。业务方案和公式示意为编者延伸。"
+  }
+]

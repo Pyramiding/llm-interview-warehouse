@@ -740,5 +740,738 @@
     "accessed": "2026-10-22",
     "verification": "opened",
     "note": "正文多处明确2026年面试；当前页面09-24已编辑，发布日期未单列年份。"
+  },
+  {
+    "id": "INT031",
+    "title": "国内大模型公司，粗略面经+感受+一些包裹",
+    "url": "https://zhuanlan.zhihu.com/p/657826357",
+    "year": 2023,
+    "published": "2023-09-22",
+    "event_date": null,
+    "companies": [
+      "智元机器人",
+      "面壁智能",
+      "智源研究院",
+      "MiniMax",
+      "昆仑万维",
+      "云从科技",
+      "阿里夸克",
+      "衔远科技",
+      "潞晨科技",
+      "蚂蚁集团",
+      "商汤科技",
+      "百川智能",
+      "百度",
+      "IDEA研究院",
+      "好未来",
+      "零一万物",
+      "月之暗面",
+      "阿里达摩院",
+      "边塞科技"
+    ],
+    "role": "基座预训练算法/框架社招",
+    "topics": [
+      "01",
+      "02",
+      "04",
+      "08",
+      "09",
+      "13",
+      "15"
+    ],
+    "summary": "作者回顾多家企业的模型、训练、通信、评测和编码考查；同篇含仅投递后被拒的企业。",
+    "reading_tip": "按明确技术轮次阅读；不能把标题中的24家都当作完成面试。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "Rooters原作。公开英文页面 https://www.zhihu.com/en/article/657826357 可读，智源 https://hub.baai.ac.cn/view/31151 为Datawhale于2023-09-28转载，称源自微信公众号；只计一条。published为原作编辑日；面试约2023年3月起，精确日不详。原帖中的光年之外、360、腾讯、小红书为简历拒绝，未列入面试公司映射。企业/结果均为自述。 另核验CSDN转载 https://blog.csdn.net/2401_84204413/article/details/144358836 ，正文与本篇同源，2024-12-10为转载日；不重复计来源记录。",
+    "platform": "知乎",
+    "author": "Rooters"
+  },
+  {
+    "id": "INT032",
+    "title": "分享俩挂得很彻底的挂经，xAI & 英伟达",
+    "url": "https://zhuanlan.zhihu.com/p/658685266",
+    "year": 2023,
+    "published": "2023-09-27",
+    "event_date": null,
+    "companies": [
+      "xAI",
+      "NVIDIA"
+    ],
+    "role": "模型算法/Research Scientist",
+    "topics": [
+      "04",
+      "08",
+      "09",
+      "10",
+      "13"
+    ],
+    "summary": "xAI讨论低精度权重与高精度激活的矩阵乘法及评测；NVIDIA讨论策略梯度、actor-critic、策略比率与RLHF。",
+    "reading_tip": "按岗位区分CUDA实现与RL理论，不把作者未答出的题当作标准答案。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "原作者Rooters；知乎公开英文页 https://www.zhihu.com/en/article/658685266 与腾讯云 https://cloud.tencent.com/developer/article/2354049 正文可读。原作显示2023-09-27编辑；腾讯云同步于2023-11-02并标微信原始发表2023-10-30，均不是面试日。同源不另计。 与INT034同作者NVIDIA框架岗经历为不同岗位/不同文章，不能合并其RL与框架问题。",
+    "platform": "知乎",
+    "author": "Rooters"
+  },
+  {
+    "id": "INT033",
+    "title": "OpenAI，面试总结（非面经），挂了。",
+    "url": "https://zhuanlan.zhihu.com/p/658886757",
+    "year": 2023,
+    "published": "2023-09-28",
+    "event_date": null,
+    "companies": [
+      "OpenAI"
+    ],
+    "role": "未明确（面试体验复盘）",
+    "topics": [],
+    "summary": "作者自述经内推获得面试，并在onsite后未通过；可见片段主要是求职体验，不提供可核验的具体技术题。",
+    "reading_tip": "按作者标题理解为经验总结，勿编造OpenAI题库。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "Rooters自述；直接打开403，搜索片段可核验内推与onsite经历；技术岗位名称、面试日期未知。",
+    "platform": "知乎",
+    "author": "Rooters"
+  },
+  {
+    "id": "INT034",
+    "title": "英伟达, 深度学习框架岗工程师面经",
+    "url": "https://zhuanlan.zhihu.com/p/658609960",
+    "year": 2023,
+    "published": "2023-09-27",
+    "event_date": null,
+    "companies": [
+      "NVIDIA"
+    ],
+    "role": "深度学习框架工程师",
+    "topics": [
+      "09"
+    ],
+    "summary": "作者先与HM沟通，再考查编码及Column/Row Parallel Linear的实现和取舍。",
+    "reading_tip": "用张量切分、通信位置和伪代码解释并行线性层。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "Rooters原帖搜索可见HM匹配框架岗位；同作者另一公开文章的相关推荐可见screen内容。直接正文不可得；发布日期为搜索显示/相关页编辑日，不等于面试日。 与INT032中NVIDIA Research Scientist的RL面不同，本篇为框架工程师，按独立公开文章记录。",
+    "platform": "知乎",
+    "author": "Rooters"
+  },
+  {
+    "id": "INT036",
+    "title": "2025届NLP算法岗实习面经",
+    "url": "https://zhuanlan.zhihu.com/p/708809155",
+    "year": 2024,
+    "published": "2024-07-25",
+    "event_date": null,
+    "companies": [
+      "腾讯",
+      "华为",
+      "作业帮",
+      "去哪儿",
+      "美团"
+    ],
+    "role": "NLP/搜索/大模型实习",
+    "topics": [
+      "01",
+      "03",
+      "15",
+      "16"
+    ],
+    "summary": "多公司暑期经历可见搜索/NLP岗位、模型实习项目深挖、BERT/GPT训练任务和代码题。",
+    "reading_tip": "同一作者多轮记录计一篇；简历被拒企业不要当成已面试。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "原帖作者“一个优秀的coder”；页面搜索显示2024-07-25编辑，标题2025为毕业届次。该页不同片段含8月/9月轮次，编辑日期与内容可能更新不同步，故不推定每轮年份/精确面试日。数组仅保留片段明确有轮次或offer的公司；其余简历拒绝未映射。",
+    "platform": "知乎",
+    "author": "一个优秀的coder"
+  },
+  {
+    "id": "INT037",
+    "title": "美团2025届秋招搜索推荐算法工程师",
+    "url": "https://zhuanlan.zhihu.com/p/6808399916",
+    "year": 2024,
+    "published": "2024-12-11",
+    "event_date": null,
+    "companies": [
+      "美团"
+    ],
+    "role": "搜索推荐算法校招",
+    "topics": [
+      "09",
+      "15",
+      "16",
+      "18"
+    ],
+    "summary": "作者从图表示学习背景转向搜推，讨论大模型实习成果、训练框架/NPU使用及选取第K大元素的复杂度。",
+    "reading_tip": "从实习贡献、系统约束和可复现指标准备项目深挖。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "Cyril-KI自述；搜索可见2024-12-11编辑。2025是招聘届次；面试日未知，直接打开403。",
+    "platform": "知乎",
+    "author": "Cyril-KI"
+  },
+  {
+    "id": "INT038",
+    "title": "滴滴2025届秋招提前批大模型算法工程师",
+    "url": "https://zhuanlan.zhihu.com/p/6726777955",
+    "year": 2024,
+    "published": "2024-12-11",
+    "event_date": null,
+    "companies": [
+      "滴滴"
+    ],
+    "role": "大模型算法校招",
+    "topics": [
+      "03",
+      "04",
+      "15"
+    ],
+    "summary": "作者记录约40分钟技术一面、快手/腾讯实习深挖及后续求职流程。",
+    "reading_tip": "先按原帖轮次分离实习背景与应聘企业，别把实习单位误算本篇面试公司。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "Cyril-KI自述；2024-12-11为编辑日，片段提9.13 OC不等于面试日；2025是届次。直接正文403。",
+    "platform": "知乎",
+    "author": "Cyril-KI"
+  },
+  {
+    "id": "INT039",
+    "title": "百度2025届秋招提前批文心一言大模型算法工程师",
+    "url": "https://zhuanlan.zhihu.com/p/6728042720",
+    "year": 2024,
+    "published": "2024-12-11",
+    "event_date": null,
+    "companies": [
+      "百度"
+    ],
+    "role": "文心一言大模型算法校招",
+    "topics": [
+      "02",
+      "03",
+      "05"
+    ],
+    "summary": "技术一面追问从推荐转NLP的原因，以及实习背景、动机、数据处理、实验方案和LongLoRA。",
+    "reading_tip": "准备解释研究迁移、数据来源、对照实验及长上下文适配。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "Cyril-KI自述；搜索可见2024-12-11编辑；2025是招聘届次，面试日未知。直接打开403。",
+    "platform": "知乎",
+    "author": "Cyril-KI"
+  },
+  {
+    "id": "INT040",
+    "title": "硕五算法面经-增长方向",
+    "url": "https://zhuanlan.zhihu.com/p/1895267898429252416",
+    "year": 2025,
+    "published": "2025-04-15",
+    "event_date": null,
+    "companies": [
+      "淘天集团"
+    ],
+    "role": "增长算法/作者标注P7",
+    "topics": [
+      "01",
+      "03",
+      "15",
+      "19"
+    ],
+    "summary": "可见一面包含项目深挖、多场景学习、因果meta-learner、CFRNet和大模型分类微调。",
+    "reading_tip": "把uplift识别假设、策略评估和LLM表征的职责分开说明。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "CKLSniper记录；P7为作者标签而非官方职级认定。直接全文未取得，仅公开搜索片段；精确面试日未知。",
+    "platform": "知乎",
+    "author": "CKLSniper"
+  },
+  {
+    "id": "INT041",
+    "title": "2025届搜广推算法方向求职历程（SSP、头部计划）",
+    "url": "https://zhuanlan.zhihu.com/p/23907591319",
+    "year": 2024,
+    "published": "2025-02-15",
+    "event_date": null,
+    "companies": [
+      "小红书",
+      "快手",
+      "百度"
+    ],
+    "role": "搜广推算法校招/实习",
+    "topics": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "summary": "作者回顾2024年实习及秋招；可见推荐算法轮次、广告流程，并总结生成式推荐、CTR/CVR校准等准备内容。",
+    "reading_tip": "区分面试实录和文末复习清单，不把学习清单逐题归企业。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "正文搜索明确2024年3月日常实习，2025为毕业届次/发布年。只映射片段明确公司，小红书为企业而非来源平台；精确面试日不详。",
+    "platform": "知乎",
+    "author": null
+  },
+  {
+    "id": "INT042",
+    "title": "本科生24暑期实习NLP（Infra & LLM）算法工程师面经",
+    "url": "https://zhuanlan.zhihu.com/p/691407440",
+    "year": 2024,
+    "published": "2024-04-09",
+    "event_date": null,
+    "companies": [
+      "米哈游",
+      "百度"
+    ],
+    "role": "NLP/AI Infra训练实习",
+    "topics": [
+      "02",
+      "04",
+      "09",
+      "13"
+    ],
+    "summary": "本科作者回顾二十多场求职面试，背景侧重AI Infra训练；可见米哈游NLP与百度文心Eval组的具体轮次。",
+    "reading_tip": "按算法、框架与评测岗位分别准备；原作者的岗位体验评价不是团队职责的官方说明。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "JerryYin777自述；已公开片段支持二十余场经历、研究背景及两家公司轮次，其余未明确的公司不补猜。百度Eval组工作描述是作者感受，不作事实承诺。",
+    "platform": "知乎",
+    "author": "JerryYin777"
+  },
+  {
+    "id": "INT043",
+    "title": "大模型应用算法社招经历分享",
+    "url": "https://zhuanlan.zhihu.com/p/1916537835437143109",
+    "year": 2025,
+    "published": "2025-07-04",
+    "event_date": null,
+    "companies": [],
+    "role": "大模型应用算法社招",
+    "topics": [
+      "03",
+      "06",
+      "07",
+      "13"
+    ],
+    "summary": "作者自述从国企工作背景寻找互联网大厂机会，总结项目细节、SFT、模型基础和编码考查。",
+    "reading_tip": "把经历性叙述与作者的技术理解分开，用一手资料复核方法。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "作者“走丢的小公举”；搜索显示2025-07-04编辑，直接403。公司未在已取得片段明确，不推测。",
+    "platform": "知乎",
+    "author": "走丢的小公举"
+  },
+  {
+    "id": "INT044",
+    "title": "大模型面经-腾讯混元",
+    "url": "https://zhuanlan.zhihu.com/p/30044960843",
+    "year": 2025,
+    "published": "2025-03-13",
+    "event_date": null,
+    "companies": [
+      "腾讯"
+    ],
+    "role": "大模型算法",
+    "topics": [
+      "01",
+      "03",
+      "13"
+    ],
+    "summary": "可见记录从实习、论文细节展开，一面同时包含模型基础及两道代码题。",
+    "reading_tip": "准备论文的具体假设、实现细节、消融与编码。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "作者小森学AI；2025-03-13为页面编辑时间。仅搜索片段，不独立核验其亲历身份或企业流程；面试日未知。",
+    "platform": "知乎",
+    "author": "小森学AI"
+  },
+  {
+    "id": "INT045",
+    "title": "大模型面经-美团",
+    "url": "https://zhuanlan.zhihu.com/p/1887887871496668839",
+    "year": 2025,
+    "published": "2025-03-25",
+    "event_date": null,
+    "companies": [
+      "美团"
+    ],
+    "role": "大模型算法",
+    "topics": [
+      "01",
+      "05"
+    ],
+    "summary": "可见记录的一面涉及LLaMA、Qwen、DeepSeek与代码题，二面讨论论文。",
+    "reading_tip": "区分模型家族与版本，先说明训练目标、注意力和实现取舍。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "作者小森学AI；仅搜索片段，未向作者或企业确认亲历身份；日期是页面发布而非面试日。",
+    "platform": "知乎",
+    "author": "小森学AI"
+  },
+  {
+    "id": "INT046",
+    "title": "字节大模型面试经历分享",
+    "url": "https://maimai.cn/article/detail?efid=9vrc-hrQm2g7A_EJI404pQ&fid=1886188250",
+    "year": 2025,
+    "published": "2025-09-01",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "大模型运营专家",
+    "topics": [
+      "13",
+      "15",
+      "21"
+    ],
+    "summary": "作者回顾四轮求职，列出AI内容审核、项目卡点、协调、个人贡献及业务成果迭代的追问。",
+    "reading_tip": "用需求、关键动作、量化结果和迭代解释项目；不要用作者的流程感受代表企业标准。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "脉脉公开正文可读，作者陈乐（页面职业为AI产品经理），岗位名取正文“运营专家”；面试日未列。正文自述未通过，未向企业核实。",
+    "platform": "脉脉",
+    "author": "陈乐"
+  },
+  {
+    "id": "INT047",
+    "title": "字节【大模型评测平台】产品岗-面试总结与复盘",
+    "url": "https://www.woshipm.com/zhichang/6008160.html",
+    "year": 2024,
+    "published": "2024-03-11",
+    "event_date": "2024-03-05",
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "大模型评测平台产品经理",
+    "topics": [
+      "13",
+      "15"
+    ],
+    "summary": "作者复盘一次评测平台产品岗面试，区分准备、现场沟通和事后分析。",
+    "reading_tip": "以产品职责定义评测用户、数据与决策闭环，不将候选人建议包装成标准答案。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "产品蝶道自述；页面正文明确3.5晚7点，年份结合正文“24年年后”；岗位调转与面试时长均属作者经历。",
+    "platform": "人人都是产品经理",
+    "author": "产品蝶道"
+  },
+  {
+    "id": "INT048",
+    "title": "国内20家公司大模型岗位面试经验汇总",
+    "url": "https://zhuanlan.zhihu.com/p/690801254",
+    "year": null,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "淘天集团",
+      "腾讯",
+      "蚂蚁集团",
+      "字节跳动"
+    ],
+    "role": "大模型/多模态算法",
+    "topics": [
+      "03",
+      "04",
+      "12",
+      "15",
+      "21"
+    ],
+    "summary": "多公司复盘可见淘天未来生活实验室、腾讯混元与蚂蚁风控大模型的轮次，涉及项目与研究深挖。",
+    "reading_tip": "研究背景与企业业务信息分开核实；原帖不等于官方题库。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "作者林夕，转载 https://modelers.csdn.net/699e8c0d7bbde9200b995541.html 明确原帖链接；原帖直接403，搜索支持上述轮次。面试年份及原发日无法从已取得片段确认，year=null；转载2025日期不作面试年。 掘金 https://juejin.cn/post/7496346585509494799 的字节AML首条描述与原作一致，2025-04-22为转载日，归并同源。",
+    "platform": "知乎",
+    "author": "林夕"
+  },
+  {
+    "id": "IB001",
+    "title": "八年前端分享最近两周面试情况",
+    "url": "https://www.v2ex.com/t/1110790",
+    "year": 2025,
+    "published": "2025-02-11",
+    "event_date": null,
+    "companies": [
+      "月之暗面"
+    ],
+    "role": "大模型应用后端/AI全栈",
+    "topics": [
+      "07",
+      "08"
+    ],
+    "summary": "作者qingyingwan总结多家面试，明确提及月之暗面大模型应用后端；可见内容以岗位切换、工程基础与流程结果为主，技术题较少。",
+    "reading_tip": "将原帖可见考点与对应专题的原创延伸题对照；不推断隐藏部分或通过率。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "亲历自述；海外公司匿名不补猜名称。年份据发帖与“最近两周”，具体面试日未知。"
+  },
+  {
+    "id": "IB002",
+    "title": "盛大集团面经：Agent/全栈三轮复盘",
+    "url": "https://www.v2ex.com/t/1218676",
+    "year": 2026,
+    "published": "2026-06-08",
+    "event_date": null,
+    "companies": [
+      "盛大集团"
+    ],
+    "role": "Agent/全栈",
+    "topics": [
+      "07",
+      "14"
+    ],
+    "summary": "作者t20000622yy复盘业务驱动的技术选型、协议理解、独立编码和项目实现深挖，讨论AI辅助开发后如何证明真实理解。",
+    "reading_tip": "将原帖可见考点与对应专题的原创延伸题对照；不推断隐藏部分或通过率。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "亲历自述，子公司未明确不猜名。同作者掘金 https://juejin.cn/post/7648519141299339279 为同源版本，不另计；标题毕业9个月与正文5个月不一致，保留歧义。"
+  },
+  {
+    "id": "IB003",
+    "title": "tt 2-2 LLM 面经1",
+    "url": "https://www.1point3acres.com/bbs/thread-1074897-1-1.html",
+    "year": 2024,
+    "published": "2024-07-06",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "LLM应用工程",
+    "topics": [
+      "01",
+      "07"
+    ],
+    "summary": "LynnJen公开段落自述字节LLM应用组面试，可见手写多头注意力题头；其他ML题目处于积分限制内，不据此补写。",
+    "reading_tip": "将原帖可见考点与对应专题的原创延伸题对照；不推断隐藏部分或通过率。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "作者填报面试季为2024年4—6月；opened仅指公开首段，积分188限制后的正文未取得，未绕过。"
+  },
+  {
+    "id": "IB004",
+    "title": "Microsoft Research Intern PhD面试经过，纯数转LLM经验分享",
+    "url": "https://www.1point3acres.com/bbs/thread-1068145-1-1.html",
+    "year": 2024,
+    "published": "2024-05-23",
+    "event_date": "2024-05-15",
+    "companies": [
+      "微软"
+    ],
+    "role": "Research Intern AI（作者注明非MSR）",
+    "topics": [
+      "11",
+      "15"
+    ],
+    "summary": "Push-forward公开复盘由纯数转向LLM推理与定理证明，首轮研究背景匹配，后续研究交流和ML基础准备；适合研究实习岗位定位。",
+    "reading_tip": "将原帖可见考点与对应专题的原创延伸题对照；不推断隐藏部分或通过率。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "正文明确岗位并非MSR，不能被标题Research误导。公开段落有5月15日首轮及5月17日二轮；积分限制内技术细节未读取。"
+  },
+  {
+    "id": "IB005",
+    "title": "小众过经：LLM初创Mozilla.ai Research Scientist",
+    "url": "https://www.1point3acres.com/bbs/thread-1017014-1-1.html",
+    "year": 2023,
+    "published": "2023-09-21",
+    "event_date": null,
+    "companies": [
+      "Mozilla.ai"
+    ],
+    "role": "Research Scientist",
+    "topics": [
+      "01",
+      "15"
+    ],
+    "summary": "Roberty公开自述研究科学家三轮流程；首轮在Colab实现K-means并检查输出，说明LLM岗位仍可能考传统ML实现。",
+    "reading_tip": "将原帖可见考点与对应专题的原创延伸题对照；不推断隐藏部分或通过率。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "作者填报2023年7—9月。仅公开首段与尾段可读，积分限制内追问未取得；不把当年业务讨论当现况。"
+  },
+  {
+    "id": "IB006",
+    "title": "Software Engineer第一次去ML Coding Interview的小小震撼",
+    "url": "https://www.1point3acres.com/bbs/thread-1137862-1-1.html",
+    "year": 2025,
+    "published": "2025-07-21",
+    "event_date": null,
+    "companies": [],
+    "role": "ML Coding/软件工程转ML",
+    "topics": [
+      "01",
+      "09"
+    ],
+    "summary": "作者短发及颈的拖把复盘首次ML Coding，强调NumPy实现、张量形状和可运行结果，并给出LLM模块实现与课程作业准备建议。",
+    "reading_tip": "将原帖可见考点与对应专题的原创延伸题对照；不推断隐藏部分或通过率。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "企业未公开，companies为空，不从评论猜企业。自述上周面试，具体日未知；公开正文可读，附件需登录。"
+  },
+  {
+    "id": "IB007",
+    "title": "条纹MLE七轮面试完整过经",
+    "url": "https://www.1point3acres.com/bbs/thread-1115570-1-1.html",
+    "year": 2024,
+    "published": "2025-03-04",
+    "event_date": null,
+    "companies": [
+      "Stripe"
+    ],
+    "role": "Machine Learning Engineer",
+    "topics": [
+      "01",
+      "15"
+    ],
+    "summary": "匿名用户-PNFFW公开复盘OA、ML integration、编码、系统设计与调试；可见二分类数据清洗、唯一键检查、稀疏特征处理的实操考查。",
+    "reading_tip": "将原帖可见考点与对应专题的原创延伸题对照；不推断隐藏部分或通过率。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "面试年据作者填报2024年10—12月，不以2025年发帖替代。标题“过经”与正文未获offer不同，不替作者统一结果；部分正文积分限制。"
+  },
+  {
+    "id": "IB008",
+    "title": "Meta onsite E5 MLE 多半挂经",
+    "url": "https://www.1point3acres.com/bbs/thread-1155462-1-1.html",
+    "year": 2025,
+    "published": "2025-11-22",
+    "event_date": null,
+    "companies": [
+      "Meta"
+    ],
+    "role": "E5 Machine Learning Engineer",
+    "topics": [
+      "07",
+      "23"
+    ],
+    "summary": "匿名用户-BVDQE自述现场面；公开搜索片段提及面向网购客服的LLM系统设计，适合练习状态、质量与服务指标的约束澄清。",
+    "reading_tip": "将原帖可见考点与对应专题的原创延伸题对照；不推断隐藏部分或通过率。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "search_excerpt",
+    "note": "页面首段可读，客服设计细节仅搜索片段可见，故保守标search_excerpt；多数正文积分限制。发表日不能直接等同面试日。"
+  },
+  {
+    "id": "IB011",
+    "title": "一个搜广推MLE在AI转型期的面试观察",
+    "url": "https://www.1point3acres.com/bbs/thread-1184044-1-1.html",
+    "year": 2026,
+    "published": "2026-07-25",
+    "event_date": null,
+    "companies": [],
+    "role": "Staff MLE/Research Engineer",
+    "topics": [
+      "08",
+      "16",
+      "17",
+      "18"
+    ],
+    "summary": "匿名用户-KDIYB按求职阶段复盘传统搜广推向AI的迁移，公开讨论实操编码、服务事故处理与岗位匹配；适合准备传统推荐基础和LLM项目的衔接。",
+    "reading_tip": "把作者观察作为案例，练习岗位匹配和工程深挖；不将个体经验推断成全行业招聘规律。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "论坛分区虽为“求职（非面经）”，正文明确本人多场面试观察，按内容收录亲历复盘。列出的公司有投递/邀约/联系混合，未逐一确认已面试，companies不猜填；作者填报2026年4—6月。"
+  },
+  {
+    "id": "IB012",
+    "title": "赛博土木LLM Inference Role面试总结",
+    "url": "https://www.1point3acres.com/bbs/thread-1188659-1-1.html",
+    "year": null,
+    "published": "2026-09-07",
+    "event_date": null,
+    "companies": [],
+    "role": "LLM Inference/Serving/ML Systems",
+    "topics": [
+      "08",
+      "09"
+    ],
+    "summary": "匿名用户-2JUU3自述面过不同阶段创业公司与大厂，按岗位拆分服务框架、引擎、kernel、分布式推理及KV/prefill/decode能力要求。",
+    "reading_tip": "把作者观察作为案例，练习岗位匹配和工程深挖；不将个体经验推断成全行业招聘规律。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "公开正文自述面试观察，企业未明确不映射企业。发布2026-09-07，“最近一段时间”不足以精确确认各场年份，year与event_date均null；附件需登录，未读取。"
+  },
+  {
+    "id": "IB013",
+    "title": "最近在面试AI Agent开发工程师",
+    "url": "https://blog.csdn.net/weixin_43958728/article/details/152039160",
+    "year": 2025,
+    "published": null,
+    "event_date": null,
+    "companies": [
+      "字节跳动",
+      "阿里巴巴",
+      "小红书"
+    ],
+    "role": "AI Agent开发工程师",
+    "topics": [
+      "01",
+      "07",
+      "08",
+      "12"
+    ],
+    "summary": "作者三选自述由Java后端转向浏览器Agent，八月起面试约一个月；公开内容涉及Transformer、多模态、采样参数与MCP和函数调用的区别。",
+    "reading_tip": "把作者观察作为案例，练习岗位匹配和工程深挖；不将个体经验推断成全行业招聘规律。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "作者自述获得三家公司offer但未逐题归属。页面展示2025-09-24为修改时间，原发布日未知故published=null；正文自述当年8月起面试约一月。正文到Q5处付费截断，仅摘要公开部分，不绕付费。"
+  },
+  {
+    "id": "RES009",
+    "title": "27届秋招大模型岗面经",
+    "url": "https://onlyar.site/2026/08/11/NLP-Interview-Knowkedge/",
+    "year": 2026,
+    "published": null,
+    "event_date": "2026-08-07",
+    "companies": [
+      "字节跳动",
+      "拼多多",
+      "百度",
+      "淘天集团",
+      "BOSS直聘",
+      "阿里云"
+    ],
+    "role": "大模型算法/Code Agent/Agent开发校招",
+    "topics": [
+      "03",
+      "04",
+      "06",
+      "07",
+      "13",
+      "16"
+    ],
+    "summary": "作者按2026年8月至9月时间线复盘多公司轮次；可见AI搜索检索论文、Code Agent记忆、PEFT实验公平性和业务问答Agent编码。",
+    "reading_tip": "27届是毕业届次；面试年份由正文逐轮2026日期确认。按公司与轮次回原帖，不将每题分配给全部公司。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-10-22",
+    "verification": "opened",
+    "note": "原RES009待核阅读入口本轮获得公开正文，保留原ID重分类，不算净新增来源。event_date仅取最早明确技术面2026-08-07；后续多轮至9月，不表示所有轮次同日；网页路径日期不当作发布日期。",
+    "platform": "个人博客",
+    "author": "Only(AR)"
   }
 ]

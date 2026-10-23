@@ -7,6 +7,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+from build_indexes import TOPICS, canonical_url
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
@@ -72,8 +73,41 @@ for file in ROOT.rglob('*.md'):
 stats = json.loads((ROOT/'data/stats.json').read_text())
 if stats['total_questions'] != len(questions):
     errors.append('question statistics mismatch')
-if len(list((ROOT/'docs/topics').glob('*.md'))) != 15:
-    errors.append('expected all 15 topic chapters')
+if {p.name for p in (ROOT/'docs/topics').glob('*.md')} != {t[2] for t in TOPICS}:
+    errors.append('topic files differ from TOPICS registry')
+interviews = json.loads((ROOT/'data/interviews.json').read_text())
+resources = json.loads((ROOT/'data/resources.json').read_text())
+research = [x for p in (ROOT/'data').glob('sources-*.json') for x in json.loads(p.read_text())]
+sources = json.loads((ROOT/'data/sources.json').read_text())
+checks = {'interview_records': len(interviews), 'reading_resources': len(resources), 'topics': len(TOPICS),
+          'topic_questions': sum(q['kind']=='topic' for q in questions),
+          'practice_questions': sum(q['kind']=='practice' for q in questions),
+          'normalized_source_urls': len({canonical_url(x['url']) for x in interviews+resources+research}),
+          'research_source_urls': len({canonical_url(x['url']) for x in research})}
+for key,value in checks.items():
+    if stats[key] != value: errors.append(f'{key}: stale statistics')
+if len(sources) != checks['normalized_source_urls']: errors.append('source catalog mismatch')
+for row in interviews:
+    for field in ('year','event_date','companies','role','summary','reading_tip'):
+        if field not in row: errors.append(f'{row["id"]}: missing interview field {field}')
+    if row.get('year') is not None and row['year'] not in range(2023,2027):
+        errors.append(f'{row["id"]}: year outside curation range')
+    if not set(row.get('topics',[])) <= {t[0] for t in TOPICS}: errors.append(f'{row["id"]}: unknown topic')
+for name in ('interviews','resources'):
+    rows = interviews if name=='interviews' else resources
+    keys = [canonical_url(x['url']) for x in rows]
+    if len(keys) != len(set(keys)): errors.append(f'{name}: duplicated canonical URLs')
+for code,title,filename,desc in TOPICS:
+    if int(code)>=16:
+        chapter_questions = [q for q in questions if q['path']==f'docs/topics/{filename}']
+        if not 18 <= len(chapter_questions) <= 25: errors.append(f'{filename}: expected 18–25 questions')
+        chapter = (ROOT/'docs/topics'/filename).read_text()
+        catalog_urls = {canonical_url(x['url']) for x in sources}
+        for url in re.findall(r'\]\((https?://[^ )]+)\)', chapter):
+            if canonical_url(url) not in catalog_urls: errors.append(f'{filename}: uncataloged source {url}')
+        for question in chapter_questions:
+            block = re.split(rf'^### {question["id"]}[.．、]', chapter, flags=re.M)[-1].split('\n### ')[0]
+            if 'https://' not in block: errors.append(f'{question["id"]}: no source link')
 if errors:
     print('\n'.join(errors))
     sys.exit(1)
