@@ -4,7 +4,7 @@
 
 本页覆盖多家公司。企业、岗位及经历属于原作者自述；业务标签只依据可见标题、岗位或摘要中的明确词语，不据公司业务推断，每题也不自动归属公司。年份未知单列，资料年份不等于面试发生年份。
 
-## 业务领域未明确（75条记录）
+## 业务领域未明确（92条记录）
 
 - [INT001 · 理想+ 大模型面经](README.md#int001) — 2023；opened
 - [INT002 · 2023秋招nlp算法面经](README.md#int002) — 2023；search_excerpt
@@ -81,6 +81,23 @@
 - [INT230 · Groww SDE intern Interview Experience (AI/LLM) role | 6 month](README.md#int230) — 2025；opened
 - [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231) — 年份未确认；opened
 - [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232) — 2025；opened
+- [INT301 · 水滴秋招AI全栈（北京）凉经](README.md#int301) — 2026；opened
+- [INT302 · 10.24 CVTE 视源股份应用开发工程师 一面](README.md#int302) — 2026；opened
+- [INT303 · CVTE 秋招 应用开发工程师 一面](README.md#int303) — 2026；opened
+- [INT305 · 网易云音乐 全栈开发 一面](README.md#int305) — 2026；opened
+- [INT306 · 10.26 科大讯飞 推理工程部 AI Infra 一面](README.md#int306) — 2026；opened
+- [INT307 · 长鑫存储AI Agent开发工程师一面，面完了！！！](README.md#int307) — 2026；opened
+- [INT308 · 网易云音乐全栈二面](README.md#int308) — 2026；opened
+- [INT311 · 字节ai应用开发-全栈 一面](README.md#int311) — 2026；opened
+- [INT312 · pdd 提前批 AI Infra一面 凉经（一个月前）](README.md#int312) — 2026；opened
+- [INT313 · 字节大模型实习算法岗面经](README.md#int313) — 2026；opened
+- [INT314 · 蚂蚁智能体一面](README.md#int314) — 2026；opened
+- [INT315 · 字节日常实习Seed 飞书 AI 部门面经（回忆版）](README.md#int315) — 2026；opened
+- [INT316 · 10.23 pdd服务器开发一面](README.md#int316) — 2026；opened
+- [INT317 · 百度后端（agent）](README.md#int317) — 2026；opened
+- [INT319 · 10.30 得物 MLOPS和Agent实习](README.md#int319) — 2026；opened
+- [INT320 · 字节后端开发日常实习生一面（已寄）](README.md#int320) — 2026；opened
+- [INT321 · 腾讯WXG-日常一面面经](README.md#int321) — 2026；opened
 
 ## 客服（4条记录）
 
@@ -89,7 +106,7 @@
 - [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216) — 年份未确认；opened
 - [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217) — 2025；opened
 
-## 广告（7条记录）
+## 广告（11条记录）
 
 - [INT041 · 2025届搜广推算法方向求职历程（SSP、头部计划）](README.md#int041) — 2024；search_excerpt
 - [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101) — 2025；opened
@@ -98,8 +115,12 @@
 - [INT205 · 字节搜索广告 后端开发一面](README.md#int205) — 年份未确认；opened
 - [INT206 · 字节国际化广告算法开发实习一面](README.md#int206) — 2025；opened
 - [INT207 · 字节懂车帝大模型日常实习面经（已oc版](README.md#int207) — 2025；opened
+- [INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304) — 2026；opened
+- [INT309 · 10月面试退展](README.md#int309) — 2026；opened
+- [INT310 · 字节搜广推算法秋招一面](README.md#int310) — 2026；opened
+- [INT318 · 字节跳动广告算法面经](README.md#int318) — 2026；opened
 
-## 推荐（11条记录）
+## 推荐（15条记录）
 
 - [INT037 · 美团2025届秋招搜索推荐算法工程师](README.md#int037) — 2024；search_excerpt
 - [INT041 · 2025届搜广推算法方向求职历程（SSP、头部计划）](README.md#int041) — 2024；search_excerpt
@@ -112,8 +133,12 @@
 - [INT208 · 腾讯 -暑期实习-PCG技术线-推荐算法](README.md#int208) — 2024；opened
 - [INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209) — 年份未确认；opened
 - [INT211 · 美团大模型算法工程师一面面经（攒rp）](README.md#int211) — 2025；opened
+- [INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304) — 2026；opened
+- [INT309 · 10月面试退展](README.md#int309) — 2026；opened
+- [INT310 · 字节搜广推算法秋招一面](README.md#int310) — 2026；opened
+- [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322) — 2026；opened
 
-## 搜索（9条记录）
+## 搜索（11条记录）
 
 - [INT036 · 2025届NLP算法岗实习面经](README.md#int036) — 2024；search_excerpt
 - [INT037 · 美团2025届秋招搜索推荐算法工程师](README.md#int037) — 2024；search_excerpt
@@ -124,6 +149,8 @@
 - [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201) — 年份未确认；search_excerpt
 - [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204) — 年份未确认；opened
 - [INT205 · 字节搜索广告 后端开发一面](README.md#int205) — 年份未确认；opened
+- [INT309 · 10月面试退展](README.md#int309) — 2026；opened
+- [INT310 · 字节搜广推算法秋招一面](README.md#int310) — 2026；opened
 
 ## 用户增长（2条记录）
 

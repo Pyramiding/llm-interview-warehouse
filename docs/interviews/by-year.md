@@ -88,7 +88,7 @@
 - [INT230 · Groww SDE intern Interview Experience (AI/LLM) role | 6 month](README.md#int230) — 2025；opened
 - [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232) — 2025；opened
 
-## 2026（14条记录）
+## 2026（36条记录）
 
 - [INT026 · 字节 260901 一面面经](README.md#int026) — 2026；opened
 - [INT027 · 面经复盘（2026.5.7）](README.md#int027) — 2026；opened
@@ -104,6 +104,28 @@
 - [INT222 · 腾讯提前批一面面经（挑战全网最晚hhh，热乎的~）](README.md#int222) — 2026；opened
 - [INT227 · Amazon SDE Internship Interview Experience (2026)](README.md#int227) — 2026；opened
 - [INT228 · Amazon SDE-1 Interview Experience (TCS → Amazon, 2 YOE) — Timeline, Preparation & Offer](README.md#int228) — 2026；opened
+- [INT301 · 水滴秋招AI全栈（北京）凉经](README.md#int301) — 2026；opened
+- [INT302 · 10.24 CVTE 视源股份应用开发工程师 一面](README.md#int302) — 2026；opened
+- [INT303 · CVTE 秋招 应用开发工程师 一面](README.md#int303) — 2026；opened
+- [INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304) — 2026；opened
+- [INT305 · 网易云音乐 全栈开发 一面](README.md#int305) — 2026；opened
+- [INT306 · 10.26 科大讯飞 推理工程部 AI Infra 一面](README.md#int306) — 2026；opened
+- [INT307 · 长鑫存储AI Agent开发工程师一面，面完了！！！](README.md#int307) — 2026；opened
+- [INT308 · 网易云音乐全栈二面](README.md#int308) — 2026；opened
+- [INT309 · 10月面试退展](README.md#int309) — 2026；opened
+- [INT310 · 字节搜广推算法秋招一面](README.md#int310) — 2026；opened
+- [INT311 · 字节ai应用开发-全栈 一面](README.md#int311) — 2026；opened
+- [INT312 · pdd 提前批 AI Infra一面 凉经（一个月前）](README.md#int312) — 2026；opened
+- [INT313 · 字节大模型实习算法岗面经](README.md#int313) — 2026；opened
+- [INT314 · 蚂蚁智能体一面](README.md#int314) — 2026；opened
+- [INT315 · 字节日常实习Seed 飞书 AI 部门面经（回忆版）](README.md#int315) — 2026；opened
+- [INT316 · 10.23 pdd服务器开发一面](README.md#int316) — 2026；opened
+- [INT317 · 百度后端（agent）](README.md#int317) — 2026；opened
+- [INT318 · 字节跳动广告算法面经](README.md#int318) — 2026；opened
+- [INT319 · 10.30 得物 MLOPS和Agent实习](README.md#int319) — 2026；opened
+- [INT320 · 字节后端开发日常实习生一面（已寄）](README.md#int320) — 2026；opened
+- [INT321 · 腾讯WXG-日常一面面经](README.md#int321) — 2026；opened
+- [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322) — 2026；opened
 
 ## 年份未确认（17条记录）
 

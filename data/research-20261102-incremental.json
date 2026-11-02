@@ -1,0 +1,591 @@
+{
+  "as_of": "2026-11-02",
+  "window_start_at": "2026-10-23T10:50:38+08:00",
+  "window_end_date": "2026-11-02",
+  "previous_data_commit": "d05e6ab01ac7726b535ee2ae791e3d739b3e784b",
+  "base_repository_commit": "4602e68c722c50dc3607a5309f56265594879702",
+  "method": "公开搜索发现 + 牛客公司/话题页面公开链接 + 原页HTML中的首发/编辑元数据；未使用登录凭据、未绕过付费或访问限制。仅发布短摘要和问题改写，不保存全文或作者位置/IP等无关数据。",
+  "new_interview_ids": [
+    "INT301",
+    "INT302",
+    "INT303",
+    "INT304",
+    "INT305",
+    "INT306",
+    "INT307",
+    "INT308",
+    "INT309",
+    "INT310",
+    "INT311",
+    "INT312",
+    "INT313",
+    "INT314",
+    "INT315",
+    "INT316",
+    "INT317",
+    "INT318",
+    "INT319",
+    "INT320",
+    "INT321",
+    "INT322"
+  ],
+  "new_resource_ids": [
+    "RES401",
+    "RES402",
+    "RES403",
+    "RES404",
+    "RES405",
+    "RES406"
+  ],
+  "new_question_prompt_count": 106,
+  "known_same_source_aliases": {
+    "https://www.nowcoder.com/feed/main/detail/d6bac837eac44e958337b54a0ede24c5": "INT304",
+    "https://www.nowcoder.com/discuss/944282956095320064": "INT306",
+    "https://www.nowcoder.com/feed/main/detail/7f95add6c2624791881c2dc7ec21305e": "INT310",
+    "https://www.nowcoder.com/feed/main/detail/0fcc42da3b12418d9fb40b27f76893de": "INT313",
+    "https://www.nowcoder.com/feed/main/detail/443aa8778cb6444aa4fbeac4a3380820": "INT318",
+    "https://www.nowcoder.com/feed/main/detail/d3b066e68d644334b14bcf8e199376f9": "INT322"
+  },
+  "discovery_pages": [
+    "https://api-cdn.nowcoder.com/creation/subject/bdbbe1dc5f2d4396b09a261d2871ad01",
+    "https://www.nowcoder.com/enterprise/134/interview?switchSource=page_router",
+    "https://www.nowcoder.com/enterprise/138/interview",
+    "https://www.nowcoder.com/enterprise/139/interview",
+    "https://www.nowcoder.com/enterprise/149/interview?switchSource=page_router",
+    "https://www.nowcoder.com/enterprise/665/interview",
+    "https://www.nowcoder.com/enterprise/666/interview"
+  ],
+  "search_log": [
+    {
+      "platform": "牛客",
+      "queries": [
+        "大模型 面经 2026-10-26",
+        "Agent 面经 2026-10-28",
+        "大模型 面经 2026-10-30",
+        "面经 10-24 Agent site:nowcoder.com",
+        "面经 10-29 大模型 site:nowcoder.com",
+        "面经 11-01 大模型 site:nowcoder.com",
+        "10月面试退展"
+      ],
+      "result": "发现窗口内原帖，后续以原页元数据而非搜索日期筛选。"
+    },
+    {
+      "platform": "知乎",
+      "queries": [
+        "site:zhihu.com 大模型 面经 after:2026-10-23 before:2026-11-03",
+        "site:zhihu.com 面经 2026-10-30",
+        "site:zhihu.com 面经 2026-10-2 大模型"
+      ],
+      "result": "未发现同时满足窗口内首发、可核对正文及技术面经范围的新增原帖；不等于平台没有新帖。"
+    },
+    {
+      "platform": "微信公众号",
+      "queries": [
+        "site:mp.weixin.qq.com 面经 2026年10月 大模型"
+      ],
+      "result": "未发现可确认窗口内首发的新增技术面经；已有公众号入口不重复收录。"
+    },
+    {
+      "platform": "小红书",
+      "queries": [
+        "site:xiaohongshu.com 面经 2026-10 大模型"
+      ],
+      "result": "未取得可确认首发时间与正文的新LLM面经。搜索中的机器人主持面试和银行行为面不属于LLM技术岗位。"
+    },
+    {
+      "platform": "脉脉",
+      "queries": [
+        "site:maimai.cn 面经 2026-10 大模型",
+        "面经 2026-10-28 脉脉"
+      ],
+      "result": "未取得可确认窗口内首发的新增技术原帖，不用二手标题或转载日期充数。"
+    },
+    {
+      "platform": "LeetCode中文/国际站",
+      "queries": [
+        "site:leetcode.com/discuss LLM interview after:2026-10-23 before:2026-11-03",
+        "site:leetcode.com/discuss interview experience GenAI Oct 2026",
+        "site:leetcode.com/discuss LLM Oct 24, 2026",
+        "site:leetcode.com/discuss GenAI Oct 26, 2026",
+        "site:leetcode.cn/discuss 大模型 2026年10月"
+      ],
+      "result": "命中旧面经及招聘帖。SAP原帖2026-10-05早于起点；未将近期抓取的旧文算作新增。"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/f1ed02bfdae04730837753b62e0d58b9",
+      "title": "小红书Agent开发一面面经",
+      "published_at": null,
+      "updated_at": "2026-09-02T14:48:05+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/ce1b038c57c44cc08464561a8cfa0434",
+      "title": "快手Agent开发一面",
+      "published_at": "2026-08-13T16:50:54+08:00",
+      "updated_at": "2026-08-13T16:50:54+08:00",
+      "decision": "outside_window",
+      "reason": "首次发布早于上次资料提交，不以近期评论、编辑或抓取日期计新面经。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/8d84590d7efe4c78943b28708b4395f2",
+      "title": "懂车帝 agent开发 一面",
+      "published_at": "2026-08-13T17:18:32+08:00",
+      "updated_at": "2026-08-13T17:18:32+08:00",
+      "decision": "outside_window",
+      "reason": "首次发布早于上次资料提交，不以近期评论、编辑或抓取日期计新面经。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/45b40914f438434b88b60a21e3d5ec1e",
+      "title": "深信服 agent开发 一面",
+      "published_at": "2026-08-13T18:26:02+08:00",
+      "updated_at": "2026-08-28T23:20:29+08:00",
+      "decision": "outside_window",
+      "reason": "首次发布早于上次资料提交，不以近期评论、编辑或抓取日期计新面经。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/a9b91d99c9154a0da8876eaf56183930",
+      "title": "TikTok Agent工程师，面试到底考什么",
+      "published_at": null,
+      "updated_at": "2026-08-18T14:58:20+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/02718e9f48ff436f96d6ee8c6f11a47e",
+      "title": "27届秋招-蚂蚁-财富技术部-一面（电话面）",
+      "published_at": null,
+      "updated_at": "2026-08-24T22:55:58+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/79fe3fc8f8cb4c4d9beca478f4279e3a",
+      "title": "虾皮Agent开发一面面经",
+      "published_at": null,
+      "updated_at": "2026-08-24T18:31:50+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/3ffc762437274543b6a8f5e2ea6fb535",
+      "title": "27届秋招-腾讯WXG-微信读书-一面（已挂）",
+      "published_at": "2026-08-24T23:04:25+08:00",
+      "updated_at": "2026-08-24T23:04:25+08:00",
+      "decision": "outside_window",
+      "reason": "首次发布早于上次资料提交，不以近期评论、编辑或抓取日期计新面经。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/f844a4ac20be44bc9b3f756bd0ebb84c",
+      "title": "MINISO名创优品Agent开发实习一面",
+      "published_at": null,
+      "updated_at": "2026-08-26T18:10:20+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/288da6c9bede4148aca74a58a9045e2c",
+      "title": "面试官：Agent plan 怎么做的？",
+      "published_at": "2026-08-27T17:30:02+08:00",
+      "updated_at": "2026-08-27T18:18:57+08:00",
+      "decision": "outside_window",
+      "reason": "首次发布早于上次资料提交，不以近期评论、编辑或抓取日期计新面经。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/d2cf5165d1184b59879eff5793b7b453",
+      "title": "字节Agent开发日常实习一面",
+      "published_at": null,
+      "updated_at": "2026-08-27T20:11:50+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/beae35cec366487a918abee5421216f2",
+      "title": "蚂蚁 复活赛 agent开发 二面",
+      "published_at": "2026-09-09T17:15:31+08:00",
+      "updated_at": "2026-09-09T17:15:31+08:00",
+      "decision": "outside_window",
+      "reason": "首次发布早于上次资料提交，不以近期评论、编辑或抓取日期计新面经。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/7d354aa6146d467a92bf1132dd33438f",
+      "title": "小红书 Agentic 端侧推理优化实习生一面",
+      "published_at": null,
+      "updated_at": "2026-09-14T22:04:59+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/50bcdc47e7754aa7be59b6318fea514b",
+      "title": "美团AI Agent一面",
+      "published_at": null,
+      "updated_at": "2026-09-16T19:30:00+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/36f96f0e0ff249e2b8025cbe9b19927d",
+      "title": "快商通一面凉经 丨 大模型Agent全栈 9.30",
+      "published_at": null,
+      "updated_at": "2026-10-14T18:11:07+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/f2572e2cb00144458b7605876c763603",
+      "title": "百度大模型算法岗一面面经",
+      "published_at": null,
+      "updated_at": "2026-10-21T22:34:02+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/ea456eb7238c4e44b099358ee6b5add8",
+      "title": "百度大模型算法岗一面面经",
+      "published_at": null,
+      "updated_at": "2026-10-21T22:34:58+08:00",
+      "decision": "publication_unconfirmed",
+      "reason": "只有编辑日或旧批次临时缓存，无法确认窗口内首发，不计新增。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/c23fe20e7a26451f98cf669d935427c7",
+      "title": "水滴秋招AI全栈（北京）凉经",
+      "published_at": "2026-10-24T19:08:07+08:00",
+      "updated_at": "2026-10-24T19:08:07+08:00",
+      "decision": "included",
+      "reason": "INT301"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/f2233c6940df4b42b818db288d59c232",
+      "title": "10.24 CVTE 视源股份应用开发工程师 一面",
+      "published_at": "2026-10-25T15:50:33+08:00",
+      "updated_at": "2026-10-25T20:24:24+08:00",
+      "decision": "included",
+      "reason": "INT302"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/56b7d880e1f74f70bb0a254564c4bec1",
+      "title": "CVTE 秋招 应用开发工程师 一面",
+      "published_at": "2026-10-25T20:41:16+08:00",
+      "updated_at": "2026-10-25T20:41:16+08:00",
+      "decision": "included",
+      "reason": "INT303"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/703eba8297cf4bef9edb6f2b9fd4f9cb",
+      "title": "27届秋招 快手广告算法一二面面经",
+      "published_at": "2026-10-25T23:18:52+08:00",
+      "updated_at": "2026-10-25T23:18:52+08:00",
+      "decision": "included",
+      "reason": "INT304"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/d6bac837eac44e958337b54a0ede24c5",
+      "title": "27届秋招 快手广告算法一二面面经",
+      "published_at": "2026-10-25T23:19:29+08:00",
+      "updated_at": "2026-10-25T23:19:29+08:00",
+      "decision": "merged_same_source",
+      "reason": "INT304"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/0af79630412944de93000c64ed676a45",
+      "title": "网易云音乐 全栈 秋招 二面 2026.10.26",
+      "published_at": "2026-10-26T12:14:12+08:00",
+      "updated_at": "2026-10-26T12:14:12+08:00",
+      "decision": "excluded_scope",
+      "reason": "通用后端/数据工程/秋招导航/教学建议，没有足够新增LLM技术面经内容；不为数量纳入。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/60de6801d0ff4faf9d5a0fb773e16c46",
+      "title": "网易云音乐全栈二面",
+      "published_at": "2026-10-27T10:51:32+08:00",
+      "updated_at": "2026-10-27T10:51:32+08:00",
+      "decision": "included",
+      "reason": "INT308"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/f80f421b5bcf4dc08cc51e99f129c3ce",
+      "title": "10月面试退展",
+      "published_at": "2026-10-27T11:20:40+08:00",
+      "updated_at": "2026-10-27T11:26:41+08:00",
+      "decision": "included",
+      "reason": "INT309"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/f5018ca50faa49d8835830d8d803df66",
+      "title": "字节搜广推算法秋招一面",
+      "published_at": "2026-10-27T22:43:21+08:00",
+      "updated_at": "2026-10-27T22:43:21+08:00",
+      "decision": "included",
+      "reason": "INT310"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/0b5e25bcbe5244ffaaf8a8ed36f859c4",
+      "title": "字节ai应用开发-全栈 一面",
+      "published_at": "2026-10-28T10:26:20+08:00",
+      "updated_at": "2026-10-28T10:26:20+08:00",
+      "decision": "included",
+      "reason": "INT311"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/704ae98e9bea44258c75c3c00b546a96",
+      "title": "腾讯 | 数据工程面经",
+      "published_at": "2026-10-28T10:27:12+08:00",
+      "updated_at": "2026-10-28T10:27:12+08:00",
+      "decision": "excluded_scope",
+      "reason": "通用后端/数据工程/秋招导航/教学建议，没有足够新增LLM技术面经内容；不为数量纳入。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/8566c06947a0424396d9ee48e71f10b5",
+      "title": "pdd 提前批 AI Infra一面 凉经（一个月前）",
+      "published_at": "2026-10-28T19:27:33+08:00",
+      "updated_at": "2026-10-28T19:27:33+08:00",
+      "decision": "included",
+      "reason": "INT312"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/37d6c15eef654ad085d55df06dfa61f2",
+      "title": "字节大模型实习算法岗面经",
+      "published_at": "2026-10-28T22:16:40+08:00",
+      "updated_at": "2026-10-28T22:16:40+08:00",
+      "decision": "included",
+      "reason": "INT313"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/9348f95402fc4d598b076417a994df0f",
+      "title": "蚂蚁智能体一面",
+      "published_at": "2026-10-29T12:51:28+08:00",
+      "updated_at": "2026-10-29T12:51:28+08:00",
+      "decision": "included",
+      "reason": "INT314"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/e41003e55d574b3a9e217391d71235ed",
+      "title": "字节日常实习Seed 飞书 AI 部门面经（回忆版）",
+      "published_at": "2026-10-29T14:03:42+08:00",
+      "updated_at": "2026-10-29T14:04:15+08:00",
+      "decision": "included",
+      "reason": "INT315"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/8f093c4186d34c1e98be2d1cf7c770d8",
+      "title": "10.29 pdd服务器开发二面",
+      "published_at": "2026-10-29T18:40:33+08:00",
+      "updated_at": "2026-10-29T18:54:44+08:00",
+      "decision": "excluded_scope",
+      "reason": "通用后端/数据工程/秋招导航/教学建议，没有足够新增LLM技术面经内容；不为数量纳入。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/45fc12c9500a43e4813682b95da65627",
+      "title": "10.23 pdd服务器开发一面",
+      "published_at": "2026-10-29T18:52:43+08:00",
+      "updated_at": "2026-10-29T18:52:43+08:00",
+      "decision": "included",
+      "reason": "INT316"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/2b53a462bcd94b5c8e54d13b09573a29",
+      "title": "字节跳动广告算法面经",
+      "published_at": "2026-10-29T21:52:50+08:00",
+      "updated_at": "2026-10-29T21:52:50+08:00",
+      "decision": "included",
+      "reason": "INT318"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/443aa8778cb6444aa4fbeac4a3380820",
+      "title": "字节跳动广告算法面经",
+      "published_at": null,
+      "updated_at": "2026-10-29T21:53:55+08:00",
+      "decision": "merged_same_source",
+      "reason": "INT318"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/9b098d808abd4bd3921a6c189b0daaf3",
+      "title": "10.30 得物 MLOPS和Agent实习",
+      "published_at": "2026-10-30T15:13:28+08:00",
+      "updated_at": "2026-10-30T15:13:28+08:00",
+      "decision": "included",
+      "reason": "INT319"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/6dafc1b05029449eae079c82e0c3cf94",
+      "title": "字节后端开发日常实习生一面（已寄）",
+      "published_at": "2026-10-30T20:00:57+08:00",
+      "updated_at": "2026-10-30T20:00:57+08:00",
+      "decision": "included",
+      "reason": "INT320"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/51cd1f865629448fb15baa44974a3536",
+      "title": "腾讯WXG-日常一面面经",
+      "published_at": "2026-10-31T23:33:27+08:00",
+      "updated_at": "2026-10-31T23:33:27+08:00",
+      "decision": "included",
+      "reason": "INT321"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/6f7a88a6bba748b9aded18668d45b16c",
+      "title": "27届秋招面经合集",
+      "published_at": "2026-11-01T13:59:42+08:00",
+      "updated_at": "2026-11-01T13:59:42+08:00",
+      "decision": "excluded_scope",
+      "reason": "通用后端/数据工程/秋招导航/教学建议，没有足够新增LLM技术面经内容；不为数量纳入。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/aae48985e3d841acbdb708c1b2239c27",
+      "title": "字节推荐大模型算法岗一二面面经",
+      "published_at": "2026-11-01T22:23:42+08:00",
+      "updated_at": "2026-11-01T22:23:42+08:00",
+      "decision": "included",
+      "reason": "INT322"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/d3b066e68d644334b14bcf8e199376f9",
+      "title": "字节推荐大模型算法岗一二面面经",
+      "published_at": "2026-11-01T22:24:26+08:00",
+      "updated_at": "2026-11-01T22:24:26+08:00",
+      "decision": "merged_same_source",
+      "reason": "INT322"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/929731481189044224",
+      "title": "字节 Agent 秋招一面",
+      "published_at": "2026-09-16T13:40:59+08:00",
+      "updated_at": "2026-09-16T15:09:17+08:00",
+      "decision": "outside_window",
+      "reason": "首次发布早于上次资料提交，不以近期评论、编辑或抓取日期计新面经。"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/942167972557119488",
+      "title": "阿里千问AI应用研发一面：简历上写\"我做了个RAG\"等于自曝",
+      "published_at": "2026-10-20T21:19:09+08:00",
+      "updated_at": "2026-10-20T21:19:09+08:00",
+      "decision": "outside_window",
+      "reason": "首次发布早于上次资料提交，不以近期评论、编辑或抓取日期计新面经。"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/942742943721349120",
+      "title": "【三年面试五年模拟】2026-09-10_百度_多模态大模型一面面经（含完整答案）",
+      "published_at": "2026-10-22T11:23:53+08:00",
+      "updated_at": "2026-10-22T11:23:53+08:00",
+      "decision": "outside_window",
+      "reason": "首次发布早于上次资料提交，不以近期评论、编辑或抓取日期计新面经。"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/943143906311430144",
+      "title": "【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）",
+      "published_at": "2026-10-23T13:57:10+08:00",
+      "updated_at": "2026-10-23T13:57:10+08:00",
+      "decision": "included",
+      "reason": "RES402"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/943172379738447872",
+      "title": "快手客户端 - 中台infra - 面经",
+      "published_at": "2026-10-23T15:50:19+08:00",
+      "updated_at": "2026-10-23T15:50:19+08:00",
+      "decision": "included",
+      "reason": "RES401"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/944165886930309120",
+      "title": "网易云音乐 全栈开发 一面",
+      "published_at": "2026-10-26T09:38:09+08:00",
+      "updated_at": "2026-10-26T09:38:09+08:00",
+      "decision": "included",
+      "reason": "INT305"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/944283905056665600",
+      "title": "10.26 科大讯飞 推理工程部 AI Infra 一面",
+      "published_at": "2026-10-26T17:27:07+08:00",
+      "updated_at": "2026-10-26T17:27:07+08:00",
+      "decision": "included",
+      "reason": "INT306"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/944317524546424832",
+      "title": "长鑫存储AI Agent开发工程师一面，面完了！！！",
+      "published_at": "2026-10-26T19:40:42+08:00",
+      "updated_at": "2026-10-26T19:40:42+08:00",
+      "decision": "included",
+      "reason": "INT307"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/945001410880442368",
+      "title": "为什么明明面试题都答对了，最后还是挂了？聊聊Agent项目面试最容易忽略的问题",
+      "published_at": "2026-10-28T16:58:14+08:00",
+      "updated_at": "2026-10-28T16:58:14+08:00",
+      "decision": "excluded_scope",
+      "reason": "通用后端/数据工程/秋招导航/教学建议，没有足够新增LLM技术面经内容；不为数量纳入。"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/945352885771018240",
+      "title": "AI测试面试题: 什么是\"以模型评模型(LLM-as-a-judge)\"?",
+      "published_at": "2026-10-29T16:14:52+08:00",
+      "updated_at": "2026-10-29T16:14:52+08:00",
+      "decision": "excluded_scope",
+      "reason": "通用后端/数据工程/秋招导航/教学建议，没有足够新增LLM技术面经内容；不为数量纳入。"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/945429221868904448",
+      "title": "百度后端（agent）",
+      "published_at": "2026-10-29T21:18:12+08:00",
+      "updated_at": "2026-10-29T21:18:12+08:00",
+      "decision": "included",
+      "reason": "INT317"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/945984162802995200",
+      "title": "阿里 AI应用开发 实习一面",
+      "published_at": "2026-10-31T10:03:20+08:00",
+      "updated_at": "2026-10-31T10:03:20+08:00",
+      "decision": "included",
+      "reason": "RES403"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/945984937780350976",
+      "title": "阿里 AI应用开发 二面",
+      "published_at": "2026-10-31T10:06:25+08:00",
+      "updated_at": "2026-10-31T10:06:25+08:00",
+      "decision": "included",
+      "reason": "RES404"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/946211096669564928",
+      "title": "字节 Agent 全栈研发一面｜备考题单（整理版）",
+      "published_at": "2026-11-01T01:05:05+08:00",
+      "updated_at": "2026-11-01T01:05:05+08:00",
+      "decision": "included",
+      "reason": "RES405"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/946533354818535424",
+      "title": "腾讯 Agent 开发一面｜我的备考题单",
+      "published_at": "2026-11-01T22:25:38+08:00",
+      "updated_at": "2026-11-01T22:25:38+08:00",
+      "decision": "included",
+      "reason": "RES406"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/944282956095320064",
+      "decision": "merged_same_source",
+      "reason": "INT306",
+      "evidence": "公开公司列表中的题目顺序与正文一致；原帖详情读取不稳定，未补写该入口独有内容。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/7f95add6c2624791881c2dc7ec21305e",
+      "decision": "merged_same_source",
+      "reason": "INT310",
+      "evidence": "公开公司列表中的题目顺序与正文一致；原帖详情读取不稳定，未补写该入口独有内容。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/0fcc42da3b12418d9fb40b27f76893de",
+      "decision": "merged_same_source",
+      "reason": "INT313",
+      "evidence": "公开公司列表中的题目顺序与正文一致；原帖详情读取不稳定，未补写该入口独有内容。"
+    }
+  ]
+}

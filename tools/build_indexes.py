@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-AS_OF = '2026-10-23'
+AS_OF = '2026-11-02'
 TOPICS = [
     ('01', 'Transformer与数学基础', '01-transformer-and-math.md', '注意力、归一化、优化、概率与参数估算'),
     ('02', '预训练与数据工程', '02-pretraining-and-data.md', 'tokenizer、配比、去重、Scaling Law与数据质量'),
@@ -90,6 +90,7 @@ def question_records():
 COMPANY_ALIASES = {'字节跳动': '字节', '抖音': '字节', '阿里巴巴': '阿里', '阿里云': '阿里', '淘天': '阿里', '淘天集团': '阿里', '百度公司': '百度', '腾讯公司': '腾讯', '快手科技': '快手', '理想汽车': '理想', '美团到店': '美团', '阿里达摩院': '阿里', '网易（可见片段）': '网易', '支付宝': '蚂蚁集团', '蚂蚁': '蚂蚁集团'}
 COMPANY_ALIASES.update({'阿里巴巴通义实验室':'阿里', '飞猪':'阿里', '拼多多/TEMU':'拼多多', '智谱华章':'智谱', '智谱AI':'智谱'})
 COMPANY_ALIASES.update({'字节跳动/懂车帝':'字节', 'Microsoft':'微软', 'Microsoft Research':'微软', '亚马逊':'Amazon', '谷歌':'Google'})
+COMPANY_ALIASES.update({'网易云音乐':'网易', 'CVTE':'视源股份'})
 NON_COMPANIES = {'未明确', '未确认', '多家公司（未逐题归属）', '多家公司未逐题归属', '多家公司', '未说明', '未逐题明确', '其他企业待原文核实', '其他公司'}
 PLATFORMS = {'nowcoder.com':'牛客', 'zhihu.com':'知乎', 'mp.weixin.qq.com':'微信公众号', 'github.com':'GitHub', 'xiaohongshu.com':'小红书', 'xhslink.com':'小红书', 'xhslink.cn':'小红书', 'maimai.cn':'脉脉', 'v2ex.com':'V2EX', 'juejin.cn':'掘金', 'csdn.net':'CSDN', '1point3acres.com':'一亩三分地', 'woshipm.com':'人人都是产品经理', 'onlyar.site':'个人博客'}
 PLATFORMS.update({'leetcode.cn':'LeetCode中文站', 'leetcode.com':'LeetCode国际站'})
@@ -215,6 +216,13 @@ def main():
                       f'- **平台/性质：** {platform(item)}；{item["source_type"]}。', f'- **核验/备注：** `{item["verification"]}`；{item["note"]}', '']
             if item.get('evidence_url'):
                 intro += [f'- **可读视图/核验依据：** [查看对应页面]({item["evidence_url"]})；可读范围见上述备注。', '']
+            if item.get('question_prompts'):
+                intro += ['**重点问题（依据原帖改写，不是参考答案）：**', '']
+                intro += [f'{i}. {prompt}' for i,prompt in enumerate(item['question_prompts'],1)]
+                intro += ['']
+            if item.get('alternate_urls'):
+                intro += ['- **同源入口（不另计面试）：** ' + ' · '.join(
+                    f'[入口{i}]({url})' for i,url in enumerate(item['alternate_urls'],1)) + '。', '']
     intro += ['## 如何观察考点变化', '',
               '本样本中，2023年资料已出现PEFT、RLHF与上线项目；2024年可看到更细的显存、并行、奖励与评测追问；2025年资料包含GRPO、多模态、MCP和应用系统；2026年样本出现Agent轨迹、回归评测与上下文管理。这是对所选样本的定性阅读，不是市场频率或招聘趋势统计。', '',
               '补充阅读、题库与二次汇编见[完整来源目录](../source-catalog.md)，不混入亲历面经数量。']
@@ -310,7 +318,7 @@ def main():
         coverage.append(f'| [{name}](topics/{filename}) | {count} | {sum(code in x["topics"] for x in interviews)} | {desc} |')
     coverage += ['', '当前局限：样本以中文公开面经和国内求职者自述为主；海外现场面、资深管理、音频专岗、芯片编译器、世界模型与AI4Science的亲历样本不足。具身和科学方向目前更多依赖研究延伸题。没有据此推算企业通过率、题目频次、薪资或行业供需。', '',
                  '只有摘要可见、反爬、推广及日期冲突均在条目中标注。欢迎补齐原始亲历复盘和可复现实验；新增资料应保留公开来源及查阅日期。']
-    coverage += ['', '## 平台检索与应用边界', '', '[2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)', '', '应用专题是原创技术设计训练，不表示每个领域均有已核验亲历面经。按平台、岗位与业务的实际条目分布见[多维面经导航](interviews/by-platform.md)及[公司×业务方向](interviews/company-direction.md)。原文不可见或仅有搜索片段、目录元数据的记录不据此扩写隐藏题目。']
+    coverage += ['', '## 平台检索与应用边界', '', '[2026-11-02增量更新](incremental-2026-11-02.md) · [2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)', '', '应用专题是原创技术设计训练，不表示每个领域均有已核验亲历面经。按平台、岗位与业务的实际条目分布见[多维面经导航](interviews/by-platform.md)及[公司×业务方向](interviews/company-direction.md)。原文不可见或仅有搜索片段、目录元数据的记录不据此扩写隐藏题目。']
     write(ROOT/'docs/coverage.md', '\n'.join(coverage))
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 

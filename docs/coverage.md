@@ -4,24 +4,24 @@
 
 | 方向 | 原创专题题 | 对应面经记录 | 内容 |
 |---|---:|---:|---|
-| [Transformer与数学基础](topics/01-transformer-and-math.md) | 18 | 48 | 注意力、归一化、优化、概率与参数估算 |
-| [预训练与数据工程](topics/02-pretraining-and-data.md) | 18 | 20 | tokenizer、配比、去重、Scaling Law与数据质量 |
-| [SFT与参数高效微调](topics/03-sft-and-peft.md) | 18 | 42 | 指令数据、LoRA/QLoRA、遗忘与训练诊断 |
-| [偏好对齐与强化学习](topics/04-alignment-and-rl.md) | 18 | 30 | RLHF、PPO、DPO、GRPO、RLVR与奖励审计 |
-| [架构、MoE与长上下文](topics/05-architectures-moe-long-context.md) | 18 | 12 | GQA/MLA、专家路由、位置外推与混合架构 |
-| [RAG与检索](topics/06-rag-and-retrieval.md) | 18 | 31 | 切分、混合召回、重排、多跳与端到端评测 |
-| [Agent与工具调用](topics/07-agents-and-tool-use.md) | 18 | 28 | 规划、记忆、工具协议、状态、权限与评测 |
-| [推理优化与在线服务](topics/08-inference-and-serving.md) | 18 | 27 | KV、分页、调度、投机解码、SLO与压测 |
-| [分布式训练与AI Infra](topics/09-distributed-training.md) | 18 | 22 | DP/TP/PP、ZeRO、通信、重计算与排障 |
-| [量化、压缩与蒸馏](topics/10-compression-and-distillation.md) | 18 | 10 | PTQ/QAT、激活异常、低比特、蒸馏与端侧 |
+| [Transformer与数学基础](topics/01-transformer-and-math.md) | 18 | 52 | 注意力、归一化、优化、概率与参数估算 |
+| [预训练与数据工程](topics/02-pretraining-and-data.md) | 18 | 22 | tokenizer、配比、去重、Scaling Law与数据质量 |
+| [SFT与参数高效微调](topics/03-sft-and-peft.md) | 18 | 43 | 指令数据、LoRA/QLoRA、遗忘与训练诊断 |
+| [偏好对齐与强化学习](topics/04-alignment-and-rl.md) | 18 | 34 | RLHF、PPO、DPO、GRPO、RLVR与奖励审计 |
+| [架构、MoE与长上下文](topics/05-architectures-moe-long-context.md) | 18 | 15 | GQA/MLA、专家路由、位置外推与混合架构 |
+| [RAG与检索](topics/06-rag-and-retrieval.md) | 18 | 39 | 切分、混合召回、重排、多跳与端到端评测 |
+| [Agent与工具调用](topics/07-agents-and-tool-use.md) | 18 | 41 | 规划、记忆、工具协议、状态、权限与评测 |
+| [推理优化与在线服务](topics/08-inference-and-serving.md) | 18 | 37 | KV、分页、调度、投机解码、SLO与压测 |
+| [分布式训练与AI Infra](topics/09-distributed-training.md) | 18 | 25 | DP/TP/PP、ZeRO、通信、重计算与排障 |
+| [量化、压缩与蒸馏](topics/10-compression-and-distillation.md) | 18 | 11 | PTQ/QAT、激活异常、低比特、蒸馏与端侧 |
 | [推理能力与测试时计算](topics/11-reasoning-and-test-time-compute.md) | 18 | 5 | CoT、搜索、验证器、计算分配与评测公平性 |
-| [多模态理解与生成](topics/12-multimodal.md) | 18 | 19 | CLIP/BLIP/LLaVA、图像、视频、语音与生成 |
-| [评测与安全](topics/13-evaluation-and-safety.md) | 18 | 40 | 污染、统计、裁判、幻觉、越狱防御与可信性 |
-| [代码模型与具身智能](topics/14-code-and-embodied-models.md) | 18 | 6 | 代码生成/Agent、软件评测、VLA与世界模型 |
+| [多模态理解与生成](topics/12-multimodal.md) | 18 | 20 | CLIP/BLIP/LLaVA、图像、视频、语音与生成 |
+| [评测与安全](topics/13-evaluation-and-safety.md) | 18 | 52 | 污染、统计、裁判、幻觉、越狱防御与可信性 |
+| [代码模型与具身智能](topics/14-code-and-embodied-models.md) | 18 | 15 | 代码生成/Agent、软件评测、VLA与世界模型 |
 | [领域模型与研究设计](topics/15-domain-models-and-research.md) | 18 | 26 | 搜索推荐、医疗金融、AI4Science与实验设计 |
-| [大模型与搜索](topics/16-llm-search.md) | 18 | 10 | query理解、改写、生成式检索、排序与答案 |
-| [大模型与广告](topics/17-llm-ads.md) | 18 | 8 | 定向、召回排序、创意、出价与增量 |
-| [大模型与推荐](topics/18-llm-recommendation.md) | 18 | 12 | 生成式召回、用户序列、冷启与反馈 |
+| [大模型与搜索](topics/16-llm-search.md) | 18 | 11 | query理解、改写、生成式检索、排序与答案 |
+| [大模型与广告](topics/17-llm-ads.md) | 18 | 11 | 定向、召回排序、创意、出价与增量 |
+| [大模型与推荐](topics/18-llm-recommendation.md) | 18 | 15 | 生成式召回、用户序列、冷启与反馈 |
 | [大模型与增长](topics/19-llm-growth.md) | 18 | 2 | 因果、uplift、LTV、实验与策略 |
 | [大模型与营销](topics/20-llm-marketing.md) | 18 | 1 | 受众、内容、触达、归因与合规 |
 | [大模型与风控](topics/21-llm-risk.md) | 18 | 5 | 欺诈、审核、代价阈值、漂移与人审 |
@@ -34,6 +34,6 @@
 
 ## 平台检索与应用边界
 
-[2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)
+[2026-11-02增量更新](incremental-2026-11-02.md) · [2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)
 
 应用专题是原创技术设计训练，不表示每个领域均有已核验亲历面经。按平台、岗位与业务的实际条目分布见[多维面经导航](interviews/by-platform.md)及[公司×业务方向](interviews/company-direction.md)。原文不可见或仅有搜索片段、目录元数据的记录不据此扩写隐藏题目。

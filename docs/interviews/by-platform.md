@@ -56,7 +56,7 @@
 
 <a id="platform-nowcoder"></a>
 
-## 牛客（59条记录）
+## 牛客（81条记录）
 
 - [INT001 · 理想+ 大模型面经](README.md#int001) — 2023；opened
 - [INT002 · 2023秋招nlp算法面经](README.md#int002) — 2023；search_excerpt
@@ -117,6 +117,28 @@
 - [INT222 · 腾讯提前批一面面经（挑战全网最晚hhh，热乎的~）](README.md#int222) — 2026；opened
 - [INT223 · BAT集齐？暑期实习面经分享](README.md#int223) — 2025；opened
 - [INT224 · 有赞面经](README.md#int224) — 年份未确认；opened
+- [INT301 · 水滴秋招AI全栈（北京）凉经](README.md#int301) — 2026；opened
+- [INT302 · 10.24 CVTE 视源股份应用开发工程师 一面](README.md#int302) — 2026；opened
+- [INT303 · CVTE 秋招 应用开发工程师 一面](README.md#int303) — 2026；opened
+- [INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304) — 2026；opened
+- [INT305 · 网易云音乐 全栈开发 一面](README.md#int305) — 2026；opened
+- [INT306 · 10.26 科大讯飞 推理工程部 AI Infra 一面](README.md#int306) — 2026；opened
+- [INT307 · 长鑫存储AI Agent开发工程师一面，面完了！！！](README.md#int307) — 2026；opened
+- [INT308 · 网易云音乐全栈二面](README.md#int308) — 2026；opened
+- [INT309 · 10月面试退展](README.md#int309) — 2026；opened
+- [INT310 · 字节搜广推算法秋招一面](README.md#int310) — 2026；opened
+- [INT311 · 字节ai应用开发-全栈 一面](README.md#int311) — 2026；opened
+- [INT312 · pdd 提前批 AI Infra一面 凉经（一个月前）](README.md#int312) — 2026；opened
+- [INT313 · 字节大模型实习算法岗面经](README.md#int313) — 2026；opened
+- [INT314 · 蚂蚁智能体一面](README.md#int314) — 2026；opened
+- [INT315 · 字节日常实习Seed 飞书 AI 部门面经（回忆版）](README.md#int315) — 2026；opened
+- [INT316 · 10.23 pdd服务器开发一面](README.md#int316) — 2026；opened
+- [INT317 · 百度后端（agent）](README.md#int317) — 2026；opened
+- [INT318 · 字节跳动广告算法面经](README.md#int318) — 2026；opened
+- [INT319 · 10.30 得物 MLOPS和Agent实习](README.md#int319) — 2026；opened
+- [INT320 · 字节后端开发日常实习生一面（已寄）](README.md#int320) — 2026；opened
+- [INT321 · 腾讯WXG-日常一面面经](README.md#int321) — 2026；opened
+- [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322) — 2026；opened
 
 ## 知乎（20条记录）
 
@@ -223,6 +245,12 @@
 - [RES216 · 蚂蚁集团 AI Agent 开发：复活赛深挖 CR Agent，问得比任何一家都深](https://www.nowcoder.com/discuss/938917486311825408) — interview_collection；opened
 - [RES217 · 字节 AI Agent 开发 一面（抖音电商 · 一面掉池子里面了）](https://www.nowcoder.com/discuss/932407145864130560) — interview_collection；opened
 - [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](https://www.nowcoder.com/discuss/863386997749051392) — preparation_resource；search_excerpt
+- [RES401 · 快手客户端 - 中台infra - 面经](https://www.nowcoder.com/discuss/943172379738447872) — preparation_resource；opened
+- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](https://www.nowcoder.com/discuss/943143906311430144) — interview_analysis；opened
+- [RES403 · 阿里 AI应用开发 实习一面](https://www.nowcoder.com/discuss/945984162802995200) — interview_analysis；opened
+- [RES404 · 阿里 AI应用开发 二面](https://www.nowcoder.com/discuss/945984937780350976) — interview_analysis；opened
+- [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](https://www.nowcoder.com/discuss/946211096669564928) — interview_collection；opened
+- [RES406 · 腾讯 Agent 开发一面｜我的备考题单](https://www.nowcoder.com/discuss/946533354818535424) — preparation_resource；opened
 
 ### 知乎
 

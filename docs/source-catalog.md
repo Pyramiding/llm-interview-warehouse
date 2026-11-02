@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [来源规范](methodology.md)
 
-共362个规范化来源链接：106条面经记录、73个补充入口，以及专题研究来源。计数方法及局限见来源规范。查阅日期均记录于JSON。
+共390个规范化来源链接：128条面经记录、79个补充入口，以及专题研究来源。计数方法及局限见来源规范。查阅日期均记录于JSON。
 
 ## 公开面经
 
@@ -114,6 +114,28 @@
 | INT230 | [Groww SDE intern Interview Experience (AI/LLM) role \| 6 month](https://leetcode.com/discuss/post/7311827/) | 未确认/持续更新 | opened | 公开页同时显示2025-10-29与2025-10-30，未明确区分发布/编辑标签，因此仅归组2025，published和event_date留空。金融科技企业名称不能证明风控业务；不根据作者自评推断实际淘汰原因。 |
 | INT231 | [Google \| Hiring Manager Round \| Gemini Applications \| SWE III ML \| Bengaluru](https://leetcode.com/discuss/post/7936329/google-hiring-manager-round-gemini-appli-mb5k/) | 未确认/持续更新 | opened | Gemini Applications团队与岗位由正文明确自述。agentic-based evaluation被作者标为期望回答，不能当作Google官方标准；可靠性与内部Agent框架部分属于候选人反问。页面没有可确定日期。与Avaamo及Amazon Applied DS存在目录互链，不推定匿名作者独立身份。 |
 | INT232 | [Amazon \| Interview (1st Round) \| Bengaluru \| Applied Data Scientist](https://leetcode.com/discuss/post/6871782/amazon-online-1st-round-bengaluru-applie-uiwk/) | 未确认/持续更新 | opened | 面试年月由正文明确给出；发帖日未知。作者只记录首轮，并称后续编码和项目轮已排期，不能写成完整面试流程或已获offer。QKV的Query不是搜索业务证据。与Avaamo和Google Gemini HM存在目录互链，不推定匿名作者独立身份。 |
+| INT301 | [水滴秋招AI全栈（北京）凉经](https://www.nowcoder.com/feed/main/detail/c23fe20e7a26451f98cf669d935427c7) | 2026-10-24 | opened | 作者明确区分一二面；水滴主营业务不作为风控标签依据。个人项目和用户量仅为作者自述，未给逐轮日期。 |
+| INT302 | [10.24 CVTE 视源股份应用开发工程师 一面](https://www.nowcoder.com/feed/main/detail/f2233c6940df4b42b818db288d59c232) | 2026-10-25 | opened | 题目经过作者结构化整理。项目29%/68%/83%等数字不是行业基准；客服仅为举例场景，不据此归为客服招聘组。 页面另于2026-10-25编辑；published记录首次发布。 |
+| INT303 | [CVTE 秋招 应用开发工程师 一面](https://www.nowcoder.com/feed/main/detail/56b7d880e1f74f70bb0a254564c4bec1) | 2026-10-25 | opened | 科大讯飞是候选人既往实习项目背景，招聘方为CVTE；未提供准确面试日。 |
+| INT304 | [27届秋招 快手广告算法一二面面经](https://www.nowcoder.com/feed/main/detail/703eba8297cf4bef9edb6f2b9fd4f9cb) | 2026-10-25 | opened | 小旺与阿旺两个账号相隔37秒发布同题同文，按同源记录合并，不推定账号身份相同。百度是既往实习，不能列为本条面试公司。 |
+| INT305 | [网易云音乐 全栈开发 一面](https://www.nowcoder.com/discuss/944165886930309120) | 2026-10-26 | opened | 正文明确面试为10月16日，首次发布为10月26日，属于新发表的旧经历。原文个别账号使用讨论不延伸为规避平台规则的建议。 |
+| INT306 | [10.26 科大讯飞 推理工程部 AI Infra 一面](https://www.nowcoder.com/discuss/944283905056665600) | 2026-10-26 | opened | 与同作者4分钟前发布的讯飞Infra短文为同场扩写，合并计一次。回答思路不是企业标准答案；华为是过去经历，不能算招聘方。 |
+| INT307 | [长鑫存储AI Agent开发工程师一面，面完了！！！](https://www.nowcoder.com/discuss/944317524546424832) | 2026-10-26 | opened | 存在明确第一人称经历和反问叙述，同时含大量教学扩写与关注引导。只摘录问题；未将作者关于后续HR、行情和技术优劣的说法视为已证实事实。 |
+| INT308 | [网易云音乐全栈二面](https://www.nowcoder.com/feed/main/detail/60de6801d0ff4faf9d5a0fb773e16c46) | 2026-10-27 | opened | 正文写10月27日；95%召回率只属候选项目，不能迁移为其他方案的结果。没有因音乐公司而贴语音或推荐标签。 |
+| INT309 | [10月面试退展](https://www.nowcoder.com/feed/main/detail/f80f421b5bcf4dc08cc51e99f129c3ce) | 2026-10-27 | opened | 五场整篇计一条。搜广推领域仅由字节Data岗位支持；地平线部分是编译器题，不把各技术问题均分配给五家公司。 页面另于2026-10-27编辑；published记录首次发布。 |
+| INT310 | [字节搜广推算法秋招一面](https://www.nowcoder.com/feed/main/detail/f5018ca50faa49d8835830d8d803df66) | 2026-10-27 | opened | 与同标题另一入口正文顺序一致，合并记录；标题“搜广推”为业务范围，未将具体问题额外归给独立团队。 |
+| INT311 | [字节ai应用开发-全栈 一面](https://www.nowcoder.com/feed/main/detail/0b5e25bcbe5244ffaaf8a8ed36f859c4) | 2026-10-28 | opened | 腾讯是候选人实习背景，不是本条面试公司；题目偏工程可靠性，不据AI岗位名补写未出现的模型训练问题。 |
+| INT312 | [pdd 提前批 AI Infra一面 凉经（一个月前）](https://www.nowcoder.com/feed/main/detail/8566c06947a0424396d9ee48e71f10b5) | 2026-10-28 | opened | 10月28日是发帖日；“一个月前”不足以确定面试年月日，event_date留空。原文trition按Triton语境理解，不扩写缺失题目。 |
+| INT313 | [字节大模型实习算法岗面经](https://www.nowcoder.com/feed/main/detail/37d6c15eef654ad085d55df06dfa61f2) | 2026-10-28 | opened | 两个近同标题入口题序一致，按同源合并；面试日未给。题单中的公式设问与模糊编码描述不是已确认的技术结论或完整题面。 |
+| INT314 | [蚂蚁智能体一面](https://www.nowcoder.com/feed/main/detail/9348f95402fc4d598b076417a994df0f) | 2026-10-29 | opened | 题号存在跳号，保留原文范围。百度只是候选人过去实习；用户规模、图谱准确率等设问不能写成招聘团队指标。 |
+| INT315 | [字节日常实习Seed 飞书 AI 部门面经（回忆版）](https://www.nowcoder.com/feed/main/detail/e41003e55d574b3a9e217391d71235ed) | 2026-10-29 | opened | 作者明确一面10月19日、二面10月28日，属于新发布的跨窗口经历；部门和offer结果仅为作者自述。简易检索编码不等于搜索业务岗位。 页面另于2026-10-29编辑；published记录首次发布。 |
+| INT316 | [10.23 pdd服务器开发一面](https://www.nowcoder.com/feed/main/detail/45fc12c9500a43e4813682b95da65627) | 2026-10-29 | opened | 标题为10月23日面试，10月29日首次发帖。作者另发同日二面仅为通用后端题，本轮不另计LLM面经。动态Token指鉴权语境，不能等同模型token。 |
+| INT317 | [百度后端（agent）](https://www.nowcoder.com/discuss/945429221868904448) | 2026-10-29 | opened | 航线偏好是候选项目场景，未据此贴推荐或用户增长业务标签；面试发生日未知。 |
+| INT318 | [字节跳动广告算法面经](https://www.nowcoder.com/feed/main/detail/2b53a462bcd94b5c8e54d13b09573a29) | 2026-10-29 | opened | 小旺与阿旺两个账号相隔约一分钟发布同题同文，合并一次，不推定为两位独立候选人；DPO重复提问不另拆题。 |
+| INT319 | [10.30 得物 MLOPS和Agent实习](https://www.nowcoder.com/feed/main/detail/9b098d808abd4bd3921a6c189b0daaf3) | 2026-10-30 | opened | 正文10月30日与首发一致。原帖未公开读代码题完整代码，不补造题面；MLOps与Agent不等于广告或风控岗位。 |
+| INT320 | [字节后端开发日常实习生一面（已寄）](https://www.nowcoder.com/feed/main/detail/6dafc1b05029449eae079c82e0c3cf94) | 2026-10-30 | opened | 原文含作者未答出的题目与主观建议，不能据此推断企业固定难度、通过率或模型正确性。未给面试日。 |
+| INT321 | [腾讯WXG-日常一面面经](https://www.nowcoder.com/feed/main/detail/51cd1f865629448fb15baa44974a3536) | 2026-10-31 | opened | 作者只写“前两天”，不据首发日倒推出精确面试日。面试系统是候选项目；不同CLI记忆实现需按实际版本复核。 |
+| INT322 | [字节推荐大模型算法岗一二面面经](https://www.nowcoder.com/feed/main/detail/aae48985e3d841acbdb708c1b2239c27) | 2026-11-01 | opened | 小旺与阿旺账号相隔44秒发近同文，合并记录，不声称候选人身份独立；日期为首发日，逐轮面试日未给。 |
 
 ## 补充阅读/汇编
 
@@ -192,6 +214,12 @@
 | RES305 | [Google MLE \| L6 \| Interview Experience and Resources for preparation](https://leetcode.com/discuss/post/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/) | 未确认/持续更新 | opened | 属于有亲历叙述但未见LLM证据的邻接资源，未进入LLM自述统计。风控标签仅对应明确的传统内容审核设计；与LLM安全应用有边界。检索片段出现2024年11月两个日期，但标签不足以确定发布/编辑日，published留空。实测旧路径https://leetcode.com/discuss/interview-experience/6010240/Google-MLEor-L6or-Interview-Experience-and-Resources-for-preparation/重定向到本条新路径，同篇只计一次。 |
 | RES306 | [Meta \| SWE-ML \| E5 \| London \| Offer](https://leetcode.com/discuss/post/7066005/) | 未确认/持续更新 | opened | 公开正文没有明确LLM或生成式推荐证据，故只列传统推荐邻接资源，不计LLM亲历。推荐标签来自作者明确描述的设计范围；不因页面可被搜索到而标为搜索。旧路径试开失败，没有观察到旧新URL重定向。日期未知。 |
 | RES307 | [Rippling SDE 2 L6 2026](https://leetcode.com/discuss/post/8367124/) | 未确认/持续更新 | opened | 工程邻接资源：允许AI生成代码不等同于LLM技术面经。作者提到的缓存/事务练习有明确未被本次面试问到的补充，不当作真题。标题归组2026，精确日期未知；新闻聚合场景也不足以推断大模型推荐业务。 |
+| RES401 | [快手客户端 - 中台infra - 面经](https://www.nowcoder.com/discuss/943172379738447872) | 2026-10-23 | opened | 原文重点是客户端基础与实习，Agent部分只公开开放性讨论；腾讯是过去实习，结果仍为作者自述。 |
+| RES402 | [【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](https://www.nowcoder.com/discuss/943143906311430144) | 2026-10-23 | opened | 新发布于窗口内，但标题标9月22日；含大量教学答案和社群引导，缺少足够独立亲历叙述，不计新增自述面经。 |
+| RES403 | [阿里 AI应用开发 实习一面](https://www.nowcoder.com/discuss/945984162802995200) | 2026-10-31 | opened | 页面主要为问答和“我会”式方案，缺少明确发生时间或完整亲历过程；末尾可读内容截断。保守列解析，不计自述，缺失部分不补写。 |
+| RES404 | [阿里 AI应用开发 二面](https://www.nowcoder.com/discuss/945984937780350976) | 2026-10-31 | opened | 与同作者一面稿同属问题加建议答法，未证明为独立亲历；最后Prompt Injection答案只见开头，不扩写隐藏内容。 |
+| RES405 | [字节 Agent 全栈研发一面｜备考题单（整理版）](https://www.nowcoder.com/discuss/946211096669564928) | 2026-11-01 | opened | 作者明确说明来自多条记录、不是同场实录，并引流agent-journey.cn；不计亲历与题频。 |
+| RES406 | [腾讯 Agent 开发一面｜我的备考题单](https://www.nowcoder.com/discuss/946533354818535424) | 2026-11-01 | opened | 作者表述为“准备把这6题讲顺”“下次练”，并引流外站，不能当作已经参加腾讯面试的证据。 |
 
 ## 论文、官方仓库与文档
 

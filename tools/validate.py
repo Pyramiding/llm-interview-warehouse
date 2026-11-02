@@ -5,6 +5,7 @@ import json
 import re
 import sys
 from collections import Counter
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from build_indexes import AS_OF, DOMAIN_RULES, TOPICS, canonical_url
@@ -31,6 +32,23 @@ for file in [ROOT/'data/interviews.json', ROOT/'data/resources.json'] + sorted((
         published = row.get('published')
         if published and re.fullmatch(r'\d{4}-\d{2}-\d{2}', published) and published > AS_OF:
             errors.append(f'{file.name}/{row.get("id")}: future publication')
+        for field in ('published_at', 'updated_at'):
+            if row.get(field):
+                try:
+                    timestamp = datetime.fromisoformat(row[field])
+                    if timestamp.tzinfo is None or timestamp.date().isoformat() > AS_OF:
+                        errors.append(f'{row["id"]}: {field} needs timezone and non-future date')
+                except (ValueError, TypeError):
+                    errors.append(f'{row["id"]}: invalid {field}')
+        if row.get('published_at') and published != row['published_at'][:10]:
+            errors.append(f'{row["id"]}: published differs from first-publication timestamp')
+        if 'question_prompts' in row and (not isinstance(row['question_prompts'], list) or
+                any(not isinstance(q, str) or not q.strip() for q in row['question_prompts'])):
+            errors.append(f'{row["id"]}: question_prompts must contain nonempty strings')
+        if 'alternate_urls' in row and (not isinstance(row['alternate_urls'], list) or
+                any(not isinstance(u, str) or urlsplit(u).scheme not in {'http', 'https'}
+                    for u in row['alternate_urls'])):
+            errors.append(f'{row["id"]}: invalid alternate_urls')
         if file.name in {'interviews.json', 'resources.json'}:
             domains = row.get('domains')
             if not isinstance(domains,list) or any(not isinstance(x,str) for x in domains):
@@ -104,6 +122,12 @@ for name in ('interviews','resources'):
     rows = interviews if name=='interviews' else resources
     keys = [canonical_url(x['url']) for x in rows]
     if len(keys) != len(set(keys)): errors.append(f'{name}: duplicated canonical URLs')
+interview_aliases = [canonical_url(u) for x in interviews for u in [x['url']]+x.get('alternate_urls', [])]
+if len(interview_aliases) != len(set(interview_aliases)):
+    errors.append('interviews: duplicate main URL or known same-source alias')
+fingerprints = [x['content_fingerprint'] for x in interviews if x.get('content_fingerprint')]
+if len(fingerprints) != len(set(fingerprints)):
+    errors.append('interviews: duplicated normalized source text fingerprint')
 for code,title,filename,desc in TOPICS:
     if int(code)>=16:
         chapter_questions = [q for q in questions if q['path']==f'docs/topics/{filename}']
