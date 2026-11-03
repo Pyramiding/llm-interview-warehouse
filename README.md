@@ -1,6 +1,10 @@
 # llm-interview-warehouse
 
-**按研究方向分类的中文大模型面经与题解仓库。** 从公开面经找问法，从一手论文和官方文档校正答案，再用项目、手写和估算练习验证理解。
+**中文大模型面试准备：公开面经、原创题解与学习路线。** 从公开面经找问法，从一手论文和官方文档校正答案，再用项目、手写和估算练习验证理解。
+
+Chinese LLM interview preparation with public interview reports, original explanations, and study plans.
+
+**直接在 GitHub 阅读，无需安装、API 密钥或 GPU。** 面经为求职者公开自述，专题题解为原创研究延伸，不等同于企业官方题库。
 
 最近增补：**2026-11-02**。本轮收录上次资料提交后新发布的面经，重点覆盖**2023—2026年**；各来源的发布、面试与查阅时间分别保留。
 
@@ -12,16 +16,20 @@
 
 ## 从这里开始
 
-- **按目标公司准备：** [按公司查面经（跨公司导航）](docs/interviews/by-company.md)
-- **按公司与业务交叉查：** [公司×搜广推、增长、营销、风控、语音、客服](docs/interviews/company-direction.md)
-- **按资料范围筛选：** [来源平台](docs/interviews/by-platform.md) · [岗位](docs/interviews/by-role.md) · [年份](docs/interviews/by-year.md) · [业务领域](docs/interviews/by-domain.md)
-- **牛客与 LeetCode：** [牛客面经](docs/interviews/by-platform.md#platform-nowcoder) · [LeetCode中文站](docs/interviews/by-platform.md#platform-leetcode-cn) · [LeetCode国际站](docs/interviews/by-platform.md#platform-leetcode-global)
-- **先看实际问法：** [公开面经索引](docs/interviews/README.md) · [按研究方向找面经](docs/interviews/by-topic.md) · [按公司找面经](docs/interviews/by-company.md)
-- **补充汇编与解析：** [分级阅读入口](docs/interviews/resources.md)（含公众号原链与仅元数据项，不计亲历）
-- **本轮更新：** [11月2日增量采集：新面经、日期与去重](docs/incremental-2026-11-02.md) · [牛客与LeetCode增补记录](docs/nowcoder-leetcode-2026-10-23.md) · [知乎/微信/小红书/脉脉增补记录](docs/platform-expansion-2026-10-23.md)
-- **系统查漏补缺：** [全部题目与稳定ID](docs/question-index.md) · [来源目录](docs/source-catalog.md) · [覆盖范围与缺口](docs/coverage.md)
-- **开始练习：** [岗位路线与7/30天计划](docs/preparation/learning-paths.md) · [项目深挖与系统设计](docs/preparation/projects-and-system-design.md) · [手写题与定量估算](docs/preparation/coding-and-estimation.md)
-- **临面复习：** [30个易错结论](docs/preparation/quick-reference.md) · [收集与核验方法](docs/methodology.md)
+1. **已有目标公司：** [按公司找公开面经](docs/interviews/by-company.md)，再按年份、岗位和核验状态筛选。
+2. **需要一份准备计划：** [按岗位选择路线，安排 7/30 天练习](docs/preparation/learning-paths.md)。
+3. **马上要面试：** [先查 30 个易错结论](docs/preparation/quick-reference.md)，再练[项目深挖](docs/preparation/projects-and-system-design.md)和[手写与估算](docs/preparation/coding-and-estimation.md)。
+
+第一次使用，可以先选一个岗位、读一篇相关面经，再做一道专题题。回答时先说结论和条件，再补原理、证据与失败边界。
+
+### 更多查找方式
+
+- **查面经：** [全部公开面经](docs/interviews/README.md) · [研究方向](docs/interviews/by-topic.md) · [公司×业务](docs/interviews/company-direction.md)
+- **按条件筛选：** [平台](docs/interviews/by-platform.md) · [岗位](docs/interviews/by-role.md) · [年份](docs/interviews/by-year.md) · [业务领域](docs/interviews/by-domain.md)
+- **直达常用平台：** [牛客](docs/interviews/by-platform.md#platform-nowcoder) · [LeetCode 中文站](docs/interviews/by-platform.md#platform-leetcode-cn) · [LeetCode 国际站](docs/interviews/by-platform.md#platform-leetcode-global)
+- **查题与依据：** [全部题目与稳定 ID](docs/question-index.md) · [来源目录](docs/source-catalog.md) · [收集与核验方法](docs/methodology.md) · [覆盖范围与缺口](docs/coverage.md)
+- **补充阅读：** [汇编、解析与分级阅读入口](docs/interviews/resources.md)（含公众号原链与仅元数据项，不计亲历）
+- **查看更新：** [11 月 2 日增量记录](docs/incremental-2026-11-02.md) · [牛客与 LeetCode 增补](docs/nowcoder-leetcode-2026-10-23.md) · [其他平台增补](docs/platform-expansion-2026-10-23.md)
 
 ## 研究、工程与应用专题
 
@@ -97,4 +105,10 @@ python3 tools/interview_math.py
 
 ## 贡献与授权
 
-欢迎带原始链接补充面经、纠正公式或提交可复现实验，步骤见[CONTRIBUTING.md](CONTRIBUTING.md)。原创文字采用CC BY 4.0，工具代码采用MIT；第三方内容保留原许可与权利，详见[LICENSE.md](LICENSE.md)。
+想补充或纠错，不必先熟悉仓库结构：
+
+- **发现一篇公开面经：** [提交来源链接](https://github.com/Pyramiding/llm-interview-warehouse/issues/new?template=source.yml)，注明日期、岗位与访问限制。
+- **发现答案或链接有问题：** [提交纠错](https://github.com/Pyramiding/llm-interview-warehouse/issues/new?template=correction.yml)，提供题目 ID / 页面位置、修改依据或复现步骤。
+- **愿意直接修改：** 查看[贡献步骤与验证命令](CONTRIBUTING.md)，从一条来源、一道题或一个失效链接开始。
+
+原创文字采用 CC BY 4.0，工具代码采用 MIT；第三方内容保留原许可与权利，详见[LICENSE.md](LICENSE.md)。

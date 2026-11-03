@@ -2,6 +2,14 @@
 
 欢迎补充公开面经、论文、题解及复现经验。优先提交小而可核实的修改。
 
+## 第一次贡献，从这里选
+
+- **只想提供线索：** 使用[来源表单](https://github.com/Pyramiding/llm-interview-warehouse/issues/new?template=source.yml)。有原始链接和简短说明即可，不必先 fork 或修改 JSON。
+- **指出错误或失效链接：** 使用[纠错表单](https://github.com/Pyramiding/llm-interview-warehouse/issues/new?template=correction.yml)。附题目 ID / 文件路径、问题现象，以及可用的原始依据或复现步骤。
+- **直接提交修改：** 按下方规范编辑源文件，运行验证，再提交 PR。一次 PR 尽量解决一个问题；不确定的事实请明确标为未确认。
+
+请勿提交未公开的面试材料、个人联系方式、账号信息或不必要的个人身份信息；分享本人经历时也请先去除这些内容。
+
 ## 补充面经
 
 编辑`data/interviews.json`，使用新的`INT`编号，填写标题、原始URL、归组年份、可确定的发布日期/面试日、企业自述、岗位、两位专题编号、简短原创摘要、阅读建议、查阅日期、核验状态及备注。无法确认的日期用`null`，不要根据转载推测精确日期。
@@ -25,3 +33,11 @@ python3 tools/check_examples.py
 ```
 
 提交前阅读[来源规范](docs/methodology.md)，不要复制长篇原文或虚构企业归属。若修正公式，请补一个可复现反例或参考来源；若报告失效链接，请注明查阅日期及访问现象，区分删除、反爬、登录和网络失败。
+
+## PR 提交前检查
+
+- [ ] 修改范围清楚，说明改了什么、为什么改。
+- [ ] 新增事实有公开原始链接；无法核实的日期、归属和访问范围已标明。
+- [ ] 未把原创练习或二手汇编写成企业官方真题，未复制长篇原文。
+- [ ] 修改源数据后已运行 `python3 tools/build_indexes.py`，并提交必要的生成文件。
+- [ ] 已运行 `python3 tools/validate.py` 和 `python3 tools/check_examples.py`；不能运行时如实写明原因，不勾选通过。

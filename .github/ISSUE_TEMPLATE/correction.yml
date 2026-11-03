@@ -1,0 +1,30 @@
+name: 纠正题解或失效链接
+description: 报告题目、公式、来源信息或链接问题
+title: "[纠错] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 题目 ID 或页面位置
+      description: 例如题目 ID、文件路径或 GitHub 页面链接。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题是什么
+      description: 说明现有内容、观察到的问题及影响；链接问题请注明查阅日期和访问现象。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 修改依据或复现步骤
+      description: 提供原始论文、官方文档、可复现反例或复现步骤。若暂时无法核实，请直接注明。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议如何修改
+      description: 可以只报告问题，无需提交完整答案。请勿填写未公开面试材料或个人敏感信息。
