@@ -20,6 +20,23 @@ assert kv_cache_bytes(32, 4, 8192, 8, 128) == 4*2**30
 assert retrieval_metrics(['a', 'a', 'b', 'c'], {'b', 'd'}, 3) == {'recall': 0.5, 'rr': 0.5}
 assert retrieval_metrics(['a'], set(), 1) == {'recall': None, 'rr': None}
 assert rrf([['a', 'a', 'b']]) == rrf([['a', 'b']])
+
+# Ranks start at 1: shared is rank 1 in the first list and rank 10 in the second.
+rrf_combined = rrf([
+    ['shared', 'first-only'],
+    ['other-1', 'other-2', 'other-3', 'other-4', 'other-5',
+     'other-6', 'other-7', 'other-8', 'other-9', 'shared', 'second-only'],
+])
+rrf_scores = dict(rrf_combined)
+assert math.isclose(rrf_scores['shared'], 1/61 + 1/70)
+# A document present in only one ranking receives only that ranking's contribution.
+assert math.isclose(rrf_scores['first-only'], 1/62)
+assert math.isclose(rrf_scores['second-only'], 1/71)
+# Equal scores are ordered by the string form of the document ID.
+rrf_tie = rrf([['b'], ['a']])
+assert [doc for doc, _ in rrf_tie] == ['a', 'b']
+assert all(math.isclose(score, 1/61) for _, score in rrf_tie)
+assert rrf([]) == []
 assert [index for index, _ in top_p([0.6, 0.25, 0.15], 0.8)] == [0, 1]
 assert math.isclose(sum(prob for _, prob in top_p([0.6, 0.25, 0.15], 0.8)), 1.0)
 assert len(top_p([0.6, 0.25, 0.15], 1.0)) == 3
