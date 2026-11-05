@@ -56,7 +56,7 @@
 
 <a id="platform-nowcoder"></a>
 
-## 牛客（95条记录）
+## 牛客（114条记录）
 
 - [INT001 · 理想+ 大模型面经](README.md#int001) — 2023；opened
 - [INT002 · 2023秋招nlp算法面经](README.md#int002) — 2023；search_excerpt
@@ -153,6 +153,25 @@
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412) — 2026；opened
 - [INT413 · 百度agent一面](README.md#int413) — 2026；opened
 - [INT414 · 小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](README.md#int414) — 2026；opened
+- [INT501 · 0914 阿里云一面（AI Infra）](README.md#int501) — 2026；opened
+- [INT502 · 阿里AI Infra 二面 面经](README.md#int502) — 2026；opened
+- [INT503 · 字节AI infra校招一面面经 1h](README.md#int503) — 2026；opened
+- [INT504 · 字节data AI infra实习一面](README.md#int504) — 2026；opened
+- [INT505 · AI Infra面经 攒人品版](README.md#int505) — 年份未确认；opened
+- [INT507 · 百川智能医疗大模型后训练面经](README.md#int507) — 2026；opened
+- [INT508 · 小红书暑期实习 AI全栈开发 二面](README.md#int508) — 2026；opened
+- [INT509 · 成都agent 面试](README.md#int509) — 2026；opened
+- [INT510 · 中兴 实习 agent开发 一面凉经](README.md#int510) — 2026；opened
+- [INT511 · 暑期第二周面试情况](README.md#int511) — 2026；opened
+- [INT512 · 抖音电商Agent全栈开发工程师一面](README.md#int512) — 2026；opened
+- [INT513 · 豆包手机测开面经](README.md#int513) — 2026；opened
+- [INT514 · 某教育agent开发面经](README.md#int514) — 2026；opened
+- [INT515 · 第四范式一面](README.md#int515) — 2025；opened
+- [INT516 · Ai Agent实习面经-Soul](README.md#int516) — 2026；opened
+- [INT517 · 腾讯 260824 一面面经](README.md#int517) — 2026；opened
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518) — 年份未确认；opened
+- [INT519 · 滴滴大模型算法岗一面面经](README.md#int519) — 年份未确认；search_excerpt
+- [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520) — 年份未确认；opened
 
 ## 知乎（20条记录）
 
@@ -211,6 +230,11 @@
 - [RB007 · AI Engineering Interview Questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions) — interview_collection；opened
 - [RB008 · Awesome LLM System Design](https://github.com/neurarch-ai/awesome-llm-system-design) — interview_collection；opened
 - [RB009 · AIMLInterviews](https://github.com/alirezadir/AIMLInterviews) — interview_collection；opened
+- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](https://github.com/caomaolufei/AIInfraGuide) — interview_collection；opened
+- [RES602 · AI Infra工程师求职路线图](https://github.com/712sir/ai-infra-career) — preparation_resource；opened
+- [RES603 · AI Infra核心题清单与练习入口](https://github.com/aznikline/interview/blob/main/questions/ai-infra/00-must-know.md) — preparation_resource；opened
+- [RES604 · AgentGuide：AI Infra面试指南](https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/23-frontier-interview-guides/ai-infra.md) — preparation_resource；opened
+- [RES605 · AI-Infra Landscape与云原生学习路线](https://github.com/pacoxu/AI-Infra) — preparation_resource；opened
 
 ### LeetCode中文站
 
@@ -235,6 +259,10 @@
 - [RES007 · 面试面经｜大模型面试八股含答案](https://www.cvmart.net/community/detail/7940) — interview_collection；search_excerpt
 - [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](https://mj.mianlingai.com/interview/kuaishou-ai-fullstack-first-round-2920564/) — interview_collection；opened
 - [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](https://kkcocoa.github.io/ai-infra-field-notes/web/docs/interview/recent-field-reports.html) — interview_collection；opened
+- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](https://note.lgdsunday.club/system-design/q536-realtime-voice-agent-architecture/) — preparation_resource；search_excerpt
+- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](https://mj.mianlingai.com/interview/unknown-company-ai-agent-application-2923282/) — interview_analysis；opened
+- [RES608 · 信雅达Java一面二次解析：NL2SQL项目](https://mj.mianlingai.com/interview/xinyada-java-first-round-2819837/) — interview_analysis；opened
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](https://mj.mianlingai.com/interview/tencent-hunyuan-ai-infra-second-round-2926933/) — interview_analysis；opened
 
 ### 微信公众号
 
@@ -272,6 +300,7 @@
 - [RES505 · 美团 Agent 开发一面](https://www.nowcoder.com/discuss/947080725491150848) — preparation_resource；opened
 - [RES506 · 拼多多 AI Agent 岗一、二面](https://www.nowcoder.com/discuss/947443546225700864) — preparation_resource；opened
 - [RES507 · 小红书PE AI与全栈 一面秒挂？](https://www.nowcoder.com/feed/main/detail/eb319df6903245df94f787a97205c73c) — interview_collection；opened
+- [RES609 · 快手AI Infra题单解析（含明显歧义）](https://www.nowcoder.com/discuss/904326953174323200) — interview_analysis；opened
 
 ### 知乎
 

@@ -4,6 +4,10 @@
 
 本页覆盖多家公司。企业、岗位及经历属于原作者自述；业务标签只依据可见标题、岗位或摘要中的明确词语，不据公司业务推断，每题也不自动归属公司。年份未知单列，资料年份不等于面试发生年份。
 
+## AI Agent前端实习面经（1条记录）
+
+- [INT516 · Ai Agent实习面经-Soul](README.md#int516) — 2026；opened
+
 ## AI Agent后端/校招（1条记录）
 
 - [INT029 · 秋招实录｜连面3场AI-Agent后端岗](README.md#int029) — 2026；search_excerpt
@@ -20,13 +24,29 @@
 
 - [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219) — 2025；opened
 
+## AI Infra二面：多卡稳定性与算子（1条记录）
+
+- [INT502 · 阿里AI Infra 二面 面经](README.md#int502) — 2026；opened
+
+## AI Infra多题回顾（公司未公开）（1条记录）
+
+- [INT505 · AI Infra面经 攒人品版](README.md#int505) — 年份未确认；opened
+
 ## AI Infra实习（1条记录）
 
 - [INT220 · ai infra实习 阿里云面经](README.md#int220) — 年份未确认；opened
 
+## AI Infra校招一面（1条记录）
+
+- [INT503 · 字节AI infra校招一面面经 1h](README.md#int503) — 2026；opened
+
 ## AI Infra（政企业务、偏工程，Agentic RL训练）（1条记录）
 
 - [INT218 · 阿里云 AI Infer 一面](README.md#int218) — 2026；opened
+
+## AI全栈暑期实习二面：NL2SQL（1条记录）
+
+- [INT508 · 小红书暑期实习 AI全栈开发 二面](README.md#int508) — 2026；opened
 
 ## AI全栈秋招（北京，一二面）（1条记录）
 
@@ -60,6 +80,10 @@
 
 - [INT203 · 分享｜中年老登找工作两个月总结](README.md#int203) — 2026；opened
 
+## Agent开发实习一面（1条记录）
+
+- [INT510 · 中兴 实习 agent开发 一面凉经](README.md#int510) — 2026；opened
+
 ## Agent项目与后端一面（1条记录）
 
 - [INT406 · 百度一面面经](README.md#int406) — 2026；opened
@@ -72,6 +96,10 @@
 
 - [INT302 · 10.24 CVTE 视源股份应用开发工程师 一面](README.md#int302) — 2026；opened
 - [INT303 · CVTE 秋招 应用开发工程师 一面](README.md#int303) — 2026；opened
+
+## Data AI Infra实习一面（1条记录）
+
+- [INT504 · 字节data AI infra实习一面](README.md#int504) — 2026；opened
 
 ## Data Science / SDE1（作者表述）（1条记录）
 
@@ -195,6 +223,10 @@
 
 - [IB011 · 一个搜广推MLE在AI转型期的面试观察](README.md#ib011) — 2026；opened
 
+## TikTok Agent秋招一面：会议语音转写（1条记录）
+
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518) — 年份未确认；opened
+
 ## Token Foundry/千问海外测开一面（1条记录）
 
 - [INT409 · 11.3 阿里token foundry 测开 1.5小时](README.md#int409) — 2026；opened
@@ -210,6 +242,10 @@
 ## eBay AI算法实习 / 字节数据科学实习（1条记录）
 
 - [INT202 · 分享｜eBay-AI算法工程师&字节数据科学面经](README.md#int202) — 2024；opened
+
+## 一面：合同审查RAG与国产卡适配（1条记录）
+
+- [INT515 · 第四范式一面](README.md#int515) — 2025；opened
 
 ## 业务中台AI全栈日常实习一二面及HR面（1条记录）
 
@@ -230,6 +266,10 @@
 ## 决策智能/大模型算法（1条记录）
 
 - [INT013 · 达摩院 暑期实习 决策智能实验室 大模型算法](README.md#int013) — 2024；search_excerpt
+
+## 医疗大模型后训练一面（1条记录）
+
+- [INT507 · 百川智能医疗大模型后训练面经](README.md#int507) — 2026；opened
 
 ## 千问Agent社招一面（作者自述P7、5年经验）（1条记录）
 
@@ -311,6 +351,10 @@
 
 - [INT048 · 国内20家公司大模型岗位面试经验汇总](README.md#int048) — 年份未确认；search_excerpt
 
+## 大模型后训练/SFT/RL一面（公开部分）（1条记录）
+
+- [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520) — 年份未确认；opened
+
 ## 大模型基础架构（1条记录）
 
 - [INT008 · 大模型基础架构岗面经（二）](README.md#int008) — 2024；search_excerpt
@@ -343,6 +387,10 @@
 
 - [INT043 · 大模型应用算法社招经历分享](README.md#int043) — 2025；search_excerpt
 
+## 大模型推理性能优化与加速一面（1条记录）
+
+- [INT501 · 0914 阿里云一面（AI Infra）](README.md#int501) — 2026；opened
+
 ## 大模型日常实习（1条记录）
 
 - [INT207 · 字节懂车帝大模型日常实习面经（已oc版](README.md#int207) — 2025；opened
@@ -365,6 +413,10 @@
 ## 大模型算法/秋招（1条记录）
 
 - [INT025 · 26届秋招｜字节大模型算法岗面经](README.md#int025) — 2025；search_excerpt
+
+## 大模型算法一面：智能问数（1条记录）
+
+- [INT519 · 滴滴大模型算法岗一面面经](README.md#int519) — 年份未确认；search_excerpt
 
 ## 大模型算法三面（公开部分）（1条记录）
 
@@ -399,6 +451,10 @@
 
 - [INT107 · 通义实验室大模型三面记录（编目标题）](README.md#int107) — 年份未确认；search_excerpt
 
+## 安全技术/风控算法方向Agent一面（1条记录）
+
+- [INT517 · 腾讯 260824 一面面经](README.md#int517) — 2026；opened
+
 ## 广告算法/TAC（大模型与搜推交叉面）（1条记录）
 
 - [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101) — 2025；opened
@@ -419,6 +475,10 @@
 
 - [INT318 · 字节跳动广告算法面经](README.md#int318) — 2026；opened
 
+## 成都多公司Agent社招复盘（1条记录）
+
+- [INT509 · 成都agent 面试](README.md#int509) — 2026；opened
+
 ## 技术研究—自然语言处理/大模型暑期实习（1条记录）
 
 - [INT221 · 腾讯大模型（技术研究-自然语言处理）面经](README.md#int221) — 2025；opened
@@ -426,6 +486,10 @@
 ## 技术面，具体职位名未写（Java后端与RAG项目）（1条记录）
 
 - [INT224 · 有赞面经](README.md#int224) — 年份未确认；opened
+
+## 抖音电商Agent全栈一面（1条记录）
+
+- [INT512 · 抖音电商Agent全栈开发工程师一面](README.md#int512) — 2026；opened
 
 ## 推荐大模型算法（1条记录）
 
@@ -459,6 +523,10 @@
 
 - [INT037 · 美团2025届秋招搜索推荐算法工程师](README.md#int037) — 2024；search_excerpt
 
+## 教育公司Agent开发（公司未公开）（1条记录）
+
+- [INT514 · 某教育agent开发面经](README.md#int514) — 2026；opened
+
 ## 文心一言大模型算法校招（1条记录）
 
 - [INT039 · 百度2025届秋招提前批文心一言大模型算法工程师](README.md#int039) — 2024；search_excerpt
@@ -474,6 +542,10 @@
 ## 智能客服算法日常实习（1条记录）
 
 - [INT104 · OC了，分享一下美团智能客服面经](README.md#int104) — 2023；search_excerpt
+
+## 暑期多公司实习复盘（1条记录）
+
+- [INT511 · 暑期第二周面试情况](README.md#int511) — 2026；opened
 
 ## 服务器开发秋招一面（1条记录）
 
@@ -534,6 +606,10 @@
 ## 语音/时序算法实习为主，兼有大模型与其他算法岗位（1条记录）
 
 - [INT111 · 算法岗-日常实习-面经](README.md#int111) — 2025；opened
+
+## 豆包手机测开一二面（1条记录）
+
+- [INT513 · 豆包手机测开面经](README.md#int513) — 2026；opened
 
 ## 配送/大模型算法工程师（1条记录）
 

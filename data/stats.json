@@ -1,27 +1,28 @@
 {
   "as_of": "2026-11-05",
-  "interview_records": 142,
-  "reading_resources": 86,
+  "interview_records": 161,
+  "reading_resources": 96,
+  "specialties": 29,
   "topics": 23,
   "topic_questions": 414,
   "practice_questions": 26,
   "total_questions": 440,
-  "normalized_source_urls": 411,
+  "normalized_source_urls": 440,
   "research_source_urls": 183,
   "verification": {
-    "opened": 331,
-    "search_excerpt": 73,
+    "opened": 358,
+    "search_excerpt": 75,
     "metadata_only": 7
   },
   "interviews_by_year": {
     "2023": 12,
     "2024": 27,
-    "2025": 36,
-    "2026": 50,
-    "null": 17
+    "2025": 37,
+    "2026": 64,
+    "null": 21
   },
   "interviews_by_platform": {
-    "牛客": 95,
+    "牛客": 114,
     "知乎": 20,
     "脉脉": 4,
     "人人都是产品经理": 1,
@@ -33,23 +34,23 @@
     "LeetCode国际站": 8
   },
   "interview_source_types": {
-    "interview_self_report": 142
+    "interview_self_report": 161
   },
   "interviews_by_domain": {
-    "业务领域未明确": 103,
-    "搜索": 12,
+    "业务领域未明确": 118,
+    "搜索": 13,
     "推荐": 16,
     "用户增长": 2,
     "广告": 12,
-    "风控": 5,
-    "客服": 4,
-    "语音": 2,
+    "风控": 6,
+    "客服": 5,
+    "语音": 4,
     "营销": 2
   },
   "resources_by_platform": {
-    "GitHub": 16,
-    "其他公开来源": 3,
-    "牛客": 19,
+    "GitHub": 21,
+    "其他公开来源": 7,
+    "牛客": 20,
     "脉脉": 9,
     "知乎": 17,
     "一亩三分地": 2,

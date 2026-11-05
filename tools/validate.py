@@ -101,6 +101,26 @@ if {p.name for p in (ROOT/'docs/topics').glob('*.md')} != {t[2] for t in TOPICS}
     errors.append('topic files differ from TOPICS registry')
 interviews = json.loads((ROOT/'data/interviews.json').read_text())
 resources = json.loads((ROOT/'data/resources.json').read_text())
+specialties = json.loads((ROOT/'data/specialties.json').read_text())
+specialty_ids = [x.get('id') for x in specialties]
+if len(set(specialty_ids)) != len(specialty_ids):
+    errors.append('duplicate specialty ids')
+for specialty in specialties:
+    if not re.fullmatch(r'[a-z]+(?:-[a-z]+)+', specialty.get('id', '')):
+        errors.append('invalid specialty id')
+    if not all(isinstance(specialty.get(k), str) and specialty[k].strip()
+               for k in ('name', 'group', 'description')):
+        errors.append(f'{specialty.get("id")}: missing specialty metadata')
+    if specialty.get('group') not in {'LLM Infra', 'Agent与模型工程', '应用场景'}:
+        errors.append(f'{specialty.get("id")}: invalid specialty group')
+    for key, rows in (('interview_ids', interviews), ('resource_ids', resources)):
+        refs = specialty.get(key)
+        if not isinstance(refs, list) or any(not isinstance(x, str) for x in refs):
+            errors.append(f'{specialty.get("id")}: invalid {key}')
+        elif len(refs) != len(set(refs)) or not set(refs) <= {x['id'] for x in rows}:
+            errors.append(f'{specialty.get("id")}: duplicate or unknown {key}')
+if stats.get('specialties') != len(specialties):
+    errors.append('specialty statistics mismatch')
 research = [x for p in (ROOT/'data').glob('sources-*.json') for x in json.loads(p.read_text())]
 sources = json.loads((ROOT/'data/sources.json').read_text())
 checks = {'interview_records': len(interviews), 'reading_resources': len(resources), 'topics': len(TOPICS),

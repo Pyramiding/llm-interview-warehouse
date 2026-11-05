@@ -49,7 +49,7 @@
 - [INT213 · 美团 大模型算法工程师 配送 一面（附带吐槽）](README.md#int213) — 2024；opened
 - [INT225 · Avaamo | Interview (All rounds) | Senior MLE | Bengaluru](README.md#int225) — 2024；opened
 
-## 2025（36条记录）
+## 2025（37条记录）
 
 - [INT015 · 网易有道 多模态实习（20250120）](README.md#int015) — 2025；search_excerpt
 - [INT016 · 阿里云 AI平台研发 一面](README.md#int016) — 2025；search_excerpt
@@ -87,8 +87,9 @@
 - [INT223 · BAT集齐？暑期实习面经分享](README.md#int223) — 2025；opened
 - [INT230 · Groww SDE intern Interview Experience (AI/LLM) role | 6 month](README.md#int230) — 2025；opened
 - [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232) — 2025；opened
+- [INT515 · 第四范式一面](README.md#int515) — 2025；opened
 
-## 2026（50条记录）
+## 2026（64条记录）
 
 - [INT026 · 字节 260901 一面面经](README.md#int026) — 2026；opened
 - [INT027 · 面经复盘（2026.5.7）](README.md#int027) — 2026；opened
@@ -140,8 +141,22 @@
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412) — 2026；opened
 - [INT413 · 百度agent一面](README.md#int413) — 2026；opened
 - [INT414 · 小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](README.md#int414) — 2026；opened
+- [INT501 · 0914 阿里云一面（AI Infra）](README.md#int501) — 2026；opened
+- [INT502 · 阿里AI Infra 二面 面经](README.md#int502) — 2026；opened
+- [INT503 · 字节AI infra校招一面面经 1h](README.md#int503) — 2026；opened
+- [INT504 · 字节data AI infra实习一面](README.md#int504) — 2026；opened
+- [INT507 · 百川智能医疗大模型后训练面经](README.md#int507) — 2026；opened
+- [INT508 · 小红书暑期实习 AI全栈开发 二面](README.md#int508) — 2026；opened
+- [INT509 · 成都agent 面试](README.md#int509) — 2026；opened
+- [INT510 · 中兴 实习 agent开发 一面凉经](README.md#int510) — 2026；opened
+- [INT511 · 暑期第二周面试情况](README.md#int511) — 2026；opened
+- [INT512 · 抖音电商Agent全栈开发工程师一面](README.md#int512) — 2026；opened
+- [INT513 · 豆包手机测开面经](README.md#int513) — 2026；opened
+- [INT514 · 某教育agent开发面经](README.md#int514) — 2026；opened
+- [INT516 · Ai Agent实习面经-Soul](README.md#int516) — 2026；opened
+- [INT517 · 腾讯 260824 一面面经](README.md#int517) — 2026；opened
 
-## 年份未确认（17条记录）
+## 年份未确认（21条记录）
 
 - [INT048 · 国内20家公司大模型岗位面试经验汇总](README.md#int048) — 年份未确认；search_excerpt
 - [IB012 · 赛博土木LLM Inference Role面试总结](README.md#ib012) — 年份未确认；opened
@@ -160,3 +175,7 @@
 - [INT226 · Google SWE 3 (L4) ML Role — Feedback & Team Match Update, What Are My Chances?](README.md#int226) — 年份未确认；opened
 - [INT229 · Kotak Mahindra Bank Data Scientist Interview Experience](README.md#int229) — 年份未确认；opened
 - [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231) — 年份未确认；opened
+- [INT505 · AI Infra面经 攒人品版](README.md#int505) — 年份未确认；opened
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518) — 年份未确认；opened
+- [INT519 · 滴滴大模型算法岗一面面经](README.md#int519) — 年份未确认；search_excerpt
+- [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520) — 年份未确认；opened

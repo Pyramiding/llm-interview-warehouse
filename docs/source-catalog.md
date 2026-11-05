@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [来源规范](methodology.md)
 
-共411个规范化来源链接：142条面经记录、86个补充入口，以及专题研究来源。计数方法及局限见来源规范。查阅日期均记录于JSON。
+共440个规范化来源链接：161条面经记录、96个补充入口，以及专题研究来源。计数方法及局限见来源规范。查阅日期均记录于JSON。
 
 ## 公开面经
 
@@ -150,6 +150,25 @@
 | INT412 | [字节跳动 后端 Agent 二面 面经](https://www.nowcoder.com/feed/main/detail/e1a39b118d6d498d969c7a697be37011) | 2026-11-04 | opened | 与INT408为同一作者的一二面。营销和生图生视频来自反问中的团队工作说明，不是候选项目已经取得的效果；原帖未考具体扩散模型推导。面试日未给，首发日不代替。 |
 | INT413 | [百度agent一面](https://www.nowcoder.com/feed/main/detail/3903a12df0d342619ce1a550b7b65e1c) | 2026-11-04 | opened | 正文写11月4日、45分钟。优惠券发放是单列的后端项目，未明确与大模型联动，因此不自动贴用户增长或营销标签。 |
 | INT414 | [小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](https://www.nowcoder.com/discuss/947237875282632704) | 2026-11-03 | opened | 作者自述60分钟，未给面试日期。首发与完整正文已核对；文中业务规模与线上策略未经企业核实。示例量化范围、舍入和轴的结论需结合具体实现核对，不作为通用标准答案。 |
+| INT501 | [0914 阿里云一面（AI Infra）](https://www.nowcoder.com/feed/main/detail/40f786c658f44730876703db3b1504ac) | 2026-09-14 | opened | 标题为9月14日，首发元数据确认2026年；约30分钟。硬件与软件生态是面试设问，原文没有给出可直接采用的官方兼容性结论。 |
+| INT502 | [阿里AI Infra 二面 面经](https://www.nowcoder.com/feed/main/detail/328e2dada5f246889e354707926f6da0) | 2026-09-18 | opened | 首发时间可核对，面试日未单列。仅作者标题自述阿里二面；没有把Split-K等设问自动写成无条件技术定律。 |
+| INT503 | [字节AI infra校招一面面经 1h](https://www.nowcoder.com/feed/main/detail/bb24ea24216242ae8fb57557cfbc1bbd) | 2026-02-28 | opened | 作者自述约1小时；首发2026年2月28日，面试日期未知。题目很短，不视为完整考察清单。 |
+| INT504 | [字节data AI infra实习一面](https://www.nowcoder.com/feed/main/detail/bc33c3177416455e908affbb8d06d74c) | 2026-03-13 | opened | 首发元数据确认2026年3月13日。图片/视频生成只在反问中提及，不因此认定已考生成模型原理；FP8收益是待举证的问题。 |
+| INT505 | [AI Infra面经 攒人品版](https://www.nowcoder.com/feed/main/detail/d695614a06424c148c04586ac3a66e78) | 未确认/持续更新 | opened | 原帖已打开，页面仅显示03-03，首发年份与具体公司未确认，日期留空。作者说回顾此前面经，不能按题目数量拆成多场或推定公司。 |
+| INT507 | [百川智能医疗大模型后训练面经](https://www.nowcoder.com/feed/main/detail/d209892dc2cf43c6859a776c5e526eca) | 2026-08-22 | opened | 作者自述约40分钟一面、等待二面；具体面试日期未给。 |
+| INT508 | [小红书暑期实习 AI全栈开发 二面](https://www.nowcoder.com/feed/main/detail/4dbb7539b78a4d1ca3d48a837b4a83d8) | 2026-04-09 | opened | 首发元数据确认2026年4月9日。NL2SQL属于候选项目，不能据此推定小红书招聘团队专做智能BI。 |
+| INT509 | [成都agent 面试](https://www.nowcoder.com/feed/main/detail/da4f544e4bdd4d4ca0827b411550f487) | 2026-05-26 | opened | 公司名称未公开，整篇计一条。电商只在第一场介绍出现，客服与网关问题在后续公司，不能跨公司混配考点。主观体验不当作企业事实。 |
+| INT510 | [中兴 实习 agent开发 一面凉经](https://www.nowcoder.com/feed/main/detail/81ef46253510446d93530b20fcb0815f) | 2026-05-21 | opened | 医疗是候选人的过往实习，不是中兴团队业务；512阈值为原文被追问的实现，不作为推荐规则。 |
+| INT511 | [暑期第二周面试情况](https://www.nowcoder.com/feed/main/detail/adbb94fa8cd34162b92faca61b1e7b46) | 2026-03-27 | opened | 匿名量化公司未猜名称。公司与问题归属以原文分段为准，整篇一条；首发2026年3月27日，具体轮次日期未逐项给出。 |
+| INT512 | [抖音电商Agent全栈开发工程师一面](https://www.nowcoder.com/discuss/925066865183858688) | 2026-09-03 | opened | 电商是标题中的岗位业务，正文主要考候选知识库与图谱项目，未证明已问商品交易设计。原页存在后续编辑，首发与当时模型版本不能混为一谈。 |
+| INT513 | [豆包手机测开面经](https://www.nowcoder.com/feed/main/detail/9d71bf5395484506ba9dada312e2a9e9) | 2026-03-18 | opened | 首发3月18日、后续编辑补充轮次；并非ASR/TTS算法训练岗。商业语音为候选项目，不自动视为豆包手机产品内部实现。 |
+| INT514 | [某教育agent开发面经](https://www.nowcoder.com/feed/main/detail/505159fb5f874d909c0c252f3f959ea0) | 2026-04-09 | opened | 教育由标题标注，公司未公开，正文没有教学效果或作业批改题，不能扩写成教育算法专岗。 |
+| INT515 | [第四范式一面](https://www.nowcoder.com/discuss/821428541282611200) | 2025-11-21 | opened | 首发2025年11月21日。法律是候选项目；反问描述团队偏模型与国产卡融合，不能改标为第四范式法律产品团队。 |
+| INT516 | [Ai Agent实习面经-Soul](https://www.nowcoder.com/feed/main/detail/44eb859c69dc442db03bf2f58d8c3b28) | 2026-03-04 | opened | 正文为第一人称短篇问题回忆，轮次与面试日未给；未因为Soul品牌推定考察情感陪伴或个性化推荐。 |
+| INT517 | [腾讯 260824 一面面经](https://www.nowcoder.com/feed/main/detail/bf38563e18af48269c0e710993d3f06e) | 2026-10-02 | opened | 标题260824说明8月24日面试，首发10月2日、编辑10月4日。未问出的欺诈策略、信贷模型不补写。 |
+| INT518 | [字节AI Agent开发秋招一面面经](https://www.nowcoder.com/feed/main/detail/7b1b40fda3244715a82bcb4a821ca887) | 未确认/持续更新 | opened | 已打开原帖，标题/正文说明TikTok与8月9日面试；当前只取得月日显示，年份及首发时间未确认。聚合站的2026标注未拿来补造日期。 |
+| INT519 | [滴滴大模型算法岗一面面经](https://www.nowcoder.com/feed/main/detail/d6b5184d017a4e17b6348ca01dbd9bb9) | 未确认/持续更新 | search_excerpt | 仅核对公开搜索片段，原页读取未成功；首发年份和具体面试日未知。不能据此认定SQL生成或生产查询权限方案已被问到。 |
+| INT520 | [MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](https://www.nowcoder.com/discuss/925527528259743744) | 未确认/持续更新 | opened | 已打开原帖，后续约60%内容需要订阅，未获取隐藏问题或答案。页面只见09-04，年份与实际面试日未确认；导语中的项目体验为作者自述。 |
 
 ## 补充阅读/汇编
 
@@ -241,6 +260,16 @@
 | RES505 | [美团 Agent 开发一面](https://www.nowcoder.com/discuss/947080725491150848) | 2026-11-03 | opened | 正文明确“客服方向的一面备考题单”“下次”练习，并引流外站。公司归属仅来自标题，放在客服补充阅读，不计美团亲历面经。 |
 | RES506 | [拼多多 AI Agent 岗一、二面](https://www.nowcoder.com/discuss/947443546225700864) | 2026-11-04 | opened | 正文自称“备考”“准备分四块练”，并含外站引流；不据标题认定已经发生拼多多一二面。 |
 | RES507 | [小红书PE AI与全栈 一面秒挂？](https://www.nowcoder.com/feed/main/detail/eb319df6903245df94f787a97205c73c) | 2026-11-03 | opened | 作者11月3日称小红书一面，10月27日INT308称网易云音乐二面；两页20项问题序列高度重合。无法独立确认是复用面试题、整理复用还是归属有误，保留两个原链并降为补充题单，不擅自改判任何一家公司。 |
+| RES601 | [AIInfraGuide：训练、推理、CUDA与公司面经汇编](https://github.com/caomaolufei/AIInfraGuide) | 未确认/持续更新 | opened | 已读README及AML、TEG样例。仓库自称180+场，不等于本库独立核验了这些经历；样例pubDate为编目元数据，不能当原面试日期。TEG样例主要是数据库/OS，不自动算LLM考点。 |
+| RES602 | [AI Infra工程师求职路线图](https://github.com/712sir/ai-infra-career) | 未确认/持续更新 | opened | 已读公开README；时间预算和学习阶段是个人计划，不能视为招聘市场统计或真实面经。 |
+| RES603 | [AI Infra核心题清单与练习入口](https://github.com/aznikline/interview/blob/main/questions/ai-infra/00-must-know.md) | 未确认/持续更新 | opened | 作者题单与参考讲法，未指认具体企业面试；不计亲历或官方答案。 |
+| RES604 | [AgentGuide：AI Infra面试指南](https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/23-frontier-interview-guides/ai-infra.md) | 未确认/持续更新 | opened | 专题教程，不提供独立亲历证据；表中通用趋势需结合具体模型、硬件和版本验证。 |
+| RES605 | [AI-Infra Landscape与云原生学习路线](https://github.com/pacoxu/AI-Infra) | 未确认/持续更新 | opened | 已读README。景观、路线和仓库更新时间不是面试经历，也不代表列举项目全部成熟可用。 |
+| RES606 | [实时语音Agent系统设计：延迟、轮次与打断](https://note.lgdsunday.club/system-design/q536-realtime-voice-agent-architecture/) | 未确认/持续更新 | search_excerpt | 搜索可见内容明确写“模拟面试，不是真实面经”；页面虽有美团字样，不据此标为美团真题。直接读取失败，保留片段核验。 |
+| RES607 | [智能体应用二次解析：PDF、JSON输出与NL2SQL](https://mj.mianlingai.com/interview/unknown-company-ai-agent-application-2923282/) | 未确认/持续更新 | opened | 已读汇编，未找到可核对牛客原链；2026-10是目录报道月份，不用月初补造发布日。Jev原文术语不明，不自行解读为模型名称。 |
+| RES608 | [信雅达Java一面二次解析：NL2SQL项目](https://mj.mianlingai.com/interview/xinyada-java-first-round-2819837/) | 未确认/持续更新 | opened | 已读汇编，原始牛客链接未能定位；2026-03为汇编标注月份，不当首发或面试精确日期。公司归属仅依汇编，不计亲历。 |
+| RES609 | [快手AI Infra题单解析（含明显歧义）](https://www.nowcoder.com/discuss/904326953174323200) | 2026-07-08 | opened | 原文没有明确个人面试叙事，且“常见量化策略”给的是金融策略，存在语境错配；不将标题或附带答案作为真实面试和技术正确性的证明。 |
+| RES610 | [腾讯混元Infra二面二次解析：GPU、KV与算子](https://mj.mianlingai.com/interview/tencent-hunyuan-ai-infra-second-round-2926933/) | 未确认/持续更新 | opened | 已读二次汇编，定位的牛客原帖当前只返回页面壳，未把汇编算作独立亲历。2026-10是报道月份，不补造原帖日期；架构与性能断言需再核官方资料。 |
 
 ## 论文、官方仓库与文档
 

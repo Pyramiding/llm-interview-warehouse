@@ -111,6 +111,9 @@
 - [INT310 · 字节搜广推算法秋招一面](README.md#int310)（2026；搜广推算法秋招一面）
 - [INT319 · 10.30 得物 MLOPS和Agent实习](README.md#int319)（2026；MLOps与Agent日常实习一面）
 - [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402)（2026；大模型算法三面（公开部分））
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
+- [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
+- [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
 
 ### 补充汇编与解析（不计亲历）
 
@@ -166,6 +169,10 @@
 - [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232)（2025；Applied Data Scientist）
 - [INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304)（2026；广告算法秋招一二面）
 - [INT404 · 快手OneRec算法岗一二面面经](README.md#int404)（2026；OneRec算法一二面）
+- [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
+- [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
+- [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
+- [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
 
 ### 补充汇编与解析（不计亲历）
 
@@ -234,6 +241,8 @@
 - [INT313 · 字节大模型实习算法岗面经](README.md#int313)（2026；大模型算法实习面试）
 - [INT318 · 字节跳动广告算法面经](README.md#int318)（2026；广告算法面试）
 - [INT404 · 快手OneRec算法岗一二面面经](README.md#int404)（2026；OneRec算法一二面）
+- [INT507 · 百川智能医疗大模型后训练面经](README.md#int507)（2026；医疗大模型后训练一面）
+- [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
 
 ### 补充汇编与解析（不计亲历）
 
@@ -279,6 +288,10 @@
 - [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322)（2026；推荐大模型算法一二面）
 - [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402)（2026；大模型算法三面（公开部分））
 - [INT404 · 快手OneRec算法岗一二面面经](README.md#int404)（2026；OneRec算法一二面）
+- [INT502 · 阿里AI Infra 二面 面经](README.md#int502)（2026；AI Infra二面：多卡稳定性与算子）
+- [INT503 · 字节AI infra校招一面面经 1h](README.md#int503)（2026；AI Infra校招一面）
+- [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -292,6 +305,7 @@
 - [RB018 · 阿里云多模态大模型岗三面面经](resources.md#rb018) — search_excerpt
 - [RES223 · 快手大模型算法面经爆料](resources.md#res223) — opened
 - [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — opened
 
 ## 06 · RAG与检索
 
@@ -344,6 +358,15 @@
 - [INT409 · 11.3 阿里token foundry 测开 1.5小时](README.md#int409)（2026；Token Foundry/千问海外测开一面）
 - [INT411 · 科大讯飞后端 timeline&面经](README.md#int411)（2026；后端秋招一二面及HR面复盘）
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412)（2026；后端Agent二面：营销场景与方案比较）
+- [INT508 · 小红书暑期实习 AI全栈开发 二面](README.md#int508)（2026；AI全栈暑期实习二面：NL2SQL）
+- [INT509 · 成都agent 面试](README.md#int509)（2026；成都多公司Agent社招复盘）
+- [INT510 · 中兴 实习 agent开发 一面凉经](README.md#int510)（2026；Agent开发实习一面）
+- [INT512 · 抖音电商Agent全栈开发工程师一面](README.md#int512)（2026；抖音电商Agent全栈一面）
+- [INT514 · 某教育agent开发面经](README.md#int514)（2026；教育公司Agent开发（公司未公开））
+- [INT515 · 第四范式一面](README.md#int515)（2025；一面：合同审查RAG与国产卡适配）
+- [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
+- [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -379,6 +402,8 @@
 - [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
 - [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（准备/邻接阅读） — opened
 - [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — opened
+- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — opened
+- [RES608 · 信雅达Java一面二次解析：NL2SQL项目](resources.md#res608) — opened
 
 ## 07 · Agent与工具调用
 
@@ -435,6 +460,18 @@
 - [INT411 · 科大讯飞后端 timeline&面经](README.md#int411)（2026；后端秋招一二面及HR面复盘）
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412)（2026；后端Agent二面：营销场景与方案比较）
 - [INT413 · 百度agent一面](README.md#int413)（2026；Agent实习一面：代码生成与多Agent）
+- [INT507 · 百川智能医疗大模型后训练面经](README.md#int507)（2026；医疗大模型后训练一面）
+- [INT508 · 小红书暑期实习 AI全栈开发 二面](README.md#int508)（2026；AI全栈暑期实习二面：NL2SQL）
+- [INT509 · 成都agent 面试](README.md#int509)（2026；成都多公司Agent社招复盘）
+- [INT510 · 中兴 实习 agent开发 一面凉经](README.md#int510)（2026；Agent开发实习一面）
+- [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
+- [INT512 · 抖音电商Agent全栈开发工程师一面](README.md#int512)（2026；抖音电商Agent全栈一面）
+- [INT513 · 豆包手机测开面经](README.md#int513)（2026；豆包手机测开一二面）
+- [INT514 · 某教育agent开发面经](README.md#int514)（2026；教育公司Agent开发（公司未公开））
+- [INT516 · Ai Agent实习面经-Soul](README.md#int516)（2026；AI Agent前端实习面经）
+- [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
+- [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
 
 ### 补充汇编与解析（不计亲历）
 
@@ -471,6 +508,10 @@
 - [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
 - [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（准备/邻接阅读） — opened
 - [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — opened
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
+- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（准备/邻接阅读） — opened
+- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（准备/邻接阅读） — search_excerpt
+- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — opened
 
 ## 08 · 推理优化与在线服务
 
@@ -515,6 +556,15 @@
 - [INT321 · 腾讯WXG-日常一面面经](README.md#int321)（2026；WXG后端日常实习一面）
 - [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402)（2026；大模型算法三面（公开部分））
 - [INT414 · 小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](README.md#int414)（2026；端侧推理一面）
+- [INT501 · 0914 阿里云一面（AI Infra）](README.md#int501)（2026；大模型推理性能优化与加速一面）
+- [INT502 · 阿里AI Infra 二面 面经](README.md#int502)（2026；AI Infra二面：多卡稳定性与算子）
+- [INT503 · 字节AI infra校招一面面经 1h](README.md#int503)（2026；AI Infra校招一面）
+- [INT504 · 字节data AI infra实习一面](README.md#int504)（2026；Data AI Infra实习一面）
+- [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
+- [INT509 · 成都agent 面试](README.md#int509)（2026；成都多公司Agent社招复盘）
+- [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
+- [INT514 · 某教育agent开发面经](README.md#int514)（2026；教育公司Agent开发（公司未公开））
+- [INT515 · 第四范式一面](README.md#int515)（2025；一面：合同审查RAG与国产卡适配）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -545,6 +595,14 @@
 - [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — opened
 - [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — opened
 - [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
+- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — opened
+- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（准备/邻接阅读） — opened
+- [RES603 · AI Infra核心题清单与练习入口](resources.md#res603)（准备/邻接阅读） — opened
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
+- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（准备/邻接阅读） — opened
+- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（准备/邻接阅读） — search_excerpt
+- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — opened
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — opened
 
 ## 09 · 分布式训练与AI Infra
 
@@ -576,6 +634,10 @@
 - [INT309 · 10月面试退展](README.md#int309)（2026；量化/推理/编译器/搜广推Infra多公司复盘）
 - [INT312 · pdd 提前批 AI Infra一面 凉经（一个月前）](README.md#int312)（2026；提前批AI Infra一面回忆）
 - [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402)（2026；大模型算法三面（公开部分））
+- [INT502 · 阿里AI Infra 二面 面经](README.md#int502)（2026；AI Infra二面：多卡稳定性与算子）
+- [INT503 · 字节AI infra校招一面面经 1h](README.md#int503)（2026；AI Infra校招一面）
+- [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
+- [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -589,6 +651,13 @@
 - [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — search_excerpt
 - [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
 - [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
+- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — opened
+- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（准备/邻接阅读） — opened
+- [RES603 · AI Infra核心题清单与练习入口](resources.md#res603)（准备/邻接阅读） — opened
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
+- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（准备/邻接阅读） — opened
+- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — opened
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — opened
 
 ## 10 · 量化、压缩与蒸馏
 
@@ -606,6 +675,18 @@
 - [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
 - [INT309 · 10月面试退展](README.md#int309)（2026；量化/推理/编译器/搜广推Infra多公司复盘）
 - [INT414 · 小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](README.md#int414)（2026；端侧推理一面）
+- [INT501 · 0914 阿里云一面（AI Infra）](README.md#int501)（2026；大模型推理性能优化与加速一面）
+- [INT504 · 字节data AI infra实习一面](README.md#int504)（2026；Data AI Infra实习一面）
+- [INT510 · 中兴 实习 agent开发 一面凉经](README.md#int510)（2026；Agent开发实习一面）
+- [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
+
+### 补充汇编与解析（不计亲历）
+
+- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — opened
+- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（准备/邻接阅读） — opened
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
+- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — opened
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — opened
 
 ## 11 · 推理能力与测试时计算
 
@@ -648,6 +729,7 @@
 - [INT313 · 字节大模型实习算法岗面经](README.md#int313)（2026；大模型算法实习面试）
 - [INT401 · 字节业务中台AI全栈凉经](README.md#int401)（2026；业务中台AI全栈日常实习一二面及HR面）
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412)（2026；后端Agent二面：营销场景与方案比较）
+- [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
 
 ### 补充汇编与解析（不计亲历）
 
@@ -737,6 +819,15 @@
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412)（2026；后端Agent二面：营销场景与方案比较）
 - [INT413 · 百度agent一面](README.md#int413)（2026；Agent实习一面：代码生成与多Agent）
 - [INT414 · 小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](README.md#int414)（2026；端侧推理一面）
+- [INT504 · 字节data AI infra实习一面](README.md#int504)（2026；Data AI Infra实习一面）
+- [INT508 · 小红书暑期实习 AI全栈开发 二面](README.md#int508)（2026；AI全栈暑期实习二面：NL2SQL）
+- [INT512 · 抖音电商Agent全栈开发工程师一面](README.md#int512)（2026；抖音电商Agent全栈一面）
+- [INT513 · 豆包手机测开面经](README.md#int513)（2026；豆包手机测开一二面）
+- [INT514 · 某教育agent开发面经](README.md#int514)（2026；教育公司Agent开发（公司未公开））
+- [INT516 · Ai Agent实习面经-Soul](README.md#int516)（2026；AI Agent前端实习面经）
+- [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
+- [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -764,6 +855,9 @@
 - [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
 - [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（准备/邻接阅读） — opened
 - [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — opened
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
+- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — opened
+- [RES608 · 信雅达Java一面二次解析：NL2SQL项目](resources.md#res608) — opened
 
 ## 14 · 代码模型与具身智能
 
@@ -830,6 +924,8 @@
 - [INT228 · Amazon SDE-1 Interview Experience (TCS → Amazon, 2 YOE) — Timeline, Preparation & Offer](README.md#int228)（2026；SDE-1）
 - [INT230 · Groww SDE intern Interview Experience (AI/LLM) role | 6 month](README.md#int230)（2025；SDE Intern（AI/LLM，六个月））
 - [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231)（年份未确认；SWE III ML，Gemini Applications团队HM轮）
+- [INT507 · 百川智能医疗大模型后训练面经](README.md#int507)（2026；医疗大模型后训练一面）
+- [INT515 · 第四范式一面](README.md#int515)（2025；一面：合同审查RAG与国产卡适配）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -957,6 +1053,7 @@
 - [INT214 · 字节跳动风控算法一面](README.md#int214)（年份未确认；风控算法实习（Data中台，作者转述））
 - [INT215 · 字节风控算法面经](README.md#int215)（2025；风控算法（校招或社招性质未说明））
 - [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
+- [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
 
 ### 补充汇编与解析（不计亲历）
 
@@ -971,11 +1068,14 @@
 
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
 - [INT224 · 有赞面经](README.md#int224)（年份未确认；技术面，具体职位名未写（Java后端与RAG项目））
+- [INT513 · 豆包手机测开面经](README.md#int513)（2026；豆包手机测开一二面）
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 
 ### 补充汇编与解析（不计亲历）
 
 - [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
 - [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） — search_excerpt
+- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（准备/邻接阅读） — search_excerpt
 
 ## 23 · 大模型与客服
 
@@ -985,6 +1085,7 @@
 - [INT104 · OC了，分享一下美团智能客服面经](README.md#int104)（2023；智能客服算法日常实习）
 - [INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216)（年份未确认；Keeta Agent开发（智能客服方向））
 - [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217)（2025；腾讯客服后台开发（作者自述TEG））
+- [INT509 · 成都agent 面试](README.md#int509)（2026；成都多公司Agent社招复盘）
 
 ### 补充汇编与解析（不计亲历）
 

@@ -1,0 +1,293 @@
+{
+  "as_of": "2026-11-05",
+  "mode": "historical_direction_expansion",
+  "curation_years": "2023—2026；无法确认年份的公开原帖单列",
+  "base_repository_commit": "1ea8fbacf8985df4062ede3ea18d47fe907d1a31",
+  "method": "按技术与应用方向回补历史资料，不限上次提交后的发布时间；公开搜索/汇编发现后追溯原帖。短摘要和少量问题改写，不复制全文，不绕过登录/付费限制。",
+  "new_interview_ids": [
+    "INT501",
+    "INT502",
+    "INT503",
+    "INT504",
+    "INT505",
+    "INT507",
+    "INT508",
+    "INT509",
+    "INT510",
+    "INT511",
+    "INT512",
+    "INT513",
+    "INT514",
+    "INT515",
+    "INT516",
+    "INT517",
+    "INT518",
+    "INT519",
+    "INT520"
+  ],
+  "new_resource_ids": [
+    "RES601",
+    "RES602",
+    "RES603",
+    "RES604",
+    "RES605",
+    "RES606",
+    "RES607",
+    "RES608",
+    "RES609",
+    "RES610"
+  ],
+  "new_question_prompt_count": 75,
+  "source_boundaries": [
+    "聚合站月份不是原帖首发日，GitHub frontmatter编目日不是面试日。",
+    "无法取得首发元数据时保留未知年份，不根据ID或工具版本推断。",
+    "腾讯混元原帖未读到，以二次解析收录；MiniMax仅采用付费墙之前的公开内容。",
+    "语音模拟面试、题库和学习路线不计亲历。候选项目领域与招聘团队业务分别说明。"
+  ],
+  "discovery_pages": [
+    "https://kkcocoa.github.io/ai-infra-field-notes/web/docs/interview/recent-field-reports.html",
+    "https://mianstack.com/interview/mj-nc-2026-0174/?view=questions",
+    "https://mj.mianlingai.com/interview/unknown-company-ai-agent-application-2923282/",
+    "https://mj.mianlingai.com/interview/xinyada-java-first-round-2819837/",
+    "https://api-cdn.nowcoder.com/users/541762339?contentPage=2",
+    "https://www.nowcoder.com/enterprise/2407/interview",
+    "https://www.nowcoder.com/enterprise/930/interview",
+    "https://www.nowcoder.com/users/720362919",
+    "https://mianstack.com/interview/mj-nc-2026-0904/?view=questions",
+    "https://mianstack.com/interview/mj-nc-2026-0668/?view=questions"
+  ],
+  "search_log": [
+    {
+      "platform": "牛客",
+      "queries": [
+        "LLM Infra 面经 字节 腾讯 阿里 CUDA 推理 2025 2026",
+        "AI Infra 面经 NCCL Triton",
+        "NL2SQL 面经",
+        "语音 大模型 面经",
+        "医疗 Agent 面经",
+        "教育 Agent 面经",
+        "合同 RAG 面经"
+      ],
+      "result": "发现公开原帖，按正文逐条分类。重复及通用后端题未计作新增LLM面经。"
+    },
+    {
+      "platform": "GitHub",
+      "queries": [
+        "AI Infra 面经 github"
+      ],
+      "result": "核对AIInfraGuide、712sir路线、aznikline题单、AgentGuide与pacoxu景观。根目录汇编不按内部篇数扩增亲历计数。"
+    },
+    {
+      "platform": "知乎/微信公众号",
+      "queries": [
+        "AI Infra 面经 site:zhihu.com",
+        "LLM Infra 面经 site:mp.weixin.qq.com",
+        "推理优化 面经 site:mp.weixin.qq.com"
+      ],
+      "result": "未取得可新增且可核对原文的直接面经；已有知乎与公众号记录保留。"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "百川智能医疗大模型后训练面经",
+      "published_at": "2026-08-22T21:40:16+08:00",
+      "updated_at": "2026-08-22T21:48:46+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/d209892dc2cf43c6859a776c5e526eca",
+      "decision": "included",
+      "record_id": "INT507"
+    },
+    {
+      "title": "小红书暑期实习 AI全栈开发 二面",
+      "published_at": "2026-04-09T02:25:00+08:00",
+      "updated_at": "2026-04-09T02:25:00+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/4dbb7539b78a4d1ca3d48a837b4a83d8",
+      "decision": "included",
+      "record_id": "INT508"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/d6b5184d017a4e17b6348ca01dbd9bb9",
+      "decision": "included",
+      "record_id": "INT519"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/7533a2035fdd42429781da918e4f7c44",
+      "decision": "not_readable",
+      "reason": "仅返回空壳或未取到正文，不推断不可见内容。"
+    },
+    {
+      "title": "成都agent 面试",
+      "published_at": "2026-05-26T22:04:35+08:00",
+      "updated_at": "2026-05-26T22:04:35+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/da4f544e4bdd4d4ca0827b411550f487",
+      "decision": "included",
+      "record_id": "INT509"
+    },
+    {
+      "title": "中兴 实习 agent开发 一面凉经",
+      "published_at": "2026-05-21T23:08:22+08:00",
+      "updated_at": "2026-05-21T23:09:58+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/81ef46253510446d93530b20fcb0815f",
+      "decision": "included",
+      "record_id": "INT510"
+    },
+    {
+      "title": "暑期第二周面试情况",
+      "published_at": "2026-03-27T23:59:32+08:00",
+      "updated_at": "2026-03-29T15:47:11+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/adbb94fa8cd34162b92faca61b1e7b46",
+      "decision": "included",
+      "record_id": "INT511"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/921086976030150656",
+      "decision": "existing_record",
+      "record_id": "INT218"
+    },
+    {
+      "title": "0914 阿里云一面（AI Infra）",
+      "published_at": "2026-09-14T17:25:28+08:00",
+      "updated_at": "2026-09-14T17:25:28+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/40f786c658f44730876703db3b1504ac",
+      "decision": "included",
+      "record_id": "INT501"
+    },
+    {
+      "title": "阿里AI Infra 二面 面经",
+      "published_at": "2026-09-18T22:26:50+08:00",
+      "updated_at": "2026-09-18T22:26:50+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/328e2dada5f246889e354707926f6da0",
+      "decision": "included",
+      "record_id": "INT502"
+    },
+    {
+      "title": null,
+      "published_at": null,
+      "updated_at": null,
+      "url": "https://www.nowcoder.com/discuss/930808011218571264",
+      "decision": "not_readable",
+      "reason": "仅返回空壳或未取到正文，不推断不可见内容。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/d695614a06424c148c04586ac3a66e78",
+      "decision": "included",
+      "record_id": "INT505"
+    },
+    {
+      "title": "2026 校招快手 AI infra 面经",
+      "published_at": "2026-07-08T11:12:27+08:00",
+      "updated_at": "2026-07-08T11:12:27+08:00",
+      "url": "https://www.nowcoder.com/discuss/904326953174323200",
+      "decision": "included",
+      "record_id": "RES609"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/3365605e0cdc445d9b3abc07d9f038eb",
+      "decision": "not_readable",
+      "reason": "仅返回空壳或未取到正文，不推断不可见内容。"
+    },
+    {
+      "title": "字节data AI infra实习一面",
+      "published_at": "2026-03-13T10:08:39+08:00",
+      "updated_at": "2026-03-13T10:08:39+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/bc33c3177416455e908affbb8d06d74c",
+      "decision": "included",
+      "record_id": "INT504"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/c90e13bc30a4485d930808c2e7196e5c",
+      "decision": "not_readable",
+      "reason": "仅返回空壳或未取到正文，不推断不可见内容。"
+    },
+    {
+      "title": "腾讯 260824 一面面经",
+      "published_at": "2026-10-02T19:50:33+08:00",
+      "updated_at": "2026-10-04T01:25:10+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/bf38563e18af48269c0e710993d3f06e",
+      "decision": "included",
+      "record_id": "INT517"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/7b1b40fda3244715a82bcb4a821ca887",
+      "decision": "included",
+      "record_id": "INT518"
+    },
+    {
+      "title": "某教育agent开发面经",
+      "published_at": "2026-04-09T17:55:00+08:00",
+      "updated_at": "2026-04-09T17:55:00+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/505159fb5f874d909c0c252f3f959ea0",
+      "decision": "included",
+      "record_id": "INT514"
+    },
+    {
+      "title": "字节AI infra校招一面面经 1h",
+      "published_at": "2026-02-28T22:15:00+08:00",
+      "updated_at": "2026-02-28T22:15:00+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/bb24ea24216242ae8fb57557cfbc1bbd",
+      "decision": "included",
+      "record_id": "INT503"
+    },
+    {
+      "title": "豆包手机测开面经",
+      "published_at": "2026-03-18T18:32:45+08:00",
+      "updated_at": "2026-04-03T23:22:27+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/9d71bf5395484506ba9dada312e2a9e9",
+      "decision": "included",
+      "record_id": "INT513"
+    },
+    {
+      "title": "抖音电商Agent全栈开发工程师一面",
+      "published_at": "2026-09-03T16:45:28+08:00",
+      "updated_at": "2026-09-03T16:45:28+08:00",
+      "url": "https://www.nowcoder.com/discuss/925066865183858688",
+      "decision": "included",
+      "record_id": "INT512"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/925527528259743744",
+      "decision": "included",
+      "record_id": "INT520"
+    },
+    {
+      "title": "第四范式一面",
+      "published_at": "2025-11-21T17:03:46+08:00",
+      "updated_at": "2025-11-21T17:03:46+08:00",
+      "url": "https://www.nowcoder.com/discuss/821428541282611200",
+      "decision": "included",
+      "record_id": "INT515"
+    },
+    {
+      "title": "soul后端ai开发日常实习一面分享",
+      "published_at": "2026-04-12T17:35:00+08:00",
+      "updated_at": "2026-04-12T17:35:00+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/de823e39f0a64406b3d427f31fc55413",
+      "decision": "excluded_scope",
+      "reason": "缺少相关LLM技术内容或属转述/邻接材料，本轮不计亲历。"
+    },
+    {
+      "title": "Ai Agent实习面经-Soul",
+      "published_at": "2026-03-04T22:20:00+08:00",
+      "updated_at": "2026-03-04T22:20:00+08:00",
+      "url": "https://www.nowcoder.com/feed/main/detail/44eb859c69dc442db03bf2f58d8c3b28",
+      "decision": "included",
+      "record_id": "INT516"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/2647ce9ef18a4e11acf00c1ac2667e84",
+      "decision": "not_readable",
+      "reason": "仅返回空壳或未取到正文，不推断不可见内容。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/7c581aab6a8f466d824d3a34b0d012b9",
+      "decision": "not_readable",
+      "reason": "仅返回空壳或未取到正文，不推断不可见内容。"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/2bd8068b136e4bd58d97bc5c9d66bafa",
+      "decision": "not_readable",
+      "reason": "仅返回空壳或未取到正文，不推断不可见内容。"
+    }
+  ],
+  "publication_base_commit": "d9a30706f69bd5a216dd8201d772c7f33187a90a",
+  "concurrent_changes_preserved": "合入远端新增RRF多列表分数与排序示例检查，本轮资料扩充未覆盖该文件。"
+}

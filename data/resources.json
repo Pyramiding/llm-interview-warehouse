@@ -1845,5 +1845,244 @@
     "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
     "content_fingerprint": "b4a0118ec587ae3ed40cb1220b80d5173b58e63a9ae50756862f5a3b8cffc137",
     "related_interview_id": "INT308"
+  },
+  {
+    "id": "RES601",
+    "title": "AIInfraGuide：训练、推理、CUDA与公司面经汇编",
+    "url": "https://github.com/caomaolufei/AIInfraGuide",
+    "companies": [],
+    "topics": [
+      "08",
+      "09",
+      "10"
+    ],
+    "domains": [],
+    "source_type": "interview_collection",
+    "summary": "提供GPU、CUDA算子、分布式训练、推理引擎和按公司整理的面经目录。",
+    "reading_tip": "按岗位筛选原记录，结合官方文档核验答案；先看模型系统问题，再看通用后端邻接内容。",
+    "note": "已读README及AML、TEG样例。仓库自称180+场，不等于本库独立核验了这些经历；样例pubDate为编目元数据，不能当原面试日期。TEG样例主要是数据库/OS，不自动算LLM考点。",
+    "verification": "opened",
+    "published": null,
+    "year": null,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": null,
+    "role": "专题备考/汇编阅读"
+  },
+  {
+    "id": "RES602",
+    "title": "AI Infra工程师求职路线图",
+    "url": "https://github.com/712sir/ai-infra-career",
+    "companies": [],
+    "topics": [
+      "08",
+      "09",
+      "10"
+    ],
+    "domains": [],
+    "source_type": "preparation_resource",
+    "summary": "个人学习计划覆盖CUDA、GPU、并行训练、推理、Kubernetes、监控及项目准备。",
+    "reading_tip": "用来组织学习与实践，不把规划状态当作者已经完成的项目或岗位要求。",
+    "note": "已读公开README；时间预算和学习阶段是个人计划，不能视为招聘市场统计或真实面经。",
+    "verification": "opened",
+    "published": null,
+    "year": null,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": null,
+    "role": "专题备考/汇编阅读"
+  },
+  {
+    "id": "RES603",
+    "title": "AI Infra核心题清单与练习入口",
+    "url": "https://github.com/aznikline/interview/blob/main/questions/ai-infra/00-must-know.md",
+    "companies": [],
+    "topics": [
+      "08",
+      "09"
+    ],
+    "domains": [],
+    "source_type": "preparation_resource",
+    "summary": "围绕GPU执行、occupancy、通信、训练显存、Serving指标和恢复抖动组织基础题。",
+    "reading_tip": "按硬件→通信→训练→推理→实践的顺序自测，回答时补具体负载与证据。",
+    "note": "作者题单与参考讲法，未指认具体企业面试；不计亲历或官方答案。",
+    "verification": "opened",
+    "published": null,
+    "year": null,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": null,
+    "role": "专题备考/汇编阅读"
+  },
+  {
+    "id": "RES604",
+    "title": "AgentGuide：AI Infra面试指南",
+    "url": "https://github.com/adongwanai/AgentGuide/blob/main/docs/04-interview/23-frontier-interview-guides/ai-infra.md",
+    "companies": [],
+    "topics": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "13"
+    ],
+    "domains": [],
+    "source_type": "preparation_resource",
+    "summary": "从硬件、kernel、编译运行时、分布式、Serving到平台，并讨论Agent Runtime和性能诊断。",
+    "reading_tip": "将显存、算力、带宽、通信和排队分别列账，再设计对照实验。",
+    "note": "专题教程，不提供独立亲历证据；表中通用趋势需结合具体模型、硬件和版本验证。",
+    "verification": "opened",
+    "published": null,
+    "year": null,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": null,
+    "role": "专题备考/汇编阅读"
+  },
+  {
+    "id": "RES605",
+    "title": "AI-Infra Landscape与云原生学习路线",
+    "url": "https://github.com/pacoxu/AI-Infra",
+    "companies": [],
+    "topics": [
+      "07",
+      "08",
+      "09"
+    ],
+    "domains": [],
+    "source_type": "preparation_resource",
+    "summary": "整理Kubernetes训练、调度、推理运行时、模型网关与可观测性等基础设施项目。",
+    "reading_tip": "适合补平台工程与调度视角；从项目文档进一步核对现有能力。",
+    "note": "已读README。景观、路线和仓库更新时间不是面试经历，也不代表列举项目全部成熟可用。",
+    "verification": "opened",
+    "published": null,
+    "year": null,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": null,
+    "role": "专题备考/汇编阅读"
+  },
+  {
+    "id": "RES606",
+    "title": "实时语音Agent系统设计：延迟、轮次与打断",
+    "url": "https://note.lgdsunday.club/system-design/q536-realtime-voice-agent-architecture/",
+    "companies": [],
+    "topics": [
+      "07",
+      "08",
+      "22"
+    ],
+    "domains": [
+      "语音"
+    ],
+    "source_type": "preparation_resource",
+    "summary": "讨论ASR/LLM/TTS、VAD、轮次判断、旧音频取消，以及已生成内容与用户实际听到内容的状态差异。",
+    "reading_tip": "画出用户打断时生成、工具和播放各自的取消边界。",
+    "note": "搜索可见内容明确写“模拟面试，不是真实面经”；页面虽有美团字样，不据此标为美团真题。直接读取失败，保留片段核验。",
+    "verification": "search_excerpt",
+    "published": null,
+    "year": null,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": "程序员Sunday",
+    "role": "专题备考/汇编阅读"
+  },
+  {
+    "id": "RES607",
+    "title": "智能体应用二次解析：PDF、JSON输出与NL2SQL",
+    "url": "https://mj.mianlingai.com/interview/unknown-company-ai-agent-application-2923282/",
+    "companies": [],
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "source_type": "interview_analysis",
+    "summary": "汇编报道PDF图表公式切分、JSON约束、记忆评测和NL2SQL上下文预算，并附编辑解析。",
+    "reading_tip": "用于准备文档结构与schema检索问题，解析的具体参数要自己实验。",
+    "note": "已读汇编，未找到可核对牛客原链；2026-10是目录报道月份，不用月初补造发布日。Jev原文术语不明，不自行解读为模型名称。",
+    "verification": "opened",
+    "published": null,
+    "year": 2026,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": null,
+    "role": "专题备考/汇编阅读"
+  },
+  {
+    "id": "RES608",
+    "title": "信雅达Java一面二次解析：NL2SQL项目",
+    "url": "https://mj.mianlingai.com/interview/xinyada-java-first-round-2819837/",
+    "companies": [
+      "信雅达"
+    ],
+    "topics": [
+      "06",
+      "13"
+    ],
+    "domains": [],
+    "source_type": "interview_analysis",
+    "summary": "后端基础题之后，报道NL2SQL数据前提、案例数量、准确率、日期类型匹配和模型选择。",
+    "reading_tip": "用执行正确性、业务口径与日期消歧解释项目效果，不只报一个准确率。",
+    "note": "已读汇编，原始牛客链接未能定位；2026-03为汇编标注月份，不当首发或面试精确日期。公司归属仅依汇编，不计亲历。",
+    "verification": "opened",
+    "published": null,
+    "year": 2026,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": null,
+    "role": "专题备考/汇编阅读"
+  },
+  {
+    "id": "RES609",
+    "title": "快手AI Infra题单解析（含明显歧义）",
+    "url": "https://www.nowcoder.com/discuss/904326953174323200",
+    "companies": [
+      "快手"
+    ],
+    "topics": [
+      "08",
+      "09",
+      "10"
+    ],
+    "domains": [],
+    "source_type": "interview_analysis",
+    "summary": "标题声称校招面经，正文主要是访存、算子融合、负载均衡和性能瓶颈的问答解析。",
+    "reading_tip": "仅参考题目方向；发现量化被回答为金融交易策略，应回到模型数值量化资料。",
+    "note": "原文没有明确个人面试叙事，且“常见量化策略”给的是金融策略，存在语境错配；不将标题或附带答案作为真实面试和技术正确性的证明。",
+    "verification": "opened",
+    "published": "2026-07-08",
+    "year": 2026,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": "雾中列车",
+    "role": "专题备考/汇编阅读"
+  },
+  {
+    "id": "RES610",
+    "title": "腾讯混元Infra二面二次解析：GPU、KV与算子",
+    "url": "https://mj.mianlingai.com/interview/tencent-hunyuan-ai-infra-second-round-2926933/",
+    "companies": [
+      "腾讯"
+    ],
+    "topics": [
+      "05",
+      "08",
+      "09",
+      "10"
+    ],
+    "domains": [],
+    "source_type": "interview_analysis",
+    "summary": "报道GPU架构与指令、Cache-aware路由、跨实例KV共享、稀疏kernel和Softmax优化。",
+    "reading_tip": "按硬件执行、KV路由与端到端性能分别验证，不能只看单kernel速度。",
+    "note": "已读二次汇编，定位的牛客原帖当前只返回页面壳，未把汇编算作独立亲历。2026-10是报道月份，不补造原帖日期；架构与性能断言需再核官方资料。",
+    "verification": "opened",
+    "published": null,
+    "year": 2026,
+    "event_date": null,
+    "accessed": "2026-11-05",
+    "author": null,
+    "role": "专题备考/汇编阅读"
   }
 ]

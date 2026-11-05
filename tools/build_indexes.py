@@ -117,6 +117,58 @@ def record_link(item, resource=False):
     label = {'preparation_resource':'（准备/邻接阅读）', 'repost_reference':'（同源转载）'}.get(item.get('source_type'),'') if resource else ''
     return f'[{item["id"]} · {md_cell(item["title"])}]({"resources.md" if resource else "README.md"}#{item["id"].lower()}){label}'
 
+
+def build_specialty_indexes(interviews, resources):
+    specialties = read_json(ROOT/'data/specialties.json')
+    interview_map = {x['id']: x for x in interviews}
+    resource_map = {x['id']: x for x in resources}
+    nav = ('[返回首页](../../README.md) · [按公司](by-company.md) · '
+           '[研究专题](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra专页](llm-infra.md)')
+    page = ['# 按细分技术与应用方向查面经', '', nav, '',
+            '本页在23个研究专题之外提供人工审核的细分标签。标签表示可见内容涉及该方向，可能来自岗位、候选项目或场景题；不代表招聘团队主营业务，也不是企业统一考纲。', '',
+            '同一记录可跨方向出现，数量不能相加当作独立面试数。公开自述与汇编/备考分开列示；尚无亲历的方向保留缺口，不用教程充数。', '',
+            '| 方向 | 公开自述 | 补充阅读 |', '|---|---:|---:|']
+    page += [f'| [{x["name"]}](#{x["id"]}) | {len(x["interview_ids"])} | {len(x["resource_ids"])} |' for x in specialties]
+    for group in ('LLM Infra', 'Agent与模型工程', '应用场景'):
+        page += ['', f'## {group}', '']
+        for x in [s for s in specialties if s['group'] == group]:
+            page += [f'<a id="{x["id"]}"></a>', '', f'### {x["name"]}', '', x['description'], '',
+                     '**公开自述面经：**', '']
+            page += [f'- {record_link(interview_map[id])}（{interview_map[id]["verification"]}）' for id in x['interview_ids']]
+            if not x['interview_ids']:
+                page += ['当前尚无足够证据收录的专项亲历记录。']
+            if x['resource_ids']:
+                page += ['', '**汇编与备考（不计亲历）：**', '']
+                page += [f'- {record_link(resource_map[id], True)}（{resource_map[id]["verification"]}）' for id in x['resource_ids']]
+    write(ROOT/'docs/interviews/by-specialty.md', '\n'.join(page))
+
+    infra = [x for x in specialties if x['group'] == 'LLM Infra']
+    ids = {id for x in infra for id in x['interview_ids']}
+    extras = {id for x in infra for id in x['resource_ids']}
+    page = ['# LLM Infra面经与准备入口', '', nav, '',
+            f'查阅截止：**{AS_OF}**。本页9个细分方向关联 **{len(ids)}篇去重公开自述、{len(extras)}个去重补充入口**；含历史回补与年份未知项。不是9个方向计数相加，也不表示所有材料均属纯LLM岗位。', '',
+            '先按岗位职责区分训练系统、推理引擎、算子/编译器、平台工程和RL Infra。通用后端、数据库、使用AI写代码的经历，不能仅凭Infra标题就等同于模型基础设施。', '',
+            '| 细分方向 | 查什么 | 面经 | 补充 |', '|---|---|---:|---:|']
+    page += [f'| [{x["name"]}](by-specialty.md#{x["id"]}) | {x["description"]} | {len(x["interview_ids"])} | {len(x["resource_ids"])} |' for x in infra]
+    page += ['', '## 按岗位挑阅读顺序', '',
+             '| 目标岗位 | 建议顺序 | 准备时必须能说明 |', '|---|---|---|',
+             '| 推理引擎/Serving | [字节Data](README.md#int504) → [阿里二面](README.md#int502) → [原有推理专题](../topics/08-inference-and-serving.md) | 负载、KV与调度、数值/质量、吞吐和延迟、优化证据 |',
+             '| CUDA/Triton/算子 | [CUDA GEMM与MLA](README.md#int503) → [硬件生态迁移](README.md#int501) → [多公司复盘](README.md#int219) | 形状与dtype、正确性基线、访存/计算/同步、回归与回退 |',
+             '| 分布式训练/RL Infra | [训练向NLP实习](README.md#int042) → [Agentic RL](README.md#int218) → [分布式专题](../topics/09-distributed-training.md) | 状态与显存、并行边界、通信、采样环境、恢复与评测 |',
+             '| GPU平台/云原生 | [讯飞推理工程](README.md#int306) → [云原生路线](resources.md#res605) → [Infra指南](resources.md#res604) | GPU池化、配额与隔离、弹性、观测、故障与成本 |', '',
+             '上述顺序是仓库的准备建议，不能反推这些公司共同采用相同流程或题目。', '',
+             '## 原帖与二次材料的区别', '',
+             '- [阿里AI Infra二面](README.md#int502)可核对原帖；[混元Infra解析](resources.md#res610)当前只取得汇编，未作为亲历增加。',
+             '- [AIInfraGuide](resources.md#res601)包含公司汇编及传统数据库/OS邻接内容，目录篇数没有计入本库面经数。',
+             '- [快手题单解析](resources.md#res609)把量化答成金融策略，已标注语境错配；不采作技术答案。',
+             '- 专门AI编译器、纯通信网络、生产RL Infra、超大集群容错的亲历仍偏少；资料入口多不代表岗位样本充分。', '',
+             '## 本地筛选', '', '```sh',
+             'python3 tools/search.py --interviews --specialty infra-kernel',
+             'python3 tools/search.py --interviews --specialty infra-serving --company 阿里',
+             'python3 tools/search.py --interviews --specialty infra-profiling', '```']
+    write(ROOT/'docs/interviews/llm-infra.md', '\n'.join(page))
+    return specialties
+
 def build_resource_index(resources):
     page = ['# 汇编、解析与待核验阅读入口', '', '[返回首页](../../README.md) · [按公司](by-company.md) · [按研究方向](by-topic.md) · [公司×业务方向](company-direction.md)', '',
             '本页不计入公开自述面经数量。公司标签是资料标题或可见正文的归属标注，不能替代亲历原帖；`metadata_only`仅核对目录中的标题/原始链接，尚未获得文章正文。', '']
@@ -202,7 +254,7 @@ def main():
     questions = question_records()
     write(ROOT/'data/questions.json', json.dumps(questions, ensure_ascii=False, indent=2))
 
-    intro = ['# 公开面经索引（重点2023—2026）', '', '[返回首页](../../README.md) · [按公司](by-company.md) · [按研究方向](by-topic.md) · [按平台](by-platform.md) · [按岗位](by-role.md) · [按年份](by-year.md) · [按业务领域](by-domain.md) · [来源规范](../methodology.md)', '',
+    intro = ['# 公开面经索引（重点2023—2026）', '', '[返回首页](../../README.md) · [按公司](by-company.md) · [按研究方向](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra](llm-infra.md) · [按平台](by-platform.md) · [按岗位](by-role.md) · [按年份](by-year.md) · [按业务领域](by-domain.md) · [来源规范](../methodology.md)', '',
              f'查阅截止：**{AS_OF}**。共 **{len(interviews)}条面经记录**，单篇多公司复盘计一条。内容是求职者公开自述，未向企业核实；仅作短摘要并链接原文。日期、核验状态及歧义逐条保留。', '',
              '`opened`表示已获得相关正文，可能仍有付费截断；`search_excerpt`表示只核对搜索可见片段。目录元数据另以`metadata_only`列入[补充资源](resources.md)，不计入自述面经数。`未确认`不是发生过面试的证明。', '']
     for year in sorted({x['year'] for x in interviews}, key=lambda y: (y is None, y or 0)):
@@ -251,7 +303,7 @@ def main():
     for item in resources:
         for company in normalized_companies(item): resource_companies[company].append(item)
     company_names = sorted(set(companies) | set(resource_companies))
-    company_page = ['# 按公司找公开面经与补充资料', '', '[按年份](README.md) · [按方向](by-topic.md) · [公司×业务方向](company-direction.md) · [汇编与解析](resources.md)', '',
+    company_page = ['# 按公司找公开面经与补充资料', '', '[按年份](README.md) · [按方向](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra](llm-infra.md) · [公司×业务方向](company-direction.md) · [汇编与解析](resources.md)', '',
                     '公司及岗位为原作者自述；多公司汇总没有逐题归属时，不强行把每题分配给企业。本页不构成招聘流程或官方题库说明。', '']
     company_page += ['## 公司快速导航', '', ' · '.join(f'[{name}](#company-{i:03d})' for i,name in enumerate(company_names,1)), '',
                      '别名只用于导航归组，记录正文保留原作者写法。阿里云/阿里达摩院归入阿里，美团到店归入美团；集团内不同业务与岗位不可据此视为同一面试流程。未明确、其他公司及未逐题归属的记录单列。', '']
@@ -269,6 +321,7 @@ def main():
     build_facets(interviews, resources)
     build_resource_index(resources)
     build_company_direction(interviews, resources)
+    specialties = build_specialty_indexes(interviews, resources)
 
     qpage = ['# 全部题目：稳定ID索引', '', '[返回首页](../README.md) · [真实面经入口](interviews/README.md)', '',
              f'共 **{len(questions)}道原创题/练习**，追问不另计。专题题为研究延伸，项目与手写为原创练习；它们不是未经核实的企业真题。', '']
@@ -284,6 +337,7 @@ def main():
 
     research_unique = {canonical_url(x['url']) for x in research_sources}
     stats = {'as_of': AS_OF, 'interview_records': len(interviews), 'reading_resources': len(resources),
+             'specialties': len(specialties),
              'topics': len(TOPICS), 'topic_questions': sum(q['kind']=='topic' for q in questions),
              'practice_questions': sum(q['kind']=='practice' for q in questions), 'total_questions': len(questions),
              'normalized_source_urls': len(sources), 'research_source_urls': len(research_unique),
@@ -296,7 +350,7 @@ def main():
     write(ROOT/'data/stats.json', json.dumps(stats, ensure_ascii=False, indent=2))
     readme_path = ROOT/'README.md'
     if readme_path.exists():
-        summary = (f'**{len(interviews)}篇公开面经 · {len(TOPICS)}个专题 · '
+        summary = (f'**{len(interviews)}篇公开面经 · {len(TOPICS)}个专题 · {len(specialties)}个细分方向 · '
                    f'{stats["topic_questions"]}道专题题解 + {stats["practice_questions"]}道项目/手写练习 '
                    f'· {len(sources)}个去重来源链接**\n\n'
                    f'另附{len(resources)}个补充阅读入口（含仅元数据项）；研究来源包含{len(research_unique)}个规范化链接。'
@@ -320,7 +374,7 @@ def main():
         coverage.append(f'| [{name}](topics/{filename}) | {count} | {sum(code in x["topics"] for x in interviews)} | {desc} |')
     coverage += ['', '当前局限：样本以中文公开面经和国内求职者自述为主；海外现场面、资深管理、音频专岗、芯片编译器、世界模型与AI4Science的亲历样本不足。具身和科学方向目前更多依赖研究延伸题。没有据此推算企业通过率、题目频次、薪资或行业供需。', '',
                  '只有摘要可见、反爬、推广及日期冲突均在条目中标注。欢迎补齐原始亲历复盘和可复现实验；新增资料应保留公开来源及查阅日期。']
-    coverage += ['', '## 平台检索与应用边界', '', '[2026-11-05增量更新](incremental-2026-11-05.md) · [2026-11-02增量更新](incremental-2026-11-02.md) · [2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)', '', '应用专题是原创技术设计训练，不表示每个领域均有已核验亲历面经。按平台、岗位与业务的实际条目分布见[多维面经导航](interviews/by-platform.md)及[公司×业务方向](interviews/company-direction.md)。原文不可见或仅有搜索片段、目录元数据的记录不据此扩写隐藏题目。']
+    coverage += ['', '## 平台检索与应用边界', '', '[2026-11-05应用与Infra扩展](expansion-applications-infra-2026-11-05.md) · [2026-11-05增量更新](incremental-2026-11-05.md) · [2026-11-02增量更新](incremental-2026-11-02.md) · [2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)', '', '应用专题是原创技术设计训练，不表示每个领域均有已核验亲历面经。按平台、岗位与业务的实际条目分布见[多维面经导航](interviews/by-platform.md)、[细分方向](interviews/by-specialty.md)、[LLM Infra专页](interviews/llm-infra.md)及[公司×业务方向](interviews/company-direction.md)。原文不可见或仅有搜索片段、目录元数据的记录不据此扩写隐藏题目。']
     write(ROOT/'docs/coverage.md', '\n'.join(coverage))
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 

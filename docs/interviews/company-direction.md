@@ -15,6 +15,7 @@
 | 微软 | — | [RES304 · Microsoft L65 Interview Experience](resources.md#res304) |
 | 拼多多 | [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109) | — |
 | 美团 | [INT037 · 美团2025届秋招搜索推荐算法工程师](README.md#int037) | — |
+| 腾讯 | [INT517 · 腾讯 260824 一面面经](README.md#int517) | — |
 | 阿里 | [INT106 · 淘天大模型面经：搜推智能产品事业部多模态方向（编目标题）](README.md#int106) | — |
 
 ## 广告
@@ -65,13 +66,15 @@
 | Google | — | [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（准备/邻接阅读） |
 | 多公司复盘（未逐公司映射） | [INT048 · 国内20家公司大模型岗位面试经验汇总](README.md#int048)<br>[INT223 · BAT集齐？暑期实习面经分享](README.md#int223) | — |
 | 字节 | [INT046 · 字节大模型面试经历分享](README.md#int046)<br>[INT214 · 字节跳动风控算法一面](README.md#int214)<br>[INT215 · 字节风控算法面经](README.md#int215) | [RES217 · 字节 AI Agent 开发 一面（抖音电商 · 一面掉池子里面了）](resources.md#res217) |
+| 腾讯 | [INT517 · 腾讯 260824 一面面经](README.md#int517) | — |
 
 ## 语音
 
 | 公司/资料归属 | 公开自述面经 | 补充阅读（汇编/准备/转载） |
 |---|---|---|
-| 公司未明确 | — | [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） |
+| 公司未明确 | — | [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读）<br>[RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（准备/邻接阅读） |
 | 多公司复盘（未逐公司映射） | [INT111 · 算法岗-日常实习-面经](README.md#int111) | — |
+| 字节 | [INT513 · 豆包手机测开面经](README.md#int513)<br>[INT518 · 字节AI Agent开发秋招一面面经](README.md#int518) | — |
 | 有赞 | [INT224 · 有赞面经](README.md#int224) | — |
 
 ## 客服
@@ -79,6 +82,6 @@
 | 公司/资料归属 | 公开自述面经 | 补充阅读（汇编/准备/转载） |
 |---|---|---|
 | Meta | [IB008 · Meta onsite E5 MLE 多半挂经](README.md#ib008) | — |
-| 公司未明确 | — | [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） |
+| 公司未明确 | [INT509 · 成都agent 面试](README.md#int509) | [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） |
 | 美团 | [INT104 · OC了，分享一下美团智能客服面经](README.md#int104)<br>[INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216) | [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） |
 | 腾讯 | [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217) | — |

@@ -1,12 +1,12 @@
 # 按公司找公开面经与补充资料
 
-[按年份](README.md) · [按方向](by-topic.md) · [公司×业务方向](company-direction.md) · [汇编与解析](resources.md)
+[按年份](README.md) · [按方向](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra](llm-infra.md) · [公司×业务方向](company-direction.md) · [汇编与解析](resources.md)
 
 公司及岗位为原作者自述；多公司汇总没有逐题归属时，不强行把每题分配给企业。本页不构成招聘流程或官方题库说明。
 
 ## 公司快速导航
 
-[Amazon](#company-001) · [Avaamo](#company-002) · [BOSS直聘](#company-003) · [Google](#company-004) · [Groww](#company-005) · [IDEA研究院](#company-006) · [Kotak Mahindra Bank](#company-007) · [Meta](#company-008) · [MiniMax](#company-009) · [Mozilla.ai](#company-010) · [NVIDIA](#company-011) · [OPPO](#company-012) · [OpenAI](#company-013) · [Rippling](#company-014) · [Shopee](#company-015) · [Stripe](#company-016) · [eBay](#company-017) · [xAI](#company-018) · [三星西安研究所](#company-019) · [上海人工智能实验室](#company-020) · [中兴](#company-021) · [云从科技](#company-022) · [京东](#company-023) · [作业帮](#company-024) · [公司未明确](#company-025) · [北京星龙数智科技](#company-026) · [华为](#company-027) · [去哪儿](#company-028) · [后摩智能](#company-029) · [哈啰](#company-030) · [哔哩哔哩](#company-031) · [商汤科技](#company-032) · [地平线](#company-033) · [好未来](#company-034) · [字节](#company-035) · [寒武纪](#company-036) · [小红书](#company-037) · [得物](#company-038) · [微软](#company-039) · [快手](#company-040) · [拼多多](#company-041) · [携程](#company-042) · [摩尔线程](#company-043) · [斑马智行](#company-044) · [昆仑万维](#company-045) · [智元机器人](#company-046) · [智源研究院](#company-047) · [智谱](#company-048) · [月之暗面](#company-049) · [有赞](#company-050) · [未逐公司归属的复盘](#company-051) · [标贝科技](#company-052) · [水滴](#company-053) · [滴滴](#company-054) · [潞晨科技](#company-055) · [理想](#company-056) · [百川智能](#company-057) · [百度](#company-058) · [百度昆仑芯](#company-059) · [盛大集团](#company-060) · [科大讯飞](#company-061) · [米哈游](#company-062) · [网易](#company-063) · [网易有道](#company-064) · [美团](#company-065) · [腾讯](#company-066) · [腾讯音乐娱乐集团](#company-067) · [蔚来](#company-068) · [蚂蚁集团](#company-069) · [衔远科技](#company-070) · [视源股份](#company-071) · [贝壳找房](#company-072) · [边塞科技](#company-073) · [释然科技](#company-074) · [金山](#company-075) · [金山办公](#company-076) · [长鑫存储](#company-077) · [阿里](#company-078) · [阿里夸克](#company-079) · [零一万物](#company-080) · [面壁智能](#company-081)
+[Amazon](#company-001) · [Avaamo](#company-002) · [BOSS直聘](#company-003) · [Google](#company-004) · [Groww](#company-005) · [IDEA研究院](#company-006) · [Kotak Mahindra Bank](#company-007) · [Meta](#company-008) · [MiniMax](#company-009) · [Mozilla.ai](#company-010) · [NVIDIA](#company-011) · [OPPO](#company-012) · [OpenAI](#company-013) · [Rippling](#company-014) · [Shopee](#company-015) · [Soul](#company-016) · [Stripe](#company-017) · [eBay](#company-018) · [xAI](#company-019) · [三星西安研究所](#company-020) · [上海人工智能实验室](#company-021) · [中兴](#company-022) · [云从科技](#company-023) · [京东](#company-024) · [作业帮](#company-025) · [信雅达](#company-026) · [公司未明确](#company-027) · [北京星龙数智科技](#company-028) · [华为](#company-029) · [去哪儿](#company-030) · [后摩智能](#company-031) · [哈啰](#company-032) · [哔哩哔哩](#company-033) · [商汤科技](#company-034) · [地平线](#company-035) · [好未来](#company-036) · [字节](#company-037) · [寒武纪](#company-038) · [小红书](#company-039) · [得物](#company-040) · [微软](#company-041) · [快手](#company-042) · [拼多多](#company-043) · [携程](#company-044) · [摩尔线程](#company-045) · [斑马智行](#company-046) · [昆仑万维](#company-047) · [智元机器人](#company-048) · [智源研究院](#company-049) · [智谱](#company-050) · [月之暗面](#company-051) · [有赞](#company-052) · [未逐公司归属的复盘](#company-053) · [标贝科技](#company-054) · [水滴](#company-055) · [滴滴](#company-056) · [潞晨科技](#company-057) · [理想](#company-058) · [百川智能](#company-059) · [百度](#company-060) · [百度昆仑芯](#company-061) · [盛大集团](#company-062) · [科大讯飞](#company-063) · [第四范式](#company-064) · [米哈游](#company-065) · [网易](#company-066) · [网易有道](#company-067) · [美团](#company-068) · [腾讯](#company-069) · [腾讯音乐娱乐集团](#company-070) · [蔚来](#company-071) · [蚂蚁集团](#company-072) · [衔远科技](#company-073) · [视源股份](#company-074) · [贝壳找房](#company-075) · [边塞科技](#company-076) · [释然科技](#company-077) · [金山](#company-078) · [金山办公](#company-079) · [长鑫存储](#company-080) · [阿里](#company-081) · [阿里夸克](#company-082) · [零一万物](#company-083) · [面壁智能](#company-084)
 
 别名只用于导航归组，记录正文保留原作者写法。阿里云/阿里达摩院归入阿里，美团到店归入美团；集团内不同业务与岗位不可据此视为同一面试流程。未明确、其他公司及未逐题归属的记录单列。
 
@@ -89,10 +89,11 @@
 
 ## MiniMax
 
-### 公开自述（2条）
+### 公开自述（3条）
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 - [INT110 · MiniMax：HPC / MLSys 面经（编目标题）](README.md#int110)（年份未确认；HPC/MLSys/大模型推理优化）
+- [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
 
 <a id="company-010"></a>
 
@@ -154,13 +155,21 @@
 
 <a id="company-016"></a>
 
+## Soul
+
+### 公开自述（1条）
+
+- [INT516 · Ai Agent实习面经-Soul](README.md#int516)（2026；AI Agent前端实习面经）
+
+<a id="company-017"></a>
+
 ## Stripe
 
 ### 公开自述（1条）
 
 - [IB007 · 条纹MLE七轮面试完整过经](README.md#ib007)（2024；Machine Learning Engineer）
 
-<a id="company-017"></a>
+<a id="company-018"></a>
 
 ## eBay
 
@@ -172,7 +181,7 @@
 
 - [RES303 · 分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）](resources.md#res303)（同源转载） — opened
 
-<a id="company-018"></a>
+<a id="company-019"></a>
 
 ## xAI
 
@@ -180,7 +189,7 @@
 
 - [INT032 · 分享俩挂得很彻底的挂经，xAI & 英伟达](README.md#int032)（2023；模型算法/Research Scientist）
 
-<a id="company-019"></a>
+<a id="company-020"></a>
 
 ## 三星西安研究所
 
@@ -188,7 +197,7 @@
 
 - [INT006 · NLP & 大模型春招记录](README.md#int006)（2024；NLP/多模态/机器学习）
 
-<a id="company-020"></a>
+<a id="company-021"></a>
 
 ## 上海人工智能实验室
 
@@ -196,15 +205,16 @@
 
 - [INT007 · 上海人工智能实验室大模型算法实习面经](README.md#int007)（2024；大模型算法实习/预训练）
 
-<a id="company-021"></a>
+<a id="company-022"></a>
 
 ## 中兴
 
-### 公开自述（1条）
+### 公开自述（2条）
 
 - [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108)（2023；NLP/大模型算法与 Agent 应用）
+- [INT510 · 中兴 实习 agent开发 一面凉经](README.md#int510)（2026；Agent开发实习一面）
 
-<a id="company-022"></a>
+<a id="company-023"></a>
 
 ## 云从科技
 
@@ -212,7 +222,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-023"></a>
+<a id="company-024"></a>
 
 ## 京东
 
@@ -221,7 +231,7 @@
 - [INT102 · 京东广告算法日常实习二面(业务面)](README.md#int102)（2024；广告算法日常实习）
 - [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204)（年份未确认；京东零售/大模型搜索算法实习）
 
-<a id="company-024"></a>
+<a id="company-025"></a>
 
 ## 作业帮
 
@@ -229,11 +239,23 @@
 
 - [INT036 · 2025届NLP算法岗实习面经](README.md#int036)（2024；NLP/搜索/大模型实习）
 
-<a id="company-025"></a>
+<a id="company-026"></a>
+
+## 信雅达
+
+### 公开自述（0条）
+
+尚无公开自述记录。
+
+### 补充资料（非亲历，归属按资料自述）
+
+- [RES608 · 信雅达Java一面二次解析：NL2SQL项目](resources.md#res608) — opened
+
+<a id="company-027"></a>
 
 ## 公司未明确
 
-### 公开自述（6条）
+### 公开自述（9条）
 
 - [INT043 · 大模型应用算法社招经历分享](README.md#int043)（2025；大模型应用算法社招）
 - [IB006 · Software Engineer第一次去ML Coding Interview的小小震撼](README.md#ib006)（2025；ML Coding/软件工程转ML）
@@ -241,6 +263,9 @@
 - [IB012 · 赛博土木LLM Inference Role面试总结](README.md#ib012)（年份未确认；LLM Inference/Serving/ML Systems）
 - [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201)（年份未确认；NLP/大模型算法社招（多家匿名公司））
 - [INT203 · 分享｜中年老登找工作两个月总结](README.md#int203)（2026；Agent开发/数据闭环社招复盘（目标企业匿名））
+- [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
+- [INT509 · 成都agent 面试](README.md#int509)（2026；成都多公司Agent社招复盘）
+- [INT514 · 某教育agent开发面经](README.md#int514)（2026；教育公司Agent开发（公司未公开））
 
 ### 补充资料（非亲历，归属按资料自述）
 
@@ -276,8 +301,15 @@
 - [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — search_excerpt
 - [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — search_excerpt
 - [RES503 · 1小时秒杀agent八股  ——RAG与知识库](resources.md#res503) — opened
+- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — opened
+- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（准备/邻接阅读） — opened
+- [RES603 · AI Infra核心题清单与练习入口](resources.md#res603)（准备/邻接阅读） — opened
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
+- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（准备/邻接阅读） — opened
+- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（准备/邻接阅读） — search_excerpt
+- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — opened
 
-<a id="company-026"></a>
+<a id="company-028"></a>
 
 ## 北京星龙数智科技
 
@@ -285,7 +317,7 @@
 
 - [INT027 · 面经复盘（2026.5.7）](README.md#int027)（2026；后端/大模型应用实习）
 
-<a id="company-027"></a>
+<a id="company-029"></a>
 
 ## 华为
 
@@ -293,7 +325,7 @@
 
 - [INT036 · 2025届NLP算法岗实习面经](README.md#int036)（2024；NLP/搜索/大模型实习）
 
-<a id="company-028"></a>
+<a id="company-030"></a>
 
 ## 去哪儿
 
@@ -301,7 +333,7 @@
 
 - [INT036 · 2025届NLP算法岗实习面经](README.md#int036)（2024；NLP/搜索/大模型实习）
 
-<a id="company-029"></a>
+<a id="company-031"></a>
 
 ## 后摩智能
 
@@ -309,7 +341,7 @@
 
 - [INT309 · 10月面试退展](README.md#int309)（2026；量化/推理/编译器/搜广推Infra多公司复盘）
 
-<a id="company-030"></a>
+<a id="company-032"></a>
 
 ## 哈啰
 
@@ -321,7 +353,7 @@
 
 - [RES105 · 大模型面试汇总：哈啰大模型算法](resources.md#res105) — search_excerpt
 
-<a id="company-031"></a>
+<a id="company-033"></a>
 
 ## 哔哩哔哩
 
@@ -329,7 +361,7 @@
 
 - [INT030 · 后端/全栈面经一次性放出](README.md#int030)（2026；后端/Agent/AI Coding）
 
-<a id="company-032"></a>
+<a id="company-034"></a>
 
 ## 商汤科技
 
@@ -337,7 +369,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-033"></a>
+<a id="company-035"></a>
 
 ## 地平线
 
@@ -345,7 +377,7 @@
 
 - [INT309 · 10月面试退展](README.md#int309)（2026；量化/推理/编译器/搜广推Infra多公司复盘）
 
-<a id="company-034"></a>
+<a id="company-036"></a>
 
 ## 好未来
 
@@ -353,11 +385,11 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-035"></a>
+<a id="company-037"></a>
 
 ## 字节
 
-### 公开自述（36条）
+### 公开自述（41条）
 
 - [INT010 · 字节 大模型算法 一二三面 面经](README.md#int010)（2024；大模型算法）
 - [INT017 · 字节 腾讯 小红书 一面面经 + 字节二面 + 字节hr面](README.md#int017)（2025；算法/多模态实习）
@@ -395,6 +427,11 @@
 - [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402)（2026；大模型算法三面（公开部分））
 - [INT408 · 字节跳动 后端 Agent 一面 面经](README.md#int408)（2026；后端Agent一面）
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412)（2026；后端Agent二面：营销场景与方案比较）
+- [INT503 · 字节AI infra校招一面面经 1h](README.md#int503)（2026；AI Infra校招一面）
+- [INT504 · 字节data AI infra实习一面](README.md#int504)（2026；Data AI Infra实习一面）
+- [INT512 · 抖音电商Agent全栈开发工程师一面](README.md#int512)（2026；抖音电商Agent全栈一面）
+- [INT513 · 豆包手机测开面经](README.md#int513)（2026；豆包手机测开一二面）
+- [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 
 ### 补充资料（非亲历，归属按资料自述）
 
@@ -413,7 +450,7 @@
 - [RES501 · 字节 Agent 开发二面](resources.md#res501)（准备/邻接阅读） — opened
 - [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
 
-<a id="company-036"></a>
+<a id="company-038"></a>
 
 ## 寒武纪
 
@@ -421,11 +458,11 @@
 
 - [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
 
-<a id="company-037"></a>
+<a id="company-039"></a>
 
 ## 小红书
 
-### 公开自述（6条）
+### 公开自述（7条）
 
 - [INT017 · 字节 腾讯 小红书 一面面经 + 字节二面 + 字节hr面](README.md#int017)（2025；算法/多模态实习）
 - [INT041 · 2025届搜广推算法方向求职历程（SSP、头部计划）](README.md#int041)（2024；搜广推算法校招/实习）
@@ -433,13 +470,14 @@
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
 - [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112)（2026；大模型平台 Agentic 全栈研发实习）
 - [INT414 · 小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](README.md#int414)（2026；端侧推理一面）
+- [INT508 · 小红书暑期实习 AI全栈开发 二面](README.md#int508)（2026；AI全栈暑期实习二面：NL2SQL）
 
 ### 补充资料（非亲历，归属按资料自述）
 
 - [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — search_excerpt
 - [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — opened
 
-<a id="company-038"></a>
+<a id="company-040"></a>
 
 ## 得物
 
@@ -454,7 +492,7 @@
 - [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — search_excerpt
 - [RES225 · 得物-算法工程师面经（本人大模型方向）](resources.md#res225) — opened
 
-<a id="company-039"></a>
+<a id="company-041"></a>
 
 ## 微软
 
@@ -466,7 +504,7 @@
 
 - [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
 
-<a id="company-040"></a>
+<a id="company-042"></a>
 
 ## 快手
 
@@ -488,24 +526,26 @@
 - [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — opened
 - [RES223 · 快手大模型算法面经爆料](resources.md#res223) — opened
 - [RES401 · 快手客户端 - 中台infra - 面经](resources.md#res401)（准备/邻接阅读） — opened
+- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — opened
 
-<a id="company-041"></a>
+<a id="company-043"></a>
 
 ## 拼多多
 
-### 公开自述（4条）
+### 公开自述（5条）
 
 - [RES009 · 27届秋招大模型岗面经](README.md#res009)（2026；大模型算法/Code Agent/Agent开发校招）
 - [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109)（年份未确认；电商搜广推/视觉语言大模型算法）
 - [INT312 · pdd 提前批 AI Infra一面 凉经（一个月前）](README.md#int312)（2026；提前批AI Infra一面回忆）
 - [INT316 · 10.23 pdd服务器开发一面](README.md#int316)（2026；服务器开发秋招一面）
+- [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
 
 ### 补充资料（非亲历，归属按资料自述）
 
 - [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
 - [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（准备/邻接阅读） — opened
 
-<a id="company-042"></a>
+<a id="company-044"></a>
 
 ## 携程
 
@@ -513,7 +553,7 @@
 
 - [INT006 · NLP & 大模型春招记录](README.md#int006)（2024；NLP/多模态/机器学习）
 
-<a id="company-043"></a>
+<a id="company-045"></a>
 
 ## 摩尔线程
 
@@ -521,7 +561,7 @@
 
 - [INT006 · NLP & 大模型春招记录](README.md#int006)（2024；NLP/多模态/机器学习）
 
-<a id="company-044"></a>
+<a id="company-046"></a>
 
 ## 斑马智行
 
@@ -529,7 +569,7 @@
 
 - [INT009 · 阿里斑马智行 - NLP算法工程师面经](README.md#int009)（2024；NLP算法）
 
-<a id="company-045"></a>
+<a id="company-047"></a>
 
 ## 昆仑万维
 
@@ -537,7 +577,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-046"></a>
+<a id="company-048"></a>
 
 ## 智元机器人
 
@@ -545,7 +585,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-047"></a>
+<a id="company-049"></a>
 
 ## 智源研究院
 
@@ -553,7 +593,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-048"></a>
+<a id="company-050"></a>
 
 ## 智谱
 
@@ -565,7 +605,7 @@
 
 - [RES112 · 智普AIGC产品实习生上岸面经（已拿offer）](resources.md#res112) — search_excerpt
 
-<a id="company-049"></a>
+<a id="company-051"></a>
 
 ## 月之暗面
 
@@ -574,7 +614,7 @@
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 - [IB001 · 八年前端分享最近两周面试情况](README.md#ib001)（2025；大模型应用后端/AI全栈）
 
-<a id="company-050"></a>
+<a id="company-052"></a>
 
 ## 有赞
 
@@ -582,7 +622,7 @@
 
 - [INT224 · 有赞面经](README.md#int224)（年份未确认；技术面，具体职位名未写（Java后端与RAG项目））
 
-<a id="company-051"></a>
+<a id="company-053"></a>
 
 ## 未逐公司归属的复盘
 
@@ -596,7 +636,7 @@
 - [INT029 · 秋招实录｜连面3场AI-Agent后端岗](README.md#int029)（2026；AI Agent后端/校招）
 - [INT030 · 后端/全栈面经一次性放出](README.md#int030)（2026；后端/Agent/AI Coding）
 
-<a id="company-052"></a>
+<a id="company-054"></a>
 
 ## 标贝科技
 
@@ -604,7 +644,7 @@
 
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
 
-<a id="company-053"></a>
+<a id="company-055"></a>
 
 ## 水滴
 
@@ -612,17 +652,18 @@
 
 - [INT301 · 水滴秋招AI全栈（北京）凉经](README.md#int301)（2026；AI全栈秋招（北京，一二面））
 
-<a id="company-054"></a>
+<a id="company-056"></a>
 
 ## 滴滴
 
-### 公开自述（3条）
+### 公开自述（4条）
 
 - [INT014 · 滴滴大模型一面面经](README.md#int014)（2024；大模型算法）
 - [INT038 · 滴滴2025届秋招提前批大模型算法工程师](README.md#int038)（2024；大模型算法校招）
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
+- [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
 
-<a id="company-055"></a>
+<a id="company-057"></a>
 
 ## 潞晨科技
 
@@ -630,7 +671,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-056"></a>
+<a id="company-058"></a>
 
 ## 理想
 
@@ -642,15 +683,16 @@
 
 - [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
 
-<a id="company-057"></a>
+<a id="company-059"></a>
 
 ## 百川智能
 
-### 公开自述（1条）
+### 公开自述（2条）
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
+- [INT507 · 百川智能医疗大模型后训练面经](README.md#int507)（2026；医疗大模型后训练一面）
 
-<a id="company-058"></a>
+<a id="company-060"></a>
 
 ## 百度
 
@@ -676,7 +718,7 @@
 - [RES103 · 百度大模型面经流程内容爆料](resources.md#res103) — opened
 - [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — opened
 
-<a id="company-059"></a>
+<a id="company-061"></a>
 
 ## 百度昆仑芯
 
@@ -684,7 +726,7 @@
 
 - [INT005 · 百度昆仑芯-深度学习框架高性能研发实习生面经](README.md#int005)（2023；框架/高性能研发实习）
 
-<a id="company-060"></a>
+<a id="company-062"></a>
 
 ## 盛大集团
 
@@ -692,7 +734,7 @@
 
 - [IB002 · 盛大集团面经：Agent/全栈三轮复盘](README.md#ib002)（2026；Agent/全栈）
 
-<a id="company-061"></a>
+<a id="company-063"></a>
 
 ## 科大讯飞
 
@@ -701,7 +743,15 @@
 - [INT306 · 10.26 科大讯飞 推理工程部 AI Infra 一面](README.md#int306)（2026；星火推理工程部AI Infra一面）
 - [INT411 · 科大讯飞后端 timeline&面经](README.md#int411)（2026；后端秋招一二面及HR面复盘）
 
-<a id="company-062"></a>
+<a id="company-064"></a>
+
+## 第四范式
+
+### 公开自述（1条）
+
+- [INT515 · 第四范式一面](README.md#int515)（2025；一面：合同审查RAG与国产卡适配）
+
+<a id="company-065"></a>
 
 ## 米哈游
 
@@ -709,7 +759,7 @@
 
 - [INT042 · 本科生24暑期实习NLP（Infra & LLM）算法工程师面经](README.md#int042)（2024；NLP/AI Infra训练实习）
 
-<a id="company-063"></a>
+<a id="company-066"></a>
 
 ## 网易
 
@@ -720,7 +770,7 @@
 - [INT305 · 网易云音乐 全栈开发 一面](README.md#int305)（2026；全栈开发一面）
 - [INT308 · 网易云音乐全栈二面](README.md#int308)（2026；全栈秋招二面）
 
-<a id="company-064"></a>
+<a id="company-067"></a>
 
 ## 网易有道
 
@@ -728,7 +778,7 @@
 
 - [INT015 · 网易有道 多模态实习（20250120）](README.md#int015)（2025；OCR/多模态实习）
 
-<a id="company-065"></a>
+<a id="company-068"></a>
 
 ## 美团
 
@@ -757,11 +807,11 @@
 - [RES222 · 爆料美团大模型算法面经](resources.md#res222)（同源转载） — opened
 - [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
 
-<a id="company-066"></a>
+<a id="company-069"></a>
 
 ## 腾讯
 
-### 公开自述（11条）
+### 公开自述（12条）
 
 - [INT017 · 字节 腾讯 小红书 一面面经 + 字节二面 + 字节hr面](README.md#int017)（2025；算法/多模态实习）
 - [INT036 · 2025届NLP算法岗实习面经](README.md#int036)（2024；NLP/搜索/大模型实习）
@@ -774,14 +824,16 @@
 - [INT222 · 腾讯提前批一面面经（挑战全网最晚hhh，热乎的~）](README.md#int222)（2026；腾讯文档后端开发）
 - [INT309 · 10月面试退展](README.md#int309)（2026；量化/推理/编译器/搜广推Infra多公司复盘）
 - [INT321 · 腾讯WXG-日常一面面经](README.md#int321)（2026；WXG后端日常实习一面）
+- [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
 
 ### 补充资料（非亲历，归属按资料自述）
 
 - [RES106 · 大模型面试汇总：腾讯大模型算法日常实习](resources.md#res106) — search_excerpt
 - [RES224 · 腾讯青云面试经验爆料](resources.md#res224) — opened
 - [RES406 · 腾讯 Agent 开发一面｜我的备考题单](resources.md#res406)（准备/邻接阅读） — opened
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — opened
 
-<a id="company-067"></a>
+<a id="company-070"></a>
 
 ## 腾讯音乐娱乐集团
 
@@ -789,7 +841,7 @@
 
 - [INT212 · 大模型暑期实习面经｜腾讯音乐娱乐集团 技术研究—自然语言处理](README.md#int212)（2025；QQ 音乐/技术研究/NLP 暑期实习）
 
-<a id="company-068"></a>
+<a id="company-071"></a>
 
 ## 蔚来
 
@@ -797,24 +849,25 @@
 
 - [INT006 · NLP & 大模型春招记录](README.md#int006)（2024；NLP/多模态/机器学习）
 
-<a id="company-069"></a>
+<a id="company-072"></a>
 
 ## 蚂蚁集团
 
-### 公开自述（5条）
+### 公开自述（6条）
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 - [INT048 · 国内20家公司大模型岗位面试经验汇总](README.md#int048)（年份未确认；大模型/多模态算法）
 - [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
 - [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
 - [INT314 · 蚂蚁智能体一面](README.md#int314)（2026；智能体方向一面）
+- [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
 
 ### 补充资料（非亲历，归属按资料自述）
 
 - [RES201 · 支付宝营销产品AI+营销产品面经 二面](resources.md#res201) — search_excerpt
 - [RES216 · 蚂蚁集团 AI Agent 开发：复活赛深挖 CR Agent，问得比任何一家都深](resources.md#res216) — opened
 
-<a id="company-070"></a>
+<a id="company-073"></a>
 
 ## 衔远科技
 
@@ -822,7 +875,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-071"></a>
+<a id="company-074"></a>
 
 ## 视源股份
 
@@ -831,7 +884,7 @@
 - [INT302 · 10.24 CVTE 视源股份应用开发工程师 一面](README.md#int302)（2026；CVTE应用开发工程师秋招一面）
 - [INT303 · CVTE 秋招 应用开发工程师 一面](README.md#int303)（2026；CVTE应用开发工程师秋招一面）
 
-<a id="company-072"></a>
+<a id="company-075"></a>
 
 ## 贝壳找房
 
@@ -839,7 +892,7 @@
 
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
 
-<a id="company-073"></a>
+<a id="company-076"></a>
 
 ## 边塞科技
 
@@ -847,7 +900,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-074"></a>
+<a id="company-077"></a>
 
 ## 释然科技
 
@@ -859,7 +912,7 @@
 
 - [RES301 · 面经｜社招释然科技｜一面已凉](resources.md#res301)（准备/邻接阅读） — opened
 
-<a id="company-075"></a>
+<a id="company-078"></a>
 
 ## 金山
 
@@ -867,7 +920,7 @@
 
 - [INT006 · NLP & 大模型春招记录](README.md#int006)（2024；NLP/多模态/机器学习）
 
-<a id="company-076"></a>
+<a id="company-079"></a>
 
 ## 金山办公
 
@@ -875,7 +928,7 @@
 
 - [INT003 · 金山nlp算法](README.md#int003)（2023；NLP算法）
 
-<a id="company-077"></a>
+<a id="company-080"></a>
 
 ## 长鑫存储
 
@@ -883,11 +936,11 @@
 
 - [INT307 · 长鑫存储AI Agent开发工程师一面，面完了！！！](README.md#int307)（2026；AI Agent开发工程师一面）
 
-<a id="company-078"></a>
+<a id="company-081"></a>
 
 ## 阿里
 
-### 公开自述（18条）
+### 公开自述（20条）
 
 - [INT013 · 达摩院 暑期实习 决策智能实验室 大模型算法](README.md#int013)（2024；决策智能/大模型算法）
 - [INT016 · 阿里云 AI平台研发 一面](README.md#int016)（2025；AI平台研发）
@@ -907,6 +960,8 @@
 - [INT309 · 10月面试退展](README.md#int309)（2026；量化/推理/编译器/搜广推Infra多公司复盘）
 - [INT403 · 千问agent社招一面面经](README.md#int403)（2026；千问Agent社招一面（作者自述P7、5年经验））
 - [INT409 · 11.3 阿里token foundry 测开 1.5小时](README.md#int409)（2026；Token Foundry/千问海外测开一面）
+- [INT501 · 0914 阿里云一面（AI Infra）](README.md#int501)（2026；大模型推理性能优化与加速一面）
+- [INT502 · 阿里AI Infra 二面 面经](README.md#int502)（2026；AI Infra二面：多卡稳定性与算子）
 
 ### 补充资料（非亲历，归属按资料自述）
 
@@ -921,7 +976,7 @@
 - [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — opened
 - [RES504 · 阿里国际 AI 应用研发一面](resources.md#res504)（准备/邻接阅读） — opened
 
-<a id="company-079"></a>
+<a id="company-082"></a>
 
 ## 阿里夸克
 
@@ -929,7 +984,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-080"></a>
+<a id="company-083"></a>
 
 ## 零一万物
 
@@ -937,7 +992,7 @@
 
 - [INT031 · 国内大模型公司，粗略面经+感受+一些包裹](README.md#int031)（2023；基座预训练算法/框架社招）
 
-<a id="company-081"></a>
+<a id="company-084"></a>
 
 ## 面壁智能
 

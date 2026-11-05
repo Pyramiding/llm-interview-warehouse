@@ -6,12 +6,12 @@ Chinese LLM interview preparation with public interview reports, original explan
 
 **直接在 GitHub 阅读，无需安装、API 密钥或 GPU。** 面经为求职者公开自述，专题题解为原创研究延伸，不等同于企业官方题库。
 
-最近增补：**2026-11-05**。本轮新增14篇面经、7个分级阅读入口与68条重点问法，覆盖11月2日上次资料提交后新发布的内容。仓库重点覆盖**2023—2026年**；各来源的发布、面试与查阅时间分别保留。
+最近扩充：**2026-11-05**。本轮按应用与LLM Infra方向回补历史资料，新增19篇面经、10个补充入口、75条重点问法，并增加29个细分方向。当天较早的14篇增量更新另有记录。仓库重点覆盖**2023—2026年**；各来源的发布、面试与查阅时间分别保留，未确认年份单列。
 
 <!-- STATS:START -->
-**142篇公开面经 · 23个专题 · 414道专题题解 + 26道项目/手写练习 · 411个去重来源链接**
+**161篇公开面经 · 23个专题 · 29个细分方向 · 414道专题题解 + 26道项目/手写练习 · 440个去重来源链接**
 
-另附86个补充阅读入口（含仅元数据项）；研究来源包含183个规范化链接。题目数不含追问；来源数按链接归一化，并非独立论文或企业真题数量。
+另附96个补充阅读入口（含仅元数据项）；研究来源包含183个规范化链接。题目数不含追问；来源数按链接归一化，并非独立论文或企业真题数量。
 <!-- STATS:END -->
 
 ## 从这里开始
@@ -25,11 +25,12 @@ Chinese LLM interview preparation with public interview reports, original explan
 ### 更多查找方式
 
 - **查面经：** [全部公开面经](docs/interviews/README.md) · [研究方向](docs/interviews/by-topic.md) · [公司×业务](docs/interviews/company-direction.md)
+- **查细分领域：** [29个技术与应用方向](docs/interviews/by-specialty.md) · [LLM Infra专页与岗位阅读顺序](docs/interviews/llm-infra.md)
 - **按条件筛选：** [平台](docs/interviews/by-platform.md) · [岗位](docs/interviews/by-role.md) · [年份](docs/interviews/by-year.md) · [业务领域](docs/interviews/by-domain.md)
 - **直达常用平台：** [牛客](docs/interviews/by-platform.md#platform-nowcoder) · [LeetCode 中文站](docs/interviews/by-platform.md#platform-leetcode-cn) · [LeetCode 国际站](docs/interviews/by-platform.md#platform-leetcode-global)
 - **查题与依据：** [全部题目与稳定 ID](docs/question-index.md) · [来源目录](docs/source-catalog.md) · [收集与核验方法](docs/methodology.md) · [覆盖范围与缺口](docs/coverage.md)
 - **补充阅读：** [汇编、解析与分级阅读入口](docs/interviews/resources.md)（含公众号原链与仅元数据项，不计亲历）
-- **查看更新：** [11 月 5 日增量记录](docs/incremental-2026-11-05.md) · [11 月 2 日增量记录](docs/incremental-2026-11-02.md) · [牛客与 LeetCode 增补](docs/nowcoder-leetcode-2026-10-23.md) · [其他平台增补](docs/platform-expansion-2026-10-23.md)
+- **查看更新：** [应用与LLM Infra扩展](docs/expansion-applications-infra-2026-11-05.md) · [11 月 5 日增量记录](docs/incremental-2026-11-05.md) · [11 月 2 日增量记录](docs/incremental-2026-11-02.md) · [牛客与 LeetCode 增补](docs/nowcoder-leetcode-2026-10-23.md) · [其他平台增补](docs/platform-expansion-2026-10-23.md)
 
 ## 研究、工程与应用专题
 
@@ -93,6 +94,8 @@ python3 tools/search.py --interviews --topic 06
 python3 tools/search.py --interviews --company 字节跳动
 python3 tools/search.py --interviews --platform 知乎
 python3 tools/search.py --interviews --domain 搜索
+python3 tools/search.py --interviews --specialty infra-kernel
+python3 tools/search.py --interviews --specialty app-bi
 
 # 更新导航和检查内容结构
 python3 tools/build_indexes.py

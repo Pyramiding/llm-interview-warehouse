@@ -1,0 +1,445 @@
+[
+  {
+    "id": "infra-training",
+    "name": "分布式训练与显存管理",
+    "group": "LLM Infra",
+    "description": "并行切分、ZeRO/FSDP、训练状态、重计算与训练系统排障。",
+    "interview_ids": [
+      "INT042",
+      "INT219",
+      "INT502",
+      "INT511"
+    ],
+    "resource_ids": [
+      "RES601",
+      "RES602",
+      "RES604",
+      "RES605"
+    ]
+  },
+  {
+    "id": "infra-rl",
+    "name": "RL Infra与Rollout系统",
+    "group": "LLM Infra",
+    "description": "采样环境、训练执行链路、AgentLoop与多轮RL评测；仅讨论算法差异的面经不自动标为RL Infra。",
+    "interview_ids": [
+      "INT218"
+    ],
+    "resource_ids": [
+      "RES601",
+      "RES604",
+      "RES605"
+    ]
+  },
+  {
+    "id": "infra-kernel",
+    "name": "CUDA、Triton与算子优化",
+    "group": "LLM Infra",
+    "description": "GEMM、Attention、归约、访存、确定性、手写kernel与数值验证。",
+    "interview_ids": [
+      "INT219",
+      "INT309",
+      "INT312",
+      "INT501",
+      "INT502",
+      "INT503",
+      "INT505",
+      "INT511"
+    ],
+    "resource_ids": [
+      "RES215",
+      "RES601",
+      "RES603",
+      "RES604",
+      "RES609",
+      "RES610"
+    ]
+  },
+  {
+    "id": "infra-compiler",
+    "name": "图执行与AI编译",
+    "group": "LLM Infra",
+    "description": "CUDA Graph、动态shape、计算路径与编译栈。现有原帖主要支持图执行问题，专门编译器岗位的亲历仍不足。",
+    "interview_ids": [
+      "INT502"
+    ],
+    "resource_ids": [
+      "RES601",
+      "RES604"
+    ]
+  },
+  {
+    "id": "infra-communication",
+    "name": "NCCL、互联与多卡通信",
+    "group": "LLM Infra",
+    "description": "集合通信、拓扑、同步、跨节点KV传输与通信瓶颈；不把普通消息队列题归为GPU通信。",
+    "interview_ids": [
+      "INT219",
+      "INT220",
+      "INT502",
+      "INT511"
+    ],
+    "resource_ids": [
+      "RES601",
+      "RES602",
+      "RES603",
+      "RES604"
+    ]
+  },
+  {
+    "id": "infra-serving",
+    "name": "LLM推理引擎与Serving",
+    "group": "LLM Infra",
+    "description": "vLLM/SGLang、KV管理、批处理、PD分离、投机解码、吞吐与延迟。",
+    "interview_ids": [
+      "INT219",
+      "INT220",
+      "INT306",
+      "INT309",
+      "INT501",
+      "INT502",
+      "INT503",
+      "INT504",
+      "INT505"
+    ],
+    "resource_ids": [
+      "RES220",
+      "RES601",
+      "RES602",
+      "RES603",
+      "RES604",
+      "RES605",
+      "RES610"
+    ]
+  },
+  {
+    "id": "infra-platform",
+    "name": "GPU调度与云原生平台",
+    "group": "LLM Infra",
+    "description": "GPU池化、隔离、弹性伸缩、Kubernetes训练推理工作负载与平台观测；亲历样本少于教程覆盖。",
+    "interview_ids": [
+      "INT306"
+    ],
+    "resource_ids": [
+      "RES601",
+      "RES602",
+      "RES603",
+      "RES604",
+      "RES605"
+    ]
+  },
+  {
+    "id": "infra-profiling",
+    "name": "性能分析与Benchmark",
+    "group": "LLM Infra",
+    "description": "Roofline、时间线、Nsight、负载条件、显存账本与端到端优化证据。",
+    "interview_ids": [
+      "INT219",
+      "INT309",
+      "INT312",
+      "INT504"
+    ],
+    "resource_ids": [
+      "RES215",
+      "RES220",
+      "RES601",
+      "RES603",
+      "RES604",
+      "RES609"
+    ]
+  },
+  {
+    "id": "infra-hardware",
+    "name": "异构硬件、国产卡与端侧",
+    "group": "LLM Infra",
+    "description": "CUDA/HIP等生态迁移、模型与算子适配、量化、设备内存和能耗。",
+    "interview_ids": [
+      "INT022",
+      "INT219",
+      "INT306",
+      "INT414",
+      "INT501",
+      "INT515"
+    ],
+    "resource_ids": [
+      "RES601",
+      "RES602",
+      "RES604",
+      "RES610"
+    ]
+  },
+  {
+    "id": "eng-runtime",
+    "name": "Agent Runtime与Harness",
+    "group": "Agent与模型工程",
+    "description": "任务状态、工具执行、停止条件、执行中追加要求、恢复与权限。",
+    "interview_ids": [
+      "INT401",
+      "INT403",
+      "INT405",
+      "INT407",
+      "INT413",
+      "INT514"
+    ],
+    "resource_ids": [
+      "RES604"
+    ]
+  },
+  {
+    "id": "eng-memory",
+    "name": "上下文工程与长期记忆",
+    "group": "Agent与模型工程",
+    "description": "状态与聊天记录的区别、记忆压缩、偏好变化与跨轮信息保留。",
+    "interview_ids": [
+      "INT317",
+      "INT403",
+      "INT408",
+      "INT511",
+      "INT512"
+    ],
+    "resource_ids": [
+      "RES501",
+      "RES506",
+      "RES604"
+    ]
+  },
+  {
+    "id": "eng-code-agent",
+    "name": "Coding Agent与代码生成",
+    "group": "Agent与模型工程",
+    "description": "补丁审批、版本绑定、编译预览、代码验收和生成平台；普通使用AI写代码不自动归入。",
+    "interview_ids": [
+      "INT407",
+      "INT413"
+    ],
+    "resource_ids": [
+      "RB001",
+      "RB008"
+    ]
+  },
+  {
+    "id": "eng-evaluation",
+    "name": "评测工程与可观测性",
+    "group": "Agent与模型工程",
+    "description": "测试集、任务与工具过程评测、自动化、数据质量、回归及失败归因。",
+    "interview_ids": [
+      "INT105",
+      "INT216",
+      "INT319",
+      "INT409",
+      "INT410",
+      "INT411",
+      "INT517"
+    ],
+    "resource_ids": [
+      "RES503",
+      "RES603",
+      "RES604"
+    ]
+  },
+  {
+    "id": "eng-data",
+    "name": "合成数据与数据闭环",
+    "group": "Agent与模型工程",
+    "description": "合成、外购、清洗过滤、训练数据与任务评测；仅出现数据一词不算领域证据。",
+    "interview_ids": [
+      "INT105",
+      "INT519",
+      "INT520"
+    ],
+    "resource_ids": [
+      "RES503"
+    ]
+  },
+  {
+    "id": "eng-safety",
+    "name": "模型与Agent运行安全",
+    "group": "Agent与模型工程",
+    "description": "工具写操作、审批、权限、隔离、隐私与执行过程；业务反欺诈另列应用风控。",
+    "interview_ids": [
+      "INT214",
+      "INT407",
+      "INT508",
+      "INT514",
+      "INT517",
+      "INT518"
+    ],
+    "resource_ids": [
+      "RES505",
+      "RES604"
+    ]
+  },
+  {
+    "id": "app-growth-marketing",
+    "name": "用户增长与营销",
+    "group": "应用场景",
+    "description": "因果与uplift、触达、画像、营销Agent和增量效果；项目题与团队业务说明分别见记录。",
+    "interview_ids": [
+      "INT040",
+      "INT210",
+      "INT412"
+    ],
+    "resource_ids": []
+  },
+  {
+    "id": "app-service",
+    "name": "客服、外呼与业务执行",
+    "group": "应用场景",
+    "description": "知识咨询、业务动作、流式交互、转人工和客服质量；不能把只读问答等同订单执行。",
+    "interview_ids": [
+      "INT104",
+      "INT216",
+      "INT217",
+      "INT509"
+    ],
+    "resource_ids": [
+      "RES219",
+      "RES505",
+      "RES606"
+    ]
+  },
+  {
+    "id": "app-speech",
+    "name": "实时语音与会议转写",
+    "group": "应用场景",
+    "description": "ASR、TTS、语音质量、弱网兼容、转写隐私、流式打断与恢复。",
+    "interview_ids": [
+      "INT111",
+      "INT224",
+      "INT513",
+      "INT518"
+    ],
+    "resource_ids": [
+      "RES219",
+      "RES606"
+    ]
+  },
+  {
+    "id": "app-commerce",
+    "name": "电商与商家Agent",
+    "group": "应用场景",
+    "description": "电商岗位/项目线索与商品场景。现有记录含岗位描述及知识库项目，不代表均已问导购、交易或商家经营全流程。",
+    "interview_ids": [
+      "INT109",
+      "INT512"
+    ],
+    "resource_ids": []
+  },
+  {
+    "id": "app-bi",
+    "name": "智能问数、NL2SQL与BI",
+    "group": "应用场景",
+    "description": "数据与业务语义、字段消歧、查询链路和评估；智能问数不必然等于SQL生成。",
+    "interview_ids": [
+      "INT001",
+      "INT508",
+      "INT511",
+      "INT519"
+    ],
+    "resource_ids": [
+      "RES607",
+      "RES608"
+    ]
+  },
+  {
+    "id": "app-office",
+    "name": "办公助手与文档智能",
+    "group": "应用场景",
+    "description": "行政HR助手、企业任务与知识使用；该方向并非所有企业知识库记录的默认标签。",
+    "interview_ids": [
+      "INT411",
+      "INT517"
+    ],
+    "resource_ids": [
+      "RES506",
+      "RES607"
+    ]
+  },
+  {
+    "id": "app-creative",
+    "name": "内容生成、视频与数字人",
+    "group": "应用场景",
+    "description": "营销生图/生视频及生成模型系统。现有亲历主要是团队场景说明，数字人专项亲历仍不足。",
+    "interview_ids": [
+      "INT412",
+      "INT505"
+    ],
+    "resource_ids": []
+  },
+  {
+    "id": "app-medical",
+    "name": "医疗模型与医疗Agent",
+    "group": "应用场景",
+    "description": "医疗后训练、Skill/HIS、医疗SFT/DPO项目与评估。包含候选项目，不等于招聘方就是医疗团队。",
+    "interview_ids": [
+      "INT216",
+      "INT507"
+    ],
+    "resource_ids": []
+  },
+  {
+    "id": "app-education",
+    "name": "教育与教学Agent",
+    "group": "应用场景",
+    "description": "数学教育研究及教育公司应用开发；通用工程题不扩写为作业批改或教学效果题。",
+    "interview_ids": [
+      "INT013",
+      "INT514"
+    ],
+    "resource_ids": []
+  },
+  {
+    "id": "app-legal",
+    "name": "法律、合同与文档审查",
+    "group": "应用场景",
+    "description": "合同检索证据、法律条文微调与RAG取舍；当前证据主要来自候选项目。",
+    "interview_ids": [
+      "INT515"
+    ],
+    "resource_ids": []
+  },
+  {
+    "id": "app-frontend",
+    "name": "AI前端、全栈与交互",
+    "group": "应用场景",
+    "description": "Agent状态展示、递归组件、流式体验、端侧WebLLM与国际化。",
+    "interview_ids": [
+      "INT401",
+      "INT516"
+    ],
+    "resource_ids": []
+  },
+  {
+    "id": "app-personalization",
+    "name": "个性化助手与用户画像",
+    "group": "应用场景",
+    "description": "用户画像、偏好写入与衰减、变更确认。情感陪伴专项面经尚不足，不因社交公司名称自动归类。",
+    "interview_ids": [
+      "INT207",
+      "INT317"
+    ],
+    "resource_ids": []
+  },
+  {
+    "id": "app-risk",
+    "name": "风控、审核与反欺诈",
+    "group": "应用场景",
+    "description": "按明确岗位或设计场景收录，区分内容/欺诈风险与通用Agent权限控制。",
+    "interview_ids": [
+      "INT214",
+      "INT215",
+      "INT517"
+    ],
+    "resource_ids": []
+  },
+  {
+    "id": "app-embodied",
+    "name": "具身智能与世界模型",
+    "group": "应用场景",
+    "description": "作为待补亲历方向保留；现有指南和研究延伸不能冒充机器人或世界模型岗位面经。",
+    "interview_ids": [],
+    "resource_ids": [
+      "RB009"
+    ]
+  }
+]
