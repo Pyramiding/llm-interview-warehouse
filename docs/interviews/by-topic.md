@@ -1,8 +1,8 @@
-# 按研究方向找公开面经
+# 按方向找面经
 
 [按年份](README.md) · [按公司](by-company.md) · [题目索引](../question-index.md)
 
-映射表示该面经可见内容涉及该方向，不表示其覆盖整个研究领域；数量仅为本仓库样本。
+每个方向先列面经，再列题库和教程。一篇涉及多个方向时会重复出现在列表中。
 
 ## 01 · Transformer与数学基础
 
@@ -62,27 +62,27 @@
 - [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322)（2026；推荐大模型算法一二面）
 - [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402)（2026；大模型算法三面（公开部分））
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — opened
-- [RES110 · 【LLM】大模型面试准备-3（题库整理篇）](resources.md#res110) — search_excerpt
-- [RB001 · AI-Interview-Code](resources.md#rb001) — search_excerpt
-- [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — opened
-- [RB004 · LLM-Algorithm-Intern-Guide](resources.md#rb004) — search_excerpt
-- [RB009 · AIMLInterviews](resources.md#rb009) — opened
-- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010)（准备/邻接阅读） — search_excerpt
-- [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — opened
-- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — metadata_only
-- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — search_excerpt
-- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
-- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
-- [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — opened
-- [RES222 · 爆料美团大模型算法面经](resources.md#res222)（同源转载） — opened
-- [RES223 · 快手大模型算法面经爆料](resources.md#res223) — opened
-- [RES224 · 腾讯青云面试经验爆料](resources.md#res224) — opened
-- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
-- [RES303 · 分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）](resources.md#res303)（同源转载） — opened
-- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
+- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — 已读正文
+- [RES110 · 【LLM】大模型面试准备-3（题库整理篇）](resources.md#res110) — 仅搜索摘要
+- [RB001 · AI-Interview-Code](resources.md#rb001) — 仅搜索摘要
+- [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — 已读正文
+- [RB004 · LLM-Algorithm-Intern-Guide](resources.md#rb004) — 仅搜索摘要
+- [RB009 · AIMLInterviews](resources.md#rb009) — 已读正文
+- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010)（备考资料） — 仅搜索摘要
+- [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — 已读正文
+- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — 仅目录信息
+- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — 仅搜索摘要
+- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — 已读正文
+- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — 仅搜索摘要
+- [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — 已读正文
+- [RES222 · 爆料美团大模型算法面经](resources.md#res222)（转载） — 已读正文
+- [RES223 · 快手大模型算法面经爆料](resources.md#res223) — 已读正文
+- [RES224 · 腾讯青云面试经验爆料](resources.md#res224) — 已读正文
+- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — 已读正文
+- [RES303 · 分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）](resources.md#res303)（转载） — 已读正文
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — 已读正文
 
 ## 02 · 预训练与数据工程
 
@@ -115,11 +115,11 @@
 - [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
 - [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RB018 · 阿里云多模态大模型岗三面面经](resources.md#rb018) — search_excerpt
-- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
-- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
+- [RB018 · 阿里云多模态大模型岗三面面经](resources.md#rb018) — 仅搜索摘要
+- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — 已读正文
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — 已读正文
 
 ## 03 · SFT与参数高效微调
 
@@ -174,33 +174,33 @@
 - [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
 - [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — opened
-- [RES102 · 字节大模型算法实习岗面经](resources.md#res102) — opened
-- [RES103 · 百度大模型面经流程内容爆料](resources.md#res103) — opened
-- [RES106 · 大模型面试汇总：腾讯大模型算法日常实习](resources.md#res106) — search_excerpt
-- [RES108 · 大模型面试汇总：美团大模型日常实习](resources.md#res108) — search_excerpt
-- [RES109 · AIGC大模型面经汇总，太全了！](resources.md#res109) — search_excerpt
-- [RES110 · 【LLM】大模型面试准备-3（题库整理篇）](resources.md#res110) — search_excerpt
-- [RES113 · 2024年LLM实习岗面经（一名大四学生的碎碎念）](resources.md#res113)（准备/邻接阅读） — search_excerpt
-- [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — opened
-- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
-- [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — opened
-- [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — opened
-- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — search_excerpt
-- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — opened
-- [RES202 · 美团大模型产品面经](resources.md#res202) — opened
-- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — metadata_only
-- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — search_excerpt
-- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
-- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
-- [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — opened
-- [RES222 · 爆料美团大模型算法面经](resources.md#res222)（同源转载） — opened
-- [RES223 · 快手大模型算法面经爆料](resources.md#res223) — opened
-- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
-- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
-- [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
+- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — 已读正文
+- [RES102 · 字节大模型算法实习岗面经](resources.md#res102) — 已读正文
+- [RES103 · 百度大模型面经流程内容爆料](resources.md#res103) — 已读正文
+- [RES106 · 大模型面试汇总：腾讯大模型算法日常实习](resources.md#res106) — 仅搜索摘要
+- [RES108 · 大模型面试汇总：美团大模型日常实习](resources.md#res108) — 仅搜索摘要
+- [RES109 · AIGC大模型面经汇总，太全了！](resources.md#res109) — 仅搜索摘要
+- [RES110 · 【LLM】大模型面试准备-3（题库整理篇）](resources.md#res110) — 仅搜索摘要
+- [RES113 · 2024年LLM实习岗面经（一名大四学生的碎碎念）](resources.md#res113)（备考资料） — 仅搜索摘要
+- [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — 已读正文
+- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — 已读正文
+- [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — 已读正文
+- [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — 已读正文
+- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — 仅搜索摘要
+- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — 已读正文
+- [RES202 · 美团大模型产品面经](resources.md#res202) — 已读正文
+- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — 仅目录信息
+- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — 仅搜索摘要
+- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — 已读正文
+- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — 仅搜索摘要
+- [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — 已读正文
+- [RES222 · 爆料美团大模型算法面经](resources.md#res222)（转载） — 已读正文
+- [RES223 · 快手大模型算法面经爆料](resources.md#res223) — 已读正文
+- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — 已读正文
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — 已读正文
+- [RES505 · 美团 Agent 开发一面](resources.md#res505)（备考资料） — 已读正文
 
 ## 04 · 偏好对齐与强化学习
 
@@ -244,28 +244,28 @@
 - [INT507 · 百川智能医疗大模型后训练面经](README.md#int507)（2026；医疗大模型后训练一面）
 - [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES102 · 字节大模型算法实习岗面经](resources.md#res102) — opened
-- [RES103 · 百度大模型面经流程内容爆料](resources.md#res103) — opened
-- [RES104 · 大模型面试汇总：字节AI搜面经](resources.md#res104) — search_excerpt
-- [RES106 · 大模型面试汇总：腾讯大模型算法日常实习](resources.md#res106) — search_excerpt
-- [RES109 · AIGC大模型面经汇总，太全了！](resources.md#res109) — search_excerpt
-- [RB004 · LLM-Algorithm-Intern-Guide](resources.md#rb004) — search_excerpt
-- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
-- [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — opened
-- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — search_excerpt
-- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — opened
-- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — metadata_only
-- [RES213 · 字节多模态算法面试转述（编目标题）](resources.md#res213) — search_excerpt
-- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
-- [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — opened
-- [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](resources.md#res220) — opened
-- [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — search_excerpt
-- [RES224 · 腾讯青云面试经验爆料](resources.md#res224) — opened
-- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
-- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
-- [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
+- [RES102 · 字节大模型算法实习岗面经](resources.md#res102) — 已读正文
+- [RES103 · 百度大模型面经流程内容爆料](resources.md#res103) — 已读正文
+- [RES104 · 大模型面试汇总：字节AI搜面经](resources.md#res104) — 仅搜索摘要
+- [RES106 · 大模型面试汇总：腾讯大模型算法日常实习](resources.md#res106) — 仅搜索摘要
+- [RES109 · AIGC大模型面经汇总，太全了！](resources.md#res109) — 仅搜索摘要
+- [RB004 · LLM-Algorithm-Intern-Guide](resources.md#rb004) — 仅搜索摘要
+- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — 已读正文
+- [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — 已读正文
+- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — 仅搜索摘要
+- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — 已读正文
+- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — 仅目录信息
+- [RES213 · 字节多模态算法面试转述（编目标题）](resources.md#res213) — 仅搜索摘要
+- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — 仅搜索摘要
+- [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — 已读正文
+- [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](resources.md#res220) — 已读正文
+- [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — 仅搜索摘要
+- [RES224 · 腾讯青云面试经验爆料](resources.md#res224) — 已读正文
+- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — 已读正文
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — 已读正文
+- [RES505 · 美团 Agent 开发一面](resources.md#res505)（备考资料） — 已读正文
 
 ## 05 · 架构、MoE与长上下文
 
@@ -293,19 +293,19 @@
 - [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — opened
-- [RES103 · 百度大模型面经流程内容爆料](resources.md#res103) — opened
-- [RES107 · 大模型面试汇总：美团大模型算法-袋鼠的心跳](resources.md#res107) — search_excerpt
-- [RB001 · AI-Interview-Code](resources.md#rb001) — search_excerpt
-- [RB004 · LLM-Algorithm-Intern-Guide](resources.md#rb004) — search_excerpt
-- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010)（准备/邻接阅读） — search_excerpt
-- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — opened
-- [RB018 · 阿里云多模态大模型岗三面面经](resources.md#rb018) — search_excerpt
-- [RES223 · 快手大模型算法面经爆料](resources.md#res223) — opened
-- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
-- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — opened
+- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — 已读正文
+- [RES103 · 百度大模型面经流程内容爆料](resources.md#res103) — 已读正文
+- [RES107 · 大模型面试汇总：美团大模型算法-袋鼠的心跳](resources.md#res107) — 仅搜索摘要
+- [RB001 · AI-Interview-Code](resources.md#rb001) — 仅搜索摘要
+- [RB004 · LLM-Algorithm-Intern-Guide](resources.md#rb004) — 仅搜索摘要
+- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010)（备考资料） — 仅搜索摘要
+- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — 已读正文
+- [RB018 · 阿里云多模态大模型岗三面面经](resources.md#rb018) — 仅搜索摘要
+- [RES223 · 快手大模型算法面经爆料](resources.md#res223) — 已读正文
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — 已读正文
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — 已读正文
 
 ## 06 · RAG与检索
 
@@ -368,42 +368,42 @@
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 - [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES102 · 字节大模型算法实习岗面经](resources.md#res102) — opened
-- [RES108 · 大模型面试汇总：美团大模型日常实习](resources.md#res108) — search_excerpt
-- [RES113 · 2024年LLM实习岗面经（一名大四学生的碎碎念）](resources.md#res113)（准备/邻接阅读） — search_excerpt
-- [RB003 · llm-interview-notes](resources.md#rb003) — opened
-- [RB006 · agent-interview-hub](resources.md#rb006) — opened
-- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
-- [RB008 · Awesome LLM System Design](resources.md#rb008) — opened
-- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（准备/邻接阅读） — search_excerpt
-- [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — opened
-- [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — search_excerpt
-- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — opened
-- [RES206 · 问的最多的大模型 Agent 算法面试题：设计Agent记忆系统？](resources.md#res206) — metadata_only
-- [RES207 · 字节 Agent 岗二面：RAG 的 Top-K 是不是越大越好？](resources.md#res207) — metadata_only
-- [RES210 · 大模型 Agent 面试高频100题——基础篇](resources.md#res210) — metadata_only
-- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
-- [RES216 · 蚂蚁集团 AI Agent 开发：复活赛深挖 CR Agent，问得比任何一家都深](resources.md#res216) — opened
-- [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — opened
-- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） — search_excerpt
-- [RES224 · 腾讯青云面试经验爆料](resources.md#res224) — opened
-- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
-- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
-- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — opened
-- [RES403 · 阿里 AI应用开发 实习一面](resources.md#res403) — opened
-- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — opened
-- [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — opened
-- [RES406 · 腾讯 Agent 开发一面｜我的备考题单](resources.md#res406)（准备/邻接阅读） — opened
-- [RES501 · 字节 Agent 开发二面](resources.md#res501)（准备/邻接阅读） — opened
-- [RES503 · 1小时秒杀agent八股  ——RAG与知识库](resources.md#res503) — opened
-- [RES504 · 阿里国际 AI 应用研发一面](resources.md#res504)（准备/邻接阅读） — opened
-- [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
-- [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（准备/邻接阅读） — opened
-- [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — opened
-- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — opened
-- [RES608 · 信雅达Java一面二次解析：NL2SQL项目](resources.md#res608) — opened
+- [RES102 · 字节大模型算法实习岗面经](resources.md#res102) — 已读正文
+- [RES108 · 大模型面试汇总：美团大模型日常实习](resources.md#res108) — 仅搜索摘要
+- [RES113 · 2024年LLM实习岗面经（一名大四学生的碎碎念）](resources.md#res113)（备考资料） — 仅搜索摘要
+- [RB003 · llm-interview-notes](resources.md#rb003) — 已读正文
+- [RB006 · agent-interview-hub](resources.md#rb006) — 已读正文
+- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — 已读正文
+- [RB008 · Awesome LLM System Design](resources.md#rb008) — 已读正文
+- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（备考资料） — 仅搜索摘要
+- [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — 已读正文
+- [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — 仅搜索摘要
+- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — 已读正文
+- [RES206 · 问的最多的大模型 Agent 算法面试题：设计Agent记忆系统？](resources.md#res206) — 仅目录信息
+- [RES207 · 字节 Agent 岗二面：RAG 的 Top-K 是不是越大越好？](resources.md#res207) — 仅目录信息
+- [RES210 · 大模型 Agent 面试高频100题——基础篇](resources.md#res210) — 仅目录信息
+- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — 仅搜索摘要
+- [RES216 · 蚂蚁集团 AI Agent 开发：复活赛深挖 CR Agent，问得比任何一家都深](resources.md#res216) — 已读正文
+- [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — 已读正文
+- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（备考资料） — 仅搜索摘要
+- [RES224 · 腾讯青云面试经验爆料](resources.md#res224) — 已读正文
+- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — 已读正文
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — 已读正文
+- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — 已读正文
+- [RES403 · 阿里 AI应用开发 实习一面](resources.md#res403) — 已读正文
+- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — 已读正文
+- [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — 已读正文
+- [RES406 · 腾讯 Agent 开发一面｜我的备考题单](resources.md#res406)（备考资料） — 已读正文
+- [RES501 · 字节 Agent 开发二面](resources.md#res501)（备考资料） — 已读正文
+- [RES503 · 1小时秒杀agent八股  ——RAG与知识库](resources.md#res503) — 已读正文
+- [RES504 · 阿里国际 AI 应用研发一面](resources.md#res504)（备考资料） — 已读正文
+- [RES505 · 美团 Agent 开发一面](resources.md#res505)（备考资料） — 已读正文
+- [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（备考资料） — 已读正文
+- [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — 已读正文
+- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — 已读正文
+- [RES608 · 信雅达Java一面二次解析：NL2SQL项目](resources.md#res608) — 已读正文
 
 ## 07 · Agent与工具调用
 
@@ -473,45 +473,45 @@
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 - [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES105 · 大模型面试汇总：哈啰大模型算法](resources.md#res105) — search_excerpt
-- [RB003 · llm-interview-notes](resources.md#rb003) — opened
-- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
-- [RB006 · agent-interview-hub](resources.md#rb006) — opened
-- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
-- [RB008 · Awesome LLM System Design](resources.md#rb008) — opened
-- [RB009 · AIMLInterviews](resources.md#rb009) — opened
-- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010)（准备/邻接阅读） — search_excerpt
-- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（准备/邻接阅读） — search_excerpt
-- [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — opened
-- [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — opened
-- [RES204 · 阿里面试官追问：Code Agent 跑到一半挂了，怎么恢复而且不重复执行？](resources.md#res204) — metadata_only
-- [RES205 · 阿里面试官追问：Code Agent 为什么不能直接给它 root 权限？](resources.md#res205) — metadata_only
-- [RES206 · 问的最多的大模型 Agent 算法面试题：设计Agent记忆系统？](resources.md#res206) — metadata_only
-- [RES207 · 字节 Agent 岗二面：RAG 的 Top-K 是不是越大越好？](resources.md#res207) — metadata_only
-- [RES208 · 淘天一面最高频：多Agent怎么协作？99%的人答错了第一步](resources.md#res208) — metadata_only
-- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — metadata_only
-- [RES210 · 大模型 Agent 面试高频100题——基础篇](resources.md#res210) — metadata_only
-- [RES216 · 蚂蚁集团 AI Agent 开发：复活赛深挖 CR Agent，问得比任何一家都深](resources.md#res216) — opened
-- [RES217 · 字节 AI Agent 开发 一面（抖音电商 · 一面掉池子里面了）](resources.md#res217) — opened
-- [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — search_excerpt
-- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
-- [RES401 · 快手客户端 - 中台infra - 面经](resources.md#res401)（准备/邻接阅读） — opened
-- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — opened
-- [RES403 · 阿里 AI应用开发 实习一面](resources.md#res403) — opened
-- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — opened
-- [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — opened
-- [RES406 · 腾讯 Agent 开发一面｜我的备考题单](resources.md#res406)（准备/邻接阅读） — opened
-- [RES501 · 字节 Agent 开发二面](resources.md#res501)（准备/邻接阅读） — opened
-- [RES503 · 1小时秒杀agent八股  ——RAG与知识库](resources.md#res503) — opened
-- [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
-- [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（准备/邻接阅读） — opened
-- [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — opened
-- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
-- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（准备/邻接阅读） — opened
-- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（准备/邻接阅读） — search_excerpt
-- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — opened
+- [RES105 · 大模型面试汇总：哈啰大模型算法](resources.md#res105) — 仅搜索摘要
+- [RB003 · llm-interview-notes](resources.md#rb003) — 已读正文
+- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — 已读正文
+- [RB006 · agent-interview-hub](resources.md#rb006) — 已读正文
+- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — 已读正文
+- [RB008 · Awesome LLM System Design](resources.md#rb008) — 已读正文
+- [RB009 · AIMLInterviews](resources.md#rb009) — 已读正文
+- [RB010 · ML Coding 25年资料收集Part2](resources.md#rb010)（备考资料） — 仅搜索摘要
+- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（备考资料） — 仅搜索摘要
+- [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — 已读正文
+- [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — 已读正文
+- [RES204 · 阿里面试官追问：Code Agent 跑到一半挂了，怎么恢复而且不重复执行？](resources.md#res204) — 仅目录信息
+- [RES205 · 阿里面试官追问：Code Agent 为什么不能直接给它 root 权限？](resources.md#res205) — 仅目录信息
+- [RES206 · 问的最多的大模型 Agent 算法面试题：设计Agent记忆系统？](resources.md#res206) — 仅目录信息
+- [RES207 · 字节 Agent 岗二面：RAG 的 Top-K 是不是越大越好？](resources.md#res207) — 仅目录信息
+- [RES208 · 淘天一面最高频：多Agent怎么协作？99%的人答错了第一步](resources.md#res208) — 仅目录信息
+- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — 仅目录信息
+- [RES210 · 大模型 Agent 面试高频100题——基础篇](resources.md#res210) — 仅目录信息
+- [RES216 · 蚂蚁集团 AI Agent 开发：复活赛深挖 CR Agent，问得比任何一家都深](resources.md#res216) — 已读正文
+- [RES217 · 字节 AI Agent 开发 一面（抖音电商 · 一面掉池子里面了）](resources.md#res217) — 已读正文
+- [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — 仅搜索摘要
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — 已读正文
+- [RES401 · 快手客户端 - 中台infra - 面经](resources.md#res401)（备考资料） — 已读正文
+- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — 已读正文
+- [RES403 · 阿里 AI应用开发 实习一面](resources.md#res403) — 已读正文
+- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — 已读正文
+- [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — 已读正文
+- [RES406 · 腾讯 Agent 开发一面｜我的备考题单](resources.md#res406)（备考资料） — 已读正文
+- [RES501 · 字节 Agent 开发二面](resources.md#res501)（备考资料） — 已读正文
+- [RES503 · 1小时秒杀agent八股  ——RAG与知识库](resources.md#res503) — 已读正文
+- [RES505 · 美团 Agent 开发一面](resources.md#res505)（备考资料） — 已读正文
+- [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（备考资料） — 已读正文
+- [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — 已读正文
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（备考资料） — 已读正文
+- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（备考资料） — 已读正文
+- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（备考资料） — 仅搜索摘要
+- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — 已读正文
 
 ## 08 · 推理优化与在线服务
 
@@ -566,43 +566,43 @@
 - [INT514 · 某教育agent开发面经](README.md#int514)（2026；教育公司Agent开发（公司未公开））
 - [INT515 · 第四范式一面](README.md#int515)（2025；一面：合同审查RAG与国产卡适配）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — opened
-- [RB003 · llm-interview-notes](resources.md#rb003) — opened
-- [RB006 · agent-interview-hub](resources.md#rb006) — opened
-- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
-- [RB008 · Awesome LLM System Design](resources.md#rb008) — opened
-- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（准备/邻接阅读） — search_excerpt
-- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — opened
-- [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — opened
-- [RES204 · 阿里面试官追问：Code Agent 跑到一半挂了，怎么恢复而且不重复执行？](resources.md#res204) — metadata_only
-- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — metadata_only
-- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
-- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
-- [RES215 · 回忆 LLM 推理优化实习招聘：面试官视角与 CUTLASS 问答（编目标题）](resources.md#res215)（准备/邻接阅读） — search_excerpt
-- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） — search_excerpt
-- [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](resources.md#res220) — opened
-- [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — search_excerpt
-- [RES225 · 得物-算法工程师面经（本人大模型方向）](resources.md#res225) — opened
-- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
-- [RES301 · 面经｜社招释然科技｜一面已凉](resources.md#res301)（准备/邻接阅读） — opened
-- [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — search_excerpt
-- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
-- [RES306 · Meta \| SWE-ML \| E5 \| London \| Offer](resources.md#res306)（准备/邻接阅读） — opened
-- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — opened
-- [RES403 · 阿里 AI应用开发 实习一面](resources.md#res403) — opened
-- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — opened
-- [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — opened
-- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
-- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — opened
-- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（准备/邻接阅读） — opened
-- [RES603 · AI Infra核心题清单与练习入口](resources.md#res603)（准备/邻接阅读） — opened
-- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
-- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（准备/邻接阅读） — opened
-- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（准备/邻接阅读） — search_excerpt
-- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — opened
-- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — opened
+- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — 已读正文
+- [RB003 · llm-interview-notes](resources.md#rb003) — 已读正文
+- [RB006 · agent-interview-hub](resources.md#rb006) — 已读正文
+- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — 已读正文
+- [RB008 · Awesome LLM System Design](resources.md#rb008) — 已读正文
+- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（备考资料） — 仅搜索摘要
+- [RB017 · 面字节豆包大模型岗，三轮技术面都问了啥？](resources.md#rb017) — 已读正文
+- [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — 已读正文
+- [RES204 · 阿里面试官追问：Code Agent 跑到一半挂了，怎么恢复而且不重复执行？](resources.md#res204) — 仅目录信息
+- [RES209 · 秋招大模型agent算法面经整理](resources.md#res209) — 仅目录信息
+- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — 已读正文
+- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — 仅搜索摘要
+- [RES215 · 回忆 LLM 推理优化实习招聘：面试官视角与 CUTLASS 问答（编目标题）](resources.md#res215)（备考资料） — 仅搜索摘要
+- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（备考资料） — 仅搜索摘要
+- [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](resources.md#res220) — 已读正文
+- [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — 仅搜索摘要
+- [RES225 · 得物-算法工程师面经（本人大模型方向）](resources.md#res225) — 已读正文
+- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — 已读正文
+- [RES301 · 面经｜社招释然科技｜一面已凉](resources.md#res301)（备考资料） — 已读正文
+- [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — 仅搜索摘要
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — 已读正文
+- [RES306 · Meta \| SWE-ML \| E5 \| London \| Offer](resources.md#res306)（备考资料） — 已读正文
+- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — 已读正文
+- [RES403 · 阿里 AI应用开发 实习一面](resources.md#res403) — 已读正文
+- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — 已读正文
+- [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — 已读正文
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — 已读正文
+- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — 已读正文
+- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（备考资料） — 已读正文
+- [RES603 · AI Infra核心题清单与练习入口](resources.md#res603)（备考资料） — 已读正文
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（备考资料） — 已读正文
+- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（备考资料） — 已读正文
+- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（备考资料） — 仅搜索摘要
+- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — 已读正文
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — 已读正文
 
 ## 09 · 分布式训练与AI Infra
 
@@ -639,25 +639,25 @@
 - [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
 - [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES103 · 百度大模型面经流程内容爆料](resources.md#res103) — opened
-- [RES110 · 【LLM】大模型面试准备-3（题库整理篇）](resources.md#res110) — search_excerpt
-- [RB003 · llm-interview-notes](resources.md#rb003) — opened
-- [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — opened
-- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
-- [RES215 · 回忆 LLM 推理优化实习招聘：面试官视角与 CUTLASS 问答（编目标题）](resources.md#res215)（准备/邻接阅读） — search_excerpt
-- [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](resources.md#res220) — opened
-- [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — search_excerpt
-- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
-- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
-- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — opened
-- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（准备/邻接阅读） — opened
-- [RES603 · AI Infra核心题清单与练习入口](resources.md#res603)（准备/邻接阅读） — opened
-- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
-- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（准备/邻接阅读） — opened
-- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — opened
-- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — opened
+- [RES103 · 百度大模型面经流程内容爆料](resources.md#res103) — 已读正文
+- [RES110 · 【LLM】大模型面试准备-3（题库整理篇）](resources.md#res110) — 仅搜索摘要
+- [RB003 · llm-interview-notes](resources.md#rb003) — 已读正文
+- [RB012 · 大模型算法方向实习面试经验复盘](resources.md#rb012) — 已读正文
+- [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — 仅搜索摘要
+- [RES215 · 回忆 LLM 推理优化实习招聘：面试官视角与 CUTLASS 问答（编目标题）](resources.md#res215)（备考资料） — 仅搜索摘要
+- [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](resources.md#res220) — 已读正文
+- [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — 仅搜索摘要
+- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — 已读正文
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — 已读正文
+- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — 已读正文
+- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（备考资料） — 已读正文
+- [RES603 · AI Infra核心题清单与练习入口](resources.md#res603)（备考资料） — 已读正文
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（备考资料） — 已读正文
+- [RES605 · AI-Infra Landscape与云原生学习路线](resources.md#res605)（备考资料） — 已读正文
+- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — 已读正文
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — 已读正文
 
 ## 10 · 量化、压缩与蒸馏
 
@@ -680,13 +680,13 @@
 - [INT510 · 中兴 实习 agent开发 一面凉经](README.md#int510)（2026；Agent开发实习一面）
 - [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — opened
-- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（准备/邻接阅读） — opened
-- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
-- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — opened
-- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — opened
+- [RES601 · AIInfraGuide：训练、推理、CUDA与公司面经汇编](resources.md#res601) — 已读正文
+- [RES602 · AI Infra工程师求职路线图](resources.md#res602)（备考资料） — 已读正文
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（备考资料） — 已读正文
+- [RES609 · 快手AI Infra题单解析（含明显歧义）](resources.md#res609) — 已读正文
+- [RES610 · 腾讯混元Infra二面二次解析：GPU、KV与算子](resources.md#res610) — 已读正文
 
 ## 11 · 推理能力与测试时计算
 
@@ -698,10 +698,10 @@
 - [INT025 · 26届秋招｜字节大模型算法岗面经](README.md#int025)（2025；大模型算法/秋招）
 - [IB004 · Microsoft Research Intern PhD面试经过，纯数转LLM经验分享](README.md#ib004)（2024；Research Intern AI（作者注明非MSR））
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — search_excerpt
-- [RES223 · 快手大模型算法面经爆料](resources.md#res223) — opened
+- [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — 仅搜索摘要
+- [RES223 · 快手大模型算法面经爆料](resources.md#res223) — 已读正文
 
 ## 12 · 多模态理解与生成
 
@@ -731,25 +731,25 @@
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412)（2026；后端Agent二面：营销场景与方案比较）
 - [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES109 · AIGC大模型面经汇总，太全了！](resources.md#res109) — search_excerpt
-- [RES110 · 【LLM】大模型面试准备-3（题库整理篇）](resources.md#res110) — search_excerpt
-- [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — opened
-- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
-- [RB009 · AIMLInterviews](resources.md#rb009) — opened
-- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — search_excerpt
-- [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — search_excerpt
-- [RB018 · 阿里云多模态大模型岗三面面经](resources.md#rb018) — search_excerpt
-- [RES202 · 美团大模型产品面经](resources.md#res202) — opened
-- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — search_excerpt
-- [RES213 · 字节多模态算法面试转述（编目标题）](resources.md#res213) — search_excerpt
-- [RES225 · 得物-算法工程师面经（本人大模型方向）](resources.md#res225) — opened
-- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
-- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
-- [RES301 · 面经｜社招释然科技｜一面已凉](resources.md#res301)（准备/邻接阅读） — opened
-- [RES303 · 分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）](resources.md#res303)（同源转载） — opened
-- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — opened
+- [RES109 · AIGC大模型面经汇总，太全了！](resources.md#res109) — 仅搜索摘要
+- [RES110 · 【LLM】大模型面试准备-3（题库整理篇）](resources.md#res110) — 仅搜索摘要
+- [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — 已读正文
+- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — 已读正文
+- [RB009 · AIMLInterviews](resources.md#rb009) — 已读正文
+- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — 仅搜索摘要
+- [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — 仅搜索摘要
+- [RB018 · 阿里云多模态大模型岗三面面经](resources.md#rb018) — 仅搜索摘要
+- [RES202 · 美团大模型产品面经](resources.md#res202) — 已读正文
+- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — 仅搜索摘要
+- [RES213 · 字节多模态算法面试转述（编目标题）](resources.md#res213) — 仅搜索摘要
+- [RES225 · 得物-算法工程师面经（本人大模型方向）](resources.md#res225) — 已读正文
+- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — 已读正文
+- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — 已读正文
+- [RES301 · 面经｜社招释然科技｜一面已凉](resources.md#res301)（备考资料） — 已读正文
+- [RES303 · 分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）](resources.md#res303)（转载） — 已读正文
+- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — 已读正文
 
 ## 13 · 评测与安全
 
@@ -829,35 +829,35 @@
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 - [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES102 · 字节大模型算法实习岗面经](resources.md#res102) — opened
-- [RES106 · 大模型面试汇总：腾讯大模型算法日常实习](resources.md#res106) — search_excerpt
-- [RES111 · 字节-大模型产品经理面经&已入职](resources.md#res111) — search_excerpt
-- [RES112 · 智普AIGC产品实习生上岸面经（已拿offer）](resources.md#res112) — search_excerpt
-- [RB008 · Awesome LLM System Design](resources.md#rb008) — opened
-- [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — opened
-- [RES201 · 支付宝营销产品AI+营销产品面经 二面](resources.md#res201) — search_excerpt
-- [RES202 · 美团大模型产品面经](resources.md#res202) — opened
-- [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — opened
-- [RES205 · 阿里面试官追问：Code Agent 为什么不能直接给它 root 权限？](resources.md#res205) — metadata_only
-- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
-- [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — search_excerpt
-- [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（准备/邻接阅读） — opened
-- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — opened
-- [RES403 · 阿里 AI应用开发 实习一面](resources.md#res403) — opened
-- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — opened
-- [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — opened
-- [RES406 · 腾讯 Agent 开发一面｜我的备考题单](resources.md#res406)（准备/邻接阅读） — opened
-- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
-- [RES503 · 1小时秒杀agent八股  ——RAG与知识库](resources.md#res503) — opened
-- [RES504 · 阿里国际 AI 应用研发一面](resources.md#res504)（准备/邻接阅读） — opened
-- [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
-- [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（准备/邻接阅读） — opened
-- [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — opened
-- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（准备/邻接阅读） — opened
-- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — opened
-- [RES608 · 信雅达Java一面二次解析：NL2SQL项目](resources.md#res608) — opened
+- [RES102 · 字节大模型算法实习岗面经](resources.md#res102) — 已读正文
+- [RES106 · 大模型面试汇总：腾讯大模型算法日常实习](resources.md#res106) — 仅搜索摘要
+- [RES111 · 字节-大模型产品经理面经&已入职](resources.md#res111) — 仅搜索摘要
+- [RES112 · 智普AIGC产品实习生上岸面经（已拿offer）](resources.md#res112) — 仅搜索摘要
+- [RB008 · Awesome LLM System Design](resources.md#rb008) — 已读正文
+- [RB013 · 2025最新大模型算法社招面经，持续更新中](resources.md#rb013) — 已读正文
+- [RES201 · 支付宝营销产品AI+营销产品面经 二面](resources.md#res201) — 仅搜索摘要
+- [RES202 · 美团大模型产品面经](resources.md#res202) — 已读正文
+- [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — 已读正文
+- [RES205 · 阿里面试官追问：Code Agent 为什么不能直接给它 root 权限？](resources.md#res205) — 仅目录信息
+- [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — 已读正文
+- [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — 仅搜索摘要
+- [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（备考资料） — 已读正文
+- [RES402 · 【三年面试五年模拟】2026-09-22_百度 AI智能体算法 一面、二面、三面面经（含完整答案）](resources.md#res402) — 已读正文
+- [RES403 · 阿里 AI应用开发 实习一面](resources.md#res403) — 已读正文
+- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — 已读正文
+- [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — 已读正文
+- [RES406 · 腾讯 Agent 开发一面｜我的备考题单](resources.md#res406)（备考资料） — 已读正文
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — 已读正文
+- [RES503 · 1小时秒杀agent八股  ——RAG与知识库](resources.md#res503) — 已读正文
+- [RES504 · 阿里国际 AI 应用研发一面](resources.md#res504)（备考资料） — 已读正文
+- [RES505 · 美团 Agent 开发一面](resources.md#res505)（备考资料） — 已读正文
+- [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（备考资料） — 已读正文
+- [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — 已读正文
+- [RES604 · AgentGuide：AI Infra面试指南](resources.md#res604)（备考资料） — 已读正文
+- [RES607 · 智能体应用二次解析：PDF、JSON输出与NL2SQL](resources.md#res607) — 已读正文
+- [RES608 · 信雅达Java一面二次解析：NL2SQL项目](resources.md#res608) — 已读正文
 
 ## 14 · 代码模型与具身智能
 
@@ -884,15 +884,15 @@
 - [INT411 · 科大讯飞后端 timeline&面经](README.md#int411)（2026；后端秋招一二面及HR面复盘）
 - [INT413 · 百度agent一面](README.md#int413)（2026；Agent实习一面：代码生成与多Agent）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RB009 · AIMLInterviews](resources.md#rb009) — opened
-- [RES205 · 阿里面试官追问：Code Agent 为什么不能直接给它 root 权限？](resources.md#res205) — metadata_only
-- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — opened
-- [RES307 · Rippling SDE 2 L6 2026](resources.md#res307)（准备/邻接阅读） — opened
-- [RES401 · 快手客户端 - 中台infra - 面经](resources.md#res401)（准备/邻接阅读） — opened
-- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — opened
-- [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — opened
+- [RB009 · AIMLInterviews](resources.md#rb009) — 已读正文
+- [RES205 · 阿里面试官追问：Code Agent 为什么不能直接给它 root 权限？](resources.md#res205) — 仅目录信息
+- [RES226 · 理想大模型算法工程师面试，被嗯在地上摩擦](resources.md#res226) — 已读正文
+- [RES307 · Rippling SDE 2 L6 2026](resources.md#res307)（备考资料） — 已读正文
+- [RES401 · 快手客户端 - 中台infra - 面经](resources.md#res401)（备考资料） — 已读正文
+- [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — 已读正文
+- [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — 已读正文
 
 ## 15 · 领域模型与研究设计
 
@@ -927,17 +927,17 @@
 - [INT507 · 百川智能医疗大模型后训练面经](README.md#int507)（2026；医疗大模型后训练一面）
 - [INT515 · 第四范式一面](README.md#int515)（2025；一面：合同审查RAG与国产卡适配）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — opened
-- [RES105 · 大模型面试汇总：哈啰大模型算法](resources.md#res105) — search_excerpt
-- [RES111 · 字节-大模型产品经理面经&已入职](resources.md#res111) — search_excerpt
-- [RES112 · 智普AIGC产品实习生上岸面经（已拿offer）](resources.md#res112) — search_excerpt
-- [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — opened
-- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（准备/邻接阅读） — search_excerpt
-- [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（准备/邻接阅读） — opened
-- [RES306 · Meta \| SWE-ML \| E5 \| London \| Offer](resources.md#res306)（准备/邻接阅读） — opened
-- [RES307 · Rippling SDE 2 L6 2026](resources.md#res307)（准备/邻接阅读） — opened
+- [RES101 · 爆料阿里大模型二面面经](resources.md#res101) — 已读正文
+- [RES105 · 大模型面试汇总：哈啰大模型算法](resources.md#res105) — 仅搜索摘要
+- [RES111 · 字节-大模型产品经理面经&已入职](resources.md#res111) — 仅搜索摘要
+- [RES112 · 智普AIGC产品实习生上岸面经（已拿offer）](resources.md#res112) — 仅搜索摘要
+- [RB002 · DeepLearing-Interview-Awesome-2024](resources.md#rb002) — 已读正文
+- [RB011 · ML System Design 25年资料收集Part3](resources.md#rb011)（备考资料） — 仅搜索摘要
+- [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（备考资料） — 已读正文
+- [RES306 · Meta \| SWE-ML \| E5 \| London \| Offer](resources.md#res306)（备考资料） — 已读正文
+- [RES307 · Rippling SDE 2 L6 2026](resources.md#res307)（备考资料） — 已读正文
 
 ## 16 · 大模型与搜索
 
@@ -956,14 +956,14 @@
 - [INT310 · 字节搜广推算法秋招一面](README.md#int310)（2026；搜广推算法秋招一面）
 - [INT401 · 字节业务中台AI全栈凉经](README.md#int401)（2026；业务中台AI全栈日常实习一二面及HR面）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES104 · 大模型面试汇总：字节AI搜面经](resources.md#res104) — search_excerpt
-- [RB001 · AI-Interview-Code](resources.md#rb001) — search_excerpt
-- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
-- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — search_excerpt
-- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — search_excerpt
-- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
+- [RES104 · 大模型面试汇总：字节AI搜面经](resources.md#res104) — 仅搜索摘要
+- [RB001 · AI-Interview-Code](resources.md#rb001) — 仅搜索摘要
+- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — 已读正文
+- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — 仅搜索摘要
+- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — 仅搜索摘要
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — 已读正文
 
 ## 17 · 大模型与广告
 
@@ -982,10 +982,10 @@
 - [INT318 · 字节跳动广告算法面经](README.md#int318)（2026；广告算法面试）
 - [INT404 · 快手OneRec算法岗一二面面经](README.md#int404)（2026；OneRec算法一二面）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RB001 · AI-Interview-Code](resources.md#rb001) — search_excerpt
-- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — opened
+- [RB001 · AI-Interview-Code](resources.md#rb001) — 仅搜索摘要
+- [RES304 · Microsoft L65 Interview Experience](resources.md#res304) — 已读正文
 
 ## 18 · 大模型与推荐
 
@@ -1008,16 +1008,16 @@
 - [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322)（2026；推荐大模型算法一二面）
 - [INT404 · 快手OneRec算法岗一二面面经](README.md#int404)（2026；OneRec算法一二面）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RB001 · AI-Interview-Code](resources.md#rb001) — search_excerpt
-- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
-- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — search_excerpt
-- [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — search_excerpt
-- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — search_excerpt
-- [RES222 · 爆料美团大模型算法面经](resources.md#res222)（同源转载） — opened
-- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
-- [RES306 · Meta \| SWE-ML \| E5 \| London \| Offer](resources.md#res306)（准备/邻接阅读） — opened
+- [RB001 · AI-Interview-Code](resources.md#rb001) — 仅搜索摘要
+- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — 已读正文
+- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — 仅搜索摘要
+- [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — 仅搜索摘要
+- [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) — 仅搜索摘要
+- [RES222 · 爆料美团大模型算法面经](resources.md#res222)（转载） — 已读正文
+- [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — 已读正文
+- [RES306 · Meta \| SWE-ML \| E5 \| London \| Offer](resources.md#res306)（备考资料） — 已读正文
 
 ## 19 · 大模型与增长
 
@@ -1026,10 +1026,10 @@
 - [INT040 · 硕五算法面经-增长方向](README.md#int040)（2025；增长算法/作者标注P7）
 - [INT210 · 美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）](README.md#int210)（2025；核心本地商业/业务研发平台/用户增长算法）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES201 · 支付宝营销产品AI+营销产品面经 二面](resources.md#res201) — search_excerpt
-- [RES202 · 美团大模型产品面经](resources.md#res202) — opened
+- [RES201 · 支付宝营销产品AI+营销产品面经 二面](resources.md#res201) — 仅搜索摘要
+- [RES202 · 美团大模型产品面经](resources.md#res202) — 已读正文
 
 ## 20 · 大模型与营销
 
@@ -1038,11 +1038,11 @@
 - [INT210 · 美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）](README.md#int210)（2025；核心本地商业/业务研发平台/用户增长算法）
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412)（2026；后端Agent二面：营销场景与方案比较）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RES105 · 大模型面试汇总：哈啰大模型算法](resources.md#res105) — search_excerpt
-- [RES201 · 支付宝营销产品AI+营销产品面经 二面](resources.md#res201) — search_excerpt
-- [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — opened
+- [RES105 · 大模型面试汇总：哈啰大模型算法](resources.md#res105) — 仅搜索摘要
+- [RES201 · 支付宝营销产品AI+营销产品面经 二面](resources.md#res201) — 仅搜索摘要
+- [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) — 已读正文
 
 ## 21 · 大模型与风控
 
@@ -1055,12 +1055,12 @@
 - [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
 - [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — opened
-- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
-- [RES217 · 字节 AI Agent 开发 一面（抖音电商 · 一面掉池子里面了）](resources.md#res217) — opened
-- [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（准备/邻接阅读） — opened
+- [RB005 · AwesomeInterview：按公司组织的面试入口](resources.md#rb005) — 已读正文
+- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — 已读正文
+- [RES217 · 字节 AI Agent 开发 一面（抖音电商 · 一面掉池子里面了）](resources.md#res217) — 已读正文
+- [RES305 · Google MLE \| L6 \| Interview Experience and Resources for preparation](resources.md#res305)（备考资料） — 已读正文
 
 ## 22 · 大模型与语音
 
@@ -1071,11 +1071,11 @@
 - [INT513 · 豆包手机测开面经](README.md#int513)（2026；豆包手机测开一二面）
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
-- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） — search_excerpt
-- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（准备/邻接阅读） — search_excerpt
+- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — 已读正文
+- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（备考资料） — 仅搜索摘要
+- [RES606 · 实时语音Agent系统设计：延迟、轮次与打断](resources.md#res606)（备考资料） — 仅搜索摘要
 
 ## 23 · 大模型与客服
 
@@ -1087,10 +1087,10 @@
 - [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217)（2025；腾讯客服后台开发（作者自述TEG））
 - [INT509 · 成都agent 面试](README.md#int509)（2026；成都多公司Agent社招复盘）
 
-### 补充汇编与解析（不计亲历）
+### 参考资料
 
-- [RB006 · agent-interview-hub](resources.md#rb006) — opened
-- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — opened
-- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — search_excerpt
-- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） — search_excerpt
-- [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
+- [RB006 · agent-interview-hub](resources.md#rb006) — 已读正文
+- [RB007 · AI Engineering Interview Questions](resources.md#rb007) — 已读正文
+- [RB014 · 26秋招大模型技术岗位面试题+面经（六）：美团](resources.md#rb014) — 仅搜索摘要
+- [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（备考资料） — 仅搜索摘要
+- [RES505 · 美团 Agent 开发一面](resources.md#res505)（备考资料） — 已读正文

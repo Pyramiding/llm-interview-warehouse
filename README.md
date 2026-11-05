@@ -1,40 +1,31 @@
 # llm-interview-warehouse
 
-**中文大模型面试准备：公开面经、原创题解与学习路线。** 从公开面经找问法，从一手论文和官方文档校正答案，再用项目、手写和估算练习验证理解。
-
-Chinese LLM interview preparation with public interview reports, original explanations, and study plans.
-
-**直接在 GitHub 阅读，无需安装、API 密钥或 GPU。** 面经为求职者公开自述，专题题解为原创研究延伸，不等同于企业官方题库。
-
-最近扩充：**2026-11-05**。本轮按应用与LLM Infra方向回补历史资料，新增19篇面经、10个补充入口、75条重点问法，并增加29个细分方向。当天较早的14篇增量更新另有记录。仓库重点覆盖**2023—2026年**；各来源的发布、面试与查阅时间分别保留，未确认年份单列。
+整理近几年的大模型面经，按公司、技术方向和应用场景查找。以2023—2026年的中文资料为主，附专题题解、手写题和项目练习。
 
 <!-- STATS:START -->
-**161篇公开面经 · 23个专题 · 29个细分方向 · 414道专题题解 + 26道项目/手写练习 · 440个去重来源链接**
+161篇面经 · 23个专题 · 29个细分方向
 
-另附96个补充阅读入口（含仅元数据项）；研究来源包含183个规范化链接。题目数不含追问；来源数按链接归一化，并非独立论文或企业真题数量。
+另有96份参考资料、414道专题题解和26道项目/手写练习。论文、文档和原帖共440个去重链接，见[来源目录](docs/source-catalog.md)。
 <!-- STATS:END -->
 
-## 从这里开始
+## 找面经
 
-1. **已有目标公司：** [按公司找公开面经](docs/interviews/by-company.md)，再按年份、岗位和核验状态筛选。
-2. **需要一份准备计划：** [按岗位选择路线，安排 7/30 天练习](docs/preparation/learning-paths.md)。
-3. **马上要面试：** [先查 30 个易错结论](docs/preparation/quick-reference.md)，再练[项目深挖](docs/preparation/projects-and-system-design.md)和[手写与估算](docs/preparation/coding-and-estimation.md)。
+| 查找方式 | 内容 |
+|---|---|
+| [按公司](docs/interviews/by-company.md) | 字节、阿里、腾讯、美团、百度等公司的面经，也有多公司求职复盘 |
+| [按技术方向](docs/interviews/by-topic.md) | 预训练、微调、对齐、RAG、Agent、推理、多模态等 |
+| [LLM Infra](docs/interviews/llm-infra.md) | 训练系统、推理引擎、CUDA/Triton、通信、GPU平台等 |
+| [按细分方向](docs/interviews/by-specialty.md) | 29个方向，包括模型工程、搜广推、增长、风控、语音、客服等 |
+| [按公司和业务](docs/interviews/company-direction.md) | 先选业务，再看各公司的相关面经 |
+| [全部面经](docs/interviews/README.md) | 按年份浏览，每篇附原帖、摘要、问题摘录和备注 |
 
-第一次使用，可以先选一个岗位、读一篇相关面经，再做一道专题题。回答时先说结论和条件，再补原理、证据与失败边界。
+还可以按[平台](docs/interviews/by-platform.md)、[岗位](docs/interviews/by-role.md)、[年份](docs/interviews/by-year.md)和[业务领域](docs/interviews/by-domain.md)查找。常用平台：[牛客](docs/interviews/by-platform.md#platform-nowcoder)、[LeetCode中文站](docs/interviews/by-platform.md#platform-leetcode-cn)、[LeetCode国际站](docs/interviews/by-platform.md#platform-leetcode-global)。题库、教程和二次汇编放在[参考资料](docs/interviews/resources.md)。
 
-### 更多查找方式
+## 复习题目
 
-- **查面经：** [全部公开面经](docs/interviews/README.md) · [研究方向](docs/interviews/by-topic.md) · [公司×业务](docs/interviews/company-direction.md)
-- **查细分领域：** [29个技术与应用方向](docs/interviews/by-specialty.md) · [LLM Infra专页与岗位阅读顺序](docs/interviews/llm-infra.md)
-- **按条件筛选：** [平台](docs/interviews/by-platform.md) · [岗位](docs/interviews/by-role.md) · [年份](docs/interviews/by-year.md) · [业务领域](docs/interviews/by-domain.md)
-- **直达常用平台：** [牛客](docs/interviews/by-platform.md#platform-nowcoder) · [LeetCode 中文站](docs/interviews/by-platform.md#platform-leetcode-cn) · [LeetCode 国际站](docs/interviews/by-platform.md#platform-leetcode-global)
-- **查题与依据：** [全部题目与稳定 ID](docs/question-index.md) · [来源目录](docs/source-catalog.md) · [收集与核验方法](docs/methodology.md) · [覆盖范围与缺口](docs/coverage.md)
-- **补充阅读：** [汇编、解析与分级阅读入口](docs/interviews/resources.md)（含公众号原链与仅元数据项，不计亲历）
-- **查看更新：** [应用与LLM Infra扩展](docs/expansion-applications-infra-2026-11-05.md) · [11 月 5 日增量记录](docs/incremental-2026-11-05.md) · [11 月 2 日增量记录](docs/incremental-2026-11-02.md) · [牛客与 LeetCode 增补](docs/nowcoder-leetcode-2026-10-23.md) · [其他平台增补](docs/platform-expansion-2026-10-23.md)
+按岗位选题可以看[准备路线](docs/preparation/learning-paths.md)。临近面试时，查[30个易错点](docs/preparation/quick-reference.md)，练[项目深挖与系统设计](docs/preparation/projects-and-system-design.md)、[手写与估算](docs/preparation/coding-and-estimation.md)。
 
-## 研究、工程与应用专题
-
-专题题解均为**原创研究延伸题**，每题包含难度/岗位、作答要点、追问与误区。它们与具体企业之间没有未经证实的“真题”对应关系。
+下面23个专题按知识点整理，每题附作答要点、追问、常见误区和参考链接。这些是另行编写的练习；想看面试中具体问了什么，请看上面的面经原帖。[全部题目索引](docs/question-index.md)
 
 | # | 方向 | 重点内容 |
 |---|---|---|
@@ -62,29 +53,19 @@ Chinese LLM interview preparation with public interview reports, original explan
 | 22 | [大模型与语音](docs/topics/22-llm-speech.md) | ASR、TTS、实时交互与打断 |
 | 23 | [大模型与客服](docs/topics/23-llm-service.md) | 知识、多轮状态、工具执行、转人工与质检 |
 
-## 面经怎么读
+## 最近更新
 
-以下入口都汇总多家公司的面经，可按年份、研究方向或公司查找：
+**2026-11-05：** [应用与LLM Infra扩充](docs/expansion-applications-infra-2026-11-05.md)，回补19篇面经、10份参考资料，增加细分方向索引；[当天较早的增量更新](docs/incremental-2026-11-05.md)另收录14篇。
 
-| 入口 | 页面包含什么 | 适合怎么查 |
-|---|---|---|
-| [全部公开面经合集（跨公司，重点2023—2026）](docs/interviews/README.md) | 按资料年份整理的完整索引，包含字节、阿里、腾讯、美团、滴滴等多家公司及多公司求职复盘 | 按年份浏览，再进入具体记录或原帖 |
-| [按研究方向查面经（研究与应用，跨公司）](docs/interviews/by-topic.md) | 按预训练、微调、对齐、RAG、Agent、推理、多模态等方向汇总各公司的相关记录 | 围绕目标岗位或技术方向准备 |
-| [按公司查面经（多公司导航）](docs/interviews/by-company.md) | 汇总全部记录中的公司名称及对应面经，一篇涉及多家公司的复盘保留为同一条记录 | 先选目标公司，再查看相关年份、岗位与考点 |
+此前更新：[11月2日](docs/incremental-2026-11-02.md) · [牛客与LeetCode](docs/nowcoder-leetcode-2026-10-23.md) · [其他平台](docs/platform-expansion-2026-10-23.md)。各方向的[收录情况](docs/coverage.md)单列一页，欢迎补缺。
 
-进入索引后，每条记录都提供原始链接、日期、作者自述的企业/岗位、方向、短摘要、阅读建议、核验状态与限制。点击记录标题可继续阅读面经原文。
+## 来源
 
-**来源边界：** 面经是求职者公开自述，未向企业独立核实；本仓库不声称拥有企业官方题库。`opened`表示已获取相关页面内容；`search_excerpt`表示仅核对搜索可见片段。付费/登录限制、推广和日期冲突在条目中注明。完整说明见[来源规范](docs/methodology.md)。
-
-## 如何组织一段面试回答
-
-先给结论与适用条件，再解释机制或公式，接着给实现/实验与量化证据，最后说失败条件和替代方案。例如显存题应先区分推理或训练、模型架构、精度、batch、长度、并行方式，再计算权重、状态、KV、激活和额外开销。
-
-不要把“用过某框架”当成方案原理；不要只报最好的一次分数；不要把训练reward、检索相似度或LLM裁判分数直接当业务成功率。答不确定的点时说明假设，并给出可验证办法。
+面经来自求职者公开发帖，公司、岗位和面试过程沿用原作者描述。只摘录少量问题并附链接，完整内容请看原帖。日期疑问、付费截断、仅搜索摘要可见等情况会在条目中注明。收录规则见[来源说明](docs/methodology.md)，论文和文档见[来源目录](docs/source-catalog.md)。
 
 ## 本地检索与验证
 
-纯Markdown可直接在GitHub阅读，不需要API密钥或GPU。`data/`提供JSON，方便筛选岗位、年份和主题；`tools/`只依赖Python标准库。
+可以直接在GitHub阅读。需要本地检索时，`data/`中有JSON数据，`tools/`提供Python脚本，只用到标准库。
 
 ```sh
 # 按关键词搜索题目或来源
@@ -106,12 +87,10 @@ python3 tools/check_examples.py
 python3 tools/interview_math.py
 ```
 
-## 贡献与授权
+## 补充与纠错
 
-想补充或纠错，不必先熟悉仓库结构：
-
-- **发现一篇公开面经：** [提交来源链接](https://github.com/Pyramiding/llm-interview-warehouse/issues/new?template=source.yml)，注明日期、岗位与访问限制。
-- **发现答案或链接有问题：** [提交纠错](https://github.com/Pyramiding/llm-interview-warehouse/issues/new?template=correction.yml)，提供题目 ID / 页面位置、修改依据或复现步骤。
-- **愿意直接修改：** 查看[贡献步骤与验证命令](CONTRIBUTING.md)，从一条来源、一道题或一个失效链接开始。
+- 找到面经：[提交链接](https://github.com/Pyramiding/llm-interview-warehouse/issues/new?template=source.yml)，附上日期和岗位即可。
+- 发现错误：[提交纠错](https://github.com/Pyramiding/llm-interview-warehouse/issues/new?template=correction.yml)，写明题目编号或页面位置。
+- 直接修改：看[贡献说明](CONTRIBUTING.md)，更新源文件后生成索引并运行检查。
 
 原创文字采用 CC BY 4.0，工具代码采用 MIT；第三方内容保留原许可与权利，详见[LICENSE.md](LICENSE.md)。

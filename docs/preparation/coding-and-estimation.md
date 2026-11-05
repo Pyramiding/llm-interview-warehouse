@@ -1,8 +1,8 @@
-# 手写题与定量估算：16组原创练习
+# 手写与估算：16组练习
 
 [返回首页](../../README.md) · [基础题](../topics/01-transformer-and-math.md) · [系统设计](projects-and-system-design.md)
 
-题目为原创练习，手写方向可在[公开面经索引](../interviews/README.md)核对。建议先自己实现，写出输入输出、形状、复杂度与边界，再对照框架。提供的[纯Python示例](../../tools/interview_math.py)用于理解和小输入验证，不用于训练、GPU性能比较或实际服务。
+先自己实现，写出输入输出、张量形状、复杂度和特殊输入，再对照框架。文末有[纯Python算例](../../tools/interview_math.py)，可以验证小规模输入；面试中的手写方向另见[面经合集](../interviews/README.md)。
 
 <a id="h01"></a>
 

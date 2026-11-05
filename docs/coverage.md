@@ -1,8 +1,8 @@
-# 覆盖情况与缺口
+# 收录情况
 
 [返回首页](../README.md) · [全部题目](question-index.md)
 
-| 方向 | 原创专题题 | 对应面经记录 | 内容 |
+| 方向 | 练习题 | 面经 | 内容 |
 |---|---:|---:|---|
 | [Transformer与数学基础](topics/01-transformer-and-math.md) | 18 | 53 | 注意力、归一化、优化、概率与参数估算 |
 | [预训练与数据工程](topics/02-pretraining-and-data.md) | 18 | 26 | tokenizer、配比、去重、Scaling Law与数据质量 |
@@ -28,12 +28,10 @@
 | [大模型与语音](topics/22-llm-speech.md) | 18 | 4 | ASR、TTS、实时交互与打断 |
 | [大模型与客服](topics/23-llm-service.md) | 18 | 5 | 知识、多轮状态、工具执行、转人工与质检 |
 
-当前局限：样本以中文公开面经和国内求职者自述为主；海外现场面、资深管理、音频专岗、芯片编译器、世界模型与AI4Science的亲历样本不足。具身和科学方向目前更多依赖研究延伸题。没有据此推算企业通过率、题目频次、薪资或行业供需。
+目前收录以国内中文面经为主。海外现场面、资深岗位、语音、编译器、世界模型和AI4Science还比较少，欢迎补充原帖。上表只统计本仓库的资料，一篇可出现在多个方向。
 
-只有摘要可见、反爬、推广及日期冲突均在条目中标注。欢迎补齐原始亲历复盘和可复现实验；新增资料应保留公开来源及查阅日期。
+## 更新记录
 
-## 平台检索与应用边界
+[11月5日应用与Infra](expansion-applications-infra-2026-11-05.md) · [11月5日增量](incremental-2026-11-05.md) · [11月2日增量](incremental-2026-11-02.md) · [10月23日平台补充](platform-expansion-2026-10-23.md) · [首次检索](research-platforms-a.md) · [其他平台](research-platforms-b.md)
 
-[2026-11-05应用与Infra扩展](expansion-applications-infra-2026-11-05.md) · [2026-11-05增量更新](incremental-2026-11-05.md) · [2026-11-02增量更新](incremental-2026-11-02.md) · [2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)
-
-应用专题是原创技术设计训练，不表示每个领域均有已核验亲历面经。按平台、岗位与业务的实际条目分布见[多维面经导航](interviews/by-platform.md)、[细分方向](interviews/by-specialty.md)、[LLM Infra专页](interviews/llm-infra.md)及[公司×业务方向](interviews/company-direction.md)。原文不可见或仅有搜索片段、目录元数据的记录不据此扩写隐藏题目。
+也可以从[平台](interviews/by-platform.md)、[细分方向](interviews/by-specialty.md)、[LLM Infra](interviews/llm-infra.md)或[公司与业务](interviews/company-direction.md)继续查找。

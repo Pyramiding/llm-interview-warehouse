@@ -114,8 +114,39 @@ def normalized_companies(item):
                    for c in item.get('companies',[])}) or ['公司未明确']
 
 def record_link(item, resource=False):
-    label = {'preparation_resource':'（准备/邻接阅读）', 'repost_reference':'（同源转载）'}.get(item.get('source_type'),'') if resource else ''
+    label = {'preparation_resource':'（备考资料）', 'repost_reference':'（转载）'}.get(item.get('source_type'),'') if resource else ''
     return f'[{item["id"]} · {md_cell(item["title"])}]({"resources.md" if resource else "README.md"}#{item["id"].lower()}){label}'
+
+
+def access_label(item):
+    return {'opened': '已读正文', 'search_excerpt': '仅搜索摘要',
+            'metadata_only': '仅目录信息'}.get(item.get('verification'), '待核对')
+
+
+def source_label(item):
+    return {'interview_self_report': '面经', 'interview_collection': '汇编',
+            'preparation_resource': '备考资料', 'interview_analysis': '题目解析',
+            'repost_reference': '转载'}.get(item.get('source_type'), '参考资料')
+
+
+def source_note(item):
+    note = item.get('note', '')
+    return '' if note == '页面内容属于作者自述，未向企业独立核实。' else note
+
+
+def readable_time(value):
+    return value[:16].replace('T', ' ') + (' ' + value[-6:] if value[-6:] != '+08:00' else '')
+
+
+def date_note(item):
+    parts = [f'面试：{item.get("event_date") or "未注明"}']
+    if item.get('published_at'):
+        parts.append('发布：' + readable_time(item['published_at']))
+    else:
+        parts.append('页面日期：' + (item.get('published') or '未确认'))
+    if item.get('updated_at') and item['updated_at'] != item.get('published_at'):
+        parts.append('编辑：' + readable_time(item['updated_at']))
+    return '；'.join(parts)
 
 
 def build_specialty_indexes(interviews, resources):
@@ -124,44 +155,42 @@ def build_specialty_indexes(interviews, resources):
     resource_map = {x['id']: x for x in resources}
     nav = ('[返回首页](../../README.md) · [按公司](by-company.md) · '
            '[研究专题](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra专页](llm-infra.md)')
-    page = ['# 按细分技术与应用方向查面经', '', nav, '',
-            '本页在23个研究专题之外提供人工审核的细分标签。标签表示可见内容涉及该方向，可能来自岗位、候选项目或场景题；不代表招聘团队主营业务，也不是企业统一考纲。', '',
-            '同一记录可跨方向出现，数量不能相加当作独立面试数。公开自述与汇编/备考分开列示；尚无亲历的方向保留缺口，不用教程充数。', '',
-            '| 方向 | 公开自述 | 补充阅读 |', '|---|---:|---:|']
+    page = ['# 按细分方向找面经', '', nav, '',
+            '按技术问题和应用场景整理。一篇面经可以出现在多个方向；具体是岗位要求、项目经历还是场景题，见原条目的备注。', '',
+            '| 方向 | 面经 | 参考资料 |', '|---|---:|---:|']
     page += [f'| [{x["name"]}](#{x["id"]}) | {len(x["interview_ids"])} | {len(x["resource_ids"])} |' for x in specialties]
     for group in ('LLM Infra', 'Agent与模型工程', '应用场景'):
         page += ['', f'## {group}', '']
         for x in [s for s in specialties if s['group'] == group]:
             page += [f'<a id="{x["id"]}"></a>', '', f'### {x["name"]}', '', x['description'], '',
-                     '**公开自述面经：**', '']
-            page += [f'- {record_link(interview_map[id])}（{interview_map[id]["verification"]}）' for id in x['interview_ids']]
+                     '**面经：**', '']
+            page += [f'- {record_link(interview_map[id])}（{access_label(interview_map[id])}）' for id in x['interview_ids']]
             if not x['interview_ids']:
-                page += ['当前尚无足够证据收录的专项亲历记录。']
+                page += ['暂时还没收集到这一方向的面经。']
             if x['resource_ids']:
-                page += ['', '**汇编与备考（不计亲历）：**', '']
-                page += [f'- {record_link(resource_map[id], True)}（{resource_map[id]["verification"]}）' for id in x['resource_ids']]
+                page += ['', '**参考资料：**', '']
+                page += [f'- {record_link(resource_map[id], True)}（{access_label(resource_map[id])}）' for id in x['resource_ids']]
     write(ROOT/'docs/interviews/by-specialty.md', '\n'.join(page))
 
     infra = [x for x in specialties if x['group'] == 'LLM Infra']
     ids = {id for x in infra for id in x['interview_ids']}
     extras = {id for x in infra for id in x['resource_ids']}
-    page = ['# LLM Infra面经与准备入口', '', nav, '',
-            f'查阅截止：**{AS_OF}**。本页9个细分方向关联 **{len(ids)}篇去重公开自述、{len(extras)}个去重补充入口**；含历史回补与年份未知项。不是9个方向计数相加，也不表示所有材料均属纯LLM岗位。', '',
-            '先按岗位职责区分训练系统、推理引擎、算子/编译器、平台工程和RL Infra。通用后端、数据库、使用AI写代码的经历，不能仅凭Infra标题就等同于模型基础设施。', '',
-            '| 细分方向 | 查什么 | 面经 | 补充 |', '|---|---|---:|---:|']
+    page = ['# LLM Infra面经', '', nav, '',
+            f'更新于{AS_OF}，共{len(ids)}篇面经、{len(extras)}份参考资料。同一篇跨方向收录时只计一次。', '',
+            'Infra岗位的差别很大：有的做训练框架，有的写算子，有的负责推理服务或GPU平台。先看目标团队做哪一层，再挑面经。', '',
+            '| 方向 | 主要内容 | 面经 | 参考资料 |', '|---|---|---:|---:|']
     page += [f'| [{x["name"]}](by-specialty.md#{x["id"]}) | {x["description"]} | {len(x["interview_ids"])} | {len(x["resource_ids"])} |' for x in infra]
-    page += ['', '## 按岗位挑阅读顺序', '',
-             '| 目标岗位 | 建议顺序 | 准备时必须能说明 |', '|---|---|---|',
-             '| 推理引擎/Serving | [字节Data](README.md#int504) → [阿里二面](README.md#int502) → [原有推理专题](../topics/08-inference-and-serving.md) | 负载、KV与调度、数值/质量、吞吐和延迟、优化证据 |',
+    page += ['', '## 可以从这几篇开始', '',
+             '| 岗位 | 阅读顺序 | 复习重点 |', '|---|---|---|',
+             '| 推理引擎/Serving | [字节Data](README.md#int504) → [阿里二面](README.md#int502) → [推理专题](../topics/08-inference-and-serving.md) | 负载、KV管理、调度、质量、吞吐和延迟 |',
              '| CUDA/Triton/算子 | [CUDA GEMM与MLA](README.md#int503) → [硬件生态迁移](README.md#int501) → [多公司复盘](README.md#int219) | 形状与dtype、正确性基线、访存/计算/同步、回归与回退 |',
              '| 分布式训练/RL Infra | [训练向NLP实习](README.md#int042) → [Agentic RL](README.md#int218) → [分布式专题](../topics/09-distributed-training.md) | 状态与显存、并行边界、通信、采样环境、恢复与评测 |',
              '| GPU平台/云原生 | [讯飞推理工程](README.md#int306) → [云原生路线](resources.md#res605) → [Infra指南](resources.md#res604) | GPU池化、配额与隔离、弹性、观测、故障与成本 |', '',
-             '上述顺序是仓库的准备建议，不能反推这些公司共同采用相同流程或题目。', '',
-             '## 原帖与二次材料的区别', '',
-             '- [阿里AI Infra二面](README.md#int502)可核对原帖；[混元Infra解析](resources.md#res610)当前只取得汇编，未作为亲历增加。',
-             '- [AIInfraGuide](resources.md#res601)包含公司汇编及传统数据库/OS邻接内容，目录篇数没有计入本库面经数。',
-             '- [快手题单解析](resources.md#res609)把量化答成金融策略，已标注语境错配；不采作技术答案。',
-             '- 专门AI编译器、纯通信网络、生产RL Infra、超大集群容错的亲历仍偏少；资料入口多不代表岗位样本充分。', '',
+             '## 几份资料的备注', '',
+             '- [混元Infra解析](resources.md#res610)来自汇编，牛客原帖暂时读不到。',
+             '- [AIInfraGuide](resources.md#res601)内容比较多，也包括数据库和操作系统题，阅读时按岗位挑选。',
+             '- [快手题单解析](resources.md#res609)把模型量化答成了金融交易策略，这一段有明显问题。',
+             '- AI编译器、通信网络、生产RL系统和大集群容错的面经还比较少，欢迎补充。', '',
              '## 本地筛选', '', '```sh',
              'python3 tools/search.py --interviews --specialty infra-kernel',
              'python3 tools/search.py --interviews --specialty infra-serving --company 阿里',
@@ -170,26 +199,26 @@ def build_specialty_indexes(interviews, resources):
     return specialties
 
 def build_resource_index(resources):
-    page = ['# 汇编、解析与待核验阅读入口', '', '[返回首页](../../README.md) · [按公司](by-company.md) · [按研究方向](by-topic.md) · [公司×业务方向](company-direction.md)', '',
-            '本页不计入公开自述面经数量。公司标签是资料标题或可见正文的归属标注，不能替代亲历原帖；`metadata_only`仅核对目录中的标题/原始链接，尚未获得文章正文。', '']
+    page = ['# 题库、教程与面经汇编', '', '[返回首页](../../README.md) · [按公司](by-company.md) · [按方向](by-topic.md) · [公司与业务](company-direction.md)', '',
+            '面经之外的复习资料放在这里。只看到目录、读不到正文的条目会单独注明。[面经原帖](README.md)另有列表。', '']
     for x in resources:
         page += [f'<a id="{x["id"].lower()}"></a>', '', f'### {x["id"]} · [{x["title"]}]({x["url"]})', '',
-                 f'- **性质/平台：** {x["source_type"]}；{platform(x)}。',
-                 f'- **资料标注公司：** {"、".join(x.get("companies",[])) or "未明确/通用资料"}。',
-                 f'- **研究方向：** {"、".join(t[1] for t in TOPICS if t[0] in x.get("topics",[])) or "通用准备/未细分"}。',
-                 f'- **业务标签：** {"、".join(facets(x,"domain"))}。',
-                 f'- **日期：** 发布/编辑 {x.get("published") or "未确认"}；查阅 {x["accessed"]}。',
-                 f'- **核验：** `{x["verification"]}`；{x["note"]}', '']
+                 f'- **来源：** {platform(x)} · {source_label(x)} · {access_label(x)}。',
+                 f'- **公司：** {"、".join(x.get("companies",[])) or "通用资料"}。',
+                 f'- **方向：** {"、".join(t[1] for t in TOPICS if t[0] in x.get("topics",[])) or "通用准备"}。',
+                 f'- **时间：** 页面日期 {x.get("published") or "未确认"}；查阅 {x["accessed"]}。',
+                 f'- **备注：** {x["note"]}', '']
+        if x.get('domains'): page += [f'- **业务：** {"、".join(x["domains"])}。', '']
         if x.get('summary'): page += [f'- **摘要：** {x["summary"]}', '']
-        if x.get('role'): page += [f'- **岗位/阅读范围：** {x["role"]}。', '']
-        if x.get('evidence_url'): page += [f'- **元数据/可读版本依据：** [核验页面]({x["evidence_url"]})。', '']
+        if x.get('role'): page += [f'- **内容：** {x["role"]}。', '']
+        if x.get('evidence_url'): page += [f'- **其他入口：** [阅读页面]({x["evidence_url"]})。', '']
         if x.get('related_interview_id'):
-            page += [f'- **关联面经：** [{x["related_interview_id"]}](README.md#{x["related_interview_id"].lower()})；本补充入口不另计面试经历，关系与归属限制见备注。', '']
+            page += [f'- **相关面经：** [{x["related_interview_id"]}](README.md#{x["related_interview_id"].lower()})，具体关系见备注。', '']
     write(ROOT/'docs/interviews/resources.md','\n'.join(page))
 
 def build_company_direction(interviews, resources):
-    page = ['# 公司×业务方向交叉索引', '', '[按公司](by-company.md) · [按研究方向](by-topic.md) · [按平台](by-platform.md) · [全部公开自述](README.md) · [汇编与解析](resources.md)', '',
-            '先选业务方向，再查公司。公开自述和二次汇编分列；原帖可能仅部分公开，核验状态见每条记录。多公司文章未逐公司映射领域时，单独放入多公司组，避免把其中某段问法归给所有公司。没有条目表示本仓库尚未收集到，不能解释为该公司不考。', '']
+    page = ['# 按公司和业务找面经', '', '[按公司](by-company.md) · [按方向](by-topic.md) · [按平台](by-platform.md) · [全部面经](README.md) · [参考资料](resources.md)', '',
+            '先选业务，再查公司。多公司复盘如果没有逐段写清业务归属，放在“多公司”一组；空白表示暂未收录。', '']
     for domain,_ in DOMAIN_RULES:
         groups = defaultdict(lambda: [[],[]])
         for kind,rows in enumerate((interviews,resources)):
@@ -198,7 +227,7 @@ def build_company_direction(interviews, resources):
                 companies = normalized_companies(x)
                 names = companies if len(companies)==1 else ['多公司复盘（未逐公司映射）']
                 for company in names: groups[company][kind].append(x)
-        page += [f'## {domain}', '', '| 公司/资料归属 | 公开自述面经 | 补充阅读（汇编/准备/转载） |', '|---|---|---|']
+        page += [f'## {domain}', '', '| 公司 | 面经 | 参考资料 |', '|---|---|---|']
         for company,rows in sorted(groups.items()):
             cells = ['<br>'.join(record_link(x,bool(kind)) for x in entries) or '—' for kind,entries in enumerate(rows)]
             page += [f'| {md_cell(company)} | {cells[0]} | {cells[1]} |']
@@ -211,26 +240,30 @@ def build_facets(interviews, resources):
         groups = defaultdict(list)
         for item in interviews:
             for value in facets(item,kind): groups[value].append(item)
-        page = [f'# 按{title}查公开面经', '', '[全部公开面经](README.md) · [按公司](by-company.md) · [按平台](by-platform.md) · [按岗位](by-role.md) · [按年份](by-year.md) · [按业务领域](by-domain.md)', '', '本页覆盖多家公司。企业、岗位及经历属于原作者自述；业务标签只依据可见标题、岗位或摘要中的明确词语，不据公司业务推断，每题也不自动归属公司。年份未知单列，资料年份不等于面试发生年份。', '']
+        notes = {'platform': '按原帖所在平台整理，访问情况见每条记录。',
+                 'role': '岗位名称沿用原帖，找相近岗位时可以用页面搜索。',
+                 'year': '按资料年份归档，实际面试时间见条目；年份不明的放在最后。',
+                 'domain': '按文章提到的业务整理，岗位和候选项目的区别见备注。'}
+        page = [f'# 按{title}找面经', '', '[全部面经](README.md) · [按公司](by-company.md) · [按平台](by-platform.md) · [按岗位](by-role.md) · [按年份](by-year.md) · [按业务](by-domain.md)', '', notes[kind], '']
         if kind == 'platform':
             page += [' · '.join(f'[{name}](#{anchor})' for name,anchor in PLATFORM_ANCHORS.items() if name in groups), '']
         for value,items in sorted(groups.items()):
             if kind == 'platform' and value in PLATFORM_ANCHORS:
                 page += [f'<a id="{PLATFORM_ANCHORS[value]}"></a>', '']
             page += [f'## {value}（{len(items)}条记录）', '']
-            page += [f'- [{x["id"]} · {x["title"]}](README.md#{x["id"].lower()}) — {x.get("year") or "年份未确认"}；{x["verification"]}' for x in items]
+            page += [f'- [{x["id"]} · {x["title"]}](README.md#{x["id"].lower()}) — {x.get("year") or "年份未确认"}；{access_label(x)}' for x in items]
             page += ['']
         if kind == 'platform':
-            page += ['## 二次汇编与学习资料（不计为亲历面经）', '']
+            page += ['## 各平台的参考资料', '']
             for name in sorted({platform(x) for x in resources}):
-                page += [f'### {name}', ''] + [f'- [{x["id"]} · {x["title"]}]({x["url"]}) — {x["source_type"]}；{x["verification"]}' for x in resources if platform(x)==name] + ['']
-            page += ['## 尚无公开自述记录的平台', '', '以下平台即使有汇编、元数据或检索尝试，也不能据此声称已有亲历原帖覆盖：'+ '、'.join(sorted(set(PLATFORMS.values())-{platform(x) for x in interviews})), '', '详见[本轮检索与限制](../platform-expansion-2026-10-23.md)、[首次平台检索](../research-platforms-a.md)及[其他公开平台检索](../research-platforms-b.md)。']
+                page += [f'### {name}', ''] + [f'- [{x["id"]} · {x["title"]}]({x["url"]}) — {source_label(x)}；{access_label(x)}' for x in resources if platform(x)==name] + ['']
+            page += ['## 还没找到面经原帖的平台', '', '、'.join(sorted(set(PLATFORMS.values())-{platform(x) for x in interviews})), '', '检索过程见[平台补充记录](../platform-expansion-2026-10-23.md)、[首次检索](../research-platforms-a.md)和[其他平台](../research-platforms-b.md)。']
         if kind == 'domain':
-            page += ['## 业务领域补充汇编与解析（非亲历）', '', '[公司×业务方向交叉入口](company-direction.md)', '']
+            page += ['## 按业务找参考资料', '', '[按公司和业务查找](company-direction.md)', '']
             for domain,_ in DOMAIN_RULES:
                 selected = [x for x in resources if domain in facets(x,'domain')]
-                page += [f'### {domain}', ''] + [f'- {record_link(x,True)} — {x["verification"]}' for x in selected] + (['尚无可归入的补充资料。'] if not selected else []) + ['']
-            page += ['## 八个应用领域的原创延伸题', ''] + [f'- [{name}](../topics/{filename})：{desc}；原创技术设计题，不能据此补算企业面经。' for code,name,filename,desc in TOPICS if int(code)>=16]
+                page += [f'### {domain}', ''] + [f'- {record_link(x,True)} — {access_label(x)}' for x in selected] + (['暂未收录。'] if not selected else []) + ['']
+            page += ['## 应用方向练习题', ''] + [f'- [{name}](../topics/{filename})：{desc}。' for code,name,filename,desc in TOPICS if int(code)>=16]
         write(ROOT/f'docs/interviews/by-{kind}.md','\n'.join(page))
 
 
@@ -254,45 +287,44 @@ def main():
     questions = question_records()
     write(ROOT/'data/questions.json', json.dumps(questions, ensure_ascii=False, indent=2))
 
-    intro = ['# 公开面经索引（重点2023—2026）', '', '[返回首页](../../README.md) · [按公司](by-company.md) · [按研究方向](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra](llm-infra.md) · [按平台](by-platform.md) · [按岗位](by-role.md) · [按年份](by-year.md) · [按业务领域](by-domain.md) · [来源规范](../methodology.md)', '',
-             f'查阅截止：**{AS_OF}**。共 **{len(interviews)}条面经记录**，单篇多公司复盘计一条。内容是求职者公开自述，未向企业核实；仅作短摘要并链接原文。日期、核验状态及歧义逐条保留。', '',
-             '`opened`表示已获得相关正文，可能仍有付费截断；`search_excerpt`表示只核对搜索可见片段。目录元数据另以`metadata_only`列入[补充资源](resources.md)，不计入自述面经数。`未确认`不是发生过面试的证明。', '']
+    intro = ['# 面经合集（重点2023—2026）', '', '[返回首页](../../README.md) · [按公司](by-company.md) · [按方向](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra](llm-infra.md) · [按平台](by-platform.md) · [按岗位](by-role.md) · [按年份](by-year.md) · [按业务](by-domain.md) · [来源说明](../methodology.md)', '',
+             f'更新于{AS_OF}，共{len(interviews)}篇。这里整理公开发帖的求职经历，每篇保留原链接、时间、内容摘要和备注；多公司复盘按一篇计。', '',
+             '问题摘录做了简短改写，完整内容请看原帖。“仅搜索摘要”表示还没读到正文，付费截断和日期疑问在备注中说明。题库和教程另放在[参考资料](resources.md)。', '']
     for year in sorted({x['year'] for x in interviews}, key=lambda y: (y is None, y or 0)):
         intro += [f'## {str(year)+"年资料" if year else "年份未确认"}', '']
         for item in [x for x in interviews if x['year'] == year]:
             topic_names = '、'.join(t[1] for t in TOPICS if t[0] in item['topics'])
             intro += [f'<a id="{item["id"].lower()}"></a>', '', f'### {item["id"]} · [{item["title"]}]({item["url"]})', '',
-                      f'- **企业/岗位（作者自述）：** {"、".join(item["companies"]) or "公司未明确"}；{item["role"]}。',
-                      f'- **日期：** 页面发布/编辑：{item["published"] or "未确认"}；面试：{item["event_date"] or "未确认"}。',
+                      f'- **公司 / 岗位：** {"、".join(item["companies"]) or "公司未公开"}；{item["role"]}。',
+                      f'- **时间：** {date_note(item)}。',
                       f'- **方向：** {topic_names}。', f'- **摘要：** {item["summary"]}', f'- **阅读建议：** {item["reading_tip"]}',
-                      f'- **平台/性质：** {platform(item)}；{item["source_type"]}。', f'- **核验/备注：** `{item["verification"]}`；{item["note"]}', '']
-            if item.get('published_at'):
-                intro += [f'- **首发核对：** {item["published_at"]}；末次编辑：{item.get("updated_at") or "未确认"}；作者：{item.get("author") or "未确认"}。', '']
+                      f'- **来源：** {platform(item)} · {access_label(item)}' + (f' · 作者：{item["author"]}' if item.get('author') else '') + '。']
+            if source_note(item):
+                intro += [f'- **备注：** {source_note(item)}']
+            intro += ['']
             if item.get('evidence_url'):
-                intro += [f'- **可读视图/核验依据：** [查看对应页面]({item["evidence_url"]})；可读范围见上述备注。', '']
+                intro += [f'- **其他阅读入口：** [查看页面]({item["evidence_url"]})。', '']
             if item.get('question_prompts'):
-                intro += ['**重点问题（依据原帖改写，不是参考答案）：**', '']
+                intro += ['**问题摘录：**', '']
                 intro += [f'{i}. {prompt}' for i,prompt in enumerate(item['question_prompts'],1)]
                 intro += ['']
             if item.get('alternate_urls'):
-                intro += ['- **同源入口（不另计面试）：** ' + ' · '.join(
+                intro += ['- **同文链接：** ' + ' · '.join(
                     f'[入口{i}]({url})' for i,url in enumerate(item['alternate_urls'],1)) + '。', '']
-    intro += ['## 如何观察考点变化', '',
-              '本样本中，2023年资料已出现PEFT、RLHF与上线项目；2024年可看到更细的显存、并行、奖励与评测追问；2025年资料包含GRPO、多模态、MCP和应用系统；2026年样本出现Agent轨迹、回归评测与上下文管理。这是对所选样本的定性阅读，不是市场频率或招聘趋势统计。', '',
-              '补充阅读、题库与二次汇编见[完整来源目录](../source-catalog.md)，不混入亲历面经数量。']
+    intro += ['更多题库、教程和汇编见[参考资料](resources.md)，论文和文档见[来源目录](../source-catalog.md)。']
     write(ROOT/'docs/interviews/README.md', '\n'.join(intro))
 
-    topic_page = ['# 按研究方向找公开面经', '', '[按年份](README.md) · [按公司](by-company.md) · [题目索引](../question-index.md)', '', '映射表示该面经可见内容涉及该方向，不表示其覆盖整个研究领域；数量仅为本仓库样本。', '']
+    topic_page = ['# 按方向找面经', '', '[按年份](README.md) · [按公司](by-company.md) · [题目索引](../question-index.md)', '', '每个方向先列面经，再列题库和教程。一篇涉及多个方向时会重复出现在列表中。', '']
     for code, name, filename, desc in TOPICS:
         selected = [x for x in interviews if code in x['topics']]
         topic_page += [f'## {code} · {name}', '', f'[进入专题题解](../topics/{filename}) · {desc}', '']
         topic_page += [f'- [{x["id"]} · {x["title"]}](README.md#{x["id"].lower()})（{x["year"] or "年份未确认"}；{x["role"]}）' for x in selected]
         if not selected:
-            topic_page += ['当前没有直接归入的亲历面经；专题题解为公开研究延伸。']
+            topic_page += ['暂未收录相关面经，可以先看专题练习。']
         topic_page += ['']
         extra = [x for x in resources if code in x.get('topics',[])]
         if extra:
-            topic_page += ['### 补充汇编与解析（不计亲历）', ''] + [f'- {record_link(x,True)} — {x["verification"]}' for x in extra] + ['']
+            topic_page += ['### 参考资料', ''] + [f'- {record_link(x,True)} — {access_label(x)}' for x in extra] + ['']
     write(ROOT/'docs/interviews/by-topic.md', '\n'.join(topic_page))
 
     companies = defaultdict(list)
@@ -303,19 +335,19 @@ def main():
     for item in resources:
         for company in normalized_companies(item): resource_companies[company].append(item)
     company_names = sorted(set(companies) | set(resource_companies))
-    company_page = ['# 按公司找公开面经与补充资料', '', '[按年份](README.md) · [按方向](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra](llm-infra.md) · [公司×业务方向](company-direction.md) · [汇编与解析](resources.md)', '',
-                    '公司及岗位为原作者自述；多公司汇总没有逐题归属时，不强行把每题分配给企业。本页不构成招聘流程或官方题库说明。', '']
+    company_page = ['# 按公司找面经', '', '[按年份](README.md) · [按方向](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra](llm-infra.md) · [公司与业务](company-direction.md) · [参考资料](resources.md)', '',
+                    '先选公司，再看岗位和年份。不同团队的面试差别很大，具体问题以原帖为准。', '']
     company_page += ['## 公司快速导航', '', ' · '.join(f'[{name}](#company-{i:03d})' for i,name in enumerate(company_names,1)), '',
-                     '别名只用于导航归组，记录正文保留原作者写法。阿里云/阿里达摩院归入阿里，美团到店归入美团；集团内不同业务与岗位不可据此视为同一面试流程。未明确、其他公司及未逐题归属的记录单列。', '']
+                     '阿里云、达摩院等名称在导航里合并到集团，条目保留原帖写法。公司不明和多公司未分段的文章单列。', '']
     for i,company in enumerate(company_names,1):
         items = companies[company]
         company_page += [f'<a id="company-{i:03d}"></a>', '', f'## {company}', '']
-        company_page += [f'### 公开自述（{len(items)}条）', '']
+        company_page += [f'### 面经（{len(items)}篇）', '']
         company_page += [f'- [{x["id"]} · {x["title"]}](README.md#{x["id"].lower()})（{x["year"] or "年份未确认"}；{x["role"]}）' for x in items]
-        if not items: company_page += ['尚无公开自述记录。']
+        if not items: company_page += ['暂未收录面经。']
         company_page += ['']
         extras = resource_companies[company]
-        if extras: company_page += ['### 补充资料（非亲历，归属按资料自述）', ''] + [f'- {record_link(x,True)} — {x["verification"]}' for x in extras] + ['']
+        if extras: company_page += ['### 参考资料', ''] + [f'- {record_link(x,True)} — {access_label(x)}' for x in extras] + ['']
     write(ROOT/'docs/interviews/by-company.md', '\n'.join(company_page))
 
     build_facets(interviews, resources)
@@ -323,8 +355,8 @@ def main():
     build_company_direction(interviews, resources)
     specialties = build_specialty_indexes(interviews, resources)
 
-    qpage = ['# 全部题目：稳定ID索引', '', '[返回首页](../README.md) · [真实面经入口](interviews/README.md)', '',
-             f'共 **{len(questions)}道原创题/练习**，追问不另计。专题题为研究延伸，项目与手写为原创练习；它们不是未经核实的企业真题。', '']
+    qpage = ['# 题目索引', '', '[返回首页](../README.md) · [面经合集](interviews/README.md)', '',
+             f'共{len(questions)}道整理的复习题和练习，按专题编号查找；面经原帖中的问题另见上方链接。', '']
     grouped = defaultdict(list)
     for item in questions:
         grouped[item['path']].append(item)
@@ -350,31 +382,28 @@ def main():
     write(ROOT/'data/stats.json', json.dumps(stats, ensure_ascii=False, indent=2))
     readme_path = ROOT/'README.md'
     if readme_path.exists():
-        summary = (f'**{len(interviews)}篇公开面经 · {len(TOPICS)}个专题 · {len(specialties)}个细分方向 · '
-                   f'{stats["topic_questions"]}道专题题解 + {stats["practice_questions"]}道项目/手写练习 '
-                   f'· {len(sources)}个去重来源链接**\n\n'
-                   f'另附{len(resources)}个补充阅读入口（含仅元数据项）；研究来源包含{len(research_unique)}个规范化链接。'
-                   '题目数不含追问；来源数按链接归一化，并非独立论文或企业真题数量。')
+        summary = (f'{len(interviews)}篇面经 · {len(TOPICS)}个专题 · {len(specialties)}个细分方向\n\n'
+                   f'另有{len(resources)}份参考资料、{stats["topic_questions"]}道专题题解和{stats["practice_questions"]}道项目/手写练习。'
+                   f'论文、文档和原帖共{len(sources)}个去重链接，见[来源目录](docs/source-catalog.md)。')
         content = re.sub(r'<!-- STATS:START -->.*?<!-- STATS:END -->',
                          '<!-- STATS:START -->\n'+summary+'\n<!-- STATS:END -->',
                          readme_path.read_text(), flags=re.S)
         write(readme_path, content)
-    spage = ['# 完整来源目录', '', '[返回首页](../README.md) · [来源规范](methodology.md)', '',
-             f'共{len(sources)}个规范化来源链接：{len(interviews)}条面经记录、{len(resources)}个补充入口，以及专题研究来源。计数方法及局限见来源规范。查阅日期均记录于JSON。', '']
+    spage = ['# 来源目录', '', '[返回首页](../README.md) · [来源说明](methodology.md)', '',
+             f'共{len(sources)}个去重链接，包括{len(interviews)}篇面经、{len(resources)}份参考资料，以及题解引用的论文和文档。详细查阅日期保存在data/中。', '']
     for label, items in [('公开面经', interviews), ('补充阅读/汇编', resources), ('论文、官方仓库与文档', sorted({canonical_url(s['url']):s for s in research_sources}.values(), key=lambda x:x['id']))]:
-        spage += [f'## {label}', '', '| ID | 来源 | 日期 | 核验 | 说明 |', '|---|---|---|---|---|']
+        spage += [f'## {label}', '', '| ID | 来源 | 日期 | 阅读情况 | 备注 |', '|---|---|---|---|---|']
         for x in items:
-            spage.append(f'| {x["id"]} | [{md_cell(x["title"])}]({x["url"]}) | {md_cell(x.get("published") or "未确认/持续更新")} | {x.get("verification", "未记录")} | {md_cell(x.get("note", ""))} |')
+            spage.append(f'| {x["id"]} | [{md_cell(x["title"])}]({x["url"]}) | {md_cell(x.get("published") or "未确认/持续更新")} | {access_label(x)} | {md_cell(source_note(x))} |')
         spage += ['']
     write(ROOT/'docs/source-catalog.md', '\n'.join(spage))
-    coverage = ['# 覆盖情况与缺口', '', '[返回首页](../README.md) · [全部题目](question-index.md)', '',
-                '| 方向 | 原创专题题 | 对应面经记录 | 内容 |', '|---|---:|---:|---|']
+    coverage = ['# 收录情况', '', '[返回首页](../README.md) · [全部题目](question-index.md)', '',
+                '| 方向 | 练习题 | 面经 | 内容 |', '|---|---:|---:|---|']
     for code, name, filename, desc in TOPICS:
         count = sum(x['path']==f'docs/topics/{filename}' for x in questions)
         coverage.append(f'| [{name}](topics/{filename}) | {count} | {sum(code in x["topics"] for x in interviews)} | {desc} |')
-    coverage += ['', '当前局限：样本以中文公开面经和国内求职者自述为主；海外现场面、资深管理、音频专岗、芯片编译器、世界模型与AI4Science的亲历样本不足。具身和科学方向目前更多依赖研究延伸题。没有据此推算企业通过率、题目频次、薪资或行业供需。', '',
-                 '只有摘要可见、反爬、推广及日期冲突均在条目中标注。欢迎补齐原始亲历复盘和可复现实验；新增资料应保留公开来源及查阅日期。']
-    coverage += ['', '## 平台检索与应用边界', '', '[2026-11-05应用与Infra扩展](expansion-applications-infra-2026-11-05.md) · [2026-11-05增量更新](incremental-2026-11-05.md) · [2026-11-02增量更新](incremental-2026-11-02.md) · [2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)', '', '应用专题是原创技术设计训练，不表示每个领域均有已核验亲历面经。按平台、岗位与业务的实际条目分布见[多维面经导航](interviews/by-platform.md)、[细分方向](interviews/by-specialty.md)、[LLM Infra专页](interviews/llm-infra.md)及[公司×业务方向](interviews/company-direction.md)。原文不可见或仅有搜索片段、目录元数据的记录不据此扩写隐藏题目。']
+    coverage += ['', '目前收录以国内中文面经为主。海外现场面、资深岗位、语音、编译器、世界模型和AI4Science还比较少，欢迎补充原帖。上表只统计本仓库的资料，一篇可出现在多个方向。']
+    coverage += ['', '## 更新记录', '', '[11月5日应用与Infra](expansion-applications-infra-2026-11-05.md) · [11月5日增量](incremental-2026-11-05.md) · [11月2日增量](incremental-2026-11-02.md) · [10月23日平台补充](platform-expansion-2026-10-23.md) · [首次检索](research-platforms-a.md) · [其他平台](research-platforms-b.md)', '', '也可以从[平台](interviews/by-platform.md)、[细分方向](interviews/by-specialty.md)、[LLM Infra](interviews/llm-infra.md)或[公司与业务](interviews/company-direction.md)继续查找。']
     write(ROOT/'docs/coverage.md', '\n'.join(coverage))
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 

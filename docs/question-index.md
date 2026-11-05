@@ -1,8 +1,8 @@
-# 全部题目：稳定ID索引
+# 题目索引
 
-[返回首页](../README.md) · [真实面经入口](interviews/README.md)
+[返回首页](../README.md) · [面经合集](interviews/README.md)
 
-共 **440道原创题/练习**，追问不另计。专题题为研究延伸，项目与手写为原创练习；它们不是未经核实的企业真题。
+共440道整理的复习题和练习，按专题编号查找；面经原帖中的问题另见上方链接。
 
 ## Transformer、概率与训练数学
 
@@ -487,7 +487,7 @@
 - [CS17 · 项目深挖如何展示可复现的改进？](topics/23-llm-service.md#cs17)
 - [CS18 · 开放设计：退款改签售后助手如何端到端落地？](topics/23-llm-service.md#cs18)
 
-## 手写题与定量估算：16组原创练习
+## 手写与估算：16组练习
 
 - [H01 · 实现数值稳定的softmax](preparation/coding-and-estimation.md#h01)
 - [H02 · 实现带causal mask的scaled dot-product attention](preparation/coding-and-estimation.md#h02)
@@ -506,7 +506,7 @@
 - [H15 · 实现带重试的工具状态机](preparation/coding-and-estimation.md#h15)
 - [H16 · 实现流式JSON输出校验与回归回放](preparation/coding-and-estimation.md#h16)
 
-## 项目深挖与系统设计：10组原创练习
+## 项目深挖与系统设计：10组练习
 
 - [J01 · 给企业一万份PDF做问答，你如何从零落地？](preparation/projects-and-system-design.md#j01)
 - [J02 · 客服Agent会查询订单并执行退款，怎么设计？](preparation/projects-and-system-design.md#j02)

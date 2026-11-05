@@ -3,7 +3,7 @@
     "id": "infra-training",
     "name": "分布式训练与显存管理",
     "group": "LLM Infra",
-    "description": "并行切分、ZeRO/FSDP、训练状态、重计算与训练系统排障。",
+    "description": "并行切分、ZeRO/FSDP、训练状态、重计算和训练故障排查。",
     "interview_ids": [
       "INT042",
       "INT219",
@@ -21,7 +21,7 @@
     "id": "infra-rl",
     "name": "RL Infra与Rollout系统",
     "group": "LLM Infra",
-    "description": "采样环境、训练执行链路、AgentLoop与多轮RL评测；仅讨论算法差异的面经不自动标为RL Infra。",
+    "description": "采样环境、Rollout、AgentLoop、训练与采样协同，以及多轮RL评测。",
     "interview_ids": [
       "INT218"
     ],
@@ -35,7 +35,7 @@
     "id": "infra-kernel",
     "name": "CUDA、Triton与算子优化",
     "group": "LLM Infra",
-    "description": "GEMM、Attention、归约、访存、确定性、手写kernel与数值验证。",
+    "description": "GEMM、Attention、归约、访存、确定性、手写kernel和数值校验。",
     "interview_ids": [
       "INT219",
       "INT309",
@@ -59,7 +59,7 @@
     "id": "infra-compiler",
     "name": "图执行与AI编译",
     "group": "LLM Infra",
-    "description": "CUDA Graph、动态shape、计算路径与编译栈。现有原帖主要支持图执行问题，专门编译器岗位的亲历仍不足。",
+    "description": "CUDA Graph、动态shape和编译执行。目前面经主要涉及图执行，编译器专岗还待补充。",
     "interview_ids": [
       "INT502"
     ],
@@ -72,7 +72,7 @@
     "id": "infra-communication",
     "name": "NCCL、互联与多卡通信",
     "group": "LLM Infra",
-    "description": "集合通信、拓扑、同步、跨节点KV传输与通信瓶颈；不把普通消息队列题归为GPU通信。",
+    "description": "集合通信、网络拓扑、同步、跨节点KV传输和通信瓶颈。",
     "interview_ids": [
       "INT219",
       "INT220",
@@ -90,7 +90,7 @@
     "id": "infra-serving",
     "name": "LLM推理引擎与Serving",
     "group": "LLM Infra",
-    "description": "vLLM/SGLang、KV管理、批处理、PD分离、投机解码、吞吐与延迟。",
+    "description": "vLLM/SGLang、KV管理、批处理、PD分离、投机解码、吞吐和延迟。",
     "interview_ids": [
       "INT219",
       "INT220",
@@ -116,7 +116,7 @@
     "id": "infra-platform",
     "name": "GPU调度与云原生平台",
     "group": "LLM Infra",
-    "description": "GPU池化、隔离、弹性伸缩、Kubernetes训练推理工作负载与平台观测；亲历样本少于教程覆盖。",
+    "description": "GPU池化、隔离、弹性伸缩和Kubernetes训练推理任务。现有资料以教程为主。",
     "interview_ids": [
       "INT306"
     ],
@@ -132,7 +132,7 @@
     "id": "infra-profiling",
     "name": "性能分析与Benchmark",
     "group": "LLM Infra",
-    "description": "Roofline、时间线、Nsight、负载条件、显存账本与端到端优化证据。",
+    "description": "Roofline、时间线、Nsight、显存分析，以及固定负载下的优化对比。",
     "interview_ids": [
       "INT219",
       "INT309",
@@ -152,7 +152,7 @@
     "id": "infra-hardware",
     "name": "异构硬件、国产卡与端侧",
     "group": "LLM Infra",
-    "description": "CUDA/HIP等生态迁移、模型与算子适配、量化、设备内存和能耗。",
+    "description": "CUDA/HIP生态迁移、模型与算子适配、量化、设备内存和能耗。",
     "interview_ids": [
       "INT022",
       "INT219",
@@ -172,7 +172,7 @@
     "id": "eng-runtime",
     "name": "Agent Runtime与Harness",
     "group": "Agent与模型工程",
-    "description": "任务状态、工具执行、停止条件、执行中追加要求、恢复与权限。",
+    "description": "任务状态、工具执行、停止条件、执行中追加要求、恢复和权限。",
     "interview_ids": [
       "INT401",
       "INT403",
@@ -189,7 +189,7 @@
     "id": "eng-memory",
     "name": "上下文工程与长期记忆",
     "group": "Agent与模型工程",
-    "description": "状态与聊天记录的区别、记忆压缩、偏好变化与跨轮信息保留。",
+    "description": "状态管理、聊天记录、记忆压缩、偏好变化和跨轮信息保留。",
     "interview_ids": [
       "INT317",
       "INT403",
@@ -207,7 +207,7 @@
     "id": "eng-code-agent",
     "name": "Coding Agent与代码生成",
     "group": "Agent与模型工程",
-    "description": "补丁审批、版本绑定、编译预览、代码验收和生成平台；普通使用AI写代码不自动归入。",
+    "description": "补丁审批、版本管理、编译预览、代码验收和代码生成平台。",
     "interview_ids": [
       "INT407",
       "INT413"
@@ -221,7 +221,7 @@
     "id": "eng-evaluation",
     "name": "评测工程与可观测性",
     "group": "Agent与模型工程",
-    "description": "测试集、任务与工具过程评测、自动化、数据质量、回归及失败归因。",
+    "description": "测试集、任务结果与工具过程评测、自动化、回归测试和失败分析。",
     "interview_ids": [
       "INT105",
       "INT216",
@@ -241,7 +241,7 @@
     "id": "eng-data",
     "name": "合成数据与数据闭环",
     "group": "Agent与模型工程",
-    "description": "合成、外购、清洗过滤、训练数据与任务评测；仅出现数据一词不算领域证据。",
+    "description": "数据合成与采购、清洗过滤、训练数据质量和任务评测。",
     "interview_ids": [
       "INT105",
       "INT519",
@@ -255,7 +255,7 @@
     "id": "eng-safety",
     "name": "模型与Agent运行安全",
     "group": "Agent与模型工程",
-    "description": "工具写操作、审批、权限、隔离、隐私与执行过程；业务反欺诈另列应用风控。",
+    "description": "工具写操作、审批、权限、隔离、隐私和执行记录。业务反欺诈见风控方向。",
     "interview_ids": [
       "INT214",
       "INT407",
@@ -273,7 +273,7 @@
     "id": "app-growth-marketing",
     "name": "用户增长与营销",
     "group": "应用场景",
-    "description": "因果与uplift、触达、画像、营销Agent和增量效果；项目题与团队业务说明分别见记录。",
+    "description": "因果推断、uplift、触达、用户画像、营销Agent和增量实验。",
     "interview_ids": [
       "INT040",
       "INT210",
@@ -285,7 +285,7 @@
     "id": "app-service",
     "name": "客服、外呼与业务执行",
     "group": "应用场景",
-    "description": "知识咨询、业务动作、流式交互、转人工和客服质量；不能把只读问答等同订单执行。",
+    "description": "知识咨询、业务操作、流式交互、转人工和客服质量评测。",
     "interview_ids": [
       "INT104",
       "INT216",
@@ -302,7 +302,7 @@
     "id": "app-speech",
     "name": "实时语音与会议转写",
     "group": "应用场景",
-    "description": "ASR、TTS、语音质量、弱网兼容、转写隐私、流式打断与恢复。",
+    "description": "ASR、TTS、语音质量、弱网、转写隐私、流式打断和恢复。",
     "interview_ids": [
       "INT111",
       "INT224",
@@ -318,7 +318,7 @@
     "id": "app-commerce",
     "name": "电商与商家Agent",
     "group": "应用场景",
-    "description": "电商岗位/项目线索与商品场景。现有记录含岗位描述及知识库项目，不代表均已问导购、交易或商家经营全流程。",
+    "description": "电商岗位和商品场景。目前面经主要涉及知识库项目，导购与交易流程还待补充。",
     "interview_ids": [
       "INT109",
       "INT512"
@@ -329,7 +329,7 @@
     "id": "app-bi",
     "name": "智能问数、NL2SQL与BI",
     "group": "应用场景",
-    "description": "数据与业务语义、字段消歧、查询链路和评估；智能问数不必然等于SQL生成。",
+    "description": "业务术语、字段映射、NL2SQL、查询流程和问数评估。",
     "interview_ids": [
       "INT001",
       "INT508",
@@ -345,7 +345,7 @@
     "id": "app-office",
     "name": "办公助手与文档智能",
     "group": "应用场景",
-    "description": "行政HR助手、企业任务与知识使用；该方向并非所有企业知识库记录的默认标签。",
+    "description": "行政HR助手、企业任务和文档知识使用。",
     "interview_ids": [
       "INT411",
       "INT517"
@@ -359,7 +359,7 @@
     "id": "app-creative",
     "name": "内容生成、视频与数字人",
     "group": "应用场景",
-    "description": "营销生图/生视频及生成模型系统。现有亲历主要是团队场景说明，数字人专项亲历仍不足。",
+    "description": "营销生图、生视频和生成模型系统；数字人专项面经还比较少。",
     "interview_ids": [
       "INT412",
       "INT505"
@@ -370,7 +370,7 @@
     "id": "app-medical",
     "name": "医疗模型与医疗Agent",
     "group": "应用场景",
-    "description": "医疗后训练、Skill/HIS、医疗SFT/DPO项目与评估。包含候选项目，不等于招聘方就是医疗团队。",
+    "description": "医疗后训练、Skill/HIS及医疗SFT/DPO项目。有些记录来自候选人的过往项目。",
     "interview_ids": [
       "INT216",
       "INT507"
@@ -381,7 +381,7 @@
     "id": "app-education",
     "name": "教育与教学Agent",
     "group": "应用场景",
-    "description": "数学教育研究及教育公司应用开发；通用工程题不扩写为作业批改或教学效果题。",
+    "description": "数学教育研究和教育公司应用开发。目前应用面经主要问RAG及系统工程。",
     "interview_ids": [
       "INT013",
       "INT514"
@@ -392,7 +392,7 @@
     "id": "app-legal",
     "name": "法律、合同与文档审查",
     "group": "应用场景",
-    "description": "合同检索证据、法律条文微调与RAG取舍；当前证据主要来自候选项目。",
+    "description": "合同审查项目、法律条文微调与RAG取舍，目前收录来自候选项目。",
     "interview_ids": [
       "INT515"
     ],
@@ -402,7 +402,7 @@
     "id": "app-frontend",
     "name": "AI前端、全栈与交互",
     "group": "应用场景",
-    "description": "Agent状态展示、递归组件、流式体验、端侧WebLLM与国际化。",
+    "description": "Agent状态展示、递归组件、流式交互、端侧WebLLM和国际化。",
     "interview_ids": [
       "INT401",
       "INT516"
@@ -413,7 +413,7 @@
     "id": "app-personalization",
     "name": "个性化助手与用户画像",
     "group": "应用场景",
-    "description": "用户画像、偏好写入与衰减、变更确认。情感陪伴专项面经尚不足，不因社交公司名称自动归类。",
+    "description": "用户画像、偏好写入与衰减，以及偏好变更确认。情感陪伴专项还待补充。",
     "interview_ids": [
       "INT207",
       "INT317"
@@ -424,7 +424,7 @@
     "id": "app-risk",
     "name": "风控、审核与反欺诈",
     "group": "应用场景",
-    "description": "按明确岗位或设计场景收录，区分内容/欺诈风险与通用Agent权限控制。",
+    "description": "风控岗位、内容审核和反欺诈场景，具体项目内容见条目备注。",
     "interview_ids": [
       "INT214",
       "INT215",
@@ -436,7 +436,7 @@
     "id": "app-embodied",
     "name": "具身智能与世界模型",
     "group": "应用场景",
-    "description": "作为待补亲历方向保留；现有指南和研究延伸不能冒充机器人或世界模型岗位面经。",
+    "description": "机器人、VLA和世界模型。暂时只有参考指南，面经原帖待补充。",
     "interview_ids": [],
     "resource_ids": [
       "RB009"
