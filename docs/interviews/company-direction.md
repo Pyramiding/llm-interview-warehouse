@@ -11,7 +11,7 @@
 | 京东 | [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204) | — |
 | 公司未明确 | [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201) | — |
 | 多公司复盘（未逐公司映射） | [INT036 · 2025届NLP算法岗实习面经](README.md#int036)<br>[RES009 · 27届秋招大模型岗面经](README.md#res009)<br>[INT309 · 10月面试退展](README.md#int309) | [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) |
-| 字节 | [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101)<br>[INT205 · 字节搜索广告 后端开发一面](README.md#int205)<br>[INT310 · 字节搜广推算法秋招一面](README.md#int310) | [RES104 · 大模型面试汇总：字节AI搜面经](resources.md#res104) |
+| 字节 | [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101)<br>[INT205 · 字节搜索广告 后端开发一面](README.md#int205)<br>[INT310 · 字节搜广推算法秋招一面](README.md#int310)<br>[INT401 · 字节业务中台AI全栈凉经](README.md#int401) | [RES104 · 大模型面试汇总：字节AI搜面经](resources.md#res104) |
 | 微软 | — | [RES304 · Microsoft L65 Interview Experience](resources.md#res304) |
 | 拼多多 | [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109) | — |
 | 美团 | [INT037 · 美团2025届秋招搜索推荐算法工程师](README.md#int037) | — |
@@ -25,7 +25,7 @@
 | 多公司复盘（未逐公司映射） | [INT041 · 2025届搜广推算法方向求职历程（SSP、头部计划）](README.md#int041)<br>[INT309 · 10月面试退展](README.md#int309) | — |
 | 字节 | [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101)<br>[INT103 · 字节广告算法中台秋招面经](README.md#int103)<br>[INT205 · 字节搜索广告 后端开发一面](README.md#int205)<br>[INT206 · 字节国际化广告算法开发实习一面](README.md#int206)<br>[INT207 · 字节懂车帝大模型日常实习面经（已oc版](README.md#int207)<br>[INT310 · 字节搜广推算法秋招一面](README.md#int310)<br>[INT318 · 字节跳动广告算法面经](README.md#int318) | — |
 | 微软 | — | [RES304 · Microsoft L65 Interview Experience](resources.md#res304) |
-| 快手 | [INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304) | — |
+| 快手 | [INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304)<br>[INT404 · 快手OneRec算法岗一二面面经](README.md#int404) | — |
 
 ## 推荐
 
@@ -35,7 +35,7 @@
 | 公司未明确 | [INT201 · 面经｜面了20家，30多场，为您带来NLP独家面经](README.md#int201) | — |
 | 多公司复盘（未逐公司映射） | [INT041 · 2025届搜广推算法方向求职历程（SSP、头部计划）](README.md#int041)<br>[INT309 · 10月面试退展](README.md#int309) | [RES211 · 搜推、NLP 与大模型岗位面试题整理：含飞猪/Shopee/得物（编目标题）](resources.md#res211) |
 | 字节 | [INT101 · 字节-tac-面经-算法-大模型-搜推（持续记录）](README.md#int101)<br>[INT103 · 字节广告算法中台秋招面经](README.md#int103)<br>[INT310 · 字节搜广推算法秋招一面](README.md#int310)<br>[INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322) | [RES227 · 字节面试（ai 算法岗）](resources.md#res227) |
-| 快手 | [INT105 · 快手 推荐大模型 三面 面经](README.md#int105)<br>[INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304) | — |
+| 快手 | [INT105 · 快手 推荐大模型 三面 面经](README.md#int105)<br>[INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304)<br>[INT404 · 快手OneRec算法岗一二面面经](README.md#int404) | — |
 | 拼多多 | [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109) | — |
 | 美团 | [INT037 · 美团2025届秋招搜索推荐算法工程师](README.md#int037)<br>[INT211 · 美团大模型算法工程师一面面经（攒rp）](README.md#int211) | [RES222 · 爆料美团大模型算法面经](resources.md#res222)（同源转载） |
 | 腾讯 | [INT208 · 腾讯 -暑期实习-PCG技术线-推荐算法](README.md#int208)<br>[INT209 · 28届双非本末9硕 腾讯wxg推荐算法凉经](README.md#int209) | — |
@@ -53,6 +53,7 @@
 
 | 公司/资料归属 | 公开自述面经 | 补充阅读（汇编/准备/转载） |
 |---|---|---|
+| 字节 | [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412) | — |
 | 快手 | — | [RES203 · 快手AI全栈一面（发券营销）：Agent可观测性与线上排查](resources.md#res203) |
 | 美团 | [INT210 · 美团 机器学习/数据挖掘算法工程师 一二面面经（又已回人才库版）](README.md#int210) | — |
 | 蚂蚁集团 | — | [RES201 · 支付宝营销产品AI+营销产品面经 二面](resources.md#res201) |
@@ -79,5 +80,5 @@
 |---|---|---|
 | Meta | [IB008 · Meta onsite E5 MLE 多半挂经](README.md#ib008) | — |
 | 公司未明确 | — | [RES219 · 搞定日处理 500 万语音通话，我的 AI 项目面试全攻略（上）](resources.md#res219)（准备/邻接阅读） |
-| 美团 | [INT104 · OC了，分享一下美团智能客服面经](README.md#int104)<br>[INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216) | — |
+| 美团 | [INT104 · OC了，分享一下美团智能客服面经](README.md#int104)<br>[INT216 · 美团Keeta Agent开发（智能客服方向）一面面经](README.md#int216) | [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） |
 | 腾讯 | [INT217 · 腾讯客服-一、二、三、四、五与六面面经（录用评估中）](README.md#int217) | — |

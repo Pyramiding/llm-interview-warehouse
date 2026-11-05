@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-AS_OF = '2026-11-02'
+AS_OF = '2026-11-05'
 TOPICS = [
     ('01', 'Transformer与数学基础', '01-transformer-and-math.md', '注意力、归一化、优化、概率与参数估算'),
     ('02', '预训练与数据工程', '02-pretraining-and-data.md', 'tokenizer、配比、去重、Scaling Law与数据质量'),
@@ -132,7 +132,7 @@ def build_resource_index(resources):
         if x.get('role'): page += [f'- **岗位/阅读范围：** {x["role"]}。', '']
         if x.get('evidence_url'): page += [f'- **元数据/可读版本依据：** [核验页面]({x["evidence_url"]})。', '']
         if x.get('related_interview_id'):
-            page += [f'- **同源主记录：** [{x["related_interview_id"]}](README.md#{x["related_interview_id"].lower()})；不另计面试经历。', '']
+            page += [f'- **关联面经：** [{x["related_interview_id"]}](README.md#{x["related_interview_id"].lower()})；本补充入口不另计面试经历，关系与归属限制见备注。', '']
     write(ROOT/'docs/interviews/resources.md','\n'.join(page))
 
 def build_company_direction(interviews, resources):
@@ -214,6 +214,8 @@ def main():
                       f'- **日期：** 页面发布/编辑：{item["published"] or "未确认"}；面试：{item["event_date"] or "未确认"}。',
                       f'- **方向：** {topic_names}。', f'- **摘要：** {item["summary"]}', f'- **阅读建议：** {item["reading_tip"]}',
                       f'- **平台/性质：** {platform(item)}；{item["source_type"]}。', f'- **核验/备注：** `{item["verification"]}`；{item["note"]}', '']
+            if item.get('published_at'):
+                intro += [f'- **首发核对：** {item["published_at"]}；末次编辑：{item.get("updated_at") or "未确认"}；作者：{item.get("author") or "未确认"}。', '']
             if item.get('evidence_url'):
                 intro += [f'- **可读视图/核验依据：** [查看对应页面]({item["evidence_url"]})；可读范围见上述备注。', '']
             if item.get('question_prompts'):
@@ -318,7 +320,7 @@ def main():
         coverage.append(f'| [{name}](topics/{filename}) | {count} | {sum(code in x["topics"] for x in interviews)} | {desc} |')
     coverage += ['', '当前局限：样本以中文公开面经和国内求职者自述为主；海外现场面、资深管理、音频专岗、芯片编译器、世界模型与AI4Science的亲历样本不足。具身和科学方向目前更多依赖研究延伸题。没有据此推算企业通过率、题目频次、薪资或行业供需。', '',
                  '只有摘要可见、反爬、推广及日期冲突均在条目中标注。欢迎补齐原始亲历复盘和可复现实验；新增资料应保留公开来源及查阅日期。']
-    coverage += ['', '## 平台检索与应用边界', '', '[2026-11-02增量更新](incremental-2026-11-02.md) · [2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)', '', '应用专题是原创技术设计训练，不表示每个领域均有已核验亲历面经。按平台、岗位与业务的实际条目分布见[多维面经导航](interviews/by-platform.md)及[公司×业务方向](interviews/company-direction.md)。原文不可见或仅有搜索片段、目录元数据的记录不据此扩写隐藏题目。']
+    coverage += ['', '## 平台检索与应用边界', '', '[2026-11-05增量更新](incremental-2026-11-05.md) · [2026-11-02增量更新](incremental-2026-11-02.md) · [2026-10-23增补与检索缺口](platform-expansion-2026-10-23.md) · [首次平台检索记录](research-platforms-a.md) · [GitHub与其他职场平台检索记录](research-platforms-b.md)', '', '应用专题是原创技术设计训练，不表示每个领域均有已核验亲历面经。按平台、岗位与业务的实际条目分布见[多维面经导航](interviews/by-platform.md)及[公司×业务方向](interviews/company-direction.md)。原文不可见或仅有搜索片段、目录元数据的记录不据此扩写隐藏题目。']
     write(ROOT/'docs/coverage.md', '\n'.join(coverage))
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 

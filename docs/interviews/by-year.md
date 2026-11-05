@@ -88,7 +88,7 @@
 - [INT230 · Groww SDE intern Interview Experience (AI/LLM) role | 6 month](README.md#int230) — 2025；opened
 - [INT232 · Amazon | Interview (1st Round) | Bengaluru | Applied Data Scientist](README.md#int232) — 2025；opened
 
-## 2026（36条记录）
+## 2026（50条记录）
 
 - [INT026 · 字节 260901 一面面经](README.md#int026) — 2026；opened
 - [INT027 · 面经复盘（2026.5.7）](README.md#int027) — 2026；opened
@@ -126,6 +126,20 @@
 - [INT320 · 字节后端开发日常实习生一面（已寄）](README.md#int320) — 2026；opened
 - [INT321 · 腾讯WXG-日常一面面经](README.md#int321) — 2026；opened
 - [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322) — 2026；opened
+- [INT401 · 字节业务中台AI全栈凉经](README.md#int401) — 2026；opened
+- [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402) — 2026；opened
+- [INT403 · 千问agent社招一面面经](README.md#int403) — 2026；opened
+- [INT404 · 快手OneRec算法岗一二面面经](README.md#int404) — 2026；opened
+- [INT405 · 快手 可灵专项 Agent Harness 一面面经（回忆版）](README.md#int405) — 2026；opened
+- [INT406 · 百度一面面经](README.md#int406) — 2026；opened
+- [INT407 · 百度后端实习二面面经](README.md#int407) — 2026；opened
+- [INT408 · 字节跳动 后端 Agent 一面 面经](README.md#int408) — 2026；opened
+- [INT409 · 11.3 阿里token foundry 测开 1.5小时](README.md#int409) — 2026；opened
+- [INT410 · 得物三面 11.3](README.md#int410) — 2026；opened
+- [INT411 · 科大讯飞后端 timeline&面经](README.md#int411) — 2026；opened
+- [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412) — 2026；opened
+- [INT413 · 百度agent一面](README.md#int413) — 2026；opened
+- [INT414 · 小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](README.md#int414) — 2026；opened
 
 ## 年份未确认（17条记录）
 

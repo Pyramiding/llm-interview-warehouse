@@ -3174,10 +3174,10 @@
     "summary": "从Agent项目风险操作和评估指标，追问高召回噪声、非向量检索、循环控制、记忆丢失、数据库压力与SDD效率。",
     "reading_tip": "准备风险操作的人工确认边界，并解释高召回的收益和副作用。",
     "source_type": "interview_self_report",
-    "accessed": "2026-11-02",
+    "accessed": "2026-11-05",
     "verification": "opened",
     "author": "在抱佛脚的芝士很完美",
-    "note": "正文写10月27日；95%召回率只属候选项目，不能迁移为其他方案的结果。没有因音乐公司而贴语音或推荐标签。",
+    "note": "正文写10月27日；95%召回率只属候选项目，不能迁移为其他方案的结果。没有因音乐公司而贴语音或推荐标签。 2026-11-05复核：同作者新发小红书一面题单与本条问题高度重合、公司和轮次不同，差异未核实；按RES507关联保留，不另计独立面试。",
     "question_prompts": [
       "测试脚本由AI自动执行还是先人工确认？",
       "高召回带来噪声时，怎样提高最终精度？",
@@ -3726,5 +3726,524 @@
     "alternate_urls": [
       "https://www.nowcoder.com/feed/main/detail/d3b066e68d644334b14bcf8e199376f9"
     ]
+  },
+  {
+    "id": "INT401",
+    "title": "字节业务中台AI全栈凉经",
+    "url": "https://www.nowcoder.com/discuss/946748680575422464",
+    "year": 2026,
+    "published": "2026-11-02",
+    "event_date": "2026-10-26",
+    "companies": [
+      "字节"
+    ],
+    "role": "业务中台AI全栈日常实习一二面及HR面",
+    "topics": [
+      "06",
+      "07",
+      "12",
+      "14",
+      "16"
+    ],
+    "domains": [
+      "搜索"
+    ],
+    "summary": "图片检索Agent追问Embedding、LangGraph、向量存储和轻量方案；运维Agent追问执行中接收补充指令、Harness循环检测，并含搜索框与树形组件手写。",
+    "reading_tip": "把项目选型、替代方案、用户临时改需求和任务终止条件一起讲清楚；搜索联想前端题与图片语义检索分别准备。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "凉风落木楚山秋",
+    "note": "时间线明确为10月26日一面、27日二面、28日HR面，11月2日发复盘；event_date记录首轮。团队提及火山引擎/豆包搜索，图片检索是候选项目，不扩展为所有字节搜索岗的要求。",
+    "question_prompts": [
+      "图片检索项目如何选择Embedding、向量存储和运行框架？",
+      "少量图片直接交给模型读取，与建向量索引怎样比较？",
+      "任务运行中收到用户补充要求，如何合并到当前执行状态？",
+      "Harness怎样发现重复执行，并让Agent停止？",
+      "搜索联想请求返回顺序颠倒时，怎样避免展示旧结果？"
+    ],
+    "published_at": "2026-11-02T12:41:15+08:00",
+    "updated_at": "2026-11-02T12:58:04+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "a9c36106fb91e608bd017d2521a89a824a5e3ada953ad77ae5c9e1e3741d12da"
+  },
+  {
+    "id": "INT402",
+    "title": "字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气",
+    "url": "https://www.nowcoder.com/discuss/946798743163088896",
+    "year": 2026,
+    "published": "2026-11-02",
+    "event_date": "2026-10-26",
+    "companies": [
+      "字节"
+    ],
+    "role": "大模型算法三面（公开部分）",
+    "topics": [
+      "01",
+      "02",
+      "05",
+      "08",
+      "09",
+      "13"
+    ],
+    "domains": [],
+    "summary": "公开部分从项目收益归因、数据清洗误差进入Transformer复杂度、MHA/MQA/GQA、位置外推、KV显存与混合精度。",
+    "reading_tip": "按架构假设推导计算和显存，给出控制变量证据；原文没有展示完的工程题不补写。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "AIGC小白入门记",
+    "note": "作者自述10月26日北京三面62分钟。可读正文在ZeRO分级处结束，标题宣称的22题不等于已取得22道完整题。同作者次日三面问答见RES502，题目重合且时长不同，不额外认定一场独立面试。",
+    "question_prompts": [
+      "怎样排除同期改动，证明项目指标变化来自自己的优化？",
+      "如何评估训练数据清洗时的误删和漏筛？",
+      "给定序列长度、隐藏维和层数，怎样推导Transformer开销？",
+      "MHA、MQA、GQA的KV占用与质量取舍怎样比较？",
+      "混合精度与梯度检查点分别解决什么问题、付出什么代价？"
+    ],
+    "published_at": "2026-11-02T16:00:11+08:00",
+    "updated_at": "2026-11-02T16:00:31+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "a443dfb6ec563231bb515f788c5772c68772d32988a4c44c5664d3c43764c097"
+  },
+  {
+    "id": "INT403",
+    "title": "千问agent社招一面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/25f0445d66b947bf9f979c6acdbf9fef",
+    "year": 2026,
+    "published": "2026-11-02",
+    "event_date": null,
+    "companies": [
+      "阿里"
+    ],
+    "role": "千问Agent社招一面（作者自述P7、5年经验）",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "围绕Neo4j与LangGraph选型、图谱和本体、实体关系抽取与消歧、工具错误反馈、结构化上下文和Trace平台展开。",
+    "reading_tip": "区分领域知识图谱与Agent执行图，说明失败反馈怎样进入下一步决策，以及状态结构为何这样设计。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "吾乃韩跑跑",
+    "note": "作者自述硕士、5年经验、面试阿里P7；不据此推定录用职级。首发日明确，实际面试日未单列，保留未知。",
+    "question_prompts": [
+      "知识图谱和Agent执行图承担的职责有什么不同？",
+      "为什么项目选Neo4j方案，而没有采用LangGraph运行时？",
+      "工具选错或参数被拒绝后，怎样向模型反馈并恢复任务？",
+      "用模型辅助抽取实体关系时，怎样处理领域建模与语义消歧？",
+      "结构化状态怎样承接长上下文，框架Trace与独立观测平台怎样取舍？"
+    ],
+    "published_at": "2026-11-02T22:20:05+08:00",
+    "updated_at": "2026-11-02T22:20:05+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "3eaa70a7fac8f685aa029af3ba1c4725824630eee3d9cdea4aece446a2bfaa85"
+  },
+  {
+    "id": "INT404",
+    "title": "快手OneRec算法岗一二面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/5b7329d0d799489d8e5996501122235e",
+    "year": 2026,
+    "published": "2026-11-02",
+    "event_date": null,
+    "companies": [
+      "快手"
+    ],
+    "role": "OneRec算法一二面",
+    "topics": [
+      "03",
+      "04",
+      "05",
+      "13",
+      "17",
+      "18"
+    ],
+    "domains": [
+      "广告",
+      "推荐"
+    ],
+    "summary": "生成式召回落地、层级SID简化、长序列架构和更新机制；二面将DPO/PPO/GRPO、LoRA与广告指标判断放进业务闭环。",
+    "reading_tip": "先区分推荐召回与广告度量，再解释表征简化、优化目标和线上效果；不能只比较曝光或消耗绝对值。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "算法打工人小旺",
+    "note": "日期为首发日，逐轮面试日期未给。ADVV沿用原帖缩写，未自行扩写含义；包含广告场景题，但不能据此把所有问题称为快手广告岗统一考点。",
+    "question_prompts": [
+      "生成式召回是增加一路候选，还是替换既有召回？",
+      "多层SID改为单层表征后，输入输出与创新价值怎样说明？",
+      "长序列模型、线性注意力与线上增量更新怎样配合？",
+      "推荐项目为什么选DPO，与PPO、GRPO怎样比较？",
+      "广告曝光、消耗和效果指标一起增长时，怎样判断实际收益？"
+    ],
+    "published_at": "2026-11-02T22:11:57+08:00",
+    "updated_at": "2026-11-02T22:11:57+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "c9d629f73c479c78920fb6160655a5624557c32cc996540988231e2f9574c98e"
+  },
+  {
+    "id": "INT405",
+    "title": "快手 可灵专项 Agent Harness 一面面经（回忆版）",
+    "url": "https://www.nowcoder.com/discuss/946891033357381632",
+    "year": 2026,
+    "published": "2026-11-02",
+    "event_date": null,
+    "companies": [
+      "快手"
+    ],
+    "role": "可灵专项Agent Harness一面",
+    "topics": [
+      "07",
+      "14"
+    ],
+    "domains": [],
+    "summary": "短篇回忆聚焦项目从调研到实施的决策、个人负责模块、利用AI解决实际问题，以及螺旋矩阵手写。",
+    "reading_tip": "选一个具体失败案例解释设计和修复，避免只罗列Agent名词；岗位名包含Harness，但正文没有给出其详细设计考题。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "仁者小无敌",
+    "note": "作者说明仅记得部分问题；未给精确面试日。与本轮字节后端一二面为同一公开作者的不同公司记录，不当作不同候选人样本。可灵品牌不自动等于已问视频生成模型原理。",
+    "question_prompts": [
+      "Agent项目开始前，如何调研并确定实现方向？",
+      "自己负责的模块怎样拆分，设计决策依据是什么？",
+      "开发中遇到的一个具体问题，怎样借助AI解决？",
+      "手写螺旋遍历时，怎样用样例检查边界？"
+    ],
+    "published_at": "2026-11-02T22:06:55+08:00",
+    "updated_at": "2026-11-02T22:06:55+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "6d4096aa1fe1badae0b11e1cd758c365bf090da9576710bfdb188e423b133647"
+  },
+  {
+    "id": "INT406",
+    "title": "百度一面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/74481a7b176142a188400c93f598aea7",
+    "year": 2026,
+    "published": "2026-11-02",
+    "event_date": "2026-11-01",
+    "companies": [
+      "百度"
+    ],
+    "role": "Agent项目与后端一面",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "从Agent完整链路、MCP接口、Skill渐进披露、多Agent通信与评估，延伸到MVCC、缓存不一致和消息队列。",
+    "reading_tip": "用真实接口与代码路径解释工具发现、调用及结果验证，再检查事务可见性怎样影响缓存读写。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "祸祸525",
+    "note": "作者时间线为10月29日投递、11月1日面试，11月2日晚发布；不是11月2日刚面完。缓存原因是作者复述面试反馈，未独立验证其项目。",
+    "question_prompts": [
+      "一次请求经过哪些Agent组件和具体接口？",
+      "MCP如何定位到工具，调用从哪个接口开始？",
+      "Skill按什么方式逐步进入模型上下文？",
+      "多个Agent不通信时，如何验证最终结果？",
+      "采用Cache Aside后仍长期不一致，如何检查事务与缓存链路？"
+    ],
+    "published_at": "2026-11-02T20:36:53+08:00",
+    "updated_at": "2026-11-02T20:43:07+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "ff8161a907a2a95a68d6f08cbf5db536230c0633c3ce90fd14ec71ebaee58872"
+  },
+  {
+    "id": "INT407",
+    "title": "百度后端实习二面面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/0266edb5c1864353a22807cd44219244",
+    "year": 2026,
+    "published": "2026-11-02",
+    "event_date": null,
+    "companies": [
+      "百度"
+    ],
+    "role": "后端实习二面：飞书Agent与工程可靠性",
+    "topics": [
+      "06",
+      "07",
+      "13",
+      "14"
+    ],
+    "domains": [],
+    "summary": "项目面覆盖追加指令、会话状态、知识片段反馈归因、补丁审批与版本绑定，以及事务消息、锁冲突和双路数据比对。",
+    "reading_tip": "把多用户修改任务、审批期间文件变化和多证据反馈作为具体失败场景，说明版本与恢复机制。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "香脆炸粉",
+    "note": "飞书是候选项目交互载体，招聘方为百度，不能因此归到字节。凭证和账户题没有足够业务证据认定为风控岗。正文题号从5开始，可见范围外不补写。",
+    "question_prompts": [
+      "同一话题内不同用户追加要求时，Agent如何维护任务版本？",
+      "一次回答引用多个知识片段，负反馈怎样分配？",
+      "补丁审批为什么需要绑定文件版本，不能只校验行号？",
+      "等待人工审批期间文件被编辑，如何使旧审批失效？",
+      "数据库提交后消息发送失败时，怎样保证后续任务能够恢复？"
+    ],
+    "published_at": "2026-11-02T20:03:38+08:00",
+    "updated_at": "2026-11-03T12:34:05+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "a396921fb3008dbc0ab8873d3a109935179e7909da3e70b6f6788b322e02b7c9"
+  },
+  {
+    "id": "INT408",
+    "title": "字节跳动 后端 Agent 一面 面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/6f9d862d77ec4284a05d07d3ec3cc92e",
+    "year": 2026,
+    "published": "2026-11-03",
+    "event_date": null,
+    "companies": [
+      "字节"
+    ],
+    "role": "后端Agent一面",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "Python基础与Agent记忆、Tool/Skill、幻觉、RAG召回和切分、Workflow边界交叉提问，并含大文件分块查找。",
+    "reading_tip": "既要讲模型和运行时的分工，也要能画出Skill装载与一次消息处理的代码流程。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "仁者小无敌",
+    "note": "首发日11月3日，未给实际面试日。与INT412二面为同一作者的前后轮次，两篇按记录计数，不代表两位候选人。",
+    "question_prompts": [
+      "Agent记忆有哪些形态，分别保存什么？",
+      "Tool与Skill在作用和载入方式上怎样区分？",
+      "如何按错误来源分析幻觉，再选择缓解手段？",
+      "RAG切分策略与召回机制怎样解释和验证？",
+      "从用户消息到Agent返回，运行时经历哪些步骤？"
+    ],
+    "published_at": "2026-11-03T21:10:52+08:00",
+    "updated_at": "2026-11-03T21:10:52+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "b62bf53cf2c320b7e5aefeb90a729d483eb8f7d23c12586abbed7119ffad6d70"
+  },
+  {
+    "id": "INT409",
+    "title": "11.3 阿里token foundry 测开 1.5小时",
+    "url": "https://www.nowcoder.com/feed/main/detail/49a32dc98b6846fc9e7bf330bbf408ae",
+    "year": 2026,
+    "published": "2026-11-04",
+    "event_date": "2026-11-03",
+    "companies": [
+      "阿里"
+    ],
+    "role": "Token Foundry/千问海外测开一面",
+    "topics": [
+      "06",
+      "13"
+    ],
+    "domains": [],
+    "summary": "知识库构建维护、用知识库生成测试用例的效果评价与自动评估，结合Go推拉流压测、分布式执行机状态与故障恢复。",
+    "reading_tip": "把知识库覆盖、生成用例质量、自动评价和实际业务线使用分开说，并准备压测资源耗尽与执行机掉线。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "牛客271998379号",
+    "note": "标题明确11月3日面试、11月4日发布；岗位部门及约1:10比例是作者反问所得，非公司统一事实。推拉流压测未明确ASR/TTS，不标语音。",
+    "question_prompts": [
+      "测试知识库怎样构建、维护并持续更新？",
+      "生成测试用例的质量怎样衡量，能否自动评估？",
+      "同一知识库在多条业务线上使用时，怎样观察实际效果？",
+      "压测机器资源耗尽时，如何调整分布式执行？",
+      "中控如何发现执行机掉线，并恢复尚未完成的任务？"
+    ],
+    "published_at": "2026-11-04T13:44:10+08:00",
+    "updated_at": "2026-11-04T13:44:10+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "a519ab4c4c3edf525c7a9dc6991369d697427705b1500b9f47f750fa46c80c2f"
+  },
+  {
+    "id": "INT410",
+    "title": "得物三面 11.3",
+    "url": "https://www.nowcoder.com/feed/main/detail/a872bd2e2d9940198ae8e70191e5c436",
+    "year": 2026,
+    "published": "2026-11-04",
+    "event_date": "2026-11-03",
+    "companies": [
+      "得物"
+    ],
+    "role": "后端三面：Agent自动评测",
+    "topics": [
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "从自进化系统评测集来源、平台AI Native化与Agent自动评测体系，延伸到消息存储、Kafka偏移定位和Redis Gossip。",
+    "reading_tip": "先解释评测数据如何产生及验证，再讲平台改造与后端基础；不要只给出“AI Native”概念。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "Decadeqqq",
+    "note": "标题为11月3日三面，11月4日首发。后端岗位根据正文技术内容整理，未给正式职称；未因得物业务自动标推荐或风控。",
+    "question_prompts": [
+      "自进化系统所需的评测样本从哪里获得？",
+      "怎样把平台向AI Native演进说成具体工程改动？",
+      "Agent自动评测体系包含哪些数据和执行环节？",
+      "Kafka与RocketMQ的消息存储、定位方式怎样比较？"
+    ],
+    "published_at": "2026-11-04T14:34:47+08:00",
+    "updated_at": "2026-11-04T14:34:47+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "cdc146c4a993936548914c079cb4447f5b7d902e38b929198fe03e9bf49d1443"
+  },
+  {
+    "id": "INT411",
+    "title": "科大讯飞后端 timeline&面经",
+    "url": "https://www.nowcoder.com/discuss/947459858423443456",
+    "year": 2026,
+    "published": "2026-11-04",
+    "event_date": "2026-09-08",
+    "companies": [
+      "科大讯飞"
+    ],
+    "role": "后端秋招一二面及HR面复盘",
+    "topics": [
+      "06",
+      "07",
+      "13",
+      "14"
+    ],
+    "domains": [],
+    "summary": "翻译插件、术语校对、Spring AI RAG/Agent、混合检索、GraphRAG、MCP和模型网关，追问文档质量、知识库收益与AI代码质量。",
+    "reading_tip": "围绕翻译与企业知识库准备需求、模型选型、校对数据、检索评测和上线收益；把个人学习项目与实际试点分开。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "大方的布拉德顶呱呱",
+    "note": "11月4日新发的9月复盘：9月8日一面、17日二面、22日HR面；首轮记入event_date，VP面仍未完成。美团是候选人过往项目背景，不是本条招聘方。翻译插件未明确语音输入，不标语音。",
+    "question_prompts": [
+      "翻译插件怎样使用RAG、术语库和专家校对数据？",
+      "混合检索、重排与GraphRAG分别解决什么问题？",
+      "多类型文档入库时，怎样保证知识质量？",
+      "模型网关需要哪些技术能力，如何解释产品价值？",
+      "怎样证明知识库带来业务收益，并验收AI生成的代码？"
+    ],
+    "published_at": "2026-11-04T11:47:13+08:00",
+    "updated_at": "2026-11-04T11:58:45+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "6977846f5072957355d08be7d7a311e60bc7040f8292d5649fd4c7a9fecf0904"
+  },
+  {
+    "id": "INT412",
+    "title": "字节跳动 后端 Agent 二面 面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/e1a39b118d6d498d969c7a697be37011",
+    "year": 2026,
+    "published": "2026-11-04",
+    "event_date": null,
+    "companies": [
+      "字节"
+    ],
+    "role": "后端Agent二面：营销场景与方案比较",
+    "topics": [
+      "06",
+      "07",
+      "12",
+      "13",
+      "20"
+    ],
+    "domains": [
+      "营销"
+    ],
+    "summary": "项目追问检索、文本Embedding聚类及不用直接上下文的原因；手写带TTL的LRU。反问明确讨论生图生视频基础设施及营销Agent场景。",
+    "reading_tip": "重点准备两种方案的调研、对照实验与取舍证据；区分Agent、Workflow和直接调用模型的适用任务。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "仁者小无敌",
+    "note": "与INT408为同一作者的一二面。营销和生图生视频来自反问中的团队工作说明，不是候选项目已经取得的效果；原帖未考具体扩散模型推导。面试日未给，首发日不代替。",
+    "question_prompts": [
+      "为什么在检索结果上做Embedding聚类，而不直接送入上下文？",
+      "不使用Agent框架时，Python运行链路怎样组织？",
+      "带过期时间的LRU怎样兼顾淘汰与有效性检查？",
+      "营销任务中怎样选择Agent、Workflow或直接模型调用？",
+      "探索性业务缺少成熟方案时，如何用调研和实验做决策？"
+    ],
+    "published_at": "2026-11-04T20:17:02+08:00",
+    "updated_at": "2026-11-04T20:17:02+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "e81e6780e34da9f6810bf976126aab3c60f558334115c030383a593652b48003"
+  },
+  {
+    "id": "INT413",
+    "title": "百度agent一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/3903a12df0d342619ce1a550b7b65e1c",
+    "year": 2026,
+    "published": "2026-11-04",
+    "event_date": "2026-11-04",
+    "companies": [
+      "百度"
+    ],
+    "role": "Agent实习一面：代码生成与多Agent",
+    "topics": [
+      "07",
+      "13",
+      "14"
+    ],
+    "domains": [],
+    "summary": "代码生成平台追问编译预览、并发资源、Prompt增强、Skill与CLI集成；从Workflow演进到ReAct/多Agent，再问通信失败与券系统可靠性。",
+    "reading_tip": "分清生成、编译和预览的边界，说明并发预算、协作故障和实际架构演化，避免用框架名替代实现。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "hito_mi",
+    "note": "正文写11月4日、45分钟。优惠券发放是单列的后端项目，未明确与大模型联动，因此不自动贴用户增长或营销标签。",
+    "question_prompts": [
+      "生成的Vue代码如何编译、预览并隔离多用户资源？",
+      "大量并发编译时，怎样控制服务端资源？",
+      "提示词增强和模板分别解决什么问题？",
+      "从Workflow改为ReAct或多Agent的理由是什么？",
+      "多个Agent如何部署协作，通信失败后怎样恢复？"
+    ],
+    "published_at": "2026-11-04T20:17:58+08:00",
+    "updated_at": "2026-11-04T20:23:57+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "90081aac6a9aac8432f26cfbf884c5647a7483512e47d23ccbcd6baa7e5832dd",
+    "evidence_url": "https://www.nowcoder.com/feed/main/detail/3903a12df0d342619ce1a550b7b65e1c?sourceSSR=post"
+  },
+  {
+    "id": "INT414",
+    "title": "小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去",
+    "url": "https://www.nowcoder.com/discuss/947237875282632704",
+    "year": 2026,
+    "published": "2026-11-03",
+    "event_date": null,
+    "companies": [
+      "小红书"
+    ],
+    "role": "端侧推理一面",
+    "topics": [
+      "08",
+      "10",
+      "13"
+    ],
+    "domains": [],
+    "summary": "围绕端侧内存、首Token时延、功耗、量化硬件适配、KV复用、后台任务、端云协同和机型矩阵评测，含per-channel量化手写。",
+    "reading_tip": "先问清芯片、模型、精度与上下文，再比较时延、质量、能耗；量化收益要在实际设备上测量。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "AIGC小白入门记",
+    "note": "作者自述60分钟，未给面试日期。首发与完整正文已核对；文中业务规模与线上策略未经企业核实。示例量化范围、舍入和轴的结论需结合具体实现核对，不作为通用标准答案。",
+    "question_prompts": [
+      "端侧内存峰值怎样区分权重、KV、激活与临时缓冲？",
+      "低比特量化后速度变慢，应怎样检查芯片支持与反量化开销？",
+      "应用切到后台或网络中断后，任务状态怎样恢复？",
+      "端侧与云侧怎样分工，并通过机型矩阵检验效果？",
+      "按输出通道量化权重时，怎样验证轴、零通道和误差？"
+    ],
+    "published_at": "2026-11-03T21:05:08+08:00",
+    "updated_at": "2026-11-03T21:05:08+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "b436c18cff704546698f5476195a6cdc1490f94ff81ba63d92d0a38c10cb10b1"
   }
 ]

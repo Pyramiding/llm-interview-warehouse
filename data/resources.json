@@ -1626,5 +1626,224 @@
     "updated_at": "2026-11-01T22:25:38+08:00",
     "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
     "content_fingerprint": "139e99fe0fd291e13cd2d46d80beda009cb012469c1047afdf5492fb341a38e9"
+  },
+  {
+    "id": "RES501",
+    "title": "字节 Agent 开发二面",
+    "url": "https://www.nowcoder.com/discuss/946729562656772096",
+    "year": 2026,
+    "published": "2026-11-02",
+    "event_date": null,
+    "companies": [
+      "字节"
+    ],
+    "role": "Agent二面个人备考题单",
+    "topics": [
+      "06",
+      "07"
+    ],
+    "domains": [],
+    "summary": "规划执行分工、短长期记忆、工具请求结果、MCP取舍与检索调参的准备清单。",
+    "reading_tip": "用一条完整任务演示计划、状态与失败恢复。",
+    "source_type": "preparation_resource",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "妙脆角猫正在思考中",
+    "note": "正文明确为备考和“准备”练习，并引流外站；标题不构成已参加该公司二面的证据。",
+    "question_prompts": [],
+    "published_at": "2026-11-02T11:25:17+08:00",
+    "updated_at": "2026-11-02T11:25:17+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "3fa897c33ff9518193cbefea1de34f42e60445b181625105b157499d65859e48"
+  },
+  {
+    "id": "RES502",
+    "title": "字节大模型算法三面：问到第三个为什么，我舌头打结了",
+    "url": "https://www.nowcoder.com/discuss/947100274353565696",
+    "year": 2026,
+    "published": "2026-11-03",
+    "event_date": null,
+    "companies": [
+      "字节"
+    ],
+    "role": "三面问题与作答解析（独立场次待核实）",
+    "topics": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "08",
+      "09",
+      "13"
+    ],
+    "domains": [],
+    "summary": "补充P99口径、训练尖刺、数据配比、loss mask、GRPO奖励区分度、投机采样与PD分离等问法。",
+    "reading_tip": "只借鉴追问方式；KV计算单位和堆叠题代码与题面约束的对应存在问题，应自行推导验证。",
+    "source_type": "interview_analysis",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "AIGC小白入门记",
+    "note": "同作者前一天发布INT402三面复盘，两文部分问题重合而时长分别为62/72分钟，未证实独立场次，按解析入口收录。原文附带的数字和代码不作为参考答案转录。",
+    "question_prompts": [],
+    "published_at": "2026-11-03T11:58:22+08:00",
+    "updated_at": "2026-11-03T11:58:22+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "7eae24e615bc79a9272d2254243f54c027f187a3ec65c0ed5807173b2e1d1f8e",
+    "related_interview_id": "INT402"
+  },
+  {
+    "id": "RES503",
+    "title": "1小时秒杀agent八股  ——RAG与知识库",
+    "url": "https://www.nowcoder.com/feed/main/detail/0d7eda07a0e74cac81e83d9e5554b9b8",
+    "year": 2026,
+    "published": "2026-11-03",
+    "event_date": null,
+    "companies": [],
+    "role": "RAG与知识库面试问题汇编",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "整理切分、检索与答案评估、索引更新、混合召回、GraphRAG、引用和权限等RAG复习主题。",
+    "reading_tip": "按项目证据链复习，不按未验证的频次排序估计招聘概率。",
+    "source_type": "interview_collection",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "吾乃韩跑跑",
+    "note": "作者称综合本人问题、近200篇面经与常见八股，但未逐条提供样本和原链；频次不计入仓库统计，也不把汇编认作一场面试。",
+    "question_prompts": [],
+    "published_at": "2026-11-03T22:07:07+08:00",
+    "updated_at": "2026-11-03T22:07:07+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "f0182cff5c78695c32c426af6df11aab45dc46605665fc33d666415c372741ef"
+  },
+  {
+    "id": "RES504",
+    "title": "阿里国际 AI 应用研发一面",
+    "url": "https://www.nowcoder.com/discuss/947565026150211584",
+    "year": 2026,
+    "published": "2026-11-04",
+    "event_date": null,
+    "companies": [
+      "阿里"
+    ],
+    "role": "国际AI应用研发个人备考题单",
+    "topics": [
+      "06",
+      "13"
+    ],
+    "domains": [],
+    "summary": "把Java、消息投递与业务确认、RAG逐层排障及区间合并放进准备清单。",
+    "reading_tip": "用业务提交成功但消息确认丢失的场景说明责任链，再对RAG失败查询做固定样本回归。",
+    "source_type": "preparation_resource",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "妙脆角猫正在思考中",
+    "note": "作者明确写“备考”“准备”和后续练习，并引流外站；不是可确认的阿里国际面试亲历。",
+    "question_prompts": [],
+    "published_at": "2026-11-04T18:45:07+08:00",
+    "updated_at": "2026-11-04T18:45:07+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "f336079d05d602937db87fda79a8166381289b6f478b82a8891bc89054822ae5"
+  },
+  {
+    "id": "RES505",
+    "title": "美团 Agent 开发一面",
+    "url": "https://www.nowcoder.com/discuss/947080725491150848",
+    "year": 2026,
+    "published": "2026-11-03",
+    "event_date": null,
+    "companies": [
+      "美团"
+    ],
+    "role": "客服Agent个人备考题单",
+    "topics": [
+      "03",
+      "04",
+      "06",
+      "07",
+      "13",
+      "23"
+    ],
+    "domains": [
+      "客服"
+    ],
+    "summary": "客服查知识、查订单与修改地址的流程，结合Agentic RAG、SFT数据污染、DPO偏好对和效果评测。",
+    "reading_tip": "区分只读查询与写操作，准备权限、用户确认、执行后核对和数据泄漏排查。",
+    "source_type": "preparation_resource",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "妙脆角猫正在思考中",
+    "note": "正文明确“客服方向的一面备考题单”“下次”练习，并引流外站。公司归属仅来自标题，放在客服补充阅读，不计美团亲历面经。",
+    "question_prompts": [],
+    "published_at": "2026-11-03T10:40:41+08:00",
+    "updated_at": "2026-11-03T10:40:41+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "44d9f678e2a87aa3368989ef0fe10eac291f815fce98d0e9ced16127758e1753"
+  },
+  {
+    "id": "RES506",
+    "title": "拼多多 AI Agent 岗一、二面",
+    "url": "https://www.nowcoder.com/discuss/947443546225700864",
+    "year": 2026,
+    "published": "2026-11-04",
+    "event_date": null,
+    "companies": [
+      "拼多多"
+    ],
+    "role": "Agent一二面个人备考题单",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "检索切分对照、缺失和过期证据、短长期记忆、会议多Agent交接及LRU手写练习。",
+    "reading_tip": "明确每个角色的输入、版本、产物和验收条件，先用单Agent基线验证是否需要拆分。",
+    "source_type": "preparation_resource",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "妙脆角猫正在思考中",
+    "note": "正文自称“备考”“准备分四块练”，并含外站引流；不据标题认定已经发生拼多多一二面。",
+    "question_prompts": [],
+    "published_at": "2026-11-04T10:42:24+08:00",
+    "updated_at": "2026-11-04T10:42:24+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "9c5768297453472c970720e68d7b5f849a7fdac6f207c2d2ffc83ae5b50ecd99"
+  },
+  {
+    "id": "RES507",
+    "title": "小红书PE AI与全栈 一面秒挂？",
+    "url": "https://www.nowcoder.com/feed/main/detail/eb319df6903245df94f787a97205c73c",
+    "year": 2026,
+    "published": "2026-11-03",
+    "event_date": null,
+    "companies": [
+      "小红书"
+    ],
+    "role": "PE AI与全栈一面题单（归属差异待核实）",
+    "topics": [
+      "06",
+      "07",
+      "13",
+      "14"
+    ],
+    "domains": [],
+    "summary": "围绕人工确认、高召回噪声、循环控制、记忆、数据库与SDD效率，问题顺序与同作者较早的网易云音乐二面高度重合。",
+    "reading_tip": "可参考项目追问角度，企业、日期与轮次归属须对照两个原帖，不据同文推定新增独立面试。",
+    "source_type": "interview_collection",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "author": "在抱佛脚的芝士很完美",
+    "note": "作者11月3日称小红书一面，10月27日INT308称网易云音乐二面；两页20项问题序列高度重合。无法独立确认是复用面试题、整理复用还是归属有误，保留两个原链并降为补充题单，不擅自改判任何一家公司。",
+    "question_prompts": [],
+    "published_at": "2026-11-03T11:50:37+08:00",
+    "updated_at": "2026-11-03T11:50:37+08:00",
+    "publication_basis": "牛客原页公开HTML：createTime（帖子）或createdAt（动态）；editTime单独记录。",
+    "content_fingerprint": "b4a0118ec587ae3ed40cb1220b80d5173b58e63a9ae50756862f5a3b8cffc137",
+    "related_interview_id": "INT308"
   }
 ]

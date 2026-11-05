@@ -275,6 +275,7 @@
 - [RES220 · 近三月 AI Infra 面经雷达 · AI Infra Field Notes](resources.md#res220) — opened
 - [RES221 · RL Interview Questions 2026（知乎中文版线索）](resources.md#res221) — search_excerpt
 - [RES302 · 分享｜Harness工程面试真题](resources.md#res302) — search_excerpt
+- [RES503 · 1小时秒杀agent八股  ——RAG与知识库](resources.md#res503) — opened
 
 <a id="company-026"></a>
 
@@ -356,7 +357,7 @@
 
 ## 字节
 
-### 公开自述（32条）
+### 公开自述（36条）
 
 - [INT010 · 字节 大模型算法 一二三面 面经](README.md#int010)（2024；大模型算法）
 - [INT017 · 字节 腾讯 小红书 一面面经 + 字节二面 + 字节hr面](README.md#int017)（2025；算法/多模态实习）
@@ -390,6 +391,10 @@
 - [INT318 · 字节跳动广告算法面经](README.md#int318)（2026；广告算法面试）
 - [INT320 · 字节后端开发日常实习生一面（已寄）](README.md#int320)（2026；后端开发日常实习一面）
 - [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322)（2026；推荐大模型算法一二面）
+- [INT401 · 字节业务中台AI全栈凉经](README.md#int401)（2026；业务中台AI全栈日常实习一二面及HR面）
+- [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402)（2026；大模型算法三面（公开部分））
+- [INT408 · 字节跳动 后端 Agent 一面 面经](README.md#int408)（2026；后端Agent一面）
+- [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412)（2026；后端Agent二面：营销场景与方案比较）
 
 ### 补充资料（非亲历，归属按资料自述）
 
@@ -405,6 +410,8 @@
 - [RES227 · 字节面试（ai 算法岗）](resources.md#res227) — opened
 - [RES303 · 分享｜eBay-AI算法工程师&字节数据科学面经（同源镜像）](resources.md#res303)（同源转载） — opened
 - [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](resources.md#res405) — opened
+- [RES501 · 字节 Agent 开发二面](resources.md#res501)（准备/邻接阅读） — opened
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](resources.md#res502) — opened
 
 <a id="company-036"></a>
 
@@ -418,26 +425,29 @@
 
 ## 小红书
 
-### 公开自述（5条）
+### 公开自述（6条）
 
 - [INT017 · 字节 腾讯 小红书 一面面经 + 字节二面 + 字节hr面](README.md#int017)（2025；算法/多模态实习）
 - [INT041 · 2025届搜广推算法方向求职历程（SSP、头部计划）](README.md#int041)（2024；搜广推算法校招/实习）
 - [IB013 · 最近在面试AI Agent开发工程师](README.md#ib013)（2025；AI Agent开发工程师）
 - [INT111 · 算法岗-日常实习-面经](README.md#int111)（2025；语音/时序算法实习为主，兼有大模型与其他算法岗位）
 - [INT112 · 小红书大模型平台 Agentic 全栈研发练习生 一面凉经](README.md#int112)（2026；大模型平台 Agentic 全栈研发实习）
+- [INT414 · 小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](README.md#int414)（2026；端侧推理一面）
 
 ### 补充资料（非亲历，归属按资料自述）
 
 - [RB015 · 26秋招大模型技术岗位面试题+面经（九）：小红书](resources.md#rb015) — search_excerpt
+- [RES507 · 小红书PE AI与全栈 一面秒挂？](resources.md#res507) — opened
 
 <a id="company-038"></a>
 
 ## 得物
 
-### 公开自述（2条）
+### 公开自述（3条）
 
 - [INT022 · 得物-算法平台-AI算法工程实习生 面经](README.md#int022)（2025；AI算法工程/部署优化）
 - [INT319 · 10.30 得物 MLOPS和Agent实习](README.md#int319)（2026；MLOps与Agent日常实习一面）
+- [INT410 · 得物三面 11.3](README.md#int410)（2026；后端三面：Agent自动评测）
 
 ### 补充资料（非亲历，归属按资料自述）
 
@@ -460,7 +470,7 @@
 
 ## 快手
 
-### 公开自述（8条）
+### 公开自述（10条）
 
 - [INT018 · 整理下近期的大模型日常实习面经](README.md#int018)（2025；大模型/多模态日常实习）
 - [INT028 · 27实习快手NLP算法面经分享](README.md#int028)（2026；NLP算法实习）
@@ -470,6 +480,8 @@
 - [INT113 · 快手三面](README.md#int113)（2024；未明确（正文谈及视频理解大模型））
 - [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
 - [INT304 · 27届秋招 快手广告算法一二面面经](README.md#int304)（2026；广告算法秋招一二面）
+- [INT404 · 快手OneRec算法岗一二面面经](README.md#int404)（2026；OneRec算法一二面）
+- [INT405 · 快手 可灵专项 Agent Harness 一面面经（回忆版）](README.md#int405)（2026；可灵专项Agent Harness一面）
 
 ### 补充资料（非亲历，归属按资料自述）
 
@@ -491,6 +503,7 @@
 ### 补充资料（非亲历，归属按资料自述）
 
 - [RES212 · 拼多多 TEMU 大模型算法岗面试转述（编目标题）](resources.md#res212) — opened
+- [RES506 · 拼多多 AI Agent 岗一、二面](resources.md#res506)（准备/邻接阅读） — opened
 
 <a id="company-042"></a>
 
@@ -641,7 +654,7 @@
 
 ## 百度
 
-### 公开自述（11条）
+### 公开自述（14条）
 
 - [INT004 · 百度2024秋招机器学习一面面经](README.md#int004)（2023；机器学习/数据挖掘/NLP-T）
 - [INT018 · 整理下近期的大模型日常实习面经](README.md#int018)（2025；大模型/多模态日常实习）
@@ -654,6 +667,9 @@
 - [INT108 · 机械转算法经历记录：含 2023—2024 大模型面试（编目标题）](README.md#int108)（2023；NLP/大模型算法与 Agent 应用）
 - [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（2025；AI Infra/C++/大模型训练与推理系统实习（多岗位复盘））
 - [INT317 · 百度后端（agent）](README.md#int317)（2026；后端Agent方向面试）
+- [INT406 · 百度一面面经](README.md#int406)（2026；Agent项目与后端一面）
+- [INT407 · 百度后端实习二面面经](README.md#int407)（2026；后端实习二面：飞书Agent与工程可靠性）
+- [INT413 · 百度agent一面](README.md#int413)（2026；Agent实习一面：代码生成与多Agent）
 
 ### 补充资料（非亲历，归属按资料自述）
 
@@ -680,9 +696,10 @@
 
 ## 科大讯飞
 
-### 公开自述（1条）
+### 公开自述（2条）
 
 - [INT306 · 10.26 科大讯飞 推理工程部 AI Infra 一面](README.md#int306)（2026；星火推理工程部AI Infra一面）
+- [INT411 · 科大讯飞后端 timeline&面经](README.md#int411)（2026；后端秋招一二面及HR面复盘）
 
 <a id="company-062"></a>
 
@@ -738,6 +755,7 @@
 - [RES202 · 美团大模型产品面经](resources.md#res202) — opened
 - [RES218 · Interviewed for a large model algorithm position at Meituan (internship), the questions were really quite challenging!](resources.md#res218) — opened
 - [RES222 · 爆料美团大模型算法面经](resources.md#res222)（同源转载） — opened
+- [RES505 · 美团 Agent 开发一面](resources.md#res505)（准备/邻接阅读） — opened
 
 <a id="company-066"></a>
 
@@ -869,7 +887,7 @@
 
 ## 阿里
 
-### 公开自述（16条）
+### 公开自述（18条）
 
 - [INT013 · 达摩院 暑期实习 决策智能实验室 大模型算法](README.md#int013)（2024；决策智能/大模型算法）
 - [INT016 · 阿里云 AI平台研发 一面](README.md#int016)（2025；AI平台研发）
@@ -887,6 +905,8 @@
 - [INT220 · ai infra实习 阿里云面经](README.md#int220)（年份未确认；AI Infra实习）
 - [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
 - [INT309 · 10月面试退展](README.md#int309)（2026；量化/推理/编译器/搜广推Infra多公司复盘）
+- [INT403 · 千问agent社招一面面经](README.md#int403)（2026；千问Agent社招一面（作者自述P7、5年经验））
+- [INT409 · 11.3 阿里token foundry 测开 1.5小时](README.md#int409)（2026；Token Foundry/千问海外测开一面）
 
 ### 补充资料（非亲历，归属按资料自述）
 
@@ -899,6 +919,7 @@
 - [RES214 · 淘天算法岗两轮面试转述（编目标题）](resources.md#res214) — search_excerpt
 - [RES403 · 阿里 AI应用开发 实习一面](resources.md#res403) — opened
 - [RES404 · 阿里 AI应用开发 二面](resources.md#res404) — opened
+- [RES504 · 阿里国际 AI 应用研发一面](resources.md#res504)（准备/邻接阅读） — opened
 
 <a id="company-079"></a>
 

@@ -56,7 +56,7 @@
 
 <a id="platform-nowcoder"></a>
 
-## 牛客（81条记录）
+## 牛客（95条记录）
 
 - [INT001 · 理想+ 大模型面经](README.md#int001) — 2023；opened
 - [INT002 · 2023秋招nlp算法面经](README.md#int002) — 2023；search_excerpt
@@ -139,6 +139,20 @@
 - [INT320 · 字节后端开发日常实习生一面（已寄）](README.md#int320) — 2026；opened
 - [INT321 · 腾讯WXG-日常一面面经](README.md#int321) — 2026；opened
 - [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322) — 2026；opened
+- [INT401 · 字节业务中台AI全栈凉经](README.md#int401) — 2026；opened
+- [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402) — 2026；opened
+- [INT403 · 千问agent社招一面面经](README.md#int403) — 2026；opened
+- [INT404 · 快手OneRec算法岗一二面面经](README.md#int404) — 2026；opened
+- [INT405 · 快手 可灵专项 Agent Harness 一面面经（回忆版）](README.md#int405) — 2026；opened
+- [INT406 · 百度一面面经](README.md#int406) — 2026；opened
+- [INT407 · 百度后端实习二面面经](README.md#int407) — 2026；opened
+- [INT408 · 字节跳动 后端 Agent 一面 面经](README.md#int408) — 2026；opened
+- [INT409 · 11.3 阿里token foundry 测开 1.5小时](README.md#int409) — 2026；opened
+- [INT410 · 得物三面 11.3](README.md#int410) — 2026；opened
+- [INT411 · 科大讯飞后端 timeline&面经](README.md#int411) — 2026；opened
+- [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412) — 2026；opened
+- [INT413 · 百度agent一面](README.md#int413) — 2026；opened
+- [INT414 · 小红书端侧推理一面：手机只有 6G 内存，你的模型凭什么上去](README.md#int414) — 2026；opened
 
 ## 知乎（20条记录）
 
@@ -251,6 +265,13 @@
 - [RES404 · 阿里 AI应用开发 二面](https://www.nowcoder.com/discuss/945984937780350976) — interview_analysis；opened
 - [RES405 · 字节 Agent 全栈研发一面｜备考题单（整理版）](https://www.nowcoder.com/discuss/946211096669564928) — interview_collection；opened
 - [RES406 · 腾讯 Agent 开发一面｜我的备考题单](https://www.nowcoder.com/discuss/946533354818535424) — preparation_resource；opened
+- [RES501 · 字节 Agent 开发二面](https://www.nowcoder.com/discuss/946729562656772096) — preparation_resource；opened
+- [RES502 · 字节大模型算法三面：问到第三个为什么，我舌头打结了](https://www.nowcoder.com/discuss/947100274353565696) — interview_analysis；opened
+- [RES503 · 1小时秒杀agent八股  ——RAG与知识库](https://www.nowcoder.com/feed/main/detail/0d7eda07a0e74cac81e83d9e5554b9b8) — interview_collection；opened
+- [RES504 · 阿里国际 AI 应用研发一面](https://www.nowcoder.com/discuss/947565026150211584) — preparation_resource；opened
+- [RES505 · 美团 Agent 开发一面](https://www.nowcoder.com/discuss/947080725491150848) — preparation_resource；opened
+- [RES506 · 拼多多 AI Agent 岗一、二面](https://www.nowcoder.com/discuss/947443546225700864) — preparation_resource；opened
+- [RES507 · 小红书PE AI与全栈 一面秒挂？](https://www.nowcoder.com/feed/main/detail/eb319df6903245df94f787a97205c73c) — interview_collection；opened
 
 ### 知乎
 
