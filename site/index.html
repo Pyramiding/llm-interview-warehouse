@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按公司、技术方向和应用场景查找大模型面经，附专题题解、手写题与参考资料。">
-  <meta name="theme-color" content="#101716">
+  <meta name="theme-color" content="#070b1b">
   <meta name="site-version" content="__SITE_VERSION__">
   <meta property="og:title" content="大模型面经仓库 · LLM Interview Warehouse">
   <meta property="og:description" content="查面经，读题解，回到原帖。按公司与方向整理的大模型面试资料。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="__SITE_URL__">
   <link rel="canonical" href="__SITE_URL__">
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=__SITE_VERSION__">
   <link rel="stylesheet" href="./styles.css?v=__SITE_VERSION__">
   <title>大模型面经仓库 · LLM Interview Warehouse</title>
   <script type="module" src="./app.js?v=__SITE_VERSION__"></script>
@@ -30,12 +30,16 @@
     <symbol id="i-link" viewBox="0 0 24 24"><path d="m9 15 6-6M7 16l-1 1a4 4 0 0 1-5-6l5-5a4 4 0 0 1 6 0m0 12a4 4 0 0 0 6 0l5-5a4 4 0 0 0-6-6l-1 1" transform="translate(1 0) scale(.9)"/></symbol>
     <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 12h7M9 16h5"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 6-10 6L2 8zm-9 11 9 5 9-5M3 18l9 5 9-5"/></symbol>
+    <symbol id="i-nodes" viewBox="0 0 24 24"><rect x="8" y="8" width="8" height="8" rx="2"/><path d="M12 3v5m0 8v5M3 12h5m8 0h5M5 5l4 4m6 6 4 4m0-14-4 4M9 15l-4 4"/></symbol>
   </svg>
 
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="./" aria-label="大模型面经仓库首页">
-        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M8 9h20M8 17h20M8 25h13"/><path class="mark-accent" d="m25 23 4 4-4 4"/></svg>
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path class="mark-frame" d="M20 2 36 11v18L20 38 4 29V11Z"/><path d="m12 14 8-5 8 5-8 5Zm0 7 8 5 8-5m-16 7 8 5 8-5"/><path class="mark-accent" d="M20 19v14"/></svg>
         <span class="brand-name">LLM<span class="brand-divider">/</span>INTERVIEW<span class="brand-sub">面经仓库</span></span>
       </a>
       <div class="header-actions">
@@ -49,22 +53,45 @@
     <section class="hero" aria-labelledby="page-title">
       <div class="hero-copy">
         <div class="eyebrow"><span class="status-dot"></span>一份持续补充的面试资料库<span class="edition">2023—2026</span></div>
+        <div class="hero-wordmark" aria-hidden="true">LLM INTERVIEW WAREHOUSE</div>
         <h1 id="page-title">大模型面经<span class="title-accent">仓库</span><span class="title-period">.</span></h1>
         <p class="hero-description">按公司和方向找面经，读原帖，也复习相关题解。</p>
-        <p class="update-note">资料更新 <time>__AS_OF__</time><span>·</span>由 <a href="__REPO_URL__" target="_blank" rel="noopener noreferrer">Pyramiding</a> 整理</p>
+        <p class="update-note"><span class="update-label">资料更新</span><time>__AS_OF__</time><span>·</span>由 <a href="__REPO_URL__" target="_blank" rel="noopener noreferrer">Pyramiding</a> 整理</p>
       </div>
-      <div class="stats" aria-label="收录统计">
-        <div class="stat"><span class="stat-number">__INTERVIEW_COUNT__<span>篇</span></span><span class="stat-label">公开面经</span></div>
-        <div class="stat"><span class="stat-number">__QUESTION_COUNT__<span>道</span></span><span class="stat-label">题解与练习</span></div>
-        <div class="stat"><span class="stat-number">__SPECIALTY_COUNT__<span>个</span></span><span class="stat-label">细分方向</span></div>
+      <div class="hero-visual">
+        <svg class="hero-network" viewBox="0 0 460 176" fill="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="network-line" x1="35" y1="10" x2="430" y2="140" gradientUnits="userSpaceOnUse"><stop stop-color="#39d8ff"/><stop offset=".48" stop-color="#6685ff"/><stop offset="1" stop-color="#c288ff"/></linearGradient>
+            <linearGradient id="network-core" x1="180" y1="20" x2="280" y2="110" gradientUnits="userSpaceOnUse"><stop stop-color="#164e85"/><stop offset="1" stop-color="#3b236e"/></linearGradient>
+            <radialGradient id="network-halo"><stop stop-color="#6486ff" stop-opacity=".28"/><stop offset="1" stop-color="#6486ff" stop-opacity="0"/></radialGradient>
+          </defs>
+          <ellipse cx="233" cy="78" rx="154" ry="86" fill="url(#network-halo)"/>
+          <g class="network-orbits" stroke="url(#network-line)" stroke-width=".7"><ellipse cx="231" cy="73" rx="163" ry="53" transform="rotate(-10 231 73)"/><ellipse cx="231" cy="73" rx="125" ry="65" transform="rotate(15 231 73)"/></g>
+          <g stroke="url(#network-line)" stroke-width="1.2"><path d="M126 32h44l31 31M334 32h-44l-29 31M121 112h42l38-34M340 112h-42l-37-34"/><path d="M44 74h91l30-18h34M417 74h-91l-29 17h-35" opacity=".35"/></g>
+          <g class="network-flow" stroke="url(#network-line)" stroke-width="2" stroke-dasharray="3 19"><path d="M126 32h44l31 31M334 32h-44l-29 31M121 112h42l38-34M340 112h-42l-37-34"/></g>
+          <path d="m231 24 42 24v48l-42 24-42-24V48Z" fill="url(#network-core)" stroke="url(#network-line)" stroke-width="1.2"/>
+          <path d="m231 33 34 20v38l-34 20-34-20V53Z" stroke="#a9bdff" stroke-opacity=".2"/>
+          <g class="network-pins" stroke="#758cff" stroke-width="1"><path d="M211 35V24m13 4V16m14 12V16m13 19V24M211 109v11m13-4v12m14-12v12m13-19v11M192 56h-11m8 12h-14m14 13h-14m17 12h-11M270 56h11m-8 12h14m-14 13h14m-17 12h11"/></g>
+          <text x="231" y="78" text-anchor="middle" class="network-core-label">LLM</text>
+          <g class="network-node node-cyan"><rect x="60" y="18" width="68" height="28" rx="7"/><circle cx="74" cy="32" r="2.5"/><text x="88" y="36">RAG</text></g>
+          <g class="network-node node-violet"><rect x="332" y="18" width="83" height="28" rx="7"/><circle cx="346" cy="32" r="2.5"/><text x="358" y="36">AGENT</text></g>
+          <g class="network-node node-blue"><rect x="44" y="98" width="79" height="28" rx="7"/><circle cx="58" cy="112" r="2.5"/><text x="70" y="116">INFRA</text></g>
+          <g class="network-node node-pink"><rect x="338" y="98" width="96" height="28" rx="7"/><circle cx="352" cy="112" r="2.5"/><text x="364" y="116">MULTIMODAL</text></g>
+          <g class="network-stars" fill="#a5c5ff"><circle cx="34" cy="26" r="1.5"/><circle cx="158" cy="11" r="1"/><circle cx="302" cy="8" r="1.5"/><circle cx="440" cy="54" r="1"/><circle cx="147" cy="142" r="1.5"/><circle cx="318" cy="146" r="1"/></g>
+        </svg>
+        <div class="stats" aria-label="收录统计">
+          <div class="stat stat-cyan"><span class="stat-number">__INTERVIEW_COUNT__<span>篇</span></span><span class="stat-label"><svg class="icon" aria-hidden="true"><use href="#i-doc"/></svg>公开面经</span></div>
+          <div class="stat stat-violet"><span class="stat-number">__QUESTION_COUNT__<span>道</span></span><span class="stat-label"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg>题解与练习</span></div>
+          <div class="stat stat-blue"><span class="stat-number">__SPECIALTY_COUNT__<span>个</span></span><span class="stat-label"><svg class="icon" aria-hidden="true"><use href="#i-nodes"/></svg>细分方向</span></div>
+        </div>
       </div>
     </section>
 
     <div class="library-tabs">
       <div class="tab-buttons" role="tablist" aria-label="资料类型">
-      <button class="library-tab active" id="tab-interviews" role="tab" aria-selected="true" aria-controls="results" data-view="interviews">面经<span>__INTERVIEW_COUNT__</span></button>
-      <button class="library-tab" id="tab-questions" role="tab" aria-selected="false" aria-controls="results" tabindex="-1" data-view="questions">专题题解<span>__QUESTION_COUNT__</span></button>
-      <button class="library-tab" id="tab-resources" role="tab" aria-selected="false" aria-controls="results" tabindex="-1" data-view="resources">参考资料<span>__RESOURCE_COUNT__</span></button>
+      <button class="library-tab active" id="tab-interviews" role="tab" aria-selected="true" aria-controls="results" data-view="interviews"><svg class="icon" aria-hidden="true"><use href="#i-doc"/></svg>面经<span>__INTERVIEW_COUNT__</span></button>
+      <button class="library-tab" id="tab-questions" role="tab" aria-selected="false" aria-controls="results" tabindex="-1" data-view="questions"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg>专题题解<span>__QUESTION_COUNT__</span></button>
+      <button class="library-tab" id="tab-resources" role="tab" aria-selected="false" aria-controls="results" tabindex="-1" data-view="resources"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>参考资料<span>__RESOURCE_COUNT__</span></button>
       </div>
       <button class="saved-toggle" id="saved-toggle" aria-pressed="false" title="收藏保存在当前浏览器"><svg class="icon"><use href="#i-bookmark"/></svg><span>我的收藏</span><span class="saved-count" id="saved-count">0</span></button>
     </div>

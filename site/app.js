@@ -20,7 +20,7 @@ try {
 function setTheme(theme) {
   document.documentElement.dataset.theme = theme;
   $('#theme-toggle').setAttribute('aria-label', theme === 'dark' ? '切换浅色模式' : '切换深色模式');
-  $('meta[name="theme-color"]').content = theme === 'dark' ? '#101716' : '#f5f6f0';
+  $('meta[name="theme-color"]').content = theme === 'dark' ? '#070b1b' : '#f2f5ff';
 }
 try { setTheme(localStorage.getItem(THEME_KEY) === 'light' ? 'light' : 'dark'); } catch { setTheme('dark'); }
 $('#theme-toggle').addEventListener('click', () => {
@@ -151,6 +151,17 @@ function shortDate(record) {
   return record.year || (record.platform === 'GitHub' ? '持续更新' : '日期未确认');
 }
 
+function topicTone(id) {
+  const tones = {'01':'blue','02':'cyan','03':'violet','04':'pink','05':'blue','06':'cyan','07':'violet','08':'blue','09':'violet','10':'amber','11':'violet','12':'pink','13':'cyan','14':'blue','15':'amber','16':'cyan','17':'amber','18':'violet','19':'pink','20':'pink','21':'amber','22':'blue','23':'cyan'};
+  return tones[id] || 'blue';
+}
+
+function cardTone(record) {
+  const colors = {infra:'blue',agent:'violet',rag:'cyan',search:'amber',speech:'pink'};
+  const group = ['infra','agent','rag','search','speech'].find(key => record.collections?.includes(key));
+  return group ? colors[group] : topicTone(record.topic_ids[0]);
+}
+
 function card(record) {
   const question = state.view === 'questions';
   const company = record.companies?.length ? record.companies.slice(0, 2).join(' / ') + (record.companies.length > 2 ? ' 等' : '') : (record.company_keys?.[0] || '通用资料');
@@ -158,11 +169,11 @@ function card(record) {
   if (!question && record.topic_names.length > 2) tags.push('+' + (record.topic_names.length - 2));
   const restricted = !question && record.verification !== 'opened' ? '<span class="restricted-tag">' + esc(record.access_label) + '</span>' : '';
   const excerpt = record.summary || record.note || record.role || '';
-  return `<article class="record-card" data-record="${esc(record.id)}">
+  return `<article class="record-card" data-tone="${cardTone(record)}" data-record="${esc(record.id)}">
     <div class="record-eyebrow"><span class="record-id">${esc(record.id)}</span><span class="meta-dot">/</span><span class="record-company">${esc(question ? record.chapter : company)}</span><span class="meta-dot">·</span><span>${esc(question ? '复习题' : record.platform)}</span><span class="meta-dot">·</span><span>${esc(question ? record.difficulty : shortDate(record))}</span>${restricted}<button class="icon-button record-bookmark" data-save="${esc(record.id)}" aria-label="${saved.has(record.id) ? '取消收藏' : '收藏'}：${esc(record.title)}" aria-pressed="${saved.has(record.id)}" title="${saved.has(record.id) ? '取消收藏' : '收藏'}">${icon('bookmark')}</button></div>
     <h3><button class="record-title" data-open="${esc(record.id)}">${esc(record.title)}</button></h3>
     <p class="record-excerpt">${esc(excerpt)}</p>
-    <div class="record-bottom"><div class="record-tags">${tags.filter(Boolean).map(tag => '<span class="record-tag">' + esc(tag) + '</span>').join('')}</div><div class="record-actions">${externalLink(record.url, question ? '看本专题' : state.view === 'resources' ? '打开资料' : '读原帖', 'read-source')}<button class="read-detail" data-open="${esc(record.id)}">${question ? '查看题解' : '查看摘要'}${icon('chevron')}</button></div></div>
+    <div class="record-bottom"><div class="record-tags">${tags.filter(Boolean).map(tag => { const topic = catalog.topics.find(item => item.name === tag); return '<span class="record-tag tag-' + (topic ? topicTone(topic.id) : 'neutral') + '">' + esc(tag) + '</span>'; }).join('')}</div><div class="record-actions">${externalLink(record.url, question ? '看本专题' : state.view === 'resources' ? '打开资料' : '读原帖', 'read-source')}<button class="read-detail" data-open="${esc(record.id)}">${question ? '查看题解' : '查看摘要'}${icon('chevron')}</button></div></div>
   </article>`;
 }
 
