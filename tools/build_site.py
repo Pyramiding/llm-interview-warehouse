@@ -13,7 +13,8 @@ from build_indexes import (ROOT, TOPICS, access_label, normalized_companies,
 
 SITE_URL = 'https://pyramiding.github.io/llm-interview-warehouse/'
 REPO_URL = 'https://github.com/Pyramiding/llm-interview-warehouse'
-STATIC_FILES = ('index.html', 'styles.css', 'app.js', 'core.mjs', 'analytics.mjs', 'analytics-config.json', 'favicon.svg')
+STATIC_FILES = ('index.html', 'styles.css', 'app.js', 'core.mjs', 'effects.mjs',
+                'analytics.mjs', 'analytics-config.json', 'favicon.svg')
 
 
 def encoded(value):

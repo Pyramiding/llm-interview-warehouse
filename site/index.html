@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN" data-theme="dark" data-motion="off">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,8 +16,10 @@
   <title>大模型面经仓库 · LLM Interview Warehouse</title>
   <script type="module" src="./app.js?v=__SITE_VERSION__"></script>
   <script type="module" src="./analytics.mjs?v=__SITE_VERSION__"></script>
+  <script type="module" src="./effects.mjs?v=__SITE_VERSION__"></script>
 </head>
 <body>
+  <canvas id="particle-field" class="particle-field" aria-hidden="true" hidden></canvas>
   <a class="skip-link" href="#results">跳到资料列表</a>
   <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.7" cy="10.7" r="6.7"/><path d="m16 16 4.5 4.5"/></symbol>
@@ -34,6 +36,8 @@
     <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/></symbol>
     <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 6-10 6L2 8zm-9 11 9 5 9-5M3 18l9 5 9-5"/></symbol>
     <symbol id="i-nodes" viewBox="0 0 24 24"><rect x="8" y="8" width="8" height="8" rx="2"/><path d="M12 3v5m0 8v5M3 12h5m8 0h5M5 5l4 4m6 6 4 4m0-14-4 4M9 15l-4 4"/></symbol>
+    <symbol id="i-motion" viewBox="0 0 24 24"><path d="m12 3 2.4 6.6L21 12l-6.6 2.4L12 21l-2.4-6.6L3 12l6.6-2.4Z"/><path d="M3 3v3m-1.5-1.5h3M20 18v4m-2-2h4"/></symbol>
+    <symbol id="i-motion-paused" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
   </svg>
 
   <header class="site-header">
@@ -43,8 +47,9 @@
         <span class="brand-name">LLM<span class="brand-divider">/</span>INTERVIEW<span class="brand-sub">面经仓库</span></span>
       </a>
       <div class="header-actions">
+        <button class="icon-button" id="motion-toggle" aria-label="开启动效" title="开启动效" hidden><svg class="icon motion-on" aria-hidden="true"><use href="#i-motion"/></svg><svg class="icon motion-off" aria-hidden="true"><use href="#i-motion-paused"/></svg></button>
         <button class="icon-button" id="theme-toggle" aria-label="切换浅色模式" title="切换明暗模式"><svg class="icon"><use href="#i-sun"/></svg></button>
-        <a class="github-link" href="__REPO_URL__" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-git"/></svg><span>GitHub</span><svg class="icon icon-small"><use href="#i-arrow"/></svg></a>
+        <a class="github-link" href="__REPO_URL__" aria-label="在GitHub查看仓库" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-git"/></svg><span>GitHub</span><svg class="icon icon-small" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </div>
     </div>
   </header>

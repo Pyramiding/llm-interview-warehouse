@@ -37,6 +37,7 @@ jobs:
           python tools/build_site.py
           python tools/check_site.py
           node --check _site/app.js
+          node --check _site/effects.mjs
           node tools/check_site.mjs
           node tools/check_analytics.mjs
           node --test analytics/backend/tests/analytics.test.mjs
