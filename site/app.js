@@ -54,15 +54,37 @@ function prepare(records) {
 }
 
 async function fetchData(file) {
-  const response = await fetch('./data/' + file + '?v=' + encodeURIComponent(version));
-  if (!response.ok) throw new Error('Data request failed: ' + response.status);
-  return response.json();
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12000);
+    try {
+      const response = await fetch('./data/' + file + '?v=' + encodeURIComponent(version), {
+        signal: controller.signal, cache: attempt ? 'reload' : 'default',
+      });
+      if (!response.ok) throw new Error('Data request failed: ' + response.status);
+      return await response.json();
+    } catch (error) {
+      if (attempt === 2) throw error;
+    } finally {
+      clearTimeout(timeout);
+    }
+    await new Promise(resolve => setTimeout(resolve, 350 * (attempt + 1)));
+  }
+}
+
+async function loadData(file, embeddedId) {
+  const embedded = document.getElementById(embeddedId);
+  if (embedded) {
+    try { return JSON.parse(embedded.textContent); }
+    catch (error) { console.warn('Embedded data unavailable; retrying the data file.', error); }
+  }
+  return fetchData(file);
 }
 
 async function loadQuestions() {
   if (questions) return questions;
   if (!questionsPromise) {
-    questionsPromise = fetchData('questions.json').then(data => { questions = prepare(data); return questions; }).catch(error => { questionsPromise = null; throw error; });
+    questionsPromise = loadData('questions.json', 'initial-questions').then(data => { questions = prepare(data); return questions; }).catch(error => { questionsPromise = null; throw error; });
   }
   return questionsPromise;
 }
@@ -327,7 +349,7 @@ function bindEvents() {
     if (open) openRecord(open.dataset.open);
     else if (save) toggleSave(save.dataset.save);
     else if (event.target.closest('[data-reset]')) reset();
-    else if (event.target.closest('[data-retry]')) render();
+    else if (event.target.closest('[data-retry]')) { if (catalog) render(); else initialize(); }
   });
   $('#pagination').addEventListener('click', event => {
     const button = event.target.closest('[data-page]');
@@ -367,17 +389,22 @@ function bindEvents() {
 }
 
 async function initialize() {
+  $('#results').setAttribute('aria-busy', 'true');
+  $('#results-status').textContent = '正在载入资料…';
+  const retry = $('#results [data-retry]');
+  if (retry) { retry.disabled = true; retry.textContent = '正在载入…'; }
   try {
-    catalog = await fetchData('catalog.json');
+    catalog = await loadData('catalog.json', 'initial-catalog');
     catalog.interviews = prepare(catalog.interviews);
     catalog.resources = prepare(catalog.resources);
-    bindEvents();
     await render();
   } catch (error) {
+    catalog = undefined;
     $('#results').setAttribute('aria-busy', 'false');
     $('#results-status').textContent = '资料未能载入';
-    $('#results').innerHTML = '<div class="empty-state"><h3>资料暂时没加载出来</h3><p>可以刷新页面重试，或先去GitHub阅读。</p><a class="primary-button" href="https://github.com/Pyramiding/llm-interview-warehouse">在GitHub阅读</a></div>';
+    $('#results').innerHTML = '<div class="empty-state"><h3>资料暂时没加载出来</h3><p>可以重新载入，或先去GitHub阅读。</p><button class="primary-button" data-retry>重新载入</button> <a class="secondary-button" href="https://github.com/Pyramiding/llm-interview-warehouse" target="_blank" rel="noopener noreferrer">在GitHub阅读</a></div>';
     console.error(error);
   }
 }
+bindEvents();
 initialize();

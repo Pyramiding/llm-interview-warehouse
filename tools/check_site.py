@@ -7,7 +7,7 @@ import tempfile
 from html.parser import HTMLParser
 from pathlib import Path
 
-from build_site import ROOT, STATIC_FILES, build
+from build_site import ROOT, STATIC_FILES, build, script_json
 
 
 class PageParser(HTMLParser):
@@ -15,6 +15,8 @@ class PageParser(HTMLParser):
         super().__init__()
         self.ids = []
         self.assets = []
+        self.embedded = {}
+        self.json_id = None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -22,8 +24,19 @@ class PageParser(HTMLParser):
             self.ids.append(attrs['id'])
         if tag == 'script' and attrs.get('src'):
             self.assets.append(attrs['src'])
+        if tag == 'script' and attrs.get('type') == 'application/json':
+            self.json_id = attrs['id']
+            self.embedded[self.json_id] = ''
         if tag == 'link' and attrs.get('rel') in {'stylesheet', 'icon'}:
             self.assets.append(attrs['href'])
+
+    def handle_data(self, data):
+        if self.json_id:
+            self.embedded[self.json_id] += data
+
+    def handle_endtag(self, tag):
+        if tag == 'script':
+            self.json_id = None
 
 
 def main():
@@ -49,6 +62,13 @@ def main():
     parser = PageParser()
     parser.feed(page)
     assert len(parser.ids) == len(set(parser.ids)), 'Duplicate HTML IDs'
+    for name, expected in [('initial-catalog', catalog), ('initial-questions', questions)]:
+        payload = parser.embedded[name]
+        assert '<' not in payload, 'Embedded data can break out of its JSON element'
+        assert json.loads(payload) == expected, 'Embedded and downloadable data do not match'
+    hostile = {'body': '</script><script>alert(1)</script> & <tag>', 'title': '中文题解'}
+    safe_payload = script_json(hostile)
+    assert '<' not in safe_payload and json.loads(safe_payload) == hostile
     for asset in parser.assets:
         assert asset.startswith('./')
         assert (output / asset.split('?')[0]).is_file(), asset

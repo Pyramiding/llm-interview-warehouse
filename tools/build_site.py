@@ -21,6 +21,11 @@ def encoded(value):
     return json.dumps(value, ensure_ascii=False, separators=(',', ':'))
 
 
+def script_json(value):
+    # JSON is inert, but literal HTML delimiters can still end its script element.
+    return encoded(value).replace('&', r'\u0026').replace('<', r'\u003c').replace('>', r'\u003e')
+
+
 def collections_for(record, question=False):
     groups = set()
     topics = set(record['topic_ids'])
@@ -127,7 +132,8 @@ def build(output=ROOT / '_site'):
     replacements = {'SITE_VERSION': version, 'SITE_URL': SITE_URL, 'REPO_URL': REPO_URL,
                     'AS_OF': stats['as_of'], 'INTERVIEW_COUNT': str(len(interviews)),
                     'QUESTION_COUNT': str(len(questions)), 'SPECIALTY_COUNT': str(len(specialties)),
-                    'RESOURCE_COUNT': str(len(resources))}
+                    'RESOURCE_COUNT': str(len(resources)),
+                    'CATALOG_DATA': script_json(catalog), 'QUESTION_DATA': script_json(questions)}
     output = Path(output)
     (output / 'data').mkdir(parents=True, exist_ok=True)
     for name, content in assets.items():
