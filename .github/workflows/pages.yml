@@ -38,6 +38,8 @@ jobs:
           python tools/check_site.py
           node --check _site/app.js
           node tools/check_site.mjs
+          node tools/check_analytics.mjs
+          node --test analytics/backend/tests/analytics.test.mjs
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:

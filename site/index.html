@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./styles.css?v=__SITE_VERSION__">
   <title>大模型面经仓库 · LLM Interview Warehouse</title>
   <script type="module" src="./app.js?v=__SITE_VERSION__"></script>
+  <script type="module" src="./analytics.mjs?v=__SITE_VERSION__"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">跳到资料列表</a>
@@ -126,6 +127,10 @@
       </section>
     </div>
 
+    <section class="site-analytics" id="site-analytics" aria-label="访问统计">
+      <div class="visit-counts"><span>累计访问 <strong data-visit-count="total">—</strong></span><span>今日访问 <strong data-visit-count="today">—</strong></span><span title="同一出口IP可能代表多位访客">今日IP数 <strong data-visit-count="todayIps">—</strong></span><small id="analytics-state" role="status" aria-live="polite">正在读取统计…</small></div>
+      <details class="analytics-privacy"><summary>统计说明</summary><p>本站记录访问时间与出口IP，用于访问统计。IP明细仅管理员可见，保留最近30天；搜索内容、收藏和访客邮箱不会上传。刷新页面计一次访问，今日IP数按北京时间和出口IP去重。</p><p>清理过期明细后，累计次数仍保留。可以停止后续记录，也会尊重浏览器的“不跟踪”和全局隐私控制设置。</p><button class="text-button" id="analytics-toggle" aria-pressed="false">停止后续统计</button><a id="analytics-admin" href="#" target="_blank" rel="noopener noreferrer" hidden>管理员后台 ↗</a></details>
+    </section>
     <footer class="site-footer"><p>LLM Interview Warehouse<span>·</span>查面经，读题解，回到原帖。</p><div><a href="__REPO_URL__/issues/new?template=correction.yml" target="_blank" rel="noopener noreferrer">反馈错误</a><a href="__REPO_URL__/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer">授权说明</a><a href="__REPO_URL__" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
   </main>
 
