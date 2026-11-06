@@ -4,6 +4,6 @@
 
 `Pyramiding / llm-interview-warehouse — https://github.com/Pyramiding/llm-interview-warehouse`
 
-复用时注明来源及修改。`tools/`中的原创程序采用[MIT License](tools/LICENSE)。
+复用时注明来源及修改。`tools/`、`site/` 和 `analytics/` 中由维护者原创编写且有权授权的代码采用 [MIT License](tools/LICENSE)。这些目录中的文字、题解和资料内容仍适用本文件的内容授权与第三方权利说明。
 
 面经原文、外链网页、论文、第三方仓库、商标及其他第三方内容的权利与许可由各自作者/权利人保留，不因被本仓库收录而改变。本仓库的授权只覆盖维护者有权授权的原创部分。
