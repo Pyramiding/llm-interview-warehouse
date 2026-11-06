@@ -4,6 +4,16 @@
 
 网页读取仓库现有资料，提供面经、题解、参考资料三个列表，支持搜索、筛选、收藏和单条链接分享。收藏保存在当前浏览器；换设备不会自动同步。访问次数显示在页尾，IP明细进入[受保护的统计后台](https://llm-interview-analytics.givingalder513.chatgpt.site/)查看，规则见[统计说明](../analytics/README.md)。仅搜索摘要、付费截断等说明仍在详情中保留。
 
+## 浏览与阅读
+
+- 首页方向入口显示实际收录数量，同一面经可属于多个方向；公司快捷入口与完整公司筛选共用同一份归属数据。
+- 点击顶部搜索按钮，或按 `Cmd/Ctrl + K`，可搜索三类资料。用上下键选择、Enter阅读、Esc关闭；中文输入法确认候选词不会误开资料。
+- 列表可切换详细卡片和紧凑显示，选择保存在当前浏览器。
+- 阅读面板可沿当前筛选结果查看上一条、下一条，并显示正文阅读进度。筛选条件和单条链接仍可分享。
+- 面经、参考资料与题解随页面一起发布，首次浏览无需额外请求资料文件。粒子动效可暂停，并遵循系统减少动态效果设置。
+
+界面参考了 [Linear 的层级整理](https://linear.app/now/behind-the-latest-design-refresh)、[Hugging Face 的分类筛选](https://huggingface.co/models)与 [shadcn/ui 的 Command 交互](https://ui.shadcn.com/docs/components/command)。页面使用原生 HTML、CSS 和 JavaScript 实现，没有增加前端运行时依赖。
+
 ## 本地预览
 
 在仓库根目录运行，需要Python 3.10以上；脚本交互检查另外需要Node.js 18以上。网页本身无需前端依赖；真实浏览器测试需要Node.js 20以上和下方开发依赖。

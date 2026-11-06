@@ -1,4 +1,4 @@
-import {DEFAULT_STATE, PAGE_SIZE, readState, stateQuery, filterRecords, paginate, searchableText, escapeHtml as esc, safeUrl, renderMarkdown} from './core.mjs?v=__SITE_VERSION__';
+import {DEFAULT_STATE, PAGE_SIZE, readState, stateQuery, filterRecords, paginate, searchableText, normalize, escapeHtml as esc, safeUrl, renderMarkdown} from './core.mjs?v=__SITE_VERSION__';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -11,6 +11,8 @@ const version = $('meta[name="site-version"]').content;
 let state = readState(location.search);
 let catalog, questions, questionsPromise, renderRevision = 0, currentRecord;
 let toastTimer, searchTimer;
+let readerRecords = [], commandHits = [], commandIndex = 0, commandQuestionsUnavailable = false;
+const LAYOUT_KEY = 'llm-interview-warehouse:layout';
 let saved = new Set();
 try {
   const stored = JSON.parse(localStorage.getItem(STORE_KEY) || '[]');
@@ -92,6 +94,113 @@ async function loadQuestions() {
   return questionsPromise;
 }
 
+function setLayout(layout, persist = true) {
+  if (!$('#layout-cards') || !$('#layout-compact')) return;
+  const value = layout === 'compact' ? 'compact' : 'cards';
+  $('#results').dataset.layout = value;
+  for (const name of ['cards', 'compact']) $('#layout-' + name).setAttribute('aria-pressed', String(name === value));
+  if (persist) try { localStorage.setItem(LAYOUT_KEY, value); } catch { /* Optional preference. */ }
+}
+
+function setQuickMode(mode) {
+  const companies = mode === 'companies';
+  $('#quick-companies').setAttribute('aria-pressed', String(companies));
+  $('#quick-directions').setAttribute('aria-pressed', String(!companies));
+  $('#direction-quick').hidden = companies;
+  $('#company-quick').hidden = !companies;
+}
+
+function renderDiscoveries() {
+  if (!$('#company-quick')) return;
+  for (const button of $$('[data-explore]')) {
+    if (button.dataset.explore === 'questions') continue;
+    const count = catalog.interviews.filter(record => record.collections.includes(button.dataset.explore)).length;
+    button.querySelector('.explore-count').textContent = count + ' 篇';
+  }
+  const counts = new Map();
+  for (const record of catalog.interviews) for (const company of record.company_keys) counts.set(company, (counts.get(company) || 0) + 1);
+  const names = ['字节', '阿里', '腾讯', '美团', '百度', '快手', '小红书', '蚂蚁集团'].filter(name => counts.has(name));
+  $('#company-quick').innerHTML = names.map(name => '<button class="company-chip" data-company="' + esc(name) + '" aria-pressed="false" aria-label="筛选' + esc(name) + '面经，' + counts.get(name) + '篇">' + esc(name) + '<span>' + counts.get(name) + '</span></button>').join('');
+}
+
+function syncReader(record) {
+  if (!$('#reader-position')) return;
+  const records = state.view === 'questions' ? questions || [] : catalog[state.view];
+  readerRecords = filterRecords(records, state, saved);
+  let index = readerRecords.findIndex(item => item.id === record.id);
+  if (index < 0) { readerRecords = [record]; index = 0; }
+  $('#reader-prev').disabled = index === 0;
+  $('#reader-next').disabled = index === readerRecords.length - 1;
+  $('#reader-position').textContent = (index + 1) + ' / ' + readerRecords.length;
+  $('#reader-prev').title = readerRecords[index - 1]?.title || '已是第一条';
+  $('#reader-next').title = readerRecords[index + 1]?.title || '已是最后一条';
+}
+
+function updateReaderProgress() {
+  if (!$('#reader-progress')) return;
+  const content = $('#detail-content');
+  const maximum = content.scrollHeight - content.clientHeight;
+  const progress = maximum > 0 ? Math.max(0, Math.min(100, content.scrollTop / maximum * 100)) : 100;
+  $('#reader-progress').setAttribute('aria-valuenow', String(Math.round(progress)));
+  $('#reader-progress span').style.transform = 'scaleX(' + progress / 100 + ')';
+}
+
+function stepReader(direction) {
+  const index = readerRecords.findIndex(item => item.id === currentRecord?.id);
+  const next = readerRecords[index + direction];
+  if (next) openRecord(next.id);
+}
+
+function syncCommandSelection(scroll = false) {
+  const options = $$('#command-results [role="option"]');
+  options.forEach((option, index) => option.setAttribute('aria-selected', String(index === commandIndex)));
+  const active = options[commandIndex];
+  if (active) {
+    $('#command-input').setAttribute('aria-activedescendant', active.id);
+    if (scroll) active.scrollIntoView({block: 'nearest'});
+  } else $('#command-input').removeAttribute('aria-activedescendant');
+}
+
+function renderCommand() {
+  if (!catalog || !$('#command-dialog').open) return;
+  const query = normalize($('#command-input').value);
+  const terms = query.split(/[\s、，,]+/u).filter(Boolean);
+  let matches;
+  if (!terms.length) matches = [...catalog.interviews].sort((a, b) => b.order - a.order);
+  else {
+    const pool = [...catalog.interviews, ...(questions || []), ...catalog.resources];
+    const rank = record => normalize(record.id) === query ? 0 : terms.every(term => normalize(record.title).includes(term)) ? 1 : 2;
+    matches = pool.filter(record => terms.every(term => record.search_text.includes(term))).sort((a, b) => rank(a) - rank(b) || a.kind.localeCompare(b.kind) || a.order - b.order);
+  }
+  commandHits = matches.slice(0, 8);
+  commandIndex = 0;
+  $('#command-status').textContent = (terms.length ? '找到 ' + matches.length + ' 条资料' + (matches.length > 8 ? '，显示前8条' : '') : '最近收录 · 输入关键词搜索全部资料') + (commandQuestionsUnavailable && !questions ? '；题解暂未载入' : '');
+  $('#command-results').innerHTML = commandHits.length ? commandHits.map((record, index) => '<button role="option" tabindex="-1" id="command-hit-' + index + '" class="command-hit" aria-selected="' + (index === 0) + '" data-command-index="' + index + '" data-command-record="' + esc(record.id) + '"><span class="command-kind kind-' + record.kind + '">' + icon(record.kind === 'questions' ? 'code' : record.kind === 'resources' ? 'layers' : 'doc') + '</span><span class="command-hit-copy"><strong>' + esc(record.title) + '</strong><small>' + esc(record.id + ' · ' + VIEW_NAMES[record.kind] + ' · ' + (record.chapter || record.companies?.slice(0, 2).join(' / ') || record.platform)) + '</small></span>' + icon('chevron') + '</button>').join('') : '<p class="command-empty">没有找到匹配的资料，试试公司名、编号或技术词。</p>';
+  syncCommandSelection();
+}
+
+async function openCommand() {
+  if (!catalog || !$('#command-dialog')) return;
+  if ($('#detail-dialog').open) { state.record = ''; writeUrl(); $('#detail-dialog').close(); }
+  if (!$('#command-dialog').open) $('#command-dialog').showModal();
+  $('#command-input').value = '';
+  $('#command-input').focus();
+  renderCommand();
+  try { await loadQuestions(); commandQuestionsUnavailable = false; }
+  catch { commandQuestionsUnavailable = true; }
+  renderCommand();
+}
+
+async function chooseCommand(index) {
+  const record = commandHits[index];
+  if (!record) return;
+  clearTimeout(searchTimer);
+  $('#command-dialog').close();
+  state = {...DEFAULT_STATE, view: record.kind, record: record.id};
+  writeUrl('push');
+  await render({scroll: true});
+}
+
 function option(value, label) {
   return '<option value="' + esc(value) + '">' + esc(label) + '</option>';
 }
@@ -156,6 +265,7 @@ function syncControls() {
   $('#saved-toggle').setAttribute('aria-pressed', String(state.saved));
   $('#saved-toggle').setAttribute('aria-label', '只看我的收藏，共' + saved.size + '项');
   $('#saved-count').textContent = saved.size;
+  for (const chip of $$('#company-quick [data-company]')) chip.setAttribute('aria-pressed', String(state.view === 'interviews' && state.company === chip.dataset.company));
   $('.sidebar-note-title').textContent = state.view === 'questions' ? '按知识点复习' : '读面经，也看上下文';
   $('.sidebar-note p').textContent = state.view === 'questions' ? '题解按公开论文与文档编写，参考链接随题保留。具体企业问了什么，可以回面经原帖查看。' : '公司、岗位和过程沿用原作者描述。日期疑问、付费截断等情况见条目备注。';
   const filterKeys = state.view === 'questions' ? ['q', 'collection', 'topic', 'saved'] : ['q', 'collection', 'company', 'topic', 'specialty', 'domain', 'year', 'platform', 'saved'];
@@ -265,6 +375,7 @@ function section(title, content, extraClass = '') {
 function showRecord(record) {
   const dialog = $('#detail-dialog');
   currentRecord = record;
+  syncReader(record);
   $('#detail-bookmark').setAttribute('aria-pressed', String(saved.has(record.id)));
   $('#detail-bookmark').setAttribute('aria-label', saved.has(record.id) ? '取消收藏本条资料' : '收藏本条资料');
   if (dialog.open && dialog.dataset.record === record.id) return;
@@ -291,6 +402,7 @@ function showRecord(record) {
   $('#detail-content').scrollTop = 0;
   if (!dialog.open) dialog.showModal();
   $('#detail-title').focus({preventScroll: true});
+  updateReaderProgress();
 }
 
 async function openRecord(id) {
@@ -315,7 +427,50 @@ async function toggleSave(id) {
 
 function reset() { navigate({...DEFAULT_STATE, view: state.view}); }
 
+// A cached older HTML document can still use the core browser with newer assets.
+function bindExperienceEvents() {
+  if (!$('#command-dialog') || !$('#explore') || !$('#company-quick')) return;
+  $('#start-browsing').addEventListener('click', () => { $('#library').scrollIntoView({block: 'start'}); $('#search-input').focus({preventScroll: true}); });
+  $('#nav-companies').addEventListener('click', () => { setQuickMode('companies'); $('#library').scrollIntoView({block: 'start'}); $('#company-quick button')?.focus({preventScroll: true}); });
+  $('#quick-directions').addEventListener('click', () => setQuickMode('directions'));
+  $('#quick-companies').addEventListener('click', () => setQuickMode('companies'));
+  $('#company-quick').addEventListener('click', event => { const chip = event.target.closest('[data-company]'); if (chip) navigate({...DEFAULT_STATE, view: 'interviews', company: chip.dataset.company}, {scroll: true}); });
+  $('#explore').addEventListener('click', event => {
+    const card = event.target.closest('[data-explore]');
+    if (!card) return;
+    setQuickMode('directions');
+    const view = card.dataset.explore === 'questions' ? 'questions' : 'interviews';
+    navigate({...DEFAULT_STATE, view, collection: view === 'interviews' ? card.dataset.explore : ''}, {scroll: true});
+  });
+  for (const layout of ['cards', 'compact']) $('#layout-' + layout).addEventListener('click', () => setLayout(layout));
+  $('#reader-prev').addEventListener('click', () => stepReader(-1));
+  $('#reader-next').addEventListener('click', () => stepReader(1));
+  $('#detail-content').addEventListener('scroll', updateReaderProgress, {passive: true});
+  $('#command-open').addEventListener('click', openCommand);
+  $('#command-close').addEventListener('click', () => $('#command-dialog').close());
+  $('#command-input').addEventListener('input', renderCommand);
+  $('#command-input').addEventListener('keydown', event => {
+    if (event.isComposing) return;
+    if (event.key === 'Escape') { event.preventDefault(); $('#command-dialog').close(); return; }
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+      event.preventDefault();
+      if (!commandHits.length) return;
+      commandIndex = (commandIndex + (event.key === 'ArrowDown' ? 1 : -1) + commandHits.length) % commandHits.length;
+      syncCommandSelection(true);
+    } else if (event.key === 'Enter') { event.preventDefault(); chooseCommand(commandIndex); }
+  });
+  $('#command-results').addEventListener('click', event => { const hit = event.target.closest('[data-command-index]'); if (hit) chooseCommand(Number(hit.dataset.commandIndex)); });
+  $('#command-results').addEventListener('pointermove', event => { const hit = event.target.closest('[data-command-index]'); if (hit) { commandIndex = Number(hit.dataset.commandIndex); syncCommandSelection(); } }, {passive: true});
+  $('.command-suggestions').addEventListener('click', event => { const suggestion = event.target.closest('[data-command-query]'); if (suggestion) { $('#command-input').value = suggestion.dataset.commandQuery; $('#command-input').focus(); renderCommand(); } });
+  $('#command-dialog').addEventListener('click', event => {
+    if (event.target !== $('#command-dialog')) return;
+    const rect = $('#command-dialog').getBoundingClientRect();
+    if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) $('#command-dialog').close();
+  });
+}
+
 function bindEvents() {
+  bindExperienceEvents();
   for (const tab of $$('.library-tab')) tab.addEventListener('click', () => navigate({view: tab.dataset.view, sort: 'recent'}));
   $('.library-tabs').addEventListener('keydown', event => {
     const tabs = $$('.library-tab');
@@ -378,7 +533,12 @@ function bindEvents() {
     catch { toast('可复制浏览器地址栏中的链接'); }
   });
   document.addEventListener('keydown', event => {
-    if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey && !$('#detail-dialog').open && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName) && !document.activeElement?.isContentEditable) {
+    if ($('#command-dialog') && (event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
+      event.preventDefault();
+      if ($('#command-dialog').open) $('#command-dialog').close(); else openCommand();
+      return;
+    }
+    if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey && !$('#detail-dialog').open && !$('#command-dialog')?.open && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName) && !document.activeElement?.isContentEditable) {
       event.preventDefault(); $('#search-input').focus();
     }
   });
@@ -399,6 +559,9 @@ async function initialize() {
     catalog = await loadData('catalog.json', 'initial-catalog');
     catalog.interviews = prepare(catalog.interviews);
     catalog.resources = prepare(catalog.resources);
+    renderDiscoveries();
+    const commandOpen = $('#command-open');
+    if (commandOpen) commandOpen.disabled = false;
     await render();
   } catch (error) {
     catalog = undefined;
@@ -408,5 +571,7 @@ async function initialize() {
     console.error(error);
   }
 }
+try { setLayout(localStorage.getItem(LAYOUT_KEY), false); } catch { setLayout('cards', false); }
+if ($('#command-shortcut')) $('#command-shortcut').textContent = /Mac|iPhone|iPad/.test(navigator.platform) ? '⌘ K' : 'Ctrl K';
 bindEvents();
 initialize();

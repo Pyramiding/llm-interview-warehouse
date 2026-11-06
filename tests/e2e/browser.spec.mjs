@@ -239,3 +239,64 @@ test('theme and mobile filter controls work without horizontal overflow', async 
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
   await expect(page.locator('#analytics-state')).toHaveText('本地预览不计入访问统计');
 });
+
+test('company shortcuts and direction cards lead to the correct collection', async ({page}) => {
+  await ready(page);
+  await page.locator('#quick-companies').click();
+  await page.locator('#company-quick [data-company="阿里"]').click();
+  await expect(page.locator('#company-filter')).toHaveValue('阿里');
+  await expect(page.locator('#company-quick [data-company="阿里"]')).toHaveAttribute('aria-pressed', 'true');
+  const ids = await page.locator('.record-card').evaluateAll(cards => cards.map(card => card.dataset.record));
+  await page.locator('.record-title').first().click();
+  await expect(page.locator('#reader-prev')).toBeDisabled();
+  await expect(page.locator('#reader-position')).toHaveText(/^1 \/ \d+$/);
+  await page.locator('#reader-next').click();
+  await expect(page.locator('#detail-dialog')).toHaveAttribute('data-record', ids[1]);
+  await expect(page).toHaveURL(new RegExp('record=' + ids[1]));
+  await page.locator('#reader-prev').click();
+  await expect(page.locator('#detail-dialog')).toHaveAttribute('data-record', ids[0]);
+  await page.locator('#close-detail').click();
+  await page.locator('[data-explore="rag"]').click();
+  await expect(page).toHaveURL(/collection=rag/);
+  await expect(page.locator('#company-filter')).toHaveValue('');
+  await expect(page.locator('.record-card').first()).toBeVisible();
+});
+
+test('global keyboard search crosses content types and opens a shareable answer', async ({page}) => {
+  await ready(page);
+  await page.keyboard.press('ControlOrMeta+k');
+  await expect(page.locator('#command-dialog')).toBeVisible();
+  const search = page.getByRole('combobox', {name: '全站搜索', exact: true});
+  await search.fill('R05');
+  await expect(page.locator('.command-hit').first()).toHaveAttribute('data-command-record', 'R05');
+  await search.press('Enter');
+  await expect(page.locator('#command-dialog')).not.toBeVisible();
+  await expect(page.locator('#detail-dialog')).toHaveAttribute('data-record', 'R05');
+  await expect(page.locator('#detail-content .markdown')).toContainText('RRF');
+  await expect(page).toHaveURL(/view=questions/);
+  await expect(page).toHaveURL(/record=R05/);
+  await page.locator('#close-detail').click();
+  await page.locator('#command-open').click();
+  await search.fill('INT502');
+  await search.press('ArrowDown');
+  await search.press('Enter');
+  await expect(page.locator('#detail-dialog')).toHaveAttribute('data-record', 'INT502');
+  await expect(page.locator('#detail-kicker')).toContainText('面经');
+});
+
+test('compact reading preferences persist and empty global search can be dismissed', async ({page}) => {
+  await ready(page);
+  await page.locator('#layout-compact').click();
+  await page.reload();
+  await expect(page.locator('#results')).toHaveAttribute('data-layout', 'compact');
+  await expect(page.locator('#layout-compact')).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.locator('.record-card')).toHaveCount(12);
+  await page.locator('#command-open').click();
+  const search = page.getByRole('combobox', {name: '全站搜索', exact: true});
+  await search.fill('no-record-matches-this-123456');
+  await expect(page.locator('.command-empty')).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  await search.press('Escape');
+  await expect(page.locator('#command-dialog')).not.toBeVisible();
+  await expect(page.locator('.record-card')).toHaveCount(12);
+});
