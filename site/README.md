@@ -6,7 +6,7 @@
 
 ## 本地预览
 
-在仓库根目录运行，需要Python 3.10以上；交互检查另外需要Node.js 18以上，无需安装前端依赖。
+在仓库根目录运行，需要Python 3.10以上；脚本交互检查另外需要Node.js 18以上。网页本身无需前端依赖；真实浏览器测试需要Node.js 20以上和下方开发依赖。
 
 ```sh
 python3 tools/build_site.py
@@ -31,4 +31,18 @@ node --check _site/app.js
 node tools/check_site.mjs
 ```
 
-检查包含源记录与日期保留、题目编号、生成一致性、组合筛选、分页、分享参数，以及正文HTML转义和链接协议限制。布局与真实点击另在浏览器中检查。
+检查包含源记录与日期保留、题目编号、生成一致性、组合筛选、分页、分享参数，以及正文HTML转义和链接协议限制。真实点击与浏览器状态另外由下方端到端测试检查。
+
+## 真实浏览器端到端测试
+
+```sh
+npm ci
+npx playwright install --with-deps chromium
+npm run test:e2e
+```
+
+Playwright 会自动构建并在 `127.0.0.1:8876` 启动本地站点，运行桌面 Chromium 和移动视口 Chromium 两组测试。不要另占用该端口。如需使用本机已有的 Chromium，可设置 `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` 为其可执行文件绝对路径。
+
+测试覆盖组合筛选与刷新、分页与前进/后退、详情深链接与关闭、收藏持久化与跨标签同步、题解正文、参考资料切换、内嵌数据降级、请求失败重试、异步加载期间改换页面、快速重置搜索、主题切换与移动布局。所有第三方请求均被拦截，测试不会写入生产访问统计。移动项目是触摸/视口模拟，不代表实机或 Safari 测试。
+
+[浏览器测试工作流](../.github/workflows/browser-tests.yml)由 Pages 工作流在 main 推送和 PR 时调用。Pages 发布也以浏览器测试成功为前提。失败时保留截图、trace 和 HTML 报告，可从工作流产物下载定位；本地报告位于不提交的 `playwright-report/`。

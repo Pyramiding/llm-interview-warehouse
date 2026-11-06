@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from collections import Counter
@@ -74,8 +75,18 @@ for question in questions:
             if label not in block:
                 errors.append(f'{question["id"]}: missing {label}')
 
+def repository_markdown():
+    """Skip installed dependencies and generated reports when checking our links."""
+    ignored = {'.git', '.venv', 'node_modules', '_site', 'test-results', 'playwright-report', '__pycache__'}
+    for directory, names, filenames in os.walk(ROOT):
+        names[:] = [name for name in names if name not in ignored]
+        for filename in filenames:
+            if filename.endswith('.md'):
+                yield Path(directory) / filename
+
+
 link_count = 0
-for file in ROOT.rglob('*.md'):
+for file in repository_markdown():
     content = file.read_text()
     if '统计生成中' in content:
         errors.append(f'{file.relative_to(ROOT)}: unfinished statistics')
