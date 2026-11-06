@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "interview_records": 161,
   "reading_resources": 96,
   "specialties": 29,
@@ -10,8 +10,8 @@
   "normalized_source_urls": 440,
   "research_source_urls": 183,
   "verification": {
-    "opened": 358,
-    "search_excerpt": 75,
+    "opened": 366,
+    "search_excerpt": 67,
     "metadata_only": 7
   },
   "interviews_by_year": {

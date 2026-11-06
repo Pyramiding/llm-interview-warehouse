@@ -1,0 +1,132 @@
+{
+  "as_of": "2026-11-06",
+  "mode": "existing_source_verification",
+  "base_repository_commit": "49501cab",
+  "method": "逐一打开既有原链接，确认返回相关正文后才升级。保留既有发布日期、面试日期、企业和方向；明确编辑日期及候选项目/团队业务边界。只保存少量改写问题和访问说明，不保存原文。",
+  "updated_interview_ids": [
+    "INT002",
+    "INT014",
+    "INT015",
+    "INT016",
+    "INT018",
+    "INT021",
+    "INT022",
+    "INT023"
+  ],
+  "new_interview_count": 0,
+  "new_question_prompt_count": 32,
+  "verification_upgrades": [
+    {
+      "id": "INT002",
+      "url": "https://www.nowcoder.com/feed/main/detail/3bda1df276f846bda205394f0ee76c84",
+      "accessed": "2026-11-06",
+      "previous_verification": "search_excerpt",
+      "verification": "opened",
+      "read_scope": "正文的算法、大模型及场景题段落",
+      "displayed_page_date": "2023-10-25 11:38",
+      "retrieval_crawl_label": "2 months ago",
+      "access_note": "公开网页读取工具 open 返回原链接的相关正文；不代表独立实时浏览器抓取，不含登录资料或未展示附件。",
+      "question_prompt_count": 4
+    },
+    {
+      "id": "INT014",
+      "url": "https://www.nowcoder.com/feed/main/detail/de165d62324c4e3493e45b421e0e2a79",
+      "accessed": "2026-11-06",
+      "previous_verification": "search_excerpt",
+      "verification": "opened",
+      "read_scope": "滴滴一面的编号问题和代码题",
+      "displayed_page_date": "2024-08-15 23:00 已编辑",
+      "retrieval_crawl_label": "today",
+      "access_note": "公开网页读取工具 open 返回原链接的相关正文；不代表独立实时浏览器抓取，不含登录资料或未展示附件。",
+      "question_prompt_count": 4
+    },
+    {
+      "id": "INT015",
+      "url": "https://www.nowcoder.com/feed/main/detail/47856df8818c4ac59c47a8299bc98e7b",
+      "accessed": "2026-11-06",
+      "previous_verification": "search_excerpt",
+      "verification": "opened",
+      "read_scope": "OCR多模态实习的编号问题",
+      "displayed_page_date": "2025-02-21 01:40 已编辑",
+      "retrieval_crawl_label": "3 days ago",
+      "access_note": "公开网页读取工具 open 返回原链接的相关正文；不代表独立实时浏览器抓取，不含登录资料或未展示附件。",
+      "question_prompt_count": 4
+    },
+    {
+      "id": "INT016",
+      "url": "https://www.nowcoder.com/feed/main/detail/7fa8ae2f1c2e42909e664dce6cbc8190",
+      "accessed": "2026-11-06",
+      "previous_verification": "search_excerpt",
+      "verification": "opened",
+      "read_scope": "AI平台研发一面的编号问题",
+      "displayed_page_date": "2025-03-04 16:53",
+      "retrieval_crawl_label": "today",
+      "access_note": "公开网页读取工具 open 返回原链接的相关正文；不代表独立实时浏览器抓取，不含登录资料或未展示附件。",
+      "question_prompt_count": 4
+    },
+    {
+      "id": "INT018",
+      "url": "https://www.nowcoder.com/feed/main/detail/44b2baec47c740c4b9bccb8a013abd56",
+      "accessed": "2026-11-06",
+      "previous_verification": "search_excerpt",
+      "verification": "opened",
+      "read_scope": "字节、百度与快手的分轮次复盘",
+      "displayed_page_date": "2025-05-07 15:29 已编辑",
+      "retrieval_crawl_label": "today",
+      "access_note": "公开网页读取工具 open 返回原链接的相关正文；不代表独立实时浏览器抓取，不含登录资料或未展示附件。",
+      "question_prompt_count": 4
+    },
+    {
+      "id": "INT021",
+      "url": "https://www.nowcoder.com/feed/main/detail/129eaa1c20444651ac3b932e200d3da4",
+      "accessed": "2026-11-06",
+      "previous_verification": "search_excerpt",
+      "verification": "opened",
+      "read_scope": "LLM基础、RAG、Workflow、Agent和系统设计题段落",
+      "displayed_page_date": "2025-07-27 20:47",
+      "retrieval_crawl_label": "today",
+      "access_note": "公开网页读取工具 open 返回原链接的相关正文；不代表独立实时浏览器抓取，不含登录资料或未展示附件。",
+      "question_prompt_count": 4
+    },
+    {
+      "id": "INT022",
+      "url": "https://www.nowcoder.com/feed/main/detail/ba4249c6ea534790b0d0770dc339566b",
+      "accessed": "2026-11-06",
+      "previous_verification": "search_excerpt",
+      "verification": "opened",
+      "read_scope": "2025.7.10一面的编号问题与反问",
+      "displayed_page_date": "2025-07-29 12:54 已编辑",
+      "retrieval_crawl_label": "today",
+      "access_note": "公开网页读取工具 open 返回原链接的相关正文；不代表独立实时浏览器抓取，不含登录资料或未展示附件。",
+      "question_prompt_count": 4
+    },
+    {
+      "id": "INT023",
+      "url": "https://www.nowcoder.com/feed/main/detail/a7bc823430d646cd876d46035eb0caa0",
+      "accessed": "2026-11-06",
+      "previous_verification": "search_excerpt",
+      "verification": "opened",
+      "read_scope": "一面技术考点及二面、HR面概述",
+      "displayed_page_date": "2025-10-19 10:54",
+      "retrieval_crawl_label": "today",
+      "access_note": "公开网页读取工具 open 返回原链接的相关正文；不代表独立实时浏览器抓取，不含登录资料或未展示附件。",
+      "question_prompt_count": 4
+    }
+  ],
+  "not_upgraded": [
+    {
+      "id": "INT008",
+      "url": "https://www.nowcoder.com/discuss/656279057671155712",
+      "accessed": "2026-11-06",
+      "verification": "search_excerpt",
+      "access_note": "原链接只返回四项牛客导航，未取得相关正文；不判断为删除，不更新原记录状态或查阅日期。"
+    },
+    {
+      "id": "INT025",
+      "url": "https://www.nowcoder.com/feed/main/detail/029a292419294b4a8227acde5a00124b",
+      "accessed": "2026-11-06",
+      "verification": "search_excerpt",
+      "access_note": "原链接只返回四项牛客导航，未取得相关正文；不判断为删除，不更新原记录状态或查阅日期。"
+    }
+  ]
+}

@@ -57,6 +57,8 @@
 
 ## 最近更新
 
+**2026-11-06：** [复核8篇既有面经](docs/source-verification-2026-11-06.md)，补充32条改写问题与可读范围说明，不增加面经或专题练习计数。网页新增桌面与移动浏览器端到端测试，覆盖搜索、收藏、分享、历史导航和加载失败重试。
+
 **2026-11-05：** [应用与LLM Infra扩充](docs/expansion-applications-infra-2026-11-05.md)，回补19篇面经、10份参考资料，增加细分方向索引；[当天较早的增量更新](docs/incremental-2026-11-05.md)另收录14篇。
 
 此前更新：[11月2日](docs/incremental-2026-11-02.md) · [牛客与LeetCode](docs/nowcoder-leetcode-2026-10-23.md) · [其他平台](docs/platform-expansion-2026-10-23.md)。各方向的[收录情况](docs/coverage.md)单列一页，欢迎补缺。

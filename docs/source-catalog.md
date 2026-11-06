@@ -9,7 +9,7 @@
 | ID | 来源 | 日期 | 阅读情况 | 备注 |
 |---|---|---|---|---|
 | INT001 | [理想+ 大模型面经](https://www.nowcoder.com/feed/main/detail/9541c5c4a7254d7296a3b34ae675e355) | 2023-11-02 | 已读正文 | 原文记载一面10.10、二面10.13；年份结合发帖时间。企业与结果为作者自述。 |
-| INT002 | [2023秋招nlp算法面经](https://www.nowcoder.com/feed/main/detail/3bda1df276f846bda205394f0ee76c84) | 2023-10-25 | 仅搜索摘要 |  |
+| INT002 | [2023秋招nlp算法面经](https://www.nowcoder.com/feed/main/detail/3bda1df276f846bda205394f0ee76c84) | 2023-10-25 | 已读正文 | 页面内容属于作者自述，未向企业独立核实。 2026-11-06通过公开网页读取工具取得原链接相关正文；问题为少量改写，不代表完整题单。多公司题目未逐题归属；原帖归一化术语存在笔误，不作为标准答案。 |
 | INT003 | [金山nlp算法](https://www.nowcoder.com/feed/main/detail/eacf3c402e8c4d029e8551cb6fec747a) | 2023-10-12 | 仅搜索摘要 |  |
 | INT004 | [百度2024秋招机器学习一面面经](https://www.nowcoder.com/discuss/519497796483858432) | 2023-08-16 | 仅搜索摘要 |  |
 | INT005 | [百度昆仑芯-深度学习框架高性能研发实习生面经](https://www.nowcoder.com/discuss/538309440781537280) | 2023-10-02 | 仅搜索摘要 |  |
@@ -21,16 +21,16 @@
 | INT011 | [美团到店-大模型算法面经](https://www.nowcoder.com/feed/main/detail/e63b60a0727f4117a3c8ed9381719d66) | 2024-08-30 | 仅搜索摘要 |  |
 | INT012 | [大模型实习面经](https://www.nowcoder.com/feed/main/detail/1f93defebd7e4d4c93aaaa2eafcfd5ff) | 2024-06-19 | 仅搜索摘要 |  |
 | INT013 | [达摩院 暑期实习 决策智能实验室 大模型算法](https://www.nowcoder.com/discuss/611678861075521536?sourceSSR=subject) | 2024-04-21 | 仅搜索摘要 |  |
-| INT014 | [滴滴大模型一面面经](https://www.nowcoder.com/feed/main/detail/de165d62324c4e3493e45b421e0e2a79) | 2024-08-15 | 仅搜索摘要 |  |
-| INT015 | [网易有道 多模态实习（20250120）](https://www.nowcoder.com/feed/main/detail/47856df8818c4ac59c47a8299bc98e7b) | 2025-02-21 | 仅搜索摘要 |  |
-| INT016 | [阿里云 AI平台研发 一面](https://www.nowcoder.com/feed/main/detail/7fa8ae2f1c2e42909e664dce6cbc8190) | 2025-03-04 | 仅搜索摘要 |  |
+| INT014 | [滴滴大模型一面面经](https://www.nowcoder.com/feed/main/detail/de165d62324c4e3493e45b421e0e2a79) | 2024-08-15 | 已读正文 | 页面内容属于作者自述，未向企业独立核实。 2026-11-06通过公开网页读取工具取得原链接相关正文；问题为少量改写，不代表完整题单。页面标注已编辑，现有 published 保留为页面编辑日，未确认首发；其他公司仅为简历未通过，不增列面试归属。 |
+| INT015 | [网易有道 多模态实习（20250120）](https://www.nowcoder.com/feed/main/detail/47856df8818c4ac59c47a8299bc98e7b) | 2025-02-21 | 已读正文 | 页面内容属于作者自述，未向企业独立核实。 2026-11-06通过公开网页读取工具取得原链接相关正文；问题为少量改写，不代表完整题单。页面标注已编辑，现有 published 保留为页面编辑日，未确认首发；代码题未披露内容，不补写题目。 |
+| INT016 | [阿里云 AI平台研发 一面](https://www.nowcoder.com/feed/main/detail/7fa8ae2f1c2e42909e664dce6cbc8190) | 2025-03-04 | 已读正文 | 页面内容属于作者自述，未向企业独立核实。 2026-11-06通过公开网页读取工具取得原链接相关正文；问题为少量改写，不代表完整题单。搜广推讨论来自项目追问，不据此推断招聘团队业务；顺序 IO、零拷贝为候选人主动延伸话题。 |
 | INT017 | [字节 腾讯 小红书 一面面经 + 字节二面 + 字节hr面](https://www.nowcoder.com/discuss/725486180468383744?sourceSSR=dynamic) | 2025-03-05 | 仅搜索摘要 |  |
-| INT018 | [整理下近期的大模型日常实习面经](https://www.nowcoder.com/feed/main/detail/44b2baec47c740c4b9bccb8a013abd56) | 2025-05-07 | 仅搜索摘要 |  |
+| INT018 | [整理下近期的大模型日常实习面经](https://www.nowcoder.com/feed/main/detail/44b2baec47c740c4b9bccb8a013abd56) | 2025-05-07 | 已读正文 | 页面内容属于作者自述，未向企业独立核实。 2026-11-06通过公开网页读取工具取得原链接相关正文；问题为少量改写，不代表完整题单。页面标注已编辑，现有 published 保留为页面编辑日，未确认首发；问题轮次仅按正文分段标识。 |
 | INT019 | [已拒offer:美团北斗大模型面经](https://www.nowcoder.com/feed/main/detail/9a16bab549424dc98a11cf6b7c5bbe2a) | 2025-06-06 | 仅搜索摘要 |  |
 | INT020 | [大模型应用工程师面经~ AI相关岗位内推](https://www.nowcoder.com/discuss/779119510631563264?sourceSSR=subject) | 2025-07-27 | 仅搜索摘要 |  |
-| INT021 | [大模型应用开发面经（5年经验）](https://www.nowcoder.com/feed/main/detail/129eaa1c20444651ac3b932e200d3da4) | 2025-07-27 | 仅搜索摘要 |  |
-| INT022 | [得物-算法平台-AI算法工程实习生 面经](https://www.nowcoder.com/feed/main/detail/ba4249c6ea534790b0d0770dc339566b) | 2025-07-29 | 仅搜索摘要 |  |
-| INT023 | [Shopee多模态大模型实习面经](https://www.nowcoder.com/feed/main/detail/a7bc823430d646cd876d46035eb0caa0) | 2025-10-19 | 仅搜索摘要 |  |
+| INT021 | [大模型应用开发面经（5年经验）](https://www.nowcoder.com/feed/main/detail/129eaa1c20444651ac3b932e200d3da4) | 2025-07-27 | 已读正文 | 页面内容属于作者自述，未向企业独立核实。 2026-11-06通过公开网页读取工具取得原链接相关正文；问题为少量改写，不代表完整题单。多公司复盘未逐题标注企业，保留合并归属；只采用公开正文，未取得评论中另行提供的资料。 |
+| INT022 | [得物-算法平台-AI算法工程实习生 面经](https://www.nowcoder.com/feed/main/detail/ba4249c6ea534790b0d0770dc339566b) | 2025-07-29 | 已读正文 | 页面内容属于作者自述，未向企业独立核实。 2026-11-06通过公开网页读取工具取得原链接相关正文；问题为少量改写，不代表完整题单。页面标注已编辑，现有 published 保留为页面编辑日，未确认首发；商品理解是反问中介绍的团队业务，并非候选人项目。 |
+| INT023 | [Shopee多模态大模型实习面经](https://www.nowcoder.com/feed/main/detail/a7bc823430d646cd876d46035eb0caa0) | 2025-10-19 | 已读正文 | 页面内容属于作者自述，未向企业独立核实。 2026-11-06通过公开网页读取工具取得原链接相关正文；问题为少量改写，不代表完整题单。只读到公开的三轮简短复盘；动态规划题未给具体题面，不补写细节。 |
 | INT024 | [字节筋斗云计划面经](https://www.nowcoder.com/feed/main/detail/5cdc00cc16ff4b16aac7d69b37db6b8d) | 2025-10-26 | 仅搜索摘要 |  |
 | INT025 | [26届秋招｜字节大模型算法岗面经](https://www.nowcoder.com/feed/main/detail/029a292419294b4a8227acde5a00124b) | 2025-11-01 | 仅搜索摘要 |  |
 | INT026 | [字节 260901 一面面经](https://www.nowcoder.com/feed/main/detail/fa50ef5521f84cb788f911cd31e5a98a) | 未确认/持续更新 | 已读正文 | 面试日期由标题解析；页面仅显示10-04已编辑、未显年份；年份由标题260901确定。未用推荐区转载日期替代。 |

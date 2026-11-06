@@ -5,3 +5,6 @@ __pycache__/
 .env
 .env.*
 /_site/
+/node_modules/
+/playwright-report/
+/test-results/

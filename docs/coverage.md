@@ -32,6 +32,6 @@
 
 ## 更新记录
 
-[11月5日应用与Infra](expansion-applications-infra-2026-11-05.md) · [11月5日增量](incremental-2026-11-05.md) · [11月2日增量](incremental-2026-11-02.md) · [10月23日平台补充](platform-expansion-2026-10-23.md) · [首次检索](research-platforms-a.md) · [其他平台](research-platforms-b.md)
+[11月6日来源复核](source-verification-2026-11-06.md) · [11月5日应用与Infra](expansion-applications-infra-2026-11-05.md) · [11月5日增量](incremental-2026-11-05.md) · [11月2日增量](incremental-2026-11-02.md) · [10月23日平台补充](platform-expansion-2026-10-23.md) · [首次检索](research-platforms-a.md) · [其他平台](research-platforms-b.md)
 
 也可以从[平台](interviews/by-platform.md)、[细分方向](interviews/by-specialty.md)、[LLM Infra](interviews/llm-infra.md)或[公司与业务](interviews/company-direction.md)继续查找。

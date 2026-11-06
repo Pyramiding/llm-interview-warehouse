@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-AS_OF = '2026-11-05'
+AS_OF = '2026-11-06'
 TOPICS = [
     ('01', 'Transformer与数学基础', '01-transformer-and-math.md', '注意力、归一化、优化、概率与参数估算'),
     ('02', '预训练与数据工程', '02-pretraining-and-data.md', 'tokenizer、配比、去重、Scaling Law与数据质量'),
@@ -403,7 +403,7 @@ def main():
         count = sum(x['path']==f'docs/topics/{filename}' for x in questions)
         coverage.append(f'| [{name}](topics/{filename}) | {count} | {sum(code in x["topics"] for x in interviews)} | {desc} |')
     coverage += ['', '目前收录以国内中文面经为主。海外现场面、资深岗位、语音、编译器、世界模型和AI4Science还比较少，欢迎补充原帖。上表只统计本仓库的资料，一篇可出现在多个方向。']
-    coverage += ['', '## 更新记录', '', '[11月5日应用与Infra](expansion-applications-infra-2026-11-05.md) · [11月5日增量](incremental-2026-11-05.md) · [11月2日增量](incremental-2026-11-02.md) · [10月23日平台补充](platform-expansion-2026-10-23.md) · [首次检索](research-platforms-a.md) · [其他平台](research-platforms-b.md)', '', '也可以从[平台](interviews/by-platform.md)、[细分方向](interviews/by-specialty.md)、[LLM Infra](interviews/llm-infra.md)或[公司与业务](interviews/company-direction.md)继续查找。']
+    coverage += ['', '## 更新记录', '', '[11月6日来源复核](source-verification-2026-11-06.md) · [11月5日应用与Infra](expansion-applications-infra-2026-11-05.md) · [11月5日增量](incremental-2026-11-05.md) · [11月2日增量](incremental-2026-11-02.md) · [10月23日平台补充](platform-expansion-2026-10-23.md) · [首次检索](research-platforms-a.md) · [其他平台](research-platforms-b.md)', '', '也可以从[平台](interviews/by-platform.md)、[细分方向](interviews/by-specialty.md)、[LLM Infra](interviews/llm-infra.md)或[公司与业务](interviews/company-direction.md)继续查找。']
     write(ROOT/'docs/coverage.md', '\n'.join(coverage))
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 

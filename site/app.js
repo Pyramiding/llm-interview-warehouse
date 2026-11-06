@@ -10,7 +10,7 @@ const THEME_KEY = 'llm-interview-warehouse:theme';
 const version = $('meta[name="site-version"]').content;
 let state = readState(location.search);
 let catalog, questions, questionsPromise, renderRevision = 0, currentRecord;
-let toastTimer;
+let toastTimer, searchTimer;
 let saved = new Set();
 try {
   const stored = JSON.parse(localStorage.getItem(STORE_KEY) || '[]');
@@ -43,7 +43,10 @@ function writeUrl(method = 'replace') {
 }
 
 function navigate(patch, {replace = false, scroll = false} = {}) {
-  state = {...state, ...patch, page: patch.page || 1, record: ''};
+  clearTimeout(searchTimer);
+  const query = $('#search-input').value;
+  const searchChanged = query !== state.q;
+  state = {...state, q: query, ...patch, page: searchChanged ? 1 : patch.page || 1, record: ''};
   if ($('#detail-dialog').open) $('#detail-dialog').close();
   writeUrl(replace ? 'replace' : 'push');
   render({scroll});
@@ -326,7 +329,6 @@ function bindEvents() {
   for (const chip of $$('[data-collection]')) chip.addEventListener('click', () => navigate({collection: chip.dataset.collection, topic: '', specialty: '', domain: ''}));
   $('#sort-select').addEventListener('change', event => navigate({sort: event.target.value}));
   $('#search-form').addEventListener('submit', event => { event.preventDefault(); });
-  let searchTimer;
   $('#search-input').addEventListener('input', event => {
     clearTimeout(searchTimer);
     const value = event.target.value;
@@ -380,7 +382,7 @@ function bindEvents() {
       event.preventDefault(); $('#search-input').focus();
     }
   });
-  window.addEventListener('popstate', () => { state = readState(location.search); render(); });
+  window.addEventListener('popstate', () => { clearTimeout(searchTimer); state = readState(location.search); render(); });
   window.addEventListener('storage', event => {
     if (event.key !== STORE_KEY) return;
     try { const values = JSON.parse(event.newValue || '[]'); if (Array.isArray(values)) saved = new Set(values.filter(id => typeof id === 'string' && /^[A-Z]{1,4}\d{2,4}$/.test(id))); } catch { return; }
