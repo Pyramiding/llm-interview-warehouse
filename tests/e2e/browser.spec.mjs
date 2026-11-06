@@ -187,6 +187,24 @@ test('a delayed question request cannot replace a newer resource navigation', as
   await expect(page).toHaveURL(/view=resources/);
 });
 
+test('changing a filter preserves search input before its debounce fires', async ({page}) => {
+  await ready(page);
+  await filters(page);
+  await page.locator('#search-input').evaluate(input => {
+    input.value = 'CUDA';
+    input.dispatchEvent(new Event('input', {bubbles: true}));
+    const company = document.querySelector('#company-filter');
+    company.value = '阿里';
+    company.dispatchEvent(new Event('change', {bubbles: true}));
+  });
+  await page.waitForTimeout(250); // Verify the cancelled timer cannot undo the combined state.
+  await expect(page.locator('#search-input')).toHaveValue('CUDA');
+  await expect(page).toHaveURL(/q=CUDA/);
+  await expect(page.locator('#company-filter')).toHaveValue('阿里');
+  await expect(page.locator('[data-record="INT502"]')).toBeVisible();
+  await expect(page.locator('[data-record="INT503"]')).toHaveCount(0);
+});
+
 test('reset cancels an in-flight search debounce instead of reviving it', async ({page}) => {
   await ready(page);
   await filters(page);

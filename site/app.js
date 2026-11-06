@@ -44,7 +44,9 @@ function writeUrl(method = 'replace') {
 
 function navigate(patch, {replace = false, scroll = false} = {}) {
   clearTimeout(searchTimer);
-  state = {...state, ...patch, page: patch.page || 1, record: ''};
+  const query = $('#search-input').value;
+  const searchChanged = query !== state.q;
+  state = {...state, q: query, ...patch, page: searchChanged ? 1 : patch.page || 1, record: ''};
   if ($('#detail-dialog').open) $('#detail-dialog').close();
   writeUrl(replace ? 'replace' : 'push');
   render({scroll});
