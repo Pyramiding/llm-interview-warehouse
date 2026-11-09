@@ -16,7 +16,17 @@ assert dpo_loss(-2, -5, -3, -4) < dpo_loss(-3, -4, -3, -4)
 assert math.isfinite(dpo_loss(-10000, 0, 0, 0))
 assert math.isclose(dpo_loss(-1e308, 0, 0, -1e308), 2e307)
 assert lora_parameters(4096, 4096, 8) == 65536
-assert kv_cache_bytes(32, 4, 8192, 8, 128) == 4*2**30
+# KV cache comparison between MHA (32 heads) and GQA (8 heads)
+# Note: Changing KV heads drives the ratio; query heads do not enter this capacity function.
+# Estimates conventional full KV payload (excluding model weights, allocation overhead, paging margins, or TP sharding); does not assert inference speedup.
+mha_bytes = kv_cache_bytes(32, 4, 8192, 32, 128)
+gqa_bytes = kv_cache_bytes(32, 4, 8192, 8, 128)
+assert mha_bytes == 16 * 2**30
+assert gqa_bytes == 4 * 2**30
+assert mha_bytes // gqa_bytes == 4
+
+# Aligns with text example in issue I03 to avoid confusing batch=4 and batch=8 settings
+assert kv_cache_bytes(32, 8, 8192, 8, 128) == 8 * 2**30
 assert retrieval_metrics(['a', 'a', 'b', 'c'], {'b', 'd'}, 3) == {'recall': 0.5, 'rr': 0.5}
 assert retrieval_metrics(['a'], set(), 1) == {'recall': None, 'rr': None}
 assert rrf([['a', 'a', 'b']]) == rrf([['a', 'b']])
