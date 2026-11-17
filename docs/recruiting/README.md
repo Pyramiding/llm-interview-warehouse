@@ -2,15 +2,15 @@
 
 [打开招聘网页](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library) · [返回面经仓库](../../README.md)
 
-2026-11-17 更新，共收录 1258 条岗位与 JD。记录附岗位原页或招聘公告、职责和要求摘要、核验日期与投递状态。
+2026-11-17 更新，共收录 1295 条岗位与 JD。记录附岗位原页或招聘公告、职责和要求摘要、核验日期与投递状态。
 “有投递入口”表示核验时确认了官网申请入口。投递状态与招聘类型以原页为准，已结束的批次保留作往届 JD。
 
 ## 官网岗位
 
 | 招聘类型 | 官网岗位 | 有投递入口 | 网页入口 |
 |---|---:|---:|---|
-| 校招 | 347 | 73 | [查看校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) |
-| 社招 | 730 | 480 | [查看社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) |
+| 校招 | 356 | 73 | [查看校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) |
+| 社招 | 742 | 485 | [查看社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) |
 | 实习 | 131 | 45 | [查看实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) |
 
 <a id="major-employers"></a>
@@ -74,12 +74,16 @@
 
 表内统计各公开渠道的收录记录，招聘类型未注明的条目可在公司 JD 页查看。
 
-| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘入口 |
-|---|---:|---:|---:|---|---|
-| 中国电信（含中电信人工智能科技） | [7 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E5%9B%BD%E7%94%B5%E4%BF%A1&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/china-telecom.md) | [企业官网](https://job.chinatelecom.com.cn/wt/TELE/web/index?brandCode=1) |
-| 中信银行 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E4%BF%A1%E9%93%B6%E8%A1%8C&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/citic-bank.md) | [企业官网](https://job.citicbank.com/) |
-| 招商银行 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/cmb.md) | [企业官网](https://career.cmbchina.com/) |
-| 招银网络科技 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E9%93%B6%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/cmb-network.md) | [企业官网](https://cmbntjob.cmbchina.com/) |
+| 公司 | 校招 | 社招 | 实习 | 官网有投递入口 | GitHub JD | 招聘入口 |
+|---|---:|---:|---:|---|---|---|
+| 中国移动 | [9 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&job_type=%E6%A0%A1%E6%8B%9B#library) | [5 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [社招 5 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_status=apply_link#library) | [查看 JD](companies/china-mobile.md) | [企业校招](https://job.10086.cn/personal/job/?type=1) · [企业社招](https://job.10086.cn/personal/job/?type=2) |
+| 中国联通 | [3 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | — | [查看 JD](companies/china-unicom.md) | [企业校招](https://zglt.zhaopin.com/scjobs/index.html) · [企业社招](https://www.chinaunicom.com/46/menu01/529/column06) |
+| 中国电信（含中电信人工智能科技） | [7 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E5%9B%BD%E7%94%B5%E4%BF%A1&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | — | [查看 JD](companies/china-telecom.md) | [企业官网](https://job.chinatelecom.com.cn/wt/TELE/web/index?brandCode=1) |
+| 中信银行 | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E4%BF%A1%E9%93%B6%E8%A1%8C&job_type=%E6%A0%A1%E6%8B%9B#library) | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E4%BF%A1%E9%93%B6%E8%A1%8C&job_type=%E7%A4%BE%E6%8B%9B#library) | — | — | [查看 JD](companies/citic-bank.md) | [企业官网](https://job.citicbank.com/) |
+| 招商银行 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | — | [查看 JD](companies/cmb.md) | [企业官网](https://career.cmbchina.com/) |
+| 招银网络科技 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E9%93%B6%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80&job_type=%E6%A0%A1%E6%8B%9B#library) | [5 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E9%93%B6%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80&job_type=%E7%A4%BE%E6%8B%9B#library) | — | — | [查看 JD](companies/cmb-network.md) | [企业官网](https://cmbntjob.cmbchina.com/) |
+| 工银科技 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B7%A5%E9%93%B6%E7%A7%91%E6%8A%80&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | — | [查看 JD](companies/icbc-technology.md) | [企业官网](https://job.icbc.com.cn/) |
+| 建信金融科技（建信金科） | — | [7 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BB%BA%E4%BF%A1%E9%87%91%E7%A7%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | — | [查看 JD](companies/ccb-fintech.md) | [企业校招](https://job.ccb.com/cn/job/org_index.html?orgId=8ba3bc9962e2c55501636c1220b10648&planType=XY) · [企业社招](https://job.ccb.com/cn/job/org_index.html?orgId=8ba3bc9962e2c55501636c1220b10648&planType=SH) |
 
 <a id="global-employers"></a>
 
@@ -152,7 +156,7 @@
 
 ## 按方向
 
-- **预训练与数据**（64）
+- **预训练与数据**（66）
   - [华为 · 算法工程师（大模型预训练与后训练，2027 届）](companies/huawei.md#job025)
   - [百度 · 大模型算法工程师（2027 AIDU）](companies/baidu.md#job029)
   - [百度 · 大模型算法工程师（文心基座研发）](companies/baidu.md#job030)
@@ -217,7 +221,9 @@
   - [中电信人工智能科技（中国电信） · 语义大模型算法工程师](companies/china-telecom.md#job1224)
   - [Microsoft（微软） · Research Intern for Machine Learning Group – Discriminative Foundation Models and Efficient Decision-Making](companies/microsoft.md#job1236)
   - [Microsoft（微软） · Research Intern for Artificial Intelligence Reasoning Group](companies/microsoft.md#job1241)
-- **后训练与强化学习**（115）
+  - [中国移动 · 算法开发岗（结构化数据大模型）-金种子（北京）](companies/china-mobile.md#job1285)
+  - [建信金科 · 人工智能大模型开发工程师（广州事业群）](companies/ccb-fintech.md#job1289)
+- **后训练与强化学习**（117）
   - [上海人工智能实验室 · 大模型强化学习青年研究员](#job001)
   - [上海人工智能实验室 · 大模型及智能体后训练工程师 / 青年研究员](#job002)
   - [阿里巴巴集团 · 算法工程师（大模型后训练）](companies/alibaba.md#job024)
@@ -333,7 +339,9 @@
   - [中电信人工智能科技（中国电信） · 语义大模型强化学习算法工程师](companies/china-telecom.md#job1223)
   - [Microsoft（微软） · Research Intern for Artificial Intelligence Reasoning Group](companies/microsoft.md#job1235)
   - [Microsoft（微软） · Research Intern for Social Computing Group](companies/microsoft.md#job1240)
-- **LLM Infra 与推理**（197）
+  - [中国移动 · AI算法工程师（大模型与体系化AI）-金种子（北京）](companies/china-mobile.md#job1281)
+  - [中国移动 · 算法开发岗（智能体与强化学习）-金种子（北京）](companies/china-mobile.md#job1283)
+- **LLM Infra 与推理**（202）
   - [快手 · 大模型推理 / 训练引擎研发工程师](companies/kuaishou.md#job005)
   - [滴普科技 · 大模型开发工程师（Infra 方向）](#job006)
   - [百度 · 大模型 Infra 工程师（2027 AIDU）](companies/baidu.md#job032)
@@ -531,7 +539,12 @@
   - [NVIDIA（英伟达） · AI Computing Development Intern, TensorRT-LLM - 2027](companies/nvidia.md#job1255)
   - [NVIDIA（英伟达） · Software Engineer Intern, AI and DL Kernel Libraries - 2027](companies/nvidia.md#job1256)
   - [Apple（苹果） · Manager, Machine Learning Engineer](companies/apple.md#job1257)
-- **Agent 与 RAG**（305）
+  - [中国移动 · AI智算解决方案架构专家](companies/china-mobile.md#job1260)
+  - [中国移动 · 拔尖计划-算力专家](companies/china-mobile.md#job1263)
+  - [中信银行 · 大数据平台开发工程师](companies/citic-bank.md#job1266)
+  - [招银网络科技 · 大模型研发工程师](companies/cmb-network.md#job1275)
+  - [建信金科 · 人工智能算法工程师（推理优化方向）（基础技术中心）](companies/ccb-fintech.md#job1295)
+- **Agent 与 RAG**（316）
   - [美团 · 大模型算法工程师（长程 Agent / 多模态 / RL）](companies/meituan.md#job004)
   - [公司未披露 · 大模型算法工程师（视频剪辑 Agent）](#job021)
   - [百度 · 多模态算法工程师（教育智能体）](companies/baidu.md#job036)
@@ -837,6 +850,17 @@
   - [商汤科技（SenseTime） · 〖27届校招〗大模型Agentic算法工程师](companies/sensetime.md#job1214)
   - [Microsoft（微软） · Research Intern for ML group in Time Series Direction](companies/microsoft.md#job1232)
   - [SAP（思爱普） · SAP China iXp Intern - AI Application Developer Intern - Open Source Software Compliance - Shanghai](companies/sap.md#job1258)
+  - [中国移动 · AI全栈工程师](companies/china-mobile.md#job1259)
+  - [中国移动 · 拔尖计划-人工智能专家](companies/china-mobile.md#job1262)
+  - [中信银行 · AI算法工程师](companies/citic-bank.md#job1265)
+  - [中国联通 · AI Agent开发工程师](companies/china-unicom.md#job1269)
+  - [中国移动 · AI开发岗（北京）](companies/china-mobile.md#job1280)
+  - [中国移动 · 算法开发岗（管信）-金种子（北京）](companies/china-mobile.md#job1284)
+  - [建信金科 · 人工智能应用开发工程师（广州事业群）](companies/ccb-fintech.md#job1290)
+  - [建信金科 · 人工智能应用开发工程师（成都事业群）](companies/ccb-fintech.md#job1291)
+  - [建信金科 · 人工智能开发工程师（基础技术中心）](companies/ccb-fintech.md#job1292)
+  - [建信金科 · 人工智能智能体平台架构师（基础技术中心）](companies/ccb-fintech.md#job1293)
+  - [建信金科 · 人工智能智能体开发工程师（广州事业群）](companies/ccb-fintech.md#job1294)
 - **搜索与检索**（79）
   - [贝壳找房 · 大模型算法工程师（2027 届秋招）](#job010)
   - [小红书 · 社区搜索算法工程师（2027 校招）](companies/xiaohongshu.md#job016)
@@ -1018,7 +1042,7 @@
   - [Grab · Senior Data Scientist (Consumer Experience)](companies/grab.md#job1012)
   - [OpenAI · Applied Data Scientist, Personalization & Machine Learning](companies/openai.md#job1029)
   - [MiniMax（稀宇科技） · 推荐算法实习生-talkie星野](companies/minimax.md#job1134)
-- **用户增长与营销**（47）
+- **用户增长与营销**（48）
   - [小红书 · 电商算法工程师（2027 校招）](companies/xiaohongshu.md#job015)
   - [字节跳动 · 大模型应用算法工程师（Commercial AI）](companies/bytedance.md#job023)
   - [腾讯 · 腾讯营销生成式推荐算法专家](companies/tencent.md#job052)
@@ -1066,7 +1090,8 @@
   - [Amazon（亚马逊） · Data Engineer - AI/ML Products, AOP (Analytics Operations and Programs)](companies/amazon.md#job1252)
   - [Amazon（亚马逊） · Sr Data Scientist, Seller Economics, WW Global Selling - PMO](companies/amazon.md#job1253)
   - [Amazon（亚马逊） · Applied Scientist, OpenSearch Shanghai](companies/amazon.md#job1254)
-- **风控与内容安全**（86）
+  - [中信银行 · 数据挖掘分析师（渠道获客方向）](companies/citic-bank.md#job1267)
+- **风控与内容安全**（91）
   - [蚂蚁集团 · 机器学习算法（搜广推与风控）](#job018)
   - [字节跳动 · Agent / 强化学习算法工程师（商业化内容理解）](companies/bytedance.md#job020)
   - [蚂蚁集团 · 风控反欺诈 / 风控算法专家（多模态）](#job022)
@@ -1153,7 +1178,12 @@
   - [阶跃星辰（StepFun） · AI 安全研究员 / Research Scientist, AI Safety](companies/stepfun.md#job1170)
   - [阶跃星辰（StepFun） · 27届-端侧AI安全算法工程师](companies/stepfun.md#job1182)
   - [招银网络科技 · 算法工程师（2027 届校招）](companies/cmb-network.md#job1230)
-- **语音与实时交互**（59）
+  - [中信银行 · 风险计量策略岗](companies/citic-bank.md#job1268)
+  - [招银网络科技 · AI研发安全工程师](companies/cmb-network.md#job1273)
+  - [招银网络科技 · 信息安全岗](companies/cmb-network.md#job1274)
+  - [招银网络科技 · 算法工程师](companies/cmb-network.md#job1277)
+  - [中国移动 · AI开发岗（AI安全治理）-金种子（北京）](companies/china-mobile.md#job1279)
+- **语音与实时交互**（60）
   - [思必驰 · 大模型算法工程师（2027 届）](#job008)
   - [同花顺 · 算法实习生（对话大模型与语音客服 Agent）](#job027)
   - [百度 · 语音大模型算法工程师（2027 AIDU）](companies/baidu.md#job031)
@@ -1213,7 +1243,8 @@
   - [阶跃星辰（StepFun） · 实习-语音大模型算法研究员](companies/stepfun.md#job1188)
   - [中电信人工智能科技（中国电信） · 语音大模型算法工程师](companies/china-telecom.md#job1225)
   - [Microsoft（微软） · Research Intern for Media Computing Group (Audio)](companies/microsoft.md#job1237)
-- **客服与对话系统**（13）
+  - [中国联通 · AI语音大模型算法专家（杭州）（J10273）](companies/china-unicom.md#job1270)
+- **客服与对话系统**（14）
   - [金山云 · 大模型算法工程师（实习）](#job009)
   - [字节跳动 · 大模型算法工程师（业务后训练）](companies/bytedance.md#job019)
   - [美团 · 大模型业务运营岗](companies/meituan.md#job688)
@@ -1227,7 +1258,8 @@
   - [滴滴 · 高级 Java 研发工程师](companies/didi.md#job837)
   - [Amazon（亚马逊） · Software Development Engineer, Amazon Customer Service](companies/amazon.md#job927)
   - [OpenAI · Partner Applied AI Engineer - LATAM](companies/openai.md#job1032)
-- **多模态与生成**（188）
+  - [中国联通 · 软件研发岗（人工智能）](companies/china-unicom.md#job1287)
+- **多模态与生成**（190）
   - [上海人工智能实验室 · 科学多模态大模型青年研究员 / 算法工程师](#job003)
   - [字节跳动 · 国际电商多模态大模型算法实习（知识图谱）](companies/bytedance.md#job013)
   - [小红书 · 多模态基础模型算法工程师（2027 校招）](companies/xiaohongshu.md#job014)
@@ -1416,13 +1448,22 @@
   - [Microsoft（微软） · Research Intern for Intelligent Multimedia Group](companies/microsoft.md#job1246)
   - [Microsoft（微软） · Research Intern for Visual Computing Group](companies/microsoft.md#job1247)
   - [Microsoft（微软） · Research Intern for Multimodal Computing Group](companies/microsoft.md#job1248)
-- **应用机器学习**（6）
+  - [招银网络科技 · 大模型算法工程师](companies/cmb-network.md#job1276)
+  - [中国移动 · 算法开发工程师（多模态-金种子）](companies/china-mobile.md#job1286)
+- **应用机器学习**（13）
   - [智谱（Z.ai） · 算法工程师](companies/zhipu.md#job1059)
   - [北京智源人工智能研究院 · 研究员(Scientist AI)](companies/baai.md#job1138)
   - [阶跃星辰（StepFun） · 27届Stepstar-端侧大模型量化算法工程师](companies/stepfun.md#job1165)
   - [中信银行 · 大数据类（人工智能研发方向，2027 届秋招）](companies/citic-bank.md#job1228)
   - [招商银行 · 职能类岗位（智能科学研发方向）](companies/cmb.md#job1229)
   - [Microsoft（微软） · Senior/Principal Researcher](companies/microsoft.md#job1231)
+  - [中国移动 · 大数据开发](companies/china-mobile.md#job1261)
+  - [中信银行 · 金融科技类（研发）](companies/citic-bank.md#job1264)
+  - [中国联通 · AI算法工程师（日照－市公司本部）2027秋招](companies/china-unicom.md#job1271)
+  - [中国联通 · 人工智能工程师（广东联通 2027 届新苗计划）](companies/china-unicom.md#job1272)
+  - [中国移动 · AI业务部-AI算法工程师-雄安](companies/china-mobile.md#job1278)
+  - [中国移动 · 人工智能技术研究](companies/china-mobile.md#job1282)
+  - [工银科技 · 科技菁英－算法研究](companies/icbc-technology.md#job1288)
 
 ## 按公司
 
@@ -1687,8 +1728,34 @@
   - [大模型及智能体后训练工程师 / 青年研究员](#job002)
   - [科学多模态大模型青年研究员 / 算法工程师](#job003)
   - [多模态大模型研究实习生（评测团队）](#job028)
-- **中信银行**（1） [查看公司 JD](companies/citic-bank.md)
+- **中信银行**（6） [查看公司 JD](companies/citic-bank.md)
   - <a id="job1228"></a>[JOB1228](companies/citic-bank.md#job1228)
+  - <a id="job1264"></a>[JOB1264](companies/citic-bank.md#job1264)
+  - <a id="job1265"></a>[JOB1265](companies/citic-bank.md#job1265)
+  - <a id="job1266"></a>[JOB1266](companies/citic-bank.md#job1266)
+  - <a id="job1267"></a>[JOB1267](companies/citic-bank.md#job1267)
+  - <a id="job1268"></a>[JOB1268](companies/citic-bank.md#job1268)
+- **中国移动**（14） [查看公司 JD](companies/china-mobile.md)
+  - <a id="job1259"></a>[JOB1259](companies/china-mobile.md#job1259)
+  - <a id="job1260"></a>[JOB1260](companies/china-mobile.md#job1260)
+  - <a id="job1261"></a>[JOB1261](companies/china-mobile.md#job1261)
+  - <a id="job1262"></a>[JOB1262](companies/china-mobile.md#job1262)
+  - <a id="job1263"></a>[JOB1263](companies/china-mobile.md#job1263)
+  - <a id="job1278"></a>[JOB1278](companies/china-mobile.md#job1278)
+  - <a id="job1279"></a>[JOB1279](companies/china-mobile.md#job1279)
+  - <a id="job1280"></a>[JOB1280](companies/china-mobile.md#job1280)
+  - <a id="job1281"></a>[JOB1281](companies/china-mobile.md#job1281)
+  - <a id="job1282"></a>[JOB1282](companies/china-mobile.md#job1282)
+  - <a id="job1283"></a>[JOB1283](companies/china-mobile.md#job1283)
+  - <a id="job1284"></a>[JOB1284](companies/china-mobile.md#job1284)
+  - <a id="job1285"></a>[JOB1285](companies/china-mobile.md#job1285)
+  - <a id="job1286"></a>[JOB1286](companies/china-mobile.md#job1286)
+- **中国联通**（5） [查看公司 JD](companies/china-unicom.md)
+  - <a id="job1269"></a>[JOB1269](companies/china-unicom.md#job1269)
+  - <a id="job1270"></a>[JOB1270](companies/china-unicom.md#job1270)
+  - <a id="job1271"></a>[JOB1271](companies/china-unicom.md#job1271)
+  - <a id="job1272"></a>[JOB1272](companies/china-unicom.md#job1272)
+  - <a id="job1287"></a>[JOB1287](companies/china-unicom.md#job1287)
 - **中电信人工智能科技（中国电信）**（7） [查看公司 JD](companies/china-telecom.md)
   - <a id="job1221"></a>[JOB1221](companies/china-telecom.md#job1221)
   - <a id="job1222"></a>[JOB1222](companies/china-telecom.md#job1222)
@@ -2049,6 +2116,16 @@
   - <a id="job844"></a>[JOB844](companies/xiaohongshu.md#job844)
   - <a id="job845"></a>[JOB845](companies/xiaohongshu.md#job845)
   - <a id="job846"></a>[JOB846](companies/xiaohongshu.md#job846)
+- **工银科技**（1） [查看公司 JD](companies/icbc-technology.md)
+  - <a id="job1288"></a>[JOB1288](companies/icbc-technology.md#job1288)
+- **建信金科**（7） [查看公司 JD](companies/ccb-fintech.md)
+  - <a id="job1289"></a>[JOB1289](companies/ccb-fintech.md#job1289)
+  - <a id="job1290"></a>[JOB1290](companies/ccb-fintech.md#job1290)
+  - <a id="job1291"></a>[JOB1291](companies/ccb-fintech.md#job1291)
+  - <a id="job1292"></a>[JOB1292](companies/ccb-fintech.md#job1292)
+  - <a id="job1293"></a>[JOB1293](companies/ccb-fintech.md#job1293)
+  - <a id="job1294"></a>[JOB1294](companies/ccb-fintech.md#job1294)
+  - <a id="job1295"></a>[JOB1295](companies/ccb-fintech.md#job1295)
 - **快手**（32） [查看公司 JD](companies/kuaishou.md)
   - <a id="job005"></a>[JOB005](companies/kuaishou.md#job005)
   - <a id="job007"></a>[JOB007](companies/kuaishou.md#job007)
@@ -2086,8 +2163,13 @@
   - [大模型算法工程师（2027 届）](#job008)
 - **招商银行**（1） [查看公司 JD](companies/cmb.md)
   - <a id="job1229"></a>[JOB1229](companies/cmb.md#job1229)
-- **招银网络科技**（1） [查看公司 JD](companies/cmb-network.md)
+- **招银网络科技**（6） [查看公司 JD](companies/cmb-network.md)
   - <a id="job1230"></a>[JOB1230](companies/cmb-network.md#job1230)
+  - <a id="job1273"></a>[JOB1273](companies/cmb-network.md#job1273)
+  - <a id="job1274"></a>[JOB1274](companies/cmb-network.md#job1274)
+  - <a id="job1275"></a>[JOB1275](companies/cmb-network.md#job1275)
+  - <a id="job1276"></a>[JOB1276](companies/cmb-network.md#job1276)
+  - <a id="job1277"></a>[JOB1277](companies/cmb-network.md#job1277)
 - **拼多多集团**（2） [查看公司 JD](companies/pdd.md)
   - <a id="job069"></a>[JOB069](companies/pdd.md#job069)
   - <a id="job070"></a>[JOB070](companies/pdd.md#job070)
@@ -2742,8 +2824,11 @@
 | [小红书](https://job.xiaohongshu.com/campus/position) | 4 | 已收录小红书招聘官网的 JD。社区笔记可在小红书 App 搜索「大模型 招聘」并用官网复核。 |
 | [牛客](https://www.nowcoder.com/jobs) | 16 | 从校招、社招与实习频道查具体职位，留意详情页的申请或结束标记。 |
 | [领英](https://www.linkedin.com/jobs/) | 2 | 可按城市检索英文职位名，如 LLM、Recommendation Model、AI Infra。部分投递需要登录。 |
-| [招聘官网](https://seed.bytedance.com/zh/career) | 1221 | 可结合招聘类型查看官网校招与社招。每条岗位链接直达具体职位，核验范围见详情。这里链接到字节 Seed 招聘官网。 |
-| [高校就业网](https://career.sustech.edu.cn/) | 9 | 查看学校就业网发布的企业校招信息、岗位说明与投递时间。 |
+| [招聘官网](https://seed.bytedance.com/zh/career) | 1242 | 可结合招聘类型查看官网校招与社招。每条岗位链接直达具体职位，核验范围见详情。这里链接到字节 Seed 招聘官网。 |
+| [高校就业网](https://career.sustech.edu.cn/) | 10 | 查看学校就业网发布的企业校招信息、岗位说明与投递时间。 |
+| [行业媒体](https://www.mpaypass.com.cn/) | 10 | 行业媒体或银行招聘资讯网站刊载的岗位说明，投递状态可在企业官网核对。 |
+| [国聘](https://www.iguopin.com/) | 4 | 查阅用人单位在国聘发布的具体职位。 |
+| [高校人才网](https://www.gaoxiaojob.com/) | 1 | 查看招聘公告、往届岗位和任职要求。 |
 
 ## 岗位与 JD
 

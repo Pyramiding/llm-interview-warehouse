@@ -61,11 +61,19 @@ ROBOTICS_EMPLOYERS = {
              'https://hr-jobs.sensetime.com/exp/position/list'),
 }
 FINANCE_TELECOM_EMPLOYERS = {
+    '中国移动': ('中国移动', 'china-mobile', 'https://job.10086.cn/personal/job/?type=1',
+             'https://job.10086.cn/personal/job/?type=2'),
+    '中国联通': ('中国联通', 'china-unicom', 'https://zglt.zhaopin.com/scjobs/index.html',
+             'https://www.chinaunicom.com/46/menu01/529/column06'),
     '中国电信': ('中国电信（含中电信人工智能科技）', 'china-telecom', None,
              'https://job.chinatelecom.com.cn/wt/TELE/web/index?brandCode=1'),
     '中信银行': ('中信银行', 'citic-bank', None, 'https://job.citicbank.com/'),
     '招商银行': ('招商银行', 'cmb', None, 'https://career.cmbchina.com/'),
     '招银网络科技': ('招银网络科技', 'cmb-network', None, 'https://cmbntjob.cmbchina.com/'),
+    '工银科技': ('工银科技', 'icbc-technology', None, 'https://job.icbc.com.cn/'),
+    '建信金科': ('建信金融科技（建信金科）', 'ccb-fintech',
+             'https://job.ccb.com/cn/job/org_index.html?orgId=8ba3bc9962e2c55501636c1220b10648&planType=XY',
+             'https://job.ccb.com/cn/job/org_index.html?orgId=8ba3bc9962e2c55501636c1220b10648&planType=SH'),
 }
 GLOBAL_EMPLOYERS = {
     'Google': ('Google（谷歌）', 'google', None, 'https://www.google.com/about/careers/applications/jobs/results/?q=Machine+Learning'),
@@ -163,6 +171,9 @@ def build_recruiting_index(known_topics):
     )
     official_by_employer = Counter((job['company_key'], job['job_type']) for job in official_jobs)
     all_by_employer = Counter((job['company_key'], job['job_type']) for job in jobs)
+    official_open_by_employer = Counter(
+        (job['company_key'], job['job_type']) for job in official_jobs if job['job_status'] == 'apply_link'
+    )
     listed_employers = {job['company_key'] for job in jobs}
     employer_groups = (
         ('major-employers', '重点公司官网', EMPLOYER_PAGES, True),
@@ -190,6 +201,15 @@ def build_recruiting_index(known_topics):
         counts = official_by_employer if official_only else all_by_employer
         count = counts[key, kind]
         return f'[{count} 条]({company_filter(key, kind, official_only)})' if count else '—'
+
+    def company_open_links(key):
+        links = []
+        for kind in ('校招', '社招'):
+            count = official_open_by_employer[key, kind]
+            if count:
+                url = recruiting_url(company=key, job_type=kind, platform='招聘官网', job_status='apply_link')
+                links.append(f'[{kind} {count} 条]({url})')
+        return links
 
     def employer_links(campus, portal):
         if campus and portal:
@@ -219,10 +239,15 @@ def build_recruiting_index(known_topics):
         lines += ['', f'<a id="{anchor}"></a>', '', f'## {heading}', '']
         if not official_only:
             lines += ['表内统计各公开渠道的收录记录，招聘类型未注明的条目可在公司 JD 页查看。', '']
-        lines += ['| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘入口 |', '|---|---:|---:|---:|---|---|']
+        show_open = group is FINANCE_TELECOM_EMPLOYERS
+        open_column = ' 官网有投递入口 |' if show_open else ''
+        lines += [f'| 公司 | 校招 | 社招 | 实习 |{open_column} GitHub JD | 招聘入口 |',
+                  '|---|---:|---:|---:|' + ('---|' if show_open else '') + '---|---|']
         for key, (name, _, campus, portal) in group.items():
             if key in employers:
                 counts = ' | '.join(company_count(key, kind, official_only) for kind in ('校招', '社招', '实习'))
+                if show_open:
+                    counts += ' | ' + (' · '.join(company_open_links(key)) or '—')
                 links = ' · '.join(employer_links(campus, portal)) or '—'
                 lines.append(f'| {name} | {counts} | [查看 JD]({company_pages[key]}) | {links} |')
     china_jobs = defaultdict(list)
@@ -266,6 +291,8 @@ def build_recruiting_index(known_topics):
 
     for key, (name, _, campus, portal, official_only) in employers.items():
         postings = [job for job in jobs if job['company_key'] == key]
+        if key in FINANCE_TELECOM_EMPLOYERS:
+            postings.sort(key=lambda job: ('apply_link', 'needs_check', 'closed').index(job['job_status']))
         counts = official_by_employer if official_only else all_by_employer
         company_links = [
             f'[网页{kind}]({company_filter(key, kind, official_only)})'
