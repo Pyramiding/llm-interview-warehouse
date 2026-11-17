@@ -14,6 +14,8 @@
 
 [打开招聘模块](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library) · [在 GitHub 按公司、方向看 JD](docs/recruiting/README.md)。
 
+官网岗位直达 [校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) · [社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library)。
+
 汇总大模型和算法岗的社招、校招与实习，附职责、任职要求、原帖和投递核验日期。网页版支持按方向、公司、城市、渠道和投递状态筛选。
 
 ## 找面经

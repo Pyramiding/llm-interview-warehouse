@@ -6,7 +6,7 @@ import re
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlencode, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 RECRUITING_URL = 'https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library'
@@ -75,6 +75,11 @@ def build_recruiting_index(known_topics):
         by_direction[job['direction']].append(job)
         by_company[job['company']].append(job)
     platforms = Counter(job['platform'] for job in jobs)
+    official_jobs = [job for job in jobs if job['platform'] == '招聘官网']
+    official_by_type = Counter(job['job_type'] for job in official_jobs)
+    official_with_application = Counter(
+        job['job_type'] for job in official_jobs if job['job_status'] == 'apply_link'
+    )
 
     def entry(job, include_company=False):
         label = f'{job["company"]} · {job["title"]}' if include_company else job['title']
@@ -85,8 +90,15 @@ def build_recruiting_index(known_topics):
         f'[打开招聘网页]({RECRUITING_URL}) · [返回面经仓库](../../README.md)', '',
         f'{last_checked} 更新，共收录 {len(jobs)} 条岗位与 JD。职责和要求根据对应原页改写，投递前请在原页确认状态。',
         '“有投递入口”表示核验时看到了申请入口。“投递待确认”适用于公开摘要或社区线索等情况，详情保留核验依据。', '',
-        '## 按方向', '',
+        '## 官网校招与社招', '',
+        '| 招聘类型 | 官网岗位 | 有投递入口 | 网页入口 |',
+        '|---|---:|---:|---|',
     ]
+    for kind in ('校招', '社招'):
+        query = urlencode({'view': 'jobs', 'platform': '招聘官网', 'job_type': kind})
+        filtered_url = f'{RECRUITING_URL.split("?")[0]}?{query}#library'
+        lines.append(f'| {kind} | {official_by_type[kind]} | {official_with_application[kind]} | [查看{kind}]({filtered_url}) |')
+    lines += ['', '## 按方向', '']
     for key, title in directions.items():
         if by_direction[key]:
             lines.append(f'- **{title}**（{len(by_direction[key])}）')

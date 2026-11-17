@@ -47,7 +47,7 @@
     {
       "name": "招聘官网",
       "url": "https://seed.bytedance.com/zh/career",
-      "guide": "高校实验室与企业官网可直接核对 JD。这里链接到字节 Seed，其他机构官网见各条目。"
+      "guide": "可结合招聘类型查看官网校招与社招。每条岗位链接直达具体职位，核验范围见详情。这里链接到字节 Seed 招聘官网。"
     }
   ],
   "jobs": [
@@ -1146,6 +1146,1938 @@
       ],
       "team": "大模型评测团队",
       "published": "2025-04-11"
+    },
+    {
+      "id": "JOB029",
+      "title": "大模型算法工程师（2027 AIDU）",
+      "company": "百度",
+      "company_key": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/GRADUATE/ab5ec82f-a8be-4b4a-8e6f-5debc34ea804",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "深圳"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "13"
+      ],
+      "skills": [
+        "MoE",
+        "预训练",
+        "RLHF",
+        "投机解码"
+      ],
+      "responsibilities": [
+        "研究模型结构、数据质量与训练方法，覆盖预训练、指令微调、对齐和推理增强。",
+        "协同优化量化、投机推理与分布式训推，服务搜索、推荐和对话等业务。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上，具备机器学习或 NLP 基础，熟悉 Transformer 和主流训练框架。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网 JD 可读，页面显示投递入口。",
+      "preferred": [
+        "有大规模预训练、后训练、分布式系统或投机推理实验经验。"
+      ],
+      "team": "2027 AIDU"
+    },
+    {
+      "id": "JOB030",
+      "title": "大模型算法工程师（文心基座研发）",
+      "company": "百度",
+      "company_key": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/GRADUATE/a5fa362e-4ed8-4a2d-917a-5700dc8a53b9",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "02",
+        "03",
+        "04",
+        "07"
+      ],
+      "skills": [
+        "文心",
+        "超长上下文",
+        "数据去重",
+        "模型合并"
+      ],
+      "responsibilities": [
+        "研究文心基座在代码、推理与智能体上的能力。",
+        "迭代稀疏架构、长上下文与优化器，建设去重、清洗和合成对齐数据的管线。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，能从训练数据、策略与模型表现中独立诊断问题，熟悉预训练、微调及强化学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网 JD 可读，页面显示投递入口。",
+      "preferred": [
+        "工业规模基座研发、论文或算法竞赛经历。"
+      ],
+      "team": "文心基础大模型"
+    },
+    {
+      "id": "JOB031",
+      "title": "语音大模型算法工程师（2027 AIDU）",
+      "company": "百度",
+      "company_key": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/GRADUATE/8d528038-983d-4165-b6f0-1fea77e3097a",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "speech",
+      "topics": [
+        "12",
+        "22"
+      ],
+      "skills": [
+        "语音大模型",
+        "跨模态表征",
+        "端到端建模"
+      ],
+      "responsibilities": [
+        "研究语音等模态的对齐表征、数据筛选与算力匹配，探索跨模态端到端建模。",
+        "把研究方案接入大模型平台验证规模化应用。"
+      ],
+      "requirements": [
+        "具备深度学习及语音、NLP 或视觉基础，能用 Python 和一种主流框架开展实验。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网 JD 可读，页面显示投递入口。",
+      "preferred": [
+        "具有工程实践、相关论文或编程竞赛经历。"
+      ],
+      "team": "应用模型技术部"
+    },
+    {
+      "id": "JOB032",
+      "title": "大模型 Infra 工程师（2027 AIDU）",
+      "company": "百度",
+      "company_key": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/GRADUATE/3fbd2b8c-43a6-4fa6-a71c-784bfe2ec4cd",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "03",
+        "05",
+        "15"
+      ],
+      "skills": [
+        "异构计算",
+        "集合通信",
+        "RDMA",
+        "编译优化"
+      ],
+      "responsibilities": [
+        "研发面向 GPU、CPU 等硬件的高性能算子、通信库和编译栈。",
+        "设计分布式系统和性能调优方案，降低训推成本。"
+      ],
+      "requirements": [
+        "计算机或电子类硕士及以上，熟悉 C++、Python、硬件架构和异构开发。",
+        "理解 NCCL、MPI、RDMA 等通信技术。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网 JD 可读，页面显示投递入口。",
+      "preferred": [
+        "有 CUDA、OpenCL、LLVM 或 AI 大集群开发经验。"
+      ],
+      "team": "AI 计算部、自动驾驶技术部"
+    },
+    {
+      "id": "JOB033",
+      "title": "多模态算法工程师（2027 AIDU）",
+      "company": "百度",
+      "company_key": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/GRADUATE/d29404bd-55de-4cc1-929b-e67d304abc97",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "05",
+        "13"
+      ],
+      "skills": [
+        "图文视频",
+        "视觉语言模型",
+        "扩散模型",
+        "蒸馏"
+      ],
+      "responsibilities": [
+        "研究图文、视频、声音、3D 的联合理解和生成，推进多模态模型在相关业务的评估和落地。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上。了解视觉、深度学习以及扩散模型或视觉语言模型，能用 Python 和主流框架复现实验。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网显示申请职位，该岗位归在 2027 AIDU 项目。",
+      "preferred": [
+        "博士、多模态预训练、模型轻量化或生成方向实践。"
+      ],
+      "team": "2027 AIDU"
+    },
+    {
+      "id": "JOB034",
+      "title": "搜索算法工程师（地图 AI 搜索）",
+      "company": "百度",
+      "company_key": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/33c51c78-2ed2-47e3-8ec7-e88194eec839",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "search",
+      "topics": [
+        "06",
+        "16",
+        "18"
+      ],
+      "skills": [
+        "地图搜索",
+        "POI",
+        "生成式召回",
+        "RAG"
+      ],
+      "responsibilities": [
+        "优化地图 Query 理解、召回和多阶段排序，把对话检索与 RAG 接入地图业务。",
+        "从 POI、轨迹、检索日志与评论挖掘信号并建设离线评测。"
+      ],
+      "requirements": [
+        "相关专业本科及以上；熟悉 C++ 或 Python、一套深度学习框架及搜索、推荐、NLP 或数据挖掘。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网 JD 可读，页面显示投递入口。",
+      "preferred": [
+        "有 LBS、向量检索、生成式推荐、模型微调或时空数据经历。"
+      ],
+      "team": "IDG"
+    },
+    {
+      "id": "JOB035",
+      "title": "AI 算法工程师（电商搜索）",
+      "company": "百度",
+      "company_key": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/a41e95a8-e6fd-46f1-9d10-21e65f5e1342",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "search",
+      "topics": [
+        "04",
+        "16",
+        "18"
+      ],
+      "skills": [
+        "电商搜索",
+        "模型调优",
+        "召回排序",
+        "需求理解"
+      ],
+      "responsibilities": [
+        "在电商检索中训练和对齐语言模型，改善意图判断、问答与召回排序。",
+        "推动高质量商品相关内容生成方案上线。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，对 NLP、搜索、推荐或主流 LLM 有深入理解，有百亿级或更大模型调优经历。",
+        "熟悉 Linux、主流框架及 C++、Python 或 Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网 JD 可读，页面显示投递入口。",
+      "preferred": [
+        "电商经验或相关顶会论文。"
+      ],
+      "team": "MEG"
+    },
+    {
+      "id": "JOB036",
+      "title": "多模态算法工程师（教育智能体）",
+      "company": "百度",
+      "company_key": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/6ae97d3e-b513-4dbe-b1e1-a691dc17b2fe",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "06",
+        "07",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "多模态解题",
+        "自动批改",
+        "LLM-as-Judge",
+        "任务路由"
+      ],
+      "responsibilities": [
+        "建设拍照解题和批改智能体，优化题目理解、题库检索与结果校验。",
+        "搭建从真实问题到内容入库的离线生产和评测流程，同时优化时延和成本。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上；做过多模态、后训练、搜索、RAG、Agent、批改或评测中的一项。",
+        "能独立规划技术子方向并推进工程交付。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网 JD 可读，页面显示投递入口。",
+      "preferred": [
+        "有教育大模型、拍照解题或线上系统建设经验。"
+      ],
+      "team": "MEG"
+    },
+    {
+      "id": "JOB037",
+      "title": "高级多模态算法工程师（应用与交互）",
+      "company": "百度",
+      "company_key": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/3674af56-7c3e-4bc9-8069-d45f20f2d428",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "18",
+        "19",
+        "20",
+        "22"
+      ],
+      "skills": [
+        "跨模态交互",
+        "多模态生成",
+        "数据分析"
+      ],
+      "responsibilities": [
+        "调优跨文本、视觉与语音的问答、生成和检索能力，推动移动端、Web 与端侧落地。",
+        "结合用户反馈和留存、转化等业务指标迭代。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上；在 NLP、视觉或语音至少一个方向具备经验，会用 Python 和深度学习框架调优。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网 JD 可读，页面显示投递入口。",
+      "preferred": [
+        "有多模态应用落地实践。"
+      ],
+      "team": "MEG"
+    },
+    {
+      "id": "JOB038",
+      "title": "腾讯游戏大模型强化学习框架研发工程师 / 专家",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2072330929078190080",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "深圳"
+      ],
+      "direction": "infra",
+      "topics": [
+        "04",
+        "05",
+        "12",
+        "15"
+      ],
+      "skills": [
+        "视频生成",
+        "世界模型",
+        "verl",
+        "分布式强化学习"
+      ],
+      "responsibilities": [
+        "研发视频生成和世界模型的强化学习训练框架，优化数据加载、通信、内存以及并行。",
+        "与算法同学验证新的训练策略并定位性能瓶颈。"
+      ],
+      "requirements": [
+        "熟悉 Python 和复杂系统排查，做过 Megatron-LM、DeepSpeed 或 FSDP 等分布式框架。",
+        "熟悉 PPO、GRPO、DPO 及强化学习框架，有生成模型项目经历。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。",
+      "team": "腾讯游戏 IEG"
+    },
+    {
+      "id": "JOB039",
+      "title": "AI Infra 研发工程师（自研芯片适配）",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2100835478730358784",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "深圳"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "12",
+        "15"
+      ],
+      "skills": [
+        "自研芯片",
+        "vLLM",
+        "SGLang",
+        "性能分析"
+      ],
+      "responsibilities": [
+        "适配自研芯片的训练与推理软件栈，协同改进算子到端到端模型表现。"
+      ],
+      "requirements": [
+        "熟悉 Linux 和 Python/C++，有 GPU 或 SIMD 开发和性能剖析能力。",
+        "具备主流训推框架和模型加速实战。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。",
+      "team": "TEG"
+    },
+    {
+      "id": "JOB040",
+      "title": "大模型算法交付工程师（行业模型方向）",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2111019349228826624",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "深圳"
+      ],
+      "direction": "agent",
+      "topics": [
+        "04",
+        "06",
+        "07",
+        "13"
+      ],
+      "skills": [
+        "企业 Agent",
+        "行业评测",
+        "模型中训",
+        "RAG"
+      ],
+      "responsibilities": [
+        "面向企业客户搭建知识库、工作流和工具调用，在真实业务数据上做评测与模型选型。",
+        "使用中期训练、SFT 与强化学习改进行业模型。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上，熟悉 Transformer 与后训练方法，能用 Python、PyTorch 动手训练或微调。",
+        "能从客户的业务场景拆解研究问题。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。",
+      "team": "腾讯云 CSIG"
+    },
+    {
+      "id": "JOB041",
+      "title": "光子 AI·LLM 高级研究员（游戏智能体）",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2075441482017456128",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "深圳"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "09",
+        "13"
+      ],
+      "skills": [
+        "游戏 Agent",
+        "长期记忆",
+        "任务规划",
+        "工具调用"
+      ],
+      "responsibilities": [
+        "迭代在线游戏智能体的规划、记忆和工具调用，平衡互动质量、时延与成本。"
+      ],
+      "requirements": [
+        "有 NLP 和机器学习项目基础，掌握至少一门编程语言及常用数据结构和算法。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。",
+      "preferred": [
+        "相关 AI 或 NLP 顶会、顶刊论文。"
+      ],
+      "team": "光子工作室群"
+    },
+    {
+      "id": "JOB042",
+      "title": "腾讯游戏语音算法资深研究员（新星引力计划）",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2007656317103267840",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "speech",
+      "topics": [
+        "05",
+        "22",
+        "23"
+      ],
+      "skills": [
+        "多语种 ASR",
+        "TTS",
+        "全双工",
+        "流式推理"
+      ],
+      "responsibilities": [
+        "迭代 GVoice 多语种识别、合成和跨语言全双工交互。",
+        "建设多语种训练和评测数据，优化端云侧语音模型压缩及流式部署。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上，做过至少三种语种的语音实践。",
+        "熟悉语音框架、Python 和主流深度学习框架，具备基础 C++ 能力。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。",
+      "team": "腾讯游戏 GVoice"
+    },
+    {
+      "id": "JOB043",
+      "title": "预训练（数据/算法）研究员",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/25dcb4d9-d250-43ce-8f56-159ddba47c10",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "02",
+        "03",
+        "09"
+      ],
+      "skills": [
+        "Scaling Law",
+        "数据配比",
+        "优化器",
+        "数据治理"
+      ],
+      "responsibilities": [
+        "研究软硬件协同的架构、优化器、训练稳定性与规模规律。",
+        "建设可追溯的训练数据，并研究质量筛选与配比。"
+      ],
+      "requirements": [
+        "有模型结构及训练算法研究能力，或具备大模型数据治理、质量评估与管线工程经验。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "企业官网提供投递链接，JD 同时接受全职与实习申请。"
+    },
+    {
+      "id": "JOB044",
+      "title": "后训练（数据/算法）研究员",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/5d75f4cd-f626-4f73-80c1-e53b2073de76",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "07",
+        "09",
+        "13"
+      ],
+      "skills": [
+        "RLVR",
+        "GRPO",
+        "数据合成",
+        "Agent 评测"
+      ],
+      "responsibilities": [
+        "研究后训练强化学习，建设自动化清洗、合成和评测链路，改善写作、问答及智能体任务。"
+      ],
+      "requirements": [
+        "熟悉后训练算法、数据工程、评测方法三个方向中的至少一个，能在对应方向独立开展研究或建设系统。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "企业官网在招列表的职位详情提供投递链接，挂在社招通道。"
+    },
+    {
+      "id": "JOB045",
+      "title": "AI 搜索算法 / 架构工程师",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/1df4597d-6039-4392-9954-0df72510f415",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "search",
+      "topics": [
+        "06",
+        "07",
+        "13",
+        "16"
+      ],
+      "skills": [
+        "AI 搜索",
+        "多语种检索",
+        "排序",
+        "LLM 评测"
+      ],
+      "responsibilities": [
+        "改进搜索引擎的意图理解、召回、排序及索引质量，向语言模型提供多语种和多模态检索结果。",
+        "建设质量评测并在规模化服务中权衡时延、成本与效果。"
+      ],
+      "requirements": [
+        "算法方向熟悉机器学习、深度学习或信息检索；架构方向侧重大规模服务开发及性能调优。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "企业官网提供投递链接，岗位含搜索算法与架构方向，接受全职和实习。"
+    },
+    {
+      "id": "JOB046",
+      "title": "Agent Harness 团队",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/8d40c764-d2b2-49b1-826c-e3f2adb75c01",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "09",
+        "13"
+      ],
+      "skills": [
+        "Agent Harness",
+        "长期记忆",
+        "多智能体",
+        "工具调用"
+      ],
+      "responsibilities": [
+        "让智能体的上下文、记忆、子智能体和长程任务能力与模型同步迭代。",
+        "建设基准、标注和反馈闭环，支撑研究与工程落地。"
+      ],
+      "requirements": [
+        "研究方向通常要求两年以上相关科研经验，工程方向侧重 AI 应用和复杂系统实践。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "企业官网提供投递链接；页面是团队招聘，含研究和研发多个方向，同时接受全职和实习。"
+    },
+    {
+      "id": "JOB047",
+      "title": "多模态理解（数据/算法）研究员",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/7dcd6fde-84f1-4deb-890c-f1f275df0efc",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "04",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "视觉编码器",
+        "VLM",
+        "多模态预训练",
+        "OPD"
+      ],
+      "responsibilities": [
+        "研究视觉编码器及多模态基座，建设图文或视频数据、训练与评测流程。",
+        "在文档、图表、GUI 和多模态搜索中验证模型和 Agent。"
+      ],
+      "requirements": [
+        "在视觉编码器、多模态大规模训练、图文数据生产或垂直场景迭代中有一项扎实实践。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "企业官网在招列表的职位详情提供投递链接，挂在社招通道。"
+    },
+    {
+      "id": "JOB048",
+      "title": "大模型训练/推理框架工程师",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/43f8551a-4235-4d5e-a9a7-44386cd79795",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "infra",
+      "topics": [
+        "03",
+        "04",
+        "05",
+        "07",
+        "15"
+      ],
+      "skills": [
+        "模型并行",
+        "MoE",
+        "异步 RL",
+        "KV Cache"
+      ],
+      "responsibilities": [
+        "研发分布式训推和强化学习系统，支持长上下文、低精度、多模态与在线策略蒸馏。",
+        "优化 KV Cache 持久化、在线服务负载均衡及数据读取。"
+      ],
+      "requirements": [
+        "掌握 Python、C++ 或 Rust 之一，了解 PyTorch，有系统开发和排查能力。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "企业官网在招列表的职位详情提供投递链接，挂在社招通道。",
+      "preferred": [
+        "开源贡献、高性能计算或算法竞赛经历。"
+      ]
+    },
+    {
+      "id": "JOB049",
+      "title": "高性能算子/通信/编译器工程师",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/aed2a32c-189f-4338-b901-9b45d2b7edfd",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "infra",
+      "topics": [
+        "03",
+        "05",
+        "15"
+      ],
+      "skills": [
+        "TileLang",
+        "CUDA",
+        "Ascend C",
+        "集合通信"
+      ],
+      "responsibilities": [
+        "为 GPU、NPU 开发 GEMM 与 Attention 算子，优化多机集合通信，研发编译器和中间表示。"
+      ],
+      "requirements": [
+        "熟悉 C++ 与 Git，对底层实现和性能调优有持续兴趣。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "企业官网在招列表的职位详情提供投递链接，挂在社招通道。",
+      "preferred": [
+        "GPU 或 NPU 算子、集合通信、编译器和性能剖析经验。"
+      ]
+    },
+    {
+      "id": "JOB050",
+      "title": "混元推理算子开发工程师",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2066810245954580480",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "12",
+        "15"
+      ],
+      "skills": [
+        "Attention 算子",
+        "CUDA",
+        "TensorRT",
+        "异构推理"
+      ],
+      "responsibilities": [
+        "开发 Transformer 等模型的推理算子，优化 CUDA、CPU 及 NPU 上的内存、调度与延迟。",
+        "将算子融合、量化与动态批处理用于实际推理引擎。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，具备 C/C++ 与异构体系结构基础。",
+        "熟悉主流框架底层实现，并有 GPU、CPU 或 NPU 的算子优化经验。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "team": "腾讯混元"
+    },
+    {
+      "id": "JOB051",
+      "title": "微信小游戏大模型推荐算法工程师（商业化）",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2078318720920498176",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "深圳"
+      ],
+      "direction": "recommendation",
+      "topics": [
+        "17",
+        "18",
+        "20"
+      ],
+      "skills": [
+        "大模型推荐",
+        "多阶段排序",
+        "商业化",
+        "素材理解"
+      ],
+      "responsibilities": [
+        "为微信小游戏等业务迭代推荐投放全链路，覆盖素材、召回、排序和重排。",
+        "实验生成式推荐与其他大模型技术对业务增长的影响。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，能在 LLM、搜广推或多模态方向完成工程落地。",
+        "有工业场景的大模型推荐研发经验。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "team": "微信游戏中心"
+    },
+    {
+      "id": "JOB052",
+      "title": "腾讯营销生成式推荐算法专家",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2094760861490135040",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "growth",
+      "topics": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "skills": [
+        "营销推荐",
+        "用户序列建模",
+        "生成式建模",
+        "广告多模态"
+      ],
+      "responsibilities": [
+        "规划营销推荐算法和团队工作，研究用户兴趣、行为序列与生成式推荐。",
+        "提升模型可扩展性与线上训推效率，探索多模态创意和 Agent 在广告业务中的应用。"
+      ],
+      "requirements": [
+        "具备机器学习基础及 PyTorch 或 TensorFlow 训练、调参与线上优化经验。",
+        "能管理跨团队算法项目，推动业务落地。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "preferred": [
+        "有大规模机器学习系统、推荐大模型或搜广推算法管理经验。"
+      ],
+      "team": "腾讯广告"
+    },
+    {
+      "id": "JOB053",
+      "title": "腾讯营销搜索广告算法专家",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2094760863792807936",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "ads",
+      "topics": [
+        "04",
+        "16",
+        "17"
+      ],
+      "skills": [
+        "搜索广告",
+        "生成式召排",
+        "相关性",
+        "多模态"
+      ],
+      "responsibilities": [
+        "用语言模型改进广告意图识别和需求匹配，研究生成式召回排序。",
+        "通过继续预训练、强化微调和多模态表征增强广告相关性。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上，具备 3–5 年大模型研究或应用经验。",
+        "熟悉大模型训练、调优和产品落地，能用 Python 和 C++ 做工程实现。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "team": "腾讯广告"
+    },
+    {
+      "id": "JOB054",
+      "title": "微信小程序搜索算法工程师（Agent）",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2086789751029022720",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "广州"
+      ],
+      "direction": "search",
+      "topics": [
+        "04",
+        "06",
+        "07",
+        "16"
+      ],
+      "skills": [
+        "Query 改写",
+        "Embedding 后训练",
+        "Rerank",
+        "A/B 实验"
+      ],
+      "responsibilities": [
+        "研发智能体驱动的小程序搜索，覆盖检索意图、召回和多阶段排序。",
+        "用 SFT 和蒸馏改进查询重写及领域向量，训练重排模型并用 A/B 实验迭代。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，两年以上搜索、NLP 或信息检索经验。",
+        "具备后训练与蒸馏实操，了解倒排索引和向量索引。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "team": "微信小程序"
+    },
+    {
+      "id": "JOB055",
+      "title": "微信视频搜索算法高级工程师（生成式召回）",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2091832513138966528",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "广州"
+      ],
+      "direction": "search",
+      "topics": [
+        "04",
+        "12",
+        "16",
+        "18"
+      ],
+      "skills": [
+        "语义 ID",
+        "生成式召回",
+        "行为序列",
+        "SFT"
+      ],
+      "responsibilities": [
+        "为视频搜索设计生成式召回，用多模态视频表征与用户行为序列预测需要召回的语义 ID。",
+        "在训练与排序链路中评估检索质量和用户体验。"
+      ],
+      "requirements": [
+        "熟悉 C++、Python 和 PyTorch，具备机器学习、强化学习和生成式检索或推荐落地经验。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "team": "微信搜一搜"
+    },
+    {
+      "id": "JOB056",
+      "title": "微信小店风控大模型算法工程师",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2077293039302393856",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "广州"
+      ],
+      "direction": "risk",
+      "topics": [
+        "04",
+        "06",
+        "07",
+        "21"
+      ],
+      "skills": [
+        "电商反作弊",
+        "多模态风控",
+        "RAG",
+        "Agent"
+      ],
+      "responsibilities": [
+        "识别违规内容、异常商家及虚假交易，研发传统风控模型与大模型协同方案。",
+        "用检索和智能体增强风险归因、策略迭代与解释。"
+      ],
+      "requirements": [
+        "相关专业研究生及以上，熟悉 Python、C++ 等，具备统计和数据分析能力。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "preferred": [
+        "有 NLP、视觉、大模型微调、内容安全或电商治理经验。"
+      ],
+      "team": "微信交易平台"
+    },
+    {
+      "id": "JOB057",
+      "title": "高级广告审核 Agent 算法工程师",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2108144612332974080",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "深圳",
+        "北京"
+      ],
+      "direction": "risk",
+      "topics": [
+        "04",
+        "07",
+        "13",
+        "17",
+        "21"
+      ],
+      "skills": [
+        "广告审核",
+        "Agent Harness",
+        "多智能体",
+        "多模态生成"
+      ],
+      "responsibilities": [
+        "做广告审核智能体的规则理解、案例推理、自动归因和迭代评测。",
+        "用多模态生成协助修复拒审内容，并验证修复效果。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上。有大模型训练、微调、推理优化与智能体项目经历。",
+        "熟悉反思、记忆、规划或多智能体协作。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "preferred": [
+        "有广告、内容安全、风控审核落地经验。"
+      ],
+      "team": "腾讯广告相关业务"
+    },
+    {
+      "id": "JOB058",
+      "title": "混元 AI Agent Harness 工程师",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2052685072754196480",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "深圳"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "13"
+      ],
+      "skills": [
+        "Agent Harness",
+        "Trace",
+        "自动化评测",
+        "回归检测"
+      ],
+      "responsibilities": [
+        "搭建智能体执行链路追踪、可观测性和调试工具。",
+        "开发自动化评测、对比实验和标注数据平台，联动模型团队迭代。"
+      ],
+      "requirements": [
+        "有全栈工程和系统设计基础，熟悉 LLM、Agent 框架及提示工程。",
+        "有较深入的代码 Agent 实践，能识别能力边界和失败模式。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "team": "混元工程平台"
+    },
+    {
+      "id": "JOB059",
+      "title": "金融大模型算法工程师",
+      "company": "腾讯",
+      "company_key": "腾讯",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2101507113946886144",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "深圳"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "03",
+        "04",
+        "13",
+        "21"
+      ],
+      "skills": [
+        "持续预训练",
+        "金融领域模型",
+        "奖励设计",
+        "分布式训练"
+      ],
+      "responsibilities": [
+        "负责金融模型持续预训练、后训练和模型结构优化，设计面向金融任务的奖励与训练方案。",
+        "将模型接入实际金融智能应用并持续改进。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上，具备百亿至千亿参数级模型实践，熟悉 DeepSpeed 或 Megatron-LM 等框架。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。",
+      "preferred": [
+        "有 AI 方向顶会、期刊论文。"
+      ],
+      "team": "腾讯金融科技 FiT"
+    },
+    {
+      "id": "JOB060",
+      "title": "大模型应用算法工程师（搜推，2027 届）",
+      "company": "美团",
+      "company_key": "美团",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4697320023",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "search",
+      "topics": [
+        "06",
+        "07",
+        "16",
+        "18"
+      ],
+      "skills": [
+        "生成式搜索",
+        "生成式推荐",
+        "RAG",
+        "领域模型调优"
+      ],
+      "responsibilities": [
+        "研究美团平台生成式搜索、推荐及交互式对话，试验 RAG、智能体和领域微调。",
+        "将算法应用到本地生活场景并衡量业务效果。"
+      ],
+      "requirements": [
+        "计算机相关专业，熟悉机器学习、NLP 及主流框架，对语言模型有实际动手经验。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网职位详情标为招聘中，原页提供申请入口。",
+      "preferred": [
+        "有搜广推、AIGC 或复杂业务模型项目经历，或有论文、竞赛成果。"
+      ],
+      "team": "2026年（2027届）秋季校招",
+      "published": "2026-08-17"
+    },
+    {
+      "id": "JOB061",
+      "title": "AI Infra / 推理系统工程师（2027 届）",
+      "company": "美团",
+      "company_key": "美团",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4697320030",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "03",
+        "05",
+        "15"
+      ],
+      "skills": [
+        "GPU/NPU 调度",
+        "vLLM",
+        "KV Cache",
+        "推理加速"
+      ],
+      "responsibilities": [
+        "建设训练、部署与推理基础设施，优化并发、缓存和 GPU/NPU 资源利用率。",
+        "为智能体、模型训练和评测提供服务化能力。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，会用 C++、Python、Go、Rust 或 Java 之一。",
+        "理解操作系统、网络及分布式系统基础。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网职位详情标为招聘中，原页提供申请入口。",
+      "preferred": [
+        "有容器平台、CUDA、量化、模型部署或高并发项目经验。"
+      ],
+      "team": "2026年（2027届）秋季校招",
+      "published": "2026-08-17"
+    },
+    {
+      "id": "JOB062",
+      "title": "AI 应用开发工程师（2027 届秋招项目）",
+      "company": "美团",
+      "company_key": "美团",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4694862735",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "agent",
+      "topics": [
+        "06",
+        "07",
+        "13"
+      ],
+      "skills": [
+        "RAG",
+        "工作流编排",
+        "Function Calling",
+        "MCP"
+      ],
+      "responsibilities": [
+        "研发智能体与内部 AI 应用，搭建检索、工具调用、工作流和后端接口。",
+        "处理应用数据并做线上监控和技术迭代。"
+      ],
+      "requirements": [
+        "JD 标注面向 2026/2027 届本科及以上，具备一种后端语言和数据库、接口、部署基础。",
+        "理解提示、RAG、工具调用及 MCP 等概念。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网职位详情标为招聘中，原页提供申请入口。",
+      "team": "2026年（2027届）秋季校招",
+      "published": "2026-08-17"
+    },
+    {
+      "id": "JOB063",
+      "title": "大模型自进化与自动化研究智能体研究员（2027 届）",
+      "company": "美团",
+      "company_key": "美团",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4531842029",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "agent",
+      "topics": [
+        "04",
+        "07",
+        "09",
+        "13"
+      ],
+      "skills": [
+        "LongCat",
+        "AI Scientist",
+        "自进化",
+        "自动实验"
+      ],
+      "responsibilities": [
+        "用智能体完成研究假设、实验设计、验证与经验沉淀，探索基座模型自进化。",
+        "构建真实模型研发任务上的数据和评测方案。"
+      ],
+      "requirements": [
+        "会 Python 或 C++，能独立设计实验与排查复杂系统。",
+        "对 LLM、Agent、强化学习、代码生成或训练评测系统至少一个方向有项目实践。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网职位详情标为招聘中，原页提供申请入口。",
+      "preferred": [
+        "有自动化研究、长期记忆、多智能体、模型训练或开源经验。"
+      ],
+      "team": "LongCat",
+      "published": "2026-06-03"
+    },
+    {
+      "id": "JOB064",
+      "title": "安全工程师（含大模型应用安全方向，2027 届）",
+      "company": "美团",
+      "company_key": "美团",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4697296162",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "risk",
+      "topics": [
+        "07",
+        "13",
+        "21"
+      ],
+      "skills": [
+        "应用安全",
+        "大模型安全",
+        "智能漏洞发现",
+        "红队评估"
+      ],
+      "responsibilities": [
+        "覆盖应用安全和安全运营，研究用大模型辅助分析代码、日志与漏洞，并评估大模型应用的安全风险。"
+      ],
+      "requirements": [
+        "相关专业，掌握网络攻防原理和至少一门编程语言，能分析漏洞并实现验证方案。",
+        "理解 Transformer 或具备大模型辅助安全分析实践。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网职位详情标为招聘中，原页提供申请入口。",
+      "preferred": [
+        "有越狱攻防、Agent 安全评测、CTF 或大型厂商漏洞研究经历。"
+      ],
+      "team": "2026年（2027届）秋季校招",
+      "published": "2026-08-17"
+    },
+    {
+      "id": "JOB065",
+      "title": "大模型和智能体应用算法工程师（AIBD）",
+      "company": "美团",
+      "company_key": "美团",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4136761943",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "agent",
+      "topics": [
+        "04",
+        "06",
+        "07",
+        "13"
+      ],
+      "skills": [
+        "业务智能体",
+        "多模态",
+        "模型推理",
+        "FRIDAY 模型工厂"
+      ],
+      "responsibilities": [
+        "优化面向商家与销售的智能体应用，迭代相关模型与 Agent 算法。",
+        "依托模型工厂和应用工厂，将方案部署到真实业务。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，两年以上大模型或智能体算法开发经验，熟悉主流架构和应用。",
+        "熟练使用 Python 及 PyTorch 或 TensorFlow，可独立设计技术方案。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网职位详情标为招聘中，原页提供申请入口。",
+      "team": "基础研发平台 AIBD",
+      "published": "2026-01-23"
+    },
+    {
+      "id": "JOB066",
+      "title": "预训练数据理解算法专家（LongCat，2027 届）",
+      "company": "美团",
+      "company_key": "美团",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4612288820",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "文档理解",
+        "OCR",
+        "版面分析",
+        "多模态预训练"
+      ],
+      "responsibilities": [
+        "为 LongCat 提升大规模文档数据解析与理解能力，构建 OCR 与版面分析流程并验证数据质量。"
+      ],
+      "requirements": [
+        "有扎实的机器学习基础和 PyTorch 经验，做过 LLM 或 VLM 训练、微调。",
+        "熟悉文档解析、OCR、版面分析或视觉语言模型。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网职位详情标为招聘中，原页提供申请入口。",
+      "preferred": [
+        "有多模态训练、OCR 能力提升、相关论文或开源贡献。"
+      ],
+      "team": "LongCat 基座大模型 AI Infra",
+      "published": "2026-07-07"
+    },
+    {
+      "id": "JOB067",
+      "title": "LongCat 后训练算法研究员",
+      "company": "美团",
+      "company_key": "美团",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4487581555",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "07",
+        "09",
+        "13"
+      ],
+      "skills": [
+        "多目标 RL",
+        "长程任务",
+        "上下文管理",
+        "数据合成"
+      ],
+      "responsibilities": [
+        "增强 LongCat 的指令遵循、推理与 Agent 能力，减少幻觉。",
+        "探索大规模和多目标强化学习，以及长任务所需的数据与上下文处理。"
+      ],
+      "requirements": [
+        "深入理解预训练、指令微调与强化学习，具备算法、数学及 NLP 基础。",
+        "能用 Python 或 Java 和 PyTorch 等框架落地实验。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网职位详情标为招聘中，原页提供申请入口。",
+      "team": "LongCat",
+      "published": "2026-05-19"
+    },
+    {
+      "id": "JOB068",
+      "title": "大模型 / Agent 评测工程师（AI 研发）",
+      "company": "美团",
+      "company_key": "美团",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4736527116",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "上海",
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "09",
+        "13"
+      ],
+      "skills": [
+        "Code Agent",
+        "自动化评测",
+        "轨迹分析",
+        "回归"
+      ],
+      "responsibilities": [
+        "把需求分析、代码生成、测试、评审和故障修复转化为可复现的智能体评测任务。",
+        "设计自动评分、版本对比和回归框架，从执行轨迹和线上反馈定位缺陷。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，至少三年软件研发、测试、质量工程、研发效能或 AI 工程经验。",
+        "会一种主流工程语言，理解研发流程和智能体的上下文、规划、调用与错误恢复。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "核验时官网职位详情标为招聘中，原页提供申请入口。",
+      "team": "AI 研发工具与质量评估",
+      "published": "2026-08-31"
+    },
+    {
+      "id": "JOB069",
+      "title": "大模型算法工程师（2027 届）",
+      "company": "拼多多集团",
+      "company_key": "拼多多",
+      "url": "https://careers.pddglobalhr.com/campus/grad/detail?t=Yy4snT3eIX",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "04",
+        "07",
+        "12",
+        "16",
+        "18",
+        "23"
+      ],
+      "skills": [
+        "电商基座",
+        "多语种",
+        "多模态",
+        "Agent RL"
+      ],
+      "responsibilities": [
+        "研发面向电商场景的多语种、多模态模型，参与数据处理、预训练、SFT 和强化学习。",
+        "探索交互式搜索、生成式推荐、导购、客服与商品内容生成。"
+      ],
+      "requirements": [
+        "面向 2026 年 9 月至 2027 年 8 月毕业的硕士和博士，需有机器学习和深度学习基础，能实现研究或工程方案。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "官网公开索引提供了 JD 内容，当前投递状态需打开岗位原页确认。",
+      "preferred": [
+        "有模型研究、论文、算法竞赛或大模型项目经验。"
+      ],
+      "team": "2027 届校园招聘",
+      "published": "2026-09-02"
+    },
+    {
+      "id": "JOB070",
+      "title": "AI Infra 研发工程师（2027 届）",
+      "company": "拼多多集团",
+      "company_key": "拼多多",
+      "url": "https://careers.pddglobalhr.com/campus/grad/detail?t=KUC9ytacYy",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "03",
+        "05",
+        "12",
+        "15"
+      ],
+      "skills": [
+        "分布式训推",
+        "弹性资源",
+        "RDMA",
+        "容灾"
+      ],
+      "responsibilities": [
+        "优化模型预训练、微调、对齐和多模态推理系统，解决高并发、时延及训练稳定性问题。",
+        "建设弹性算力调度、故障恢复和容错能力。"
+      ],
+      "requirements": [
+        "面向 2026 年 9 月至 2027 年 8 月毕业的硕士和博士，具备 C/C++、Python 及分布式系统基础。",
+        "了解主流训练或推理框架。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "官网公开索引提供了 JD 内容，当前投递状态需打开岗位原页确认。",
+      "preferred": [
+        "GPU 或异构集群、高性能网络或高性能系统研究经历。"
+      ],
+      "team": "2027 届校园招聘",
+      "published": "2026-09-02"
+    },
+    {
+      "id": "JOB071",
+      "title": "算法工程师（大模型预训练，2027 届）",
+      "company": "阿里巴巴集团",
+      "company_key": "阿里",
+      "url": "https://campus-talent.alibaba.com/campus/position/199907800035",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "杭州",
+        "上海"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "02",
+        "03",
+        "05",
+        "09"
+      ],
+      "skills": [
+        "预训练数据",
+        "Scaling Law",
+        "MoE",
+        "稀疏注意力"
+      ],
+      "responsibilities": [
+        "建设推理、长尾知识和长文预训练语料，研究数据规模、损失函数和训练稳定性。",
+        "探索稀疏注意力、模型结构与训练推理协同优化。"
+      ],
+      "requirements": [
+        "相关专业本科及以上；有模型架构或训练策略研究能力，能独立设计并执行实验。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。",
+      "team": "阿里巴巴 2027 届应届生招聘",
+      "evidence_url": "https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199907800035"
+    },
+    {
+      "id": "JOB072",
+      "title": "算法工程师（大模型应用，2027 届）",
+      "company": "阿里巴巴集团",
+      "company_key": "阿里",
+      "url": "https://campus-talent.alibaba.com/campus/position/199907700032",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "growth",
+      "topics": [
+        "03",
+        "05",
+        "07",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "skills": [
+        "核心业务模型",
+        "商业增长",
+        "分布式训练",
+        "多智能体"
+      ],
+      "responsibilities": [
+        "在实际业务中优化大模型和多智能体应用，并探索对用户体验及商业增长的作用。",
+        "用压缩、低延迟推理和分布式训练将大模型部署到工业应用。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，具备算法基础及 Python、C++ 或 Java 编程能力。",
+        "了解搜广推、NLP、多模态等至少一个方向。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。",
+      "preferred": [
+        "有深度学习框架、竞赛或开源实践。"
+      ],
+      "team": "阿里巴巴 2027 届应届生招聘",
+      "evidence_url": "https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199907700032"
+    },
+    {
+      "id": "JOB073",
+      "title": "算法工程师（大模型评测，2027 届）",
+      "company": "阿里巴巴集团",
+      "company_key": "阿里",
+      "url": "https://campus-talent.alibaba.com/campus/position/199907620028",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "07",
+        "12",
+        "13",
+        "21"
+      ],
+      "skills": [
+        "LLM-as-a-Judge",
+        "奖励模型",
+        "自动化评测",
+        "数据合成"
+      ],
+      "responsibilities": [
+        "建设分析复杂任务、长尾场景和安全性的自动评测及数据集。",
+        "训练奖励模型，用偏好反馈和强化学习改善模型表现，并研发评测工程框架。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，理解 Transformer，并具备模型评测或后训练项目经历。",
+        "会用 Python 和 PyTorch 或 TensorFlow 开展研发。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。",
+      "preferred": [
+        "有模型训练、推理加速、数据合成或研究竞赛成果。"
+      ],
+      "team": "阿里巴巴 2027 届应届生招聘",
+      "evidence_url": "https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199907620028"
+    },
+    {
+      "id": "JOB074",
+      "title": "算法工程师（全模态基础大模型，2027 届）",
+      "company": "阿里巴巴集团",
+      "company_key": "阿里",
+      "url": "https://campus-talent.alibaba.com/campus/position/199908460006",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "杭州",
+        "上海"
+      ],
+      "direction": "speech",
+      "topics": [
+        "04",
+        "07",
+        "12",
+        "22",
+        "23"
+      ],
+      "skills": [
+        "全双工音视频",
+        "多说话人 ASR",
+        "语音合成",
+        "OPD"
+      ],
+      "responsibilities": [
+        "研发音视频理解、原生音视频智能体及全双工通话交互。",
+        "改进多说话人语音识别、长语音生成与后训练能力。"
+      ],
+      "requirements": [
+        "相关专业硕士及以上，有 Python 或 C++ 工程基础。",
+        "有音视频建模、Agent、语言模型训练或实时交互模型实践。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。",
+      "team": "阿里巴巴 2027 届应届生招聘",
+      "evidence_url": "https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199908460006"
+    },
+    {
+      "id": "JOB075",
+      "title": "大模型应用开发工程师（2027 届）",
+      "company": "阿里巴巴集团",
+      "company_key": "阿里",
+      "url": "https://campus-talent.alibaba.com/campus/position/199907720102",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "广州",
+        "杭州"
+      ],
+      "direction": "agent",
+      "topics": [
+        "06",
+        "07",
+        "13",
+        "23"
+      ],
+      "skills": [
+        "RAG",
+        "LLMOps",
+        "Agent",
+        "智能对话"
+      ],
+      "responsibilities": [
+        "建设企业知识库、智能对话与自动化工作流，研发规划、工具调用及记忆等智能体组件。",
+        "优化检索切片、召回重排与应用评测，完善监控和平台工程。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，熟悉至少一门开发语言并具备数据结构与操作系统基础。",
+        "了解主流 LLM API、RAG 和应用开发框架。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。",
+      "team": "阿里巴巴 2027 届应届生招聘",
+      "evidence_url": "https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199907720102"
+    },
+    {
+      "id": "JOB076",
+      "title": "智能引擎大模型训练基础架构研发工程师 / 高级专家",
+      "company": "阿里巴巴集团",
+      "company_key": "阿里",
+      "url": "https://talent-holding.alibaba.com/off-campus/position-detail?positionId=1038409",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "infra",
+      "topics": [
+        "03",
+        "04",
+        "05",
+        "15"
+      ],
+      "skills": [
+        "训练基础架构",
+        "分布式训推",
+        "模型工程平台"
+      ],
+      "responsibilities": [
+        "参与阿里智能引擎基础工程平台，支撑语言与多模态模型的训练、评测及推理。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "阿里智能引擎团队的公开招聘页列出了这个岗位和投递链接，职责为团队公开介绍。具体任职门槛与状态以岗位原页为准。",
+      "team": "智能引擎 AI Infra",
+      "evidence_url": "https://alibaba.github.io/ROCK/zh-Hans/careers/"
+    },
+    {
+      "id": "JOB077",
+      "title": "大模型安全与对齐研究工程师（Seed，2027 届）",
+      "company": "字节跳动",
+      "company_key": "字节",
+      "url": "https://jobs.bytedance.com/campus/position/7696058395585415477/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "risk",
+      "topics": [
+        "03",
+        "04",
+        "07",
+        "13",
+        "21"
+      ],
+      "skills": [
+        "模型安全",
+        "对齐训练",
+        "红队评测",
+        "Agent"
+      ],
+      "responsibilities": [
+        "建设模型行为规范与安全评估，研究从预训练到强化学习阶段的安全对齐。",
+        "用自动化攻防及外部测试验证对未知风险的识别、防御和归因能力。"
+      ],
+      "requirements": [
+        "有大模型安全、对齐、评测、红队、强化学习、Agent 或系统安全相关研究。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自 Seed 官方招聘专题，校招链接对应北京和上海。具体投递状态待岗位页确认。",
+      "team": "Seed Alignment & Preparedness",
+      "evidence_url": "https://seed.bytedance.com/zh/blog/seed-alignment-preparedness-team-looking-for-global-talents"
     }
   ]
 }
