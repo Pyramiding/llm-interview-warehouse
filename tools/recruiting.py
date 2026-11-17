@@ -9,11 +9,27 @@ from pathlib import Path
 from urllib.parse import urlencode, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-RECRUITING_URL = 'https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library'
+SITE_URL = 'https://pyramiding.github.io/llm-interview-warehouse/'
 STATUS_LABELS = {'apply_link': '有投递入口', 'needs_check': '投递待确认', 'closed': '已结束'}
 VERIFICATION_LABELS = {
     'opened': '已读公开 JD', 'excerpt': '公开摘要', 'community': '社区招聘帖', 'reprint': '公众号公开转载',
 }
+EMPLOYER_PAGES = {
+    '字节': ('字节跳动', 'bytedance', 'https://jobs.bytedance.com/campus/position?type=2',
+           'https://jobs.bytedance.com/experienced/position'),
+    '阿里': ('阿里巴巴集团', 'alibaba', 'https://campus-talent.alibaba.com/campus/position',
+           'https://talent-holding.alibaba.com/off-campus/position-list'),
+    '腾讯': ('腾讯', 'tencent', 'https://join.qq.com/post.html',
+           'https://careers.tencent.com/jobopportunity.html'),
+    '京东': ('京东集团', 'jd', 'https://campus.jd.com/#/jobs',
+           'https://zhaopin.jd.com/web/job/job_info_list/3'),
+}
+
+
+def recruiting_url(**filters):
+    query = urlencode({'view': 'jobs', **filters})
+    anchor = '' if 'record' in filters else '#library'
+    return f'{SITE_URL}?{query}{anchor}'
 
 
 def is_https(url):
@@ -80,24 +96,38 @@ def build_recruiting_index(known_topics):
     official_with_application = Counter(
         job['job_type'] for job in official_jobs if job['job_status'] == 'apply_link'
     )
+    official_by_employer = Counter((job['company_key'], job['job_type']) for job in official_jobs)
+    company_pages = {key: 'companies/' + spec[1] + '.md' for key, spec in EMPLOYER_PAGES.items()}
 
     def entry(job, include_company=False):
         label = f'{job["company"]} · {job["title"]}' if include_company else job['title']
-        return f'  - [{label}](#{job["id"].lower()})'
+        label = label.replace('[', '［').replace(']', '］')
+        return f'  - [{label}]({company_pages.get(job["company_key"], "")}#{job["id"].lower()})'
 
     lines = [
         '# 大模型与算法岗招聘 / JD', '',
-        f'[打开招聘网页]({RECRUITING_URL}) · [返回面经仓库](../../README.md)', '',
-        f'{last_checked} 更新，共收录 {len(jobs)} 条岗位与 JD。职责和要求根据对应原页改写，投递前请在原页确认状态。',
-        '“有投递入口”表示核验时看到了申请入口。“投递待确认”适用于公开摘要或社区线索等情况，详情保留核验依据。', '',
+        f'[打开招聘网页]({recruiting_url()}) · [返回面经仓库](../../README.md)', '',
+        f'{last_checked} 更新，共收录 {len(jobs)} 条岗位与 JD。每条链接指向具体岗位，附职责和要求摘要、核验日期与投递状态。',
+        '“有投递入口”表示核验时确认了官网申请入口。“投递待确认”包括官网列表仅展示部分 JD 等情况，详情保留核验依据。', '',
         '## 官网校招与社招', '',
         '| 招聘类型 | 官网岗位 | 有投递入口 | 网页入口 |',
         '|---|---:|---:|---|',
     ]
     for kind in ('校招', '社招'):
-        query = urlencode({'view': 'jobs', 'platform': '招聘官网', 'job_type': kind})
-        filtered_url = f'{RECRUITING_URL.split("?")[0]}?{query}#library'
+        filtered_url = recruiting_url(platform='招聘官网', job_type=kind)
         lines.append(f'| {kind} | {official_by_type[kind]} | {official_with_application[kind]} | [查看{kind}]({filtered_url}) |')
+    lines += [
+        '', '<a id="major-employers"></a>', '', '## 重点公司官网', '',
+        '| 公司 | 校招 | 社招 | GitHub JD | 企业官网 |',
+        '|---|---:|---:|---|---|',
+    ]
+    for key, (name, _, campus, social) in EMPLOYER_PAGES.items():
+        school_url = recruiting_url(company=key, platform='招聘官网', job_type='校招')
+        experienced_url = recruiting_url(company=key, platform='招聘官网', job_type='社招')
+        school_count = official_by_employer[key, '校招']
+        experienced_count = official_by_employer[key, '社招']
+        lines.append(f'| {name} | [{school_count} 条]({school_url}) | [{experienced_count} 条]({experienced_url}) | '
+                     f'[查看 JD]({company_pages[key]}) | [校招]({campus}) · [社招]({social}) |')
     lines += ['', '## 按方向', '']
     for key, title in directions.items():
         if by_direction[key]:
@@ -105,48 +135,87 @@ def build_recruiting_index(known_topics):
             lines.extend(entry(job, include_company=True) for job in by_direction[key])
     lines += ['', '## 按公司', '']
     for company, postings in sorted(by_company.items()):
-        lines.append(f'- **{company}**')
-        lines.extend(map(entry, postings))
+        path = company_pages.get(postings[0]['company_key'])
+        if path:
+            lines.append(f'- **{company}**（{len(postings)}） [查看公司 JD]({path})')
+            for job in postings:
+                anchor = job['id'].lower()
+                lines.append(f'  - <a id="{anchor}"></a>[{job["id"]}]({path}#{anchor})')
+        else:
+            lines.append(f'- **{company}**')
+            lines.extend(map(entry, postings))
     lines += ['', '## 招聘渠道', '', '| 渠道 | 岗位条目 | 查找方式 |', '|---|---:|---|']
     for channel in data['channels']:
         name = channel['name']
         lines.append(f'| [{name}]({channel["url"]}) | {platforms[name]} | {channel["guide"]} |')
     lines += ['', '## 岗位与 JD', '']
     for job in jobs:
-        source_label = '查看公开转载' if job['verification'] == 'reprint' else '在原平台查看'
-        links = [
-            f'[{source_label}]({job["url"]})',
-            f'[网页 JD]({RECRUITING_URL.split("#")[0]}&record={job["id"]})',
+        if job['company_key'] not in company_pages:
+            lines.extend(job_detail(job, directions))
+    output = ROOT / 'docs/recruiting'
+    write_index(output / 'README.md', lines)
+
+    for key, (name, _, campus, social) in EMPLOYER_PAGES.items():
+        postings = [job for job in jobs if job['company_key'] == key]
+        if not postings:
+            continue
+        company_links = [
+            f'[网页校招]({recruiting_url(company=key, platform="招聘官网", job_type="校招")})',
+            f'[网页社招]({recruiting_url(company=key, platform="招聘官网", job_type="社招")})',
+            f'[企业校招官网]({campus})',
+            f'[企业社招官网]({social})',
         ]
-        if job.get('evidence_url'):
-            links.append(f'[查看公开摘要]({job["evidence_url"]})')
-        lines += [
-            f'<a id="{job["id"].lower()}"></a>', '',
-            f'### {job["id"]} · {job["company"]} · {job["title"]}', '',
-            f'{directions[job["direction"]]} · {job["job_type"]} · {"、".join(job["cities"]) or "地点待确认"}'
-            f' · {STATUS_LABELS[job["job_status"]]}', '',
-            ' · '.join(links), '',
-            f'{job["platform"]} · {VERIFICATION_LABELS[job["verification"]]} · 核验于 {job["accessed"]}。{job["status_note"]}',
-            '',
+        company_lines = [
+            f'# {name} · 大模型与算法岗', '',
+            '[返回招聘索引](../README.md) · ' + ' · '.join(company_links), '',
+            f'共 {len(postings)} 条岗位与 JD。投递前可在条目的招聘原页确认状态。', '',
         ]
-        if job.get('team'):
-            lines += [f'团队 / 业务为 {job["team"]}。', '']
-        if job.get('published') or job.get('deadline'):
-            dates = []
-            if job.get('published'):
-                date_label = '转载日期' if job['verification'] == 'reprint' else '原页日期'
-                dates.append(f'{date_label} {job["published"]}')
-            if job.get('deadline'):
-                dates.append(f'投递截止 {job["deadline"]}')
-            lines += [' · '.join(dates), '']
-        for key, heading in [('responsibilities', '主要职责'), ('requirements', '任职要求'), ('preferred', '优先条件')]:
-            values = job.get(key, [])
-            if values:
-                lines += [f'**{heading}**', ''] + [f'- {value}' for value in values] + ['']
-        if not job['requirements']:
-            lines += ['公开资料中的任职门槛有待确认。', '']
-        if job['skills']:
-            lines += ['涉及技术关键词为 ' + '、'.join(job['skills']) + '。', '']
-    output = ROOT / 'docs/recruiting/README.md'
-    output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text('\n'.join(lines).rstrip() + '\n')
+        for kind in ('校招', '社招', '实习', '未说明'):
+            subset = [job for job in postings if job['job_type'] == kind]
+            if subset:
+                company_lines.extend([f'## {kind}（{len(subset)}）', ''])
+                for job in subset:
+                    company_lines.extend(job_detail(job, directions))
+        write_index(output / company_pages[key], company_lines)
+
+
+def job_detail(job, directions):
+    source_label = '查看公开转载' if job['verification'] == 'reprint' else '在原平台查看'
+    links = [
+        f'[{source_label}]({job["url"]})',
+        f'[网页 JD]({recruiting_url(record=job["id"])})',
+    ]
+    if job.get('evidence_url'):
+        links.append(f'[查看公开摘要]({job["evidence_url"]})')
+    lines = [
+        f'<a id="{job["id"].lower()}"></a>', '',
+        f'### {job["id"]} · {job["company"]} · {job["title"]}', '',
+        f'{directions[job["direction"]]} · {job["job_type"]} · {"、".join(job["cities"]) or "地点待确认"}'
+        f' · {STATUS_LABELS[job["job_status"]]}', '',
+        ' · '.join(links), '',
+        f'{job["platform"]} · {VERIFICATION_LABELS[job["verification"]]} · 核验于 {job["accessed"]}。{job["status_note"]}', '',
+    ]
+    if job.get('team'):
+        lines += [f'团队 / 业务为 {job["team"]}。', '']
+    dates = []
+    if job.get('published'):
+        date_label = '转载日期' if job['verification'] == 'reprint' else '原页日期'
+        dates.append(f'{date_label} {job["published"]}')
+    if job.get('deadline'):
+        dates.append(f'投递截止 {job["deadline"]}')
+    if dates:
+        lines += [' · '.join(dates), '']
+    for key, heading in [('responsibilities', '主要职责'), ('requirements', '任职要求'), ('preferred', '优先条件')]:
+        values = job.get(key, [])
+        if values:
+            lines += [f'**{heading}**', ''] + [f'- {value}' for value in values] + ['']
+    if not job['requirements']:
+        lines += ['公开资料中的任职门槛有待确认。', '']
+    if job['skills']:
+        lines += ['涉及技术关键词为 ' + '、'.join(job['skills']) + '。', '']
+    return lines
+
+
+def write_index(path, lines):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text('\n'.join(lines).rstrip() + '\n')

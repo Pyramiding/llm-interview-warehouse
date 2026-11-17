@@ -2,107 +2,717 @@
 
 [打开招聘网页](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library) · [返回面经仓库](../../README.md)
 
-2026-11-17 更新，共收录 77 条岗位与 JD。职责和要求根据对应原页改写，投递前请在原页确认状态。
-“有投递入口”表示核验时看到了申请入口。“投递待确认”适用于公开摘要或社区线索等情况，详情保留核验依据。
+2026-11-17 更新，共收录 676 条岗位与 JD。每条链接指向具体岗位，附职责和要求摘要、核验日期与投递状态。
+“有投递入口”表示核验时确认了官网申请入口。“投递待确认”包括官网列表仅展示部分 JD 等情况，详情保留核验依据。
 
 ## 官网校招与社招
 
 | 招聘类型 | 官网岗位 | 有投递入口 | 网页入口 |
 |---|---:|---:|---|
-| 校招 | 20 | 12 | [查看校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) |
-| 社招 | 33 | 27 | [查看社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) |
+| 校招 | 228 | 64 | [查看校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) |
+| 社招 | 424 | 320 | [查看社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) |
+
+<a id="major-employers"></a>
+
+## 重点公司官网
+
+| 公司 | 校招 | 社招 | GitHub JD | 企业官网 |
+|---|---:|---:|---|---|
+| 字节跳动 | [112 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [98 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [查看 JD](companies/bytedance.md) | [校招](https://jobs.bytedance.com/campus/position?type=2) · [社招](https://jobs.bytedance.com/experienced/position) |
+| 阿里巴巴集团 | [76 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [71 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [查看 JD](companies/alibaba.md) | [校招](https://campus-talent.alibaba.com/campus/position) · [社招](https://talent-holding.alibaba.com/off-campus/position-list) |
+| 腾讯 | [14 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [190 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [查看 JD](companies/tencent.md) | [校招](https://join.qq.com/post.html) · [社招](https://careers.tencent.com/jobopportunity.html) |
+| 京东集团 | [12 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [48 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [查看 JD](companies/jd.md) | [校招](https://campus.jd.com/#/jobs) · [社招](https://zhaopin.jd.com/web/job/job_info_list/3) |
 
 ## 按方向
 
-- **预训练与数据**（7）
+- **预训练与数据**（25）
   - [华为 · 算法工程师（大模型预训练与后训练，2027 届）](#job025)
   - [百度 · 大模型算法工程师（2027 AIDU）](#job029)
   - [百度 · 大模型算法工程师（文心基座研发）](#job030)
   - [DeepSeek（深度求索） · 预训练（数据/算法）研究员](#job043)
   - [美团 · 预训练数据理解算法专家（LongCat，2027 届）](#job066)
   - [拼多多集团 · 大模型算法工程师（2027 届）](#job069)
-  - [阿里巴巴集团 · 算法工程师（大模型预训练，2027 届）](#job071)
-- **后训练与强化学习**（7）
+  - [阿里巴巴集团 · 算法工程师（大模型预训练，2027 届）](companies/alibaba.md#job071)
+  - [字节跳动 · 大语言模型预训练算法工程师-Seed大模型人才校招](companies/bytedance.md#job105)
+  - [字节跳动 · 大语言模型预训练算法工程师-Seed大模型人才校招](companies/bytedance.md#job106)
+  - [字节跳动 · 大语言模型预训练算法工程师 - Seed Model](companies/bytedance.md#job191)
+  - [字节跳动 · 大模型预训练工程师-AI Data](companies/bytedance.md#job234)
+  - [字节跳动 · 大模型预训练工程师-AI Data](companies/bytedance.md#job246)
+  - [阿里巴巴集团 · 算法工程师-虚拟细胞建模](companies/alibaba.md#job297)
+  - [阿里巴巴集团 · 算法工程师-预训练评测](companies/alibaba.md#job302)
+  - [阿里巴巴集团 · 算法工程师-数据合成](companies/alibaba.md#job326)
+  - [阿里巴巴集团 · 算法工程师-药物基础模型](companies/alibaba.md#job342)
+  - [阿里巴巴集团 · 算法工程师-多模态基础大模型和多模态Agent](companies/alibaba.md#job349)
+  - [阿里巴巴集团 · 算法工程师-模型自进化](companies/alibaba.md#job351)
+  - [阿里巴巴集团 · 面向Auto Research的强化学习算法与数据合成体系研究-阿里星](companies/alibaba.md#job355)
+  - [阿里巴巴集团 · 安全AGI实验室-安全基座大模型算法工程师/研究员-御风大模型](companies/alibaba.md#job405)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型数据质量工程师(训练数据准入方向)-北京杭州](companies/alibaba.md#job411)
+  - [腾讯 · 混元大模型预训练算法研究员/专家研究员(深圳/北京/上海)](companies/tencent.md#job464)
+  - [腾讯 · 混元VLM 预训练数据算法工程师(北京/深圳/上海)](companies/tencent.md#job496)
+  - [腾讯 · 混元vlm算法研究员-后训练/基座能力提升方向(深圳/北京/上海)](companies/tencent.md#job513)
+  - [京东集团 · 数据算法工程师(大模型预训练)](companies/jd.md#job640)
+- **后训练与强化学习**（59）
   - [上海人工智能实验室 · 大模型强化学习青年研究员](#job001)
   - [上海人工智能实验室 · 大模型及智能体后训练工程师 / 青年研究员](#job002)
-  - [阿里巴巴集团 · 算法工程师（大模型后训练）](#job024)
+  - [阿里巴巴集团 · 算法工程师（大模型后训练）](companies/alibaba.md#job024)
   - [DeepSeek（深度求索） · 后训练（数据/算法）研究员](#job044)
-  - [腾讯 · 金融大模型算法工程师](#job059)
+  - [腾讯 · 金融大模型算法工程师](companies/tencent.md#job059)
   - [美团 · LongCat 后训练算法研究员](#job067)
-  - [阿里巴巴集团 · 算法工程师（大模型评测，2027 届）](#job073)
-- **LLM Infra 与推理**（11）
+  - [阿里巴巴集团 · 算法工程师（大模型评测，2027 届）](companies/alibaba.md#job073)
+  - [字节跳动 · AIGC模型优化工程师 - Seed大模型人才校招](companies/bytedance.md#job102)
+  - [字节跳动 · AIGC模型优化工程师-Seed大模型人才校招](companies/bytedance.md#job103)
+  - [字节跳动 · 音频模态大模型评测工程师-Seed大模型人才校招](companies/bytedance.md#job110)
+  - [字节跳动 · 大语言模型强化学习算法工程师 - Seed大模型人才校招](companies/bytedance.md#job111)
+  - [字节跳动 · 大语言模型强化学习算法工程师 - Seed大模型人才校招](companies/bytedance.md#job112)
+  - [字节跳动 · 音频模态大模型评测工程师-Seed大模型人才校招](companies/bytedance.md#job113)
+  - [字节跳动 · 机器人模型评测工程师 - Seed大模型人才校招](companies/bytedance.md#job128)
+  - [字节跳动 · 多模态理解生成强化学习研究员-Seed大模型人才校招](companies/bytedance.md#job156)
+  - [字节跳动 · 多模态理解生成强化学习研究员-Seed大模型人才校招](companies/bytedance.md#job157)
+  - [字节跳动 · 多模态理解生成强化学习研究员-Seed大模型人才校招](companies/bytedance.md#job159)
+  - [字节跳动 · AI大模型优化工程师 - 音视频技术](companies/bytedance.md#job180)
+  - [字节跳动 · 大模型评测工程架构师 - Seed Model](companies/bytedance.md#job195)
+  - [字节跳动 · 大模型评测算法工程师-AI数据与安全](companies/bytedance.md#job245)
+  - [字节跳动 · 豆包AI大模型评测产品解决方案(Coding/Agent方向) - 火山方舟](companies/bytedance.md#job254)
+  - [阿里巴巴集团 · 统一多模态大模型后训练算法研究-阿里星/C-Star](companies/alibaba.md#job301)
+  - [阿里巴巴集团 · 算法工程师-机器学习(T-Star Lab )](companies/alibaba.md#job312)
+  - [阿里巴巴集团 · 算法工程师-机器学习](companies/alibaba.md#job335)
+  - [阿里巴巴集团 · 算法工程师-强化学习](companies/alibaba.md#job339)
+  - [阿里巴巴集团 · 算法工程师-大模型后训练 (Post-training)](companies/alibaba.md#job344)
+  - [阿里巴巴集团 · 算法工程师-合版算法研究](companies/alibaba.md#job346)
+  - [阿里巴巴集团 · 算法工程师-RLHF算法研究](companies/alibaba.md#job347)
+  - [阿里巴巴集团 · Agentic训练与强化学习算法研究-阿里星/Bravo Star](companies/alibaba.md#job354)
+  - [阿里巴巴集团 · 智能引擎-模型优化系统工程师/技术专家-杭州](companies/alibaba.md#job361)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型评测专家-LLM方向](companies/alibaba.md#job366)
+  - [阿里巴巴集团 · 安全AGI实验室-安全大模型评测与增强算法高级专家-北京&杭州](companies/alibaba.md#job368)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型评测算法-世界模型方向](companies/alibaba.md#job377)
+  - [阿里巴巴集团 · 阿里控股-大模型评测-音视频 Caption 评测专家](companies/alibaba.md#job394)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型评测算法-coding方向](companies/alibaba.md#job404)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型评测算法-work / Personal Agent方向](companies/alibaba.md#job410)
+  - [阿里巴巴集团 · 安全AGI实验室-大模型后训练与应用算法专家-杭州/北京](companies/alibaba.md#job412)
+  - [阿里巴巴集团 · 阿里控股-大模型评测工程师-code/agentic方向](companies/alibaba.md#job422)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型评测算法工程师-杭州/北京](companies/alibaba.md#job425)
+  - [腾讯 · 智能体-强化学习算法研究员-CodeBuddy/WorkBuddy](companies/tencent.md#job428)
+  - [腾讯 · 游戏AI-强化学习算法研究员](companies/tencent.md#job429)
+  - [腾讯 · 混元多模态大模型评测(北京)](companies/tencent.md#job451)
+  - [腾讯 · 混元大语言模型后训练算法工程师(深圳/北京/上海)](companies/tencent.md#job454)
+  - [腾讯 · 微信-大模型后训练算法专家](companies/tencent.md#job456)
+  - [腾讯 · 大模型异构芯片推理适配调优工程师(深圳/北京/上海/杭州)](companies/tencent.md#job460)
+  - [腾讯 · 混元多模态强化学习(RL)算法研究员(北京/上海)](companies/tencent.md#job467)
+  - [腾讯 · 混元大语言模型后训练算法工程师-模型合版方向(北京/深圳)](companies/tencent.md#job473)
+  - [腾讯 · 混元大语言模型后训练算法工程师-Memory方向(北京/深圳/上海)](companies/tencent.md#job476)
+  - [腾讯 · 混元Agent强化学习框架工程师(深圳/北京/上海)](companies/tencent.md#job481)
+  - [腾讯 · 混元Agent后训练算法工程师(北京/上海/深圳)](companies/tencent.md#job495)
+  - [腾讯 · 腾讯游戏-大模型强化学习框架研发工程师/专家](companies/tencent.md#job505)
+  - [腾讯 · 微信小程序-大模型评测工程师-智能体方向](companies/tencent.md#job549)
+  - [腾讯 · 魔方技术中心-强化学习开发工程师](companies/tencent.md#job570)
+  - [腾讯 · 大模型评测平台研发工程师](companies/tencent.md#job572)
+  - [腾讯 · 《穿越火线手游》-AI算法工程师-强化学习方向](companies/tencent.md#job578)
+  - [腾讯 · 算法-强化学习方向](companies/tencent.md#job616)
+  - [京东集团 · 算法工程师-运筹优化](companies/jd.md#job623)
+  - [京东集团 · VN/VLN导航算法工程师](companies/jd.md#job656)
+  - [京东集团 · 算法开发工程师](companies/jd.md#job657)
+- **LLM Infra 与推理**（106）
   - [快手 · 大模型推理 / 训练引擎研发工程师](#job005)
   - [滴普科技 · 大模型开发工程师（Infra 方向）](#job006)
   - [百度 · 大模型 Infra 工程师（2027 AIDU）](#job032)
-  - [腾讯 · 腾讯游戏大模型强化学习框架研发工程师 / 专家](#job038)
-  - [腾讯 · AI Infra 研发工程师（自研芯片适配）](#job039)
+  - [腾讯 · 腾讯游戏大模型强化学习框架研发工程师 / 专家](companies/tencent.md#job038)
+  - [腾讯 · AI Infra 研发工程师（自研芯片适配）](companies/tencent.md#job039)
   - [DeepSeek（深度求索） · 大模型训练/推理框架工程师](#job048)
   - [DeepSeek（深度求索） · 高性能算子/通信/编译器工程师](#job049)
-  - [腾讯 · 混元推理算子开发工程师](#job050)
+  - [腾讯 · 混元推理算子开发工程师](companies/tencent.md#job050)
   - [美团 · AI Infra / 推理系统工程师（2027 届）](#job061)
   - [拼多多集团 · AI Infra 研发工程师（2027 届）](#job070)
-  - [阿里巴巴集团 · 智能引擎大模型训练基础架构研发工程师 / 高级专家](#job076)
-- **Agent 与 RAG**（12）
+  - [阿里巴巴集团 · 智能引擎大模型训练基础架构研发工程师 / 高级专家](companies/alibaba.md#job076)
+  - [字节跳动 · 大模型后端开发工程师 - 火山方舟](companies/bytedance.md#job078)
+  - [字节跳动 · 大模型推理系统工程师 - 火山方舟](companies/bytedance.md#job079)
+  - [字节跳动 · 大模型训练系统工程师 - 火山方舟](companies/bytedance.md#job080)
+  - [字节跳动 · 视觉大模型推理优化工程师-Seed大模型人才校招](companies/bytedance.md#job086)
+  - [字节跳动 · 大模型训练/推理优化工程师-Seed大模型人才校招](companies/bytedance.md#job089)
+  - [字节跳动 · 大模型训练/推理优化工程师-Seed大模型人才校招](companies/bytedance.md#job090)
+  - [字节跳动 · 具身智能Infra研究员 - Seed大模型人才校招](companies/bytedance.md#job093)
+  - [字节跳动 · 大模型训练推理工程师 - Commercial AI](companies/bytedance.md#job172)
+  - [字节跳动 · 高性能计算研发工程师-Seed](companies/bytedance.md#job192)
+  - [字节跳动 · AML-火山方舟大模型推理系统工程师](companies/bytedance.md#job200)
+  - [字节跳动 · 大模型训练系统工程师-Data AML](companies/bytedance.md#job206)
+  - [字节跳动 · 大模型训练系统工程师-火山方舟](companies/bytedance.md#job207)
+  - [字节跳动 · 大模型推理研发专家 - 计算](companies/bytedance.md#job217)
+  - [字节跳动 · 大模型应用后端研发工程师-抖音](companies/bytedance.md#job225)
+  - [字节跳动 · 大模型应用架构师-Dev Infra](companies/bytedance.md#job242)
+  - [字节跳动 · 大模型推理存储系统专家 - Seed Model](companies/bytedance.md#job280)
+  - [阿里巴巴集团 · Agent Infra工程师](companies/alibaba.md#job289)
+  - [阿里巴巴集团 · AI Infra工程师](companies/alibaba.md#job290)
+  - [阿里巴巴集团 · 算法工程师-AI For Science](companies/alibaba.md#job294)
+  - [阿里巴巴集团 · 千问Qwen训练算法-系统协同前沿技术研究-阿里星](companies/alibaba.md#job345)
+  - [阿里巴巴集团 · 智能引擎-Agent Infra研发工程师/专家-杭州](companies/alibaba.md#job362)
+  - [阿里巴巴集团 · 安全AI基础架构-高级AI infra 工程师-大模型推理方向](companies/alibaba.md#job364)
+  - [阿里巴巴集团 · 安全AI基础架构-高级大模型训练工程师-AI Infra](companies/alibaba.md#job365)
+  - [阿里巴巴集团 · 智能引擎-大模型高性能计算研发工程师/高级专家-AI Infra](companies/alibaba.md#job370)
+  - [阿里巴巴集团 · 智能引擎-大模型训练基础架构研发高级专家-AI Infra](companies/alibaba.md#job372)
+  - [阿里巴巴集团 · AI推理平台-大模型推理系统工程师-LLM](companies/alibaba.md#job376)
+  - [阿里巴巴集团 · 智能引擎-大模型训练平台研发工程师-AI Infra](companies/alibaba.md#job382)
+  - [阿里巴巴集团 · AI推理平台-大模型异构芯片适配与推理优化工程师-杭州/北京](companies/alibaba.md#job387)
+  - [阿里巴巴集团 · 智能引擎-多模态大模型DataInfra工程师-北京](companies/alibaba.md#job402)
+  - [阿里巴巴集团 · 智能引擎-AI存储研发工程师-大模型推理 / KV Cache / KV 存储方向](companies/alibaba.md#job403)
+  - [阿里巴巴集团 · AI推理平台-大模型评测工程师/专家-北京/杭州](companies/alibaba.md#job406)
+  - [阿里巴巴集团 · AI推理平台-大模型应用开发技术专家/高级开发工程师-杭州](companies/alibaba.md#job408)
+  - [阿里巴巴集团 · 基础设施与稳定性工程-大模型推理优化工程师-高性能网络通信](companies/alibaba.md#job409)
+  - [阿里巴巴集团 · AI推理平台-大模型服务性能与可观测性技术专家-杭州/北京](companies/alibaba.md#job421)
+  - [阿里巴巴集团 · 乌鸫科技-大模型训练推理技术支持工程师-GOC](companies/alibaba.md#job426)
+  - [腾讯 · 大模型推理后台开发工程师(深圳/北京/上海/杭州)](companies/tencent.md#job435)
+  - [腾讯 · 混元文本/多模态预训练框架研发工程师(深圳/北京/上海/杭州)](companies/tencent.md#job436)
+  - [腾讯 · 混元大模型Infra稳定性研发工程师(深圳/北京/上海/杭州)](companies/tencent.md#job437)
+  - [腾讯 · 混元大模型推理研发高级工程师(深圳/北京/上海/杭州)](companies/tencent.md#job438)
+  - [腾讯 · 大模型训练性能优化工程师(训练算子)(深圳/北京/上海/杭州)](companies/tencent.md#job439)
+  - [腾讯 · 混元大模型推理加速工程师(北京/深圳)](companies/tencent.md#job442)
+  - [腾讯 · 企业微信-机器学习平台调度工程师-(成都/北京)](companies/tencent.md#job446)
+  - [腾讯 · 企业微信-大模型训练框架开发工程师-AI Infra(成都/北京)](companies/tencent.md#job447)
+  - [腾讯 · 混元多模态大模型推理加速工程师(深圳/北京/上海/杭州)](companies/tencent.md#job452)
+  - [腾讯 · 微信 -WeLM 大模型推理优化工程师(深圳、上海)](companies/tencent.md#job458)
+  - [腾讯 · 大模型存储研发工程师](companies/tencent.md#job462)
+  - [腾讯 · 大模型存储研发工程师](companies/tencent.md#job463)
+  - [腾讯 · AI infra异构计算研发工程师](companies/tencent.md#job465)
+  - [腾讯 · 微信-AI Infra工程师-大模型训练与RL方向](companies/tencent.md#job468)
+  - [腾讯 · 微信-AI Infra工程师-大模型推理方向](companies/tencent.md#job469)
+  - [腾讯 · AI infra研发工程师(北京/深圳)](companies/tencent.md#job470)
+  - [腾讯 · AI Infra研发工程师-上海/北京/深圳](companies/tencent.md#job472)
+  - [腾讯 · 游戏AI-高性能推理系统研发专家](companies/tencent.md#job474)
+  - [腾讯 · GPU训练工程师](companies/tencent.md#job477)
+  - [腾讯 · 高级GPU推理工程师](companies/tencent.md#job478)
+  - [腾讯 · 混元强化训练框架研发工程师(深圳/北京/上海)](companies/tencent.md#job483)
+  - [腾讯 · 混元训练 Infra 工程师-Dataloader/Checkpoint 方向-(北京/深圳/上海/杭州)](companies/tencent.md#job487)
+  - [腾讯 · 光子 AI-AI Infra工程师](companies/tencent.md#job490)
+  - [腾讯 · 腾讯游戏-大模型训练框架研发工程师/专家](companies/tencent.md#job504)
+  - [腾讯 · 腾讯游戏-大模型推理性能优化工程师/专家](companies/tencent.md#job506)
+  - [腾讯 · 腾讯游戏-大模型推理性能优化工程师/专家](companies/tencent.md#job507)
+  - [腾讯 · 腾讯游戏-大模型推理性能优化工程师/专家](companies/tencent.md#job508)
+  - [腾讯 · 大模型推理引擎研发工程师(深圳/北京/上海/杭州)](companies/tencent.md#job512)
+  - [腾讯 · 搜狗输入法-打字引擎推理优化工程师](companies/tencent.md#job518)
+  - [腾讯 · 腾讯云 EdgeOne-推理平台高级工程师](companies/tencent.md#job522)
+  - [腾讯 · 微信小程序-大模型infra工程师-Coding方向](companies/tencent.md#job534)
+  - [腾讯 · 企业微信-高级研发工程师-大模型推理框架(成都/北京)](companies/tencent.md#job542)
+  - [腾讯 · AI Infra高级研发工程师](companies/tencent.md#job545)
+  - [腾讯 · 具身智能推理优化工程师](companies/tencent.md#job553)
+  - [腾讯 · 腾讯云-AI Infra评测高级工程师](companies/tencent.md#job556)
+  - [腾讯 · 大模型性能优化研发专家](companies/tencent.md#job560)
+  - [腾讯 · Agent Harness 工程师-AI infra方向-上海/深圳/北京/杭州](companies/tencent.md#job561)
+  - [腾讯 · TIONE-高级AI Infra后台研发工程师-K8S云原生方向-上海/杭州/深圳/北京](companies/tencent.md#job567)
+  - [腾讯 · 微信视频号-AI Infra高级工程师-工程平台](companies/tencent.md#job569)
+  - [腾讯 · 星星海实验室-AI Infra 研发工程师-GPU方向](companies/tencent.md#job574)
+  - [腾讯 · 推理框架研发工程师-国产GPU方向-深圳/北京/上海](companies/tencent.md#job579)
+  - [腾讯 · Agent Infra SRE工程师(Agent治理方向)(深圳/北京)](companies/tencent.md#job583)
+  - [腾讯 · AI Infra SRE 工程师(大模型推理)(深圳/北京)](companies/tencent.md#job584)
+  - [腾讯 · AI Infra SRE 工程师(Agent沙箱)](companies/tencent.md#job585)
+  - [腾讯 · AI Infra系统研发工程师-成都/上海](companies/tencent.md#job586)
+  - [腾讯 · 机器学习平台资源调度工程师(北京/深圳/上海/杭州)](companies/tencent.md#job591)
+  - [腾讯 · 机器学习平台SRE工程师(深圳/北京)](companies/tencent.md#job593)
+  - [腾讯 · 腾讯视频云大模型推理加速工程师](companies/tencent.md#job595)
+  - [腾讯 · 大模型推理SRE工程师(深圳/北京)](companies/tencent.md#job599)
+  - [腾讯 · 算法-其他方向](companies/tencent.md#job615)
+  - [京东集团 · 算法工程师-AI Infra](companies/jd.md#job626)
+  - [京东集团 · AI infra推理引擎专家](companies/jd.md#job629)
+  - [京东集团 · 大模型推理算子开发工程师](companies/jd.md#job630)
+  - [京东集团 · 大模型推理研发工程师](companies/jd.md#job633)
+  - [京东集团 · 大模型推理性能优化算法工程师](companies/jd.md#job639)
+  - [京东集团 · 算法开发岗](companies/jd.md#job651)
+  - [京东集团 · 投机解码算法工程师](companies/jd.md#job660)
+  - [京东集团 · KV Cache 压缩算法工程师](companies/jd.md#job661)
+  - [京东集团 · 算法开发](companies/jd.md#job662)
+  - [京东集团 · 算法工程师](companies/jd.md#job663)
+- **Agent 与 RAG**（213）
   - [美团 · 大模型算法工程师（长程 Agent / 多模态 / RL）](#job004)
   - [公司未披露 · 大模型算法工程师（视频剪辑 Agent）](#job021)
   - [百度 · 多模态算法工程师（教育智能体）](#job036)
-  - [腾讯 · 大模型算法交付工程师（行业模型方向）](#job040)
-  - [腾讯 · 光子 AI·LLM 高级研究员（游戏智能体）](#job041)
+  - [腾讯 · 大模型算法交付工程师（行业模型方向）](companies/tencent.md#job040)
+  - [腾讯 · 光子 AI·LLM 高级研究员（游戏智能体）](companies/tencent.md#job041)
   - [DeepSeek（深度求索） · Agent Harness 团队](#job046)
-  - [腾讯 · 混元 AI Agent Harness 工程师](#job058)
+  - [腾讯 · 混元 AI Agent Harness 工程师](companies/tencent.md#job058)
   - [美团 · AI 应用开发工程师（2027 届秋招项目）](#job062)
   - [美团 · 大模型自进化与自动化研究智能体研究员（2027 届）](#job063)
   - [美团 · 大模型和智能体应用算法工程师（AIBD）](#job065)
   - [美团 · 大模型 / Agent 评测工程师（AI 研发）](#job068)
-  - [阿里巴巴集团 · 大模型应用开发工程师（2027 届）](#job075)
-- **搜索与检索**（8）
+  - [阿里巴巴集团 · 大模型应用开发工程师（2027 届）](companies/alibaba.md#job075)
+  - [字节跳动 · 个性化大模型算法工程师-Seed大模型人才校招](companies/bytedance.md#job081)
+  - [字节跳动 · 大语言模型算法工程师-Seed大模型人才校招](companies/bytedance.md#job088)
+  - [字节跳动 · 大语言模型算法工程师-Seed大模型人才校招](companies/bytedance.md#job092)
+  - [字节跳动 · 大语言模型Agent算法工程师-Seed大模型人才校招](companies/bytedance.md#job096)
+  - [字节跳动 · 大语言模型Agent算法工程师-Seed大模型人才校招](companies/bytedance.md#job097)
+  - [字节跳动 · 大语言模型Agent应用架构工程师-Seed大模型人才校招](companies/bytedance.md#job109)
+  - [字节跳动 · 大语言模型Agent应用架构工程师-Seed大模型人才校招](companies/bytedance.md#job114)
+  - [字节跳动 · 大模型赋能交易与商业场景的技术创新及落地实践研究(北京/上海) - Commercial AI](companies/bytedance.md#job116)
+  - [字节跳动 · 机器人灵巧手结构工程师 - Seed大模型人才校招](companies/bytedance.md#job124)
+  - [字节跳动 · 机器人BSP驱动软件工程师 - Seed大模型人才校招](companies/bytedance.md#job129)
+  - [字节跳动 · Edge通用智能模型研究员 - Seed大模型人才校招](companies/bytedance.md#job132)
+  - [字节跳动 · 图片生成算法研究员-Seed大模型人才校招](companies/bytedance.md#job133)
+  - [字节跳动 · 图片生成算法研究员-Seed大模型人才校招](companies/bytedance.md#job134)
+  - [字节跳动 · 大语言模型算法工程师(交互智能方向) - Seed大模型人才校招](companies/bytedance.md#job138)
+  - [字节跳动 · 金融场景中的大模型对话及应用-财经业务大模型算法(杭州/北京)](companies/bytedance.md#job140)
+  - [字节跳动 · AI异构计算优化工程师-Seed大模型人才校招](companies/bytedance.md#job145)
+  - [字节跳动 · 机器学习系统SRE工程师-Seed大模型人才校招](companies/bytedance.md#job146)
+  - [字节跳动 · 机器学习系统SRE工程师-Seed大模型人才校招](companies/bytedance.md#job147)
+  - [字节跳动 · 图片生成算法研究员-Seed大模型人才校招](companies/bytedance.md#job148)
+  - [字节跳动 · AI异构计算优化工程师-Seed大模型人才校招](companies/bytedance.md#job149)
+  - [字节跳动 · AI异构计算优化工程师-Seed大模型人才校招](companies/bytedance.md#job150)
+  - [字节跳动 · 机器学习系统SRE工程师-Seed大模型人才校招](companies/bytedance.md#job151)
+  - [字节跳动 · 大模型算法研究员 - 火山方舟](companies/bytedance.md#job160)
+  - [字节跳动 · 大模型Agent算法工程师 - Aime](companies/bytedance.md#job161)
+  - [字节跳动 · 大模型应用算法研究员 - 小荷健康](companies/bytedance.md#job163)
+  - [字节跳动 · 大模型Agent算法工程师 - Aime](companies/bytedance.md#job166)
+  - [字节跳动 · 大模型应用算法研发工程师 - 隐私和数据保护办公室](companies/bytedance.md#job167)
+  - [字节跳动 · 大模型应用算法工程师 - 抖音电商](companies/bytedance.md#job169)
+  - [字节跳动 · 对话大模型算法工程师 - 抖音电商](companies/bytedance.md#job171)
+  - [字节跳动 · 大模型算法工程师 - 剪映CapCut](companies/bytedance.md#job177)
+  - [字节跳动 · 抖音多业务场景的大模型训练与应用-抖音AI](companies/bytedance.md#job178)
+  - [字节跳动 · 大模型技术与应用算法工程师(用户智能) - TikTok算法](companies/bytedance.md#job181)
+  - [字节跳动 · 面向国际电商场景的大模型应用-国际电商(北京)](companies/bytedance.md#job186)
+  - [字节跳动 · 网络安全大模型算法工程师 - Seed Model](companies/bytedance.md#job194)
+  - [字节跳动 · 大模型应用架构工程师 - 火山方舟](companies/bytedance.md#job203)
+  - [字节跳动 · 大模型服务治理工程师-Data AML](companies/bytedance.md#job204)
+  - [字节跳动 · 大模型算法工程师-TikTok直播](companies/bytedance.md#job208)
+  - [字节跳动 · 大模型算法工程师(应用大模型)-电商业务](companies/bytedance.md#job210)
+  - [字节跳动 · 大模型训练(今日头条)-CQC](companies/bytedance.md#job211)
+  - [字节跳动 · 大语言模型算法工程师-豆包大模型](companies/bytedance.md#job212)
+  - [字节跳动 · 算法工程师-大模型数据](companies/bytedance.md#job213)
+  - [字节跳动 · 算法工程师-大模型数据](companies/bytedance.md#job214)
+  - [字节跳动 · 大模型算法工程师-Data](companies/bytedance.md#job215)
+  - [字节跳动 · 回查大模型运营-CQC](companies/bytedance.md#job216)
+  - [字节跳动 · 大模型Agent框架工程师 - Seed Model](companies/bytedance.md#job218)
+  - [字节跳动 · 大模型算法工程师(AI应用)-Data AML](companies/bytedance.md#job220)
+  - [字节跳动 · 豆包大模型算法工程师-火山方舟](companies/bytedance.md#job221)
+  - [字节跳动 · 豆包大模型算法工程师-火山方舟](companies/bytedance.md#job222)
+  - [字节跳动 · 大模型算法工程师(应用大模型)-电商业务](companies/bytedance.md#job223)
+  - [字节跳动 · 大模型应用算法工程师-抖音电商](companies/bytedance.md#job224)
+  - [字节跳动 · 大模型应用算法工程师-Data](companies/bytedance.md#job227)
+  - [字节跳动 · 大模型算法工程师-国际支付](companies/bytedance.md#job228)
+  - [字节跳动 · 大模型算法工程师-国际支付](companies/bytedance.md#job229)
+  - [字节跳动 · 大模型应用策略 - 抖音社区治理](companies/bytedance.md#job231)
+  - [字节跳动 · 大模型应用算法专家-国际化内容安全](companies/bytedance.md#job236)
+  - [字节跳动 · 大模型算法工程师-火山方舟](companies/bytedance.md#job238)
+  - [字节跳动 · 大模型数据工程师 - Seed Model](companies/bytedance.md#job239)
+  - [字节跳动 · 大模型算法工程师-财经](companies/bytedance.md#job240)
+  - [字节跳动 · 大模型算法工程师--电商业务](companies/bytedance.md#job244)
+  - [字节跳动 · 大模型AI Coding工程师-番茄小说](companies/bytedance.md#job247)
+  - [字节跳动 · 大模型对话算法工程师-电商业务](companies/bytedance.md#job250)
+  - [字节跳动 · 大模型运营(电商方向)-商业生态与安全](companies/bytedance.md#job251)
+  - [字节跳动 · 豆包大模型算法工程师-火山方舟](companies/bytedance.md#job252)
+  - [字节跳动 · 大模型Agent算法工程师 - TikTok研发](companies/bytedance.md#job255)
+  - [字节跳动 · 大模型平台研发工程师 - Seed Model](companies/bytedance.md#job257)
+  - [字节跳动 · 大模型平台研发工程师 - Seed Model](companies/bytedance.md#job258)
+  - [字节跳动 · 智能运维与大模型应用工程师-基础设施](companies/bytedance.md#job259)
+  - [字节跳动 · 大模型应用架构师 - 开发者服务](companies/bytedance.md#job263)
+  - [字节跳动 · 大模型运营(生活服务方向)-商业生态与安全](companies/bytedance.md#job264)
+  - [字节跳动 · 大模型算法工程师(社交互动方向)-抖音直播](companies/bytedance.md#job266)
+  - [字节跳动 · 大模型应用算法工程师-剪映CapCut](companies/bytedance.md#job267)
+  - [字节跳动 · 大模型应用算法工程师-剪映CapCut](companies/bytedance.md#job268)
+  - [字节跳动 · 治理策略运营(大模型方向)-泛娱乐](companies/bytedance.md#job269)
+  - [字节跳动 · 大模型算法工程师(数据算法) - 数据平台](companies/bytedance.md#job270)
+  - [字节跳动 · 大模型算法工程师(C端)-抖音电商](companies/bytedance.md#job271)
+  - [字节跳动 · 质量大模型应用架构师 - 抖音](companies/bytedance.md#job272)
+  - [字节跳动 · 个性化大模型算法工程师 - Seed Model](companies/bytedance.md#job273)
+  - [字节跳动 · 大模型Agent研究工程师-Seed](companies/bytedance.md#job275)
+  - [字节跳动 · 大模型运营(电商方向)-商业生态与安全](companies/bytedance.md#job276)
+  - [字节跳动 · 大模型运营(电商方向)-商业生态与安全](companies/bytedance.md#job277)
+  - [字节跳动 · 大模型音频理解算法工程师-抖音音乐](companies/bytedance.md#job278)
+  - [字节跳动 · 豆包AI大模型产品解决方案(MaaS) - 火山方舟](companies/bytedance.md#job279)
+  - [字节跳动 · 内容感知策略(AI大模型方向)-抖音生活服务](companies/bytedance.md#job282)
+  - [字节跳动 · 大模型技术专家 - Seed Model](companies/bytedance.md#job283)
+  - [字节跳动 · 大语言模型算法工程师-豆包大模型](companies/bytedance.md#job284)
+  - [字节跳动 · 大语言模型算法工程师-豆包大模型](companies/bytedance.md#job285)
+  - [字节跳动 · 大模型内容安全研判运营-TikTok(上海)](companies/bytedance.md#job286)
+  - [阿里巴巴集团 · AI应用算法工程师](companies/alibaba.md#job287)
+  - [阿里巴巴集团 · AI应用研发工程师](companies/alibaba.md#job288)
+  - [阿里巴巴集团 · AI Agent优化工程师-训练/数据/评测](companies/alibaba.md#job291)
+  - [阿里巴巴集团 · 算法工程师-Agent User Alignment 算法研究](companies/alibaba.md#job292)
+  - [阿里巴巴集团 · AI应用算法工程师-PostTrain](companies/alibaba.md#job303)
+  - [阿里巴巴集团 · 算法工程师- AI手机智能大模型](companies/alibaba.md#job307)
+  - [阿里巴巴集团 · 算法工程师-AI Agent(T-Star Lab )](companies/alibaba.md#job311)
+  - [阿里巴巴集团 · 算法工程师-大模型应用(T-Star Lab )](companies/alibaba.md#job313)
+  - [阿里巴巴集团 · 算法工程师-自然语言处理(T-Star Lab )](companies/alibaba.md#job316)
+  - [阿里巴巴集团 · 算法工程师-安全大模型](companies/alibaba.md#job320)
+  - [阿里巴巴集团 · 算法工程师-AI Agent](companies/alibaba.md#job324)
+  - [阿里巴巴集团 · 算法工程师-自然语言处理](companies/alibaba.md#job329)
+  - [阿里巴巴集团 · 算法工程师-大语言模型](companies/alibaba.md#job330)
+  - [阿里巴巴集团 · 算法工程师-运筹优化](companies/alibaba.md#job331)
+  - [阿里巴巴集团 · 算法工程师-供应链需求预测](companies/alibaba.md#job334)
+  - [阿里巴巴集团 · 算法工程师-评估系统算法](companies/alibaba.md#job348)
+  - [阿里巴巴集团 · 算法工程师-AI for Engineering](companies/alibaba.md#job350)
+  - [阿里巴巴集团 · 1688买家Agentic AI算法专家-阿里星](companies/alibaba.md#job357)
+  - [阿里巴巴集团 · 智能引擎-RAG引擎研发工程师/专家-杭州](companies/alibaba.md#job358)
+  - [阿里巴巴集团 · 集团安全部-大模型训练算法工程师/专家-数据安全](companies/alibaba.md#job363)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型算法研发工程师-LLM&Agentic RL](companies/alibaba.md#job371)
+  - [阿里巴巴集团 · 阿里控股-医疗大模型落地高级算法专家-基础技术](companies/alibaba.md#job375)
+  - [阿里巴巴集团 · 集团安全部-全模态大模型应用算法专家-杭州](companies/alibaba.md#job378)
+  - [阿里巴巴集团 · 阿里控股-医疗大模型算法专家-基础技术](companies/alibaba.md#job379)
+  - [阿里巴巴集团 · 乌鸫科技-大模型应急运维工程师-平台技术](companies/alibaba.md#job380)
+  - [阿里巴巴集团 · 集团安全部-内容安全大模型算法专家-杭州/北京](companies/alibaba.md#job381)
+  - [阿里巴巴集团 · 安全AGI实验室-网络安全大模型算法专家-北京/杭州](companies/alibaba.md#job383)
+  - [阿里巴巴集团 · 阿里控股-数据采购技术专家-大模型方向](companies/alibaba.md#job384)
+  - [阿里巴巴集团 · 阿里控股-大模型行业研究员-AI Data](companies/alibaba.md#job385)
+  - [阿里巴巴集团 · 安全AGI实验室-大模型Agent算法专家-组织上下文](companies/alibaba.md#job391)
+  - [阿里巴巴集团 · 数据技术及产品部-数据采购-大模型数据](companies/alibaba.md#job392)
+  - [阿里巴巴集团 · CFO产品技术部-大模型应用研发技术专家-大模型应用团队](companies/alibaba.md#job393)
+  - [阿里巴巴集团 · 集团安全部-内容安全大模型算法-商品治理大模型(杭州)](companies/alibaba.md#job395)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型数据处理优化专家-杭州/北京](companies/alibaba.md#job397)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型数据平台研发工程师/专家-AIData](companies/alibaba.md#job398)
+  - [阿里巴巴集团 · 集团安全部-内容安全大模型算法-商品合规大模型(杭州)](companies/alibaba.md#job399)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型分析与数据策略专家-杭州/北京](companies/alibaba.md#job400)
+  - [阿里巴巴集团 · ATH事业群-大模型全球化合规-杭州](companies/alibaba.md#job407)
+  - [阿里巴巴集团 · 阿里控股-AI大模型采购-杭州](companies/alibaba.md#job414)
+  - [阿里巴巴集团 · 阿里控股-内容安全大模型算法-AI被动防控(杭州)](companies/alibaba.md#job415)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型RL Data工程师-- Life Science / Chemistry(AI for Science)](companies/alibaba.md#job416)
+  - [阿里巴巴集团 · 阿里控股-大模型数据工程师-Code/Agentic方向](companies/alibaba.md#job417)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型数据处理研发工程师/专家-AIData](companies/alibaba.md#job420)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型RL Data工程师-Computer Use](companies/alibaba.md#job423)
+  - [阿里巴巴集团 · 阿里控股-大模型外包训练采购专家-杭州](companies/alibaba.md#job424)
+  - [阿里巴巴集团 · 集团安全部-大模型算法专家-杭州](companies/alibaba.md#job427)
+  - [腾讯 · WeTalk-大模型应用研发工程师-(Agent Harness)](companies/tencent.md#job430)
+  - [腾讯 · 微信小店-大模型算法工程师-交易治理方向](companies/tencent.md#job434)
+  - [腾讯 · 企业微信-大模型算法工程师-Agent记忆系统(北京/成都)](companies/tencent.md#job445)
+  - [腾讯 · 企业微信-大模型算法工程师-Agent应用(广州/北京)](companies/tencent.md#job449)
+  - [腾讯 · 混元大模型音频理解算法工程师(北京)](companies/tencent.md#job450)
+  - [腾讯 · 混元LLM大模型量化压缩高级算法工程师(北京/深圳/上海)](companies/tencent.md#job453)
+  - [腾讯 · 微信-WeLM 大模型 RL 环境构建研发工程师(深圳、上海)](companies/tencent.md#job457)
+  - [腾讯 · 英雄联盟手游-应用研究-大模型应用](companies/tencent.md#job459)
+  - [腾讯 · 企业微信-AI应用后台开发工程师-AI大模型应用(成都/北京)](companies/tencent.md#job471)
+  - [腾讯 · 混元-大模型应用开发工程师(北京/深圳)](companies/tencent.md#job479)
+  - [腾讯 · AI智能体评测高级工程师](companies/tencent.md#job480)
+  - [腾讯 · 光子 AI-大语言模型Coding算法专家](companies/tencent.md#job492)
+  - [腾讯 · 浏览器内核与自动化工程师(AI Agent领域)](companies/tencent.md#job494)
+  - [腾讯 · 微信小游戏-Agent应用开发-游戏内容方向](companies/tencent.md#job497)
+  - [腾讯 · 腾讯云DataBuddy-Agent研发专家](companies/tencent.md#job511)
+  - [腾讯 · 智能体套件-全栈开发工程师-CodeBuddy/WorkBuddy](companies/tencent.md#job514)
+  - [腾讯 · 腾讯游戏-大模型数据与评测高级工程师-智能NPC](companies/tencent.md#job516)
+  - [腾讯 · 光子 AI-大模型质量工程师-游戏方向](companies/tencent.md#job523)
+  - [腾讯 · 游戏AI-LLM大模型算法研究员](companies/tencent.md#job525)
+  - [腾讯 · AI大模型架构师](companies/tencent.md#job526)
+  - [腾讯 · 微信小程序-大模型算法工程师-Coding方向](companies/tencent.md#job532)
+  - [腾讯 · 微信小程序-AI Agent 算法工程师-Coding方向](companies/tencent.md#job533)
+  - [腾讯 · 微信小程序-AI Agent 开发工程师-小工具](companies/tencent.md#job535)
+  - [腾讯 · 微信小微-大模型算法研究员-Harness合版与记忆方向](companies/tencent.md#job538)
+  - [腾讯 · 微信小微-大模型算法研究员-对话方向](companies/tencent.md#job539)
+  - [腾讯 · 微信WeLM-大模型研发基础设施工程师-研发效能方向(深圳、上海、广州)](companies/tencent.md#job541)
+  - [腾讯 · 智能体-数据分析工程师(数仓方向)-WorkBuddy](companies/tencent.md#job543)
+  - [腾讯 · 微信小程序-大模型应用开发工程师-智能体方向](companies/tencent.md#job546)
+  - [腾讯 · 混元大模型应用算法工程师(北京/深圳)](companies/tencent.md#job550)
+  - [腾讯 · 智能体-数据治理高级工程师-WorkBuddy](companies/tencent.md#job552)
+  - [腾讯 · 混元大模型平台研发工程师(北京/深圳)](companies/tencent.md#job555)
+  - [腾讯 · 应用效能技术部-#Agent 开发工程师#-Agent 平台方向](companies/tencent.md#job557)
+  - [腾讯 · 智能体- Agent Harness 全栈工程师- WorkBuddy/CodeBuddy](companies/tencent.md#job558)
+  - [腾讯 · WorkBuddy-Agent Harness 算法工程师](companies/tencent.md#job559)
+  - [腾讯 · 游戏AI-大模型应用算法研究员-AgenticCoding](companies/tencent.md#job566)
+  - [腾讯 · 大模型工程架构专家/Tech Lead(深圳/北京)](companies/tencent.md#job571)
+  - [腾讯 · 微信基础-大模型应用开发工程师](companies/tencent.md#job573)
+  - [腾讯 · 混元沙盒平台工程师(北京/深圳/上海)](companies/tencent.md#job576)
+  - [腾讯 · 魔方工作室-游戏AI大语言模型算法工程师](companies/tencent.md#job580)
+  - [腾讯 · 腾讯云DataBuddy-大模型算法专家](companies/tencent.md#job587)
+  - [腾讯 · 异构适配与优化AI Agent研发工程师/专家(深圳/北京/上海)](companies/tencent.md#job588)
+  - [腾讯 · AI评测负责人(Agent/大模型方向)](companies/tencent.md#job590)
+  - [腾讯 · 大模型训练生产SRE工程师(深圳/上海/北京)](companies/tencent.md#job592)
+  - [腾讯 · WorkBuddy-企业智能体高级全栈研发工程师](companies/tencent.md#job596)
+  - [腾讯 · 混元AI平台SRE工程师(深圳/北京)](companies/tencent.md#job600)
+  - [腾讯 · 腾讯云 -AgentRuntime研发负责人(深圳/北京)](companies/tencent.md#job601)
+  - [腾讯 · 腾讯云-AgentRuntime高级技术专家(沙箱方向)(深圳/北京)](companies/tencent.md#job602)
+  - [腾讯 · AI应用工程师](companies/tencent.md#job605)
+  - [腾讯 · AI算法工程](companies/tencent.md#job606)
+  - [腾讯 · 算法-自然语言处理方向](companies/tencent.md#job610)
+  - [京东集团 · 算法工程师-语言大模型](companies/jd.md#job621)
+  - [京东集团 · 大模型岗位](companies/jd.md#job631)
+  - [京东集团 · 大模型算法工程师(to C)](companies/jd.md#job632)
+  - [京东集团 · 大模型量化工程师](companies/jd.md#job634)
+  - [京东集团 · AI大模型算法专家](companies/jd.md#job636)
+  - [京东集团 · 大模型应用/agent算法专家](companies/jd.md#job637)
+  - [京东集团 · 大模型算法工程师](companies/jd.md#job638)
+  - [京东集团 · Agentic Coding 大模型算法工程师](companies/jd.md#job641)
+  - [京东集团 · 智能体平台和应用研发技术带头人](companies/jd.md#job645)
+  - [京东集团 · 运筹优化/机器学习算法工程师](companies/jd.md#job646)
+  - [京东集团 · 算法开发岗](companies/jd.md#job647)
+  - [京东集团 · 算法开发](companies/jd.md#job648)
+  - [京东集团 · 算法开发岗](companies/jd.md#job649)
+  - [京东集团 · 高级算法工程师](companies/jd.md#job650)
+  - [京东集团 · 空间智能算法工程师](companies/jd.md#job652)
+  - [京东集团 · 算法开发岗](companies/jd.md#job666)
+  - [京东集团 · 软件开发岗(AI算法)](companies/jd.md#job668)
+  - [京东集团 · LLM算法开发工程师](companies/jd.md#job671)
+- **搜索与检索**（30）
   - [贝壳找房 · 大模型算法工程师（2027 届秋招）](#job010)
   - [小红书 · 社区搜索算法工程师（2027 校招）](#job016)
   - [百度 · 搜索算法工程师（地图 AI 搜索）](#job034)
   - [百度 · AI 算法工程师（电商搜索）](#job035)
   - [DeepSeek（深度求索） · AI 搜索算法 / 架构工程师](#job045)
-  - [腾讯 · 微信小程序搜索算法工程师（Agent）](#job054)
-  - [腾讯 · 微信视频搜索算法高级工程师（生成式召回）](#job055)
+  - [腾讯 · 微信小程序搜索算法工程师（Agent）](companies/tencent.md#job054)
+  - [腾讯 · 微信视频搜索算法高级工程师（生成式召回）](companies/tencent.md#job055)
   - [美团 · 大模型应用算法工程师（搜推，2027 届）](#job060)
-- **广告算法**（3）
+  - [字节跳动 · 豆包AI搜索架构工程师-Seed大模型人才校招](companies/bytedance.md#job115)
+  - [字节跳动 · AI搜索算法工程师-Seed大模型人才校招](companies/bytedance.md#job117)
+  - [字节跳动 · AI搜索算法工程师-Seed大模型人才校招](companies/bytedance.md#job118)
+  - [字节跳动 · AI搜索Agent算法工程师-Seed大模型人才校招](companies/bytedance.md#job135)
+  - [字节跳动 · AI搜索Agent算法工程师-Seed大模型人才校招](companies/bytedance.md#job136)
+  - [字节跳动 · 多模态大模型算法工程师 - 搜索](companies/bytedance.md#job174)
+  - [字节跳动 · 搜索大模型训练/推理工程师 - 搜索架构](companies/bytedance.md#job184)
+  - [字节跳动 · AI搜索大模型评测 - 抖音搜索](companies/bytedance.md#job237)
+  - [阿里巴巴集团 · 基于大模型的搜索算法研究与应用-阿里星/T-Star](companies/alibaba.md#job293)
+  - [阿里巴巴集团 · 算法工程师-多模态检索/RAG](companies/alibaba.md#job319)
+  - [阿里巴巴集团 · 算法工程师-搜索推荐](companies/alibaba.md#job333)
+  - [阿里巴巴集团 · AI Native搜推算法工程师-π天才计划](companies/alibaba.md#job341)
+  - [阿里巴巴集团 · 智能引擎-HA3/SQL 查询引擎研发工程师/专家(OLAP 与搜索)-杭州](companies/alibaba.md#job360)
+  - [腾讯 · 微信搜索-Agent算法专家](companies/tencent.md#job484)
+  - [腾讯 · 微信搜索-AI Infra 工程师-大模型推理方向 (深圳)(广州)](companies/tencent.md#job485)
+  - [腾讯 · 微信搜索-AI Infra工程师-大模型后训练与RL方向(北京)(深圳)](companies/tencent.md#job486)
+  - [腾讯 · AI搜索引擎研发专家/工程师(上海/深圳/北京)](companies/tencent.md#job527)
+  - [腾讯 · 微信搜索-后台开发工程师-表情搜索](companies/tencent.md#job551)
+  - [腾讯 · 算法-计算机图形学方向](companies/tencent.md#job614)
+  - [京东集团 · 算法工程师-机器学习](companies/jd.md#job620)
+  - [京东集团 · 地图搜索算法工程师](companies/jd.md#job644)
+  - [京东集团 · 财务AI算法工程师](companies/jd.md#job669)
+- **广告算法**（14）
   - [快手 · 广告大模型算法工程师（快 Star）](#job007)
   - [小米集团 · 广告算法工程师](#job011)
-  - [腾讯 · 腾讯营销搜索广告算法专家](#job053)
-- **推荐算法**（3）
-  - [字节跳动 · 国际电商推荐大模型算法工程师](#job012)
+  - [腾讯 · 腾讯营销搜索广告算法专家](companies/tencent.md#job053)
+  - [字节跳动 · 多模态大模型算法工程师 - 中国交易与广告](companies/bytedance.md#job164)
+  - [字节跳动 · 图大模型算法工程师 - 中国交易与广告](companies/bytedance.md#job179)
+  - [字节跳动 · 大模型Agent算法工程师 - 中国交易与广告](companies/bytedance.md#job183)
+  - [字节跳动 · 文本大模型算法工程师 - 中国交易与广告](companies/bytedance.md#job187)
+  - [字节跳动 · 大模型搜索广告算法工程师-国际化搜索广告](companies/bytedance.md#job209)
+  - [阿里巴巴集团 · 算法工程师-AI搜索/推荐/广告](companies/alibaba.md#job298)
+  - [阿里巴巴集团 · 基于大模型的广告算法研究与应用-阿里星/T-Star](companies/alibaba.md#job304)
+  - [阿里巴巴集团 · 算法工程师-AI搜索/推荐/广告(T-Star Lab )](companies/alibaba.md#job310)
+  - [腾讯 · 高级投放 Agent 研发工程师(北京/深圳)](companies/tencent.md#job503)
+  - [京东集团 · 算法工程师-搜索/推荐/广告](companies/jd.md#job624)
+  - [京东集团 · 算法开发工程师](companies/jd.md#job667)
+- **推荐算法**（25）
+  - [字节跳动 · 国际电商推荐大模型算法工程师](companies/bytedance.md#job012)
   - [小红书 · 全域推荐算法工程师（2027 校招）](#job017)
-  - [腾讯 · 微信小游戏大模型推荐算法工程师（商业化）](#job051)
-- **用户增长与营销**（4）
+  - [腾讯 · 微信小游戏大模型推荐算法工程师（商业化）](companies/tencent.md#job051)
+  - [字节跳动 · 推荐大模型算法工程师 - 抖音电商](companies/bytedance.md#job162)
+  - [字节跳动 · 大模型推荐算法工程师 - TikTok算法](companies/bytedance.md#job173)
+  - [字节跳动 · 下一代推荐大模型算法工程师 - TikTok算法](companies/bytedance.md#job188)
+  - [字节跳动 · 推荐大模型算法工程师-番茄](companies/bytedance.md#job233)
+  - [字节跳动 · 推荐大模型算法工程师-番茄](companies/bytedance.md#job248)
+  - [阿里巴巴集团 · 基于大模型的推荐算法研究与应用-阿里星/T-Star](companies/alibaba.md#job305)
+  - [阿里巴巴集团 · 算法工程师-生成式推荐](companies/alibaba.md#job338)
+  - [腾讯 · 微信视频号-开发工程师-推荐大模型方向](companies/tencent.md#job431)
+  - [腾讯 · 微信小店-推荐大模型算法工程师](companies/tencent.md#job433)
+  - [腾讯 · 微信小店-高级推荐算法工程师](companies/tencent.md#job440)
+  - [腾讯 · 微信小店-后台开发工程师-推荐系统方向](companies/tencent.md#job455)
+  - [腾讯 · 微信视频号-高级推荐大模型算法工程师-生态方向(北京)](companies/tencent.md#job488)
+  - [腾讯 · 微信小游戏-大模型推荐算法工程师-商业化方向](companies/tencent.md#job498)
+  - [腾讯 · 微信视频号-推荐后台工程师](companies/tencent.md#job499)
+  - [腾讯 · 微信视频号直播-推荐算法高级工程师-生态方向(深圳)](companies/tencent.md#job510)
+  - [腾讯 · QQ-#社交推荐算法工程师#](companies/tencent.md#job520)
+  - [腾讯 · 微信视频号-高级LRM推荐算法工程师(广州)](companies/tencent.md#job568)
+  - [腾讯 · 微信视频号-推荐大模型算法工程师-短剧(北京)](companies/tencent.md#job581)
+  - [腾讯 · 算法-推荐算法方向](companies/tencent.md#job612)
+  - [京东集团 · 算法开发(AI agent/推荐引擎方向)](companies/jd.md#job642)
+  - [京东集团 · 推荐算法专家岗](companies/jd.md#job643)
+  - [京东集团 · 算法开发((地图)](companies/jd.md#job675)
+- **用户增长与营销**（11）
   - [小红书 · 电商算法工程师（2027 校招）](#job015)
-  - [字节跳动 · 大模型应用算法工程师（Commercial AI）](#job023)
-  - [腾讯 · 腾讯营销生成式推荐算法专家](#job052)
-  - [阿里巴巴集团 · 算法工程师（大模型应用，2027 届）](#job072)
-- **风控与内容安全**（8）
+  - [字节跳动 · 大模型应用算法工程师（Commercial AI）](companies/bytedance.md#job023)
+  - [腾讯 · 腾讯营销生成式推荐算法专家](companies/tencent.md#job052)
+  - [阿里巴巴集团 · 算法工程师（大模型应用，2027 届）](companies/alibaba.md#job072)
+  - [阿里巴巴集团 · 算法工程师-供应链和定价 AI](companies/alibaba.md#job295)
+  - [阿里巴巴集团 · 算法工程师-AI智能决策(生成式/强化学习/因果推断)](companies/alibaba.md#job309)
+  - [阿里巴巴集团 · 算法工程师-运筹&因果推断(AI物流智能决策)](companies/alibaba.md#job340)
+  - [腾讯 · 腾讯营销-投放 Agent 产品专家-北京/深圳](companies/tencent.md#job530)
+  - [腾讯 · 腾讯营销-AI Agent 架构师](companies/tencent.md#job565)
+  - [腾讯 · 腾讯营销-资深全栈开发工程师(广告创意自动化方向)](companies/tencent.md#job597)
+  - [腾讯 · 算法-数据科学方向](companies/tencent.md#job611)
+- **风控与内容安全**（51）
   - [蚂蚁集团 · 机器学习算法（搜广推与风控）](#job018)
-  - [字节跳动 · Agent / 强化学习算法工程师（商业化内容理解）](#job020)
+  - [字节跳动 · Agent / 强化学习算法工程师（商业化内容理解）](companies/bytedance.md#job020)
   - [蚂蚁集团 · 风控反欺诈 / 风控算法专家（多模态）](#job022)
   - [众安保险 · AI 算法工程师（保险大模型，2027 届）](#job026)
-  - [腾讯 · 微信小店风控大模型算法工程师](#job056)
-  - [腾讯 · 高级广告审核 Agent 算法工程师](#job057)
+  - [腾讯 · 微信小店风控大模型算法工程师](companies/tencent.md#job056)
+  - [腾讯 · 高级广告审核 Agent 算法工程师](companies/tencent.md#job057)
   - [美团 · 安全工程师（含大模型应用安全方向，2027 届）](#job064)
-  - [字节跳动 · 大模型安全与对齐研究工程师（Seed，2027 届）](#job077)
-- **语音与实时交互**（5）
+  - [字节跳动 · 大模型安全与对齐研究工程师（Seed，2027 届）](companies/bytedance.md#job077)
+  - [字节跳动 · 大模型安全训练 - 内容质量与数据服务平台](companies/bytedance.md#job082)
+  - [字节跳动 · 大模型应用开发工程师 - 风控](companies/bytedance.md#job175)
+  - [字节跳动 · 大模型安全攻防评测专家-大模型安全&模型运维](companies/bytedance.md#job196)
+  - [字节跳动 · 大模型安全标准专家-CQC](companies/bytedance.md#job197)
+  - [字节跳动 · 模型训练-大模型安全群组](companies/bytedance.md#job198)
+  - [字节跳动 · 大模型风险治理运营-大模型安全群组](companies/bytedance.md#job199)
+  - [字节跳动 · 豆包安全值班号运营-大模型安全&模型运维](companies/bytedance.md#job201)
+  - [字节跳动 · HRBP-大模型安全群组(北京)](companies/bytedance.md#job202)
+  - [字节跳动 · 安全策略运营-大模型安全群组](companies/bytedance.md#job205)
+  - [字节跳动 · 大模型安全攻防工程师-抖音研发](companies/bytedance.md#job219)
+  - [字节跳动 · 大模型应用专家(内容生态方向)-大模型安全&模型运维](companies/bytedance.md#job226)
+  - [字节跳动 · 大模型评测研究员(智能安全) - 安全与风控](companies/bytedance.md#job230)
+  - [字节跳动 · 智能审核(大模型)算法工程师-国际电商](companies/bytedance.md#job232)
+  - [字节跳动 · 大模型安全产品-豆包对话](companies/bytedance.md#job243)
+  - [字节跳动 · 内容安全审核大模型运营-TikTok Shop](companies/bytedance.md#job260)
+  - [字节跳动 · 安全大模型算法专家 - 安全与风控](companies/bytedance.md#job265)
+  - [阿里巴巴集团 · 算法工程师-AI安全](companies/alibaba.md#job322)
+  - [阿里巴巴集团 · 阿里控股-大模型安全架构师 / 资深专家-杭州/北京](companies/alibaba.md#job373)
+  - [阿里巴巴集团 · 数据技术及产品部-大模型安全对抗专家-杭州](companies/alibaba.md#job374)
+  - [阿里巴巴集团 · 集团安全部-AI高级安全工程师-大模型安全研究(杭州)](companies/alibaba.md#job389)
+  - [阿里巴巴集团 · 集团安全部-大模型安全算法-北京/杭州](companies/alibaba.md#job390)
+  - [阿里巴巴集团 · 集团安全部-大模型攻防平台-杭州](companies/alibaba.md#job413)
+  - [腾讯 · 微信安全-内容理解算法工程师-电商入驻审核](companies/tencent.md#job432)
+  - [腾讯 · 微信安全-大模型风控算法工程师-支付风控](companies/tencent.md#job493)
+  - [腾讯 · 微信安全-大模型安全高级工程师](companies/tencent.md#job500)
+  - [腾讯 · 微信安全-大模型安全工程师](companies/tencent.md#job501)
+  - [腾讯 · 微信安全-大模型安全工程师](companies/tencent.md#job502)
+  - [腾讯 · 微信安全-大模型风控算法工程师-社交反诈](companies/tencent.md#job519)
+  - [腾讯 · 微信小店-风控算法工程师](companies/tencent.md#job521)
+  - [腾讯 · 微信安全-大模型算法工程师-内容风控方向](companies/tencent.md#job528)
+  - [腾讯 · 微信安全-大模型算法工程师-内容风控方向](companies/tencent.md#job529)
+  - [腾讯 · 微信开放平台-大模型安全算法工程师](companies/tencent.md#job531)
+  - [腾讯 · 微信安全-大模型风控算法工程师-基础安全](companies/tencent.md#job540)
+  - [腾讯 · 风控算法工程师](companies/tencent.md#job547)
+  - [腾讯 · 微信安全-内容理解算法高级工程师-商业化审核](companies/tencent.md#job562)
+  - [腾讯 · 腾讯安全-金融风控产品解决方案专家](companies/tencent.md#job577)
+  - [腾讯 · 腾讯安全-内容风控合规运营工程师](companies/tencent.md#job589)
+  - [腾讯 · AI大模型安全算法工程师](companies/tencent.md#job594)
+  - [腾讯 · 腾讯安全-风控算法工程师](companies/tencent.md#job598)
+  - [腾讯 · AI安全技术工程师](companies/tencent.md#job603)
+  - [腾讯 · AI安全技术工程师(风控算法)](companies/tencent.md#job604)
+  - [京东集团 · 算法工程师-数据挖掘](companies/jd.md#job617)
+  - [京东集团 · 大模型安全工程师](companies/jd.md#job635)
+- **语音与实时交互**（36）
   - [思必驰 · 大模型算法工程师（2027 届）](#job008)
   - [同花顺 · 算法实习生（对话大模型与语音客服 Agent）](#job027)
   - [百度 · 语音大模型算法工程师（2027 AIDU）](#job031)
-  - [腾讯 · 腾讯游戏语音算法资深研究员（新星引力计划）](#job042)
-  - [阿里巴巴集团 · 算法工程师（全模态基础大模型，2027 届）](#job074)
+  - [腾讯 · 腾讯游戏语音算法资深研究员（新星引力计划）](companies/tencent.md#job042)
+  - [阿里巴巴集团 · 算法工程师（全模态基础大模型，2027 届）](companies/alibaba.md#job074)
+  - [字节跳动 · 音频多模态算法工程师-Seed大模型人才校招](companies/bytedance.md#job087)
+  - [字节跳动 · 音频多模态算法工程师-Seed大模型人才校招](companies/bytedance.md#job094)
+  - [字节跳动 · 音频多模态算法工程师-Seed大模型人才校招](companies/bytedance.md#job095)
+  - [字节跳动 · 音频多模态算法工程师-Seed大模型人才校招](companies/bytedance.md#job098)
+  - [字节跳动 · 音频多模态大模型数据工程师-Seed大模型人才校招](companies/bytedance.md#job119)
+  - [字节跳动 · 音频多模态大模型数据工程师-Seed大模型人才校招](companies/bytedance.md#job120)
+  - [字节跳动 · 音频多模态推理工程师-Seed大模型人才校招](companies/bytedance.md#job121)
+  - [字节跳动 · 音频多模态训练工程师-Seed大模型人才校招](companies/bytedance.md#job123)
+  - [字节跳动 · 音频多模态推理工程师-Seed大模型人才校招](companies/bytedance.md#job131)
+  - [字节跳动 · 音频多模态训练工程师-Seed大模型人才校招](companies/bytedance.md#job139)
+  - [字节跳动 · 音频多模态推理工程师-Seed大模型人才校招](companies/bytedance.md#job155)
+  - [字节跳动 · 语音大模型数据运营 - AI数据与安全](companies/bytedance.md#job158)
+  - [字节跳动 · 大模型算法(豆包输入法) - Data语音](companies/bytedance.md#job182)
+  - [字节跳动 · 豆包AI大模型音乐数据专家 - Data语音](companies/bytedance.md#job261)
+  - [字节跳动 · 豆包AI大模型语音平台研发工程师 - Data语音](companies/bytedance.md#job262)
+  - [阿里巴巴集团 · 语音大模型算法研究-阿里星](companies/alibaba.md#job300)
+  - [阿里巴巴集团 · 算法工程师-语音多模态大模型](companies/alibaba.md#job318)
+  - [阿里巴巴集团 · 音频多模态算法研究与应用-阿里星](companies/alibaba.md#job353)
+  - [阿里巴巴集团 · 数据技术及产品部-语音大模型评测专家-杭州/北京](companies/alibaba.md#job386)
+  - [腾讯 · 腾讯云语音大模型算法工程师(TTS)](companies/tencent.md#job482)
+  - [腾讯 · 微信-语音识别算法工程师](companies/tencent.md#job489)
+  - [腾讯 · 光子 AI-高级研究员-语音合成与多模态大模型](companies/tencent.md#job517)
+  - [腾讯 · 微信-后台开发高级工程师-机器学习工程方向](companies/tencent.md#job524)
+  - [腾讯 · 微信-语音全双工对话大模型预训练算法工程师](companies/tencent.md#job548)
+  - [腾讯 · 实时语音 Agent 研发工程师(深圳/北京/上海/杭州)-全双工与多模态交互](companies/tencent.md#job554)
+  - [腾讯 · 腾讯元宝-大模型策略产品-语音方向](companies/tencent.md#job564)
+  - [腾讯 · 算法-机器学习方向](companies/tencent.md#job607)
+  - [腾讯 · 算法-多媒体处理方向](companies/tencent.md#job608)
+  - [京东集团 · 算法工程师-语音/音频大模型](companies/jd.md#job625)
+  - [京东集团 · ASR语音算法开发](companies/jd.md#job670)
+  - [京东集团 · 语音引擎工程师(ASR工程)](companies/jd.md#job676)
 - **客服与对话系统**（2）
   - [金山云 · 大模型算法工程师（实习）](#job009)
-  - [字节跳动 · 大模型算法工程师（业务后训练）](#job019)
-- **多模态与生成**（7）
+  - [字节跳动 · 大模型算法工程师（业务后训练）](companies/bytedance.md#job019)
+- **多模态与生成**（104）
   - [上海人工智能实验室 · 科学多模态大模型青年研究员 / 算法工程师](#job003)
-  - [字节跳动 · 国际电商多模态大模型算法实习（知识图谱）](#job013)
+  - [字节跳动 · 国际电商多模态大模型算法实习（知识图谱）](companies/bytedance.md#job013)
   - [小红书 · 多模态基础模型算法工程师（2027 校招）](#job014)
   - [上海人工智能实验室 · 多模态大模型研究实习生（评测团队）](#job028)
   - [百度 · 多模态算法工程师（2027 AIDU）](#job033)
   - [百度 · 高级多模态算法工程师（应用与交互）](#job037)
   - [DeepSeek（深度求索） · 多模态理解（数据/算法）研究员](#job047)
+  - [字节跳动 · 视觉多模态大模型应用算法工程师 - Seed大模型人才校招](companies/bytedance.md#job083)
+  - [字节跳动 · 视觉多模态大模型应用算法工程师-Seed大模型人才校招](companies/bytedance.md#job084)
+  - [字节跳动 · 视觉多模态大模型应用算法工程师-Seed大模型人才校招](companies/bytedance.md#job085)
+  - [字节跳动 · 多模态Agent算法研究员-Seed大模型人才校招](companies/bytedance.md#job091)
+  - [字节跳动 · 多模态评测算法工程师-Seed大模型人才校招](companies/bytedance.md#job099)
+  - [字节跳动 · 多模态Agent算法研究员-Seed大模型人才校招](companies/bytedance.md#job100)
+  - [字节跳动 · 多模态交互算法工程师 - Seed大模型人才校招](companies/bytedance.md#job101)
+  - [字节跳动 · 多模态与世界模型算法研究员-Seed大模型人才校招](companies/bytedance.md#job104)
+  - [字节跳动 · 多模态与世界模型算法研究员-Seed大模型人才校招](companies/bytedance.md#job107)
+  - [字节跳动 · 具身智能数据开发工程师 - Seed大模型人才校招](companies/bytedance.md#job108)
+  - [字节跳动 · 多模态生成算法优化工程师-Seed大模型人才校招](companies/bytedance.md#job122)
+  - [字节跳动 · AIGC模型应用算法工程师 - Seed大模型人才校招](companies/bytedance.md#job125)
+  - [字节跳动 · AIGC模型应用算法工程师-Seed大模型人才校招](companies/bytedance.md#job126)
+  - [字节跳动 · AIGC模型应用算法工程师-Seed大模型人才校招](companies/bytedance.md#job127)
+  - [字节跳动 · AIGC模型应用算法工程师-Seed大模型人才校招](companies/bytedance.md#job130)
+  - [字节跳动 · 视频生成算法研究员-Seed大模型人才校招](companies/bytedance.md#job137)
+  - [字节跳动 · 视频生成算法研究员-Seed大模型人才校招](companies/bytedance.md#job141)
+  - [字节跳动 · 视频生成算法研究员-Seed大模型人才校招](companies/bytedance.md#job142)
+  - [字节跳动 · 3D生成算法研究员-Seed大模型人才校招](companies/bytedance.md#job143)
+  - [字节跳动 · 3D生成算法研究员-Seed大模型人才校招](companies/bytedance.md#job144)
+  - [字节跳动 · 多模态数据服务工程师-Seed大模型人才校招](companies/bytedance.md#job152)
+  - [字节跳动 · 多模态数据服务工程师-Seed大模型人才校招](companies/bytedance.md#job153)
+  - [字节跳动 · 多模态生成算法优化工程师-Seed大模型人才校招](companies/bytedance.md#job154)
+  - [字节跳动 · 多模态大模型算法工程师 - TikTok内容安全算法](companies/bytedance.md#job165)
+  - [字节跳动 · 豆包大模型多模态算法工程师 - 火山方舟](companies/bytedance.md#job168)
+  - [字节跳动 · 多模态大模型算法工程师 - 抖音](companies/bytedance.md#job170)
+  - [字节跳动 · 多模态大模型算法工程师 - TikTok算法](companies/bytedance.md#job176)
+  - [字节跳动 · 多模态大模型算法工程师 - TikTok Shop](companies/bytedance.md#job185)
+  - [字节跳动 · 具身智能数据挖掘工程师(Seed) - Seed Model](companies/bytedance.md#job189)
+  - [字节跳动 · 多模态算法工程师 - Seed Model](companies/bytedance.md#job190)
+  - [字节跳动 · 多模态算法工程师 - Seed Model](companies/bytedance.md#job193)
+  - [字节跳动 · 多模态大模型算法工程师-商业信任与安全](companies/bytedance.md#job235)
+  - [字节跳动 · 多模态大模型算法工程师-Commercial AI](companies/bytedance.md#job241)
+  - [字节跳动 · 多模态大模型算法(国际化直播) - TikTok算法](companies/bytedance.md#job249)
+  - [字节跳动 · 多模态大模型算法工程师-地理位置中台](companies/bytedance.md#job253)
+  - [字节跳动 · 内容理解多模态大模型算法工程师-抖音游戏](companies/bytedance.md#job256)
+  - [字节跳动 · 大模型训练(抖音视频方向)-CQC](companies/bytedance.md#job274)
+  - [字节跳动 · 多模态大模型数据工程师-产品研发](companies/bytedance.md#job281)
+  - [阿里巴巴集团 · 算法工程师-AI药物结构](companies/alibaba.md#job296)
+  - [阿里巴巴集团 · 算法工程师-多模态AIGC](companies/alibaba.md#job299)
+  - [阿里巴巴集团 · 多模态内容理解算法及应用-阿里星/T-Star](companies/alibaba.md#job306)
+  - [阿里巴巴集团 · 算法工程师-3D视频建模及压缩](companies/alibaba.md#job308)
+  - [阿里巴巴集团 · 算法工程师-多模态(T-Star Lab )](companies/alibaba.md#job314)
+  - [阿里巴巴集团 · 算法工程师-AIGC方向(T-Star Lab )](companies/alibaba.md#job315)
+  - [阿里巴巴集团 · 算法工程师-大数据处理](companies/alibaba.md#job317)
+  - [阿里巴巴集团 · 算法工程师-视频编码与处理](companies/alibaba.md#job321)
+  - [阿里巴巴集团 · 算法工程师-具身智能](companies/alibaba.md#job323)
+  - [阿里巴巴集团 · 算法工程师-视频生成](companies/alibaba.md#job325)
+  - [阿里巴巴集团 · 算法工程师-医学影像](companies/alibaba.md#job327)
+  - [阿里巴巴集团 · 算法工程师-多模态](companies/alibaba.md#job328)
+  - [阿里巴巴集团 · 算法工程师-深度学习](companies/alibaba.md#job332)
+  - [阿里巴巴集团 · 算法工程师-VLM训练](companies/alibaba.md#job336)
+  - [阿里巴巴集团 · 算法工程师-计算机视觉](companies/alibaba.md#job337)
+  - [阿里巴巴集团 · 算法工程师-医疗多模态大模型](companies/alibaba.md#job343)
+  - [阿里巴巴集团 · 多模态理解与Agent算法研究与应用-阿里星](companies/alibaba.md#job352)
+  - [阿里巴巴集团 · 产业链Agentic AI与多模态世界模型算法专家-阿里星](companies/alibaba.md#job356)
+  - [阿里巴巴集团 · 阿里控股-AI数据工程-杭州](companies/alibaba.md#job359)
+  - [阿里巴巴集团 · 数据技术及产品部-多模态大模型算法工程师-杭州/北京](companies/alibaba.md#job367)
+  - [阿里巴巴集团 · 达摩院-超声AI大模型算法专家-具身智能](companies/alibaba.md#job369)
+  - [阿里巴巴集团 · 达摩院-多模态大模型算法工程师(视频理解方向)-杭州](companies/alibaba.md#job388)
+  - [阿里巴巴集团 · 集团安全部-AIGC多模态大模型专家-杭州](companies/alibaba.md#job396)
+  - [阿里巴巴集团 · 数据技术及产品部-高级算法工程师-视觉生成大模型](companies/alibaba.md#job401)
+  - [阿里巴巴集团 · 智能引擎-训练研发工程师-视觉生成大模型](companies/alibaba.md#job418)
+  - [阿里巴巴集团 · 智能引擎-推理研发工程师-视觉生成大模型](companies/alibaba.md#job419)
+  - [腾讯 · 混元AIGC算法研究员(世界模型基模方向)(北京/上海)](companies/tencent.md#job441)
+  - [腾讯 · 混元AIGC算法研究员(多模态生成基模方向)(深圳/北京/上海)](companies/tencent.md#job443)
+  - [腾讯 · 微信视频号-大模型高级工程师](companies/tencent.md#job444)
+  - [腾讯 · 混元多模态算法研究员(Omni模态)(北京/上海/北美)](companies/tencent.md#job448)
+  - [腾讯 · 微信-WeLM -多模态大模型算法专家(深圳,上海)](companies/tencent.md#job461)
+  - [腾讯 · 微信-多模态大模型算法工程师-OCR与文档理解方向(北京)](companies/tencent.md#job466)
+  - [腾讯 · 游戏AI-多模态世界模型算法专家-可控视频生成方向](companies/tencent.md#job475)
+  - [腾讯 · 光子 AI-推理部署与优化研究员](companies/tencent.md#job491)
+  - [腾讯 · 腾讯视频-Agent 技术负责人](companies/tencent.md#job509)
+  - [腾讯 · 腾讯游戏-智能多模态NPC高级研究员](companies/tencent.md#job515)
+  - [腾讯 · 腾讯游戏-多模态大模型算法研究员-动作生成方向](companies/tencent.md#job536)
+  - [腾讯 · 腾讯游戏-多模态大模型算法研究员-交互动画生成方向](companies/tencent.md#job537)
+  - [腾讯 · QQ-多模态大模型算法工程师-深圳/北京](companies/tencent.md#job544)
+  - [腾讯 · 微信安全-多模态大模型算法工程师-视频号安全方向](companies/tencent.md#job563)
+  - [腾讯 · 企业微信-多模态算法工程师-文生图方向](companies/tencent.md#job575)
+  - [腾讯 · 腾讯云-MaaS平台推理研发高级工程师(北/杭/深)](companies/tencent.md#job582)
+  - [腾讯 · 算法-多模态方向](companies/tencent.md#job609)
+  - [腾讯 · 算法-计算机视觉方向](companies/tencent.md#job613)
+  - [京东集团 · 算法工程师-具身智能](companies/jd.md#job618)
+  - [京东集团 · 算法工程师-多模态大模型](companies/jd.md#job619)
+  - [京东集团 · 算法工程师-无人机导航控制](companies/jd.md#job622)
+  - [京东集团 · 算法工程师-视觉算法与数据交付](companies/jd.md#job627)
+  - [京东集团 · 算法工程师-自动驾驶](companies/jd.md#job628)
+  - [京东集团 · 机器人环境理解算法工程师(3DCV)](companies/jd.md#job653)
+  - [京东集团 · AI加速算法工程师](companies/jd.md#job654)
+  - [京东集团 · 空间智能算法工程师(VSLAM方向)](companies/jd.md#job655)
+  - [京东集团 · 算法开发工程师(具身机器人)](companies/jd.md#job658)
+  - [京东集团 · 算法工程师](companies/jd.md#job659)
+  - [京东集团 · 算法工程师](companies/jd.md#job664)
+  - [京东集团 · 机器人力控与交互算法开发岗](companies/jd.md#job665)
+  - [京东集团 · 多模态算法工程师](companies/jd.md#job672)
+  - [京东集团 · 无人车规控模型算法工程师](companies/jd.md#job673)
+  - [京东集团 · 轻地图高级定位算法工程师](companies/jd.md#job674)
 
 ## 按公司
 
@@ -119,6 +729,67 @@
   - [大模型及智能体后训练工程师 / 青年研究员](#job002)
   - [科学多模态大模型青年研究员 / 算法工程师](#job003)
   - [多模态大模型研究实习生（评测团队）](#job028)
+- **京东集团**（60） [查看公司 JD](companies/jd.md)
+  - <a id="job617"></a>[JOB617](companies/jd.md#job617)
+  - <a id="job618"></a>[JOB618](companies/jd.md#job618)
+  - <a id="job619"></a>[JOB619](companies/jd.md#job619)
+  - <a id="job620"></a>[JOB620](companies/jd.md#job620)
+  - <a id="job621"></a>[JOB621](companies/jd.md#job621)
+  - <a id="job622"></a>[JOB622](companies/jd.md#job622)
+  - <a id="job623"></a>[JOB623](companies/jd.md#job623)
+  - <a id="job624"></a>[JOB624](companies/jd.md#job624)
+  - <a id="job625"></a>[JOB625](companies/jd.md#job625)
+  - <a id="job626"></a>[JOB626](companies/jd.md#job626)
+  - <a id="job627"></a>[JOB627](companies/jd.md#job627)
+  - <a id="job628"></a>[JOB628](companies/jd.md#job628)
+  - <a id="job629"></a>[JOB629](companies/jd.md#job629)
+  - <a id="job630"></a>[JOB630](companies/jd.md#job630)
+  - <a id="job631"></a>[JOB631](companies/jd.md#job631)
+  - <a id="job632"></a>[JOB632](companies/jd.md#job632)
+  - <a id="job633"></a>[JOB633](companies/jd.md#job633)
+  - <a id="job634"></a>[JOB634](companies/jd.md#job634)
+  - <a id="job635"></a>[JOB635](companies/jd.md#job635)
+  - <a id="job636"></a>[JOB636](companies/jd.md#job636)
+  - <a id="job637"></a>[JOB637](companies/jd.md#job637)
+  - <a id="job638"></a>[JOB638](companies/jd.md#job638)
+  - <a id="job639"></a>[JOB639](companies/jd.md#job639)
+  - <a id="job640"></a>[JOB640](companies/jd.md#job640)
+  - <a id="job641"></a>[JOB641](companies/jd.md#job641)
+  - <a id="job642"></a>[JOB642](companies/jd.md#job642)
+  - <a id="job643"></a>[JOB643](companies/jd.md#job643)
+  - <a id="job644"></a>[JOB644](companies/jd.md#job644)
+  - <a id="job645"></a>[JOB645](companies/jd.md#job645)
+  - <a id="job646"></a>[JOB646](companies/jd.md#job646)
+  - <a id="job647"></a>[JOB647](companies/jd.md#job647)
+  - <a id="job648"></a>[JOB648](companies/jd.md#job648)
+  - <a id="job649"></a>[JOB649](companies/jd.md#job649)
+  - <a id="job650"></a>[JOB650](companies/jd.md#job650)
+  - <a id="job651"></a>[JOB651](companies/jd.md#job651)
+  - <a id="job652"></a>[JOB652](companies/jd.md#job652)
+  - <a id="job653"></a>[JOB653](companies/jd.md#job653)
+  - <a id="job654"></a>[JOB654](companies/jd.md#job654)
+  - <a id="job655"></a>[JOB655](companies/jd.md#job655)
+  - <a id="job656"></a>[JOB656](companies/jd.md#job656)
+  - <a id="job657"></a>[JOB657](companies/jd.md#job657)
+  - <a id="job658"></a>[JOB658](companies/jd.md#job658)
+  - <a id="job659"></a>[JOB659](companies/jd.md#job659)
+  - <a id="job660"></a>[JOB660](companies/jd.md#job660)
+  - <a id="job661"></a>[JOB661](companies/jd.md#job661)
+  - <a id="job662"></a>[JOB662](companies/jd.md#job662)
+  - <a id="job663"></a>[JOB663](companies/jd.md#job663)
+  - <a id="job664"></a>[JOB664](companies/jd.md#job664)
+  - <a id="job665"></a>[JOB665](companies/jd.md#job665)
+  - <a id="job666"></a>[JOB666](companies/jd.md#job666)
+  - <a id="job667"></a>[JOB667](companies/jd.md#job667)
+  - <a id="job668"></a>[JOB668](companies/jd.md#job668)
+  - <a id="job669"></a>[JOB669](companies/jd.md#job669)
+  - <a id="job670"></a>[JOB670](companies/jd.md#job670)
+  - <a id="job671"></a>[JOB671](companies/jd.md#job671)
+  - <a id="job672"></a>[JOB672](companies/jd.md#job672)
+  - <a id="job673"></a>[JOB673](companies/jd.md#job673)
+  - <a id="job674"></a>[JOB674](companies/jd.md#job674)
+  - <a id="job675"></a>[JOB675](companies/jd.md#job675)
+  - <a id="job676"></a>[JOB676](companies/jd.md#job676)
 - **众安保险**
   - [AI 算法工程师（保险大模型，2027 届）](#job026)
 - **公司未披露**
@@ -127,13 +798,222 @@
   - [算法工程师（大模型预训练与后训练，2027 届）](#job025)
 - **同花顺**
   - [算法实习生（对话大模型与语音客服 Agent）](#job027)
-- **字节跳动**
-  - [国际电商推荐大模型算法工程师](#job012)
-  - [国际电商多模态大模型算法实习（知识图谱）](#job013)
-  - [大模型算法工程师（业务后训练）](#job019)
-  - [Agent / 强化学习算法工程师（商业化内容理解）](#job020)
-  - [大模型应用算法工程师（Commercial AI）](#job023)
-  - [大模型安全与对齐研究工程师（Seed，2027 届）](#job077)
+- **字节跳动**（215） [查看公司 JD](companies/bytedance.md)
+  - <a id="job012"></a>[JOB012](companies/bytedance.md#job012)
+  - <a id="job013"></a>[JOB013](companies/bytedance.md#job013)
+  - <a id="job019"></a>[JOB019](companies/bytedance.md#job019)
+  - <a id="job020"></a>[JOB020](companies/bytedance.md#job020)
+  - <a id="job023"></a>[JOB023](companies/bytedance.md#job023)
+  - <a id="job077"></a>[JOB077](companies/bytedance.md#job077)
+  - <a id="job078"></a>[JOB078](companies/bytedance.md#job078)
+  - <a id="job079"></a>[JOB079](companies/bytedance.md#job079)
+  - <a id="job080"></a>[JOB080](companies/bytedance.md#job080)
+  - <a id="job081"></a>[JOB081](companies/bytedance.md#job081)
+  - <a id="job082"></a>[JOB082](companies/bytedance.md#job082)
+  - <a id="job083"></a>[JOB083](companies/bytedance.md#job083)
+  - <a id="job084"></a>[JOB084](companies/bytedance.md#job084)
+  - <a id="job085"></a>[JOB085](companies/bytedance.md#job085)
+  - <a id="job086"></a>[JOB086](companies/bytedance.md#job086)
+  - <a id="job087"></a>[JOB087](companies/bytedance.md#job087)
+  - <a id="job088"></a>[JOB088](companies/bytedance.md#job088)
+  - <a id="job089"></a>[JOB089](companies/bytedance.md#job089)
+  - <a id="job090"></a>[JOB090](companies/bytedance.md#job090)
+  - <a id="job091"></a>[JOB091](companies/bytedance.md#job091)
+  - <a id="job092"></a>[JOB092](companies/bytedance.md#job092)
+  - <a id="job093"></a>[JOB093](companies/bytedance.md#job093)
+  - <a id="job094"></a>[JOB094](companies/bytedance.md#job094)
+  - <a id="job095"></a>[JOB095](companies/bytedance.md#job095)
+  - <a id="job096"></a>[JOB096](companies/bytedance.md#job096)
+  - <a id="job097"></a>[JOB097](companies/bytedance.md#job097)
+  - <a id="job098"></a>[JOB098](companies/bytedance.md#job098)
+  - <a id="job099"></a>[JOB099](companies/bytedance.md#job099)
+  - <a id="job100"></a>[JOB100](companies/bytedance.md#job100)
+  - <a id="job101"></a>[JOB101](companies/bytedance.md#job101)
+  - <a id="job102"></a>[JOB102](companies/bytedance.md#job102)
+  - <a id="job103"></a>[JOB103](companies/bytedance.md#job103)
+  - <a id="job104"></a>[JOB104](companies/bytedance.md#job104)
+  - <a id="job105"></a>[JOB105](companies/bytedance.md#job105)
+  - <a id="job106"></a>[JOB106](companies/bytedance.md#job106)
+  - <a id="job107"></a>[JOB107](companies/bytedance.md#job107)
+  - <a id="job108"></a>[JOB108](companies/bytedance.md#job108)
+  - <a id="job109"></a>[JOB109](companies/bytedance.md#job109)
+  - <a id="job110"></a>[JOB110](companies/bytedance.md#job110)
+  - <a id="job111"></a>[JOB111](companies/bytedance.md#job111)
+  - <a id="job112"></a>[JOB112](companies/bytedance.md#job112)
+  - <a id="job113"></a>[JOB113](companies/bytedance.md#job113)
+  - <a id="job114"></a>[JOB114](companies/bytedance.md#job114)
+  - <a id="job115"></a>[JOB115](companies/bytedance.md#job115)
+  - <a id="job116"></a>[JOB116](companies/bytedance.md#job116)
+  - <a id="job117"></a>[JOB117](companies/bytedance.md#job117)
+  - <a id="job118"></a>[JOB118](companies/bytedance.md#job118)
+  - <a id="job119"></a>[JOB119](companies/bytedance.md#job119)
+  - <a id="job120"></a>[JOB120](companies/bytedance.md#job120)
+  - <a id="job121"></a>[JOB121](companies/bytedance.md#job121)
+  - <a id="job122"></a>[JOB122](companies/bytedance.md#job122)
+  - <a id="job123"></a>[JOB123](companies/bytedance.md#job123)
+  - <a id="job124"></a>[JOB124](companies/bytedance.md#job124)
+  - <a id="job125"></a>[JOB125](companies/bytedance.md#job125)
+  - <a id="job126"></a>[JOB126](companies/bytedance.md#job126)
+  - <a id="job127"></a>[JOB127](companies/bytedance.md#job127)
+  - <a id="job128"></a>[JOB128](companies/bytedance.md#job128)
+  - <a id="job129"></a>[JOB129](companies/bytedance.md#job129)
+  - <a id="job130"></a>[JOB130](companies/bytedance.md#job130)
+  - <a id="job131"></a>[JOB131](companies/bytedance.md#job131)
+  - <a id="job132"></a>[JOB132](companies/bytedance.md#job132)
+  - <a id="job133"></a>[JOB133](companies/bytedance.md#job133)
+  - <a id="job134"></a>[JOB134](companies/bytedance.md#job134)
+  - <a id="job135"></a>[JOB135](companies/bytedance.md#job135)
+  - <a id="job136"></a>[JOB136](companies/bytedance.md#job136)
+  - <a id="job137"></a>[JOB137](companies/bytedance.md#job137)
+  - <a id="job138"></a>[JOB138](companies/bytedance.md#job138)
+  - <a id="job139"></a>[JOB139](companies/bytedance.md#job139)
+  - <a id="job140"></a>[JOB140](companies/bytedance.md#job140)
+  - <a id="job141"></a>[JOB141](companies/bytedance.md#job141)
+  - <a id="job142"></a>[JOB142](companies/bytedance.md#job142)
+  - <a id="job143"></a>[JOB143](companies/bytedance.md#job143)
+  - <a id="job144"></a>[JOB144](companies/bytedance.md#job144)
+  - <a id="job145"></a>[JOB145](companies/bytedance.md#job145)
+  - <a id="job146"></a>[JOB146](companies/bytedance.md#job146)
+  - <a id="job147"></a>[JOB147](companies/bytedance.md#job147)
+  - <a id="job148"></a>[JOB148](companies/bytedance.md#job148)
+  - <a id="job149"></a>[JOB149](companies/bytedance.md#job149)
+  - <a id="job150"></a>[JOB150](companies/bytedance.md#job150)
+  - <a id="job151"></a>[JOB151](companies/bytedance.md#job151)
+  - <a id="job152"></a>[JOB152](companies/bytedance.md#job152)
+  - <a id="job153"></a>[JOB153](companies/bytedance.md#job153)
+  - <a id="job154"></a>[JOB154](companies/bytedance.md#job154)
+  - <a id="job155"></a>[JOB155](companies/bytedance.md#job155)
+  - <a id="job156"></a>[JOB156](companies/bytedance.md#job156)
+  - <a id="job157"></a>[JOB157](companies/bytedance.md#job157)
+  - <a id="job158"></a>[JOB158](companies/bytedance.md#job158)
+  - <a id="job159"></a>[JOB159](companies/bytedance.md#job159)
+  - <a id="job160"></a>[JOB160](companies/bytedance.md#job160)
+  - <a id="job161"></a>[JOB161](companies/bytedance.md#job161)
+  - <a id="job162"></a>[JOB162](companies/bytedance.md#job162)
+  - <a id="job163"></a>[JOB163](companies/bytedance.md#job163)
+  - <a id="job164"></a>[JOB164](companies/bytedance.md#job164)
+  - <a id="job165"></a>[JOB165](companies/bytedance.md#job165)
+  - <a id="job166"></a>[JOB166](companies/bytedance.md#job166)
+  - <a id="job167"></a>[JOB167](companies/bytedance.md#job167)
+  - <a id="job168"></a>[JOB168](companies/bytedance.md#job168)
+  - <a id="job169"></a>[JOB169](companies/bytedance.md#job169)
+  - <a id="job170"></a>[JOB170](companies/bytedance.md#job170)
+  - <a id="job171"></a>[JOB171](companies/bytedance.md#job171)
+  - <a id="job172"></a>[JOB172](companies/bytedance.md#job172)
+  - <a id="job173"></a>[JOB173](companies/bytedance.md#job173)
+  - <a id="job174"></a>[JOB174](companies/bytedance.md#job174)
+  - <a id="job175"></a>[JOB175](companies/bytedance.md#job175)
+  - <a id="job176"></a>[JOB176](companies/bytedance.md#job176)
+  - <a id="job177"></a>[JOB177](companies/bytedance.md#job177)
+  - <a id="job178"></a>[JOB178](companies/bytedance.md#job178)
+  - <a id="job179"></a>[JOB179](companies/bytedance.md#job179)
+  - <a id="job180"></a>[JOB180](companies/bytedance.md#job180)
+  - <a id="job181"></a>[JOB181](companies/bytedance.md#job181)
+  - <a id="job182"></a>[JOB182](companies/bytedance.md#job182)
+  - <a id="job183"></a>[JOB183](companies/bytedance.md#job183)
+  - <a id="job184"></a>[JOB184](companies/bytedance.md#job184)
+  - <a id="job185"></a>[JOB185](companies/bytedance.md#job185)
+  - <a id="job186"></a>[JOB186](companies/bytedance.md#job186)
+  - <a id="job187"></a>[JOB187](companies/bytedance.md#job187)
+  - <a id="job188"></a>[JOB188](companies/bytedance.md#job188)
+  - <a id="job189"></a>[JOB189](companies/bytedance.md#job189)
+  - <a id="job190"></a>[JOB190](companies/bytedance.md#job190)
+  - <a id="job191"></a>[JOB191](companies/bytedance.md#job191)
+  - <a id="job192"></a>[JOB192](companies/bytedance.md#job192)
+  - <a id="job193"></a>[JOB193](companies/bytedance.md#job193)
+  - <a id="job194"></a>[JOB194](companies/bytedance.md#job194)
+  - <a id="job195"></a>[JOB195](companies/bytedance.md#job195)
+  - <a id="job196"></a>[JOB196](companies/bytedance.md#job196)
+  - <a id="job197"></a>[JOB197](companies/bytedance.md#job197)
+  - <a id="job198"></a>[JOB198](companies/bytedance.md#job198)
+  - <a id="job199"></a>[JOB199](companies/bytedance.md#job199)
+  - <a id="job200"></a>[JOB200](companies/bytedance.md#job200)
+  - <a id="job201"></a>[JOB201](companies/bytedance.md#job201)
+  - <a id="job202"></a>[JOB202](companies/bytedance.md#job202)
+  - <a id="job203"></a>[JOB203](companies/bytedance.md#job203)
+  - <a id="job204"></a>[JOB204](companies/bytedance.md#job204)
+  - <a id="job205"></a>[JOB205](companies/bytedance.md#job205)
+  - <a id="job206"></a>[JOB206](companies/bytedance.md#job206)
+  - <a id="job207"></a>[JOB207](companies/bytedance.md#job207)
+  - <a id="job208"></a>[JOB208](companies/bytedance.md#job208)
+  - <a id="job209"></a>[JOB209](companies/bytedance.md#job209)
+  - <a id="job210"></a>[JOB210](companies/bytedance.md#job210)
+  - <a id="job211"></a>[JOB211](companies/bytedance.md#job211)
+  - <a id="job212"></a>[JOB212](companies/bytedance.md#job212)
+  - <a id="job213"></a>[JOB213](companies/bytedance.md#job213)
+  - <a id="job214"></a>[JOB214](companies/bytedance.md#job214)
+  - <a id="job215"></a>[JOB215](companies/bytedance.md#job215)
+  - <a id="job216"></a>[JOB216](companies/bytedance.md#job216)
+  - <a id="job217"></a>[JOB217](companies/bytedance.md#job217)
+  - <a id="job218"></a>[JOB218](companies/bytedance.md#job218)
+  - <a id="job219"></a>[JOB219](companies/bytedance.md#job219)
+  - <a id="job220"></a>[JOB220](companies/bytedance.md#job220)
+  - <a id="job221"></a>[JOB221](companies/bytedance.md#job221)
+  - <a id="job222"></a>[JOB222](companies/bytedance.md#job222)
+  - <a id="job223"></a>[JOB223](companies/bytedance.md#job223)
+  - <a id="job224"></a>[JOB224](companies/bytedance.md#job224)
+  - <a id="job225"></a>[JOB225](companies/bytedance.md#job225)
+  - <a id="job226"></a>[JOB226](companies/bytedance.md#job226)
+  - <a id="job227"></a>[JOB227](companies/bytedance.md#job227)
+  - <a id="job228"></a>[JOB228](companies/bytedance.md#job228)
+  - <a id="job229"></a>[JOB229](companies/bytedance.md#job229)
+  - <a id="job230"></a>[JOB230](companies/bytedance.md#job230)
+  - <a id="job231"></a>[JOB231](companies/bytedance.md#job231)
+  - <a id="job232"></a>[JOB232](companies/bytedance.md#job232)
+  - <a id="job233"></a>[JOB233](companies/bytedance.md#job233)
+  - <a id="job234"></a>[JOB234](companies/bytedance.md#job234)
+  - <a id="job235"></a>[JOB235](companies/bytedance.md#job235)
+  - <a id="job236"></a>[JOB236](companies/bytedance.md#job236)
+  - <a id="job237"></a>[JOB237](companies/bytedance.md#job237)
+  - <a id="job238"></a>[JOB238](companies/bytedance.md#job238)
+  - <a id="job239"></a>[JOB239](companies/bytedance.md#job239)
+  - <a id="job240"></a>[JOB240](companies/bytedance.md#job240)
+  - <a id="job241"></a>[JOB241](companies/bytedance.md#job241)
+  - <a id="job242"></a>[JOB242](companies/bytedance.md#job242)
+  - <a id="job243"></a>[JOB243](companies/bytedance.md#job243)
+  - <a id="job244"></a>[JOB244](companies/bytedance.md#job244)
+  - <a id="job245"></a>[JOB245](companies/bytedance.md#job245)
+  - <a id="job246"></a>[JOB246](companies/bytedance.md#job246)
+  - <a id="job247"></a>[JOB247](companies/bytedance.md#job247)
+  - <a id="job248"></a>[JOB248](companies/bytedance.md#job248)
+  - <a id="job249"></a>[JOB249](companies/bytedance.md#job249)
+  - <a id="job250"></a>[JOB250](companies/bytedance.md#job250)
+  - <a id="job251"></a>[JOB251](companies/bytedance.md#job251)
+  - <a id="job252"></a>[JOB252](companies/bytedance.md#job252)
+  - <a id="job253"></a>[JOB253](companies/bytedance.md#job253)
+  - <a id="job254"></a>[JOB254](companies/bytedance.md#job254)
+  - <a id="job255"></a>[JOB255](companies/bytedance.md#job255)
+  - <a id="job256"></a>[JOB256](companies/bytedance.md#job256)
+  - <a id="job257"></a>[JOB257](companies/bytedance.md#job257)
+  - <a id="job258"></a>[JOB258](companies/bytedance.md#job258)
+  - <a id="job259"></a>[JOB259](companies/bytedance.md#job259)
+  - <a id="job260"></a>[JOB260](companies/bytedance.md#job260)
+  - <a id="job261"></a>[JOB261](companies/bytedance.md#job261)
+  - <a id="job262"></a>[JOB262](companies/bytedance.md#job262)
+  - <a id="job263"></a>[JOB263](companies/bytedance.md#job263)
+  - <a id="job264"></a>[JOB264](companies/bytedance.md#job264)
+  - <a id="job265"></a>[JOB265](companies/bytedance.md#job265)
+  - <a id="job266"></a>[JOB266](companies/bytedance.md#job266)
+  - <a id="job267"></a>[JOB267](companies/bytedance.md#job267)
+  - <a id="job268"></a>[JOB268](companies/bytedance.md#job268)
+  - <a id="job269"></a>[JOB269](companies/bytedance.md#job269)
+  - <a id="job270"></a>[JOB270](companies/bytedance.md#job270)
+  - <a id="job271"></a>[JOB271](companies/bytedance.md#job271)
+  - <a id="job272"></a>[JOB272](companies/bytedance.md#job272)
+  - <a id="job273"></a>[JOB273](companies/bytedance.md#job273)
+  - <a id="job274"></a>[JOB274](companies/bytedance.md#job274)
+  - <a id="job275"></a>[JOB275](companies/bytedance.md#job275)
+  - <a id="job276"></a>[JOB276](companies/bytedance.md#job276)
+  - <a id="job277"></a>[JOB277](companies/bytedance.md#job277)
+  - <a id="job278"></a>[JOB278](companies/bytedance.md#job278)
+  - <a id="job279"></a>[JOB279](companies/bytedance.md#job279)
+  - <a id="job280"></a>[JOB280](companies/bytedance.md#job280)
+  - <a id="job281"></a>[JOB281](companies/bytedance.md#job281)
+  - <a id="job282"></a>[JOB282](companies/bytedance.md#job282)
+  - <a id="job283"></a>[JOB283](companies/bytedance.md#job283)
+  - <a id="job284"></a>[JOB284](companies/bytedance.md#job284)
+  - <a id="job285"></a>[JOB285](companies/bytedance.md#job285)
+  - <a id="job286"></a>[JOB286](companies/bytedance.md#job286)
 - **小米集团**
   - [广告算法工程师](#job011)
 - **小红书**
@@ -172,22 +1052,211 @@
   - [预训练数据理解算法专家（LongCat，2027 届）](#job066)
   - [LongCat 后训练算法研究员](#job067)
   - [大模型 / Agent 评测工程师（AI 研发）](#job068)
-- **腾讯**
-  - [腾讯游戏大模型强化学习框架研发工程师 / 专家](#job038)
-  - [AI Infra 研发工程师（自研芯片适配）](#job039)
-  - [大模型算法交付工程师（行业模型方向）](#job040)
-  - [光子 AI·LLM 高级研究员（游戏智能体）](#job041)
-  - [腾讯游戏语音算法资深研究员（新星引力计划）](#job042)
-  - [混元推理算子开发工程师](#job050)
-  - [微信小游戏大模型推荐算法工程师（商业化）](#job051)
-  - [腾讯营销生成式推荐算法专家](#job052)
-  - [腾讯营销搜索广告算法专家](#job053)
-  - [微信小程序搜索算法工程师（Agent）](#job054)
-  - [微信视频搜索算法高级工程师（生成式召回）](#job055)
-  - [微信小店风控大模型算法工程师](#job056)
-  - [高级广告审核 Agent 算法工程师](#job057)
-  - [混元 AI Agent Harness 工程师](#job058)
-  - [金融大模型算法工程师](#job059)
+- **腾讯**（204） [查看公司 JD](companies/tencent.md)
+  - <a id="job038"></a>[JOB038](companies/tencent.md#job038)
+  - <a id="job039"></a>[JOB039](companies/tencent.md#job039)
+  - <a id="job040"></a>[JOB040](companies/tencent.md#job040)
+  - <a id="job041"></a>[JOB041](companies/tencent.md#job041)
+  - <a id="job042"></a>[JOB042](companies/tencent.md#job042)
+  - <a id="job050"></a>[JOB050](companies/tencent.md#job050)
+  - <a id="job051"></a>[JOB051](companies/tencent.md#job051)
+  - <a id="job052"></a>[JOB052](companies/tencent.md#job052)
+  - <a id="job053"></a>[JOB053](companies/tencent.md#job053)
+  - <a id="job054"></a>[JOB054](companies/tencent.md#job054)
+  - <a id="job055"></a>[JOB055](companies/tencent.md#job055)
+  - <a id="job056"></a>[JOB056](companies/tencent.md#job056)
+  - <a id="job057"></a>[JOB057](companies/tencent.md#job057)
+  - <a id="job058"></a>[JOB058](companies/tencent.md#job058)
+  - <a id="job059"></a>[JOB059](companies/tencent.md#job059)
+  - <a id="job428"></a>[JOB428](companies/tencent.md#job428)
+  - <a id="job429"></a>[JOB429](companies/tencent.md#job429)
+  - <a id="job430"></a>[JOB430](companies/tencent.md#job430)
+  - <a id="job431"></a>[JOB431](companies/tencent.md#job431)
+  - <a id="job432"></a>[JOB432](companies/tencent.md#job432)
+  - <a id="job433"></a>[JOB433](companies/tencent.md#job433)
+  - <a id="job434"></a>[JOB434](companies/tencent.md#job434)
+  - <a id="job435"></a>[JOB435](companies/tencent.md#job435)
+  - <a id="job436"></a>[JOB436](companies/tencent.md#job436)
+  - <a id="job437"></a>[JOB437](companies/tencent.md#job437)
+  - <a id="job438"></a>[JOB438](companies/tencent.md#job438)
+  - <a id="job439"></a>[JOB439](companies/tencent.md#job439)
+  - <a id="job440"></a>[JOB440](companies/tencent.md#job440)
+  - <a id="job441"></a>[JOB441](companies/tencent.md#job441)
+  - <a id="job442"></a>[JOB442](companies/tencent.md#job442)
+  - <a id="job443"></a>[JOB443](companies/tencent.md#job443)
+  - <a id="job444"></a>[JOB444](companies/tencent.md#job444)
+  - <a id="job445"></a>[JOB445](companies/tencent.md#job445)
+  - <a id="job446"></a>[JOB446](companies/tencent.md#job446)
+  - <a id="job447"></a>[JOB447](companies/tencent.md#job447)
+  - <a id="job448"></a>[JOB448](companies/tencent.md#job448)
+  - <a id="job449"></a>[JOB449](companies/tencent.md#job449)
+  - <a id="job450"></a>[JOB450](companies/tencent.md#job450)
+  - <a id="job451"></a>[JOB451](companies/tencent.md#job451)
+  - <a id="job452"></a>[JOB452](companies/tencent.md#job452)
+  - <a id="job453"></a>[JOB453](companies/tencent.md#job453)
+  - <a id="job454"></a>[JOB454](companies/tencent.md#job454)
+  - <a id="job455"></a>[JOB455](companies/tencent.md#job455)
+  - <a id="job456"></a>[JOB456](companies/tencent.md#job456)
+  - <a id="job457"></a>[JOB457](companies/tencent.md#job457)
+  - <a id="job458"></a>[JOB458](companies/tencent.md#job458)
+  - <a id="job459"></a>[JOB459](companies/tencent.md#job459)
+  - <a id="job460"></a>[JOB460](companies/tencent.md#job460)
+  - <a id="job461"></a>[JOB461](companies/tencent.md#job461)
+  - <a id="job462"></a>[JOB462](companies/tencent.md#job462)
+  - <a id="job463"></a>[JOB463](companies/tencent.md#job463)
+  - <a id="job464"></a>[JOB464](companies/tencent.md#job464)
+  - <a id="job465"></a>[JOB465](companies/tencent.md#job465)
+  - <a id="job466"></a>[JOB466](companies/tencent.md#job466)
+  - <a id="job467"></a>[JOB467](companies/tencent.md#job467)
+  - <a id="job468"></a>[JOB468](companies/tencent.md#job468)
+  - <a id="job469"></a>[JOB469](companies/tencent.md#job469)
+  - <a id="job470"></a>[JOB470](companies/tencent.md#job470)
+  - <a id="job471"></a>[JOB471](companies/tencent.md#job471)
+  - <a id="job472"></a>[JOB472](companies/tencent.md#job472)
+  - <a id="job473"></a>[JOB473](companies/tencent.md#job473)
+  - <a id="job474"></a>[JOB474](companies/tencent.md#job474)
+  - <a id="job475"></a>[JOB475](companies/tencent.md#job475)
+  - <a id="job476"></a>[JOB476](companies/tencent.md#job476)
+  - <a id="job477"></a>[JOB477](companies/tencent.md#job477)
+  - <a id="job478"></a>[JOB478](companies/tencent.md#job478)
+  - <a id="job479"></a>[JOB479](companies/tencent.md#job479)
+  - <a id="job480"></a>[JOB480](companies/tencent.md#job480)
+  - <a id="job481"></a>[JOB481](companies/tencent.md#job481)
+  - <a id="job482"></a>[JOB482](companies/tencent.md#job482)
+  - <a id="job483"></a>[JOB483](companies/tencent.md#job483)
+  - <a id="job484"></a>[JOB484](companies/tencent.md#job484)
+  - <a id="job485"></a>[JOB485](companies/tencent.md#job485)
+  - <a id="job486"></a>[JOB486](companies/tencent.md#job486)
+  - <a id="job487"></a>[JOB487](companies/tencent.md#job487)
+  - <a id="job488"></a>[JOB488](companies/tencent.md#job488)
+  - <a id="job489"></a>[JOB489](companies/tencent.md#job489)
+  - <a id="job490"></a>[JOB490](companies/tencent.md#job490)
+  - <a id="job491"></a>[JOB491](companies/tencent.md#job491)
+  - <a id="job492"></a>[JOB492](companies/tencent.md#job492)
+  - <a id="job493"></a>[JOB493](companies/tencent.md#job493)
+  - <a id="job494"></a>[JOB494](companies/tencent.md#job494)
+  - <a id="job495"></a>[JOB495](companies/tencent.md#job495)
+  - <a id="job496"></a>[JOB496](companies/tencent.md#job496)
+  - <a id="job497"></a>[JOB497](companies/tencent.md#job497)
+  - <a id="job498"></a>[JOB498](companies/tencent.md#job498)
+  - <a id="job499"></a>[JOB499](companies/tencent.md#job499)
+  - <a id="job500"></a>[JOB500](companies/tencent.md#job500)
+  - <a id="job501"></a>[JOB501](companies/tencent.md#job501)
+  - <a id="job502"></a>[JOB502](companies/tencent.md#job502)
+  - <a id="job503"></a>[JOB503](companies/tencent.md#job503)
+  - <a id="job504"></a>[JOB504](companies/tencent.md#job504)
+  - <a id="job505"></a>[JOB505](companies/tencent.md#job505)
+  - <a id="job506"></a>[JOB506](companies/tencent.md#job506)
+  - <a id="job507"></a>[JOB507](companies/tencent.md#job507)
+  - <a id="job508"></a>[JOB508](companies/tencent.md#job508)
+  - <a id="job509"></a>[JOB509](companies/tencent.md#job509)
+  - <a id="job510"></a>[JOB510](companies/tencent.md#job510)
+  - <a id="job511"></a>[JOB511](companies/tencent.md#job511)
+  - <a id="job512"></a>[JOB512](companies/tencent.md#job512)
+  - <a id="job513"></a>[JOB513](companies/tencent.md#job513)
+  - <a id="job514"></a>[JOB514](companies/tencent.md#job514)
+  - <a id="job515"></a>[JOB515](companies/tencent.md#job515)
+  - <a id="job516"></a>[JOB516](companies/tencent.md#job516)
+  - <a id="job517"></a>[JOB517](companies/tencent.md#job517)
+  - <a id="job518"></a>[JOB518](companies/tencent.md#job518)
+  - <a id="job519"></a>[JOB519](companies/tencent.md#job519)
+  - <a id="job520"></a>[JOB520](companies/tencent.md#job520)
+  - <a id="job521"></a>[JOB521](companies/tencent.md#job521)
+  - <a id="job522"></a>[JOB522](companies/tencent.md#job522)
+  - <a id="job523"></a>[JOB523](companies/tencent.md#job523)
+  - <a id="job524"></a>[JOB524](companies/tencent.md#job524)
+  - <a id="job525"></a>[JOB525](companies/tencent.md#job525)
+  - <a id="job526"></a>[JOB526](companies/tencent.md#job526)
+  - <a id="job527"></a>[JOB527](companies/tencent.md#job527)
+  - <a id="job528"></a>[JOB528](companies/tencent.md#job528)
+  - <a id="job529"></a>[JOB529](companies/tencent.md#job529)
+  - <a id="job530"></a>[JOB530](companies/tencent.md#job530)
+  - <a id="job531"></a>[JOB531](companies/tencent.md#job531)
+  - <a id="job532"></a>[JOB532](companies/tencent.md#job532)
+  - <a id="job533"></a>[JOB533](companies/tencent.md#job533)
+  - <a id="job534"></a>[JOB534](companies/tencent.md#job534)
+  - <a id="job535"></a>[JOB535](companies/tencent.md#job535)
+  - <a id="job536"></a>[JOB536](companies/tencent.md#job536)
+  - <a id="job537"></a>[JOB537](companies/tencent.md#job537)
+  - <a id="job538"></a>[JOB538](companies/tencent.md#job538)
+  - <a id="job539"></a>[JOB539](companies/tencent.md#job539)
+  - <a id="job540"></a>[JOB540](companies/tencent.md#job540)
+  - <a id="job541"></a>[JOB541](companies/tencent.md#job541)
+  - <a id="job542"></a>[JOB542](companies/tencent.md#job542)
+  - <a id="job543"></a>[JOB543](companies/tencent.md#job543)
+  - <a id="job544"></a>[JOB544](companies/tencent.md#job544)
+  - <a id="job545"></a>[JOB545](companies/tencent.md#job545)
+  - <a id="job546"></a>[JOB546](companies/tencent.md#job546)
+  - <a id="job547"></a>[JOB547](companies/tencent.md#job547)
+  - <a id="job548"></a>[JOB548](companies/tencent.md#job548)
+  - <a id="job549"></a>[JOB549](companies/tencent.md#job549)
+  - <a id="job550"></a>[JOB550](companies/tencent.md#job550)
+  - <a id="job551"></a>[JOB551](companies/tencent.md#job551)
+  - <a id="job552"></a>[JOB552](companies/tencent.md#job552)
+  - <a id="job553"></a>[JOB553](companies/tencent.md#job553)
+  - <a id="job554"></a>[JOB554](companies/tencent.md#job554)
+  - <a id="job555"></a>[JOB555](companies/tencent.md#job555)
+  - <a id="job556"></a>[JOB556](companies/tencent.md#job556)
+  - <a id="job557"></a>[JOB557](companies/tencent.md#job557)
+  - <a id="job558"></a>[JOB558](companies/tencent.md#job558)
+  - <a id="job559"></a>[JOB559](companies/tencent.md#job559)
+  - <a id="job560"></a>[JOB560](companies/tencent.md#job560)
+  - <a id="job561"></a>[JOB561](companies/tencent.md#job561)
+  - <a id="job562"></a>[JOB562](companies/tencent.md#job562)
+  - <a id="job563"></a>[JOB563](companies/tencent.md#job563)
+  - <a id="job564"></a>[JOB564](companies/tencent.md#job564)
+  - <a id="job565"></a>[JOB565](companies/tencent.md#job565)
+  - <a id="job566"></a>[JOB566](companies/tencent.md#job566)
+  - <a id="job567"></a>[JOB567](companies/tencent.md#job567)
+  - <a id="job568"></a>[JOB568](companies/tencent.md#job568)
+  - <a id="job569"></a>[JOB569](companies/tencent.md#job569)
+  - <a id="job570"></a>[JOB570](companies/tencent.md#job570)
+  - <a id="job571"></a>[JOB571](companies/tencent.md#job571)
+  - <a id="job572"></a>[JOB572](companies/tencent.md#job572)
+  - <a id="job573"></a>[JOB573](companies/tencent.md#job573)
+  - <a id="job574"></a>[JOB574](companies/tencent.md#job574)
+  - <a id="job575"></a>[JOB575](companies/tencent.md#job575)
+  - <a id="job576"></a>[JOB576](companies/tencent.md#job576)
+  - <a id="job577"></a>[JOB577](companies/tencent.md#job577)
+  - <a id="job578"></a>[JOB578](companies/tencent.md#job578)
+  - <a id="job579"></a>[JOB579](companies/tencent.md#job579)
+  - <a id="job580"></a>[JOB580](companies/tencent.md#job580)
+  - <a id="job581"></a>[JOB581](companies/tencent.md#job581)
+  - <a id="job582"></a>[JOB582](companies/tencent.md#job582)
+  - <a id="job583"></a>[JOB583](companies/tencent.md#job583)
+  - <a id="job584"></a>[JOB584](companies/tencent.md#job584)
+  - <a id="job585"></a>[JOB585](companies/tencent.md#job585)
+  - <a id="job586"></a>[JOB586](companies/tencent.md#job586)
+  - <a id="job587"></a>[JOB587](companies/tencent.md#job587)
+  - <a id="job588"></a>[JOB588](companies/tencent.md#job588)
+  - <a id="job589"></a>[JOB589](companies/tencent.md#job589)
+  - <a id="job590"></a>[JOB590](companies/tencent.md#job590)
+  - <a id="job591"></a>[JOB591](companies/tencent.md#job591)
+  - <a id="job592"></a>[JOB592](companies/tencent.md#job592)
+  - <a id="job593"></a>[JOB593](companies/tencent.md#job593)
+  - <a id="job594"></a>[JOB594](companies/tencent.md#job594)
+  - <a id="job595"></a>[JOB595](companies/tencent.md#job595)
+  - <a id="job596"></a>[JOB596](companies/tencent.md#job596)
+  - <a id="job597"></a>[JOB597](companies/tencent.md#job597)
+  - <a id="job598"></a>[JOB598](companies/tencent.md#job598)
+  - <a id="job599"></a>[JOB599](companies/tencent.md#job599)
+  - <a id="job600"></a>[JOB600](companies/tencent.md#job600)
+  - <a id="job601"></a>[JOB601](companies/tencent.md#job601)
+  - <a id="job602"></a>[JOB602](companies/tencent.md#job602)
+  - <a id="job603"></a>[JOB603](companies/tencent.md#job603)
+  - <a id="job604"></a>[JOB604](companies/tencent.md#job604)
+  - <a id="job605"></a>[JOB605](companies/tencent.md#job605)
+  - <a id="job606"></a>[JOB606](companies/tencent.md#job606)
+  - <a id="job607"></a>[JOB607](companies/tencent.md#job607)
+  - <a id="job608"></a>[JOB608](companies/tencent.md#job608)
+  - <a id="job609"></a>[JOB609](companies/tencent.md#job609)
+  - <a id="job610"></a>[JOB610](companies/tencent.md#job610)
+  - <a id="job611"></a>[JOB611](companies/tencent.md#job611)
+  - <a id="job612"></a>[JOB612](companies/tencent.md#job612)
+  - <a id="job613"></a>[JOB613](companies/tencent.md#job613)
+  - <a id="job614"></a>[JOB614](companies/tencent.md#job614)
+  - <a id="job615"></a>[JOB615](companies/tencent.md#job615)
+  - <a id="job616"></a>[JOB616](companies/tencent.md#job616)
 - **蚂蚁集团**
   - [机器学习算法（搜广推与风控）](#job018)
   - [风控反欺诈 / 风控算法专家（多模态）](#job022)
@@ -195,14 +1264,155 @@
   - [大模型算法工程师（2027 届秋招）](#job010)
 - **金山云**
   - [大模型算法工程师（实习）](#job009)
-- **阿里巴巴集团**
-  - [算法工程师（大模型后训练）](#job024)
-  - [算法工程师（大模型预训练，2027 届）](#job071)
-  - [算法工程师（大模型应用，2027 届）](#job072)
-  - [算法工程师（大模型评测，2027 届）](#job073)
-  - [算法工程师（全模态基础大模型，2027 届）](#job074)
-  - [大模型应用开发工程师（2027 届）](#job075)
-  - [智能引擎大模型训练基础架构研发工程师 / 高级专家](#job076)
+- **阿里巴巴集团**（148） [查看公司 JD](companies/alibaba.md)
+  - <a id="job024"></a>[JOB024](companies/alibaba.md#job024)
+  - <a id="job071"></a>[JOB071](companies/alibaba.md#job071)
+  - <a id="job072"></a>[JOB072](companies/alibaba.md#job072)
+  - <a id="job073"></a>[JOB073](companies/alibaba.md#job073)
+  - <a id="job074"></a>[JOB074](companies/alibaba.md#job074)
+  - <a id="job075"></a>[JOB075](companies/alibaba.md#job075)
+  - <a id="job076"></a>[JOB076](companies/alibaba.md#job076)
+  - <a id="job287"></a>[JOB287](companies/alibaba.md#job287)
+  - <a id="job288"></a>[JOB288](companies/alibaba.md#job288)
+  - <a id="job289"></a>[JOB289](companies/alibaba.md#job289)
+  - <a id="job290"></a>[JOB290](companies/alibaba.md#job290)
+  - <a id="job291"></a>[JOB291](companies/alibaba.md#job291)
+  - <a id="job292"></a>[JOB292](companies/alibaba.md#job292)
+  - <a id="job293"></a>[JOB293](companies/alibaba.md#job293)
+  - <a id="job294"></a>[JOB294](companies/alibaba.md#job294)
+  - <a id="job295"></a>[JOB295](companies/alibaba.md#job295)
+  - <a id="job296"></a>[JOB296](companies/alibaba.md#job296)
+  - <a id="job297"></a>[JOB297](companies/alibaba.md#job297)
+  - <a id="job298"></a>[JOB298](companies/alibaba.md#job298)
+  - <a id="job299"></a>[JOB299](companies/alibaba.md#job299)
+  - <a id="job300"></a>[JOB300](companies/alibaba.md#job300)
+  - <a id="job301"></a>[JOB301](companies/alibaba.md#job301)
+  - <a id="job302"></a>[JOB302](companies/alibaba.md#job302)
+  - <a id="job303"></a>[JOB303](companies/alibaba.md#job303)
+  - <a id="job304"></a>[JOB304](companies/alibaba.md#job304)
+  - <a id="job305"></a>[JOB305](companies/alibaba.md#job305)
+  - <a id="job306"></a>[JOB306](companies/alibaba.md#job306)
+  - <a id="job307"></a>[JOB307](companies/alibaba.md#job307)
+  - <a id="job308"></a>[JOB308](companies/alibaba.md#job308)
+  - <a id="job309"></a>[JOB309](companies/alibaba.md#job309)
+  - <a id="job310"></a>[JOB310](companies/alibaba.md#job310)
+  - <a id="job311"></a>[JOB311](companies/alibaba.md#job311)
+  - <a id="job312"></a>[JOB312](companies/alibaba.md#job312)
+  - <a id="job313"></a>[JOB313](companies/alibaba.md#job313)
+  - <a id="job314"></a>[JOB314](companies/alibaba.md#job314)
+  - <a id="job315"></a>[JOB315](companies/alibaba.md#job315)
+  - <a id="job316"></a>[JOB316](companies/alibaba.md#job316)
+  - <a id="job317"></a>[JOB317](companies/alibaba.md#job317)
+  - <a id="job318"></a>[JOB318](companies/alibaba.md#job318)
+  - <a id="job319"></a>[JOB319](companies/alibaba.md#job319)
+  - <a id="job320"></a>[JOB320](companies/alibaba.md#job320)
+  - <a id="job321"></a>[JOB321](companies/alibaba.md#job321)
+  - <a id="job322"></a>[JOB322](companies/alibaba.md#job322)
+  - <a id="job323"></a>[JOB323](companies/alibaba.md#job323)
+  - <a id="job324"></a>[JOB324](companies/alibaba.md#job324)
+  - <a id="job325"></a>[JOB325](companies/alibaba.md#job325)
+  - <a id="job326"></a>[JOB326](companies/alibaba.md#job326)
+  - <a id="job327"></a>[JOB327](companies/alibaba.md#job327)
+  - <a id="job328"></a>[JOB328](companies/alibaba.md#job328)
+  - <a id="job329"></a>[JOB329](companies/alibaba.md#job329)
+  - <a id="job330"></a>[JOB330](companies/alibaba.md#job330)
+  - <a id="job331"></a>[JOB331](companies/alibaba.md#job331)
+  - <a id="job332"></a>[JOB332](companies/alibaba.md#job332)
+  - <a id="job333"></a>[JOB333](companies/alibaba.md#job333)
+  - <a id="job334"></a>[JOB334](companies/alibaba.md#job334)
+  - <a id="job335"></a>[JOB335](companies/alibaba.md#job335)
+  - <a id="job336"></a>[JOB336](companies/alibaba.md#job336)
+  - <a id="job337"></a>[JOB337](companies/alibaba.md#job337)
+  - <a id="job338"></a>[JOB338](companies/alibaba.md#job338)
+  - <a id="job339"></a>[JOB339](companies/alibaba.md#job339)
+  - <a id="job340"></a>[JOB340](companies/alibaba.md#job340)
+  - <a id="job341"></a>[JOB341](companies/alibaba.md#job341)
+  - <a id="job342"></a>[JOB342](companies/alibaba.md#job342)
+  - <a id="job343"></a>[JOB343](companies/alibaba.md#job343)
+  - <a id="job344"></a>[JOB344](companies/alibaba.md#job344)
+  - <a id="job345"></a>[JOB345](companies/alibaba.md#job345)
+  - <a id="job346"></a>[JOB346](companies/alibaba.md#job346)
+  - <a id="job347"></a>[JOB347](companies/alibaba.md#job347)
+  - <a id="job348"></a>[JOB348](companies/alibaba.md#job348)
+  - <a id="job349"></a>[JOB349](companies/alibaba.md#job349)
+  - <a id="job350"></a>[JOB350](companies/alibaba.md#job350)
+  - <a id="job351"></a>[JOB351](companies/alibaba.md#job351)
+  - <a id="job352"></a>[JOB352](companies/alibaba.md#job352)
+  - <a id="job353"></a>[JOB353](companies/alibaba.md#job353)
+  - <a id="job354"></a>[JOB354](companies/alibaba.md#job354)
+  - <a id="job355"></a>[JOB355](companies/alibaba.md#job355)
+  - <a id="job356"></a>[JOB356](companies/alibaba.md#job356)
+  - <a id="job357"></a>[JOB357](companies/alibaba.md#job357)
+  - <a id="job358"></a>[JOB358](companies/alibaba.md#job358)
+  - <a id="job359"></a>[JOB359](companies/alibaba.md#job359)
+  - <a id="job360"></a>[JOB360](companies/alibaba.md#job360)
+  - <a id="job361"></a>[JOB361](companies/alibaba.md#job361)
+  - <a id="job362"></a>[JOB362](companies/alibaba.md#job362)
+  - <a id="job363"></a>[JOB363](companies/alibaba.md#job363)
+  - <a id="job364"></a>[JOB364](companies/alibaba.md#job364)
+  - <a id="job365"></a>[JOB365](companies/alibaba.md#job365)
+  - <a id="job366"></a>[JOB366](companies/alibaba.md#job366)
+  - <a id="job367"></a>[JOB367](companies/alibaba.md#job367)
+  - <a id="job368"></a>[JOB368](companies/alibaba.md#job368)
+  - <a id="job369"></a>[JOB369](companies/alibaba.md#job369)
+  - <a id="job370"></a>[JOB370](companies/alibaba.md#job370)
+  - <a id="job371"></a>[JOB371](companies/alibaba.md#job371)
+  - <a id="job372"></a>[JOB372](companies/alibaba.md#job372)
+  - <a id="job373"></a>[JOB373](companies/alibaba.md#job373)
+  - <a id="job374"></a>[JOB374](companies/alibaba.md#job374)
+  - <a id="job375"></a>[JOB375](companies/alibaba.md#job375)
+  - <a id="job376"></a>[JOB376](companies/alibaba.md#job376)
+  - <a id="job377"></a>[JOB377](companies/alibaba.md#job377)
+  - <a id="job378"></a>[JOB378](companies/alibaba.md#job378)
+  - <a id="job379"></a>[JOB379](companies/alibaba.md#job379)
+  - <a id="job380"></a>[JOB380](companies/alibaba.md#job380)
+  - <a id="job381"></a>[JOB381](companies/alibaba.md#job381)
+  - <a id="job382"></a>[JOB382](companies/alibaba.md#job382)
+  - <a id="job383"></a>[JOB383](companies/alibaba.md#job383)
+  - <a id="job384"></a>[JOB384](companies/alibaba.md#job384)
+  - <a id="job385"></a>[JOB385](companies/alibaba.md#job385)
+  - <a id="job386"></a>[JOB386](companies/alibaba.md#job386)
+  - <a id="job387"></a>[JOB387](companies/alibaba.md#job387)
+  - <a id="job388"></a>[JOB388](companies/alibaba.md#job388)
+  - <a id="job389"></a>[JOB389](companies/alibaba.md#job389)
+  - <a id="job390"></a>[JOB390](companies/alibaba.md#job390)
+  - <a id="job391"></a>[JOB391](companies/alibaba.md#job391)
+  - <a id="job392"></a>[JOB392](companies/alibaba.md#job392)
+  - <a id="job393"></a>[JOB393](companies/alibaba.md#job393)
+  - <a id="job394"></a>[JOB394](companies/alibaba.md#job394)
+  - <a id="job395"></a>[JOB395](companies/alibaba.md#job395)
+  - <a id="job396"></a>[JOB396](companies/alibaba.md#job396)
+  - <a id="job397"></a>[JOB397](companies/alibaba.md#job397)
+  - <a id="job398"></a>[JOB398](companies/alibaba.md#job398)
+  - <a id="job399"></a>[JOB399](companies/alibaba.md#job399)
+  - <a id="job400"></a>[JOB400](companies/alibaba.md#job400)
+  - <a id="job401"></a>[JOB401](companies/alibaba.md#job401)
+  - <a id="job402"></a>[JOB402](companies/alibaba.md#job402)
+  - <a id="job403"></a>[JOB403](companies/alibaba.md#job403)
+  - <a id="job404"></a>[JOB404](companies/alibaba.md#job404)
+  - <a id="job405"></a>[JOB405](companies/alibaba.md#job405)
+  - <a id="job406"></a>[JOB406](companies/alibaba.md#job406)
+  - <a id="job407"></a>[JOB407](companies/alibaba.md#job407)
+  - <a id="job408"></a>[JOB408](companies/alibaba.md#job408)
+  - <a id="job409"></a>[JOB409](companies/alibaba.md#job409)
+  - <a id="job410"></a>[JOB410](companies/alibaba.md#job410)
+  - <a id="job411"></a>[JOB411](companies/alibaba.md#job411)
+  - <a id="job412"></a>[JOB412](companies/alibaba.md#job412)
+  - <a id="job413"></a>[JOB413](companies/alibaba.md#job413)
+  - <a id="job414"></a>[JOB414](companies/alibaba.md#job414)
+  - <a id="job415"></a>[JOB415](companies/alibaba.md#job415)
+  - <a id="job416"></a>[JOB416](companies/alibaba.md#job416)
+  - <a id="job417"></a>[JOB417](companies/alibaba.md#job417)
+  - <a id="job418"></a>[JOB418](companies/alibaba.md#job418)
+  - <a id="job419"></a>[JOB419](companies/alibaba.md#job419)
+  - <a id="job420"></a>[JOB420](companies/alibaba.md#job420)
+  - <a id="job421"></a>[JOB421](companies/alibaba.md#job421)
+  - <a id="job422"></a>[JOB422](companies/alibaba.md#job422)
+  - <a id="job423"></a>[JOB423](companies/alibaba.md#job423)
+  - <a id="job424"></a>[JOB424](companies/alibaba.md#job424)
+  - <a id="job425"></a>[JOB425](companies/alibaba.md#job425)
+  - <a id="job426"></a>[JOB426](companies/alibaba.md#job426)
+  - <a id="job427"></a>[JOB427](companies/alibaba.md#job427)
 
 ## 招聘渠道
 
@@ -214,7 +1424,7 @@
 | [小红书](https://job.xiaohongshu.com/campus/position) | 4 | 已收录小红书招聘官网的 JD。社区笔记可在小红书 App 搜索「大模型 招聘」并用官网复核。 |
 | [牛客](https://www.nowcoder.com/jobs) | 12 | 从校招、社招与实习频道查具体职位，留意详情页的申请或结束标记。 |
 | [领英](https://www.linkedin.com/jobs/) | 2 | 可按城市检索英文职位名，如 LLM、Recommendation Model、AI Infra。部分投递需要登录。 |
-| [招聘官网](https://seed.bytedance.com/zh/career) | 53 | 可结合招聘类型查看官网校招与社招。每条岗位链接直达具体职位，核验范围见详情。这里链接到字节 Seed 招聘官网。 |
+| [招聘官网](https://seed.bytedance.com/zh/career) | 652 | 可结合招聘类型查看官网校招与社招。每条岗位链接直达具体职位，核验范围见详情。这里链接到字节 Seed 招聘官网。 |
 
 ## 岗位与 JD
 
@@ -515,61 +1725,6 @@ LLM Infra 与推理 · 校招 · 北京 · 有投递入口
 
 涉及技术关键词为 CTR、多任务排序、LLM4Rec、生成式召回。
 
-<a id="job012"></a>
-
-### JOB012 · 字节跳动 · 国际电商推荐大模型算法工程师
-
-推荐算法 · 社招 · 新加坡 · 有投递入口
-
-[在原平台查看](https://sg.linkedin.com/jobs/view/large-recommendation-model-algorithm-engineer-global-e-commerce-at-bytedance-4486900167) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB012)
-
-领英 · 已读公开 JD · 核验于 2026-11-17。领英公开 JD 可读并显示 Apply，投递可能需要登录。
-
-团队 / 业务为 Global E-Commerce · Recommendation Foundation。
-
-**主要职责**
-
-- 构建多场景共用的电商推荐基座，把语言模型应用到召回、排序和重排。
-- 研究基于行为序列的生成式推荐，兼顾推理效率和业务体验。
-
-**任职要求**
-
-- 具备机器学习、深度学习或信息检索基础，熟练使用 Python 并熟悉 PyTorch 等框架。
-
-**优先条件**
-
-- 有大规模推荐或模型训练经验，或做过多模态、强化学习、生成式推荐相关研究。
-
-涉及技术关键词为 生成式推荐、LLM、VLM、PyTorch。
-
-<a id="job013"></a>
-
-### JOB013 · 字节跳动 · 国际电商多模态大模型算法实习（知识图谱）
-
-多模态与生成 · 实习 · 新加坡 · 有投递入口
-
-[在原平台查看](https://sg.linkedin.com/jobs/view/multimodal-llm-algorithm-engineer-intern-global-e-commerce-knowledge-graph-2027-start-phd-at-bytedance-4475059291) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB013)
-
-领英 · 已读公开 JD · 核验于 2026-11-17。领英原文标注 2027 年开始，滚动审核。公开页显示 Apply。
-
-团队 / 业务为 Global E-Commerce · Knowledge Graph。
-
-**主要职责**
-
-- 为商品、品牌、商家和视频构建统一表征，支持跨语言聚合、同款匹配和价格异常识别。
-- 探索生成式搜推与商家 Agent，参与训练、评测、部署和失败案例排查。
-
-**任职要求**
-
-- 相关专业在读博士，有 NLP、CV、生成模型、多模态或 Agent 的研究或实践。
-- 熟悉 PyTorch 或 TensorFlow，做过模型训练、调优和部署。
-
-**优先条件**
-
-- 分布式训练、混合精度、TensorRT 或大模型服务优化经验。
-
-涉及技术关键词为 知识图谱、商品表征、跨语种匹配、RAG。
-
 <a id="job014"></a>
 
 ### JOB014 · 小红书 · 多模态基础模型算法工程师（2027 校招）
@@ -679,55 +1834,6 @@ BOSS直聘 · 公开摘要 · 核验于 2026-11-17。依据 BOSS 公开招聘列
 
 涉及技术关键词为 金融风控、大模型训练、模型评测、支付营销。
 
-<a id="job019"></a>
-
-### JOB019 · 字节跳动 · 大模型算法工程师（业务后训练）
-
-客服与对话系统 · 社招 · 深圳 · 投递待确认
-
-[在原平台查看](https://www.zhipin.com/job_detail/70c64b765f941fdb0nZ92dm-GFVV.html) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB019) · [查看公开摘要](https://www.zhipin.com/zhaopin/d985ea08594f96a21n1y2965EQ~~/)
-
-BOSS直聘 · 公开摘要 · 核验于 2026-11-17。依据 BOSS 公开列表的岗位摘要。详情页未能完整读取，完整门槛及投递状态请在平台核对。
-
-**主要职责**
-
-- 使用监督微调、可验证奖励的强化学习和智能体强化学习，优化催收、客服、运维及审核场景。
-- 岗位摘要列出信息抽取和意图分类等需要优化的任务。
-
-**任职要求**
-
-- BOSS 招聘列表标注本科，工作经验不限。
-
-涉及技术关键词为 SFT、RLVR、Agent RL、意图识别。
-
-<a id="job020"></a>
-
-### JOB020 · 字节跳动 · Agent / 强化学习算法工程师（商业化内容理解）
-
-风控与内容安全 · 社招 · 上海、北京 · 投递待确认
-
-[在原平台查看](https://maimai.cn/article/detail?efid=JXtcSXhIuRlpgoow-_s4KQ&fid=1914480045) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB020)
-
-脉脉 · 社区招聘帖 · 核验于 2026-11-17。脉脉用户以团队招聘名义发布，原帖只显示月日。企业官网状态未确认。
-
-团队 / 业务为 商业化内容理解。
-
-**主要职责**
-
-- 建设从风险识别、分析到策略更新的审核智能体，验证多智能体协作与偏好强化学习。
-- 参与训练数据和模型基础设施建设，服务商业化内容安全。
-
-**任职要求**
-
-- 机器学习、人工智能或数理统计等方向硕士或博士，具备 RL、Agent 实践。
-- 重视工程与算法基础，熟悉 C/C++ 或 Python。
-
-**优先条件**
-
-- 有相关大模型项目主导经验或研究论文。
-
-涉及技术关键词为 内容审核、多 Agent、偏好强化学习、安全评测。
-
 <a id="job021"></a>
 
 ### JOB021 · 公司未披露 · 大模型算法工程师（视频剪辑 Agent）
@@ -779,58 +1885,6 @@ Agent 与 RAG · 未说明 · 北京、深圳 · 投递待确认
 - 有风控上线经验、大模型方向研究或开源项目。
 
 涉及技术关键词为 反欺诈、异常检测、图计算、RAG。
-
-<a id="job023"></a>
-
-### JOB023 · 字节跳动 · 大模型应用算法工程师（Commercial AI）
-
-用户增长与营销 · 社招 · 北京 · 已结束
-
-[在原平台查看](https://www.nowcoder.com/jobs/detail/380465) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB023)
-
-牛客 · 已读公开 JD · 核验于 2026-11-17。原页已标记结束，保留作岗位要求参考。
-
-团队 / 业务为 Commercial AI。
-
-**主要职责**
-
-- 研发面向广告主与商家的经营助手，在多轮沟通中理解经营状况、诊断问题并调用业务工具。
-- 调优商家场景的大模型训练与推理，将后训练成果用于投放建议和长任务。
-
-**任职要求**
-
-- 具备机器学习和大模型训练或推理基础，熟悉 SFT、RLHF 或智能体强化学习。
-- 掌握 Python、基础算法与工程开发，能协作解决业务问题。
-
-涉及技术关键词为 商家经营、Agentic RL、SFT、营销诊断。
-
-<a id="job024"></a>
-
-### JOB024 · 阿里巴巴集团 · 算法工程师（大模型后训练）
-
-后训练与强化学习 · 校招 · 杭州 · 已结束
-
-[在原平台查看](https://www.nowcoder.com/jobs/detail/458889) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB024)
-
-牛客 · 已读公开 JD · 核验于 2026-11-17。牛客标为已结束，原页列出的截止日期为 2026 年 11 月 7 日。
-
-投递截止 2026-11-07
-
-**主要职责**
-
-- 合成推理、通用及专业领域数据，构建可验证奖励与偏好评估，改进工具路由。
-- 协调中期训练、SFT 与强化学习，优化训练配比并降低能力遗忘。
-
-**任职要求**
-
-- 对数据构造和强化学习有实践理解，能用 Python 和 PyTorch 实现算法。
-- 熟悉 vLLM、verl 等工具的实现，并有独立设计与验证方案的能力。
-
-**优先条件**
-
-- 主导或深度参与过有影响力的研究或工程项目。
-
-涉及技术关键词为 RLVR、Reward Model、Rubric RL、verl。
 
 <a id="job025"></a>
 
@@ -1190,127 +2244,6 @@ Agent 与 RAG · 社招 · 北京 · 有投递入口
 
 涉及技术关键词为 跨模态交互、多模态生成、数据分析。
 
-<a id="job038"></a>
-
-### JOB038 · 腾讯 · 腾讯游戏大模型强化学习框架研发工程师 / 专家
-
-LLM Infra 与推理 · 社招 · 深圳 · 投递待确认
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2072330929078190080) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB038)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。
-
-团队 / 业务为 腾讯游戏 IEG。
-
-**主要职责**
-
-- 研发视频生成和世界模型的强化学习训练框架，优化数据加载、通信、内存以及并行。
-- 与算法同学验证新的训练策略并定位性能瓶颈。
-
-**任职要求**
-
-- 熟悉 Python 和复杂系统排查，做过 Megatron-LM、DeepSpeed 或 FSDP 等分布式框架。
-- 熟悉 PPO、GRPO、DPO 及强化学习框架，有生成模型项目经历。
-
-涉及技术关键词为 视频生成、世界模型、verl、分布式强化学习。
-
-<a id="job039"></a>
-
-### JOB039 · 腾讯 · AI Infra 研发工程师（自研芯片适配）
-
-LLM Infra 与推理 · 社招 · 北京、深圳 · 投递待确认
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2100835478730358784) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB039)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。
-
-团队 / 业务为 TEG。
-
-**主要职责**
-
-- 适配自研芯片的训练与推理软件栈，协同改进算子到端到端模型表现。
-
-**任职要求**
-
-- 熟悉 Linux 和 Python/C++，有 GPU 或 SIMD 开发和性能剖析能力。
-- 具备主流训推框架和模型加速实战。
-
-涉及技术关键词为 自研芯片、vLLM、SGLang、性能分析。
-
-<a id="job040"></a>
-
-### JOB040 · 腾讯 · 大模型算法交付工程师（行业模型方向）
-
-Agent 与 RAG · 社招 · 深圳 · 投递待确认
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2111019349228826624) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB040)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。
-
-团队 / 业务为 腾讯云 CSIG。
-
-**主要职责**
-
-- 面向企业客户搭建知识库、工作流和工具调用，在真实业务数据上做评测与模型选型。
-- 使用中期训练、SFT 与强化学习改进行业模型。
-
-**任职要求**
-
-- 相关专业硕士及以上，熟悉 Transformer 与后训练方法，能用 Python、PyTorch 动手训练或微调。
-- 能从客户的业务场景拆解研究问题。
-
-涉及技术关键词为 企业 Agent、行业评测、模型中训、RAG。
-
-<a id="job041"></a>
-
-### JOB041 · 腾讯 · 光子 AI·LLM 高级研究员（游戏智能体）
-
-Agent 与 RAG · 社招 · 深圳 · 投递待确认
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2075441482017456128) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB041)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。
-
-团队 / 业务为 光子工作室群。
-
-**主要职责**
-
-- 迭代在线游戏智能体的规划、记忆和工具调用，平衡互动质量、时延与成本。
-
-**任职要求**
-
-- 有 NLP 和机器学习项目基础，掌握至少一门编程语言及常用数据结构和算法。
-
-**优先条件**
-
-- 相关 AI 或 NLP 顶会、顶刊论文。
-
-涉及技术关键词为 游戏 Agent、长期记忆、任务规划、工具调用。
-
-<a id="job042"></a>
-
-### JOB042 · 腾讯 · 腾讯游戏语音算法资深研究员（新星引力计划）
-
-语音与实时交互 · 社招 · 上海 · 投递待确认
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2007656317103267840) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB042)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网社招职位详情可读，具备公开岗位编号。以职位页当前的申请状态为准。
-
-团队 / 业务为 腾讯游戏 GVoice。
-
-**主要职责**
-
-- 迭代 GVoice 多语种识别、合成和跨语言全双工交互。
-- 建设多语种训练和评测数据，优化端云侧语音模型压缩及流式部署。
-
-**任职要求**
-
-- 相关专业硕士及以上，做过至少三种语种的语音实践。
-- 熟悉语音框架、Python 和主流深度学习框架，具备基础 C++ 能力。
-
-涉及技术关键词为 多语种 ASR、TTS、全双工、流式推理。
-
 <a id="job043"></a>
 
 ### JOB043 · DeepSeek（深度求索） · 预训练（数据/算法）研究员
@@ -1463,259 +2396,6 @@ LLM Infra 与推理 · 社招 · 北京、杭州 · 有投递入口
 - GPU 或 NPU 算子、集合通信、编译器和性能剖析经验。
 
 涉及技术关键词为 TileLang、CUDA、Ascend C、集合通信。
-
-<a id="job050"></a>
-
-### JOB050 · 腾讯 · 混元推理算子开发工程师
-
-LLM Infra 与推理 · 社招 · 北京 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2066810245954580480) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB050)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 腾讯混元。
-
-**主要职责**
-
-- 开发 Transformer 等模型的推理算子，优化 CUDA、CPU 及 NPU 上的内存、调度与延迟。
-- 将算子融合、量化与动态批处理用于实际推理引擎。
-
-**任职要求**
-
-- 相关专业本科及以上，具备 C/C++ 与异构体系结构基础。
-- 熟悉主流框架底层实现，并有 GPU、CPU 或 NPU 的算子优化经验。
-
-涉及技术关键词为 Attention 算子、CUDA、TensorRT、异构推理。
-
-<a id="job051"></a>
-
-### JOB051 · 腾讯 · 微信小游戏大模型推荐算法工程师（商业化）
-
-推荐算法 · 社招 · 深圳 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2078318720920498176) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB051)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 微信游戏中心。
-
-**主要职责**
-
-- 为微信小游戏等业务迭代推荐投放全链路，覆盖素材、召回、排序和重排。
-- 实验生成式推荐与其他大模型技术对业务增长的影响。
-
-**任职要求**
-
-- 相关专业本科及以上，能在 LLM、搜广推或多模态方向完成工程落地。
-- 有工业场景的大模型推荐研发经验。
-
-涉及技术关键词为 大模型推荐、多阶段排序、商业化、素材理解。
-
-<a id="job052"></a>
-
-### JOB052 · 腾讯 · 腾讯营销生成式推荐算法专家
-
-用户增长与营销 · 社招 · 北京 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2094760861490135040) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB052)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 腾讯广告。
-
-**主要职责**
-
-- 规划营销推荐算法和团队工作，研究用户兴趣、行为序列与生成式推荐。
-- 提升模型可扩展性与线上训推效率，探索多模态创意和 Agent 在广告业务中的应用。
-
-**任职要求**
-
-- 具备机器学习基础及 PyTorch 或 TensorFlow 训练、调参与线上优化经验。
-- 能管理跨团队算法项目，推动业务落地。
-
-**优先条件**
-
-- 有大规模机器学习系统、推荐大模型或搜广推算法管理经验。
-
-涉及技术关键词为 营销推荐、用户序列建模、生成式建模、广告多模态。
-
-<a id="job053"></a>
-
-### JOB053 · 腾讯 · 腾讯营销搜索广告算法专家
-
-广告算法 · 社招 · 北京 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2094760863792807936) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB053)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 腾讯广告。
-
-**主要职责**
-
-- 用语言模型改进广告意图识别和需求匹配，研究生成式召回排序。
-- 通过继续预训练、强化微调和多模态表征增强广告相关性。
-
-**任职要求**
-
-- 相关专业硕士及以上，具备 3–5 年大模型研究或应用经验。
-- 熟悉大模型训练、调优和产品落地，能用 Python 和 C++ 做工程实现。
-
-涉及技术关键词为 搜索广告、生成式召排、相关性、多模态。
-
-<a id="job054"></a>
-
-### JOB054 · 腾讯 · 微信小程序搜索算法工程师（Agent）
-
-搜索与检索 · 社招 · 广州 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2086789751029022720) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB054)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 微信小程序。
-
-**主要职责**
-
-- 研发智能体驱动的小程序搜索，覆盖检索意图、召回和多阶段排序。
-- 用 SFT 和蒸馏改进查询重写及领域向量，训练重排模型并用 A/B 实验迭代。
-
-**任职要求**
-
-- 相关专业本科及以上，两年以上搜索、NLP 或信息检索经验。
-- 具备后训练与蒸馏实操，了解倒排索引和向量索引。
-
-涉及技术关键词为 Query 改写、Embedding 后训练、Rerank、A/B 实验。
-
-<a id="job055"></a>
-
-### JOB055 · 腾讯 · 微信视频搜索算法高级工程师（生成式召回）
-
-搜索与检索 · 社招 · 广州 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2091832513138966528) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB055)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 微信搜一搜。
-
-**主要职责**
-
-- 为视频搜索设计生成式召回，用多模态视频表征与用户行为序列预测需要召回的语义 ID。
-- 在训练与排序链路中评估检索质量和用户体验。
-
-**任职要求**
-
-- 熟悉 C++、Python 和 PyTorch，具备机器学习、强化学习和生成式检索或推荐落地经验。
-
-涉及技术关键词为 语义 ID、生成式召回、行为序列、SFT。
-
-<a id="job056"></a>
-
-### JOB056 · 腾讯 · 微信小店风控大模型算法工程师
-
-风控与内容安全 · 社招 · 广州 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2077293039302393856) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB056)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 微信交易平台。
-
-**主要职责**
-
-- 识别违规内容、异常商家及虚假交易，研发传统风控模型与大模型协同方案。
-- 用检索和智能体增强风险归因、策略迭代与解释。
-
-**任职要求**
-
-- 相关专业研究生及以上，熟悉 Python、C++ 等，具备统计和数据分析能力。
-
-**优先条件**
-
-- 有 NLP、视觉、大模型微调、内容安全或电商治理经验。
-
-涉及技术关键词为 电商反作弊、多模态风控、RAG、Agent。
-
-<a id="job057"></a>
-
-### JOB057 · 腾讯 · 高级广告审核 Agent 算法工程师
-
-风控与内容安全 · 社招 · 深圳、北京 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2108144612332974080) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB057)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 腾讯广告相关业务。
-
-**主要职责**
-
-- 做广告审核智能体的规则理解、案例推理、自动归因和迭代评测。
-- 用多模态生成协助修复拒审内容，并验证修复效果。
-
-**任职要求**
-
-- 相关专业硕士及以上。有大模型训练、微调、推理优化与智能体项目经历。
-- 熟悉反思、记忆、规划或多智能体协作。
-
-**优先条件**
-
-- 有广告、内容安全、风控审核落地经验。
-
-涉及技术关键词为 广告审核、Agent Harness、多智能体、多模态生成。
-
-<a id="job058"></a>
-
-### JOB058 · 腾讯 · 混元 AI Agent Harness 工程师
-
-Agent 与 RAG · 社招 · 北京、深圳 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2052685072754196480) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB058)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 混元工程平台。
-
-**主要职责**
-
-- 搭建智能体执行链路追踪、可观测性和调试工具。
-- 开发自动化评测、对比实验和标注数据平台，联动模型团队迭代。
-
-**任职要求**
-
-- 有全栈工程和系统设计基础，熟悉 LLM、Agent 框架及提示工程。
-- 有较深入的代码 Agent 实践，能识别能力边界和失败模式。
-
-涉及技术关键词为 Agent Harness、Trace、自动化评测、回归检测。
-
-<a id="job059"></a>
-
-### JOB059 · 腾讯 · 金融大模型算法工程师
-
-后训练与强化学习 · 社招 · 深圳 · 有投递入口
-
-[在原平台查看](https://careers.tencent.com/jobdesc.html?postId=2101507113946886144) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB059)
-
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。腾讯官网当前社招列表有此岗位，职位详情可读，可打开原页申请。
-
-团队 / 业务为 腾讯金融科技 FiT。
-
-**主要职责**
-
-- 负责金融模型持续预训练、后训练和模型结构优化，设计面向金融任务的奖励与训练方案。
-- 将模型接入实际金融智能应用并持续改进。
-
-**任职要求**
-
-- 相关专业硕士及以上，具备百亿至千亿参数级模型实践，熟悉 DeepSpeed 或 Megatron-LM 等框架。
-
-**优先条件**
-
-- 有 AI 方向顶会、期刊论文。
-
-涉及技术关键词为 持续预训练、金融领域模型、奖励设计、分布式训练。
 
 <a id="job060"></a>
 
@@ -2026,173 +2706,3 @@ LLM Infra 与推理 · 校招 · 上海 · 投递待确认
 - GPU 或异构集群、高性能网络或高性能系统研究经历。
 
 涉及技术关键词为 分布式训推、弹性资源、RDMA、容灾。
-
-<a id="job071"></a>
-
-### JOB071 · 阿里巴巴集团 · 算法工程师（大模型预训练，2027 届）
-
-预训练与数据 · 校招 · 北京、杭州、上海 · 投递待确认
-
-[在原平台查看](https://campus-talent.alibaba.com/campus/position/199907800035) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB071) · [查看公开摘要](https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199907800035)
-
-招聘官网 · 公开摘要 · 核验于 2026-11-17。已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。
-
-团队 / 业务为 阿里巴巴 2027 届应届生招聘。
-
-**主要职责**
-
-- 建设推理、长尾知识和长文预训练语料，研究数据规模、损失函数和训练稳定性。
-- 探索稀疏注意力、模型结构与训练推理协同优化。
-
-**任职要求**
-
-- 相关专业本科及以上；有模型架构或训练策略研究能力，能独立设计并执行实验。
-
-涉及技术关键词为 预训练数据、Scaling Law、MoE、稀疏注意力。
-
-<a id="job072"></a>
-
-### JOB072 · 阿里巴巴集团 · 算法工程师（大模型应用，2027 届）
-
-用户增长与营销 · 校招 · 北京、杭州 · 投递待确认
-
-[在原平台查看](https://campus-talent.alibaba.com/campus/position/199907700032) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB072) · [查看公开摘要](https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199907700032)
-
-招聘官网 · 公开摘要 · 核验于 2026-11-17。已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。
-
-团队 / 业务为 阿里巴巴 2027 届应届生招聘。
-
-**主要职责**
-
-- 在实际业务中优化大模型和多智能体应用，并探索对用户体验及商业增长的作用。
-- 用压缩、低延迟推理和分布式训练将大模型部署到工业应用。
-
-**任职要求**
-
-- 相关专业本科及以上，具备算法基础及 Python、C++ 或 Java 编程能力。
-- 了解搜广推、NLP、多模态等至少一个方向。
-
-**优先条件**
-
-- 有深度学习框架、竞赛或开源实践。
-
-涉及技术关键词为 核心业务模型、商业增长、分布式训练、多智能体。
-
-<a id="job073"></a>
-
-### JOB073 · 阿里巴巴集团 · 算法工程师（大模型评测，2027 届）
-
-后训练与强化学习 · 校招 · 北京、杭州 · 投递待确认
-
-[在原平台查看](https://campus-talent.alibaba.com/campus/position/199907620028) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB073) · [查看公开摘要](https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199907620028)
-
-招聘官网 · 公开摘要 · 核验于 2026-11-17。已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。
-
-团队 / 业务为 阿里巴巴 2027 届应届生招聘。
-
-**主要职责**
-
-- 建设分析复杂任务、长尾场景和安全性的自动评测及数据集。
-- 训练奖励模型，用偏好反馈和强化学习改善模型表现，并研发评测工程框架。
-
-**任职要求**
-
-- 相关专业本科及以上，理解 Transformer，并具备模型评测或后训练项目经历。
-- 会用 Python 和 PyTorch 或 TensorFlow 开展研发。
-
-**优先条件**
-
-- 有模型训练、推理加速、数据合成或研究竞赛成果。
-
-涉及技术关键词为 LLM-as-a-Judge、奖励模型、自动化评测、数据合成。
-
-<a id="job074"></a>
-
-### JOB074 · 阿里巴巴集团 · 算法工程师（全模态基础大模型，2027 届）
-
-语音与实时交互 · 校招 · 北京、杭州、上海 · 投递待确认
-
-[在原平台查看](https://campus-talent.alibaba.com/campus/position/199908460006) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB074) · [查看公开摘要](https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199908460006)
-
-招聘官网 · 公开摘要 · 核验于 2026-11-17。已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。
-
-团队 / 业务为 阿里巴巴 2027 届应届生招聘。
-
-**主要职责**
-
-- 研发音视频理解、原生音视频智能体及全双工通话交互。
-- 改进多说话人语音识别、长语音生成与后训练能力。
-
-**任职要求**
-
-- 相关专业硕士及以上，有 Python 或 C++ 工程基础。
-- 有音视频建模、Agent、语言模型训练或实时交互模型实践。
-
-涉及技术关键词为 全双工音视频、多说话人 ASR、语音合成、OPD。
-
-<a id="job075"></a>
-
-### JOB075 · 阿里巴巴集团 · 大模型应用开发工程师（2027 届）
-
-Agent 与 RAG · 校招 · 北京、广州、杭州 · 投递待确认
-
-[在原平台查看](https://campus-talent.alibaba.com/campus/position/199907720102) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB075) · [查看公开摘要](https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199907720102)
-
-招聘官网 · 公开摘要 · 核验于 2026-11-17。已核对公开 JD 摘录中指向的官网岗位链接。职责与要求据公开摘录整理，当前投递状态待官网确认。
-
-团队 / 业务为 阿里巴巴 2027 届应届生招聘。
-
-**主要职责**
-
-- 建设企业知识库、智能对话与自动化工作流，研发规划、工具调用及记忆等智能体组件。
-- 优化检索切片、召回重排与应用评测，完善监控和平台工程。
-
-**任职要求**
-
-- 相关专业本科及以上，熟悉至少一门开发语言并具备数据结构与操作系统基础。
-- 了解主流 LLM API、RAG 和应用开发框架。
-
-涉及技术关键词为 RAG、LLMOps、Agent、智能对话。
-
-<a id="job076"></a>
-
-### JOB076 · 阿里巴巴集团 · 智能引擎大模型训练基础架构研发工程师 / 高级专家
-
-LLM Infra 与推理 · 社招 · 北京、杭州 · 投递待确认
-
-[在原平台查看](https://talent-holding.alibaba.com/off-campus/position-detail?positionId=1038409) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB076) · [查看公开摘要](https://alibaba.github.io/ROCK/zh-Hans/careers/)
-
-招聘官网 · 公开摘要 · 核验于 2026-11-17。阿里智能引擎团队的公开招聘页列出了这个岗位和投递链接，职责为团队公开介绍。具体任职门槛与状态以岗位原页为准。
-
-团队 / 业务为 智能引擎 AI Infra。
-
-**主要职责**
-
-- 参与阿里智能引擎基础工程平台，支撑语言与多模态模型的训练、评测及推理。
-
-公开资料中的任职门槛有待确认。
-
-涉及技术关键词为 训练基础架构、分布式训推、模型工程平台。
-
-<a id="job077"></a>
-
-### JOB077 · 字节跳动 · 大模型安全与对齐研究工程师（Seed，2027 届）
-
-风控与内容安全 · 校招 · 北京、上海 · 投递待确认
-
-[在原平台查看](https://jobs.bytedance.com/campus/position/7696058395585415477/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB077) · [查看公开摘要](https://seed.bytedance.com/zh/blog/seed-alignment-preparedness-team-looking-for-global-talents)
-
-招聘官网 · 公开摘要 · 核验于 2026-11-17。职责和要求来自 Seed 官方招聘专题，校招链接对应北京和上海。具体投递状态待岗位页确认。
-
-团队 / 业务为 Seed Alignment & Preparedness。
-
-**主要职责**
-
-- 建设模型行为规范与安全评估，研究从预训练到强化学习阶段的安全对齐。
-- 用自动化攻防及外部测试验证对未知风险的识别、防御和归因能力。
-
-**任职要求**
-
-- 有大模型安全、对齐、评测、红队、强化学习、Agent 或系统安全相关研究。
-
-涉及技术关键词为 模型安全、对齐训练、红队评测、Agent。
