@@ -1,10 +1,10 @@
 # Apple（苹果） · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Apple&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Apple&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) · [企业官网](https://jobs.apple.com/en-us/search?team=machine-learning-and-ai-SFTWR-MCHLN)
+[返回招聘索引](../README.md) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Apple&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Apple&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业官网](https://jobs.apple.com/en-us/search?team=machine-learning-and-ai-SFTWR-MCHLN)
 
-共 20 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 21 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
-## 社招（19）
+## 社招（20）
 
 <a id="job987"></a>
 
@@ -553,6 +553,36 @@ Agent 与 RAG · 社招 · Cupertino, California, United States · 投递待确�
 - 要求涉及Scala、机器学习、SQL、Spark、Python。
 
 涉及技术关键词为 Scala、Spark、机器学习、SQL、Python。
+
+<a id="job1257"></a>
+
+### JOB1257 · Apple（苹果） · Manager, Machine Learning Engineer
+
+LLM Infra 与推理 · 社招 · 上海 · 投递待确认
+
+[在原平台查看](https://jobs.apple.com/en-us/details/200646371-3715/manager-machine-learning-engineer) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1257)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求。投递以原页为准。
+
+团队 / 业务为 Machine Learning and AI / Software and Services / Operations and Supply Chain。
+
+原页日期 2026-10-28
+
+**主要职责**
+
+- 工作涉及训练或推理系统，包括MLOps。
+
+**任职要求**
+
+- JD 涉及的学历条件有本科。
+- 经验年限涉及 8 年以上。
+- 要求涉及机器学习。
+
+**优先条件**
+
+- 加分项涉及 Kubernetes、计算机视觉。
+
+涉及技术关键词为 机器学习、MLOps。
 
 ## 实习（1）
 

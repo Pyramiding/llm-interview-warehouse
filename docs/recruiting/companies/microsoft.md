@@ -1,10 +1,10 @@
 # Microsoft（微软） · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) · [企业官网](https://apply.careers.microsoft.com/careers?query=Machine+Learning)
+[返回招聘索引](../README.md) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业官网](https://apply.careers.microsoft.com/careers?query=Machine+Learning)
 
-共 17 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 35 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
-## 社招（16）
+## 社招（17）
 
 <a id="job899"></a>
 
@@ -375,7 +375,29 @@ LLM Infra 与推理 · 社招 · 地点待确认 · 投递待确认
 
 涉及技术关键词为 机器学习、模型安全、分布式系统、C#、C++、Java、Python。
 
-## 实习（1）
+<a id="job1231"></a>
+
+### JOB1231 · Microsoft（微软） · Senior/Principal Researcher
+
+应用机器学习 · 社招 · 北京、上海 · 投递待确认
+
+[在原平台查看](https://apply.careers.microsoft.com/careers/job/1970393556983843) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1231)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。微软招聘页列有中国内地工作地点与完整职责。投递以原页为准。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 在大语言模型、Agent 系统、AI 基础设施、多模态或具身智能等领域开展研究，推动微软亚洲研究院各地团队协作。
+
+**任职要求**
+
+- 相关领域博士或同等经验；有作为主要作者或重要贡献者发表学术论文的经历。
+
+涉及技术关键词为 大语言模型、Agent、AI 基础设施、多模态、具身智能。
+
+## 实习（18）
 
 <a id="job906"></a>
 
@@ -398,3 +420,392 @@ Agent 与 RAG · 实习 · 地点待确认 · 投递待确认
 - 要求涉及计算机视觉、召回、模型评测、Python、机器学习。
 
 涉及技术关键词为 Agent、RAG、计算机视觉、召回、模型评测、机器学习、Python。
+
+<a id="job1232"></a>
+
+### JOB1232 · Microsoft（微软） · Research Intern for ML group in Time Series Direction
+
+Agent 与 RAG · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-ml-group-in-time-series-direction/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1232)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及智能体和大模型应用，包括Agent、推理能力、时序建模、强化学习、图学习。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士。
+- 要求涉及时序建模、机器学习、深度学习。
+
+涉及技术关键词为 Agent、推理能力、时序建模、强化学习、图学习、预训练、基础模型、多模态、机器学习。
+
+<a id="job1233"></a>
+
+### JOB1233 · Microsoft（微软） · Research Intern for LLM Reasoning
+
+LLM Infra 与推理 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-llm-reasoning/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1233)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及训练或推理系统，包括推理能力。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士/博士。
+- 要求涉及推理能力。
+
+涉及技术关键词为 推理能力、评测体系。
+
+<a id="job1234"></a>
+
+### JOB1234 · Microsoft（微软） · Research Intern for Machine Learning Group – Embodied AI research
+
+多模态与生成 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-machine-learning-group-embodied-ai-research/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1234)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及视觉与多模态模型，包括基础模型、VLA、世界模型、强化学习、具身智能。
+
+**任职要求**
+
+- JD 涉及的学历条件有博士。
+- 要求涉及具身智能、深度学习。
+
+**优先条件**
+
+- 加分项涉及 具身智能。
+
+涉及技术关键词为 机器学习、基础模型、VLA、世界模型、强化学习、具身智能、深度学习。
+
+<a id="job1235"></a>
+
+### JOB1235 · Microsoft（微软） · Research Intern for Artificial Intelligence Reasoning Group
+
+后训练与强化学习 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-artificial-intelligence-reasoning-group-2/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1235)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及模型后训练与评估，包括后训练、微调、强化学习、推理能力、预训练。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士。
+- 要求涉及微调、强化学习、Python。
+
+涉及技术关键词为 推理能力、后训练、微调、强化学习、预训练、Python。
+
+<a id="job1236"></a>
+
+### JOB1236 · Microsoft（微软） · Research Intern for Machine Learning Group – Discriminative Foundation Models and Efficient Decision-Making
+
+预训练与数据 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-machine-learning-group-discriminative-foundation-models-and-efficient-decision-making/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1236)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及基座模型训练，包括基础模型、训练框架、后训练、强化学习、语料构建。
+
+**任职要求**
+
+- JD 涉及的学历条件有博士、硕士。
+- 要求涉及基础模型、强化学习、数据合成、模型蒸馏、量化、模型量化、Python。
+
+涉及技术关键词为 基础模型、机器学习、训练框架、后训练、强化学习、语料构建、模型蒸馏、推理优化、数据合成。
+
+<a id="job1237"></a>
+
+### JOB1237 · Microsoft（微软） · Research Intern for Media Computing Group (Audio)
+
+语音与实时交互 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-media-computing-group-audio/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1237)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及语音和音频模型，包括语音交互、多模态、计算机视觉。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士/博士。
+
+涉及技术关键词为 语音交互、多模态、计算机视觉、评测体系。
+
+<a id="job1238"></a>
+
+### JOB1238 · Microsoft（微软） · Research Intern for Systems Research Group
+
+LLM Infra 与推理 · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-systems-research-group/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1238)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及训练或推理系统，包括分布式系统、Rust。
+
+**任职要求**
+
+- JD 涉及的学历条件有博士。
+- 要求涉及分布式系统、Rust、C++、Python、Java。
+
+涉及技术关键词为 分布式系统、Rust、C++、Python、Java、Linux、深度学习、PyTorch。
+
+<a id="job1239"></a>
+
+### JOB1239 · Microsoft（微软） · Research Intern for AI/ML Group (Shanghai)
+
+多模态与生成 · 实习 · 上海 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-ai-ml-group-shanghai/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1239)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及视觉与多模态模型，包括多模态。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士或博士。
+- 要求涉及基础模型、多模态、评测体系、机器学习。
+
+涉及技术关键词为 多模态、基础模型、评测体系、机器学习、Python。
+
+<a id="job1240"></a>
+
+### JOB1240 · Microsoft（微软） · Research Intern for Social Computing Group
+
+后训练与强化学习 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-social-computing-group/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1240)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及模型后训练与评估，包括模型评测。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士。
+
+涉及技术关键词为 模型评测、评测体系。
+
+<a id="job1241"></a>
+
+### JOB1241 · Microsoft（微软） · Research Intern for Artificial Intelligence Reasoning Group
+
+预训练与数据 · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-artificial-intelligence-reasoning-group/?lang=zh-cn) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1241)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及基座模型训练，包括推理能力、预训练。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士/博士。
+
+涉及技术关键词为 推理能力、预训练、评测体系。
+
+<a id="job1242"></a>
+
+### JOB1242 · Microsoft（微软） · Research Intern for 2D/3D generation
+
+多模态与生成 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-2d-3d-generation/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1242)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及视觉与多模态模型，包括多模态、预训练、微调、3D 重建、强化学习。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士。
+- 要求涉及多模态、预训练、微调、机器学习。
+
+涉及技术关键词为 多模态、预训练、微调、3D 重建、强化学习、图学习、机器学习、深度学习。
+
+<a id="job1243"></a>
+
+### JOB1243 · Microsoft（微软） · Research Intern for Media Computing Group (Vision)
+
+多模态与生成 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-media-computing-group-vision/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1243)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及视觉与多模态模型，包括多模态、Agent、推理能力、计算机视觉、长期记忆。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士/博士。
+
+涉及技术关键词为 多模态、Agent、推理能力、计算机视觉、长期记忆、任务规划、评测体系。
+
+<a id="job1244"></a>
+
+### JOB1244 · Microsoft（微软） · Research Intern for Media Computing Group (Video)
+
+多模态与生成 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-media-computing-group-video/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1244)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及视觉与多模态模型，包括多模态、基础模型、预训练、后训练、模型对齐。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士/博士。
+
+涉及技术关键词为 多模态、基础模型、预训练、后训练、模型对齐、推理能力、视觉语言模型、图像生成、分布式训练。
+
+<a id="job1245"></a>
+
+### JOB1245 · Microsoft（微软） · Research Intern for Visual Computing Group – Microsoft Research
+
+多模态与生成 · 实习 · 北京 · 投递待确认
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-visual-computing-group-microsoft-research/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1245)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求。投递以原页为准。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及视觉与多模态模型，包括多模态、基础模型、Agent、推理能力、后训练。
+
+**任职要求**
+
+- 要求涉及计算机视觉、视觉语言模型、扩散模型、强化学习、后训练、Agent、工具调用。
+
+涉及技术关键词为 多模态、基础模型、Agent、推理能力、后训练、强化学习、模型评测、AI 对齐、模型对齐。
+
+<a id="job1246"></a>
+
+### JOB1246 · Microsoft（微软） · Research Intern for Intelligent Multimedia Group
+
+多模态与生成 · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-intelligent-multimedia-group/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1246)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及视觉与多模态模型，包括视频理解、视频生成、多模态。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士/博士。
+- 要求涉及Python、C++、深度学习。
+
+涉及技术关键词为 视频理解、视频生成、多模态、评测体系、Python、C++、深度学习。
+
+<a id="job1247"></a>
+
+### JOB1247 · Microsoft（微软） · Research Intern for Visual Computing Group
+
+多模态与生成 · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-visual-computing-group/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1247)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及视觉与多模态模型，包括计算机视觉、多模态。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士/博士。
+- 要求涉及计算机视觉、机器学习。
+
+涉及技术关键词为 计算机视觉、多模态、评测体系、机器学习、深度学习。
+
+<a id="job1248"></a>
+
+### JOB1248 · Microsoft（微软） · Research Intern for Multimodal Computing Group
+
+多模态与生成 · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://www.microsoft.com/en-us/research/opportunity/research-intern-for-multimodal-computing-group/) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1248)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 微软亚洲研究院。
+
+**主要职责**
+
+- 工作涉及视觉与多模态模型，包括多模态、计算机视觉。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士/博士。
+- 要求涉及多模态。
+
+涉及技术关键词为 多模态、计算机视觉、评测体系。

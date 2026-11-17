@@ -1,6 +1,6 @@
 # 京东集团 · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [企业校招](https://campus.jd.com/#/jobs) · [企业社招](https://zhaopin.jd.com/web/job/job_info_list/3)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://campus.jd.com/#/jobs) · [企业社招](https://zhaopin.jd.com/web/job/job_info_list/3)
 
 共 60 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 

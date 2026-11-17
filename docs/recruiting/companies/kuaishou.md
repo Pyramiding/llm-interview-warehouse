@@ -1,6 +1,6 @@
 # 快手 · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) · [企业校招](https://campus.kuaishou.cn/) · [企业社招](https://zhaopin.kuaishou.cn/recruit/e/#/official/index/)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://campus.kuaishou.cn/) · [企业社招](https://zhaopin.kuaishou.cn/recruit/e/#/official/index/)
 
 共 32 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 

@@ -39,7 +39,33 @@ DOMESTIC_EMPLOYERS = {
     '滴滴': ('滴滴', 'didi', 'https://talent.didiglobal.com/campus/', 'https://talent.didiglobal.com/social/'),
     '小红书': ('小红书', 'xiaohongshu', 'https://job.xiaohongshu.com/campus/position',
              'https://job.xiaohongshu.com/social/position'),
+}
+MODEL_EMPLOYERS = {
+    '智谱': ('智谱（Z.ai）', 'zhipu', 'https://app.mokahr.com/campus-recruitment/zphz/148984',
+           'https://app.mokahr.com/social-recruitment/zphz/148983'),
+    '月之暗面': ('月之暗面（Kimi）', 'moonshot', 'https://careers.kimi.com/campus', 'https://careers.kimi.com/'),
     'DeepSeek': ('DeepSeek', 'deepseek', None, 'https://talent.deepseek.com/'),
+    'MiniMax': ('MiniMax（稀宇科技）', 'minimax', None, 'https://www.minimax.cn/careers'),
+    '智源研究院': ('北京智源人工智能研究院', 'baai', 'https://app.mokahr.com/campus-recruitment/baai/42174',
+              'https://app.mokahr.com/social-recruitment/baai/42173'),
+    '阶跃星辰': ('阶跃星辰（StepFun）', 'stepfun', 'https://app.mokahr.com/campus-recruitment/step/94905', None),
+    '面壁智能': ('面壁智能（ModelBest）', 'modelbest', 'https://modelbest.jobs.feishu.cn/campus',
+             'https://modelbest.jobs.feishu.cn/career'),
+    '百川智能': ('百川智能', 'baichuan', 'https://careers.baichuan-inc.com/',
+             'https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin'),
+}
+ROBOTICS_EMPLOYERS = {
+    '智元机器人': ('智元机器人（AGIBOT）', 'agibot', None, 'https://agirobot.jobs.feishu.cn/campusrecruitment'),
+    '旷视科技': ('旷视科技（Megvii）', 'megvii', 'https://www.nowcoder.com/careers/Megviicampus/38302', None),
+    '商汤科技': ('商汤科技（SenseTime）', 'sensetime', 'https://hr.sensetime.com/campus/?c=1',
+             'https://hr-jobs.sensetime.com/exp/position/list'),
+}
+FINANCE_TELECOM_EMPLOYERS = {
+    '中国电信': ('中国电信（含中电信人工智能科技）', 'china-telecom', None,
+             'https://job.chinatelecom.com.cn/wt/TELE/web/index?brandCode=1'),
+    '中信银行': ('中信银行', 'citic-bank', None, 'https://job.citicbank.com/'),
+    '招商银行': ('招商银行', 'cmb', None, 'https://career.cmbchina.com/'),
+    '招银网络科技': ('招银网络科技', 'cmb-network', None, 'https://cmbntjob.cmbchina.com/'),
 }
 GLOBAL_EMPLOYERS = {
     'Google': ('Google（谷歌）', 'google', None, 'https://www.google.com/about/careers/applications/jobs/results/?q=Machine+Learning'),
@@ -52,7 +78,9 @@ GLOBAL_EMPLOYERS = {
     'Grab': ('Grab', 'grab', None, 'https://www.grab.careers/en/jobs/'),
     'OpenAI': ('OpenAI', 'openai', None, 'https://openai.com/careers/search/'),
     'Anthropic': ('Anthropic', 'anthropic', None, 'https://www.anthropic.com/careers/jobs'),
+    'SAP': ('SAP（思爱普）', 'sap', None, 'https://jobs.sap.com/en/jobs/?location=Shanghai'),
 }
+MAINLAND_CITIES = {'北京', '上海', '深圳', '广州', '杭州', '成都', '苏州', '南京', '西安', '武汉', '大连', '合肥', '中国内地'}
 
 
 def recruiting_url(**filters):
@@ -66,6 +94,14 @@ def is_https(url):
         return False
     parsed = urlsplit(url)
     return parsed.scheme == 'https' and bool(parsed.hostname) and parsed.username is None
+
+
+def is_mainland_location(city):
+    if city in MAINLAND_CITIES:
+        return True
+    if re.search(r'香港|澳门|澳門|台湾|臺灣|Hong Kong|Maca[ou]|Taiwan', city, re.IGNORECASE):
+        return False
+    return bool(re.search(r'^China, |, (?:China|CHN)$', city, re.IGNORECASE))
 
 
 def load_recruiting(known_topics):
@@ -126,31 +162,41 @@ def build_recruiting_index(known_topics):
         job['job_type'] for job in official_jobs if job['job_status'] == 'apply_link'
     )
     official_by_employer = Counter((job['company_key'], job['job_type']) for job in official_jobs)
-    official_employers = {job['company_key'] for job in official_jobs}
+    all_by_employer = Counter((job['company_key'], job['job_type']) for job in jobs)
+    listed_employers = {job['company_key'] for job in jobs}
     employer_groups = (
-        ('major-employers', '重点公司官网', EMPLOYER_PAGES),
-        ('domestic-employers', '国内其他企业', DOMESTIC_EMPLOYERS),
-        ('global-employers', '海外企业', GLOBAL_EMPLOYERS),
+        ('major-employers', '重点公司官网', EMPLOYER_PAGES, True),
+        ('domestic-employers', '国内其他企业', DOMESTIC_EMPLOYERS, True),
+        ('model-employers', '大模型公司与研究机构', MODEL_EMPLOYERS, False),
+        ('robotics-employers', '机器人与计算机视觉', ROBOTICS_EMPLOYERS, False),
+        ('telecom-finance-employers', '运营商与金融机构', FINANCE_TELECOM_EMPLOYERS, False),
+        ('global-employers', '海外企业', GLOBAL_EMPLOYERS, True),
     )
     employers = {
-        key: spec
-        for _, _, group in employer_groups
+        key: (*spec, official_only)
+        for _, _, group, official_only in employer_groups
         for key, spec in group.items()
-        if key in official_employers
+        if key in listed_employers
     }
     company_pages = {key: 'companies/' + spec[1] + '.md' for key, spec in employers.items()}
 
-    def company_filter(key, kind):
-        return recruiting_url(company=key, platform='招聘官网', job_type=kind)
+    def company_filter(key, kind, official_only):
+        params = {'company': key, 'job_type': kind}
+        if official_only:
+            params['platform'] = '招聘官网'
+        return recruiting_url(**params)
 
-    def company_count(key, kind):
-        count = official_by_employer[key, kind]
-        return f'[{count} 条]({company_filter(key, kind)})' if count else '—'
+    def company_count(key, kind, official_only):
+        counts = official_by_employer if official_only else all_by_employer
+        count = counts[key, kind]
+        return f'[{count} 条]({company_filter(key, kind, official_only)})' if count else '—'
 
     def employer_links(campus, portal):
-        if campus:
+        if campus and portal:
             return [f'[企业校招]({campus})', f'[企业社招]({portal})']
-        return [f'[企业官网]({portal})']
+        if campus:
+            return [f'[校招入口]({campus})']
+        return [f'[企业官网]({portal})'] if portal else []
 
     def entry(job, include_company=False):
         label = f'{job["company"]} · {job["title"]}' if include_company else job['title']
@@ -160,8 +206,8 @@ def build_recruiting_index(known_topics):
     lines = [
         '# 大模型与算法岗招聘 / JD', '',
         f'[打开招聘网页]({recruiting_url()}) · [返回面经仓库](../../README.md)', '',
-        f'{last_checked} 更新，共收录 {len(jobs)} 条岗位与 JD。每条链接指向具体岗位，附职责和要求摘要、核验日期与投递状态。',
-        '“有投递入口”表示核验时确认了官网申请入口。“投递待确认”包括官网列表仅展示部分 JD 等情况，详情保留核验依据。', '',
+        f'{last_checked} 更新，共收录 {len(jobs)} 条岗位与 JD。记录附岗位原页或招聘公告、职责和要求摘要、核验日期与投递状态。',
+        '“有投递入口”表示核验时确认了官网申请入口。投递状态与招聘类型以原页为准，已结束的批次保留作往届 JD。', '',
         '## 官网岗位', '',
         '| 招聘类型 | 官网岗位 | 有投递入口 | 网页入口 |',
         '|---|---:|---:|---|',
@@ -169,17 +215,28 @@ def build_recruiting_index(known_topics):
     for kind in ('校招', '社招', '实习'):
         filtered_url = recruiting_url(platform='招聘官网', job_type=kind)
         lines.append(f'| {kind} | {official_by_type[kind]} | {official_with_application[kind]} | [查看{kind}]({filtered_url}) |')
-    for anchor, heading, group in employer_groups:
-        lines += [
-            '', f'<a id="{anchor}"></a>', '', f'## {heading}', '',
-            '| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘官网 |',
-            '|---|---:|---:|---:|---|---|',
-        ]
+    for anchor, heading, group, official_only in employer_groups:
+        lines += ['', f'<a id="{anchor}"></a>', '', f'## {heading}', '']
+        if not official_only:
+            lines += ['表内统计各公开渠道的收录记录，招聘类型未注明的条目可在公司 JD 页查看。', '']
+        lines += ['| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘入口 |', '|---|---:|---:|---:|---|---|']
         for key, (name, _, campus, portal) in group.items():
             if key in employers:
-                counts = ' | '.join(company_count(key, kind) for kind in ('校招', '社招', '实习'))
-                links = ' · '.join(employer_links(campus, portal))
+                counts = ' | '.join(company_count(key, kind, official_only) for kind in ('校招', '社招', '实习'))
+                links = ' · '.join(employer_links(campus, portal)) or '—'
                 lines.append(f'| {name} | {counts} | [查看 JD]({company_pages[key]}) | {links} |')
+    china_jobs = defaultdict(list)
+    for job in official_jobs:
+        if job['company_key'] in GLOBAL_EMPLOYERS and any(map(is_mainland_location, job['cities'])):
+            china_jobs[job['company_key']].append(job)
+    lines += ['', '<a id="china-foreign-employers"></a>', '', '## 在华外企岗位', '',
+              '列出官网 JD 中明确包含中国内地工作地点的岗位。', '']
+    for key, (name, _, _, _) in GLOBAL_EMPLOYERS.items():
+        if china_jobs[key]:
+            lines += [f'### {name}（{len(china_jobs[key])}）', '']
+            for job in china_jobs[key]:
+                lines.append(entry(job) + f' · {job["job_type"]} · {"、".join(job["cities"])}')
+            lines.append('')
     lines += ['', '## 按方向', '']
     for key, title in directions.items():
         if by_direction[key]:
@@ -207,12 +264,13 @@ def build_recruiting_index(known_topics):
     output = ROOT / 'docs/recruiting'
     write_index(output / 'README.md', lines)
 
-    for key, (name, _, campus, portal) in employers.items():
+    for key, (name, _, campus, portal, official_only) in employers.items():
         postings = [job for job in jobs if job['company_key'] == key]
+        counts = official_by_employer if official_only else all_by_employer
         company_links = [
-            f'[网页{kind}]({company_filter(key, kind)})'
+            f'[网页{kind}]({company_filter(key, kind, official_only)})'
             for kind in ('校招', '社招', '实习')
-            if official_by_employer[key, kind]
+            if counts[key, kind]
         ]
         company_links.extend(employer_links(campus, portal))
         company_lines = [

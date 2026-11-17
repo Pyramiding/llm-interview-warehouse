@@ -1,8 +1,8 @@
 # NVIDIA（英伟达） · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) · [企业官网](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业官网](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite)
 
-共 16 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 18 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
 ## 校招（4）
 
@@ -285,7 +285,7 @@ LLM Infra 与推理 · 社招 · Santa Clara, CA, US · 有投递入口
 
 涉及技术关键词为 强化学习、Agent、模型安全、基础模型、视觉语言模型、推理能力、CUDA、训练框架、微调。
 
-## 实习（4）
+## 实习（6）
 
 <a id="job978"></a>
 
@@ -381,3 +381,39 @@ LLM Infra 与推理 · 实习 · 上海、北京 · 有投递入口
 公开资料中的任职门槛有待确认。
 
 涉及技术关键词为 多模态、Agent、深度学习。
+
+<a id="job1255"></a>
+
+### JOB1255 · NVIDIA（英伟达） · AI Computing Development Intern, TensorRT-LLM - 2027
+
+LLM Infra 与推理 · 实习 · 上海 · 投递待确认
+
+[在原平台查看](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/AI-Computing-Development-Intern--TensorRT-LLM---2027_JR2026160) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1255)
+
+招聘官网 · 公开摘要 · 核验于 2026-11-17。依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。
+
+**主要职责**
+
+- 官网摘要涉及TensorRT、深度学习、机器学习。
+
+公开资料中的任职门槛有待确认。
+
+涉及技术关键词为 TensorRT、深度学习、机器学习。
+
+<a id="job1256"></a>
+
+### JOB1256 · NVIDIA（英伟达） · Software Engineer Intern, AI and DL Kernel Libraries - 2027
+
+LLM Infra 与推理 · 实习 · 上海 · 投递待确认
+
+[在原平台查看](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineer-Intern--AI-and-DL-Kernel-Libraries---2027_JR2026307) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1256)
+
+招聘官网 · 公开摘要 · 核验于 2026-11-17。依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。
+
+**主要职责**
+
+- 官网摘要涉及深度学习、机器学习。
+
+公开资料中的任职门槛有待确认。
+
+涉及技术关键词为 深度学习、机器学习。

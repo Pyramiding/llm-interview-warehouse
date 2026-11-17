@@ -2,63 +2,157 @@
 
 [打开招聘网页](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library) · [返回面经仓库](../../README.md)
 
-2026-11-17 更新，共收录 1054 条岗位与 JD。每条链接指向具体岗位，附职责和要求摘要、核验日期与投递状态。
-“有投递入口”表示核验时确认了官网申请入口。“投递待确认”包括官网列表仅展示部分 JD 等情况，详情保留核验依据。
+2026-11-17 更新，共收录 1258 条岗位与 JD。记录附岗位原页或招聘公告、职责和要求摘要、核验日期与投递状态。
+“有投递入口”表示核验时确认了官网申请入口。投递状态与招聘类型以原页为准，已结束的批次保留作往届 JD。
 
 ## 官网岗位
 
 | 招聘类型 | 官网岗位 | 有投递入口 | 网页入口 |
 |---|---:|---:|---|
-| 校招 | 293 | 71 | [查看校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) |
-| 社招 | 674 | 472 | [查看社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) |
-| 实习 | 63 | 28 | [查看实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) |
+| 校招 | 347 | 73 | [查看校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) |
+| 社招 | 730 | 480 | [查看社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) |
+| 实习 | 131 | 45 | [查看实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) |
 
 <a id="major-employers"></a>
 
 ## 重点公司官网
 
-| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘官网 |
+| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘入口 |
 |---|---:|---:|---:|---|---|
-| 字节跳动 | [112 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [98 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/bytedance.md) | [企业校招](https://jobs.bytedance.com/campus/position?type=2) · [企业社招](https://jobs.bytedance.com/experienced/position) |
-| 阿里巴巴集团 | [76 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [71 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/alibaba.md) | [企业校招](https://campus-talent.alibaba.com/campus/position) · [企业社招](https://talent-holding.alibaba.com/off-campus/position-list) |
-| 腾讯 | [14 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [190 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/tencent.md) | [企业校招](https://join.qq.com/post.html) · [企业社招](https://careers.tencent.com/jobopportunity.html) |
-| 京东集团 | [12 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [48 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/jd.md) | [企业校招](https://campus.jd.com/#/jobs) · [企业社招](https://zhaopin.jd.com/web/job/job_info_list/3) |
+| 字节跳动 | [112 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [98 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/bytedance.md) | [企业校招](https://jobs.bytedance.com/campus/position?type=2) · [企业社招](https://jobs.bytedance.com/experienced/position) |
+| 阿里巴巴集团 | [76 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [71 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/alibaba.md) | [企业校招](https://campus-talent.alibaba.com/campus/position) · [企业社招](https://talent-holding.alibaba.com/off-campus/position-list) |
+| 腾讯 | [14 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [190 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/tencent.md) | [企业校招](https://join.qq.com/post.html) · [企业社招](https://careers.tencent.com/jobopportunity.html) |
+| 京东集团 | [12 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [48 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%BA%AC%E4%B8%9C&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/jd.md) | [企业校招](https://campus.jd.com/#/jobs) · [企业社招](https://zhaopin.jd.com/web/job/job_info_list/3) |
 
 <a id="domestic-employers"></a>
 
 ## 国内其他企业
 
-| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘官网 |
+| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘入口 |
 |---|---:|---:|---:|---|---|
-| 美团 | [32 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%BE%8E%E5%9B%A2&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [27 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%BE%8E%E5%9B%A2&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [20 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%BE%8E%E5%9B%A2&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/meituan.md) | [企业校招](https://zhaopin.meituan.com/longcatprogram) · [企业社招](https://zhaopin.meituan.com/web/position?highlightType=social) |
-| 百度 | [17 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [12 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/baidu.md) | [企业校招](https://talent.baidu.com/jobs/list?recruitType=GRADUATE) · [企业社招](https://talent.baidu.com/jobs/list?recruitType=SOCIAL) |
-| 华为 | — | [8 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%8D%8E%E4%B8%BA&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%8D%8E%E4%B8%BA&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/huawei.md) | [企业校招](https://career.huawei.com/cn/campus-recruitment-job-list) · [企业社招](https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html) |
-| 快手 | [16 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | — | [14 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/kuaishou.md) | [企业校招](https://campus.kuaishou.cn/) · [企业社招](https://zhaopin.kuaishou.cn/recruit/e/#/official/index/) |
-| 小米 | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | — | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/xiaomi.md) | [企业校招](https://hr.xiaomi.com/website/campus.html) · [企业社招](https://career.mi.com/jobs) |
-| 拼多多 | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%BC%E5%A4%9A%E5%A4%9A&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/pdd.md) | [企业校招](https://careers.pddglobalhr.com/campus/grad) · [企业社招](https://careers.pddglobalhr.com/jobs) |
-| 滴滴 | — | [40 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%BB%B4%E6%BB%B4&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/didi.md) | [企业校招](https://talent.didiglobal.com/campus/) · [企业社招](https://talent.didiglobal.com/social/) |
-| 小红书 | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%BA%A2%E4%B9%A6&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%BA%A2%E4%B9%A6&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/xiaohongshu.md) | [企业校招](https://job.xiaohongshu.com/campus/position) · [企业社招](https://job.xiaohongshu.com/social/position) |
-| DeepSeek | — | [7 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=DeepSeek&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/deepseek.md) | [企业官网](https://talent.deepseek.com/) |
+| 美团 | [32 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%BE%8E%E5%9B%A2&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [27 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%BE%8E%E5%9B%A2&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [20 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%BE%8E%E5%9B%A2&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/meituan.md) | [企业校招](https://zhaopin.meituan.com/longcatprogram) · [企业社招](https://zhaopin.meituan.com/web/position?highlightType=social) |
+| 百度 | [17 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [12 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/baidu.md) | [企业校招](https://talent.baidu.com/jobs/list?recruitType=GRADUATE) · [企业社招](https://talent.baidu.com/jobs/list?recruitType=SOCIAL) |
+| 华为 | — | [8 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%8D%8E%E4%B8%BA&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%8D%8E%E4%B8%BA&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/huawei.md) | [企业校招](https://career.huawei.com/cn/campus-recruitment-job-list) · [企业社招](https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html) |
+| 快手 | [16 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [14 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/kuaishou.md) | [企业校招](https://campus.kuaishou.cn/) · [企业社招](https://zhaopin.kuaishou.cn/recruit/e/#/official/index/) |
+| 小米 | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/xiaomi.md) | [企业校招](https://hr.xiaomi.com/website/campus.html) · [企业社招](https://career.mi.com/jobs) |
+| 拼多多 | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%BC%E5%A4%9A%E5%A4%9A&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | — | [查看 JD](companies/pdd.md) | [企业校招](https://careers.pddglobalhr.com/campus/grad) · [企业社招](https://careers.pddglobalhr.com/jobs) |
+| 滴滴 | — | [40 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%BB%B4%E6%BB%B4&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/didi.md) | [企业校招](https://talent.didiglobal.com/campus/) · [企业社招](https://talent.didiglobal.com/social/) |
+| 小红书 | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%BA%A2%E4%B9%A6&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%BA%A2%E4%B9%A6&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/xiaohongshu.md) | [企业校招](https://job.xiaohongshu.com/campus/position) · [企业社招](https://job.xiaohongshu.com/social/position) |
+
+<a id="model-employers"></a>
+
+## 大模型公司与研究机构
+
+表内统计各公开渠道的收录记录，招聘类型未注明的条目可在公司 JD 页查看。
+
+| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘入口 |
+|---|---:|---:|---:|---|---|
+| 智谱（Z.ai） | [6 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%99%BA%E8%B0%B1&job_type=%E6%A0%A1%E6%8B%9B#library) | [17 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%99%BA%E8%B0%B1&job_type=%E7%A4%BE%E6%8B%9B#library) | [12 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%99%BA%E8%B0%B1&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/zhipu.md) | [企业校招](https://app.mokahr.com/campus-recruitment/zphz/148984) · [企业社招](https://app.mokahr.com/social-recruitment/zphz/148983) |
+| 月之暗面（Kimi） | [5 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2&job_type=%E6%A0%A1%E6%8B%9B#library) | [20 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2&job_type=%E7%A4%BE%E6%8B%9B#library) | [9 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/moonshot.md) | [企业校招](https://careers.kimi.com/campus) · [企业社招](https://careers.kimi.com/) |
+| DeepSeek | — | [11 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=DeepSeek&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/deepseek.md) | [企业官网](https://talent.deepseek.com/) |
+| MiniMax（稀宇科技） | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=MiniMax&job_type=%E6%A0%A1%E6%8B%9B#library) | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=MiniMax&job_type=%E7%A4%BE%E6%8B%9B#library) | [6 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=MiniMax&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/minimax.md) | [企业官网](https://www.minimax.cn/careers) |
+| 北京智源人工智能研究院 | [13 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%99%BA%E6%BA%90%E7%A0%94%E7%A9%B6%E9%99%A2&job_type=%E6%A0%A1%E6%8B%9B#library) | [7 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%99%BA%E6%BA%90%E7%A0%94%E7%A9%B6%E9%99%A2&job_type=%E7%A4%BE%E6%8B%9B#library) | [7 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%99%BA%E6%BA%90%E7%A0%94%E7%A9%B6%E9%99%A2&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/baai.md) | [企业校招](https://app.mokahr.com/campus-recruitment/baai/42174) · [企业社招](https://app.mokahr.com/social-recruitment/baai/42173) |
+| 阶跃星辰（StepFun） | [13 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%B6%E8%B7%83%E6%98%9F%E8%BE%B0&job_type=%E6%A0%A1%E6%8B%9B#library) | — | [12 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%B6%E8%B7%83%E6%98%9F%E8%BE%B0&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/stepfun.md) | [校招入口](https://app.mokahr.com/campus-recruitment/step/94905) |
+| 面壁智能（ModelBest） | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%9D%A2%E5%A3%81%E6%99%BA%E8%83%BD&job_type=%E6%A0%A1%E6%8B%9B#library) | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%9D%A2%E5%A3%81%E6%99%BA%E8%83%BD&job_type=%E7%A4%BE%E6%8B%9B#library) | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%9D%A2%E5%A3%81%E6%99%BA%E8%83%BD&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/modelbest.md) | [企业校招](https://modelbest.jobs.feishu.cn/campus) · [企业社招](https://modelbest.jobs.feishu.cn/career) |
+| 百川智能 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%B7%9D%E6%99%BA%E8%83%BD&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/baichuan.md) | [企业校招](https://careers.baichuan-inc.com/) · [企业社招](https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin) |
+
+<a id="robotics-employers"></a>
+
+## 机器人与计算机视觉
+
+表内统计各公开渠道的收录记录，招聘类型未注明的条目可在公司 JD 页查看。
+
+| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘入口 |
+|---|---:|---:|---:|---|---|
+| 智元机器人（AGIBOT） | — | — | — | [查看 JD](companies/agibot.md) | [企业官网](https://agirobot.jobs.feishu.cn/campusrecruitment) |
+| 旷视科技（Megvii） | [3 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%97%B7%E8%A7%86%E7%A7%91%E6%8A%80&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/megvii.md) | [校招入口](https://www.nowcoder.com/careers/Megviicampus/38302) |
+| 商汤科技（SenseTime） | [10 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%95%86%E6%B1%A4%E7%A7%91%E6%8A%80&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/sensetime.md) | [企业校招](https://hr.sensetime.com/campus/?c=1) · [企业社招](https://hr-jobs.sensetime.com/exp/position/list) |
+
+<a id="telecom-finance-employers"></a>
+
+## 运营商与金融机构
+
+表内统计各公开渠道的收录记录，招聘类型未注明的条目可在公司 JD 页查看。
+
+| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘入口 |
+|---|---:|---:|---:|---|---|
+| 中国电信（含中电信人工智能科技） | [7 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E5%9B%BD%E7%94%B5%E4%BF%A1&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/china-telecom.md) | [企业官网](https://job.chinatelecom.com.cn/wt/TELE/web/index?brandCode=1) |
+| 中信银行 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E4%B8%AD%E4%BF%A1%E9%93%B6%E8%A1%8C&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/citic-bank.md) | [企业官网](https://job.citicbank.com/) |
+| 招商银行 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/cmb.md) | [企业官网](https://career.cmbchina.com/) |
+| 招银网络科技 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E9%93%B6%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80&job_type=%E6%A0%A1%E6%8B%9B#library) | — | — | [查看 JD](companies/cmb-network.md) | [企业官网](https://cmbntjob.cmbchina.com/) |
 
 <a id="global-employers"></a>
 
 ## 海外企业
 
-| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘官网 |
+| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘入口 |
 |---|---:|---:|---:|---|---|
-| Google（谷歌） | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Google&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [35 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Google&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Google&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/google.md) | [企业官网](https://www.google.com/about/careers/applications/jobs/results/?q=Machine+Learning) |
-| Microsoft（微软） | — | [16 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/microsoft.md) | [企业官网](https://apply.careers.microsoft.com/careers?query=Machine+Learning) |
-| Amazon（亚马逊） | — | [43 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [12 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/amazon.md) | [企业官网](https://www.amazon.jobs/content/en/job-categories/applied-science) |
-| NVIDIA（英伟达） | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) | [8 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/nvidia.md) | [企业官网](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite) |
-| Apple（苹果） | — | [19 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Apple&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Apple&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) | [查看 JD](companies/apple.md) | [企业官网](https://jobs.apple.com/en-us/search?team=machine-learning-and-ai-SFTWR-MCHLN) |
-| Salesforce | — | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Salesforce&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/salesforce.md) | [企业校招](https://careers.salesforce.com/en/university/) · [企业社招](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site) |
-| Grab | — | [15 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Grab&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/grab.md) | [企业官网](https://www.grab.careers/en/jobs/) |
-| OpenAI | — | [16 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=OpenAI&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/openai.md) | [企业官网](https://openai.com/careers/search/) |
-| Anthropic | — | [16 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Anthropic&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) | — | [查看 JD](companies/anthropic.md) | [企业官网](https://www.anthropic.com/careers/jobs) |
+| Google（谷歌） | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Google&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [35 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Google&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Google&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/google.md) | [企业官网](https://www.google.com/about/careers/applications/jobs/results/?q=Machine+Learning) |
+| Microsoft（微软） | — | [17 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [18 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/microsoft.md) | [企业官网](https://apply.careers.microsoft.com/careers?query=Machine+Learning) |
+| Amazon（亚马逊） | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [47 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [12 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/amazon.md) | [企业官网](https://www.amazon.jobs/content/en/job-categories/applied-science) |
+| NVIDIA（英伟达） | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [8 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [6 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/nvidia.md) | [企业官网](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite) |
+| Apple（苹果） | — | [20 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Apple&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Apple&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/apple.md) | [企业官网](https://jobs.apple.com/en-us/search?team=machine-learning-and-ai-SFTWR-MCHLN) |
+| Salesforce | — | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Salesforce&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/salesforce.md) | [企业校招](https://careers.salesforce.com/en/university/) · [企业社招](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site) |
+| Grab | — | [15 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Grab&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/grab.md) | [企业官网](https://www.grab.careers/en/jobs/) |
+| OpenAI | — | [16 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=OpenAI&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/openai.md) | [企业官网](https://openai.com/careers/search/) |
+| Anthropic | — | [16 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Anthropic&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | — | [查看 JD](companies/anthropic.md) | [企业官网](https://www.anthropic.com/careers/jobs) |
+| SAP（思爱普） | — | — | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=SAP&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) | [查看 JD](companies/sap.md) | [企业官网](https://jobs.sap.com/en/jobs/?location=Shanghai) |
+
+<a id="china-foreign-employers"></a>
+
+## 在华外企岗位
+
+列出官网 JD 中明确包含中国内地工作地点的岗位。
+
+### Microsoft（微软）（18）
+
+  - [Senior/Principal Researcher](companies/microsoft.md#job1231) · 社招 · 北京、上海
+  - [Research Intern for ML group in Time Series Direction](companies/microsoft.md#job1232) · 实习 · 北京、上海
+  - [Research Intern for LLM Reasoning](companies/microsoft.md#job1233) · 实习 · 北京
+  - [Research Intern for Machine Learning Group – Embodied AI research](companies/microsoft.md#job1234) · 实习 · 北京
+  - [Research Intern for Artificial Intelligence Reasoning Group](companies/microsoft.md#job1235) · 实习 · 北京
+  - [Research Intern for Machine Learning Group – Discriminative Foundation Models and Efficient Decision-Making](companies/microsoft.md#job1236) · 实习 · 北京
+  - [Research Intern for Media Computing Group (Audio)](companies/microsoft.md#job1237) · 实习 · 北京
+  - [Research Intern for Systems Research Group](companies/microsoft.md#job1238) · 实习 · 北京、上海
+  - [Research Intern for AI/ML Group (Shanghai)](companies/microsoft.md#job1239) · 实习 · 上海
+  - [Research Intern for Social Computing Group](companies/microsoft.md#job1240) · 实习 · 北京
+  - [Research Intern for Artificial Intelligence Reasoning Group](companies/microsoft.md#job1241) · 实习 · 北京、上海
+  - [Research Intern for 2D/3D generation](companies/microsoft.md#job1242) · 实习 · 北京
+  - [Research Intern for Media Computing Group (Vision)](companies/microsoft.md#job1243) · 实习 · 北京
+  - [Research Intern for Media Computing Group (Video)](companies/microsoft.md#job1244) · 实习 · 北京
+  - [Research Intern for Visual Computing Group – Microsoft Research](companies/microsoft.md#job1245) · 实习 · 北京
+  - [Research Intern for Intelligent Multimedia Group](companies/microsoft.md#job1246) · 实习 · 北京、上海
+  - [Research Intern for Visual Computing Group](companies/microsoft.md#job1247) · 实习 · 北京、上海
+  - [Research Intern for Multimodal Computing Group](companies/microsoft.md#job1248) · 实习 · 北京、上海
+
+### Amazon（亚马逊）（6）
+
+  - [Applied Scientist (2026-27 Campus, International Technology Team), Shanghai](companies/amazon.md#job1249) · 校招 · 上海
+  - [Data Scientist, AI Program, CNGS NBS (New Business & New Seller) Amazon Business](companies/amazon.md#job1250) · 社招 · 上海
+  - [Applied Scientist (2026-27 Campus, International Technology Team), Beijing](companies/amazon.md#job1251) · 校招 · 北京
+  - [Data Engineer - AI/ML Products, AOP (Analytics Operations and Programs)](companies/amazon.md#job1252) · 社招 · 北京
+  - [Sr Data Scientist, Seller Economics, WW Global Selling - PMO](companies/amazon.md#job1253) · 社招 · 上海
+  - [Applied Scientist, OpenSearch Shanghai](companies/amazon.md#job1254) · 社招 · 上海
+
+### NVIDIA（英伟达）（4）
+
+  - [Deep Learning Model and System Optimization Engineering Intern – 2027](companies/nvidia.md#job978) · 实习 · 上海、北京
+  - [AI Computing Development Engineer, TensorRT and TensorRT-LLM AIGV](companies/nvidia.md#job983) · 社招 · 上海、北京、深圳
+  - [AI Computing Development Intern, TensorRT-LLM - 2027](companies/nvidia.md#job1255) · 实习 · 上海
+  - [Software Engineer Intern, AI and DL Kernel Libraries - 2027](companies/nvidia.md#job1256) · 实习 · 上海
+
+### Apple（苹果）（1）
+
+  - [Manager, Machine Learning Engineer](companies/apple.md#job1257) · 社招 · 上海
+
+### SAP（思爱普）（1）
+
+  - [SAP China iXp Intern - AI Application Developer Intern - Open Source Software Compliance - Shanghai](companies/sap.md#job1258) · 实习 · 上海
+
 
 ## 按方向
 
-- **预训练与数据**（41）
+- **预训练与数据**（64）
   - [华为 · 算法工程师（大模型预训练与后训练，2027 届）](companies/huawei.md#job025)
   - [百度 · 大模型算法工程师（2027 AIDU）](companies/baidu.md#job029)
   - [百度 · 大模型算法工程师（文心基座研发）](companies/baidu.md#job030)
@@ -100,7 +194,30 @@
   - [Apple（苹果） · Machine Learning Engineer](companies/apple.md#job997)
   - [Anthropic · Research Engineer / Scientist, Pre-training](companies/anthropic.md#job1044)
   - [Anthropic · Research Engineer, Pretraining Scaling - London](companies/anthropic.md#job1052)
-- **后训练与强化学习**（87）
+  - [智谱（Z.ai） · 27届校招-预训练数据算法工程师(基座模型方向)](companies/zhipu.md#job1057)
+  - [智谱（Z.ai） · 预训练数据算法工程师(基座模型)](companies/zhipu.md#job1063)
+  - [智谱（Z.ai） · 具身智能预训练算法实习生](companies/zhipu.md#job1068)
+  - [智谱（Z.ai） · 模型代码预训练算法工程师](companies/zhipu.md#job1074)
+  - [智谱（Z.ai） · 预训练算法工程师](companies/zhipu.md#job1083)
+  - [月之暗面（Kimi） · 【校招】大模型算法研究员/工程师(预训练)](companies/moonshot.md#job1092)
+  - [月之暗面（Kimi） · 大模型算法工程师(数据方向)](companies/moonshot.md#job1097)
+  - [月之暗面（Kimi） · 大语言模型架构实习生(预训练方向)](companies/moonshot.md#job1103)
+  - [月之暗面（Kimi） · 大模型算法研究员/工程师(预训练)](companies/moonshot.md#job1108)
+  - [月之暗面（Kimi） · 大语言模型架构研究员(预训练方向)](companies/moonshot.md#job1114)
+  - [月之暗面（Kimi） · VLM预训练研究员-视频方向](companies/moonshot.md#job1118)
+  - [DeepSeek（深度求索） · 预训练数据工程师](companies/deepseek.md#job1126)
+  - [阶跃星辰（StepFun） · 27届Stepstar-大语言模型pre-train 数据算法工程师](companies/stepfun.md#job1169)
+  - [阶跃星辰（StepFun） · 实习-LLM 预训练数据算法工程师](companies/stepfun.md#job1176)
+  - [阶跃星辰（StepFun） · 27届Stepstar-大语言模型mid-train 算法研究员](companies/stepfun.md#job1181)
+  - [阶跃星辰（StepFun） · Stepstar实习-LLM 预训练数据算法工程师](companies/stepfun.md#job1187)
+  - [面壁智能（ModelBest） · 语言大模型算法研究员](companies/modelbest.md#job1190)
+  - [面壁智能（ModelBest） · 语言大模型算法实习生](companies/modelbest.md#job1193)
+  - [百川智能 · 〖源点顶尖人才计划〗大模型算法工程师](companies/baichuan.md#job1194)
+  - [智元机器人（AGIBOT） · 优才-具身智能算法研究员(预训练方向)-觅蜂子公司](companies/agibot.md#job1198)
+  - [中电信人工智能科技（中国电信） · 语义大模型算法工程师](companies/china-telecom.md#job1224)
+  - [Microsoft（微软） · Research Intern for Machine Learning Group – Discriminative Foundation Models and Efficient Decision-Making](companies/microsoft.md#job1236)
+  - [Microsoft（微软） · Research Intern for Artificial Intelligence Reasoning Group](companies/microsoft.md#job1241)
+- **后训练与强化学习**（115）
   - [上海人工智能实验室 · 大模型强化学习青年研究员](#job001)
   - [上海人工智能实验室 · 大模型及智能体后训练工程师 / 青年研究员](#job002)
   - [阿里巴巴集团 · 算法工程师（大模型后训练）](companies/alibaba.md#job024)
@@ -188,7 +305,35 @@
   - [OpenAI · Agent Post-Training, Computer Use Research](companies/openai.md#job1038)
   - [Anthropic · Research Engineer, Machine Learning (Reinforcement Learning)](companies/anthropic.md#job1043)
   - [Anthropic · Research Engineer, Machine Learning (Reinforcement Learning)](companies/anthropic.md#job1051)
-- **LLM Infra 与推理**（150）
+  - [智谱（Z.ai） · Trading Agent 后训练算法工程师](companies/zhipu.md#job1056)
+  - [智谱（Z.ai） · 大模型后训练算法工程师(Coding Agent 方向)](companies/zhipu.md#job1062)
+  - [智谱（Z.ai） · 具身智能后训练算法实习生](companies/zhipu.md#job1067)
+  - [智谱（Z.ai） · Trading Agent 后训练算法工程师](companies/zhipu.md#job1073)
+  - [智谱（Z.ai） · 大模型算法实习生(安全/云服务方向)](companies/zhipu.md#job1077)
+  - [智谱（Z.ai） · 后训练算法工程师](companies/zhipu.md#job1082)
+  - [智谱（Z.ai） · 模型代码后训练算法工程师](companies/zhipu.md#job1088)
+  - [月之暗面（Kimi） · 强化学习-大模型算法工程师/研究员(RL方向 校招)](companies/moonshot.md#job1091)
+  - [月之暗面（Kimi） · 强化学习-大模型研发工程师/研究员(AI Engineer/Researcher - RL)](companies/moonshot.md#job1096)
+  - [月之暗面（Kimi） · AI Agent Eval实习生](companies/moonshot.md#job1102)
+  - [月之暗面（Kimi） · 大模型Eval评测(工程方向/产品方向)](companies/moonshot.md#job1107)
+  - [月之暗面（Kimi） · 模型后训练Webdev-3D/Games Intern](companies/moonshot.md#job1111)
+  - [月之暗面（Kimi） · 大模型强化学习研发实习生(Intern - RL)](companies/moonshot.md#job1115)
+  - [月之暗面（Kimi） · Kimi Agent Eval 专家招募(金融/审计方向)](companies/moonshot.md#job1119)
+  - [MiniMax（稀宇科技） · 大模型效率研究员-模型结构方向](companies/minimax.md#job1130)
+  - [MiniMax（稀宇科技） · 大模型算法工程师-2028届实习](companies/minimax.md#job1133)
+  - [北京智源人工智能研究院 · 大模型算法实习生(精度对齐方向)](companies/baai.md#job1147)
+  - [阶跃星辰（StepFun） · 27届Stepstar-LLM post train 算法研究员](companies/stepfun.md#job1168)
+  - [阶跃星辰（StepFun） · 实习-大模型后训练系统工程师](companies/stepfun.md#job1175)
+  - [阶跃星辰（StepFun） · 27届Stepstar-大模型后训练系统工程师](companies/stepfun.md#job1180)
+  - [阶跃星辰（StepFun） · 大模型post train算法研究员](companies/stepfun.md#job1186)
+  - [面壁智能（ModelBest） · 大模型评测算法架构师](companies/modelbest.md#job1191)
+  - [智元机器人（AGIBOT） · 具身世界模型算法工程师(后训练方向)-Genie业务部](companies/agibot.md#job1197)
+  - [智元机器人（AGIBOT） · 优才-具身世界模型算法研究员(后训练方向)-Genie业务部](companies/agibot.md#job1200)
+  - [商汤科技（SenseTime） · 〖27届校招〗大模型评测算法工程师](companies/sensetime.md#job1211)
+  - [中电信人工智能科技（中国电信） · 语义大模型强化学习算法工程师](companies/china-telecom.md#job1223)
+  - [Microsoft（微软） · Research Intern for Artificial Intelligence Reasoning Group](companies/microsoft.md#job1235)
+  - [Microsoft（微软） · Research Intern for Social Computing Group](companies/microsoft.md#job1240)
+- **LLM Infra 与推理**（197）
   - [快手 · 大模型推理 / 训练引擎研发工程师](companies/kuaishou.md#job005)
   - [滴普科技 · 大模型开发工程师（Infra 方向）](#job006)
   - [百度 · 大模型 Infra 工程师（2027 AIDU）](companies/baidu.md#job032)
@@ -339,7 +484,54 @@
   - [OpenAI · Training: ML Framework Engineer](companies/openai.md#job1036)
   - [Anthropic · Staff+ Software Engineer, ML Inference Path](companies/anthropic.md#job1041)
   - [Anthropic · Research Engineer / Performance Engineer, RL Distributed Systems](companies/anthropic.md#job1049)
-- **Agent 与 RAG**（270）
+  - [智谱（Z.ai） · 机器学习平台研发工程师](companies/zhipu.md#job1060)
+  - [智谱（Z.ai） · GLM-开源算法工程师](companies/zhipu.md#job1065)
+  - [智谱（Z.ai） · GLM-强化学习训练框架工程师(RL)](companies/zhipu.md#job1072)
+  - [智谱（Z.ai） · Agent Infra 运维开发工程师](companies/zhipu.md#job1081)
+  - [智谱（Z.ai） · Agent Infra 开发工程师](companies/zhipu.md#job1087)
+  - [月之暗面（Kimi） · 【校招】LLM推理优化工程师](companies/moonshot.md#job1090)
+  - [月之暗面（Kimi） · 机器学习平台工程师(Kubernetes / GPU 基础设施方向)](companies/moonshot.md#job1095)
+  - [月之暗面（Kimi） · AI Infra实习生](companies/moonshot.md#job1101)
+  - [月之暗面（Kimi） · 【校招】训练框架工程师](companies/moonshot.md#job1104)
+  - [月之暗面（Kimi） · AI Infra SRE 工程师](companies/moonshot.md#job1106)
+  - [月之暗面（Kimi） · 语言大模型架构/优化/scaling实习生](companies/moonshot.md#job1110)
+  - [月之暗面（Kimi） · AI infra 推理工程师](companies/moonshot.md#job1113)
+  - [月之暗面（Kimi） · LLM推理优化工程师](companies/moonshot.md#job1117)
+  - [月之暗面（Kimi） · Infra 系统工程师 - 训练平台](companies/moonshot.md#job1121)
+  - [月之暗面（Kimi） · Infra 系统工程师 - 推理系统](companies/moonshot.md#job1122)
+  - [月之暗面（Kimi） · 训练框架工程师](companies/moonshot.md#job1123)
+  - [DeepSeek（深度求索） · AI 平台运维工程师](companies/deepseek.md#job1125)
+  - [MiniMax（稀宇科技） · 大模型推理研发实习生](companies/minimax.md#job1132)
+  - [MiniMax（稀宇科技） · 大模型工程师-RL框架&RL推理-日常实习](companies/minimax.md#job1135)
+  - [MiniMax（稀宇科技） · Ai infra 实习生](companies/minimax.md#job1136)
+  - [北京智源人工智能研究院 · 研究员(AI系统与基础模型)](companies/baai.md#job1139)
+  - [北京智源人工智能研究院 · 大模型训练优化开发工程师](companies/baai.md#job1142)
+  - [北京智源人工智能研究院 · 研究实习生(大模型算子库开发)](companies/baai.md#job1145)
+  - [北京智源人工智能研究院 · 工程师(AI编译器)](companies/baai.md#job1149)
+  - [北京智源人工智能研究院 · 大模型推理优化工程师](companies/baai.md#job1152)
+  - [北京智源人工智能研究院 · 研究实习生(AI编译器方向)](companies/baai.md#job1154)
+  - [北京智源人工智能研究院 · 工程师(AI算子开发)](companies/baai.md#job1157)
+  - [北京智源人工智能研究院 · AI编译器工程师/研究员](companies/baai.md#job1159)
+  - [北京智源人工智能研究院 · AI编译器研究实习生](companies/baai.md#job1161)
+  - [阶跃星辰（StepFun） · 27届Stepstar-大模型训练框架系统工程师](companies/stepfun.md#job1166)
+  - [阶跃星辰（StepFun） · Stepstar实习-大模型训练框架系统工程师](companies/stepfun.md#job1173)
+  - [阶跃星辰（StepFun） · 27届-端侧大模型部署优化工程师](companies/stepfun.md#job1179)
+  - [阶跃星辰（StepFun） · 实习-大模型推理优化工程师](companies/stepfun.md#job1184)
+  - [智元机器人（AGIBOT） · 优才-具身智能算法工程师(后训练 Infra 方向)-觅蜂子公司](companies/agibot.md#job1195)
+  - [商汤科技（SenseTime） · 〖27届校招〗大模型训练系统研究员](companies/sensetime.md#job1209)
+  - [商汤科技（SenseTime） · 〖27届校招〗大模型推理系统研究员](companies/sensetime.md#job1213)
+  - [商汤科技（SenseTime） · 〖27届校招〗模型推理平台开发工程师(后端)](companies/sensetime.md#job1215)
+  - [商汤科技（SenseTime） · 〖27届校招〗大模型推理优化工程师-大装置](companies/sensetime.md#job1216)
+  - [商汤科技（SenseTime） · 〖27届校招〗大模型训练推理研发工程师-大装置](companies/sensetime.md#job1217)
+  - [旷视科技（Megvii） · 高性能计算工程师](companies/megvii.md#job1218)
+  - [旷视科技（Megvii） · 深度学习研发工程师](companies/megvii.md#job1220)
+  - [中电信人工智能科技（中国电信） · 大模型推理/训练优化工程师](companies/china-telecom.md#job1221)
+  - [Microsoft（微软） · Research Intern for LLM Reasoning](companies/microsoft.md#job1233)
+  - [Microsoft（微软） · Research Intern for Systems Research Group](companies/microsoft.md#job1238)
+  - [NVIDIA（英伟达） · AI Computing Development Intern, TensorRT-LLM - 2027](companies/nvidia.md#job1255)
+  - [NVIDIA（英伟达） · Software Engineer Intern, AI and DL Kernel Libraries - 2027](companies/nvidia.md#job1256)
+  - [Apple（苹果） · Manager, Machine Learning Engineer](companies/apple.md#job1257)
+- **Agent 与 RAG**（305）
   - [美团 · 大模型算法工程师（长程 Agent / 多模态 / RL）](companies/meituan.md#job004)
   - [公司未披露 · 大模型算法工程师（视频剪辑 Agent）](#job021)
   - [百度 · 多模态算法工程师（教育智能体）](companies/baidu.md#job036)
@@ -610,7 +802,42 @@
   - [Anthropic · Staff Software Engineer, GTM AI Engineering](companies/anthropic.md#job1039)
   - [Anthropic · Applied AI Engineer, Startups (Life Sciences)](companies/anthropic.md#job1047)
   - [Anthropic · ML/Research Engineer, Safeguards](companies/anthropic.md#job1054)
-- **搜索与检索**（76）
+  - [智谱（Z.ai） · 27届校招 GLM-Code Agent算法工程师](companies/zhipu.md#job1055)
+  - [智谱（Z.ai） · 大模型算法工程师(AI Coding / 游戏方向)](companies/zhipu.md#job1058)
+  - [智谱（Z.ai） · 大模型技术实习生-深圳](companies/zhipu.md#job1064)
+  - [智谱（Z.ai） · 27届校招-大模型算法工程师(Agent方向)](companies/zhipu.md#job1070)
+  - [智谱（Z.ai） · 大模型应用算法工程师](companies/zhipu.md#job1071)
+  - [智谱（Z.ai） · Code Agent for Trading 研究实习生](companies/zhipu.md#job1075)
+  - [智谱（Z.ai） · 【27届校招】GLM算法工程师(评测方向)](companies/zhipu.md#job1079)
+  - [智谱（Z.ai） · GLM大模型算法研究员(推理/规划/Agent方向)](companies/zhipu.md#job1080)
+  - [智谱（Z.ai） · 27届GLM算法研究员(推理/规划/Agent方向)](companies/zhipu.md#job1085)
+  - [智谱（Z.ai） · GLM-Code Agent算法评测工程师](companies/zhipu.md#job1086)
+  - [月之暗面（Kimi） · Coding Agent 研发工程师|Kimi Code](companies/moonshot.md#job1094)
+  - [月之暗面（Kimi） · Coding Agent 研发实习生|Kimi Code](companies/moonshot.md#job1100)
+  - [月之暗面（Kimi） · Kimi Agent 全栈算法工程师](companies/moonshot.md#job1105)
+  - [月之暗面（Kimi） · Agent Product Builder & Strategy Intern](companies/moonshot.md#job1109)
+  - [月之暗面（Kimi） · 资深Agent研发工程师](companies/moonshot.md#job1112)
+  - [月之暗面（Kimi） · Vertical Domain Owner, Kimi Agent(垂直领域产品业务负责人)](companies/moonshot.md#job1116)
+  - [月之暗面（Kimi） · 资深后端研发工程师(Agent 业务场景方向)](companies/moonshot.md#job1120)
+  - [DeepSeek（深度求索） · 大模型全栈工程师](companies/deepseek.md#job1124)
+  - [DeepSeek（深度求索） · Agent 弹性计算研发工程师](companies/deepseek.md#job1127)
+  - [MiniMax（稀宇科技） · 大模型算法工程师-Midtrain Agentic数据方向-日常实习](companies/minimax.md#job1131)
+  - [北京智源人工智能研究院 · 研究员(大模型智能体)](companies/baai.md#job1137)
+  - [北京智源人工智能研究院 · 研究员(智能体-评测)](companies/baai.md#job1148)
+  - [北京智源人工智能研究院 · 工程师(Kernel Agent平台研发)](companies/baai.md#job1156)
+  - [北京智源人工智能研究院 · 研究员(脑科学基础模型)](companies/baai.md#job1163)
+  - [阶跃星辰（StepFun） · 27届-Agent 开发工程师(企业信息化方向)](companies/stepfun.md#job1164)
+  - [阶跃星辰（StepFun） · 大模型 AI Coding实习生](companies/stepfun.md#job1172)
+  - [阶跃星辰（StepFun） · 27届-Agent研发工程师](companies/stepfun.md#job1178)
+  - [阶跃星辰（StepFun） · 实习-code Agent 算法工程师](companies/stepfun.md#job1183)
+  - [面壁智能（ModelBest） · 大模型算法工程师 - 智能体方向](companies/modelbest.md#job1189)
+  - [面壁智能（ModelBest） · 大模型算法实习生-RAG/Agent方向](companies/modelbest.md#job1192)
+  - [商汤科技（SenseTime） · 〖27届校招〗大模型 Agent 算法研究员-大装置](companies/sensetime.md#job1208)
+  - [商汤科技（SenseTime） · 〖27届校招〗Agent Harness 研究员/算法工程师](companies/sensetime.md#job1212)
+  - [商汤科技（SenseTime） · 〖27届校招〗大模型Agentic算法工程师](companies/sensetime.md#job1214)
+  - [Microsoft（微软） · Research Intern for ML group in Time Series Direction](companies/microsoft.md#job1232)
+  - [SAP（思爱普） · SAP China iXp Intern - AI Application Developer Intern - Open Source Software Compliance - Shanghai](companies/sap.md#job1258)
+- **搜索与检索**（79）
   - [贝壳找房 · 大模型算法工程师（2027 届秋招）](#job010)
   - [小红书 · 社区搜索算法工程师（2027 校招）](companies/xiaohongshu.md#job016)
   - [百度 · 搜索算法工程师（地图 AI 搜索）](companies/baidu.md#job034)
@@ -687,6 +914,9 @@
   - [Grab · Principal Data Scientist (User Understanding Platformisation)](companies/grab.md#job1019)
   - [OpenAI · Software Engineer, Search Infrastructure](companies/openai.md#job1031)
   - [Anthropic · Staff+ Software Engineer, Account Abuse (Machine Learning)](companies/anthropic.md#job1046)
+  - [月之暗面（Kimi） · AI Search Builder](companies/moonshot.md#job1099)
+  - [Amazon（亚马逊） · Applied Scientist (2026-27 Campus, International Technology Team), Shanghai](companies/amazon.md#job1249)
+  - [Amazon（亚马逊） · Applied Scientist (2026-27 Campus, International Technology Team), Beijing](companies/amazon.md#job1251)
 - **广告算法**（45）
   - [快手 · 广告大模型算法工程师（快 Star）](companies/kuaishou.md#job007)
   - [小米集团 · 广告算法工程师](companies/xiaomi.md#job011)
@@ -733,7 +963,7 @@
   - [Grab · Data Scientist, Ads and Demand Optimization (Contract)](companies/grab.md#job1008)
   - [OpenAI · Software Engineer, Monetization ML Infrastructure](companies/openai.md#job1023)
   - [OpenAI · Software Engineer, Shop/Feed Ads](companies/openai.md#job1033)
-- **推荐算法**（53）
+- **推荐算法**（54）
   - [字节跳动 · 国际电商推荐大模型算法工程师](companies/bytedance.md#job012)
   - [小红书 · 全域推荐算法工程师（2027 校招）](companies/xiaohongshu.md#job017)
   - [腾讯 · 微信小游戏大模型推荐算法工程师（商业化）](companies/tencent.md#job051)
@@ -787,7 +1017,8 @@
   - [Amazon（亚马逊） · Senior Applied Scientist, Selling Partner Selection Success](companies/amazon.md#job969)
   - [Grab · Senior Data Scientist (Consumer Experience)](companies/grab.md#job1012)
   - [OpenAI · Applied Data Scientist, Personalization & Machine Learning](companies/openai.md#job1029)
-- **用户增长与营销**（43）
+  - [MiniMax（稀宇科技） · 推荐算法实习生-talkie星野](companies/minimax.md#job1134)
+- **用户增长与营销**（47）
   - [小红书 · 电商算法工程师（2027 校招）](companies/xiaohongshu.md#job015)
   - [字节跳动 · 大模型应用算法工程师（Commercial AI）](companies/bytedance.md#job023)
   - [腾讯 · 腾讯营销生成式推荐算法专家](companies/tencent.md#job052)
@@ -831,7 +1062,11 @@
   - [OpenAI · Applied AI Architect (Brazil)](companies/openai.md#job1035)
   - [Anthropic · Applied AI Demo Engineer](companies/anthropic.md#job1040)
   - [Anthropic · Applied AI Engineer, Startups](companies/anthropic.md#job1048)
-- **风控与内容安全**（76）
+  - [Amazon（亚马逊） · Data Scientist, AI Program, CNGS NBS (New Business & New Seller) Amazon Business](companies/amazon.md#job1250)
+  - [Amazon（亚马逊） · Data Engineer - AI/ML Products, AOP (Analytics Operations and Programs)](companies/amazon.md#job1252)
+  - [Amazon（亚马逊） · Sr Data Scientist, Seller Economics, WW Global Selling - PMO](companies/amazon.md#job1253)
+  - [Amazon（亚马逊） · Applied Scientist, OpenSearch Shanghai](companies/amazon.md#job1254)
+- **风控与内容安全**（86）
   - [蚂蚁集团 · 机器学习算法（搜广推与风控）](#job018)
   - [字节跳动 · Agent / 强化学习算法工程师（商业化内容理解）](companies/bytedance.md#job020)
   - [蚂蚁集团 · 风控反欺诈 / 风控算法专家（多模态）](#job022)
@@ -908,7 +1143,17 @@
   - [OpenAI · Applied AI Architect, Cyber](companies/openai.md#job1030)
   - [Anthropic · Research Engineer, Cybersecurity RL (Reinforcement Learning)](companies/anthropic.md#job1045)
   - [Anthropic · Applied AI Architect, Cyber Specialist](companies/anthropic.md#job1053)
-- **语音与实时交互**（53）
+  - [智谱（Z.ai） · 大模型安全能力研究员(实习)](companies/zhipu.md#job1069)
+  - [智谱（Z.ai） · 大模型安全能力研究员(实习)](companies/zhipu.md#job1078)
+  - [月之暗面（Kimi） · 大模型安全研究与攻防能力研究员(实习&校招)](companies/moonshot.md#job1093)
+  - [月之暗面（Kimi） · 大模型安全研究与攻防能力专家](companies/moonshot.md#job1098)
+  - [北京智源人工智能研究院 · 研究员(AI安全方向-具身智能)](companies/baai.md#job1141)
+  - [北京智源人工智能研究院 · 大模型安全算法研究员](companies/baai.md#job1144)
+  - [北京智源人工智能研究院 · 研究员(AI安全方向-网络对抗)](companies/baai.md#job1151)
+  - [阶跃星辰（StepFun） · AI 安全研究员 / Research Scientist, AI Safety](companies/stepfun.md#job1170)
+  - [阶跃星辰（StepFun） · 27届-端侧AI安全算法工程师](companies/stepfun.md#job1182)
+  - [招银网络科技 · 算法工程师（2027 届校招）](companies/cmb-network.md#job1230)
+- **语音与实时交互**（59）
   - [思必驰 · 大模型算法工程师（2027 届）](#job008)
   - [同花顺 · 算法实习生（对话大模型与语音客服 Agent）](#job027)
   - [百度 · 语音大模型算法工程师（2027 AIDU）](companies/baidu.md#job031)
@@ -962,6 +1207,12 @@
   - [Apple（苹果） · Machine Learning Researcher - Apple Services Engineering - Generative Audio](companies/apple.md#job993)
   - [Apple（苹果） · Machine Learning Audio R & D Engineer](companies/apple.md#job999)
   - [Apple（苹果） · Machine Learning Engineer, Siri Speech](companies/apple.md#job1002)
+  - [MiniMax（稀宇科技） · 声音生成算法工程师-2027届](companies/minimax.md#job1129)
+  - [阶跃星辰（StepFun） · 27届Stepstar-语音大模型算法研究员/工程师](companies/stepfun.md#job1171)
+  - [阶跃星辰（StepFun） · 实习-语音大模型评测实习生](companies/stepfun.md#job1177)
+  - [阶跃星辰（StepFun） · 实习-语音大模型算法研究员](companies/stepfun.md#job1188)
+  - [中电信人工智能科技（中国电信） · 语音大模型算法工程师](companies/china-telecom.md#job1225)
+  - [Microsoft（微软） · Research Intern for Media Computing Group (Audio)](companies/microsoft.md#job1237)
 - **客服与对话系统**（13）
   - [金山云 · 大模型算法工程师（实习）](#job009)
   - [字节跳动 · 大模型算法工程师（业务后训练）](companies/bytedance.md#job019)
@@ -976,7 +1227,7 @@
   - [滴滴 · 高级 Java 研发工程师](companies/didi.md#job837)
   - [Amazon（亚马逊） · Software Development Engineer, Amazon Customer Service](companies/amazon.md#job927)
   - [OpenAI · Partner Applied AI Engineer - LATAM](companies/openai.md#job1032)
-- **多模态与生成**（147）
+- **多模态与生成**（188）
   - [上海人工智能实验室 · 科学多模态大模型青年研究员 / 算法工程师](#job003)
   - [字节跳动 · 国际电商多模态大模型算法实习（知识图谱）](companies/bytedance.md#job013)
   - [小红书 · 多模态基础模型算法工程师（2027 校招）](companies/xiaohongshu.md#job014)
@@ -1124,10 +1375,58 @@
   - [OpenAI · Mechanical Engineer, PCBA Test Infrastructure, Robotics](companies/openai.md#job1037)
   - [Anthropic · Manager of Applied AI Architecture, Startups](companies/anthropic.md#job1042)
   - [Anthropic · Applied AI Engineer, Startups (Physical AI)](companies/anthropic.md#job1050)
+  - [智谱（Z.ai） · GLM-Image算法研究员/工程师](companies/zhipu.md#job1061)
+  - [智谱（Z.ai） · GLM 基模具身智能算法实习生](companies/zhipu.md#job1066)
+  - [智谱（Z.ai） · 多模态数据算法实习生](companies/zhipu.md#job1076)
+  - [智谱（Z.ai） · 27届实习-多模态算法实习生](companies/zhipu.md#job1084)
+  - [智谱（Z.ai） · 27届GLM-Image算法实习生/工程师](companies/zhipu.md#job1089)
+  - [MiniMax（稀宇科技） · 大模型算法工程师-应届生-TOP Talent](companies/minimax.md#job1128)
+  - [北京智源人工智能研究院 · 研究员(具身世界模型)](companies/baai.md#job1140)
+  - [北京智源人工智能研究院 · 具身智能算法工程师/研究员(VLA&运动控制方向)](companies/baai.md#job1143)
+  - [北京智源人工智能研究院 · 研究员(具身大模型算法)(预入职实习岗位)](companies/baai.md#job1146)
+  - [北京智源人工智能研究院 · 研究员(世界模型-评测)](companies/baai.md#job1150)
+  - [北京智源人工智能研究院 · 大模型领域研究员(PI)](companies/baai.md#job1153)
+  - [北京智源人工智能研究院 · 具身智能算法研究实习生](companies/baai.md#job1155)
+  - [北京智源人工智能研究院 · 生成式图像补全与缺失数据重建算法研究](companies/baai.md#job1158)
+  - [北京智源人工智能研究院 · 开源生态运营专家(具身智能与世界模型)](companies/baai.md#job1160)
+  - [北京智源人工智能研究院 · 冷冻电镜生成式算法研究实习生](companies/baai.md#job1162)
+  - [阶跃星辰（StepFun） · 27届-多模态应用算法工程师](companies/stepfun.md#job1167)
+  - [阶跃星辰（StepFun） · 实习-通用多模态Agent算法研究员](companies/stepfun.md#job1174)
+  - [阶跃星辰（StepFun） · 多模态大模型数据工程实习生](companies/stepfun.md#job1185)
+  - [智元机器人（AGIBOT） · 具身算法工程师-具身应用工程中心](companies/agibot.md#job1196)
+  - [智元机器人（AGIBOT） · 具身算法工程师(VLA+RL)-通用业务部](companies/agibot.md#job1199)
+  - [智元机器人（AGIBOT） · 具身导航算法工程师-灵犀业务部](companies/agibot.md#job1201)
+  - [智元机器人（AGIBOT） · 具身大模型AI算法工程师](companies/agibot.md#job1202)
+  - [智元机器人（AGIBOT） · 具身大模型AI Infra工程师-具身研究中心](companies/agibot.md#job1203)
+  - [智元机器人（AGIBOT） · 具身 Agent 算法研究员](companies/agibot.md#job1204)
+  - [智元机器人（AGIBOT） · 优才-具身算法研究员](companies/agibot.md#job1205)
+  - [智元机器人（AGIBOT） · AI算法工程师](companies/agibot.md#job1206)
+  - [智元机器人（AGIBOT） · 优才-具身Agent技术开发算法工程师-通用业务部](companies/agibot.md#job1207)
+  - [商汤科技（SenseTime） · 〖27届校招〗多模态基模型研究员](companies/sensetime.md#job1210)
+  - [旷视科技（Megvii） · 算法研究员](companies/megvii.md#job1219)
+  - [中电信人工智能科技（中国电信） · 多模态理解算法工程师](companies/china-telecom.md#job1222)
+  - [中电信人工智能科技（中国电信） · 多模态生成大模型算法工程师](companies/china-telecom.md#job1226)
+  - [中电信人工智能科技（中国电信） · 视觉算法工程师](companies/china-telecom.md#job1227)
+  - [Microsoft（微软） · Research Intern for Machine Learning Group – Embodied AI research](companies/microsoft.md#job1234)
+  - [Microsoft（微软） · Research Intern for AI/ML Group (Shanghai)](companies/microsoft.md#job1239)
+  - [Microsoft（微软） · Research Intern for 2D/3D generation](companies/microsoft.md#job1242)
+  - [Microsoft（微软） · Research Intern for Media Computing Group (Vision)](companies/microsoft.md#job1243)
+  - [Microsoft（微软） · Research Intern for Media Computing Group (Video)](companies/microsoft.md#job1244)
+  - [Microsoft（微软） · Research Intern for Visual Computing Group – Microsoft Research](companies/microsoft.md#job1245)
+  - [Microsoft（微软） · Research Intern for Intelligent Multimedia Group](companies/microsoft.md#job1246)
+  - [Microsoft（微软） · Research Intern for Visual Computing Group](companies/microsoft.md#job1247)
+  - [Microsoft（微软） · Research Intern for Multimodal Computing Group](companies/microsoft.md#job1248)
+- **应用机器学习**（6）
+  - [智谱（Z.ai） · 算法工程师](companies/zhipu.md#job1059)
+  - [北京智源人工智能研究院 · 研究员(Scientist AI)](companies/baai.md#job1138)
+  - [阶跃星辰（StepFun） · 27届Stepstar-端侧大模型量化算法工程师](companies/stepfun.md#job1165)
+  - [中信银行 · 大数据类（人工智能研发方向，2027 届秋招）](companies/citic-bank.md#job1228)
+  - [招商银行 · 职能类岗位（智能科学研发方向）](companies/cmb.md#job1229)
+  - [Microsoft（微软） · Senior/Principal Researcher](companies/microsoft.md#job1231)
 
 ## 按公司
 
-- **Amazon（亚马逊）**（55） [查看公司 JD](companies/amazon.md)
+- **Amazon（亚马逊）**（61） [查看公司 JD](companies/amazon.md)
   - <a id="job916"></a>[JOB916](companies/amazon.md#job916)
   - <a id="job917"></a>[JOB917](companies/amazon.md#job917)
   - <a id="job918"></a>[JOB918](companies/amazon.md#job918)
@@ -1183,6 +1482,12 @@
   - <a id="job968"></a>[JOB968](companies/amazon.md#job968)
   - <a id="job969"></a>[JOB969](companies/amazon.md#job969)
   - <a id="job970"></a>[JOB970](companies/amazon.md#job970)
+  - <a id="job1249"></a>[JOB1249](companies/amazon.md#job1249)
+  - <a id="job1250"></a>[JOB1250](companies/amazon.md#job1250)
+  - <a id="job1251"></a>[JOB1251](companies/amazon.md#job1251)
+  - <a id="job1252"></a>[JOB1252](companies/amazon.md#job1252)
+  - <a id="job1253"></a>[JOB1253](companies/amazon.md#job1253)
+  - <a id="job1254"></a>[JOB1254](companies/amazon.md#job1254)
 - **Anthropic**（16） [查看公司 JD](companies/anthropic.md)
   - <a id="job1039"></a>[JOB1039](companies/anthropic.md#job1039)
   - <a id="job1040"></a>[JOB1040](companies/anthropic.md#job1040)
@@ -1200,7 +1505,7 @@
   - <a id="job1052"></a>[JOB1052](companies/anthropic.md#job1052)
   - <a id="job1053"></a>[JOB1053](companies/anthropic.md#job1053)
   - <a id="job1054"></a>[JOB1054](companies/anthropic.md#job1054)
-- **Apple（苹果）**（20） [查看公司 JD](companies/apple.md)
+- **Apple（苹果）**（21） [查看公司 JD](companies/apple.md)
   - <a id="job987"></a>[JOB987](companies/apple.md#job987)
   - <a id="job988"></a>[JOB988](companies/apple.md#job988)
   - <a id="job989"></a>[JOB989](companies/apple.md#job989)
@@ -1221,7 +1526,8 @@
   - <a id="job1004"></a>[JOB1004](companies/apple.md#job1004)
   - <a id="job1005"></a>[JOB1005](companies/apple.md#job1005)
   - <a id="job1006"></a>[JOB1006](companies/apple.md#job1006)
-- **DeepSeek（深度求索）**（7） [查看公司 JD](companies/deepseek.md)
+  - <a id="job1257"></a>[JOB1257](companies/apple.md#job1257)
+- **DeepSeek（深度求索）**（11） [查看公司 JD](companies/deepseek.md)
   - <a id="job043"></a>[JOB043](companies/deepseek.md#job043)
   - <a id="job044"></a>[JOB044](companies/deepseek.md#job044)
   - <a id="job045"></a>[JOB045](companies/deepseek.md#job045)
@@ -1229,6 +1535,10 @@
   - <a id="job047"></a>[JOB047](companies/deepseek.md#job047)
   - <a id="job048"></a>[JOB048](companies/deepseek.md#job048)
   - <a id="job049"></a>[JOB049](companies/deepseek.md#job049)
+  - <a id="job1124"></a>[JOB1124](companies/deepseek.md#job1124)
+  - <a id="job1125"></a>[JOB1125](companies/deepseek.md#job1125)
+  - <a id="job1126"></a>[JOB1126](companies/deepseek.md#job1126)
+  - <a id="job1127"></a>[JOB1127](companies/deepseek.md#job1127)
 - **Google（谷歌）**（40） [查看公司 JD](companies/google.md)
   - <a id="job859"></a>[JOB859](companies/google.md#job859)
   - <a id="job860"></a>[JOB860](companies/google.md#job860)
@@ -1286,7 +1596,7 @@
   - <a id="job1020"></a>[JOB1020](companies/grab.md#job1020)
   - <a id="job1021"></a>[JOB1021](companies/grab.md#job1021)
   - <a id="job1022"></a>[JOB1022](companies/grab.md#job1022)
-- **Microsoft（微软）**（17） [查看公司 JD](companies/microsoft.md)
+- **Microsoft（微软）**（35） [查看公司 JD](companies/microsoft.md)
   - <a id="job899"></a>[JOB899](companies/microsoft.md#job899)
   - <a id="job900"></a>[JOB900](companies/microsoft.md#job900)
   - <a id="job901"></a>[JOB901](companies/microsoft.md#job901)
@@ -1304,7 +1614,35 @@
   - <a id="job913"></a>[JOB913](companies/microsoft.md#job913)
   - <a id="job914"></a>[JOB914](companies/microsoft.md#job914)
   - <a id="job915"></a>[JOB915](companies/microsoft.md#job915)
-- **NVIDIA（英伟达）**（16） [查看公司 JD](companies/nvidia.md)
+  - <a id="job1231"></a>[JOB1231](companies/microsoft.md#job1231)
+  - <a id="job1232"></a>[JOB1232](companies/microsoft.md#job1232)
+  - <a id="job1233"></a>[JOB1233](companies/microsoft.md#job1233)
+  - <a id="job1234"></a>[JOB1234](companies/microsoft.md#job1234)
+  - <a id="job1235"></a>[JOB1235](companies/microsoft.md#job1235)
+  - <a id="job1236"></a>[JOB1236](companies/microsoft.md#job1236)
+  - <a id="job1237"></a>[JOB1237](companies/microsoft.md#job1237)
+  - <a id="job1238"></a>[JOB1238](companies/microsoft.md#job1238)
+  - <a id="job1239"></a>[JOB1239](companies/microsoft.md#job1239)
+  - <a id="job1240"></a>[JOB1240](companies/microsoft.md#job1240)
+  - <a id="job1241"></a>[JOB1241](companies/microsoft.md#job1241)
+  - <a id="job1242"></a>[JOB1242](companies/microsoft.md#job1242)
+  - <a id="job1243"></a>[JOB1243](companies/microsoft.md#job1243)
+  - <a id="job1244"></a>[JOB1244](companies/microsoft.md#job1244)
+  - <a id="job1245"></a>[JOB1245](companies/microsoft.md#job1245)
+  - <a id="job1246"></a>[JOB1246](companies/microsoft.md#job1246)
+  - <a id="job1247"></a>[JOB1247](companies/microsoft.md#job1247)
+  - <a id="job1248"></a>[JOB1248](companies/microsoft.md#job1248)
+- **MiniMax（稀宇科技）**（9） [查看公司 JD](companies/minimax.md)
+  - <a id="job1128"></a>[JOB1128](companies/minimax.md#job1128)
+  - <a id="job1129"></a>[JOB1129](companies/minimax.md#job1129)
+  - <a id="job1130"></a>[JOB1130](companies/minimax.md#job1130)
+  - <a id="job1131"></a>[JOB1131](companies/minimax.md#job1131)
+  - <a id="job1132"></a>[JOB1132](companies/minimax.md#job1132)
+  - <a id="job1133"></a>[JOB1133](companies/minimax.md#job1133)
+  - <a id="job1134"></a>[JOB1134](companies/minimax.md#job1134)
+  - <a id="job1135"></a>[JOB1135](companies/minimax.md#job1135)
+  - <a id="job1136"></a>[JOB1136](companies/minimax.md#job1136)
+- **NVIDIA（英伟达）**（18） [查看公司 JD](companies/nvidia.md)
   - <a id="job971"></a>[JOB971](companies/nvidia.md#job971)
   - <a id="job972"></a>[JOB972](companies/nvidia.md#job972)
   - <a id="job973"></a>[JOB973](companies/nvidia.md#job973)
@@ -1321,6 +1659,8 @@
   - <a id="job984"></a>[JOB984](companies/nvidia.md#job984)
   - <a id="job985"></a>[JOB985](companies/nvidia.md#job985)
   - <a id="job986"></a>[JOB986](companies/nvidia.md#job986)
+  - <a id="job1255"></a>[JOB1255](companies/nvidia.md#job1255)
+  - <a id="job1256"></a>[JOB1256](companies/nvidia.md#job1256)
 - **OpenAI**（16） [查看公司 JD](companies/openai.md)
   - <a id="job1023"></a>[JOB1023](companies/openai.md#job1023)
   - <a id="job1024"></a>[JOB1024](companies/openai.md#job1024)
@@ -1338,6 +1678,8 @@
   - <a id="job1036"></a>[JOB1036](companies/openai.md#job1036)
   - <a id="job1037"></a>[JOB1037](companies/openai.md#job1037)
   - <a id="job1038"></a>[JOB1038](companies/openai.md#job1038)
+- **SAP（思爱普）**（1） [查看公司 JD](companies/sap.md)
+  - <a id="job1258"></a>[JOB1258](companies/sap.md#job1258)
 - **Salesforce**（1） [查看公司 JD](companies/salesforce.md)
   - <a id="job1007"></a>[JOB1007](companies/salesforce.md#job1007)
 - **上海人工智能实验室**
@@ -1345,6 +1687,16 @@
   - [大模型及智能体后训练工程师 / 青年研究员](#job002)
   - [科学多模态大模型青年研究员 / 算法工程师](#job003)
   - [多模态大模型研究实习生（评测团队）](#job028)
+- **中信银行**（1） [查看公司 JD](companies/citic-bank.md)
+  - <a id="job1228"></a>[JOB1228](companies/citic-bank.md#job1228)
+- **中电信人工智能科技（中国电信）**（7） [查看公司 JD](companies/china-telecom.md)
+  - <a id="job1221"></a>[JOB1221](companies/china-telecom.md#job1221)
+  - <a id="job1222"></a>[JOB1222](companies/china-telecom.md#job1222)
+  - <a id="job1223"></a>[JOB1223](companies/china-telecom.md#job1223)
+  - <a id="job1224"></a>[JOB1224](companies/china-telecom.md#job1224)
+  - <a id="job1225"></a>[JOB1225](companies/china-telecom.md#job1225)
+  - <a id="job1226"></a>[JOB1226](companies/china-telecom.md#job1226)
+  - <a id="job1227"></a>[JOB1227](companies/china-telecom.md#job1227)
 - **京东集团**（60） [查看公司 JD](companies/jd.md)
   - <a id="job617"></a>[JOB617](companies/jd.md#job617)
   - <a id="job618"></a>[JOB618](companies/jd.md#job618)
@@ -1410,6 +1762,34 @@
   - [AI 算法工程师（保险大模型，2027 届）](#job026)
 - **公司未披露**
   - [大模型算法工程师（视频剪辑 Agent）](#job021)
+- **北京智源人工智能研究院**（27） [查看公司 JD](companies/baai.md)
+  - <a id="job1137"></a>[JOB1137](companies/baai.md#job1137)
+  - <a id="job1138"></a>[JOB1138](companies/baai.md#job1138)
+  - <a id="job1139"></a>[JOB1139](companies/baai.md#job1139)
+  - <a id="job1140"></a>[JOB1140](companies/baai.md#job1140)
+  - <a id="job1141"></a>[JOB1141](companies/baai.md#job1141)
+  - <a id="job1142"></a>[JOB1142](companies/baai.md#job1142)
+  - <a id="job1143"></a>[JOB1143](companies/baai.md#job1143)
+  - <a id="job1144"></a>[JOB1144](companies/baai.md#job1144)
+  - <a id="job1145"></a>[JOB1145](companies/baai.md#job1145)
+  - <a id="job1146"></a>[JOB1146](companies/baai.md#job1146)
+  - <a id="job1147"></a>[JOB1147](companies/baai.md#job1147)
+  - <a id="job1148"></a>[JOB1148](companies/baai.md#job1148)
+  - <a id="job1149"></a>[JOB1149](companies/baai.md#job1149)
+  - <a id="job1150"></a>[JOB1150](companies/baai.md#job1150)
+  - <a id="job1151"></a>[JOB1151](companies/baai.md#job1151)
+  - <a id="job1152"></a>[JOB1152](companies/baai.md#job1152)
+  - <a id="job1153"></a>[JOB1153](companies/baai.md#job1153)
+  - <a id="job1154"></a>[JOB1154](companies/baai.md#job1154)
+  - <a id="job1155"></a>[JOB1155](companies/baai.md#job1155)
+  - <a id="job1156"></a>[JOB1156](companies/baai.md#job1156)
+  - <a id="job1157"></a>[JOB1157](companies/baai.md#job1157)
+  - <a id="job1158"></a>[JOB1158](companies/baai.md#job1158)
+  - <a id="job1159"></a>[JOB1159](companies/baai.md#job1159)
+  - <a id="job1160"></a>[JOB1160](companies/baai.md#job1160)
+  - <a id="job1161"></a>[JOB1161](companies/baai.md#job1161)
+  - <a id="job1162"></a>[JOB1162](companies/baai.md#job1162)
+  - <a id="job1163"></a>[JOB1163](companies/baai.md#job1163)
 - **华为**（13） [查看公司 JD](companies/huawei.md)
   - <a id="job025"></a>[JOB025](companies/huawei.md#job025)
   - <a id="job847"></a>[JOB847](companies/huawei.md#job847)
@@ -1426,6 +1806,17 @@
   - <a id="job858"></a>[JOB858](companies/huawei.md#job858)
 - **同花顺**
   - [算法实习生（对话大模型与语音客服 Agent）](#job027)
+- **商汤科技（SenseTime）**（10） [查看公司 JD](companies/sensetime.md)
+  - <a id="job1208"></a>[JOB1208](companies/sensetime.md#job1208)
+  - <a id="job1209"></a>[JOB1209](companies/sensetime.md#job1209)
+  - <a id="job1210"></a>[JOB1210](companies/sensetime.md#job1210)
+  - <a id="job1211"></a>[JOB1211](companies/sensetime.md#job1211)
+  - <a id="job1212"></a>[JOB1212](companies/sensetime.md#job1212)
+  - <a id="job1213"></a>[JOB1213](companies/sensetime.md#job1213)
+  - <a id="job1214"></a>[JOB1214](companies/sensetime.md#job1214)
+  - <a id="job1215"></a>[JOB1215](companies/sensetime.md#job1215)
+  - <a id="job1216"></a>[JOB1216](companies/sensetime.md#job1216)
+  - <a id="job1217"></a>[JOB1217](companies/sensetime.md#job1217)
 - **字节跳动**（215） [查看公司 JD](companies/bytedance.md)
   - <a id="job012"></a>[JOB012](companies/bytedance.md#job012)
   - <a id="job013"></a>[JOB013](companies/bytedance.md#job013)
@@ -1693,9 +2084,102 @@
   - <a id="job798"></a>[JOB798](companies/kuaishou.md#job798)
 - **思必驰**
   - [大模型算法工程师（2027 届）](#job008)
+- **招商银行**（1） [查看公司 JD](companies/cmb.md)
+  - <a id="job1229"></a>[JOB1229](companies/cmb.md#job1229)
+- **招银网络科技**（1） [查看公司 JD](companies/cmb-network.md)
+  - <a id="job1230"></a>[JOB1230](companies/cmb-network.md#job1230)
 - **拼多多集团**（2） [查看公司 JD](companies/pdd.md)
   - <a id="job069"></a>[JOB069](companies/pdd.md#job069)
   - <a id="job070"></a>[JOB070](companies/pdd.md#job070)
+- **旷视科技（Megvii）**（3） [查看公司 JD](companies/megvii.md)
+  - <a id="job1218"></a>[JOB1218](companies/megvii.md#job1218)
+  - <a id="job1219"></a>[JOB1219](companies/megvii.md#job1219)
+  - <a id="job1220"></a>[JOB1220](companies/megvii.md#job1220)
+- **智元机器人（AGIBOT）**（13） [查看公司 JD](companies/agibot.md)
+  - <a id="job1195"></a>[JOB1195](companies/agibot.md#job1195)
+  - <a id="job1196"></a>[JOB1196](companies/agibot.md#job1196)
+  - <a id="job1197"></a>[JOB1197](companies/agibot.md#job1197)
+  - <a id="job1198"></a>[JOB1198](companies/agibot.md#job1198)
+  - <a id="job1199"></a>[JOB1199](companies/agibot.md#job1199)
+  - <a id="job1200"></a>[JOB1200](companies/agibot.md#job1200)
+  - <a id="job1201"></a>[JOB1201](companies/agibot.md#job1201)
+  - <a id="job1202"></a>[JOB1202](companies/agibot.md#job1202)
+  - <a id="job1203"></a>[JOB1203](companies/agibot.md#job1203)
+  - <a id="job1204"></a>[JOB1204](companies/agibot.md#job1204)
+  - <a id="job1205"></a>[JOB1205](companies/agibot.md#job1205)
+  - <a id="job1206"></a>[JOB1206](companies/agibot.md#job1206)
+  - <a id="job1207"></a>[JOB1207](companies/agibot.md#job1207)
+- **智谱（Z.ai）**（35） [查看公司 JD](companies/zhipu.md)
+  - <a id="job1055"></a>[JOB1055](companies/zhipu.md#job1055)
+  - <a id="job1056"></a>[JOB1056](companies/zhipu.md#job1056)
+  - <a id="job1057"></a>[JOB1057](companies/zhipu.md#job1057)
+  - <a id="job1058"></a>[JOB1058](companies/zhipu.md#job1058)
+  - <a id="job1059"></a>[JOB1059](companies/zhipu.md#job1059)
+  - <a id="job1060"></a>[JOB1060](companies/zhipu.md#job1060)
+  - <a id="job1061"></a>[JOB1061](companies/zhipu.md#job1061)
+  - <a id="job1062"></a>[JOB1062](companies/zhipu.md#job1062)
+  - <a id="job1063"></a>[JOB1063](companies/zhipu.md#job1063)
+  - <a id="job1064"></a>[JOB1064](companies/zhipu.md#job1064)
+  - <a id="job1065"></a>[JOB1065](companies/zhipu.md#job1065)
+  - <a id="job1066"></a>[JOB1066](companies/zhipu.md#job1066)
+  - <a id="job1067"></a>[JOB1067](companies/zhipu.md#job1067)
+  - <a id="job1068"></a>[JOB1068](companies/zhipu.md#job1068)
+  - <a id="job1069"></a>[JOB1069](companies/zhipu.md#job1069)
+  - <a id="job1070"></a>[JOB1070](companies/zhipu.md#job1070)
+  - <a id="job1071"></a>[JOB1071](companies/zhipu.md#job1071)
+  - <a id="job1072"></a>[JOB1072](companies/zhipu.md#job1072)
+  - <a id="job1073"></a>[JOB1073](companies/zhipu.md#job1073)
+  - <a id="job1074"></a>[JOB1074](companies/zhipu.md#job1074)
+  - <a id="job1075"></a>[JOB1075](companies/zhipu.md#job1075)
+  - <a id="job1076"></a>[JOB1076](companies/zhipu.md#job1076)
+  - <a id="job1077"></a>[JOB1077](companies/zhipu.md#job1077)
+  - <a id="job1078"></a>[JOB1078](companies/zhipu.md#job1078)
+  - <a id="job1079"></a>[JOB1079](companies/zhipu.md#job1079)
+  - <a id="job1080"></a>[JOB1080](companies/zhipu.md#job1080)
+  - <a id="job1081"></a>[JOB1081](companies/zhipu.md#job1081)
+  - <a id="job1082"></a>[JOB1082](companies/zhipu.md#job1082)
+  - <a id="job1083"></a>[JOB1083](companies/zhipu.md#job1083)
+  - <a id="job1084"></a>[JOB1084](companies/zhipu.md#job1084)
+  - <a id="job1085"></a>[JOB1085](companies/zhipu.md#job1085)
+  - <a id="job1086"></a>[JOB1086](companies/zhipu.md#job1086)
+  - <a id="job1087"></a>[JOB1087](companies/zhipu.md#job1087)
+  - <a id="job1088"></a>[JOB1088](companies/zhipu.md#job1088)
+  - <a id="job1089"></a>[JOB1089](companies/zhipu.md#job1089)
+- **月之暗面（Kimi）**（34） [查看公司 JD](companies/moonshot.md)
+  - <a id="job1090"></a>[JOB1090](companies/moonshot.md#job1090)
+  - <a id="job1091"></a>[JOB1091](companies/moonshot.md#job1091)
+  - <a id="job1092"></a>[JOB1092](companies/moonshot.md#job1092)
+  - <a id="job1093"></a>[JOB1093](companies/moonshot.md#job1093)
+  - <a id="job1094"></a>[JOB1094](companies/moonshot.md#job1094)
+  - <a id="job1095"></a>[JOB1095](companies/moonshot.md#job1095)
+  - <a id="job1096"></a>[JOB1096](companies/moonshot.md#job1096)
+  - <a id="job1097"></a>[JOB1097](companies/moonshot.md#job1097)
+  - <a id="job1098"></a>[JOB1098](companies/moonshot.md#job1098)
+  - <a id="job1099"></a>[JOB1099](companies/moonshot.md#job1099)
+  - <a id="job1100"></a>[JOB1100](companies/moonshot.md#job1100)
+  - <a id="job1101"></a>[JOB1101](companies/moonshot.md#job1101)
+  - <a id="job1102"></a>[JOB1102](companies/moonshot.md#job1102)
+  - <a id="job1103"></a>[JOB1103](companies/moonshot.md#job1103)
+  - <a id="job1104"></a>[JOB1104](companies/moonshot.md#job1104)
+  - <a id="job1105"></a>[JOB1105](companies/moonshot.md#job1105)
+  - <a id="job1106"></a>[JOB1106](companies/moonshot.md#job1106)
+  - <a id="job1107"></a>[JOB1107](companies/moonshot.md#job1107)
+  - <a id="job1108"></a>[JOB1108](companies/moonshot.md#job1108)
+  - <a id="job1109"></a>[JOB1109](companies/moonshot.md#job1109)
+  - <a id="job1110"></a>[JOB1110](companies/moonshot.md#job1110)
+  - <a id="job1111"></a>[JOB1111](companies/moonshot.md#job1111)
+  - <a id="job1112"></a>[JOB1112](companies/moonshot.md#job1112)
+  - <a id="job1113"></a>[JOB1113](companies/moonshot.md#job1113)
+  - <a id="job1114"></a>[JOB1114](companies/moonshot.md#job1114)
+  - <a id="job1115"></a>[JOB1115](companies/moonshot.md#job1115)
+  - <a id="job1116"></a>[JOB1116](companies/moonshot.md#job1116)
+  - <a id="job1117"></a>[JOB1117](companies/moonshot.md#job1117)
+  - <a id="job1118"></a>[JOB1118](companies/moonshot.md#job1118)
+  - <a id="job1119"></a>[JOB1119](companies/moonshot.md#job1119)
+  - <a id="job1120"></a>[JOB1120](companies/moonshot.md#job1120)
+  - <a id="job1121"></a>[JOB1121](companies/moonshot.md#job1121)
+  - <a id="job1122"></a>[JOB1122](companies/moonshot.md#job1122)
+  - <a id="job1123"></a>[JOB1123](companies/moonshot.md#job1123)
 - **滴普科技**
   - [大模型开发工程师（Infra 方向）](#job006)
 - **滴滴**（40） [查看公司 JD](companies/didi.md)
@@ -1739,6 +2223,8 @@
   - <a id="job836"></a>[JOB836](companies/didi.md#job836)
   - <a id="job837"></a>[JOB837](companies/didi.md#job837)
   - <a id="job838"></a>[JOB838](companies/didi.md#job838)
+- **百川智能**（1） [查看公司 JD](companies/baichuan.md)
+  - <a id="job1194"></a>[JOB1194](companies/baichuan.md#job1194)
 - **百度**（31） [查看公司 JD](companies/baidu.md)
   - <a id="job029"></a>[JOB029](companies/baidu.md#job029)
   - <a id="job030"></a>[JOB030](companies/baidu.md#job030)
@@ -2064,6 +2550,32 @@
   - [大模型算法工程师（2027 届秋招）](#job010)
 - **金山云**
   - [大模型算法工程师（实习）](#job009)
+- **阶跃星辰（StepFun）**（25） [查看公司 JD](companies/stepfun.md)
+  - <a id="job1164"></a>[JOB1164](companies/stepfun.md#job1164)
+  - <a id="job1165"></a>[JOB1165](companies/stepfun.md#job1165)
+  - <a id="job1166"></a>[JOB1166](companies/stepfun.md#job1166)
+  - <a id="job1167"></a>[JOB1167](companies/stepfun.md#job1167)
+  - <a id="job1168"></a>[JOB1168](companies/stepfun.md#job1168)
+  - <a id="job1169"></a>[JOB1169](companies/stepfun.md#job1169)
+  - <a id="job1170"></a>[JOB1170](companies/stepfun.md#job1170)
+  - <a id="job1171"></a>[JOB1171](companies/stepfun.md#job1171)
+  - <a id="job1172"></a>[JOB1172](companies/stepfun.md#job1172)
+  - <a id="job1173"></a>[JOB1173](companies/stepfun.md#job1173)
+  - <a id="job1174"></a>[JOB1174](companies/stepfun.md#job1174)
+  - <a id="job1175"></a>[JOB1175](companies/stepfun.md#job1175)
+  - <a id="job1176"></a>[JOB1176](companies/stepfun.md#job1176)
+  - <a id="job1177"></a>[JOB1177](companies/stepfun.md#job1177)
+  - <a id="job1178"></a>[JOB1178](companies/stepfun.md#job1178)
+  - <a id="job1179"></a>[JOB1179](companies/stepfun.md#job1179)
+  - <a id="job1180"></a>[JOB1180](companies/stepfun.md#job1180)
+  - <a id="job1181"></a>[JOB1181](companies/stepfun.md#job1181)
+  - <a id="job1182"></a>[JOB1182](companies/stepfun.md#job1182)
+  - <a id="job1183"></a>[JOB1183](companies/stepfun.md#job1183)
+  - <a id="job1184"></a>[JOB1184](companies/stepfun.md#job1184)
+  - <a id="job1185"></a>[JOB1185](companies/stepfun.md#job1185)
+  - <a id="job1186"></a>[JOB1186](companies/stepfun.md#job1186)
+  - <a id="job1187"></a>[JOB1187](companies/stepfun.md#job1187)
+  - <a id="job1188"></a>[JOB1188](companies/stepfun.md#job1188)
 - **阿里巴巴集团**（148） [查看公司 JD](companies/alibaba.md)
   - <a id="job024"></a>[JOB024](companies/alibaba.md#job024)
   - <a id="job071"></a>[JOB071](companies/alibaba.md#job071)
@@ -2213,6 +2725,12 @@
   - <a id="job425"></a>[JOB425](companies/alibaba.md#job425)
   - <a id="job426"></a>[JOB426](companies/alibaba.md#job426)
   - <a id="job427"></a>[JOB427](companies/alibaba.md#job427)
+- **面壁智能（ModelBest）**（5） [查看公司 JD](companies/modelbest.md)
+  - <a id="job1189"></a>[JOB1189](companies/modelbest.md#job1189)
+  - <a id="job1190"></a>[JOB1190](companies/modelbest.md#job1190)
+  - <a id="job1191"></a>[JOB1191](companies/modelbest.md#job1191)
+  - <a id="job1192"></a>[JOB1192](companies/modelbest.md#job1192)
+  - <a id="job1193"></a>[JOB1193](companies/modelbest.md#job1193)
 
 ## 招聘渠道
 
@@ -2222,9 +2740,10 @@
 | [脉脉](https://maimai.cn/n/platform/job-list) | 2 | 可看平台岗位和团队招聘帖。社区帖子中的公司及招聘状态以原帖和招聘方为准。 |
 | [微信公众号](https://weixin.qq.com/) | 2 | 在微信内搜索企业招聘公众号，如「小红书招聘」，查看原公告并用企业招聘页核对。收录的公众号资料来自注明出处的公开转载，转载日期和投递状态见各条目。 |
 | [小红书](https://job.xiaohongshu.com/campus/position) | 4 | 已收录小红书招聘官网的 JD。社区笔记可在小红书 App 搜索「大模型 招聘」并用官网复核。 |
-| [牛客](https://www.nowcoder.com/jobs) | 12 | 从校招、社招与实习频道查具体职位，留意详情页的申请或结束标记。 |
+| [牛客](https://www.nowcoder.com/jobs) | 16 | 从校招、社招与实习频道查具体职位，留意详情页的申请或结束标记。 |
 | [领英](https://www.linkedin.com/jobs/) | 2 | 可按城市检索英文职位名，如 LLM、Recommendation Model、AI Infra。部分投递需要登录。 |
-| [招聘官网](https://seed.bytedance.com/zh/career) | 1030 | 可结合招聘类型查看官网校招与社招。每条岗位链接直达具体职位，核验范围见详情。这里链接到字节 Seed 招聘官网。 |
+| [招聘官网](https://seed.bytedance.com/zh/career) | 1221 | 可结合招聘类型查看官网校招与社招。每条岗位链接直达具体职位，核验范围见详情。这里链接到字节 Seed 招聘官网。 |
+| [高校就业网](https://career.sustech.edu.cn/) | 9 | 查看学校就业网发布的企业校招信息、岗位说明与投递时间。 |
 
 ## 岗位与 JD
 

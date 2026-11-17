@@ -1,10 +1,60 @@
 # Amazon（亚马逊） · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E5%AE%9E%E4%B9%A0#library) · [企业官网](https://www.amazon.jobs/content/en/job-categories/applied-science)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业官网](https://www.amazon.jobs/content/en/job-categories/applied-science)
 
-共 55 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 61 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
-## 社招（43）
+## 校招（2）
+
+<a id="job1249"></a>
+
+### JOB1249 · Amazon（亚马逊） · Applied Scientist (2026-27 Campus, International Technology Team), Shanghai
+
+搜索与检索 · 校招 · 上海 · 有投递入口
+
+[在原平台查看](https://www.amazon.jobs/en/jobs/10504493/applied-scientist-2026-27-campus-international-technology-team-shanghai) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1249)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。亚马逊中国官方岗位页含投递入口。
+
+团队 / 业务为 International Technology 搜索团队。
+
+**主要职责**
+
+- 为亚马逊商品搜索研究查询理解、相关性排序、语义匹配和个性化，并探索基础模型驱动的对话式购物。
+- 使用商品、查询和行为数据训练及微调模型，引入 RAG、SFT 和 Agent，通过离线评估与 A/B 测试检验效果。
+
+**任职要求**
+
+- 面向 2026 年 10 月至 2027 年 9 月毕业的相关方向硕士或博士。
+- 具备机器学习或深度学习基础、统计与实验经验，以及编程实现和模型训练、评估能力。
+
+涉及技术关键词为 信息检索、搜索排序、SFT、RAG、Agent、A/B 测试。
+
+<a id="job1251"></a>
+
+### JOB1251 · Amazon（亚马逊） · Applied Scientist (2026-27 Campus, International Technology Team), Beijing
+
+搜索与检索 · 校招 · 北京 · 有投递入口
+
+[在原平台查看](https://www.amazon.jobs/en/jobs/10489936/applied-scientist-2026-27-campus-international-technology-team-beijing) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1251)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。亚马逊中国官方岗位页含投递入口。
+
+团队 / 业务为 International Technology 搜索团队。
+
+**主要职责**
+
+- 为亚马逊商品搜索研究查询理解、相关性排序、语义匹配和个性化，并探索基础模型驱动的对话式购物。
+- 使用商品、查询和行为数据训练及微调模型，引入 RAG、SFT 和 Agent，通过离线评估与 A/B 测试检验效果。
+
+**任职要求**
+
+- 面向 2026 年 10 月至 2027 年 9 月毕业的相关方向硕士或博士。
+- 具备机器学习或深度学习基础、统计与实验经验，以及编程实现和模型训练、评估能力。
+
+涉及技术关键词为 信息检索、搜索排序、SFT、RAG、Agent、A/B 测试。
+
+## 社招（47）
 
 <a id="job916"></a>
 
@@ -1182,6 +1232,104 @@ LLM Infra 与推理 · 社招 · Cupertino, California, USA · 有投递入口
 - 要求涉及Java、C++、Python。
 
 涉及技术关键词为 召回、模型评测、Agent、在线实验、搜索相关性、推荐系统、Spark、机器学习、深度学习。
+
+<a id="job1250"></a>
+
+### JOB1250 · Amazon（亚马逊） · Data Scientist, AI Program, CNGS NBS (New Business & New Seller) Amazon Business
+
+用户增长与营销 · 社招 · 上海 · 有投递入口
+
+[在原平台查看](https://www.amazon.jobs/en/jobs/10528110/data-scientist-ai-program-cngs-nbs-new-business-new-seller-amazon-business) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1250)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 seller-services。
+
+**主要职责**
+
+- 工作涉及用户策略与经营优化，包括工作流、推荐系统、在线实验、因果推断。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士。
+- 要求涉及在线实验、SQL、Python。
+
+**优先条件**
+
+- 加分项涉及 向量表征、召回、模型评测、RAG、因果推断。
+
+涉及技术关键词为 工作流、推荐系统、在线实验、因果推断、SQL、Python。
+
+<a id="job1252"></a>
+
+### JOB1252 · Amazon（亚马逊） · Data Engineer - AI/ML Products, AOP (Analytics Operations and Programs)
+
+用户增长与营销 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://www.amazon.jobs/en/jobs/10572912/data-engineer-ai-ml-products-aop-analytics-operations-and-programs) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1252)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 international-stores。
+
+**主要职责**
+
+- 工作涉及用户策略与经营优化，包括强化学习。
+
+**任职要求**
+
+- 要求涉及Scala、Java、Python、C++、Go。
+
+涉及技术关键词为 强化学习、Scala、机器学习、深度学习、Java、Python、C++、Go。
+
+<a id="job1253"></a>
+
+### JOB1253 · Amazon（亚马逊） · Sr Data Scientist, Seller Economics, WW Global Selling - PMO
+
+用户增长与营销 · 社招 · 上海 · 有投递入口
+
+[在原平台查看](https://www.amazon.jobs/en/jobs/10501868/sr-data-scientist-seller-economics-ww-global-selling-pmo) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1253)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 seller-services。
+
+**主要职责**
+
+- 工作涉及用户策略与经营优化，包括因果推断、在线实验、强化学习、向量表征、Agent。
+
+**任职要求**
+
+- 要求涉及SQL、Python。
+
+涉及技术关键词为 因果推断、在线实验、强化学习、向量表征、Agent、工作流、SQL、机器学习、Python。
+
+<a id="job1254"></a>
+
+### JOB1254 · Amazon（亚马逊） · Applied Scientist, OpenSearch Shanghai
+
+用户增长与营销 · 社招 · 上海 · 有投递入口
+
+[在原平台查看](https://www.amazon.jobs/en/jobs/10603276/applied-scientist-opensearch-shanghai) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1254)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。官网 JD 含申请入口。
+
+团队 / 业务为 aws。
+
+**主要职责**
+
+- 工作涉及用户策略与经营优化，包括分布式系统。
+
+**任职要求**
+
+- JD 涉及的学历条件有硕士。
+- 要求涉及Java、C++、Python。
+
+**优先条件**
+
+- 加分项涉及 Transformer。
+
+涉及技术关键词为 分布式系统、Java、C++、Python。
 
 ## 实习（12）
 

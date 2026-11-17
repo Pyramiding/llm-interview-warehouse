@@ -11,7 +11,8 @@
     "risk": "风控与内容安全",
     "speech": "语音与实时交互",
     "support": "客服与对话系统",
-    "multimodal": "多模态与生成"
+    "multimodal": "多模态与生成",
+    "applied_ml": "应用机器学习"
   },
   "channels": [
     {
@@ -48,6 +49,11 @@
       "name": "招聘官网",
       "url": "https://seed.bytedance.com/zh/career",
       "guide": "可结合招聘类型查看官网校招与社招。每条岗位链接直达具体职位，核验范围见详情。这里链接到字节 Seed 招聘官网。"
+    },
+    {
+      "name": "高校就业网",
+      "url": "https://career.sustech.edu.cn/",
+      "guide": "查看学校就业网发布的企业校招信息、岗位说明与投递时间。"
     }
   ],
   "jobs": [
@@ -40733,6 +40739,7655 @@
       "status_note": "官网 JD 含申请入口。",
       "team": "AI Research & Engineering",
       "published": "2025-10-09"
+    },
+    {
+      "id": "JOB1055",
+      "title": "27届校招 GLM-Code Agent算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/124aa3c6-e4a8-4e7d-a63b-ec8b915611a8",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "13"
+      ],
+      "skills": [
+        "代码生成",
+        "自动化评测",
+        "Agent 评测",
+        "模型对齐",
+        "上下文管理",
+        "任务规划",
+        "工具调用",
+        "多轮对话",
+        "对话系统"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括代码生成、自动化评测、Agent 评测、模型对齐、上下文管理。"
+      ],
+      "requirements": [
+        "要求涉及任务规划、工具调用、上下文管理、多轮对话、对话系统、评测体系、Agent 运行时。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent 运行时、自动化评测、代码生成、Agent、后训练。"
+      ],
+      "published": "2026-10-19"
+    },
+    {
+      "id": "JOB1056",
+      "title": "Trading Agent 后训练算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/9f1b5a96-d010-4625-8738-ddfb1cb5f9ca",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "Agent",
+        "后训练",
+        "模型量化",
+        "数据合成",
+        "强化学习",
+        "工具调用",
+        "代码生成",
+        "量化",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括模型量化、Agent、后训练、数据合成、强化学习。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Agent、强化学习、后训练、代码生成、量化、模型量化、评测体系。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent、Agent 评测、自动化评测、模型量化。"
+      ],
+      "published": "2026-08-14"
+    },
+    {
+      "id": "JOB1057",
+      "title": "27届校招-预训练数据算法工程师(基座模型方向)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/61b9c710-b1a0-4078-bc86-515646a97271",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "基础模型",
+        "多模态",
+        "数据合成",
+        "数据质量",
+        "数据清洗",
+        "数据配比",
+        "评测体系",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括基础模型、预训练、多模态、数据合成、数据质量。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及多模态、预训练、评测体系、基础模型、数据清洗、数据配比、数据合成。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-10-08"
+    },
+    {
+      "id": "JOB1058",
+      "title": "大模型算法工程师(AI Coding / 游戏方向)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/3038091e-6b13-47b4-8742-cd123cc2d3aa",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "04",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "代码生成",
+        "Agent",
+        "SFT",
+        "强化学习",
+        "多模态",
+        "数据合成",
+        "自动化评测",
+        "工具调用",
+        "模型评测"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括代码生成、Agent、SFT、强化学习、多模态。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及代码生成、Agent、工具调用、SFT、强化学习、模型评测、评测体系。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-09-02"
+    },
+    {
+      "id": "JOB1059",
+      "title": "算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/a07037d3-dc0d-4aa4-a182-58aef18eef4f",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "applied_ml",
+      "topics": [
+        "02",
+        "13"
+      ],
+      "skills": [
+        "vLLM",
+        "SGLang",
+        "Transformer",
+        "算子开发",
+        "Python"
+      ],
+      "responsibilities": [
+        "参与vLLM、SGLang、Transformer相关研究或研发。"
+      ],
+      "requirements": [
+        "要求涉及SGLang、vLLM、Transformer、算子开发、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-04-09"
+    },
+    {
+      "id": "JOB1060",
+      "title": "机器学习平台研发工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/86d3a68f-88fd-432a-9b1a-1defb53af16f",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "机器学习",
+        "GPU 调度",
+        "Kubernetes",
+        "分布式训练",
+        "Ray",
+        "并行通信",
+        "DeepSpeed",
+        "FSDP",
+        "Spark"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括GPU 调度、Kubernetes、分布式训练。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "经验年限涉及 3 年及以上研发经验。",
+        "要求涉及Kubernetes、Ray、集合通信、并行通信、分布式训练、DeepSpeed、FSDP。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "JOB1061",
+      "title": "GLM-Image算法研究员/工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/83bf3051-65c2-4880-8db6-b8d1c77dce3b",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "04"
+      ],
+      "skills": [
+        "多模态",
+        "强化学习",
+        "RLHF",
+        "优化算法",
+        "模型量化",
+        "DeepSpeed",
+        "扩散模型",
+        "量化",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、强化学习、RLHF、优化算法、模型量化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及DeepSpeed、扩散模型、机器学习、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 分布式训练、训练框架。"
+      ],
+      "published": "2026-09-04"
+    },
+    {
+      "id": "JOB1062",
+      "title": "大模型后训练算法工程师(Coding Agent 方向)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/a1f2d79e-010c-43ba-ab4e-d609c4ce7a7f",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "后训练",
+        "代码生成",
+        "Agent",
+        "数据合成",
+        "强化学习",
+        "SFT",
+        "微调",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括代码生成、Agent、数据合成、强化学习、后训练。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及SFT、微调、强化学习、代码生成。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 代码生成、Agent、预训练、SFT、强化学习。"
+      ],
+      "published": "2026-05-12"
+    },
+    {
+      "id": "JOB1063",
+      "title": "预训练数据算法工程师(基座模型)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/a0dc5f47-1263-41da-be9a-630e7f73cbc0",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "基础模型",
+        "多模态",
+        "数据合成",
+        "数据质量",
+        "数据清洗",
+        "数据配比",
+        "评测体系",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括预训练、多模态、数据合成、数据质量、基础模型。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及多模态、预训练、评测体系、基础模型、数据清洗、数据配比、数据合成。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-09-03"
+    },
+    {
+      "id": "JOB1064",
+      "title": "大模型技术实习生-深圳",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/a422b81a-f918-47d7-81a8-0244637ff6c1",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "后训练",
+        "RAG",
+        "知识库",
+        "机器学习",
+        "深度学习",
+        "NLP"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括后训练、RAG、知识库。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士研究生或博士。",
+        "要求涉及机器学习、深度学习、NLP。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 微调、多模态。"
+      ],
+      "published": "2026-01-30"
+    },
+    {
+      "id": "JOB1065",
+      "title": "GLM-开源算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/027bb32d-e0b9-4783-8fee-7715dee28981",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "Transformer",
+        "vLLM",
+        "SGLang"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括Transformer、vLLM、SGLang。"
+      ],
+      "requirements": [
+        "要求涉及SGLang、vLLM、Transformer。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 vLLM、SGLang、推理优化。"
+      ],
+      "published": "2026-09-28"
+    },
+    {
+      "id": "JOB1066",
+      "title": "GLM 基模具身智能算法实习生",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/653ff18c-a24b-48b4-aa9d-39f884e0d176",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "03"
+      ],
+      "skills": [
+        "具身智能",
+        "基础模型",
+        "预训练",
+        "视觉语言模型",
+        "Transformer",
+        "多模态",
+        "评测体系",
+        "机器学习",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括基础模型、具身智能、预训练。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及视觉语言模型、Transformer、多模态、具身智能、机器学习、深度学习、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 基础模型、具身智能、视觉语言模型、预训练。"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "JOB1067",
+      "title": "具身智能后训练算法实习生",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/108cd9c5-c669-42fc-8fcb-e5b0934b0415",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "12",
+        "03"
+      ],
+      "skills": [
+        "具身智能",
+        "后训练",
+        "基础模型",
+        "VLA",
+        "视觉语言模型",
+        "世界模型",
+        "强化学习",
+        "预训练",
+        "SFT"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括基础模型、VLA、视觉语言模型、世界模型、强化学习。"
+      ],
+      "requirements": [
+        "要求涉及视觉语言模型、世界模型、SFT、强化学习、机器学习、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "JOB1068",
+      "title": "具身智能预训练算法实习生",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/800b077c-921f-4df5-9ee5-c38c7571eb76",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "12",
+        "04",
+        "13"
+      ],
+      "skills": [
+        "具身智能",
+        "预训练",
+        "VLA",
+        "多模态",
+        "强化学习",
+        "视觉语言模型",
+        "后训练",
+        "评测体系",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括VLA、多模态、预训练、强化学习、视觉语言模型。"
+      ],
+      "requirements": [
+        "面向在读候选人，JD 提到博士。",
+        "要求涉及多模态、强化学习、具身智能、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "JOB1069",
+      "title": "大模型安全能力研究员(实习)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/8d9ead26-50ab-4fda-b6c1-a3793e541226",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13",
+        "03",
+        "04"
+      ],
+      "skills": [
+        "模型安全",
+        "预训练",
+        "语料构建",
+        "SFT",
+        "微调",
+        "强化学习",
+        "推理能力",
+        "RLHF",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及风控或模型安全，包括预训练、语料构建、SFT、微调、强化学习。"
+      ],
+      "requirements": [
+        "面向在读候选人，JD 提到硕士/博士。",
+        "要求涉及RLHF、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "JOB1070",
+      "title": "27届校招-大模型算法工程师(Agent方向)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/a118f8c4-bce6-4016-8943-b688aa0426d8",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "13"
+      ],
+      "skills": [
+        "自动化评测",
+        "Agent",
+        "Agent 评测",
+        "后训练",
+        "评测体系",
+        "Python",
+        "PyTorch",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括自动化评测、Agent、Agent 评测。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有统招硕士及以上学历。",
+        "要求涉及Agent、后训练、Python、PyTorch、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 后训练、训练框架、推理优化、Megatron、SGLang。"
+      ],
+      "published": "2026-09-09"
+    },
+    {
+      "id": "JOB1071",
+      "title": "大模型应用算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/268791e1-d889-4d19-a3d8-fe8f998fa6e1",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "04",
+        "12"
+      ],
+      "skills": [
+        "微调",
+        "SFT",
+        "LoRA",
+        "DPO",
+        "RLHF",
+        "多轮对话",
+        "对话系统",
+        "多模态",
+        "Transformer"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括微调、SFT、LoRA、DPO、RLHF。"
+      ],
+      "requirements": [
+        "经验年限涉及 3 年以上大模型。",
+        "要求涉及算子开发、Transformer、Python、PyTorch、TensorFlow、NLP。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-04-09"
+    },
+    {
+      "id": "JOB1072",
+      "title": "GLM-强化学习训练框架工程师(RL)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/fe69bff3-ad65-41d0-a0be-7db4106ff016",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "04",
+        "12"
+      ],
+      "skills": [
+        "强化学习",
+        "训练框架",
+        "计算机视觉",
+        "多模态",
+        "分布式训练",
+        "vLLM",
+        "SGLang",
+        "NLP"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括强化学习、训练框架。"
+      ],
+      "requirements": [
+        "要求涉及计算机视觉、多模态、分布式训练、强化学习、vLLM、SGLang、NLP。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-09-08"
+    },
+    {
+      "id": "JOB1073",
+      "title": "Trading Agent 后训练算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/d79a3a58-d8cd-45cc-a2a3-30b0500dc4b7",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "Agent",
+        "后训练",
+        "模型量化",
+        "数据合成",
+        "强化学习",
+        "工具调用",
+        "代码生成",
+        "量化",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括模型量化、Agent、后训练、数据合成、强化学习。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Agent、强化学习、后训练、代码生成、量化、模型量化、评测体系。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent、Agent 评测、自动化评测、模型量化。"
+      ],
+      "published": "2026-07-28"
+    },
+    {
+      "id": "JOB1074",
+      "title": "模型代码预训练算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/139c3a70-f9ca-41b8-ae4f-741b91be7017",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "04"
+      ],
+      "skills": [
+        "预训练",
+        "数据质量",
+        "基础模型",
+        "代码生成",
+        "SFT",
+        "强化学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括预训练、数据质量、基础模型。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及代码生成、预训练、SFT、强化学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-05-12"
+    },
+    {
+      "id": "JOB1075",
+      "title": "Code Agent for Trading 研究实习生",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/2fa2a12d-26df-4aa7-b36a-6d70bcf00afd",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "04",
+        "13"
+      ],
+      "skills": [
+        "代码生成",
+        "Agent",
+        "模型量化",
+        "Agent 评测",
+        "强化学习",
+        "量化",
+        "评测体系",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括模型量化、Agent、Agent 评测、代码生成、强化学习。"
+      ],
+      "requirements": [
+        "要求涉及代码生成、Agent、强化学习、量化、模型量化、评测体系、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-08-14"
+    },
+    {
+      "id": "JOB1076",
+      "title": "多模态数据算法实习生",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/7c779330-f97e-4749-9661-e731d13f19a1",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "多模态",
+        "数据合成",
+        "数据质量",
+        "Ray",
+        "数据清洗",
+        "Spark",
+        "评测体系",
+        "Python",
+        "C++"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、数据合成、数据质量。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Ray、数据清洗、评测体系、数据质量、多模态、Python、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "JOB1077",
+      "title": "大模型算法实习生(安全/云服务方向)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/43c794f9-901c-430e-b1fb-6f5f96c29492",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "工具调用",
+        "数据质量",
+        "数据清洗",
+        "自动化评测",
+        "模型评测",
+        "强化学习",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括工具调用、数据质量、数据清洗、自动化评测、模型评测。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 数据合成、工具调用、微调、预训练、继续预训练。"
+      ],
+      "published": "2026-10-09"
+    },
+    {
+      "id": "JOB1078",
+      "title": "大模型安全能力研究员(实习)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/763603a4-6bad-4320-90a0-1f9abf2edf97",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13",
+        "03",
+        "04"
+      ],
+      "skills": [
+        "模型安全",
+        "预训练",
+        "语料构建",
+        "SFT",
+        "微调",
+        "强化学习",
+        "推理能力",
+        "RLHF",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及风控或模型安全，包括预训练、语料构建、SFT、微调、强化学习。"
+      ],
+      "requirements": [
+        "面向在读候选人，JD 提到硕士/博士。",
+        "要求涉及RLHF、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-09-30"
+    },
+    {
+      "id": "JOB1079",
+      "title": "【27届校招】GLM算法工程师(评测方向)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/6af3d8d0-c65f-4a0d-8257-fa4986718022",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "13"
+      ],
+      "skills": [
+        "评测体系",
+        "模型评测",
+        "代码生成",
+        "自动化评测",
+        "Agent",
+        "Agent 评测",
+        "Python",
+        "PyTorch",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括模型评测、代码生成、自动化评测、Agent、Agent 评测。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有统招硕士及以上学历。",
+        "要求涉及Agent、Python、PyTorch、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent、Agent 运行时。"
+      ],
+      "published": "2026-10-28"
+    },
+    {
+      "id": "JOB1080",
+      "title": "GLM大模型算法研究员(推理/规划/Agent方向)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/c81e6344-1f11-411f-84ac-966da51e2df4",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "04"
+      ],
+      "skills": [
+        "Agent",
+        "代码生成",
+        "工具调用",
+        "任务规划",
+        "强化学习",
+        "数据合成",
+        "Transformer"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、代码生成、工具调用、任务规划、强化学习。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士或博士。",
+        "要求涉及Transformer。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 分布式训练、训练框架。"
+      ],
+      "published": "2026-03-31"
+    },
+    {
+      "id": "JOB1081",
+      "title": "Agent Infra 运维开发工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/68061b2e-e48e-4a72-984a-6c504572c405",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "07",
+        "13"
+      ],
+      "skills": [
+        "Agent",
+        "工具调用",
+        "Agent 评测",
+        "GPU 调度",
+        "Kubernetes",
+        "分布式系统",
+        "GPU 集群",
+        "评测体系",
+        "Go"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括Agent、工具调用、Agent 评测、GPU 调度、Kubernetes。"
+      ],
+      "requirements": [
+        "经验年限涉及 3 年以上、1 年以上。",
+        "要求涉及分布式系统、GPU 集群、Kubernetes、Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-05-12"
+    },
+    {
+      "id": "JOB1082",
+      "title": "后训练算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/893630a7-28a5-4aac-bbe2-3a4e2ef8a354",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "后训练",
+        "推理能力",
+        "强化学习",
+        "奖励模型",
+        "计算机视觉",
+        "Transformer",
+        "NLP",
+        "机器学习",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括推理能力、强化学习、后训练、奖励模型。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及计算机视觉、Transformer、NLP、机器学习、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-05-12"
+    },
+    {
+      "id": "JOB1083",
+      "title": "预训练算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/ee83e8a4-4b15-483f-935d-65954b40dd34",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "数据合成",
+        "评测体系",
+        "NLP",
+        "机器学习",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括预训练、数据合成。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及NLP、机器学习、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 分布式训练、训练框架、算子开发。"
+      ],
+      "published": "2026-05-12"
+    },
+    {
+      "id": "JOB1084",
+      "title": "27届实习-多模态算法实习生",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/4f6b6ce5-c1ac-4502-a180-5fb156f2802b",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "03"
+      ],
+      "skills": [
+        "多模态",
+        "预训练",
+        "微调",
+        "模型对齐",
+        "AI 对齐",
+        "数据合成",
+        "视频理解",
+        "Transformer"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、预训练、微调、模型对齐、AI 对齐。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士或博士。",
+        "要求涉及多模态、视频理解、Transformer。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-04-02"
+    },
+    {
+      "id": "JOB1085",
+      "title": "27届GLM算法研究员(推理/规划/Agent方向)",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/4bcfe8c8-340a-47ae-b0f5-53b57c7b42f1",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "04"
+      ],
+      "skills": [
+        "Agent",
+        "代码生成",
+        "工具调用",
+        "任务规划",
+        "强化学习",
+        "数据合成",
+        "Transformer"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、代码生成、工具调用、任务规划、强化学习。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士或博士。",
+        "要求涉及Transformer。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 分布式训练、训练框架。"
+      ],
+      "published": "2026-10-14"
+    },
+    {
+      "id": "JOB1086",
+      "title": "GLM-Code Agent算法评测工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/174e77d8-7bc5-4e4f-b60c-4015d8b4db3f",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "13"
+      ],
+      "skills": [
+        "代码生成",
+        "Agent 评测",
+        "评测体系",
+        "自动化评测",
+        "模型对齐",
+        "上下文管理",
+        "任务规划",
+        "工具调用",
+        "多轮对话"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括代码生成、自动化评测、模型对齐、上下文管理、Agent 评测。"
+      ],
+      "requirements": [
+        "要求涉及任务规划、工具调用、上下文管理、多轮对话、对话系统、评测体系、Agent 运行时。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent 运行时、自动化评测、代码生成、Agent、后训练。"
+      ],
+      "published": "2026-11-09"
+    },
+    {
+      "id": "JOB1087",
+      "title": "Agent Infra 开发工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/392db0f2-6542-4a5a-ad7d-451a4486576e",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "07",
+        "04",
+        "13"
+      ],
+      "skills": [
+        "Agent",
+        "强化学习",
+        "工具调用",
+        "Agent 评测",
+        "Rust",
+        "评测体系",
+        "机器学习",
+        "TypeScript",
+        "集合通信"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括强化学习、Agent、工具调用、Agent 评测。"
+      ],
+      "requirements": [
+        "要求涉及Rust、TypeScript、集合通信、Agent、强化学习、Go、Linux。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Kubernetes、分布式系统、Ray、GPU 集群、GPU 调度。"
+      ],
+      "published": "2026-09-02"
+    },
+    {
+      "id": "JOB1088",
+      "title": "模型代码后训练算法工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/social-recruitment/zphz/148983#/job/0a60f265-05cb-431d-8e5f-4f449d7dfde3",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "后训练",
+        "基础模型",
+        "代码生成",
+        "Agent",
+        "SFT",
+        "微调"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括基础模型、代码生成、Agent、后训练。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及SFT、微调、代码生成。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 代码生成、Agent、预训练、SFT、强化学习。"
+      ],
+      "published": "2026-05-12"
+    },
+    {
+      "id": "JOB1089",
+      "title": "27届GLM-Image算法实习生/工程师",
+      "company": "智谱（Z.ai）",
+      "company_key": "智谱",
+      "url": "https://app.mokahr.com/campus-recruitment/zphz/148984#/job/37bc80e8-ac5b-4086-8c1f-f9943c934480",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "04"
+      ],
+      "skills": [
+        "多模态",
+        "强化学习",
+        "RLHF",
+        "优化算法",
+        "模型量化",
+        "DeepSpeed",
+        "扩散模型",
+        "量化",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、强化学习、RLHF、优化算法、模型量化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及DeepSpeed、扩散模型、机器学习、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 分布式训练、训练框架。"
+      ],
+      "published": "2026-10-14"
+    },
+    {
+      "id": "JOB1090",
+      "title": "【校招】LLM推理优化工程师",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/d5c86bcc-3d38-4e85-8161-01c9f3fdce49",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "推理优化",
+        "模型量化",
+        "投机解码",
+        "分布式系统",
+        "分布式训练",
+        "训练框架",
+        "Megatron",
+        "vLLM",
+        "SGLang"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括模型量化、投机解码、推理优化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及分布式系统、分布式训练、训练框架、Megatron、vLLM、SGLang、量化。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 算子开发。"
+      ],
+      "published": "2026-08-14"
+    },
+    {
+      "id": "JOB1091",
+      "title": "强化学习-大模型算法工程师/研究员(RL方向 校招)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/8bb1d380-465f-4e21-8d9f-4cd37617d3a3",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "强化学习",
+        "推理能力",
+        "Agent",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括强化学习、推理能力、Agent。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有研究生以上学历。",
+        "要求涉及强化学习、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-12-23"
+    },
+    {
+      "id": "JOB1092",
+      "title": "【校招】大模型算法研究员/工程师(预训练)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/e3a6bf00-f9bd-4daa-a03a-f965220c6bf1",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "15",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "训练并行",
+        "优化算法",
+        "训练框架",
+        "数据合成",
+        "数据质量",
+        "评测体系",
+        "NLP",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括训练并行、优化算法、训练框架、预训练、数据合成。"
+      ],
+      "requirements": [
+        "要求涉及预训练、NLP、深度学习、PyTorch。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-08-14"
+    },
+    {
+      "id": "JOB1093",
+      "title": "大模型安全研究与攻防能力研究员(实习&校招)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/b7397bf2-6db7-4852-b71c-d3b4561b4bec",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13",
+        "03",
+        "04"
+      ],
+      "skills": [
+        "模型安全",
+        "基础模型",
+        "预训练",
+        "后训练",
+        "强化学习",
+        "Scaling Law",
+        "数据合成",
+        "模型量化",
+        "Rust"
+      ],
+      "responsibilities": [
+        "工作涉及风控或模型安全，包括基础模型、预训练、后训练、强化学习、模型安全。"
+      ],
+      "requirements": [
+        "要求涉及数据合成、量化、模型量化、评测体系、模型安全、Rust、Linux。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "JOB1094",
+      "title": "Coding Agent 研发工程师|Kimi Code",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/82f07bb3-8bdc-4714-805f-43b1a22c238f",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "代码生成",
+        "Agent",
+        "任务规划",
+        "工具调用",
+        "工作流",
+        "上下文管理",
+        "长期记忆",
+        "Rust",
+        "MCP"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括代码生成、Agent、任务规划、工具调用、工作流。"
+      ],
+      "requirements": [
+        "要求涉及TypeScript、Rust、工具调用、任务规划、Agent、上下文管理、MCP。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent、模型评测、用户反馈、Agent 评测、工作流。"
+      ],
+      "published": "2026-06-30"
+    },
+    {
+      "id": "JOB1095",
+      "title": "机器学习平台工程师(Kubernetes / GPU 基础设施方向)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/f3ffa7f1-2f58-4cec-ab31-35e70990908f",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "07"
+      ],
+      "skills": [
+        "Kubernetes",
+        "机器学习",
+        "工作流",
+        "分布式系统",
+        "MLOps",
+        "Go",
+        "Linux"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括Kubernetes、工作流。"
+      ],
+      "requirements": [
+        "经验年限涉及 3 年以上。",
+        "要求涉及分布式系统、Kubernetes、Go、Linux。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Kubernetes、GPU 调度、内存优化、GPU 集群。"
+      ],
+      "published": "2026-05-27"
+    },
+    {
+      "id": "JOB1096",
+      "title": "强化学习-大模型研发工程师/研究员(AI Engineer/Researcher - RL)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/2046b627-c20c-4e83-b6fe-c4269ce40eab",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "强化学习",
+        "推理能力",
+        "Agent",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括强化学习、推理能力、Agent。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有研究生以上学历。",
+        "要求涉及强化学习、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-04-24"
+    },
+    {
+      "id": "JOB1097",
+      "title": "大模型算法工程师(数据方向)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/9a3b3788-9a29-4408-9bcf-6aaeac705916",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "数据配比",
+        "数据合成",
+        "Ray",
+        "Spark",
+        "评测体系",
+        "JAX",
+        "机器学习",
+        "NLP"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括预训练、数据配比、数据合成、Ray、Spark。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及预训练、JAX、Ray、评测体系、机器学习、NLP、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 预训练、继续预训练、基础模型、数据配比、数据合成。"
+      ],
+      "published": "2026-02-26"
+    },
+    {
+      "id": "JOB1098",
+      "title": "大模型安全研究与攻防能力专家",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/e2853221-b996-4553-b0b1-36badd227ed3",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13",
+        "03",
+        "04"
+      ],
+      "skills": [
+        "模型安全",
+        "基础模型",
+        "预训练",
+        "后训练",
+        "强化学习",
+        "Scaling Law",
+        "数据合成",
+        "模型量化",
+        "Rust"
+      ],
+      "responsibilities": [
+        "工作涉及风控或模型安全，包括基础模型、预训练、后训练、强化学习、模型安全。"
+      ],
+      "requirements": [
+        "要求涉及数据合成、量化、模型量化、评测体系、模型安全、Rust、Linux。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "JOB1099",
+      "title": "AI Search Builder",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/1bf60e6b-0aec-49ad-9661-225524686fb0",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "search",
+      "topics": [
+        "16",
+        "06",
+        "20",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "用户增长",
+        "在线实验",
+        "召回",
+        "用户反馈",
+        "查询理解",
+        "RAG",
+        "工具调用",
+        "评测体系",
+        "SQL"
+      ],
+      "responsibilities": [
+        "工作涉及搜索和检索系统，包括用户增长、在线实验、召回、用户反馈、查询理解。"
+      ],
+      "requirements": [
+        "要求涉及召回、查询理解、RAG、工具调用、评测体系、SQL。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent、用户反馈、多模态。"
+      ],
+      "published": "2026-10-21"
+    },
+    {
+      "id": "JOB1100",
+      "title": "Coding Agent 研发实习生|Kimi Code",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/67d863ac-8854-4b26-b167-79ea6bef55b0",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "代码生成",
+        "Agent",
+        "任务规划",
+        "工具调用",
+        "工作流",
+        "上下文管理",
+        "长期记忆",
+        "Rust",
+        "MCP"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括代码生成、Agent、任务规划、工具调用、工作流。"
+      ],
+      "requirements": [
+        "要求涉及TypeScript、Rust、工具调用、任务规划、Agent、上下文管理、MCP。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent、模型评测、用户反馈、Agent 评测、工作流。"
+      ],
+      "published": "2026-10-22"
+    },
+    {
+      "id": "JOB1101",
+      "title": "AI Infra实习生",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/1a00897e-cc2c-460f-920e-ccda9144cac0",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "上海",
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "03",
+        "04"
+      ],
+      "skills": [
+        "预训练",
+        "强化学习",
+        "推理优化",
+        "分布式系统",
+        "C++"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括预训练、强化学习、推理优化。"
+      ],
+      "requirements": [
+        "经验年限涉及 3 年以上。",
+        "要求涉及分布式系统、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-04-28"
+    },
+    {
+      "id": "JOB1102",
+      "title": "AI Agent Eval实习生",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/9e43aafe-32e5-4864-a02e-3b5b26e18533",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "Agent",
+        "Agent 评测",
+        "多智能体",
+        "模型量化",
+        "模型评测",
+        "工作流",
+        "评测体系",
+        "量化"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括Agent、Agent 评测、多智能体、模型量化、模型评测。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上。",
+        "要求涉及工作流。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent、Agent 评测。"
+      ],
+      "published": "2026-03-05"
+    },
+    {
+      "id": "JOB1103",
+      "title": "大语言模型架构实习生(预训练方向)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/a260f057-ffc1-40a3-9089-82ea52ab2725",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "15"
+      ],
+      "skills": [
+        "预训练",
+        "训练并行",
+        "优化算法",
+        "模型量化",
+        "Scaling Law",
+        "CUDA",
+        "算子开发",
+        "量化",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括训练并行、优化算法、模型量化、Scaling Law、预训练。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及CUDA、算子开发、深度学习、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-01-16"
+    },
+    {
+      "id": "JOB1104",
+      "title": "【校招】训练框架工程师",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/5394cb50-a207-4504-896d-ea1b33c1455b",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "训练框架",
+        "CUDA",
+        "机器学习",
+        "PyTorch"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括训练框架。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及CUDA、PyTorch、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-08-14"
+    },
+    {
+      "id": "JOB1105",
+      "title": "Kimi Agent 全栈算法工程师",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/2317bc92-2010-45de-a41e-feec91eeebfe",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "12",
+        "04"
+      ],
+      "skills": [
+        "Agent",
+        "多模态",
+        "SFT",
+        "微调",
+        "模型对齐",
+        "AI 对齐",
+        "RLHF",
+        "强化学习",
+        "Megatron"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括多模态、Agent、SFT、微调、模型对齐。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有统招本科及以上学历。",
+        "要求涉及强化学习、Megatron、DeepSpeed、Agent、Python、Go、Java。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent。"
+      ],
+      "published": "2025-11-10"
+    },
+    {
+      "id": "JOB1106",
+      "title": "AI Infra SRE 工程师",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/41901441-ace5-4297-9275-e2d93fae645e",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "Kubernetes",
+        "分布式系统",
+        "Rust",
+        "Go",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括Kubernetes。"
+      ],
+      "requirements": [
+        "经验年限涉及 3 年以上。",
+        "要求涉及分布式系统、Kubernetes、Rust、Go、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "JOB1107",
+      "title": "大模型Eval评测(工程方向/产品方向)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/965b7d3d-35e7-400f-a372-4a934a7f336b",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "评测体系",
+        "模型评测",
+        "强化学习",
+        "Python",
+        "Go",
+        "Java",
+        "C++",
+        "SQL"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括模型评测。"
+      ],
+      "requirements": [
+        "要求涉及强化学习、评测体系、Python、Go、Java、C++、SQL。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-05-17"
+    },
+    {
+      "id": "JOB1108",
+      "title": "大模型算法研究员/工程师(预训练)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/4fd44b4b-17f0-4a5b-bbd6-2b4b0d6e9b57",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "15",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "训练并行",
+        "优化算法",
+        "训练框架",
+        "数据合成",
+        "数据质量",
+        "评测体系",
+        "NLP",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括训练并行、优化算法、训练框架、预训练、数据合成。"
+      ],
+      "requirements": [
+        "要求涉及预训练、NLP、深度学习、PyTorch。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-02-06"
+    },
+    {
+      "id": "JOB1109",
+      "title": "Agent Product Builder & Strategy Intern",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/50596607-03f8-49c7-b2f3-a273fdca2361",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "13"
+      ],
+      "skills": [
+        "Agent",
+        "用户反馈",
+        "工具调用",
+        "上下文管理",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、用户反馈。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Agent、工具调用、上下文管理。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 模型评测。"
+      ],
+      "published": "2026-11-03"
+    },
+    {
+      "id": "JOB1110",
+      "title": "语言大模型架构/优化/scaling实习生",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/dad560d0-433c-48e9-8785-7433d9f27290",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "优化器",
+        "训练框架",
+        "GPU 集群",
+        "推理优化",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括优化器、训练框架、GPU 集群。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及优化器、推理优化、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 CUDA、算子开发、优化器。"
+      ],
+      "published": "2025-11-03"
+    },
+    {
+      "id": "JOB1111",
+      "title": "模型后训练Webdev-3D/Games Intern",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/08315641-fc42-4ca2-85df-5170f177f166",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "后训练",
+        "基础模型",
+        "Agent",
+        "代码生成",
+        "SFT",
+        "强化学习",
+        "自动化评测",
+        "Agent 运行时",
+        "上下文管理"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括基础模型、Agent、后训练、代码生成、SFT。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上。",
+        "要求涉及后训练、代码生成、Agent、工具调用、上下文管理、多轮对话、对话系统。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 工作流、SFT、强化学习、Agent、Agent 评测。"
+      ],
+      "published": "2026-10-29"
+    },
+    {
+      "id": "JOB1112",
+      "title": "资深Agent研发工程师",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/5c611c15-1359-4e25-8748-111ff25c8e88",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "工作流",
+        "工具调用",
+        "MCP",
+        "Kubernetes",
+        "Go",
+        "Linux"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、工作流。"
+      ],
+      "requirements": [
+        "要求涉及Agent、工具调用、MCP、Kubernetes、Go、Linux。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-10-20"
+    },
+    {
+      "id": "JOB1113",
+      "title": "AI infra 推理工程师",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/b02f45c4-a361-4746-9e5c-49fe256cb530",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "上海",
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "07"
+      ],
+      "skills": [
+        "工作流",
+        "Rust",
+        "分布式系统",
+        "Go"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括工作流。"
+      ],
+      "requirements": [
+        "要求涉及Rust、分布式系统、Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-04-18"
+    },
+    {
+      "id": "JOB1114",
+      "title": "大语言模型架构研究员(预训练方向)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/858cfc50-0778-4de6-9e94-881d30dd2ff8",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "15"
+      ],
+      "skills": [
+        "预训练",
+        "训练并行",
+        "优化算法",
+        "模型量化",
+        "Scaling Law",
+        "CUDA",
+        "算子开发",
+        "量化",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括训练并行、优化算法、模型量化、Scaling Law、预训练。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及CUDA、算子开发、深度学习、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-02-05"
+    },
+    {
+      "id": "JOB1115",
+      "title": "大模型强化学习研发实习生(Intern - RL)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/4621a0bb-0317-4b68-9971-08960a068149",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "强化学习",
+        "推理能力",
+        "Agent",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括强化学习、推理能力、Agent。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有研究生以上学历。",
+        "要求涉及强化学习、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-07-15"
+    },
+    {
+      "id": "JOB1116",
+      "title": "Vertical Domain Owner, Kimi Agent(垂直领域产品业务负责人)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/d8fd3980-8a73-4b59-b0f4-4bdead3b77b9",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "13"
+      ],
+      "skills": [
+        "Agent",
+        "用户建模",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、用户建模。"
+      ],
+      "requirements": [
+        "要求涉及Agent。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent。"
+      ],
+      "published": "2026-09-02"
+    },
+    {
+      "id": "JOB1117",
+      "title": "LLM推理优化工程师",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/54418560-f04e-434c-aa62-016f38848d8f",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "推理优化",
+        "模型量化",
+        "投机解码",
+        "分布式系统",
+        "分布式训练",
+        "训练框架",
+        "Megatron",
+        "vLLM",
+        "SGLang"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括模型量化、投机解码、推理优化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "经验年限涉及 3 年以上。",
+        "要求涉及分布式系统、分布式训练、训练框架、Megatron、vLLM、SGLang、量化。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 算子开发。"
+      ],
+      "published": "2026-04-01"
+    },
+    {
+      "id": "JOB1118",
+      "title": "VLM预训练研究员-视频方向",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/66f55512-a0b6-4555-8c2f-4b299e41ed74",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "12",
+        "04"
+      ],
+      "skills": [
+        "预训练",
+        "视觉语言模型",
+        "视频理解",
+        "强化学习",
+        "PPO",
+        "Transformer",
+        "机器学习",
+        "Python",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括视觉语言模型、预训练、视频理解、强化学习。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有研究生及以上学历。",
+        "要求涉及强化学习、PPO、Transformer、机器学习、Python、深度学习、PyTorch。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-07-24"
+    },
+    {
+      "id": "JOB1119",
+      "title": "Kimi Agent Eval 专家招募(金融/审计方向)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507#/job/e45fe698-18e5-468e-97bf-315305172df2",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "Agent 评测",
+        "评测体系",
+        "Agent",
+        "模型评测"
+      ],
+      "responsibilities": [
+        "参与Agent 评测、评测体系相关研究或研发。"
+      ],
+      "requirements": [
+        "学历条件包括研究生及以上。",
+        "要求涉及评测体系、Agent、Agent 评测、模型评测。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-08-24"
+    },
+    {
+      "id": "JOB1120",
+      "title": "资深后端研发工程师(Agent 业务场景方向)",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/245994ba-9e07-4b0e-b42d-cd4da42771e0",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "Kubernetes",
+        "Go"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent。"
+      ],
+      "requirements": [
+        "要求涉及Kubernetes、Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-08-10"
+    },
+    {
+      "id": "JOB1121",
+      "title": "Infra 系统工程师 - 训练平台",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/a015efdd-c9b6-4ff3-a1db-bec6add13a48",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "Kubernetes",
+        "GPU 集群",
+        "Go"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括Kubernetes。"
+      ],
+      "requirements": [
+        "要求涉及Kubernetes、GPU 集群、Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2026-04-01"
+    },
+    {
+      "id": "JOB1122",
+      "title": "Infra 系统工程师 - 推理系统",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/4feaed35-160e-4305-a091-a6f5dd3b4a7f",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "07"
+      ],
+      "skills": [
+        "工作流",
+        "Rust",
+        "分布式系统",
+        "Go"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括工作流。"
+      ],
+      "requirements": [
+        "要求涉及Rust、分布式系统、Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-02-24"
+    },
+    {
+      "id": "JOB1123",
+      "title": "训练框架工程师",
+      "company": "月之暗面（Kimi）",
+      "company_key": "月之暗面",
+      "url": "https://app.mokahr.com/apply/moonshot/148506#/job/97a249cf-42fd-44dc-bf58-b47f74af2dba",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "训练框架",
+        "CUDA",
+        "机器学习",
+        "PyTorch"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括训练框架。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及CUDA、PyTorch、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-02-07"
+    },
+    {
+      "id": "JOB1124",
+      "title": "大模型全栈工程师",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/01416da2-3c8a-4a20-bbb3-1c925d0facf1",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "03",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "后训练",
+        "Agent",
+        "工具调用",
+        "Agent 评测",
+        "模型评测",
+        "评测体系",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括预训练、后训练、Agent、工具调用、Agent 评测。"
+      ],
+      "requirements": [
+        "要求涉及预训练、后训练、Agent、Agent 评测、模型评测、评测体系、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "DeepSeek 官方招聘页含岗位说明和投递链接。",
+      "team": "深度学习"
+    },
+    {
+      "id": "JOB1125",
+      "title": "AI 平台运维工程师",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/b48bdca9-742f-44f1-bde8-5c4e9b953f31",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "杭州"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "GPU 集群",
+        "GPU 调度",
+        "训练容错",
+        "继续预训练",
+        "模型服务",
+        "内存优化",
+        "并行通信",
+        "Kubernetes",
+        "集合通信"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括GPU 集群、GPU 调度、训练容错、继续预训练、模型服务。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Python、Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "DeepSeek 官方招聘页含岗位说明和投递链接。",
+      "team": "运维"
+    },
+    {
+      "id": "JOB1126",
+      "title": "预训练数据工程师",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/8a4c2868-599d-40db-be4d-ab58eec5d7e1",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "12",
+        "06",
+        "05"
+      ],
+      "skills": [
+        "预训练",
+        "多模态",
+        "数据清洗",
+        "RAG",
+        "推理优化",
+        "训练容错",
+        "Rust",
+        "Python",
+        "C++"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括预训练、多模态、数据清洗、RAG、推理优化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Rust、Python、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "DeepSeek 官方招聘页含岗位说明和投递链接。",
+      "team": "全栈开发/算法",
+      "preferred": [
+        "加分项涉及 预训练、数据清洗、多模态、隐私保护、内容理解。"
+      ]
+    },
+    {
+      "id": "JOB1127",
+      "title": "Agent 弹性计算研发工程师",
+      "company": "DeepSeek（深度求索）",
+      "company_key": "DeepSeek",
+      "url": "https://talent.deepseek.com/job/bae809fb-1978-4401-b209-34067b26569d",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "杭州"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "Rust",
+        "数据挖掘",
+        "分布式系统",
+        "C++",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Rust、数据挖掘、分布式系统、C++、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "DeepSeek 官方招聘页含岗位说明和投递链接。",
+      "team": "全栈开发/算法",
+      "preferred": [
+        "加分项涉及 内存优化、Agent、Rust、强化学习、具身智能。"
+      ]
+    },
+    {
+      "id": "JOB1128",
+      "title": "大模型算法工程师-应届生-TOP Talent",
+      "company": "MiniMax（稀宇科技）",
+      "company_key": "MiniMax",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/m/position/7497096058259884307/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "多模态",
+        "视频生成",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及多模态、视频生成、机器学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1129",
+      "title": "声音生成算法工程师-2027届",
+      "company": "MiniMax（稀宇科技）",
+      "company_key": "MiniMax",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/m/position/7573988660926105902/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "speech",
+      "topics": [
+        "22",
+        "12"
+      ],
+      "skills": [
+        "机器学习",
+        "TTS",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及机器学习。"
+      ],
+      "requirements": [
+        "公开要求提到TTS、机器学习、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1130",
+      "title": "大模型效率研究员-模型结构方向",
+      "company": "MiniMax（稀宇科技）",
+      "company_key": "MiniMax",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7694583567699446026/detail",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "分布式训练",
+        "MoE",
+        "量化",
+        "模型量化",
+        "内存优化",
+        "Transformer",
+        "训练并行",
+        "推理优化"
+      ],
+      "responsibilities": [
+        "官网摘要涉及分布式训练、MoE、量化、模型量化、内存优化。"
+      ],
+      "requirements": [
+        "公开要求提到Transformer、MoE、内存优化、训练并行、推理优化、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1131",
+      "title": "大模型算法工程师-Midtrain Agentic数据方向-日常实习",
+      "company": "MiniMax（稀宇科技）",
+      "company_key": "MiniMax",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7700908077414926618/detail",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "继续预训练",
+        "Ray",
+        "预训练",
+        "数据配比",
+        "长上下文"
+      ],
+      "responsibilities": [
+        "官网摘要涉及继续预训练、Ray、预训练、数据配比、长上下文。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1132",
+      "title": "大模型推理研发实习生",
+      "company": "MiniMax（稀宇科技）",
+      "company_key": "MiniMax",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7637054653180021038/detail",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "长上下文",
+        "多模态",
+        "Agent",
+        "算子开发",
+        "推理优化"
+      ],
+      "responsibilities": [
+        "官网摘要涉及长上下文、多模态、Agent、算子开发、推理优化。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1133",
+      "title": "大模型算法工程师-2028届实习",
+      "company": "MiniMax（稀宇科技）",
+      "company_key": "MiniMax",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/m/position/7674980747073095986/detail",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "视觉语言模型",
+        "预训练",
+        "后训练",
+        "Agent",
+        "长上下文"
+      ],
+      "responsibilities": [
+        "官网摘要涉及视觉语言模型、预训练、后训练、Agent、长上下文。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1134",
+      "title": "推荐算法实习生-talkie星野",
+      "company": "MiniMax（稀宇科技）",
+      "company_key": "MiniMax",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/m/position/7673498877026814258/detail",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "recommendation",
+      "topics": [
+        "18",
+        "19"
+      ],
+      "skills": [
+        "推荐系统",
+        "召回",
+        "排序建模",
+        "用户增长",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及推荐系统、召回、排序建模、用户增长、机器学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1135",
+      "title": "大模型工程师-RL框架&RL推理-日常实习",
+      "company": "MiniMax（稀宇科技）",
+      "company_key": "MiniMax",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7683006384095807798/detail",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "强化学习",
+        "多轮对话",
+        "对话系统",
+        "工具调用",
+        "推理优化"
+      ],
+      "responsibilities": [
+        "官网摘要涉及强化学习、多轮对话、对话系统、工具调用、推理优化。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1136",
+      "title": "Ai infra 实习生",
+      "company": "MiniMax（稀宇科技）",
+      "company_key": "MiniMax",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7695778489962563903/detail",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "后训练",
+        "评测体系",
+        "多模态",
+        "模型评测"
+      ],
+      "responsibilities": [
+        "官网摘要涉及后训练、评测体系、多模态、模型评测。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1137",
+      "title": "研究员(大模型智能体)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/0ce7dff2-ad9f-4149-a5f5-7ed0f65d3741",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "任务规划",
+        "工具调用",
+        "多轮对话",
+        "对话系统",
+        "RAG",
+        "工作流",
+        "多智能体",
+        "长期记忆"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、任务规划、工具调用、多轮对话、对话系统。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有研究生以上学历。",
+        "要求涉及工具调用、RAG、向量表征、vLLM、Transformer、向量检索、Agent。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "信息检索与知识计算组",
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1138",
+      "title": "研究员(Scientist AI)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/13706229-ac4f-4d58-9a8a-f0f43a05730a",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "applied_ml",
+      "topics": [
+        "02",
+        "13"
+      ],
+      "skills": [
+        "语料构建",
+        "模型评测",
+        "RAG",
+        "工具调用",
+        "多智能体",
+        "Agent"
+      ],
+      "responsibilities": [
+        "参与语料构建、模型评测相关研究或研发。"
+      ],
+      "requirements": [
+        "学历条件包括博士。",
+        "要求涉及RAG、工具调用、多智能体、Agent。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "健康计算研究中心",
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1139",
+      "title": "研究员(AI系统与基础模型)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/c0876010-c025-4022-b42a-601558a1487d",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "12"
+      ],
+      "skills": [
+        "基础模型",
+        "多模态",
+        "扩散模型",
+        "图学习",
+        "Scaling Law",
+        "数据合成",
+        "分布式训练",
+        "CUDA",
+        "Megatron"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括基础模型、多模态、扩散模型、图学习、Scaling Law。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有博士。",
+        "要求涉及JAX、CUDA、Megatron、Python、C++、PyTorch。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "健康计算研究中心",
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1140",
+      "title": "研究员(具身世界模型)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/a2451cd1-271f-47bc-bf82-e4dd5152bde3",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "04"
+      ],
+      "skills": [
+        "世界模型",
+        "具身智能",
+        "数据质量",
+        "强化学习",
+        "视觉语言模型",
+        "模型评测",
+        "多模态",
+        "评测体系",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括具身智能、数据质量、强化学习、视觉语言模型、世界模型。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及强化学习、多模态、具身智能、视觉语言模型、世界模型、Python、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "具身系统研究组",
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1141",
+      "title": "研究员(AI安全方向-具身智能)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/c5da137c-b700-4f42-8fa0-ce3ad3554f31",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13",
+        "12"
+      ],
+      "skills": [
+        "具身智能",
+        "世界模型",
+        "视觉语言模型",
+        "VLA",
+        "模型安全",
+        "训练框架",
+        "扩散模型",
+        "视频生成",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及风控或模型安全，包括世界模型、视觉语言模型、VLA、具身智能、模型安全。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及扩散模型、视频生成、视觉语言模型、世界模型、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "可信AI安全研究组",
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1142",
+      "title": "大模型训练优化开发工程师",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/social-recruitment/baai/42173#/job/adc232cf-320a-4a7e-8203-e565cf245e24",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "04"
+      ],
+      "skills": [
+        "微调",
+        "模型对齐",
+        "AI 对齐",
+        "强化学习",
+        "RLHF",
+        "DeepSpeed",
+        "分布式训练",
+        "C++"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括微调、模型对齐、AI 对齐、强化学习、RLHF。"
+      ],
+      "requirements": [
+        "经验年限涉及 2 年以上。",
+        "要求涉及DeepSpeed、分布式训练、微调、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-09-12"
+    },
+    {
+      "id": "JOB1143",
+      "title": "具身智能算法工程师/研究员(VLA&运动控制方向)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/social-recruitment/baai/42173#/job/9ac4d7f7-6943-4534-95cf-69c33b053ab5",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "04"
+      ],
+      "skills": [
+        "具身智能",
+        "VLA",
+        "动作策略",
+        "基础模型",
+        "多模态",
+        "强化学习",
+        "扩散模型",
+        "世界模型",
+        "模型评测"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括具身智能、VLA、基础模型、多模态、强化学习。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及动作策略、具身智能、VLA、基础模型、世界模型、强化学习、扩散模型。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 具身智能、基础模型、多模态、GPU 集群、FSDP。"
+      ],
+      "published": "2026-08-06"
+    },
+    {
+      "id": "JOB1144",
+      "title": "大模型安全算法研究员",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/social-recruitment/baai/42173#/job/26b00c10-dc86-43e9-b8fb-8e4b4c85c28a",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13",
+        "04"
+      ],
+      "skills": [
+        "模型安全",
+        "风险识别",
+        "RLHF",
+        "自动化评测",
+        "评测体系",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及风控或模型安全，包括模型安全、风险识别、RLHF、自动化评测。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及模型安全、风险识别、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-08-22"
+    },
+    {
+      "id": "JOB1145",
+      "title": "研究实习生(大模型算子库开发)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/9de45ed1-5c30-4b2d-83d4-a776858dc3d5",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "算子开发",
+        "Triton",
+        "CUDA",
+        "vLLM",
+        "SGLang",
+        "PyTorch",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括算子开发。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及算子开发、Triton、CUDA、vLLM、SGLang、PyTorch、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "AI系统研究组",
+      "preferred": [
+        "加分项涉及 算子开发、编译优化、vLLM、SGLang。"
+      ],
+      "published": "2026-06-22"
+    },
+    {
+      "id": "JOB1146",
+      "title": "研究员(具身大模型算法)(预入职实习岗位)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/2834f92a-1581-42e5-a55d-cbd470e77812",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "03"
+      ],
+      "skills": [
+        "具身智能",
+        "VLA",
+        "多模态",
+        "基础模型",
+        "视觉语言模型",
+        "时序建模",
+        "预训练",
+        "数据配比",
+        "Scaling Law"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括具身智能、VLA、多模态、基础模型、视觉语言模型。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及Transformer、多模态、扩散模型、VLA、世界模型、强化学习、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "多模态大模型研究中心",
+      "preferred": [
+        "加分项涉及 VLA、世界模型、多模态、基础模型、扩散模型。"
+      ],
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1147",
+      "title": "大模型算法实习生(精度对齐方向)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/b8f45fa7-2ca4-4b56-9735-42596cc98258",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "05"
+      ],
+      "skills": [
+        "算子开发",
+        "CUDA",
+        "vLLM",
+        "模型量化",
+        "内存优化",
+        "KV Cache",
+        "Transformer",
+        "评测体系",
+        "量化"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括算子开发、CUDA、vLLM、模型量化。"
+      ],
+      "requirements": [
+        "要求涉及vLLM、内存优化、KV Cache、算子开发、Transformer、评测体系、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "系统与平台部",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "JOB1148",
+      "title": "研究员(智能体-评测)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/6ca776a7-96aa-41a8-8db6-783d45053876",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "13",
+        "12"
+      ],
+      "skills": [
+        "Agent",
+        "评测体系",
+        "Agent 评测",
+        "工具调用",
+        "自动化评测",
+        "模型安全",
+        "多模态",
+        "Python",
+        "Java"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、Agent 评测。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及工具调用、评测体系、自动化评测、模型安全、多模态、Python、Java。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "智能评测组",
+      "preferred": [
+        "加分项涉及 Agent。"
+      ],
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1149",
+      "title": "工程师(AI编译器)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/6c9dd80c-2309-44ab-9d76-d111bdd95a08",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "编译优化",
+        "代码生成",
+        "Triton",
+        "C++",
+        "Python",
+        "深度学习",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括编译优化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及编译优化、代码生成、Triton、C++、Python、深度学习、TensorFlow。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "AI系统研究组",
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1150",
+      "title": "研究员(世界模型-评测)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/8b1b45ac-7589-42a3-9bcf-14c954e7c4c2",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "世界模型",
+        "评测体系",
+        "任务规划",
+        "模型评测",
+        "Python",
+        "C++",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括世界模型、任务规划、模型评测。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及世界模型、Python、C++、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "智能评测组",
+      "preferred": [
+        "加分项涉及 具身智能。"
+      ],
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1151",
+      "title": "研究员(AI安全方向-网络对抗)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/132a77a8-3fd7-4e11-9e19-089ac2dc64bb",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "Agent",
+        "任务规划",
+        "工具调用"
+      ],
+      "responsibilities": [
+        "工作涉及风控或模型安全，包括Agent、任务规划、工具调用。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及工具调用、Agent。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "可信AI安全研究组",
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1152",
+      "title": "大模型推理优化工程师",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/social-recruitment/baai/42173#/job/ed38775b-6914-4290-b5e3-646451eb9a64",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "推理优化",
+        "算子开发",
+        "模型服务",
+        "TensorRT",
+        "C++"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括算子开发、模型服务、推理优化。"
+      ],
+      "requirements": [
+        "要求涉及TensorRT、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-09-08"
+    },
+    {
+      "id": "JOB1153",
+      "title": "大模型领域研究员(PI)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/social-recruitment/baai/42173#/job/63951d03-65a9-4e16-84f9-4285665032a0",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "07",
+        "21",
+        "04"
+      ],
+      "skills": [
+        "多模态",
+        "3D 重建",
+        "具身智能",
+        "Agent",
+        "风险识别",
+        "模型安全",
+        "隐私保护",
+        "强化学习",
+        "RLHF"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、3D 重建、具身智能、Agent、风险识别。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有博士。",
+        "经验年限涉及 5 年以上。",
+        "要求涉及强化学习、RLHF、多模态、预训练、SFT、推理优化、具身智能。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-08-22"
+    },
+    {
+      "id": "JOB1154",
+      "title": "研究实习生(AI编译器方向)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/e9e71fc6-8d66-4d72-a1cb-4c496286a31c",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "13"
+      ],
+      "skills": [
+        "编译优化",
+        "算子开发",
+        "评测体系",
+        "Python",
+        "C++",
+        "TensorFlow",
+        "PyTorch",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括算子开发、编译优化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及评测体系、Python、C++、TensorFlow、PyTorch、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "AI系统研究组",
+      "preferred": [
+        "加分项涉及 Triton、CUDA、算子开发、编译优化。"
+      ],
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1155",
+      "title": "具身智能算法研究实习生",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/be5d5914-3748-4d5c-9ce8-1d577da992ce",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "04",
+        "21"
+      ],
+      "skills": [
+        "具身智能",
+        "动作策略",
+        "强化学习",
+        "风险识别",
+        "Python",
+        "PyTorch",
+        "C++"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括具身智能、动作策略、强化学习、风险识别。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上。",
+        "要求涉及具身智能、Python、PyTorch、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "具身多模态大模型与系统研究中心",
+      "published": "2026-10-29"
+    },
+    {
+      "id": "JOB1156",
+      "title": "工程师(Kernel Agent平台研发)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/d344d2e2-07d6-4bab-8ea6-8af9fe7a63fb",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "多智能体",
+        "任务规划",
+        "上下文管理",
+        "算子开发",
+        "编译优化",
+        "工作流",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、多智能体、任务规划、上下文管理、算子开发。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "经验年限涉及 2 年以上相关研发经验。",
+        "要求涉及Agent、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "系统智能研究组",
+      "preferred": [
+        "加分项涉及 多智能体、Agent、工作流、算子开发、推理优化。"
+      ],
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1157",
+      "title": "工程师(AI算子开发)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/e8228cb3-c0c9-4616-be7b-98725c9a27e4",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "算子开发",
+        "C++",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括算子开发。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及算子开发、C++、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "AI系统研究组",
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1158",
+      "title": "生成式图像补全与缺失数据重建算法研究",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/280d57ad-0db3-47e5-90cc-a8dbaf0513ce",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "15"
+      ],
+      "skills": [
+        "扩散模型",
+        "图像生成",
+        "3D 重建",
+        "GPU 集群",
+        "GPU 调度",
+        "计算机视觉",
+        "评测体系",
+        "Linux",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括扩散模型、图像生成、3D 重建。"
+      ],
+      "requirements": [
+        "要求涉及GPU 集群、GPU 调度、计算机视觉、扩散模型、Linux、Python、PyTorch。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "健康计算研究中心",
+      "published": "2026-09-30"
+    },
+    {
+      "id": "JOB1159",
+      "title": "AI编译器工程师/研究员",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/social-recruitment/baai/42173#/job/d09cb9d5-f414-4e9e-8cbb-8f578d35859b",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "编译优化",
+        "代码生成",
+        "Triton",
+        "C++",
+        "Python",
+        "深度学习",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括编译优化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "经验年限涉及 6 年以上。",
+        "要求涉及编译优化、代码生成、Triton、C++、Python、深度学习、TensorFlow。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "published": "2025-08-22"
+    },
+    {
+      "id": "JOB1160",
+      "title": "开源生态运营专家(具身智能与世界模型)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/social-recruitment/baai/42173#/job/0fd44723-1fe6-43d2-80e9-0707d1022172",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "20"
+      ],
+      "skills": [
+        "具身智能",
+        "世界模型",
+        "营销策略",
+        "多模态"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括具身智能、世界模型。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及营销策略、具身智能、世界模型、多模态。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 具身智能、强化学习、多模态、世界模型。"
+      ],
+      "published": "2026-11-12"
+    },
+    {
+      "id": "JOB1161",
+      "title": "AI编译器研究实习生",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/8cc2ea04-ddf9-48f0-8736-4fdc881e13cf",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "编译优化",
+        "算子开发",
+        "C++",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括算子开发、编译优化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及C++、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "AI系统研究组",
+      "preferred": [
+        "加分项涉及 编译优化。"
+      ],
+      "published": "2026-06-22"
+    },
+    {
+      "id": "JOB1162",
+      "title": "冷冻电镜生成式算法研究实习生",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/6a1582dc-8640-4455-a259-a406caf35e22",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "15"
+      ],
+      "skills": [
+        "3D 重建",
+        "计算机视觉",
+        "扩散模型",
+        "GPU 集群",
+        "GPU 调度",
+        "深度学习",
+        "机器学习",
+        "Linux",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括3D 重建、计算机视觉、扩散模型。"
+      ],
+      "requirements": [
+        "要求涉及GPU 集群、GPU 调度、Linux、Python、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "前沿探索部",
+      "published": "2026-08-14"
+    },
+    {
+      "id": "JOB1163",
+      "title": "研究员(脑科学基础模型)",
+      "company": "北京智源人工智能研究院",
+      "company_key": "智源研究院",
+      "url": "https://app.mokahr.com/campus-recruitment/baai/42174#/job/20129014-5e7d-4040-b66a-9ea84bf0e244",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "基础模型",
+        "多模态",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括基础模型。"
+      ],
+      "requirements": [
+        "要求涉及多模态。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "team": "类脑模型组",
+      "published": "2026-07-22"
+    },
+    {
+      "id": "JOB1164",
+      "title": "27届-Agent 开发工程师(企业信息化方向)",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/7ba6e0f8-f2dc-47d9-9101-dd2f1c055729",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "RAG",
+        "工具调用",
+        "多智能体",
+        "上下文管理",
+        "任务规划",
+        "MCP",
+        "向量检索",
+        "召回"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、RAG、工具调用、多智能体、上下文管理。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Agent、工具调用、MCP、RAG、向量检索、召回、任务规划。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1165",
+      "title": "27届Stepstar-端侧大模型量化算法工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/f2372b7f-ebaa-4a7f-ac5a-6ce0940c5a66",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "applied_ml",
+      "topics": [
+        "02",
+        "13"
+      ],
+      "skills": [
+        "量化",
+        "模型量化",
+        "FP8"
+      ],
+      "responsibilities": [
+        "参与量化、模型量化相关研究或研发。"
+      ],
+      "requirements": [
+        "要求涉及量化、模型量化、FP8。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1166",
+      "title": "27届Stepstar-大模型训练框架系统工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/64c156e3-a665-4ce9-9e47-613fe09218ec",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "12",
+        "03",
+        "07"
+      ],
+      "skills": [
+        "训练框架",
+        "多模态",
+        "预训练",
+        "后训练",
+        "分布式训练",
+        "算子开发",
+        "模型服务",
+        "并行通信",
+        "工作流"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括多模态、预训练、后训练、训练框架。"
+      ],
+      "requirements": [
+        "要求涉及分布式训练、算子开发、模型服务、并行通信、工作流、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1167",
+      "title": "27届-多模态应用算法工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/9f37db7c-ae4f-42cf-adcd-95fd000b2ac6",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "多模态",
+        "Agent",
+        "后训练",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括Agent、多模态。"
+      ],
+      "requirements": [
+        "要求涉及多模态、后训练。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1168",
+      "title": "27届Stepstar-LLM post train 算法研究员",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/5e938ea8-dfab-4d05-8043-550393edb488",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "12",
+        "07"
+      ],
+      "skills": [
+        "后训练",
+        "多模态",
+        "模型对齐",
+        "AI 对齐",
+        "SFT",
+        "微调",
+        "强化学习",
+        "Agent",
+        "代码生成"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括多模态、模型对齐、AI 对齐、SFT、微调。"
+      ],
+      "requirements": [
+        "要求涉及推理能力、强化学习、Agent、多模态。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1169",
+      "title": "27届Stepstar-大语言模型pre-train 数据算法工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/9fd48889-12c5-4613-b0f7-1f459c6340b0",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "推理能力",
+        "多模态",
+        "基础模型",
+        "数据质量",
+        "数据合成",
+        "数据配比",
+        "数据挖掘",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括预训练、推理能力、多模态、基础模型、数据质量。"
+      ],
+      "requirements": [
+        "要求涉及预训练、数据配比、数据质量、数据合成、数据挖掘、多模态、NLP。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1170",
+      "title": "AI 安全研究员 / Research Scientist, AI Safety",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/e29f0e64-b980-4690-8fa7-a196c4f3e7d7",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13"
+      ],
+      "skills": [
+        "模型安全",
+        "模型量化",
+        "风险识别",
+        "评测体系",
+        "量化",
+        "机器学习",
+        "Python",
+        "PyTorch"
+      ],
+      "responsibilities": [
+        "工作涉及风控或模型安全，包括模型安全、模型量化、风险识别。"
+      ],
+      "requirements": [
+        "要求涉及模型安全、评测体系、机器学习、Python、PyTorch。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1171",
+      "title": "27届Stepstar-语音大模型算法研究员/工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/96558782-96c6-44b7-a9d6-8732a1a861e0",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "speech",
+      "topics": [
+        "22",
+        "12"
+      ],
+      "skills": [
+        "语音交互",
+        "训练框架",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及语音和音频模型，包括语音交互。"
+      ],
+      "requirements": [
+        "要求涉及训练框架、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1172",
+      "title": "大模型 AI Coding实习生",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/7009131b-28f3-4bba-a5d0-497f317332ab",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "上海",
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "13"
+      ],
+      "skills": [
+        "Agent",
+        "代码生成",
+        "Agent 评测",
+        "模型评测",
+        "数据合成",
+        "数据清洗",
+        "Rust",
+        "评测体系",
+        "TypeScript"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、代码生成、Agent 评测、模型评测、数据合成。"
+      ],
+      "requirements": [
+        "要求涉及TypeScript、Rust、Python、Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 Agent、Agent 评测、RAG、模型评测、数据合成。"
+      ]
+    },
+    {
+      "id": "JOB1173",
+      "title": "Stepstar实习-大模型训练框架系统工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/db20a4ab-6d66-43fc-8995-6b1a2d9e17a2",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "12",
+        "03",
+        "07"
+      ],
+      "skills": [
+        "训练框架",
+        "多模态",
+        "预训练",
+        "后训练",
+        "分布式训练",
+        "算子开发",
+        "模型服务",
+        "并行通信",
+        "工作流"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括多模态、预训练、后训练、训练框架。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及分布式训练、算子开发、模型服务、并行通信、工作流、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1174",
+      "title": "实习-通用多模态Agent算法研究员",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/3a2af6d6-1bb0-4225-9d29-06e976be1345",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "03",
+        "04",
+        "07"
+      ],
+      "skills": [
+        "多模态",
+        "预训练",
+        "SFT",
+        "强化学习",
+        "奖励模型",
+        "多智能体",
+        "Agent",
+        "评测体系",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、预训练、SFT、强化学习、奖励模型。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有研究生或博士。",
+        "要求涉及多模态、深度学习、PyTorch、TensorFlow。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 分布式训练、Megatron、训练框架。"
+      ]
+    },
+    {
+      "id": "JOB1175",
+      "title": "实习-大模型后训练系统工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/06599b8d-5d34-488e-8761-5031aa198b1d",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "05"
+      ],
+      "skills": [
+        "后训练",
+        "推理优化",
+        "FP8",
+        "强化学习",
+        "训练容错",
+        "分布式训练",
+        "FSDP",
+        "vLLM",
+        "PPO"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括后训练、推理优化、FP8、强化学习、训练容错。"
+      ],
+      "requirements": [
+        "要求涉及分布式训练、FSDP、vLLM、PPO、verl、代码生成、Agent。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1176",
+      "title": "实习-LLM 预训练数据算法工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/a8775764-dd37-46bf-9cdd-22f83fc7a6ab",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "15",
+        "04",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "数据挖掘",
+        "GPU 集群",
+        "强化学习",
+        "数据清洗",
+        "评测体系",
+        "Python",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括预训练、数据挖掘、GPU 集群。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及强化学习、评测体系、预训练、数据清洗、Python、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1177",
+      "title": "实习-语音大模型评测实习生",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/5c284b31-800d-4213-86dc-c811604dcdfa",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "上海"
+      ],
+      "direction": "speech",
+      "topics": [
+        "22",
+        "12",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "模型评测",
+        "评测体系",
+        "自动化评测",
+        "ASR",
+        "TTS",
+        "语音交互",
+        "Agent",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及语音和音频模型，包括模型评测、自动化评测、ASR、TTS、语音交互。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及评测体系、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1178",
+      "title": "27届-Agent研发工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/78c46c2d-1fd3-44c1-8c0b-4ba1f36dc9b8",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "查询理解",
+        "知识库",
+        "多轮对话",
+        "对话系统",
+        "Go"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、查询理解、知识库、多轮对话、对话系统。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1179",
+      "title": "27届-端侧大模型部署优化工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/ec752b52-acfb-4fd4-ae42-16bda3968995",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "12"
+      ],
+      "skills": [
+        "算子开发",
+        "视觉语言模型",
+        "模型量化",
+        "推理优化",
+        "vLLM",
+        "TensorRT",
+        "CUDA",
+        "量化",
+        "C++"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括算子开发。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及视觉语言模型、量化、模型量化、推理优化、vLLM、TensorRT、CUDA。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1180",
+      "title": "27届Stepstar-大模型后训练系统工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/7ca418fb-2df5-437d-9c79-514c022f094b",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "05"
+      ],
+      "skills": [
+        "后训练",
+        "推理优化",
+        "FP8",
+        "训练容错",
+        "分布式训练",
+        "FSDP",
+        "vLLM",
+        "代码生成"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括后训练、推理优化、FP8、训练容错。"
+      ],
+      "requirements": [
+        "要求涉及分布式训练、FSDP、vLLM、代码生成。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1181",
+      "title": "27届Stepstar-大语言模型mid-train 算法研究员",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/650e8b25-27be-4229-a757-cfc38d753893",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "07",
+        "12"
+      ],
+      "skills": [
+        "继续预训练",
+        "推理能力",
+        "长上下文",
+        "Agent",
+        "多模态",
+        "数据配比",
+        "数据合成",
+        "后训练",
+        "模型评测"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括继续预训练、推理能力、长上下文、Agent、多模态。"
+      ],
+      "requirements": [
+        "要求涉及推理能力、长上下文、Agent、多模态。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1182",
+      "title": "27届-端侧AI安全算法工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/968980c5-ddc5-4a97-810f-d0d4dc6b5708",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13",
+        "07",
+        "04",
+        "12"
+      ],
+      "skills": [
+        "Agent",
+        "内容审核",
+        "内容安全",
+        "模型安全",
+        "模型量化",
+        "RLHF",
+        "DPO",
+        "多模态",
+        "隐私保护"
+      ],
+      "responsibilities": [
+        "工作涉及风控或模型安全，包括Agent、内容审核、内容安全、模型安全、模型量化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及量化、模型量化、隐私保护、机器学习、深度学习、Python、PyTorch。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1183",
+      "title": "实习-code Agent 算法工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/16d44933-9e2d-47ce-b3d2-49bd43535d98",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "03",
+        "04"
+      ],
+      "skills": [
+        "代码生成",
+        "Agent",
+        "预训练",
+        "数据质量",
+        "数据合成",
+        "Scaling Law",
+        "后训练",
+        "奖励模型",
+        "强化学习"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括预训练、数据质量、数据合成、Scaling Law、后训练。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Megatron。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 强化学习。"
+      ]
+    },
+    {
+      "id": "JOB1184",
+      "title": "实习-大模型推理优化工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/4c3ca0a7-cb5c-4bc2-9e7a-b49435e9baf8",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "推理优化",
+        "vLLM",
+        "Megatron",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括推理优化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上。",
+        "要求涉及vLLM、Megatron、推理优化。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1185",
+      "title": "多模态大模型数据工程实习生",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/0509f7a7-23ad-47fb-bb9a-4366df78937b",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "多模态",
+        "Ray",
+        "数据质量",
+        "视觉语言模型",
+        "Spark",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、Ray、数据质量、视觉语言模型、Spark。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及Ray、Spark。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1186",
+      "title": "大模型post train算法研究员",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/f05639bf-4555-4fb6-af7d-592f319d3e25",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "12",
+        "07"
+      ],
+      "skills": [
+        "多模态",
+        "模型对齐",
+        "AI 对齐",
+        "SFT",
+        "微调",
+        "强化学习",
+        "Agent",
+        "代码生成",
+        "推理能力"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括多模态、模型对齐、AI 对齐、SFT、微调。"
+      ],
+      "requirements": [
+        "要求涉及推理能力、强化学习、Agent、多模态。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1187",
+      "title": "Stepstar实习-LLM 预训练数据算法工程师",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/67e11c7c-e63e-4957-9e3b-80e7225e4799",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "15",
+        "04",
+        "13"
+      ],
+      "skills": [
+        "预训练",
+        "数据挖掘",
+        "GPU 集群",
+        "强化学习",
+        "数据清洗",
+        "评测体系",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括预训练、数据挖掘、GPU 集群。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科及以上学历。",
+        "要求涉及强化学习、评测体系、预训练、数据清洗、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。"
+    },
+    {
+      "id": "JOB1188",
+      "title": "实习-语音大模型算法研究员",
+      "company": "阶跃星辰（StepFun）",
+      "company_key": "阶跃星辰",
+      "url": "https://app.mokahr.com/campus-recruitment/step/94905#/job/6172ae6e-490c-4f14-8e19-3caf5e678577",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "speech",
+      "topics": [
+        "22",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "数据合成",
+        "多模态",
+        "语音交互",
+        "推理能力",
+        "评测体系",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及语音和音频模型，包括数据合成、多模态、语音交互、推理能力。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "职责和要求来自企业官网在招职位，投递入口以详情页为准。",
+      "preferred": [
+        "加分项涉及 多模态、计算机视觉。"
+      ]
+    },
+    {
+      "id": "JOB1189",
+      "title": "大模型算法工程师 - 智能体方向",
+      "company": "面壁智能（ModelBest）",
+      "company_key": "面壁智能",
+      "url": "https://modelbest.jobs.feishu.cn/campus/position/7516643657231911180/detail?spread=NEDQRTH",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "查询理解",
+        "模型对齐",
+        "AI 对齐"
+      ],
+      "responsibilities": [
+        "官网摘要涉及Agent、查询理解、模型对齐、AI 对齐。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1190",
+      "title": "语言大模型算法研究员",
+      "company": "面壁智能（ModelBest）",
+      "company_key": "面壁智能",
+      "url": "https://modelbest.jobs.feishu.cn/campus/m/position/7550158206165944639/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02"
+      ],
+      "skills": [
+        "预训练",
+        "微调",
+        "Transformer",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及预训练、微调、Transformer、深度学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1191",
+      "title": "大模型评测算法架构师",
+      "company": "面壁智能（ModelBest）",
+      "company_key": "面壁智能",
+      "url": "https://modelbest.jobs.feishu.cn/career/position/7690874696871676211/detail",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "模型评测",
+        "评测体系",
+        "基础模型",
+        "多模态",
+        "Agent"
+      ],
+      "responsibilities": [
+        "官网摘要涉及模型评测、评测体系、基础模型、多模态、Agent。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1192",
+      "title": "大模型算法实习生-RAG/Agent方向",
+      "company": "面壁智能（ModelBest）",
+      "company_key": "面壁智能",
+      "url": "https://modelbest.jobs.feishu.cn/campus/position/7569805079939909926/detail?spread=NEDQRTH",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "TypeScript",
+        "微调",
+        "RAG",
+        "查询理解",
+        "模型对齐",
+        "Python",
+        "C++"
+      ],
+      "responsibilities": [
+        "官网摘要涉及TypeScript、微调、RAG、查询理解、模型对齐。"
+      ],
+      "requirements": [
+        "公开要求提到TypeScript、微调、Python、C++。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1193",
+      "title": "语言大模型算法实习生",
+      "company": "面壁智能（ModelBest）",
+      "company_key": "面壁智能",
+      "url": "https://modelbest.jobs.feishu.cn/campus/m/position/7645184194407237929/detail",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02"
+      ],
+      "skills": [
+        "预训练",
+        "微调",
+        "Transformer",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及预训练、微调、Transformer、深度学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1194",
+      "title": "〖源点顶尖人才计划〗大模型算法工程师",
+      "company": "百川智能",
+      "company_key": "百川智能",
+      "url": "https://cq6qe6bvfr6.jobs.feishu.cn/646926/position/7676405896490273078/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02"
+      ],
+      "skills": [
+        "预训练",
+        "后训练",
+        "SFT",
+        "强化学习",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "官网摘要涉及预训练、后训练、SFT、强化学习、评测体系。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1195",
+      "title": "优才-具身智能算法工程师(后训练 Infra 方向)-觅蜂子公司",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/m/position/7651941438150134066/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "具身智能",
+        "后训练",
+        "强化学习",
+        "PPO",
+        "RLHF"
+      ],
+      "responsibilities": [
+        "官网摘要涉及具身智能、后训练、强化学习、PPO、RLHF。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1196",
+      "title": "具身算法工程师-具身应用工程中心",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/position/7682970682813090058/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "VLA",
+        "微调",
+        "后训练",
+        "SFT",
+        "强化学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及VLA、微调、后训练、SFT、强化学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1197",
+      "title": "具身世界模型算法工程师(后训练方向)-Genie业务部",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/position/7670760310362671411/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "世界模型",
+        "后训练",
+        "多模态",
+        "强化学习",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "官网摘要涉及世界模型、后训练、多模态、强化学习、评测体系。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1198",
+      "title": "优才-具身智能算法研究员(预训练方向)-觅蜂子公司",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/m/position/7652174229690353971/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02"
+      ],
+      "skills": [
+        "具身智能",
+        "预训练",
+        "3D 重建",
+        "扩散模型",
+        "强化学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及具身智能、预训练、3D 重建、扩散模型、强化学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1199",
+      "title": "具身算法工程师(VLA+RL)-通用业务部",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/position/7677544840104757550/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "VLA",
+        "强化学习",
+        "量化",
+        "模型量化",
+        "长上下文"
+      ],
+      "responsibilities": [
+        "官网摘要涉及VLA、强化学习、量化、模型量化、长上下文。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1200",
+      "title": "优才-具身世界模型算法研究员(后训练方向)-Genie业务部",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/position/7670760108368955686/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "世界模型",
+        "多模态",
+        "强化学习",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "官网摘要涉及世界模型、多模态、强化学习、评测体系。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1201",
+      "title": "具身导航算法工程师-灵犀业务部",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/m/position/7533221440481429810/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "视觉语言模型",
+        "查询理解",
+        "任务规划",
+        "VLA",
+        "动作策略"
+      ],
+      "responsibilities": [
+        "官网摘要涉及视觉语言模型、查询理解、任务规划、VLA、动作策略。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1202",
+      "title": "具身大模型AI算法工程师",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/m/position/7661986870741879046/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "推理优化",
+        "多模态",
+        "数据合成",
+        "世界模型",
+        "算子开发"
+      ],
+      "responsibilities": [
+        "官网摘要涉及推理优化、多模态、数据合成、世界模型、算子开发。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1203",
+      "title": "具身大模型AI Infra工程师-具身研究中心",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/position/7667405600271157514/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "具身智能",
+        "VLA",
+        "世界模型",
+        "多模态",
+        "强化学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及具身智能、VLA、世界模型、多模态、强化学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1204",
+      "title": "具身 Agent 算法研究员",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/socialrecruitment/position/7674649290770090249/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "Agent",
+        "基础模型",
+        "世界模型",
+        "长期记忆",
+        "视觉语言模型"
+      ],
+      "responsibilities": [
+        "官网摘要涉及Agent、基础模型、世界模型、长期记忆、视觉语言模型。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1205",
+      "title": "优才-具身算法研究员",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/m/position/7651946998547433791/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "具身智能",
+        "基础模型",
+        "世界模型",
+        "任务规划",
+        "动作策略"
+      ],
+      "responsibilities": [
+        "官网摘要涉及具身智能、基础模型、世界模型、任务规划、动作策略。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1206",
+      "title": "AI算法工程师",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/m/position/7662293774719273225/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "VLA",
+        "动作策略",
+        "微调",
+        "推理优化",
+        "多模态"
+      ],
+      "responsibilities": [
+        "官网摘要涉及VLA、动作策略、微调、推理优化、多模态。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1207",
+      "title": "优才-具身Agent技术开发算法工程师-通用业务部",
+      "company": "智元机器人（AGIBOT）",
+      "company_key": "智元机器人",
+      "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/m/position/7651941340528134441/detail",
+      "platform": "招聘官网",
+      "job_type": "未说明",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "Agent",
+        "VLA",
+        "强化学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及Agent、VLA、强化学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1208",
+      "title": "〖27届校招〗大模型 Agent 算法研究员-大装置",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659624252253555007/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "微调",
+        "强化学习",
+        "多模态",
+        "视觉语言模型"
+      ],
+      "responsibilities": [
+        "官网摘要涉及Agent、微调、强化学习、多模态、视觉语言模型。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1209",
+      "title": "〖27届校招〗大模型训练系统研究员",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659694567370311986/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "预训练",
+        "Transformer",
+        "分布式训练",
+        "Megatron",
+        "FSDP"
+      ],
+      "responsibilities": [
+        "官网摘要涉及预训练、Transformer、分布式训练、Megatron、FSDP。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1210",
+      "title": "〖27届校招〗多模态基模型研究员",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659697063102269732/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "多模态",
+        "视觉语言模型",
+        "推理能力",
+        "Agent",
+        "长上下文"
+      ],
+      "responsibilities": [
+        "官网摘要涉及多模态、视觉语言模型、推理能力、Agent、长上下文。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1211",
+      "title": "〖27届校招〗大模型评测算法工程师",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659703325591472434/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "模型评测",
+        "评测体系",
+        "Agent",
+        "Agent 评测",
+        "任务规划"
+      ],
+      "responsibilities": [
+        "官网摘要涉及模型评测、评测体系、Agent、Agent 评测、任务规划。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1212",
+      "title": "〖27届校招〗Agent Harness 研究员/算法工程师",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659701067331930410/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "Agent 运行时",
+        "多模态",
+        "工具调用",
+        "预训练"
+      ],
+      "responsibilities": [
+        "官网摘要涉及Agent、Agent 运行时、多模态、工具调用、预训练。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1213",
+      "title": "〖27届校招〗大模型推理系统研究员",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659698294603925779/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "多模态",
+        "推理优化",
+        "量化",
+        "模型量化",
+        "强化学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及多模态、推理优化、量化、模型量化、强化学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1214",
+      "title": "〖27届校招〗大模型Agentic算法工程师",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659700034489305353/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06"
+      ],
+      "skills": [
+        "Agent",
+        "数据合成",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "官网摘要涉及Agent、数据合成、评测体系。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1215",
+      "title": "〖27届校招〗模型推理平台开发工程师(后端)",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659695826600692009/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "Kubernetes",
+        "Go",
+        "Python"
+      ],
+      "responsibilities": [
+        "官网摘要涉及Kubernetes、Go、Python。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1216",
+      "title": "〖27届校招〗大模型推理优化工程师-大装置",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659680814178847030/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "推理优化",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及推理优化、机器学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1217",
+      "title": "〖27届校招〗大模型训练推理研发工程师-大装置",
+      "company": "商汤科技（SenseTime）",
+      "company_key": "商汤科技",
+      "url": "https://hr-jobs.sensetime.com/edu/position/7659598774713026822/detail",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "C++"
+      ],
+      "responsibilities": [
+        "官网摘要涉及C++。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1218",
+      "title": "高性能计算工程师",
+      "company": "旷视科技（Megvii）",
+      "company_key": "旷视科技",
+      "url": "https://www.nowcoder.com/careers/Megviicampus/38302?jobIds=33811",
+      "platform": "牛客",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "responsibilities": [
+        "将视觉算法部署到嵌入式平台，分析计算热点，维护视觉算子库并优化时延、内存与功耗。"
+      ],
+      "requirements": [
+        "熟悉 C++、异步编程和至少一种 CPU、GPU 或 DSP 架构，涉及内存访问优化和算子融合。"
+      ],
+      "skills": [
+        "C++",
+        "异构计算",
+        "算子开发",
+        "嵌入式推理",
+        "Roofline"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "closed",
+      "status_note": "牛客企业招聘页标为已结束，保留往届 JD。"
+    },
+    {
+      "id": "JOB1219",
+      "title": "算法研究员",
+      "company": "旷视科技（Megvii）",
+      "company_key": "旷视科技",
+      "url": "https://www.nowcoder.com/careers/Megviicampus/38302?jobIds=33809",
+      "platform": "牛客",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海",
+        "南京",
+        "成都"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "responsibilities": [
+        "推进计算机视觉和深度学习算法研究，并将技术用于实际应用。"
+      ],
+      "requirements": [
+        "具有视觉、深度学习或信号处理科研背景和编程基础，JD 涉及检测、分割、跟踪、SLAM 和三维重建。"
+      ],
+      "skills": [
+        "计算机视觉",
+        "深度学习",
+        "目标检测",
+        "语义分割",
+        "SLAM",
+        "三维重建"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "closed",
+      "status_note": "牛客企业招聘页标为已结束，保留往届 JD。"
+    },
+    {
+      "id": "JOB1220",
+      "title": "深度学习研发工程师",
+      "company": "旷视科技（Megvii）",
+      "company_key": "旷视科技",
+      "url": "https://www.nowcoder.com/careers/Megviicampus/38302?jobIds=33813",
+      "platform": "牛客",
+      "job_type": "校招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "responsibilities": [
+        "参与 MegEngine 框架开发，优化 CUDA、Arm 和 x86 上的算法性能，探索并行训练和模型加速。"
+      ],
+      "requirements": [
+        "具备数据结构和算法基础，能用 C++ 实现复杂算法；深度学习框架和开源项目经验优先。"
+      ],
+      "skills": [
+        "MegEngine",
+        "C++",
+        "CUDA",
+        "分布式训练",
+        "模型加速"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "closed",
+      "status_note": "牛客企业招聘页标为已结束，保留往届 JD。"
+    },
+    {
+      "id": "JOB1221",
+      "title": "大模型推理/训练优化工程师",
+      "company": "中电信人工智能科技（中国电信）",
+      "company_key": "中国电信",
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5C98F8E4D4FAE826E0653A68DD0E9B18",
+      "platform": "高校就业网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "分布式训练",
+        "推理优化",
+        "内存优化",
+        "GPU 集群",
+        "训练并行",
+        "模型量化",
+        "分布式系统",
+        "算子开发",
+        "TensorRT"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括分布式训练、推理优化、内存优化、GPU 集群、训练并行。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及分布式系统、推理优化、算子开发、量化、模型量化、TensorRT、SGLang。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "浙江大学就业网发布的中电信人工智能科技校招岗位。招聘批次投递状态以企业渠道为准。",
+      "team": "中电信人工智能科技（北京）有限公司"
+    },
+    {
+      "id": "JOB1222",
+      "title": "多模态理解算法工程师",
+      "company": "中电信人工智能科技（中国电信）",
+      "company_key": "中国电信",
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5C98F8E4D4F9E826E0653A68DD0E9B18",
+      "platform": "高校就业网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "04",
+        "03"
+      ],
+      "skills": [
+        "多模态",
+        "SFT",
+        "微调",
+        "模型对齐",
+        "AI 对齐",
+        "强化学习",
+        "后训练",
+        "视频理解",
+        "预训练"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、SFT、微调、模型对齐、AI 对齐。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及强化学习、多模态、预训练、微调、推理优化、SGLang、PPO。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "浙江大学就业网发布的中电信人工智能科技校招岗位。招聘批次投递状态以企业渠道为准。",
+      "team": "中电信人工智能科技（北京）有限公司"
+    },
+    {
+      "id": "JOB1223",
+      "title": "语义大模型强化学习算法工程师",
+      "company": "中电信人工智能科技（中国电信）",
+      "company_key": "中国电信",
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5C98F8E4D4FCE826E0653A68DD0E9B18",
+      "platform": "高校就业网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "07",
+        "15"
+      ],
+      "skills": [
+        "强化学习",
+        "上下文管理",
+        "工具调用",
+        "推理能力",
+        "奖励模型",
+        "模型蒸馏",
+        "训练框架",
+        "GPU 集群"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括上下文管理、工具调用、推理能力、强化学习、奖励模型。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及强化学习、训练框架、推理能力、奖励模型、GPU 集群。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "浙江大学就业网发布的中电信人工智能科技校招岗位。招聘批次投递状态以企业渠道为准。",
+      "team": "中电信人工智能科技（北京）有限公司"
+    },
+    {
+      "id": "JOB1224",
+      "title": "语义大模型算法工程师",
+      "company": "中电信人工智能科技（中国电信）",
+      "company_key": "中国电信",
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5C98F8E4D4FBE826E0653A68DD0E9B18",
+      "platform": "高校就业网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02"
+      ],
+      "skills": [
+        "基础模型",
+        "推理能力",
+        "数据合成",
+        "数据清洗",
+        "数据质量",
+        "长上下文",
+        "预训练",
+        "继续预训练",
+        "后训练"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括基础模型、推理能力、数据合成、数据清洗、数据质量。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及预训练、评测体系、推理优化、模型评测、微调、强化学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "浙江大学就业网发布的中电信人工智能科技校招岗位。招聘批次投递状态以企业渠道为准。",
+      "team": "中电信人工智能科技（北京）有限公司"
+    },
+    {
+      "id": "JOB1225",
+      "title": "语音大模型算法工程师",
+      "company": "中电信人工智能科技（中国电信）",
+      "company_key": "中国电信",
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5C98F8E4D4F7E826E0653A68DD0E9B18",
+      "platform": "高校就业网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "speech",
+      "topics": [
+        "22",
+        "12"
+      ],
+      "skills": [
+        "ASR",
+        "语音交互",
+        "多模态",
+        "深度学习",
+        "C++",
+        "TensorFlow"
+      ],
+      "responsibilities": [
+        "工作涉及语音和音频模型，包括ASR、语音交互。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及多模态、深度学习、C++、TensorFlow。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "浙江大学就业网发布的中电信人工智能科技校招岗位。招聘批次投递状态以企业渠道为准。",
+      "team": "中电信人工智能科技（北京）有限公司"
+    },
+    {
+      "id": "JOB1226",
+      "title": "多模态生成大模型算法工程师",
+      "company": "中电信人工智能科技（中国电信）",
+      "company_key": "中国电信",
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5C98F8E4D4F6E826E0653A68DD0E9B18",
+      "platform": "高校就业网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "05"
+      ],
+      "skills": [
+        "多模态",
+        "视频生成",
+        "扩散模型",
+        "Transformer",
+        "时序建模",
+        "内存优化",
+        "模型量化",
+        "算子开发",
+        "推理优化"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括视频生成、扩散模型、Transformer、时序建模、多模态。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "经验年限涉及 1 年以上。",
+        "要求涉及扩散模型、Transformer、视频生成、多模态、机器学习、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "浙江大学就业网发布的中电信人工智能科技校招岗位。招聘批次投递状态以企业渠道为准。",
+      "team": "中电信人工智能科技（北京）有限公司"
+    },
+    {
+      "id": "JOB1227",
+      "title": "视觉算法工程师",
+      "company": "中电信人工智能科技（中国电信）",
+      "company_key": "中国电信",
+      "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5C98F8E4D4F8E826E0653A68DD0E9B18",
+      "platform": "高校就业网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "03",
+        "05"
+      ],
+      "skills": [
+        "目标检测",
+        "预训练",
+        "推理优化",
+        "分布式训练",
+        "数据清洗",
+        "模型量化",
+        "量化",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括目标检测、预训练、推理优化。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士及以上学历。",
+        "要求涉及分布式训练、数据清洗、量化、模型量化、推理优化、PyTorch、TensorFlow。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "浙江大学就业网发布的中电信人工智能科技校招岗位。招聘批次投递状态以企业渠道为准。",
+      "team": "中电信人工智能科技（北京）有限公司"
+    },
+    {
+      "id": "JOB1228",
+      "title": "大数据类（人工智能研发方向，2027 届秋招）",
+      "company": "中信银行",
+      "company_key": "中信银行",
+      "url": "https://jy.tust.edu.cn/correcruit/content/id/46270.html",
+      "platform": "高校就业网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "applied_ml",
+      "topics": [
+        "02",
+        "13"
+      ],
+      "responsibilities": [
+        "中信银行信用卡中心的大数据类岗位覆盖 AI 研发，同时招大数据开发、数据挖掘分析方向。"
+      ],
+      "requirements": [
+        "校招公告要求本科及以上，列有人工智能、大数据开发、软件开发等相关专业。"
+      ],
+      "skills": [
+        "人工智能研发",
+        "数据挖掘",
+        "大数据开发"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "closed",
+      "status_note": "按信用卡中心公告收录的大数据类 AI 方向。公告原定网申截止时间为 2026 年 10 月 18 日。",
+      "team": "中信银行信用卡中心",
+      "deadline": "2026-10-18"
+    },
+    {
+      "id": "JOB1229",
+      "title": "职能类岗位（智能科学研发方向）",
+      "company": "招商银行",
+      "company_key": "招商银行",
+      "url": "https://job.hust.edu.cn/zpinfo1/2409835.htm",
+      "platform": "高校就业网",
+      "job_type": "校招",
+      "cities": [],
+      "direction": "applied_ml",
+      "topics": [
+        "02",
+        "13",
+        "07"
+      ],
+      "responsibilities": [
+        "招商银行总行招聘的智能科学研发方向，工作涉及人工智能、大模型算法研究与系统研发。"
+      ],
+      "requirements": [
+        "面向 2027 届毕业生，学历与毕业时间等具体条件见校招公告。"
+      ],
+      "skills": [
+        "人工智能",
+        "大模型",
+        "算法研究",
+        "系统研发"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "总行与分支机构校招公告在高校就业网发布。该岗位为总行的智能科学研发方向，当前投递以招行招聘为准。",
+      "team": "招商银行总行"
+    },
+    {
+      "id": "JOB1230",
+      "title": "算法工程师（2027 届校招）",
+      "company": "招银网络科技",
+      "company_key": "招银网络科技",
+      "url": "https://www.nowcoder.com/jobs/detail/457322",
+      "platform": "牛客",
+      "job_type": "校招",
+      "cities": [
+        "深圳",
+        "杭州",
+        "成都"
+      ],
+      "direction": "risk",
+      "topics": [
+        "21",
+        "13",
+        "23",
+        "18",
+        "07"
+      ],
+      "responsibilities": [
+        "参与招商银行的智能客服、推荐与营销、反欺诈和运营等项目，推动大语言模型和机器学习在银行业务中落地。",
+        "研究自然语言处理、知识图谱、人机交互、计算机视觉等技术，JD 列有数字人、舆情监控、OCR 等应用。"
+      ],
+      "requirements": [
+        "相关专业本科及以上，符合 2027 届校招毕业时间范围；熟悉至少一种机器学习或深度学习方法。",
+        "具备编程能力，JD 列出 Java、Scala、Python、C++、C 等语言，并优先考虑大模型或语音、图像等项目实践。"
+      ],
+      "skills": [
+        "机器学习",
+        "大语言模型",
+        "智能客服",
+        "推荐系统",
+        "风控",
+        "反欺诈",
+        "OCR",
+        "知识图谱"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "closed",
+      "status_note": "企业校招简章的两批网申均已截止。JD 可用于了解该岗位。",
+      "team": "招银网络科技 · 招商银行总行软件中心",
+      "deadline": "2026-09-20",
+      "evidence_url": "https://career.hebut.edu.cn/home/correcruit/content/id/79061.html"
+    },
+    {
+      "id": "JOB1231",
+      "title": "Senior/Principal Researcher",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556983843",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "applied_ml",
+      "topics": [
+        "02",
+        "13"
+      ],
+      "responsibilities": [
+        "在大语言模型、Agent 系统、AI 基础设施、多模态或具身智能等领域开展研究，推动微软亚洲研究院各地团队协作。"
+      ],
+      "requirements": [
+        "相关领域博士或同等经验；有作为主要作者或重要贡献者发表学术论文的经历。"
+      ],
+      "skills": [
+        "大语言模型",
+        "Agent",
+        "AI 基础设施",
+        "多模态",
+        "具身智能"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "微软招聘页列有中国内地工作地点与完整职责。投递以原页为准。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1232",
+      "title": "Research Intern for ML group in Time Series Direction",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-ml-group-in-time-series-direction/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "04",
+        "03",
+        "12"
+      ],
+      "skills": [
+        "Agent",
+        "推理能力",
+        "时序建模",
+        "强化学习",
+        "图学习",
+        "预训练",
+        "基础模型",
+        "多模态",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "工作涉及智能体和大模型应用，包括Agent、推理能力、时序建模、强化学习、图学习。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士。",
+        "要求涉及时序建模、机器学习、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1233",
+      "title": "Research Intern for LLM Reasoning",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-llm-reasoning/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15",
+        "13"
+      ],
+      "skills": [
+        "推理能力",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括推理能力。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士/博士。",
+        "要求涉及推理能力。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1234",
+      "title": "Research Intern for Machine Learning Group – Embodied AI research",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-machine-learning-group-embodied-ai-research/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "04"
+      ],
+      "skills": [
+        "机器学习",
+        "基础模型",
+        "VLA",
+        "世界模型",
+        "强化学习",
+        "具身智能",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括基础模型、VLA、世界模型、强化学习、具身智能。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有博士。",
+        "要求涉及具身智能、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院",
+      "preferred": [
+        "加分项涉及 具身智能。"
+      ]
+    },
+    {
+      "id": "JOB1235",
+      "title": "Research Intern for Artificial Intelligence Reasoning Group",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-artificial-intelligence-reasoning-group-2/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13",
+        "03"
+      ],
+      "skills": [
+        "推理能力",
+        "后训练",
+        "微调",
+        "强化学习",
+        "预训练",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括后训练、微调、强化学习、推理能力、预训练。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士。",
+        "要求涉及微调、强化学习、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1236",
+      "title": "Research Intern for Machine Learning Group – Discriminative Foundation Models and Efficient Decision-Making",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-machine-learning-group-discriminative-foundation-models-and-efficient-decision-making/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "04",
+        "05"
+      ],
+      "skills": [
+        "基础模型",
+        "机器学习",
+        "训练框架",
+        "后训练",
+        "强化学习",
+        "语料构建",
+        "模型蒸馏",
+        "推理优化",
+        "数据合成"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括基础模型、训练框架、后训练、强化学习、语料构建。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有博士、硕士。",
+        "要求涉及基础模型、强化学习、数据合成、模型蒸馏、量化、模型量化、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1237",
+      "title": "Research Intern for Media Computing Group (Audio)",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-media-computing-group-audio/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "speech",
+      "topics": [
+        "22",
+        "12",
+        "13"
+      ],
+      "skills": [
+        "语音交互",
+        "多模态",
+        "计算机视觉",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及语音和音频模型，包括语音交互、多模态、计算机视觉。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士/博士。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1238",
+      "title": "Research Intern for Systems Research Group",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-systems-research-group/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "分布式系统",
+        "Rust",
+        "C++",
+        "Python",
+        "Java",
+        "Linux",
+        "深度学习",
+        "PyTorch"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括分布式系统、Rust。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有博士。",
+        "要求涉及分布式系统、Rust、C++、Python、Java。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1239",
+      "title": "Research Intern for AI/ML Group (Shanghai)",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-ai-ml-group-shanghai/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "上海"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "多模态",
+        "基础模型",
+        "评测体系",
+        "机器学习",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士或博士。",
+        "要求涉及基础模型、多模态、评测体系、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1240",
+      "title": "Research Intern for Social Computing Group",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-social-computing-group/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "posttraining",
+      "topics": [
+        "04",
+        "13"
+      ],
+      "skills": [
+        "模型评测",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及模型后训练与评估，包括模型评测。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1241",
+      "title": "Research Intern for Artificial Intelligence Reasoning Group",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-artificial-intelligence-reasoning-group/?lang=zh-cn",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "pretraining",
+      "topics": [
+        "03",
+        "02",
+        "13"
+      ],
+      "skills": [
+        "推理能力",
+        "预训练",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及基座模型训练，包括推理能力、预训练。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士/博士。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1242",
+      "title": "Research Intern for 2D/3D generation",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-2d-3d-generation/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "03",
+        "04"
+      ],
+      "skills": [
+        "多模态",
+        "预训练",
+        "微调",
+        "3D 重建",
+        "强化学习",
+        "图学习",
+        "机器学习",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、预训练、微调、3D 重建、强化学习。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士。",
+        "要求涉及多模态、预训练、微调、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1243",
+      "title": "Research Intern for Media Computing Group (Vision)",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-media-computing-group-vision/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "07"
+      ],
+      "skills": [
+        "多模态",
+        "Agent",
+        "推理能力",
+        "计算机视觉",
+        "长期记忆",
+        "任务规划",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、Agent、推理能力、计算机视觉、长期记忆。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士/博士。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1244",
+      "title": "Research Intern for Media Computing Group (Video)",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-media-computing-group-video/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "03"
+      ],
+      "skills": [
+        "多模态",
+        "基础模型",
+        "预训练",
+        "后训练",
+        "模型对齐",
+        "推理能力",
+        "视觉语言模型",
+        "图像生成",
+        "分布式训练"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、基础模型、预训练、后训练、模型对齐。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士/博士。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1245",
+      "title": "Research Intern for Visual Computing Group – Microsoft Research",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-visual-computing-group-microsoft-research/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13",
+        "07",
+        "04"
+      ],
+      "skills": [
+        "多模态",
+        "基础模型",
+        "Agent",
+        "推理能力",
+        "后训练",
+        "强化学习",
+        "模型评测",
+        "AI 对齐",
+        "模型对齐"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、基础模型、Agent、推理能力、后训练。"
+      ],
+      "requirements": [
+        "要求涉及计算机视觉、视觉语言模型、扩散模型、强化学习、后训练、Agent、工具调用。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "已核对官网职责与要求。投递以原页为准。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1246",
+      "title": "Research Intern for Intelligent Multimedia Group",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-intelligent-multimedia-group/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "视频理解",
+        "视频生成",
+        "多模态",
+        "评测体系",
+        "Python",
+        "C++",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括视频理解、视频生成、多模态。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士/博士。",
+        "要求涉及Python、C++、深度学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1247",
+      "title": "Research Intern for Visual Computing Group",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-visual-computing-group/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "计算机视觉",
+        "多模态",
+        "评测体系",
+        "机器学习",
+        "深度学习"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括计算机视觉、多模态。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士/博士。",
+        "要求涉及计算机视觉、机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1248",
+      "title": "Research Intern for Multimodal Computing Group",
+      "company": "Microsoft（微软）",
+      "company_key": "微软",
+      "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-multimodal-computing-group/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "北京",
+        "上海"
+      ],
+      "direction": "multimodal",
+      "topics": [
+        "12",
+        "13"
+      ],
+      "skills": [
+        "多模态",
+        "计算机视觉",
+        "评测体系"
+      ],
+      "responsibilities": [
+        "工作涉及视觉与多模态模型，包括多模态、计算机视觉。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士/博士。",
+        "要求涉及多模态。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "微软亚洲研究院"
+    },
+    {
+      "id": "JOB1249",
+      "title": "Applied Scientist (2026-27 Campus, International Technology Team), Shanghai",
+      "company": "Amazon（亚马逊）",
+      "company_key": "Amazon",
+      "url": "https://www.amazon.jobs/en/jobs/10504493/applied-scientist-2026-27-campus-international-technology-team-shanghai",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "search",
+      "topics": [
+        "16",
+        "06"
+      ],
+      "responsibilities": [
+        "为亚马逊商品搜索研究查询理解、相关性排序、语义匹配和个性化，并探索基础模型驱动的对话式购物。",
+        "使用商品、查询和行为数据训练及微调模型，引入 RAG、SFT 和 Agent，通过离线评估与 A/B 测试检验效果。"
+      ],
+      "requirements": [
+        "面向 2026 年 10 月至 2027 年 9 月毕业的相关方向硕士或博士。",
+        "具备机器学习或深度学习基础、统计与实验经验，以及编程实现和模型训练、评估能力。"
+      ],
+      "skills": [
+        "信息检索",
+        "搜索排序",
+        "SFT",
+        "RAG",
+        "Agent",
+        "A/B 测试"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "亚马逊中国官方岗位页含投递入口。",
+      "team": "International Technology 搜索团队"
+    },
+    {
+      "id": "JOB1250",
+      "title": "Data Scientist, AI Program, CNGS NBS (New Business & New Seller) Amazon Business",
+      "company": "Amazon（亚马逊）",
+      "company_key": "Amazon",
+      "url": "https://www.amazon.jobs/en/jobs/10528110/data-scientist-ai-program-cngs-nbs-new-business-new-seller-amazon-business",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "growth",
+      "topics": [
+        "20",
+        "19",
+        "07",
+        "18",
+        "13"
+      ],
+      "skills": [
+        "工作流",
+        "推荐系统",
+        "在线实验",
+        "因果推断",
+        "SQL",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及用户策略与经营优化，包括工作流、推荐系统、在线实验、因果推断。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士。",
+        "要求涉及在线实验、SQL、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "seller-services",
+      "preferred": [
+        "加分项涉及 向量表征、召回、模型评测、RAG、因果推断。"
+      ]
+    },
+    {
+      "id": "JOB1251",
+      "title": "Applied Scientist (2026-27 Campus, International Technology Team), Beijing",
+      "company": "Amazon（亚马逊）",
+      "company_key": "Amazon",
+      "url": "https://www.amazon.jobs/en/jobs/10489936/applied-scientist-2026-27-campus-international-technology-team-beijing",
+      "platform": "招聘官网",
+      "job_type": "校招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "search",
+      "topics": [
+        "16",
+        "06"
+      ],
+      "responsibilities": [
+        "为亚马逊商品搜索研究查询理解、相关性排序、语义匹配和个性化，并探索基础模型驱动的对话式购物。",
+        "使用商品、查询和行为数据训练及微调模型，引入 RAG、SFT 和 Agent，通过离线评估与 A/B 测试检验效果。"
+      ],
+      "requirements": [
+        "面向 2026 年 10 月至 2027 年 9 月毕业的相关方向硕士或博士。",
+        "具备机器学习或深度学习基础、统计与实验经验，以及编程实现和模型训练、评估能力。"
+      ],
+      "skills": [
+        "信息检索",
+        "搜索排序",
+        "SFT",
+        "RAG",
+        "Agent",
+        "A/B 测试"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "亚马逊中国官方岗位页含投递入口。",
+      "team": "International Technology 搜索团队"
+    },
+    {
+      "id": "JOB1252",
+      "title": "Data Engineer - AI/ML Products, AOP (Analytics Operations and Programs)",
+      "company": "Amazon（亚马逊）",
+      "company_key": "Amazon",
+      "url": "https://www.amazon.jobs/en/jobs/10572912/data-engineer-ai-ml-products-aop-analytics-operations-and-programs",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "北京"
+      ],
+      "direction": "growth",
+      "topics": [
+        "20",
+        "19",
+        "04"
+      ],
+      "skills": [
+        "强化学习",
+        "Scala",
+        "机器学习",
+        "深度学习",
+        "Java",
+        "Python",
+        "C++",
+        "Go"
+      ],
+      "responsibilities": [
+        "工作涉及用户策略与经营优化，包括强化学习。"
+      ],
+      "requirements": [
+        "要求涉及Scala、Java、Python、C++、Go。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "international-stores"
+    },
+    {
+      "id": "JOB1253",
+      "title": "Sr Data Scientist, Seller Economics, WW Global Selling - PMO",
+      "company": "Amazon（亚马逊）",
+      "company_key": "Amazon",
+      "url": "https://www.amazon.jobs/en/jobs/10501868/sr-data-scientist-seller-economics-ww-global-selling-pmo",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "growth",
+      "topics": [
+        "20",
+        "19",
+        "13",
+        "04",
+        "07"
+      ],
+      "skills": [
+        "因果推断",
+        "在线实验",
+        "强化学习",
+        "向量表征",
+        "Agent",
+        "工作流",
+        "SQL",
+        "机器学习",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及用户策略与经营优化，包括因果推断、在线实验、强化学习、向量表征、Agent。"
+      ],
+      "requirements": [
+        "要求涉及SQL、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "seller-services"
+    },
+    {
+      "id": "JOB1254",
+      "title": "Applied Scientist, OpenSearch Shanghai",
+      "company": "Amazon（亚马逊）",
+      "company_key": "Amazon",
+      "url": "https://www.amazon.jobs/en/jobs/10603276/applied-scientist-opensearch-shanghai",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "growth",
+      "topics": [
+        "20",
+        "19"
+      ],
+      "skills": [
+        "分布式系统",
+        "Java",
+        "C++",
+        "Python"
+      ],
+      "responsibilities": [
+        "工作涉及用户策略与经营优化，包括分布式系统。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有硕士。",
+        "要求涉及Java、C++、Python。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "官网 JD 含申请入口。",
+      "team": "aws",
+      "preferred": [
+        "加分项涉及 Transformer。"
+      ]
+    },
+    {
+      "id": "JOB1255",
+      "title": "AI Computing Development Intern, TensorRT-LLM - 2027",
+      "company": "NVIDIA（英伟达）",
+      "company_key": "NVIDIA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/AI-Computing-Development-Intern--TensorRT-LLM---2027_JR2026160",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "TensorRT",
+        "深度学习",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及TensorRT、深度学习、机器学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1256",
+      "title": "Software Engineer Intern, AI and DL Kernel Libraries - 2027",
+      "company": "NVIDIA（英伟达）",
+      "company_key": "NVIDIA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineer-Intern--AI-and-DL-Kernel-Libraries---2027_JR2026307",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "深度学习",
+        "机器学习"
+      ],
+      "responsibilities": [
+        "官网摘要涉及深度学习、机器学习。"
+      ],
+      "requirements": [],
+      "accessed": "2026-11-17",
+      "verification": "excerpt",
+      "job_status": "needs_check",
+      "status_note": "依据企业招聘页的公开摘要整理。工作地点或投递状态以原职位页为准。"
+    },
+    {
+      "id": "JOB1257",
+      "title": "Manager, Machine Learning Engineer",
+      "company": "Apple（苹果）",
+      "company_key": "Apple",
+      "url": "https://jobs.apple.com/en-us/details/200646371-3715/manager-machine-learning-engineer",
+      "platform": "招聘官网",
+      "job_type": "社招",
+      "cities": [
+        "上海"
+      ],
+      "direction": "infra",
+      "topics": [
+        "05",
+        "15"
+      ],
+      "skills": [
+        "机器学习",
+        "MLOps"
+      ],
+      "responsibilities": [
+        "工作涉及训练或推理系统，包括MLOps。"
+      ],
+      "requirements": [
+        "JD 涉及的学历条件有本科。",
+        "经验年限涉及 8 年以上。",
+        "要求涉及机器学习。"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "needs_check",
+      "status_note": "已核对官网职责与要求。投递以原页为准。",
+      "team": "Machine Learning and AI / Software and Services / Operations and Supply Chain",
+      "preferred": [
+        "加分项涉及 Kubernetes、计算机视觉。"
+      ],
+      "published": "2026-10-28"
+    },
+    {
+      "id": "JOB1258",
+      "title": "SAP China iXp Intern - AI Application Developer Intern - Open Source Software Compliance - Shanghai",
+      "company": "SAP（思爱普）",
+      "company_key": "SAP",
+      "url": "https://jobs.sap.com/en/jobs/744000161438899/sap-china-ixp-intern-ai-application-developer-intern-open-source-software-compliance-shanghai/",
+      "platform": "招聘官网",
+      "job_type": "实习",
+      "cities": [
+        "上海"
+      ],
+      "direction": "agent",
+      "topics": [
+        "07",
+        "06",
+        "13"
+      ],
+      "responsibilities": [
+        "开发面向软件合规的 AI 应用，负责知识检索、信息抽取和工作流自动化。",
+        "用大语言模型 API 或开源模型做集成，建立测试集、分析错误并验证人工复核流程。"
+      ],
+      "requirements": [
+        "计算机相关专业本科或硕士在读，或具备同等背景；具备 Python、Java 或 JavaScript 编程基础。",
+        "完成过 AI 应用或原型，接触过大语言模型、提示词设计或 RAG。"
+      ],
+      "skills": [
+        "大语言模型",
+        "RAG",
+        "信息抽取",
+        "Python",
+        "应用评测",
+        "工作流"
+      ],
+      "accessed": "2026-11-17",
+      "verification": "opened",
+      "job_status": "apply_link",
+      "status_note": "SAP 官方岗位页提供申请入口。",
+      "team": "SAP Global Technology Legal Compliance"
     }
   ]
 }

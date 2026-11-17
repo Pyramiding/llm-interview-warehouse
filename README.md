@@ -20,6 +20,8 @@
 
 [字节、阿里、腾讯、京东](docs/recruiting/README.md#major-employers) · [国内其他企业](docs/recruiting/README.md#domestic-employers) · [海外企业](docs/recruiting/README.md#global-employers)。
 
+[在华外企](docs/recruiting/README.md#china-foreign-employers) · [大模型公司与研究机构](docs/recruiting/README.md#model-employers) · [机器人与计算机视觉](docs/recruiting/README.md#robotics-employers) · [运营商与金融机构](docs/recruiting/README.md#telecom-finance-employers)。
+
 ## 找面经
 
 | 查找方式 | 内容 |

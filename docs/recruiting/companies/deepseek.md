@@ -1,10 +1,10 @@
 # DeepSeek · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=DeepSeek&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [企业官网](https://talent.deepseek.com/)
+[返回招聘索引](../README.md) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=DeepSeek&job_type=%E7%A4%BE%E6%8B%9B#library) · [企业官网](https://talent.deepseek.com/)
 
-共 7 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 11 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
-## 社招（7）
+## 社招（11）
 
 <a id="job043"></a>
 
@@ -158,3 +158,102 @@ LLM Infra 与推理 · 社招 · 北京、杭州 · 有投递入口
 - GPU 或 NPU 算子、集合通信、编译器和性能剖析经验。
 
 涉及技术关键词为 TileLang、CUDA、Ascend C、集合通信。
+
+<a id="job1124"></a>
+
+### JOB1124 · DeepSeek（深度求索） · 大模型全栈工程师
+
+Agent 与 RAG · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://talent.deepseek.com/job/01416da2-3c8a-4a20-bbb3-1c925d0facf1) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1124)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。DeepSeek 官方招聘页含岗位说明和投递链接。
+
+团队 / 业务为 深度学习。
+
+**主要职责**
+
+- 工作涉及智能体和大模型应用，包括预训练、后训练、Agent、工具调用、Agent 评测。
+
+**任职要求**
+
+- 要求涉及预训练、后训练、Agent、Agent 评测、模型评测、评测体系、深度学习。
+
+涉及技术关键词为 预训练、后训练、Agent、工具调用、Agent 评测、模型评测、评测体系、深度学习。
+
+<a id="job1125"></a>
+
+### JOB1125 · DeepSeek（深度求索） · AI 平台运维工程师
+
+LLM Infra 与推理 · 社招 · 杭州 · 有投递入口
+
+[在原平台查看](https://talent.deepseek.com/job/b48bdca9-742f-44f1-bde8-5c4e9b953f31) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1125)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。DeepSeek 官方招聘页含岗位说明和投递链接。
+
+团队 / 业务为 运维。
+
+**主要职责**
+
+- 工作涉及训练或推理系统，包括GPU 集群、GPU 调度、训练容错、继续预训练、模型服务。
+
+**任职要求**
+
+- JD 涉及的学历条件有本科及以上学历。
+- 要求涉及Python、Go。
+
+涉及技术关键词为 GPU 集群、GPU 调度、训练容错、继续预训练、模型服务、内存优化、并行通信、Kubernetes、集合通信。
+
+<a id="job1126"></a>
+
+### JOB1126 · DeepSeek（深度求索） · 预训练数据工程师
+
+预训练与数据 · 社招 · 北京、杭州 · 有投递入口
+
+[在原平台查看](https://talent.deepseek.com/job/8a4c2868-599d-40db-be4d-ab58eec5d7e1) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1126)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。DeepSeek 官方招聘页含岗位说明和投递链接。
+
+团队 / 业务为 全栈开发/算法。
+
+**主要职责**
+
+- 工作涉及基座模型训练，包括预训练、多模态、数据清洗、RAG、推理优化。
+
+**任职要求**
+
+- JD 涉及的学历条件有本科及以上学历。
+- 要求涉及Rust、Python、C++。
+
+**优先条件**
+
+- 加分项涉及 预训练、数据清洗、多模态、隐私保护、内容理解。
+
+涉及技术关键词为 预训练、多模态、数据清洗、RAG、推理优化、训练容错、Rust、Python、C++。
+
+<a id="job1127"></a>
+
+### JOB1127 · DeepSeek（深度求索） · Agent 弹性计算研发工程师
+
+Agent 与 RAG · 社招 · 北京、杭州 · 有投递入口
+
+[在原平台查看](https://talent.deepseek.com/job/bae809fb-1978-4401-b209-34067b26569d) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1127)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-17。DeepSeek 官方招聘页含岗位说明和投递链接。
+
+团队 / 业务为 全栈开发/算法。
+
+**主要职责**
+
+- 工作涉及智能体和大模型应用，包括Agent。
+
+**任职要求**
+
+- JD 涉及的学历条件有本科及以上学历。
+- 要求涉及Rust、数据挖掘、分布式系统、C++、Python。
+
+**优先条件**
+
+- 加分项涉及 内存优化、Agent、Rust、强化学习、具身智能。
+
+涉及技术关键词为 Agent、Rust、数据挖掘、分布式系统、C++、Python。
