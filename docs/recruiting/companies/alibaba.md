@@ -1,6 +1,6 @@
 # 阿里巴巴集团 · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [企业校招官网](https://campus-talent.alibaba.com/campus/position) · [企业社招官网](https://talent-holding.alibaba.com/off-campus/position-list)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [企业校招](https://campus-talent.alibaba.com/campus/position) · [企业社招](https://talent-holding.alibaba.com/off-campus/position-list)
 
 共 148 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 

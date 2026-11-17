@@ -18,7 +18,7 @@
 
 汇总大模型和算法岗的社招、校招与实习，附职责、任职要求、原帖和投递核验日期。网页版支持按方向、公司、城市、渠道和投递状态筛选。
 
-[直达字节、阿里、腾讯和京东的校招与社招](docs/recruiting/README.md#major-employers)。
+[字节、阿里、腾讯、京东](docs/recruiting/README.md#major-employers) · [国内其他企业](docs/recruiting/README.md#domestic-employers) · [海外企业](docs/recruiting/README.md#global-employers)。
 
 ## 找面经
 

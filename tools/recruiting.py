@@ -24,6 +24,35 @@ EMPLOYER_PAGES = {
     '京东': ('京东集团', 'jd', 'https://campus.jd.com/#/jobs',
            'https://zhaopin.jd.com/web/job/job_info_list/3'),
 }
+DOMESTIC_EMPLOYERS = {
+    '美团': ('美团', 'meituan', 'https://zhaopin.meituan.com/longcatprogram',
+           'https://zhaopin.meituan.com/web/position?highlightType=social'),
+    '百度': ('百度', 'baidu', 'https://talent.baidu.com/jobs/list?recruitType=GRADUATE',
+           'https://talent.baidu.com/jobs/list?recruitType=SOCIAL'),
+    '华为': ('华为', 'huawei', 'https://career.huawei.com/cn/campus-recruitment-job-list',
+           'https://career.huawei.com/reccampportal/portal5/social-recruitment-ai.html'),
+    '快手': ('快手', 'kuaishou', 'https://campus.kuaishou.cn/',
+           'https://zhaopin.kuaishou.cn/recruit/e/#/official/index/'),
+    '小米': ('小米', 'xiaomi', 'https://hr.xiaomi.com/website/campus.html', 'https://career.mi.com/jobs'),
+    '拼多多': ('拼多多', 'pdd', 'https://careers.pddglobalhr.com/campus/grad',
+             'https://careers.pddglobalhr.com/jobs'),
+    '滴滴': ('滴滴', 'didi', 'https://talent.didiglobal.com/campus/', 'https://talent.didiglobal.com/social/'),
+    '小红书': ('小红书', 'xiaohongshu', 'https://job.xiaohongshu.com/campus/position',
+             'https://job.xiaohongshu.com/social/position'),
+    'DeepSeek': ('DeepSeek', 'deepseek', None, 'https://talent.deepseek.com/'),
+}
+GLOBAL_EMPLOYERS = {
+    'Google': ('Google（谷歌）', 'google', None, 'https://www.google.com/about/careers/applications/jobs/results/?q=Machine+Learning'),
+    '微软': ('Microsoft（微软）', 'microsoft', None, 'https://apply.careers.microsoft.com/careers?query=Machine+Learning'),
+    'Amazon': ('Amazon（亚马逊）', 'amazon', None, 'https://www.amazon.jobs/content/en/job-categories/applied-science'),
+    'NVIDIA': ('NVIDIA（英伟达）', 'nvidia', None, 'https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite'),
+    'Apple': ('Apple（苹果）', 'apple', None, 'https://jobs.apple.com/en-us/search?team=machine-learning-and-ai-SFTWR-MCHLN'),
+    'Salesforce': ('Salesforce', 'salesforce', 'https://careers.salesforce.com/en/university/',
+                   'https://salesforce.wd12.myworkdayjobs.com/External_Career_Site'),
+    'Grab': ('Grab', 'grab', None, 'https://www.grab.careers/en/jobs/'),
+    'OpenAI': ('OpenAI', 'openai', None, 'https://openai.com/careers/search/'),
+    'Anthropic': ('Anthropic', 'anthropic', None, 'https://www.anthropic.com/careers/jobs'),
+}
 
 
 def recruiting_url(**filters):
@@ -97,7 +126,31 @@ def build_recruiting_index(known_topics):
         job['job_type'] for job in official_jobs if job['job_status'] == 'apply_link'
     )
     official_by_employer = Counter((job['company_key'], job['job_type']) for job in official_jobs)
-    company_pages = {key: 'companies/' + spec[1] + '.md' for key, spec in EMPLOYER_PAGES.items()}
+    official_employers = {job['company_key'] for job in official_jobs}
+    employer_groups = (
+        ('major-employers', '重点公司官网', EMPLOYER_PAGES),
+        ('domestic-employers', '国内其他企业', DOMESTIC_EMPLOYERS),
+        ('global-employers', '海外企业', GLOBAL_EMPLOYERS),
+    )
+    employers = {
+        key: spec
+        for _, _, group in employer_groups
+        for key, spec in group.items()
+        if key in official_employers
+    }
+    company_pages = {key: 'companies/' + spec[1] + '.md' for key, spec in employers.items()}
+
+    def company_filter(key, kind):
+        return recruiting_url(company=key, platform='招聘官网', job_type=kind)
+
+    def company_count(key, kind):
+        count = official_by_employer[key, kind]
+        return f'[{count} 条]({company_filter(key, kind)})' if count else '—'
+
+    def employer_links(campus, portal):
+        if campus:
+            return [f'[企业校招]({campus})', f'[企业社招]({portal})']
+        return [f'[企业官网]({portal})']
 
     def entry(job, include_company=False):
         label = f'{job["company"]} · {job["title"]}' if include_company else job['title']
@@ -109,25 +162,24 @@ def build_recruiting_index(known_topics):
         f'[打开招聘网页]({recruiting_url()}) · [返回面经仓库](../../README.md)', '',
         f'{last_checked} 更新，共收录 {len(jobs)} 条岗位与 JD。每条链接指向具体岗位，附职责和要求摘要、核验日期与投递状态。',
         '“有投递入口”表示核验时确认了官网申请入口。“投递待确认”包括官网列表仅展示部分 JD 等情况，详情保留核验依据。', '',
-        '## 官网校招与社招', '',
+        '## 官网岗位', '',
         '| 招聘类型 | 官网岗位 | 有投递入口 | 网页入口 |',
         '|---|---:|---:|---|',
     ]
-    for kind in ('校招', '社招'):
+    for kind in ('校招', '社招', '实习'):
         filtered_url = recruiting_url(platform='招聘官网', job_type=kind)
         lines.append(f'| {kind} | {official_by_type[kind]} | {official_with_application[kind]} | [查看{kind}]({filtered_url}) |')
-    lines += [
-        '', '<a id="major-employers"></a>', '', '## 重点公司官网', '',
-        '| 公司 | 校招 | 社招 | GitHub JD | 企业官网 |',
-        '|---|---:|---:|---|---|',
-    ]
-    for key, (name, _, campus, social) in EMPLOYER_PAGES.items():
-        school_url = recruiting_url(company=key, platform='招聘官网', job_type='校招')
-        experienced_url = recruiting_url(company=key, platform='招聘官网', job_type='社招')
-        school_count = official_by_employer[key, '校招']
-        experienced_count = official_by_employer[key, '社招']
-        lines.append(f'| {name} | [{school_count} 条]({school_url}) | [{experienced_count} 条]({experienced_url}) | '
-                     f'[查看 JD]({company_pages[key]}) | [校招]({campus}) · [社招]({social}) |')
+    for anchor, heading, group in employer_groups:
+        lines += [
+            '', f'<a id="{anchor}"></a>', '', f'## {heading}', '',
+            '| 公司 | 校招 | 社招 | 实习 | GitHub JD | 招聘官网 |',
+            '|---|---:|---:|---:|---|---|',
+        ]
+        for key, (name, _, campus, portal) in group.items():
+            if key in employers:
+                counts = ' | '.join(company_count(key, kind) for kind in ('校招', '社招', '实习'))
+                links = ' · '.join(employer_links(campus, portal))
+                lines.append(f'| {name} | {counts} | [查看 JD]({company_pages[key]}) | {links} |')
     lines += ['', '## 按方向', '']
     for key, title in directions.items():
         if by_direction[key]:
@@ -155,16 +207,14 @@ def build_recruiting_index(known_topics):
     output = ROOT / 'docs/recruiting'
     write_index(output / 'README.md', lines)
 
-    for key, (name, _, campus, social) in EMPLOYER_PAGES.items():
+    for key, (name, _, campus, portal) in employers.items():
         postings = [job for job in jobs if job['company_key'] == key]
-        if not postings:
-            continue
         company_links = [
-            f'[网页校招]({recruiting_url(company=key, platform="招聘官网", job_type="校招")})',
-            f'[网页社招]({recruiting_url(company=key, platform="招聘官网", job_type="社招")})',
-            f'[企业校招官网]({campus})',
-            f'[企业社招官网]({social})',
+            f'[网页{kind}]({company_filter(key, kind)})'
+            for kind in ('校招', '社招', '实习')
+            if official_by_employer[key, kind]
         ]
+        company_links.extend(employer_links(campus, portal))
         company_lines = [
             f'# {name} · 大模型与算法岗', '',
             '[返回招聘索引](../README.md) · ' + ' · '.join(company_links), '',

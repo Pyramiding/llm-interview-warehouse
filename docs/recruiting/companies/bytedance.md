@@ -1,6 +1,6 @@
 # 字节跳动 · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [企业校招官网](https://jobs.bytedance.com/campus/position?type=2) · [企业社招官网](https://jobs.bytedance.com/experienced/position)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library) · [企业校招](https://jobs.bytedance.com/campus/position?type=2) · [企业社招](https://jobs.bytedance.com/experienced/position)
 
 共 215 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
