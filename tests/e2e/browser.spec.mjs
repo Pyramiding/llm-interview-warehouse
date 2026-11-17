@@ -141,6 +141,49 @@ test('question search renders the answer and resources remain distinct', async (
   await expect(page.getByRole('dialog').getByRole('link', {name: '打开资料'})).toBeVisible();
 });
 
+test('recruiting filters and a shareable JD survive reload', async ({page}) => {
+  await ready(page, '/?view=jobs');
+  await expect(page.getByRole('tab', {name: /招聘与 JD/})).toHaveAttribute('aria-selected', 'true');
+  await page.getByText('查看招聘渠道', {exact: true}).click();
+  await expect(page.locator('#job-channels').getByRole('link', {name: '微信公众号'})).toBeVisible();
+  await page.getByText('查看招聘渠道', {exact: true}).click();
+  await filters(page);
+  await page.getByLabel('公司', {exact: true}).selectOption('上海人工智能实验室');
+  await page.getByLabel('平台', {exact: true}).selectOption('招聘官网');
+  await page.getByLabel('岗位方向').selectOption('posttraining');
+  await page.getByLabel('城市', {exact: true}).selectOption('上海');
+  await page.getByLabel('招聘类型').selectOption('社招');
+  await page.getByLabel('投递状态').selectOption('apply_link');
+  await expect(page.locator('.record-card')).toHaveCount(2);
+  await page.locator('[data-record="JOB001"] .record-title').click();
+  const jd = page.getByRole('dialog');
+  await expect(jd.getByRole('heading', {name: '主要职责'})).toBeVisible();
+  await expect(jd.getByRole('heading', {name: '任职要求'})).toBeVisible();
+  await expect(jd.getByRole('link', {name: '查看招聘原页'})).toHaveAttribute('href', /7687960297156315435/);
+  await expect(page).toHaveURL(/record=JOB001/);
+  await page.reload();
+  await expect(jd.getByRole('heading', {name: '大模型强化学习青年研究员'})).toBeVisible();
+  await jd.getByRole('button', {name: '关闭详情'}).click();
+  await expect(page.locator('.record-card')).toHaveCount(2);
+  await page.locator('#tab-interviews').click();
+  await expect(page.locator('#job-filters')).toBeHidden();
+  await expect(page).toHaveURL(/\/$/);
+});
+
+test('global search finds archived JDs and links to company interviews', async ({page}) => {
+  await ready(page);
+  await page.keyboard.press('ControlOrMeta+k');
+  await page.getByRole('combobox', {name: '全站搜索'}).fill('JOB023');
+  await page.getByRole('option', {name: /JOB023/}).click();
+  const jd = page.getByRole('dialog');
+  await expect(page).toHaveURL(/view=jobs&record=JOB023/);
+  await expect(jd).toContainText('已结束');
+  await jd.getByRole('button', {name: '查看字节跳动面经'}).click();
+  await expect(jd).toBeHidden();
+  await expect(page.locator('#tab-interviews')).toHaveAttribute('aria-selected', 'true');
+  await expect(page.locator('#company-filter')).toHaveValue('字节');
+});
+
 test('embedded data works when all data-file requests fail', async ({page}) => {
   let dataRequests = 0;
   await page.route('**/data/*.json*', route => { dataRequests++; return route.abort(); });

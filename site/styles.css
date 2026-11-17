@@ -92,12 +92,13 @@ h1 { margin: 10px 0 9px; font-size: clamp(32px, 3.4vw, 46px); line-height: 1.28;
 .stat-label .icon { width: 12px; height: 12px; color: var(--stat-color); }
 .library-tabs { display: flex; gap: 24px; align-items: center; border: 1px solid var(--line); padding: 7px 12px 7px 7px; border-radius: 13px; margin-bottom: 18px; background: linear-gradient(110deg, var(--panel), var(--surface)); box-shadow: 0 6px 28px #0000000a; }
 .tab-buttons { display: flex; gap: 6px; align-items: center; }
-.library-tab { --tab-color: var(--blue); display: inline-flex; align-items: center; gap: 7px; color: var(--muted); background: transparent; border: 1px solid transparent; padding: 9px 14px; border-radius: 8px; font-size: 13px; white-space: nowrap; }
+.library-tab { --tab-color: var(--blue); position: relative; display: inline-flex; align-items: center; gap: 7px; color: var(--muted); background: transparent; border: 1px solid transparent; padding: 9px 14px; border-radius: 8px; font-size: 13px; white-space: nowrap; }
 .library-tab[data-view="questions"] { --tab-color: var(--violet); }.library-tab[data-view="resources"] { --tab-color: var(--cyan); }
 .library-tab > .icon { width: 15px; height: 15px; color: var(--tab-color); }
 .library-tab span { margin-left: 1px; padding: 1px 5px; border-radius: 4px; background: var(--surface-raised); color: var(--muted); font: 10px/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; }
-.library-tab.active { color: var(--fg); font-weight: 550; background: color-mix(in srgb, var(--tab-color) 11%, var(--surface)); border-color: color-mix(in srgb, var(--tab-color) 27%, transparent); box-shadow: 0 2px 12px color-mix(in srgb, var(--tab-color) 8%, transparent); }
-.library-tab.active span { color: var(--tab-color); background: color-mix(in srgb, var(--tab-color) 13%, var(--surface)); }
+.library-tab[aria-selected="true"] { color: var(--fg); background: color-mix(in srgb, var(--tab-color) 11%, var(--surface)); border-color: color-mix(in srgb, var(--tab-color) 27%, transparent); box-shadow: 0 2px 12px color-mix(in srgb, var(--tab-color) 8%, transparent); }
+.library-tab[aria-selected="true"]::after { content: ""; position: absolute; inset: auto 9px 2px; border-block-end: 2px solid var(--tab-color); }
+.library-tab[aria-selected="true"] span { color: var(--tab-color); background: color-mix(in srgb, var(--tab-color) 13%, var(--surface)); }
 .saved-toggle { margin-left: auto; display: flex; align-items: center; gap: 8px; color: var(--muted); background: transparent; font-size: 11px; padding: 8px 0 8px 10px; }
 .saved-toggle[aria-pressed="true"] { color: var(--violet); }.saved-toggle .icon { width: 15px; height: 15px; }
 .saved-count { color: var(--subtle); font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
@@ -252,3 +253,66 @@ html[data-motion="on"] .network-stars { animation: star-glow 5s ease-in-out infi
 @media (prefers-reduced-motion: reduce) { .particle-field { display: none !important; } *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
 
 #command-input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+
+.library-tab[data-view="jobs"] { --tab-color: var(--amber); }
+.command-kind.kind-jobs, .jobs-entry[aria-current="page"] { color: var(--amber); }
+
+.jobs-intro {
+  margin-bottom: 14px;
+  padding: 17px 19px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: linear-gradient(115deg, color-mix(in srgb, var(--amber) 7%, var(--panel)), var(--panel));
+}
+.jobs-intro-main { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.jobs-intro h2 { margin: 0; font-size: 19px; line-height: 1.45; }
+.jobs-intro p { margin: 6px 0 0; color: var(--muted); font-size: 12px; }
+.jobs-check-date { color: var(--subtle); font-size: 11px; white-space: nowrap; }
+.jobs-check-date time { color: var(--amber); font-variant-numeric: tabular-nums; }
+.job-channels { margin-top: 10px; color: var(--muted); font-size: 12px; }
+.job-channels summary { color: var(--amber); width: fit-content; cursor: pointer; }
+.job-channels ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px; margin: 10px 0 0; padding: 0; list-style: none; }
+.job-channels li { padding: 9px 0; border-top: 1px solid var(--line); }
+.job-channels a { color: var(--fg); font-weight: 550; }
+.job-channels a:hover { color: var(--amber); }
+.job-channels a .icon { width: 12px; height: 12px; margin-left: 3px; }
+.job-channels li p { font-size: 11px; }
+.jobs-intro:not([hidden]) ~ .results-toolbar { margin-top: 12px; }
+
+.job-card .record-eyebrow { flex-wrap: wrap; row-gap: 4px; }
+.job-card .record-company { max-width: 65%; }
+.job-card .record-bookmark { margin-left: 0; }
+.job-status {
+  margin-left: auto;
+  padding: 1px 7px;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  color: var(--amber);
+  white-space: nowrap;
+}
+.job-status[data-status="apply_link"] { color: var(--cyan); }
+.job-status[data-status="closed"] { color: var(--subtle); }
+.job-facts { margin: 4px 0 0; color: var(--subtle); font-size: 12px; }
+.job-card .record-tags .record-tag:first-child { color: var(--card-color); }
+
+@media (max-width: 760px) {
+  .hero-actions { flex-wrap: wrap; row-gap: 8px; }
+  .job-filters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 8px; }
+  .job-filters select { min-height: 48px; font-size: max(1rem, 1em); }
+  .jobs-intro { padding: 13px; }
+  .jobs-intro-main { flex-wrap: wrap; gap: 6px; }
+  .jobs-intro h2 { font-size: 17px; }
+  .job-card .record-company { max-width: 45%; }
+}
+@media (max-width: 510px) {
+  .tab-buttons { flex: 1; min-width: 0; }
+  .library-tab { padding: 8px 6px; }
+  .library-tab > .icon, .library-tab > span { display: none; }
+  .saved-toggle { flex: none; margin-left: 0; padding-left: 2px; }
+}
+@media (max-width: 370px) {
+  .tab-buttons { overflow-x: auto; padding: 4px; }
+  .library-tab { flex: none; }
+  .job-channels ul { grid-template-columns: 1fr; }
+  .job-filters { grid-template-columns: 1fr; }
+}

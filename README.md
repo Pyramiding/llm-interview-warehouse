@@ -10,6 +10,12 @@
 另有96份参考资料、414道专题题解和26道项目/手写练习。论文、文档和原帖共440个去重链接，见[来源目录](docs/source-catalog.md)。
 <!-- STATS:END -->
 
+## 招聘与 JD
+
+[打开招聘模块](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library) · [在 GitHub 按公司、方向看 JD](docs/recruiting/README.md)。
+
+汇总大模型和算法岗的社招、校招与实习，附职责、任职要求、原帖和投递核验日期。网页版支持按方向、公司、城市、渠道和投递状态筛选。
+
 ## 找面经
 
 | 查找方式 | 内容 |

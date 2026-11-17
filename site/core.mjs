@@ -1,9 +1,14 @@
-const VIEWS = new Set(['interviews', 'questions', 'resources']);
+const VIEWS = new Set(['interviews', 'questions', 'resources', 'jobs']);
 const COLLECTIONS = new Set(['', 'infra', 'rag', 'agent', 'search', 'speech']);
 const SORTS = new Set(['recent', 'published', 'title']);
-const KEYS = ['view', 'q', 'company', 'topic', 'specialty', 'domain', 'year', 'platform', 'collection', 'sort', 'saved', 'page', 'record'];
+const JOB_KEYS = ['direction', 'city', 'job_type', 'job_status'];
+const KEYS = ['view', 'q', 'company', 'topic', 'specialty', 'domain', 'year', 'platform', 'collection', 'sort', 'saved', 'page', 'record', ...JOB_KEYS];
 export const PAGE_SIZE = 12;
-export const DEFAULT_STATE = Object.freeze({view: 'interviews', q: '', company: '', topic: '', specialty: '', domain: '', year: '', platform: '', collection: '', sort: 'recent', saved: false, page: 1, record: ''});
+export const DEFAULT_STATE = Object.freeze({
+  view: 'interviews', q: '', company: '', topic: '', specialty: '', domain: '', year: '', platform: '',
+  collection: '', sort: 'recent', saved: false, page: 1, record: '',
+  direction: '', city: '', job_type: '', job_status: '',
+});
 
 export function readState(search = '') {
   const params = new URLSearchParams(search);
@@ -21,6 +26,7 @@ export function readState(search = '') {
 export function stateQuery(state) {
   const params = new URLSearchParams();
   for (const key of KEYS) {
+    if (state.view !== 'jobs' && JOB_KEYS.includes(key)) continue;
     const value = state[key];
     if (key === 'saved') { if (value) params.set(key, '1'); }
     else if (value !== '' && value !== undefined && value !== DEFAULT_STATE[key]) params.set(key, String(value));
@@ -34,8 +40,10 @@ export function normalize(value) {
 
 export function searchableText(record) {
   return normalize([record.id, record.title, record.role, record.summary, record.reading_tip, record.note, record.body, record.chapter, record.platform,
+    record.team, record.direction_label, record.job_type,
     ...(record.companies || []), ...(record.company_keys || []), ...(record.topic_names || []), ...(record.specialty_names || []),
-    ...(record.domains || []), ...(record.question_prompts || [])].filter(Boolean).join(' '));
+    ...(record.domains || []), ...(record.question_prompts || []), ...(record.cities || []), ...(record.skills || []),
+    ...(record.responsibilities || []), ...(record.requirements || []), ...(record.preferred || [])].filter(Boolean).join(' '));
 }
 
 function dateValue(record) {
@@ -47,24 +55,36 @@ function dateValue(record) {
 export function filterRecords(records, state, saved = new Set()) {
   const terms = normalize(state.q).split(/[\s、，,]+/u).filter(Boolean);
   const isQuestion = state.view === 'questions';
+  const isJob = state.view === 'jobs';
   const selected = records.filter(record => {
     if (state.saved && !saved.has(record.id)) return false;
-    if (state.topic && !(record.topic_ids || []).includes(state.topic)) return false;
-    if (state.collection && !(record.collections || []).includes(state.collection)) return false;
+    if (!isJob && state.topic && !(record.topic_ids || []).includes(state.topic)) return false;
+    if (!isJob && state.collection && !(record.collections || []).includes(state.collection)) return false;
     if (!isQuestion) {
       if (state.company && !(record.company_keys || []).includes(state.company)) return false;
-      if (state.year && (record.year ? String(record.year) : 'unknown') !== state.year) return false;
       if (state.platform && record.platform !== state.platform) return false;
-      if (state.domain && !(record.domains || []).includes(state.domain)) return false;
-      if (state.specialty.startsWith('group:')) {
-        if (!(record.specialty_groups || []).includes(state.specialty.slice(6))) return false;
-      } else if (state.specialty && !(record.specialty_ids || []).includes(state.specialty)) return false;
+      if (isJob) {
+        if (state.city && !record.cities.includes(state.city)) return false;
+        for (const key of ['direction', 'job_type', 'job_status']) {
+          if (state[key] && record[key] !== state[key]) return false;
+        }
+      } else {
+        if (state.year && (record.year ? String(record.year) : 'unknown') !== state.year) return false;
+        if (state.domain && !(record.domains || []).includes(state.domain)) return false;
+        if (state.specialty.startsWith('group:')) {
+          if (!(record.specialty_groups || []).includes(state.specialty.slice(6))) return false;
+        } else if (state.specialty && !(record.specialty_ids || []).includes(state.specialty)) return false;
+      }
     }
     const text = record.search_text || searchableText(record);
     return terms.every(term => text.includes(term));
   });
   return selected.sort((a, b) => {
     if (state.sort === 'title') return a.title.localeCompare(b.title, 'zh-CN');
+    if (isJob) {
+      return Number(a.job_status === 'closed') - Number(b.job_status === 'closed') ||
+        b.accessed.localeCompare(a.accessed) || a.order - b.order;
+    }
     if (state.sort === 'published' && !isQuestion) return dateValue(b).localeCompare(dateValue(a)) || b.order - a.order;
     return isQuestion ? a.order - b.order : b.order - a.order;
   });

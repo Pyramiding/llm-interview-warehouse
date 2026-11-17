@@ -10,6 +10,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 from build_indexes import (ROOT, TOPICS, access_label, normalized_companies,
                            platform, read_json, source_label, source_note)
+from recruiting import STATUS_LABELS, VERIFICATION_LABELS, load_recruiting
 
 SITE_URL = 'https://pyramiding.github.io/llm-interview-warehouse/'
 REPO_URL = 'https://github.com/Pyramiding/llm-interview-warehouse'
@@ -105,23 +106,44 @@ def question_records(index):
     return records
 
 
+def job_records(recruiting):
+    topic_names = {code: name for code, name, _, _ in TOPICS}
+    records = []
+    for order, job in enumerate(recruiting['jobs']):
+        records.append(dict(
+            job, kind='jobs', order=order,
+            company_keys=[job['company_key']], companies=[job['company']],
+            topic_ids=job['topics'], topic_names=[topic_names[code] for code in job['topics']],
+            direction_label=recruiting['directions'][job['direction']],
+            status_label=STATUS_LABELS[job['job_status']],
+            access_label=VERIFICATION_LABELS[job['verification']],
+            summary=job['responsibilities'][0],
+        ))
+    return records
+
+
 def build(output=ROOT / '_site'):
     stats = read_json(ROOT / 'data/stats.json')
     specialties = read_json(ROOT / 'data/specialties.json')
     interviews = source_records(read_json(ROOT / 'data/interviews.json'), 'interviews', specialties)
     resources = source_records(read_json(ROOT / 'data/resources.json'), 'resources', specialties)
     questions = question_records(read_json(ROOT / 'data/questions.json'))
+    recruiting = load_recruiting({code for code, *_ in TOPICS})
+    jobs = job_records(recruiting)
     counts = Counter(topic for item in questions for topic in item['topic_ids'])
     topics = [dict(id=code, name=name, description=description, path='docs/topics/' + filename, count=counts[code])
               for code, name, filename, description in TOPICS]
     topics += [dict(id='practice-code', name='手写与估算', count=counts['practice-code'], path='docs/preparation/coding-and-estimation.md'),
                dict(id='practice-projects', name='项目深挖与系统设计', count=counts['practice-projects'], path='docs/preparation/projects-and-system-design.md')]
     catalog = dict(repo_url=REPO_URL, site_url=SITE_URL, stats=stats, topics=topics,
-                   specialties=specialties, interviews=interviews, resources=resources)
+                   specialties=specialties, interviews=interviews, resources=resources, jobs=jobs,
+                   job_channels=recruiting['channels'], job_directions=recruiting['directions'],
+                   job_status_labels=STATUS_LABELS, jobs_checked=max(job['accessed'] for job in jobs))
     assert len(interviews) == stats['interview_records']
     assert len(resources) == stats['reading_resources']
     assert len(questions) == stats['total_questions']
-    assert len({item['id'] for item in interviews + resources + questions}) == len(interviews + resources + questions)
+    all_records = interviews + resources + questions + jobs
+    assert len({item['id'] for item in all_records}) == len(all_records)
     assert all(item['body'] for item in questions)
     assets = {name: (ROOT / 'site' / name).read_bytes() for name in STATIC_FILES}
     digest = hashlib.sha256((encoded(catalog) + encoded(questions)).encode())
@@ -132,7 +154,7 @@ def build(output=ROOT / '_site'):
     replacements = {'SITE_VERSION': version, 'SITE_URL': SITE_URL, 'REPO_URL': REPO_URL,
                     'AS_OF': stats['as_of'], 'INTERVIEW_COUNT': str(len(interviews)),
                     'QUESTION_COUNT': str(len(questions)), 'SPECIALTY_COUNT': str(len(specialties)),
-                    'RESOURCE_COUNT': str(len(resources)),
+                    'RESOURCE_COUNT': str(len(resources)), 'JOB_COUNT': str(len(jobs)),
                     'CATALOG_DATA': script_json(catalog), 'QUESTION_DATA': script_json(questions)}
     output = Path(output)
     (output / 'data').mkdir(parents=True, exist_ok=True)
@@ -149,7 +171,8 @@ def build(output=ROOT / '_site'):
     (output / '.nojekyll').write_text('')
     (output / 'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: ' + SITE_URL + 'sitemap.xml\n')
     (output / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>' + xml_escape(SITE_URL) + '</loc></url></urlset>\n')
-    print(f'Built {output.name}: {len(interviews)} interviews, {len(questions)} questions, {len(resources)} resources; version {version}')
+    print(f'Built {output.name}: {len(interviews)} interviews, {len(questions)} questions, '
+          f'{len(resources)} resources, {len(jobs)} jobs; version {version}')
     return catalog, questions
 
 

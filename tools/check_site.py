@@ -58,6 +58,12 @@ def main():
     index = json.loads((ROOT / 'data/questions.json').read_text())
     assert [item['id'] for item in index] == [item['id'] for item in questions]
     assert all(item['body'] and '<a id=' not in item['body'] for item in questions)
+    recruiting = json.loads((ROOT / 'data/jobs.json').read_text())
+    jobs = catalog['jobs']
+    assert len(jobs) == len(recruiting['jobs'])
+    for source, published in zip(recruiting['jobs'], jobs):
+        assert all(published[key] == value for key, value in source.items()), source['id']
+    assert catalog['job_channels'] == recruiting['channels']
     page = (output / 'index.html').read_text()
     parser = PageParser()
     parser.feed(page)
