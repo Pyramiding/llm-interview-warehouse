@@ -22,6 +22,10 @@
 
 细分方向维护在`data/specialties.json`，通过已有面经/资源ID人工关联，生成细分索引及LLM Infra专页。技术分类与八个业务标签并存，不用公司名称或关键词自动推断；区分岗位、候选项目、场景题和反问中的业务说明。`interview_ids`只能引用公开自述表，`resource_ids`只能引用补充阅读表；暂缺亲历时保留空列表，不拿教程补计数。
 
+## 补充话题
+
+在 `data/discussions.json` 中添加一条 `DISC` 编号的记录，保留原帖链接、平台、话题分类、发帖类型、可确认的发帖日期和查阅日期。用自己的话写 `summary` 和 `angle`，并在备注里记录登录限制或可读的引用出处。发帖日期不详就填 `null`。只看到公开摘录时，把 `verification` 设为 `excerpt` 并写明依据。运行 `python3 tools/build_indexes.py` 更新话题索引。
+
 ## 补充题目或技术来源
 
 题目放入对应专题，使用该专题未占用的ID，并含难度/岗位、答题要点、追问、误区。添加原始论文或官方文档链接，说明版本。文献元数据放到对应`data/sources-*.json`；额外汇编放`data/resources.json`。`data/sources.json`和导航页由脚本生成，不直接手改。

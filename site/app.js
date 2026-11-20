@@ -3,16 +3,16 @@ import {DEFAULT_STATE, PAGE_SIZE, readState, stateQuery, filterRecords, paginate
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
 const icon = name => '<svg class="icon" aria-hidden="true"><use href="#i-' + name + '"></use></svg>';
-const VIEW_NAMES = {interviews: '面经', questions: '题解与练习', resources: '参考资料', jobs: '招聘岗位'};
-const VIEW_HEADINGS = {interviews: '面经原帖', questions: '专题题解与练习', resources: '参考资料', jobs: '大模型与算法岗位'};
-const VIEW_UNITS = {interviews: '篇', questions: '道', resources: '份', jobs: '个'};
-const VIEW_ICONS = {interviews: 'doc', questions: 'code', resources: 'layers', jobs: 'briefcase'};
+const VIEW_NAMES = {interviews: '面经', questions: '题解与练习', resources: '参考资料', jobs: '招聘岗位', discussions: '话题'};
+const VIEW_HEADINGS = {interviews: '面经原帖', questions: '专题题解与练习', resources: '参考资料', jobs: '大模型与算法岗位', discussions: '算法圈话题'};
+const VIEW_UNITS = {interviews: '篇', questions: '道', resources: '份', jobs: '个', discussions: '条'};
+const VIEW_ICONS = {interviews: 'doc', questions: 'code', resources: 'layers', jobs: 'briefcase', discussions: 'chat'};
+const SEPARATE_VIEWS = new Set(['jobs', 'discussions']);
 const COLLECTION_NAMES = {infra: 'LLM Infra', rag: 'RAG', agent: 'Agent', search: '搜广推', speech: '语音与客服'};
 const STORE_KEY = 'llm-interview-warehouse:saved:v1';
 const THEME_KEY = 'llm-interview-warehouse:theme';
 const version = $('meta[name="site-version"]').content;
-let state = readState(location.search);
-if (state.view === 'jobs' && !$('#tab-jobs')) state = {...DEFAULT_STATE};
+let state = pageState();
 let catalog, questions, questionsPromise, renderRevision = 0, currentRecord;
 let toastTimer, searchTimer;
 let readerRecords = [], commandHits = [], commandIndex = 0, commandQuestionsUnavailable = false;
@@ -22,6 +22,11 @@ try {
   const stored = JSON.parse(localStorage.getItem(STORE_KEY) || '[]');
   if (Array.isArray(stored)) saved = new Set(stored.filter(id => typeof id === 'string' && /^[A-Z]{1,4}\d{2,4}$/.test(id)).slice(0, 10000));
 } catch { /* Reading remains available if browser storage is disabled. */ }
+
+function pageState() {
+  const requested = readState(location.search);
+  return SEPARATE_VIEWS.has(requested.view) && !$('#tab-' + requested.view) ? {...DEFAULT_STATE} : requested;
+}
 
 function setTheme(theme) {
   document.documentElement.dataset.theme = theme;
@@ -173,7 +178,7 @@ function renderCommand() {
   if (!terms.length) matches = [...catalog.interviews].sort((a, b) => b.order - a.order);
   else {
     const pool = [...catalog.interviews, ...(questions || []), ...catalog.resources];
-    if ($('#tab-jobs')) pool.push(...catalog.jobs);
+    for (const view of SEPARATE_VIEWS) if ($('#tab-' + view)) pool.push(...catalog[view]);
     const rank = record => normalize(record.id) === query ? 0 : terms.every(term => normalize(record.title).includes(term)) ? 1 : 2;
     matches = pool.filter(record => terms.every(term => record.search_text.includes(term))).sort((a, b) => rank(a) - rank(b) || a.kind.localeCompare(b.kind) || a.order - b.order);
   }
@@ -211,11 +216,11 @@ function option(value, label) {
 }
 
 function fillFilters() {
-  const jobs = state.view === 'jobs';
+  const discussions = state.view === 'discussions';
   const rows = state.view === 'questions' ? catalog.interviews : catalog[state.view];
   const companies = new Map(), years = new Map(), platforms = new Map();
   for (const record of rows) {
-    for (const company of record.company_keys) companies.set(company, (companies.get(company) || 0) + 1);
+    for (const company of record.company_keys || []) companies.set(company, (companies.get(company) || 0) + 1);
     const year = record.year ? String(record.year) : 'unknown';
     years.set(year, (years.get(year) || 0) + 1);
     platforms.set(record.platform, (platforms.get(record.platform) || 0) + 1);
@@ -227,7 +232,10 @@ function fillFilters() {
   };
   $('#company-filter').innerHTML = option('', '全部公司') + [...companies].sort((a, b) => companyOrder(a[0], b[0])).map(([name, count]) => option(name, name + ' · ' + count)).join('');
   $('#platform-filter').innerHTML = option('', '全部平台') + [...platforms].sort((a, b) => b[1] - a[1]).map(([name, count]) => option(name, name + ' · ' + count)).join('');
-  if (jobs) return;
+  if (discussions) {
+    $('#discussion-category-filter').innerHTML = option('', '全部话题') + Object.entries(catalog.discussion_categories || {}).map(([key, name]) => option(key, name)).join('');
+  }
+  if (SEPARATE_VIEWS.has(state.view)) return;
   $('#topic-filter').innerHTML = option('', '全部专题') + catalog.topics.filter(topic => state.view === 'questions' || !topic.id.startsWith('practice-')).map(topic => option(topic.id, (topic.id.startsWith('practice-') ? '' : topic.id + ' · ') + topic.name)).join('');
   let specialtyOptions = option('', '全部方向');
   for (const group of ['LLM Infra', 'Agent与模型工程', '应用场景']) {
@@ -269,11 +277,13 @@ function filterLabel(key, value) {
   if (key === 'year') return value === 'unknown' ? '年份未确认' : value + '年';
   if (key === 'direction') return catalog.job_directions?.[value] || value;
   if (key === 'job_status') return catalog.job_status_labels?.[value] || value;
+  if (key === 'discussion_category') return catalog.discussion_categories?.[value] || value;
   return value;
 }
 
 function syncControls() {
   const jobs = state.view === 'jobs';
+  const discussions = state.view === 'discussions';
   const question = state.view === 'questions';
   fillFilters();
   if ($('#library-title')) {
@@ -287,10 +297,15 @@ function syncControls() {
     tab.tabIndex = active ? 0 : -1;
   }
   $$('.source-filter').forEach(field => { field.hidden = question; });
-  $$('.study-filter').forEach(field => { field.hidden = jobs || (question && field.classList.contains('source-filter')); });
+  $$('.study-filter').forEach(field => { field.hidden = jobs || discussions || (question && field.classList.contains('source-filter')); });
+  $('#company-filter').closest('.filter-field').hidden = question || discussions;
   for (const id of ['jobs-intro', 'job-filters']) if ($('#' + id)) $('#' + id).hidden = !jobs;
-  if ($('#discovery-rail')) $('#discovery-rail').hidden = jobs;
-  $$('.jobs-entry').forEach(link => { if (jobs) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current'); });
+  for (const id of ['discussion-caption', 'discussion-filters']) if ($('#' + id)) $('#' + id).hidden = !discussions;
+  if ($('#discovery-rail')) $('#discovery-rail').hidden = jobs || discussions;
+  for (const link of $$('[data-library-view], .jobs-entry')) {
+    if (state.view === (link.dataset.libraryView || 'jobs')) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  }
   for (const field of $$('[data-filter]')) field.value = state[field.dataset.filter];
   for (const chip of $$('[data-collection]')) {
     const active = chip.dataset.collection === state.collection;
@@ -298,23 +313,24 @@ function syncControls() {
     chip.setAttribute('aria-pressed', String(active));
   }
   if ($('#search-input').value !== state.q) $('#search-input').value = state.q;
-  $('#search-input').placeholder = jobs ? '搜公司、岗位或技能' : question ? '搜题目或作答要点' : '搜公司、技术词或项目';
-  $('#sort-select').innerHTML = option('recent', jobs ? '最近核验' : question ? '专题顺序' : '最近收录') +
-    (question ? '' : option('published', '发布时间')) + option('title', jobs ? '岗位名称' : '标题顺序');
-  if (question && state.sort === 'published') state.sort = 'recent';
+  $('#search-input').placeholder = jobs ? '搜公司、岗位或技能' : discussions ? '搜模型、工具或讨论内容' : question ? '搜题目或作答要点' : '搜公司、技术词或项目';
+  $('#sort-select').innerHTML = option('recent', jobs ? '最近核验' : discussions ? '最新发帖' : question ? '专题顺序' : '最近收录') +
+    (question || discussions ? '' : option('published', '发布时间')) + option('title', jobs ? '岗位名称' : '标题顺序');
+  if ((question || discussions) && state.sort === 'published') state.sort = 'recent';
   $('#sort-select').value = state.sort;
   $('#saved-toggle').setAttribute('aria-pressed', String(state.saved));
   $('#saved-toggle').setAttribute('aria-label', '只看我的收藏，共' + saved.size + '项');
   $('#saved-count').textContent = saved.size;
   for (const chip of $$('#company-quick [data-company]')) chip.setAttribute('aria-pressed', String(state.view === 'interviews' && state.company === chip.dataset.company));
-  $('.sidebar-note-title').textContent = jobs ? '关于投递状态' : question ? '按知识点复习' : '读面经，也看上下文';
-  $('.sidebar-note p').textContent = jobs ? '状态以条目所列核验日期为准。招聘方可随时关闭或调整岗位。' : question ? '题解按公开论文与文档编写，参考链接随题保留。具体企业问了什么，可以回面经原帖查看。' : '公司、岗位和过程沿用原作者描述。日期疑问、付费截断等情况见条目备注。';
+  $('.sidebar-note-title').textContent = jobs ? '关于投递状态' : discussions ? '原帖与评论' : question ? '按知识点复习' : '读面经，也看上下文';
+  $('.sidebar-note p').textContent = jobs ? '状态以条目所列核验日期为准。招聘方可随时关闭或调整岗位。' : discussions ? '原帖保留作者和上下文。部分平台在 App 里才能查看完整内容或评论。' : question ? '题解按公开论文与文档编写，参考链接随题保留。具体企业问了什么，可以回面经原帖查看。' : '公司、岗位和过程沿用原作者描述。日期疑问、付费截断等情况见条目备注。';
   if ($('.sidebar-note a')) {
-    $('.sidebar-note a').href = catalog.repo_url + (jobs ? '/blob/main/docs/recruiting/README.md' : '/blob/main/docs/methodology.md');
+    $('.sidebar-note a').href = catalog.repo_url + (jobs ? '/blob/main/docs/recruiting/README.md' : discussions ? '/blob/main/docs/discussions.md' : '/blob/main/docs/methodology.md');
+    $('.sidebar-note a span')?.replaceChildren(discussions ? '在 GitHub 读话题' : '来源说明');
   }
-  if ($('.contribute-link')) $('.contribute-link').hidden = jobs;
+  if ($('.contribute-link')) $('.contribute-link').hidden = jobs || discussions;
   const filterKeys = jobs ? ['q', 'direction', 'company', 'city', 'job_type', 'job_status', 'platform', 'saved'] :
-    question ? ['q', 'collection', 'topic', 'saved'] : ['q', 'collection', 'company', 'topic', 'specialty', 'domain', 'year', 'platform', 'saved'];
+    discussions ? ['q', 'discussion_category', 'platform', 'saved'] : question ? ['q', 'collection', 'topic', 'saved'] : ['q', 'collection', 'company', 'topic', 'specialty', 'domain', 'year', 'platform', 'saved'];
   const active = filterKeys.filter(key => state[key]);
   $('#active-filters').innerHTML = active.map(key => '<button class="filter-tag" data-remove="' + key + '" aria-label="移除条件：' + esc(filterLabel(key, state[key])) + '">' + esc(filterLabel(key, state[key])) + icon('close') + '</button>').join('');
   $('#mobile-filter-count').textContent = active.length ? '· ' + active.length : '';
@@ -325,9 +341,10 @@ function officialOpenSelected() {
   return state.job_status === 'apply_link' && state.platform === '招聘官网';
 }
 
-function externalLink(url, label, className = '') {
+function externalLink(url, label, className = '', context = '') {
   const href = safeUrl(url);
-  return href ? '<a class="' + className + '" href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">' + esc(label) + icon('arrow') + '</a>' : '';
+  const description = context ? '<span class="sr-only">：' + esc(context) + '</span>' : '';
+  return href ? '<a class="' + className + '" href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">' + esc(label) + description + icon('arrow') + '</a>' : '';
 }
 
 function shortDate(record) {
@@ -380,8 +397,25 @@ function jobCard(record) {
   </article>`;
 }
 
+function discussionCard(record) {
+  const tones = {models: 'violet', agents: 'cyan', infra: 'blue', applications: 'pink', careers: 'amber', research: 'violet'};
+  const date = record.published ? `<time datetime="${esc(record.published)}">${esc(record.published)}</time>` : '日期未确认';
+  return `<article class="record-card discussion-card" data-tone="${tones[record.category] || 'blue'}" data-record="${esc(record.id)}">
+    <header>
+      <div class="record-eyebrow"><span class="discussion-platform">${esc(record.platform)}</span><span>${date}</span><span>${esc(record.post_type)}</span>${bookmarkButton(record)}</div>
+      <h3><button type="button" class="record-title" data-open="${esc(record.id)}">${esc(record.title)}</button></h3>
+    </header>
+    <p class="record-excerpt">${esc(record.summary)}</p>
+    <footer class="record-bottom">
+      <div class="record-tags"><span class="record-tag">${esc(record.category_label)}</span>${record.verification === 'excerpt' ? '<span class="restricted-tag">公开摘录</span>' : ''}</div>
+      <div class="record-actions">${externalLink(record.url, '看原帖', 'read-source', record.title)}<button type="button" class="read-detail" data-open="${esc(record.id)}">讨论焦点<span class="sr-only">：${esc(record.title)}</span>${icon('chevron')}</button></div>
+    </footer>
+  </article>`;
+}
+
 function card(record) {
   if (record.kind === 'jobs') return jobCard(record);
+  if (record.kind === 'discussions') return discussionCard(record);
   const question = state.view === 'questions';
   const company = record.companies?.length ? record.companies.slice(0, 2).join(' / ') + (record.companies.length > 2 ? ' 等' : '') : (record.company_keys?.[0] || '通用资料');
   const tags = question ? [record.chapter, record.difficulty] : (record.topic_names.length ? record.topic_names.slice(0, 2) : [record.source_label]);
@@ -480,6 +514,17 @@ function jobDetails(record) {
   return content;
 }
 
+function discussionDetails(record) {
+  const metadata = [
+    ['话题', record.category_label], ['来源', record.platform + ' · ' + record.post_type],
+    ['发帖日期', record.published || '未确认'], ['查阅日期', record.accessed], ['阅读情况', record.access_label],
+  ];
+  return '<dl class="detail-metadata">' + metadata.map(([label, value]) => metadataRow(label, value)).join('') + '</dl>' +
+    section('原帖在聊什么', '<p>' + esc(record.summary) + '</p>') +
+    section('讨论焦点', '<p>' + esc(record.angle) + '</p>') +
+    section('来源备注', record.note ? '<p>' + esc(record.note) + '</p>' : '', 'notes');
+}
+
 function showRecord(record) {
   const dialog = $('#detail-dialog');
   currentRecord = record;
@@ -490,15 +535,17 @@ function showRecord(record) {
   dialog.dataset.record = record.id;
   const question = record.kind === 'questions';
   const jobs = record.kind === 'jobs';
+  const discussions = record.kind === 'discussions';
   $('#detail-kicker').textContent = question ? '专题题解 / ' + record.chapter : VIEW_NAMES[record.kind] + ' / ' + record.platform;
   let content = '<span class="detail-id">' + esc(record.id) + '</span><h2 id="detail-title" tabindex="-1">' + esc(record.title) + '</h2>';
   const sourceLabel = jobs ? (record.verification === 'reprint' ? '查看公开转载' : '查看招聘原页') :
     question ? '在GitHub读本专题' : record.kind === 'resources' ? '打开资料' : '阅读原帖';
   content += '<div class="detail-links">' + externalLink(record.url, sourceLabel, 'primary-button');
-  if (record.evidence_url) content += externalLink(record.evidence_url, jobs ? '查看公开摘要' : '其他阅读入口', 'secondary-button');
+  if (record.evidence_url) content += externalLink(record.evidence_url, record.evidence_label || (jobs ? '查看公开摘要' : '其他阅读入口'), 'secondary-button');
   content += '</div>';
   if (question) content += '<div class="markdown">' + renderMarkdown(record.body, record.url) + '</div>';
   else if (jobs) content += jobDetails(record);
+  else if (discussions) content += discussionDetails(record);
   else {
     content += '<dl class="detail-metadata">' + metadataRow('公司', record.companies?.length ? record.companies : '未明确') + metadataRow('岗位 / 内容', record.role) + metadataRow('面试时间', record.event_date) + metadataRow(record.published_at ? '发布时间' : '页面日期', displayTime(record.published_at || record.published)) + metadataRow('编辑时间', record.updated_at !== record.published_at ? displayTime(record.updated_at) : '') + metadataRow('查阅日期', record.accessed) + metadataRow('作者', record.author) + metadataRow('阅读情况', record.access_label) + metadataRow('资料类型', record.source_label) + '</dl>';
     content += section('主要内容', record.summary ? '<p>' + esc(record.summary) + '</p>' : '');
@@ -508,7 +555,7 @@ function showRecord(record) {
     if (record.alternate_urls?.length) content += section('同文链接', record.alternate_urls.map((url, i) => externalLink(url, '入口 ' + (i + 1), 'secondary-button')).join(' '));
     if (record.related_interview_id) content += section('相关面经', '<button class="topic-link" data-related="' + esc(record.related_interview_id) + '">' + esc(record.related_interview_id) + ' · 查看摘要</button>');
   }
-  const topics = catalog.topics.filter(topic => record.topic_ids.includes(topic.id));
+  const topics = catalog.topics.filter(topic => record.topic_ids?.includes(topic.id));
   if (!question && topics.length) content += section('相关题解', '<div class="topic-links">' + topics.map(topic => '<button class="topic-link" data-topic="' + esc(topic.id) + '">' + esc(topic.name) + ' ↗</button>').join('') + '</div>');
   $('#detail-content').innerHTML = content;
   $('#detail-content').scrollTop = 0;
@@ -598,15 +645,15 @@ function bindEvents() {
     const selected = officialOpenSelected();
     navigate({job_status: selected ? '' : 'apply_link', platform: selected ? '' : '招聘官网'});
   });
-  for (const link of $$('.jobs-entry')) link.addEventListener('click', event => {
+  for (const link of $$('[data-library-view], .jobs-entry')) link.addEventListener('click', event => {
     if (!catalog || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
-    navigate({...DEFAULT_STATE, view: 'jobs'});
+    navigate({...DEFAULT_STATE, view: link.dataset.libraryView || 'jobs'});
     $('#library').scrollIntoView({block: 'start'});
   });
   for (const tab of $$('.library-tab')) tab.addEventListener('click', () => {
     const view = tab.dataset.view;
-    if (view !== state.view && (view === 'jobs' || state.view === 'jobs')) {
+    if (view !== state.view && (SEPARATE_VIEWS.has(view) || SEPARATE_VIEWS.has(state.view))) {
       navigate({...DEFAULT_STATE, view, q: $('#search-input').value, saved: state.saved});
     } else navigate({view, sort: 'recent'});
   });
@@ -684,8 +731,7 @@ function bindEvents() {
   });
   window.addEventListener('popstate', () => {
     clearTimeout(searchTimer);
-    state = readState(location.search);
-    if (state.view === 'jobs' && !$('#tab-jobs')) state = {...DEFAULT_STATE};
+    state = pageState();
     render();
   });
   window.addEventListener('storage', event => {
@@ -705,6 +751,7 @@ async function initialize() {
     catalog.interviews = prepare(catalog.interviews);
     catalog.resources = prepare(catalog.resources);
     catalog.jobs = prepare(catalog.jobs ?? []);
+    catalog.discussions = prepare(catalog.discussions ?? []);
     setupJobModule();
     renderDiscoveries();
     const commandOpen = $('#command-open');

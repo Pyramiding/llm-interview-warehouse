@@ -194,6 +194,34 @@ test('global search finds archived JDs and links to company interviews', async (
   await expect(page.locator('#company-filter')).toHaveValue('字节');
 });
 
+test('discussion board filters, bookmarks and restores a shared thread', async ({page}) => {
+  await ready(page);
+  await page.getByRole('link', {name: '逛话题'}).click();
+  await expect(page.getByRole('tab', {name: /话题区/})).toHaveAttribute('aria-selected', 'true');
+  await expect(page.getByRole('heading', {name: '算法圈话题'})).toBeVisible();
+  await page.getByLabel('话题分类').selectOption('infra');
+  await page.getByLabel('平台', {exact: true}).selectOption('V2EX');
+  await page.getByRole('searchbox', {name: '搜索资料'}).fill('DSpine');
+  const discussion = page.locator('.discussion-card');
+  await expect(discussion).toHaveCount(1);
+  await expect(discussion.getByRole('link', {name: '看原帖'})).toHaveAttribute('href', 'https://www.v2ex.com/t/1255433');
+  await discussion.getByRole('button', {name: /^收藏/}).click();
+  await page.getByRole('button', {name: /^只看我的收藏/}).click();
+  await discussion.getByRole('button', {name: '讨论焦点'}).click();
+  const reader = page.getByRole('dialog');
+  await expect(reader.getByRole('heading', {name: '讨论焦点'})).toBeVisible();
+  await expect(page).toHaveURL(/record=DISC005/);
+  await page.reload();
+  await expect(reader.getByRole('link', {name: '阅读原帖'})).toHaveAttribute('href', /v2ex\.com\/t\/1255433/);
+  await expect(page.getByLabel('话题分类')).toHaveValue('infra');
+  await expect(page.getByLabel('平台', {exact: true})).toHaveValue('V2EX');
+  await reader.getByRole('button', {name: '关闭详情'}).click();
+  await page.getByRole('button', {name: '打开全站搜索'}).click();
+  await page.getByRole('combobox', {name: '全站搜索'}).fill('DISC002');
+  await page.getByRole('option', {name: /DISC002/}).click();
+  await expect(reader.getByRole('heading', {name: /Gemini 4 Neon 写代码/})).toBeVisible();
+});
+
 test('embedded data works when all data-file requests fail', async ({page}) => {
   let dataRequests = 0;
   await page.route('**/data/*.json*', route => { dataRequests++; return route.abort(); });

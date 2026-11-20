@@ -327,3 +327,36 @@ html[data-motion="on"] .network-stars { animation: star-glow 5s ease-in-out infi
   .job-channels ul { grid-template-columns: 1fr; }
   .job-filters { grid-template-columns: 1fr; }
 }
+
+.library-tab[data-view="discussions"] { --tab-color: var(--pink); }
+.library-heading[data-view="discussions"] { --heading-accent: var(--pink); }
+.command-kind.kind-discussions, .discussions-entry[aria-current="page"] { color: var(--pink); }
+.hero-actions .discussions-entry { color: var(--pink); border-color: color-mix(in srgb, var(--pink) 44%, var(--line)); }
+.hero-actions .discussions-entry:is(:hover, [aria-current="page"]) { background: color-mix(in srgb, var(--pink) 12%, var(--surface)); }
+.discussion-caption { margin: 7px 0 0; color: var(--muted); font-size: .875rem; }
+#library[data-view="discussions"] ~ .workspace .results-toolbar { margin-top: 14px; }
+.discussion-card .record-eyebrow { flex-wrap: wrap; column-gap: 10px; row-gap: 4px; font-size: .75rem; }
+.discussion-platform { color: var(--card-color); font-weight: 650; }
+.discussion-card time { font-variant-numeric: tabular-nums; }
+.discussion-card .record-tag { --tag-color: var(--card-color); }
+.discussion-card .record-title { overflow-wrap: anywhere; }
+
+@media (max-width: 760px) {
+  #library[data-view="discussions"] ~ .workspace .mobile-filter-button { display: none; }
+  #library[data-view="discussions"] ~ .workspace .filters {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 10px;
+    padding: 13px;
+    margin-bottom: 12px;
+  }
+  #library[data-view="discussions"] ~ .workspace .filter-heading { grid-column: 1 / -1; }
+  #library[data-view="discussions"] ~ .workspace .filter-row { grid-template-columns: minmax(0, 1fr); }
+  #library[data-view="discussions"] ~ .workspace .filter-field { margin-bottom: 0; }
+  #library[data-view="discussions"] ~ .workspace .filter-field select { min-height: 48px; font-size: 1rem; }
+}
+
+@media (max-width: 510px) {
+  .tab-buttons { flex-wrap: wrap; overflow: visible; padding: 0; }
+  .library-tab { min-block-size: 2.75rem; }
+}

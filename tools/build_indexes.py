@@ -7,6 +7,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
+from discussions import build_discussion_index
 from recruiting import build_recruiting_index
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -271,6 +272,7 @@ def build_facets(interviews, resources):
 
 def main():
     build_recruiting_index({code for code, *_ in TOPICS})
+    build_discussion_index()
     interviews = read_json(ROOT/'data/interviews.json')
     resources = read_json(ROOT/'data/resources.json')
     source_fragments = sorted((ROOT/'data').glob('sources-*.json'))

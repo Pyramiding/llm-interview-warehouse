@@ -10,6 +10,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 from build_indexes import (ROOT, TOPICS, access_label, normalized_companies,
                            platform, read_json, source_label, source_note)
+from discussions import VERIFICATION_LABELS as DISCUSSION_ACCESS_LABELS, load_discussions
 from recruiting import STATUS_LABELS, VERIFICATION_LABELS, load_recruiting
 
 SITE_URL = 'https://pyramiding.github.io/llm-interview-warehouse/'
@@ -130,6 +131,11 @@ def build(output=ROOT / '_site'):
     questions = question_records(read_json(ROOT / 'data/questions.json'))
     recruiting = load_recruiting({code for code, *_ in TOPICS})
     jobs = job_records(recruiting)
+    discussion_data = load_discussions()
+    discussion_categories = discussion_data['categories']
+    discussions = [dict(row, kind='discussions', order=order, category_label=discussion_categories[row['category']],
+                        access_label=DISCUSSION_ACCESS_LABELS[row['verification']])
+                   for order, row in enumerate(discussion_data['discussions'])]
     counts = Counter(topic for item in questions for topic in item['topic_ids'])
     topics = [dict(id=code, name=name, description=description, path='docs/topics/' + filename, count=counts[code])
               for code, name, filename, description in TOPICS]
@@ -137,12 +143,13 @@ def build(output=ROOT / '_site'):
                dict(id='practice-projects', name='项目深挖与系统设计', count=counts['practice-projects'], path='docs/preparation/projects-and-system-design.md')]
     catalog = dict(repo_url=REPO_URL, site_url=SITE_URL, stats=stats, topics=topics,
                    specialties=specialties, interviews=interviews, resources=resources, jobs=jobs,
+                   discussion_categories=discussion_categories, discussions=discussions,
                    job_channels=recruiting['channels'], job_directions=recruiting['directions'],
                    job_status_labels=STATUS_LABELS, jobs_checked=max(job['accessed'] for job in jobs))
     assert len(interviews) == stats['interview_records']
     assert len(resources) == stats['reading_resources']
     assert len(questions) == stats['total_questions']
-    all_records = interviews + resources + questions + jobs
+    all_records = interviews + resources + questions + jobs + discussions
     assert len({item['id'] for item in all_records}) == len(all_records)
     assert all(item['body'] for item in questions)
     assets = {name: (ROOT / 'site' / name).read_bytes() for name in STATIC_FILES}
@@ -155,6 +162,7 @@ def build(output=ROOT / '_site'):
                     'AS_OF': stats['as_of'], 'INTERVIEW_COUNT': str(len(interviews)),
                     'QUESTION_COUNT': str(len(questions)), 'SPECIALTY_COUNT': str(len(specialties)),
                     'RESOURCE_COUNT': str(len(resources)), 'JOB_COUNT': str(len(jobs)),
+                    'DISCUSSION_COUNT': str(len(discussions)),
                     'CATALOG_DATA': script_json(catalog), 'QUESTION_DATA': script_json(questions)}
     output = Path(output)
     (output / 'data').mkdir(parents=True, exist_ok=True)
@@ -172,7 +180,7 @@ def build(output=ROOT / '_site'):
     (output / 'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: ' + SITE_URL + 'sitemap.xml\n')
     (output / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>' + xml_escape(SITE_URL) + '</loc></url></urlset>\n')
     print(f'Built {output.name}: {len(interviews)} interviews, {len(questions)} questions, '
-          f'{len(resources)} resources, {len(jobs)} jobs; version {version}')
+          f'{len(resources)} resources, {len(jobs)} jobs, {len(discussions)} discussions; version {version}')
     return catalog, questions
 
 

@@ -64,10 +64,16 @@ def main():
     for source, published in zip(recruiting['jobs'], jobs):
         assert all(published[key] == value for key, value in source.items()), source['id']
     assert catalog['job_channels'] == recruiting['channels']
+    discussion_data = json.loads((ROOT / 'data/discussions.json').read_text())
+    assert catalog['discussion_categories'] == discussion_data['categories']
+    assert len(catalog['discussions']) == len(discussion_data['discussions'])
+    for source, published in zip(discussion_data['discussions'], catalog['discussions']):
+        assert all(published[key] == value for key, value in source.items()), source['id']
     page = (output / 'index.html').read_text()
     parser = PageParser()
     parser.feed(page)
     assert len(parser.ids) == len(set(parser.ids)), 'Duplicate HTML IDs'
+    assert 'tab-discussions' in parser.ids
     for name, expected in [('initial-catalog', catalog), ('initial-questions', questions)]:
         payload = parser.embedded[name]
         assert '<' not in payload, 'Embedded data can break out of its JSON element'

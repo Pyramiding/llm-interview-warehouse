@@ -22,6 +22,10 @@
 
 [在华外企](docs/recruiting/README.md#china-foreign-employers) · [大模型公司与研究机构](docs/recruiting/README.md#model-employers) · [机器人与计算机视觉](docs/recruiting/README.md#robotics-employers) · [运营商与金融机构](docs/recruiting/README.md#telecom-finance-employers)。
 
+## 话题区
+
+逛逛算法和大模型圈的公开讨论，看看模型实测、Agent 踩坑、LLM Infra 和求职动态。可按话题和平台筛选，回原帖看评论。[打开网页版](https://pyramiding.github.io/llm-interview-warehouse/?view=discussions#library) · [话题索引](docs/discussions.md)
+
 ## 找面经
 
 | 查找方式 | 内容 |
