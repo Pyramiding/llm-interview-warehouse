@@ -1,8 +1,33 @@
 # 智元机器人（AGIBOT） · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [企业官网](https://agirobot.jobs.feishu.cn/campusrecruitment)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%99%BA%E5%85%83%E6%9C%BA%E5%99%A8%E4%BA%BA&job_type=%E6%A0%A1%E6%8B%9B#library) · [企业官网](https://agirobot.jobs.feishu.cn/campusrecruitment)
 
-共 13 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 14 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+
+## 校招（1）
+
+<a id="job1340"></a>
+
+### JOB1340 · 智元机器人 · 优才-训练与推理优化工程师-灵犀业务部
+
+LLM Infra 与推理 · 校招 · 上海、北京 · 有投递入口
+
+[在原平台查看](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7677787384113432858/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1340)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-08-25
+
+**主要职责**
+
+- 优化具身大模型的计算、通信、显存与数据加载。
+- 通过量化、算子调优和引擎适配改善端侧部署。
+
+**任职要求**
+
+- 2027 届本科及以上，熟悉 Python、C++ 与 PyTorch，掌握至少一种分布式训练或推理优化技术。
+
+涉及技术关键词为 具身智能、训练框架、TensorRT、端侧。
 
 ## 未说明（13）
 

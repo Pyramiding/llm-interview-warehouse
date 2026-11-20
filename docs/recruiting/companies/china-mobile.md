@@ -241,7 +241,7 @@ Agent 与 RAG · 社招 · 北京 · 有投递入口
 
 [在原平台查看](https://job.10086.cn/personal/job/detail.html?id=8b5b3d95-75b3-4db9-8d83-766fd24ffdfb&typess=2) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1259)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。中国移动官网详情核验时显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。中国移动官网详情核验时显示投递入口。
 
 团队 / 业务为 金融科技公司。
 
@@ -265,7 +265,7 @@ LLM Infra 与推理 · 社招 · 南宁 · 有投递入口
 
 [在原平台查看](https://job.10086.cn/personal/job/detail.html?id=cc3b5c56-a0fb-4bff-ba2b-b5c9fe838068&typess=2) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1260)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。中国移动官网详情核验时显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。中国移动官网详情核验时显示投递入口。
 
 团队 / 业务为 广西移动。
 
@@ -289,7 +289,7 @@ LLM Infra 与推理 · 社招 · 南宁 · 有投递入口
 
 [在原平台查看](https://job.10086.cn/personal/job/detail.html?id=71005c45-42d7-4cb5-8b7f-8a08b36161d0&typess=2) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1261)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。中国移动职位原页在核验时显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。中国移动职位原页在核验时显示投递入口。
 
 团队 / 业务为 甘肃公司。
 
@@ -314,7 +314,7 @@ Agent 与 RAG · 社招 · 上海 · 有投递入口
 
 [在原平台查看](https://job.10086.cn/personal/job/detail.html?id=a62ea1a5-2e6e-46d7-b25a-ebad8666a712&typess=2) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1262)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。中国移动官网详情核验时显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。中国移动官网详情核验时显示投递入口。
 
 团队 / 业务为 上海移动。
 
@@ -338,7 +338,7 @@ LLM Infra 与推理 · 社招 · 上海 · 有投递入口
 
 [在原平台查看](https://job.10086.cn/personal/job/detail.html?id=cd23d388-b831-4d50-92b0-f42cd6ee2c45&typess=2) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1263)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。中国移动职位原页在核验时显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。中国移动职位原页在核验时显示投递入口。
 
 团队 / 业务为 上海公司。
 

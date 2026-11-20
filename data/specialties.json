@@ -8,7 +8,8 @@
       "INT042",
       "INT219",
       "INT502",
-      "INT511"
+      "INT511",
+      "INT548"
     ],
     "resource_ids": [
       "RES601",
@@ -100,7 +101,12 @@
       "INT502",
       "INT503",
       "INT504",
-      "INT505"
+      "INT505",
+      "INT529",
+      "INT537",
+      "INT541",
+      "INT542",
+      "INT553"
     ],
     "resource_ids": [
       "RES220",
@@ -116,9 +122,11 @@
     "id": "infra-platform",
     "name": "GPU调度与云原生平台",
     "group": "LLM Infra",
-    "description": "GPU池化、隔离、弹性伸缩和Kubernetes训练推理任务。现有资料以教程为主。",
+    "description": "GPU 池化、集群可观测性、节点故障和 Kubernetes 训练推理任务。",
     "interview_ids": [
-      "INT306"
+      "INT306",
+      "INT525",
+      "INT526"
     ],
     "resource_ids": [
       "RES601",
@@ -137,7 +145,11 @@
       "INT219",
       "INT309",
       "INT312",
-      "INT504"
+      "INT504",
+      "INT525",
+      "INT526",
+      "INT535",
+      "INT548"
     ],
     "resource_ids": [
       "RES215",
@@ -179,7 +191,24 @@
       "INT405",
       "INT407",
       "INT413",
-      "INT514"
+      "INT514",
+      "INT521",
+      "INT522",
+      "INT524",
+      "INT527",
+      "INT531",
+      "INT533",
+      "INT534",
+      "INT536",
+      "INT542",
+      "INT544",
+      "INT545",
+      "INT546",
+      "INT549",
+      "INT550",
+      "INT553",
+      "INT554",
+      "INT555"
     ],
     "resource_ids": [
       "RES604"
@@ -195,7 +224,9 @@
       "INT403",
       "INT408",
       "INT511",
-      "INT512"
+      "INT512",
+      "INT540",
+      "INT555"
     ],
     "resource_ids": [
       "RES501",
@@ -210,7 +241,12 @@
     "description": "补丁审批、版本管理、编译预览、代码验收和代码生成平台。",
     "interview_ids": [
       "INT407",
-      "INT413"
+      "INT413",
+      "INT527",
+      "INT531",
+      "INT532",
+      "INT543",
+      "INT555"
     ],
     "resource_ids": [
       "RB001",
@@ -229,7 +265,20 @@
       "INT409",
       "INT410",
       "INT411",
-      "INT517"
+      "INT517",
+      "INT522",
+      "INT523",
+      "INT531",
+      "INT532",
+      "INT533",
+      "INT538",
+      "INT539",
+      "INT543",
+      "INT547",
+      "INT549",
+      "INT550",
+      "INT553",
+      "INT554"
     ],
     "resource_ids": [
       "RES503",
@@ -262,7 +311,11 @@
       "INT508",
       "INT514",
       "INT517",
-      "INT518"
+      "INT518",
+      "INT521",
+      "INT530",
+      "INT536",
+      "INT540"
     ],
     "resource_ids": [
       "RES505",
@@ -307,7 +360,8 @@
       "INT111",
       "INT224",
       "INT513",
-      "INT518"
+      "INT518",
+      "INT540"
     ],
     "resource_ids": [
       "RES219",
@@ -318,10 +372,11 @@
     "id": "app-commerce",
     "name": "电商与商家Agent",
     "group": "应用场景",
-    "description": "电商岗位和商品场景。目前面经主要涉及知识库项目，导购与交易流程还待补充。",
+    "description": "电商 Agent、商品审核、知识库和交易流程。",
     "interview_ids": [
       "INT109",
-      "INT512"
+      "INT512",
+      "INT547"
     ],
     "resource_ids": []
   },
@@ -334,7 +389,8 @@
       "INT001",
       "INT508",
       "INT511",
-      "INT519"
+      "INT519",
+      "INT535"
     ],
     "resource_ids": [
       "RES607",
@@ -428,7 +484,8 @@
     "interview_ids": [
       "INT214",
       "INT215",
-      "INT517"
+      "INT517",
+      "INT547"
     ],
     "resource_ids": []
   },

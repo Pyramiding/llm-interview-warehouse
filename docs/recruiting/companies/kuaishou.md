@@ -1,8 +1,8 @@
 # 快手 · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://campus.kuaishou.cn/) · [企业社招](https://zhaopin.kuaishou.cn/recruit/e/#/official/index/)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://campus.kuaishou.cn/) · [企业社招](https://zhaopin.kuaishou.cn/recruit/e/#/official/index/)
 
-共 32 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 36 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
 ## 校招（18）
 
@@ -394,6 +394,104 @@ LLM Infra 与推理 · 校招 · 北京 · 投递待确认
 - 要求涉及数据挖掘、评测体系、NLP、机器学习、C++。
 
 涉及技术关键词为 强化学习、多模态、预训练、后训练、用户增长、内容理解、召回、用户建模、排序建模。
+
+## 社招（4）
+
+<a id="job1304"></a>
+
+### JOB1304 · 快手 · 音视频大模型算法工程师
+
+多模态与生成 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://zhaopin.kuaishou.cn/recruit/e/#/official/social/job-info/33459) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1304)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+官网更新 2026-11-19
+
+**主要职责**
+
+- 研发生成式视频修复、高效生成与长视频角色一致性。
+- 建设音视频时空定位和联合问答能力。
+
+**任职要求**
+
+- 熟悉 PyTorch 与计算机视觉，具备视频生成、低层视觉或多模态理解中的研发经历。
+
+涉及技术关键词为 音视频、多模态定位、扩散模型、视频修复。
+
+<a id="job1311"></a>
+
+### JOB1311 · 快手 · 大模型调度引擎与平台研发工程师-【可灵AI】
+
+LLM Infra 与推理 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://zhaopin.kuaishou.cn/recruit/e/#/official/social/job-info/33392) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1311)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 可灵 AI。
+
+官网更新 2026-11-18
+
+**主要职责**
+
+- 建设可灵的模型接入、工作流调度、异构资源和模型生命周期管理。
+- 按成本和负载优化路由与资源利用。
+
+**任职要求**
+
+- 本科及以上，三年以上后端或分布式经验，掌握 Java 或 Go 与任务调度、并发和恢复机制。
+
+涉及技术关键词为 调度引擎、多模态模型、流量路由、Kubernetes。
+
+<a id="job1312"></a>
+
+### JOB1312 · 快手 · AI 推理研发工程师（多模态／视频生成方向）-【可灵AI】
+
+LLM Infra 与推理 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://zhaopin.kuaishou.cn/recruit/e/#/official/social/job-info/33393) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1312)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 可灵 AI。
+
+官网更新 2026-11-18
+
+**主要职责**
+
+- 为可灵 B 端建立多模态生成服务，覆盖异步任务、预热、流量调度和回调。
+- 优化多卡推理和数据流，改善冷启动与吞吐。
+
+**任职要求**
+
+- 本科及以上，三年以上后端、分布式或 ML 系统经历，熟悉 Go、Python 或 C++。
+
+涉及技术关键词为 视频推理、分布式任务、GPU、预热。
+
+<a id="job1331"></a>
+
+### JOB1331 · 快手 · 大模型Agent算法工程师-【短视频推荐方向】
+
+推荐算法 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://zhaopin.kuaishou.cn/recruit/e/#/official/social/job-info/33270) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1331)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+官网更新 2026-11-10
+
+**主要职责**
+
+- 将 LLM 与 VLM 接入短视频推荐，从用户长序列、召回排序和内容理解改进业务。
+- 建设推荐 Agent 的规划、记忆、工具调用与评测。
+
+**任职要求**
+
+- 具备算法和机器学习基础，熟悉 Python 或 C++ 及 Transformer，Agent/RAG 项目经验优先。
+
+涉及技术关键词为 生成式推荐、短视频、用户序列、工具调用。
 
 ## 实习（14）
 

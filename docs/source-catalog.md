@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [来源说明](methodology.md)
 
-共440个去重链接，包括161篇面经、96份参考资料，以及题解引用的论文和文档。详细查阅日期保存在data/中。
+共475个去重链接，包括196篇面经、96份参考资料，以及题解引用的论文和文档。详细查阅日期保存在data/中。
 
 ## 公开面经
 
@@ -169,6 +169,41 @@
 | INT518 | [字节AI Agent开发秋招一面面经](https://www.nowcoder.com/feed/main/detail/7b1b40fda3244715a82bcb4a821ca887) | 未确认/持续更新 | 已读正文 | 原帖写TikTok与8月9日面试，但页面只显示月日，年份和首发时间未确认。聚合站标为2026年，尚未采用该年份。 |
 | INT519 | [滴滴大模型算法岗一面面经](https://www.nowcoder.com/feed/main/detail/d6b5184d017a4e17b6348ca01dbd9bb9) | 未确认/持续更新 | 仅搜索摘要 | 原页读取未成功，仅有公开搜索摘要；首发年份和面试日未知。可见片段未展开SQL生成或生产查询权限设计。 |
 | INT520 | [MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](https://www.nowcoder.com/discuss/925527528259743744) | 未确认/持续更新 | 已读正文 | 已读公开部分，后续约60%需要订阅。页面只显示09-04，年份和面试日未确认；导语中的项目体验为作者自述。 |
+| INT553 | [腾讯 Agent 开发一面](https://www.nowcoder.com/feed/main/detail/3df8a071701941d484e5a01a1b358655) | 2026-11-07 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT552 | [美团到店推荐算法三轮复盘](https://www.nowcoder.com/discuss/948585871480025088) | 2026-11-07 | 已读正文 | 原帖后半部分付费。面试日期用作者列出的各轮月日。 |
+| INT551 | [拼多多人才计划一面](https://www.nowcoder.com/discuss/948587502992977920) | 2026-11-07 | 已读正文 | 原帖后半部分付费，面试日未公开。 |
+| INT550 | [淘天 AI Agent 与大模型应用研发二面](https://www.nowcoder.com/feed/main/detail/f2995b761244484db735fd2ccf62db50) | 2026-11-07 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT549 | [百度 AI Agent 开发工程师一面](https://www.nowcoder.com/discuss/948980939399372800) | 2026-11-08 | 已读正文 | 原帖附作者整理的参考答案，回答内容可另行核对。面试日未公开。 |
+| INT548 | [快手 AI Platform 面经](https://www.nowcoder.com/feed/main/detail/762f8d3c098c472cb0d4255d00bccdde) | 2026-11-09 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT547 | [京东零售商品审核 Agent 一、二面](https://www.nowcoder.com/discuss/949423805343035392) | 2026-11-09 | 已读正文 | 原帖后半部分付费，摘要和问题仅据公开部分。 |
+| INT546 | [字节后台开发秋招一面](https://www.nowcoder.com/feed/main/detail/4f2163157380484d96ed07f5dbed0537) | 2026-11-10 | 已读正文 | 面试月日沿用原帖。 |
+| INT545 | [海康威视总部 Agent 开发实习一面](https://www.nowcoder.com/feed/main/detail/b3f0a1b58fba41a9bffb5df3497da289) | 2026-11-10 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT544 | [同程全栈一面](https://www.nowcoder.com/feed/main/detail/1d4dd5c02aaf452e891548edfff50e56) | 2026-11-10 | 已读正文 | 面试月日沿用原帖。 |
+| INT543 | [美团业务后台秋招二面](https://www.nowcoder.com/feed/main/detail/17e3b65daa1c42089d3aea9346bfbc98) | 2026-11-10 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT542 | [阿里云后端与 Agent 开发秋招二面](https://www.nowcoder.com/feed/main/detail/6cc04f7329d94320841b22b3e7951125) | 2026-11-12 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT541 | [MiniMax 大模型应用一面](https://www.nowcoder.com/discuss/950396237935566848) | 2026-11-12 | 已读正文 | 原帖后半部分付费，摘要和问题仅据公开部分。 |
+| INT540 | [米哈游 NPC Agent 一面](https://www.nowcoder.com/discuss/950396618505768960) | 2026-11-12 | 已读正文 | 原帖后半部分付费，摘要和问题仅据公开部分。 |
+| INT539 | [阿里云 MaaS AI 评测工程师二面](https://www.nowcoder.com/feed/main/detail/2cce296790c846ef8ddf4a1e657045fc) | 2026-11-12 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT538 | [阶跃星辰 AI 评测算法一面](https://www.nowcoder.com/feed/main/detail/68924c2475314c068f0bb31dc2b2a732) | 2026-11-12 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT537 | [字节搜索大模型一面](https://www.nowcoder.com/feed/main/detail/f3991feac126477cb244984b8ea09d94) | 2026-11-12 | 已读正文 | 面试月日沿用原帖。 |
+| INT536 | [科大讯飞 Agent 一面](https://www.nowcoder.com/feed/main/detail/c325a58591c44b42919f2a4984ed12b8) | 2026-11-13 | 已读正文 | 面试月日沿用原帖。 |
+| INT535 | [光轮 Data Infra 二面](https://www.nowcoder.com/feed/main/detail/92e9aa18ff44479dab9570bb7361124b) | 2026-11-14 | 已读正文 | 面试月日沿用原帖。 |
+| INT534 | [科大讯飞后端与 Agent 开发秋招一面](https://www.nowcoder.com/feed/main/detail/e5abd2dc95934bf58177525b5736f290) | 2026-11-15 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT533 | [滴滴 AI 应用与 Java 后端秋招一面](https://www.nowcoder.com/feed/main/detail/2201dc2f401148b8b314002fc9184f0e) | 2026-11-16 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT532 | [滴滴 AI 应用与 Java 后端秋招二面](https://www.nowcoder.com/feed/main/detail/68dd246542734742bceccc8f771dba3f) | 2026-11-16 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT531 | [快手电商一面](https://www.nowcoder.com/feed/main/detail/b032165e207d4c6b8df8c6eb3f291d06) | 2026-11-16 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT530 | [数字政通 Agent 研发二面](https://www.nowcoder.com/feed/main/detail/87ccbe8787ba4656ab3a61b2509e2b73) | 2026-11-17 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT529 | [小红书 Agent 日常实习面经](https://www.nowcoder.com/feed/main/detail/c1f274e8fbce49f092216137644b57f5) | 2026-11-17 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT528 | [百度大模型算法工程师二面](https://www.nowcoder.com/discuss/952267085965533184) | 2026-11-17 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT527 | [绿盟科技 AI 研发工程师一、二面](https://www.nowcoder.com/feed/main/detail/02005c06ed934bd293e40eda31517b4b) | 2026-11-17 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT526 | [MiniMax AI Infra 平台研发一面](https://www.nowcoder.com/feed/main/detail/3d1ba60026c740eea61128f3b7dcfb58) | 2026-11-18 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT525 | [MiniMax AI Infra 平台研发二面](https://www.nowcoder.com/feed/main/detail/2435bd0ffe464e008a3b9501e29ccc24) | 2026-11-18 | 已读正文 | 原帖未给出确切面试日期。 |
+| INT524 | [泰康资产总部软件开发秋招面经](https://www.nowcoder.com/feed/main/detail/a87ce11fb5e14f6faa941409d2fb970e) | 2026-11-18 | 已读正文 | 面试月日沿用原帖。 |
+| INT523 | [快手大模型算法实习面经](https://www.nowcoder.com/discuss/952744636378882048) | 2026-11-19 | 已读正文 | 面试日期沿用原帖自述。 |
+| INT522 | [科大讯飞秋招一面](https://www.nowcoder.com/feed/main/detail/36f79403b25b4ae8afa08de37625bba5) | 2026-11-19 | 已读正文 | 面试月日沿用原帖。 |
+| INT521 | [科大讯飞秋招二面](https://www.nowcoder.com/feed/main/detail/f42d0f8b3a264cb98bd07e55dc1a9e78) | 2026-11-19 | 已读正文 | 面试月日沿用原帖。 |
+| INT554 | [字节跳动 AI Agent 开发工程师三面](https://www.nowcoder.com/discuss/953075892136259584) | 2026-11-19 | 已读正文 | 作者只记录了部分面试，原帖还附有作答思路。 |
+| INT555 | [科大讯飞 Agent 秋招二面复盘](https://www.nowcoder.com/feed/main/detail/0d53d7c1b74744ce9446d91a1fe6ddcf) | 2026-11-20 | 已读正文 | 面试月日沿用原帖。 |
 
 ## 补充阅读/汇编
 

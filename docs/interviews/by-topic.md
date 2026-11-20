@@ -61,6 +61,7 @@
 - [INT318 · 字节跳动广告算法面经](README.md#int318)（2026；广告算法面试）
 - [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322)（2026；推荐大模型算法一二面）
 - [INT402 · 字节大模型算法三面：一道题现场推公式，推到第三层我听见他叹气](README.md#int402)（2026；大模型算法三面（公开部分））
+- [INT541 · MiniMax 大模型应用一面](README.md#int541)（2026；大模型应用 / Agent 一面）
 
 ### 参考资料
 
@@ -114,6 +115,10 @@
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 - [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
 - [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
+- [INT551 · 拼多多人才计划一面](README.md#int551)（2026；人才计划大模型技术一面）
+- [INT538 · 阶跃星辰 AI 评测算法一面](README.md#int538)（2026；AI 评测算法一面）
+- [INT535 · 光轮 Data Infra 二面](README.md#int535)（2026；Data Infra 二面）
+- [INT528 · 百度大模型算法工程师二面](README.md#int528)（2026；大模型算法工程师二面）
 
 ### 参考资料
 
@@ -173,6 +178,9 @@
 - [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
 - [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
 - [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
+- [INT551 · 拼多多人才计划一面](README.md#int551)（2026；人才计划大模型技术一面）
+- [INT537 · 字节搜索大模型一面](README.md#int537)（2026；搜索大模型一面）
+- [INT528 · 百度大模型算法工程师二面](README.md#int528)（2026；大模型算法工程师二面）
 
 ### 参考资料
 
@@ -243,6 +251,10 @@
 - [INT404 · 快手OneRec算法岗一二面面经](README.md#int404)（2026；OneRec算法一二面）
 - [INT507 · 百川智能医疗大模型后训练面经](README.md#int507)（2026；医疗大模型后训练一面）
 - [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
+- [INT550 · 淘天 AI Agent 与大模型应用研发二面](README.md#int550)（2026；AI Agent / 大模型应用研发秋招二面）
+- [INT538 · 阶跃星辰 AI 评测算法一面](README.md#int538)（2026；AI 评测算法一面）
+- [INT537 · 字节搜索大模型一面](README.md#int537)（2026；搜索大模型一面）
+- [INT528 · 百度大模型算法工程师二面](README.md#int528)（2026；大模型算法工程师二面）
 
 ### 参考资料
 
@@ -292,6 +304,9 @@
 - [INT503 · 字节AI infra校招一面面经 1h](README.md#int503)（2026；AI Infra校招一面）
 - [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
+- [INT548 · 快手 AI Platform 面经](README.md#int548)（2026；AI Platform 秋招技术面）
+- [INT542 · 阿里云后端与 Agent 开发秋招二面](README.md#int542)（2026；后端 / Agent 开发秋招二面）
+- [INT541 · MiniMax 大模型应用一面](README.md#int541)（2026；大模型应用 / Agent 一面）
 
 ### 参考资料
 
@@ -367,6 +382,18 @@
 - [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 - [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
+- [INT551 · 拼多多人才计划一面](README.md#int551)（2026；人才计划大模型技术一面）
+- [INT549 · 百度 AI Agent 开发工程师一面](README.md#int549)（2026；AI Agent 开发工程师一面）
+- [INT544 · 同程全栈一面](README.md#int544)（2026；全栈开发一面）
+- [INT541 · MiniMax 大模型应用一面](README.md#int541)（2026；大模型应用 / Agent 一面）
+- [INT540 · 米哈游 NPC Agent 一面](README.md#int540)（2026；游戏 NPC Agent 一面）
+- [INT536 · 科大讯飞 Agent 一面](README.md#int536)（2026；Agent 秋招一面）
+- [INT535 · 光轮 Data Infra 二面](README.md#int535)（2026；Data Infra 二面）
+- [INT527 · 绿盟科技 AI 研发工程师一、二面](README.md#int527)（2026；AI 研发工程师校招一、二面）
+- [INT524 · 泰康资产总部软件开发秋招面经](README.md#int524)（2026；总部软件开发秋招技术面）
+- [INT523 · 快手大模型算法实习面经](README.md#int523)（2026；大模型算法实习）
+- [INT522 · 科大讯飞秋招一面](README.md#int522)（2026；秋招一面（Agent 应用相关））
+- [INT555 · 科大讯飞 Agent 秋招二面复盘](README.md#int555)（2026；秋招二面（Agent 应用相关））
 
 ### 参考资料
 
@@ -472,6 +499,33 @@
 - [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 - [INT520 · MiniMax - 大模型算法岗（后训练 / SFT / RL 方向，独角兽）](README.md#int520)（年份未确认；大模型后训练/SFT/RL一面（公开部分））
+- [INT553 · 腾讯 Agent 开发一面](README.md#int553)（2026；Agent 开发一面）
+- [INT550 · 淘天 AI Agent 与大模型应用研发二面](README.md#int550)（2026；AI Agent / 大模型应用研发秋招二面）
+- [INT549 · 百度 AI Agent 开发工程师一面](README.md#int549)（2026；AI Agent 开发工程师一面）
+- [INT547 · 京东零售商品审核 Agent 一、二面](README.md#int547)（2026；商品审核 Agent 应用一、二面）
+- [INT546 · 字节后台开发秋招一面](README.md#int546)（2026；后台开发秋招一面）
+- [INT545 · 海康威视总部 Agent 开发实习一面](README.md#int545)（2026；Agent 开发日常实习一面）
+- [INT544 · 同程全栈一面](README.md#int544)（2026；全栈开发一面）
+- [INT543 · 美团业务后台秋招二面](README.md#int543)（2026；业务后台 / 大模型应用工程化二面）
+- [INT542 · 阿里云后端与 Agent 开发秋招二面](README.md#int542)（2026；后端 / Agent 开发秋招二面）
+- [INT541 · MiniMax 大模型应用一面](README.md#int541)（2026；大模型应用 / Agent 一面）
+- [INT540 · 米哈游 NPC Agent 一面](README.md#int540)（2026；游戏 NPC Agent 一面）
+- [INT538 · 阶跃星辰 AI 评测算法一面](README.md#int538)（2026；AI 评测算法一面）
+- [INT536 · 科大讯飞 Agent 一面](README.md#int536)（2026；Agent 秋招一面）
+- [INT535 · 光轮 Data Infra 二面](README.md#int535)（2026；Data Infra 二面）
+- [INT534 · 科大讯飞后端与 Agent 开发秋招一面](README.md#int534)（2026；后端 / Agent 开发秋招一面）
+- [INT533 · 滴滴 AI 应用与 Java 后端秋招一面](README.md#int533)（2026；AI 应用 / Java 后端秋招一面）
+- [INT532 · 滴滴 AI 应用与 Java 后端秋招二面](README.md#int532)（2026；AI 应用 / Java 后端秋招二面）
+- [INT531 · 快手电商一面](README.md#int531)（2026；快手电商实习一面（代码审查项目））
+- [INT530 · 数字政通 Agent 研发二面](README.md#int530)（2026；Agent 研发二面）
+- [INT529 · 小红书 Agent 日常实习面经](README.md#int529)（2026；Agent 日常实习面试）
+- [INT527 · 绿盟科技 AI 研发工程师一、二面](README.md#int527)（2026；AI 研发工程师校招一、二面）
+- [INT524 · 泰康资产总部软件开发秋招面经](README.md#int524)（2026；总部软件开发秋招技术面）
+- [INT523 · 快手大模型算法实习面经](README.md#int523)（2026；大模型算法实习）
+- [INT522 · 科大讯飞秋招一面](README.md#int522)（2026；秋招一面（Agent 应用相关））
+- [INT521 · 科大讯飞秋招二面](README.md#int521)（2026；秋招二面（Agent 应用相关））
+- [INT554 · 字节跳动 AI Agent 开发工程师三面](README.md#int554)（2026；AI Agent 开发工程师三面）
+- [INT555 · 科大讯飞 Agent 秋招二面复盘](README.md#int555)（2026；秋招二面（Agent 应用相关））
 
 ### 参考资料
 
@@ -565,6 +619,15 @@
 - [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
 - [INT514 · 某教育agent开发面经](README.md#int514)（2026；教育公司Agent开发（公司未公开））
 - [INT515 · 第四范式一面](README.md#int515)（2025；一面：合同审查RAG与国产卡适配）
+- [INT553 · 腾讯 Agent 开发一面](README.md#int553)（2026；Agent 开发一面）
+- [INT548 · 快手 AI Platform 面经](README.md#int548)（2026；AI Platform 秋招技术面）
+- [INT542 · 阿里云后端与 Agent 开发秋招二面](README.md#int542)（2026；后端 / Agent 开发秋招二面）
+- [INT541 · MiniMax 大模型应用一面](README.md#int541)（2026；大模型应用 / Agent 一面）
+- [INT537 · 字节搜索大模型一面](README.md#int537)（2026；搜索大模型一面）
+- [INT529 · 小红书 Agent 日常实习面经](README.md#int529)（2026；Agent 日常实习面试）
+- [INT525 · MiniMax AI Infra 平台研发二面](README.md#int525)（2026；AI Infra 平台研发二面）
+- [INT523 · 快手大模型算法实习面经](README.md#int523)（2026；大模型算法实习）
+- [INT521 · 科大讯飞秋招二面](README.md#int521)（2026；秋招二面（Agent 应用相关））
 
 ### 参考资料
 
@@ -638,6 +701,11 @@
 - [INT503 · 字节AI infra校招一面面经 1h](README.md#int503)（2026；AI Infra校招一面）
 - [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
 - [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
+- [INT548 · 快手 AI Platform 面经](README.md#int548)（2026；AI Platform 秋招技术面）
+- [INT542 · 阿里云后端与 Agent 开发秋招二面](README.md#int542)（2026；后端 / Agent 开发秋招二面）
+- [INT535 · 光轮 Data Infra 二面](README.md#int535)（2026；Data Infra 二面）
+- [INT526 · MiniMax AI Infra 平台研发一面](README.md#int526)（2026；AI Infra 平台研发一面）
+- [INT525 · MiniMax AI Infra 平台研发二面](README.md#int525)（2026；AI Infra 平台研发二面）
 
 ### 参考资料
 
@@ -679,6 +747,7 @@
 - [INT504 · 字节data AI infra实习一面](README.md#int504)（2026；Data AI Infra实习一面）
 - [INT510 · 中兴 实习 agent开发 一面凉经](README.md#int510)（2026；Agent开发实习一面）
 - [INT511 · 暑期第二周面试情况](README.md#int511)（2026；暑期多公司实习复盘）
+- [INT546 · 字节后台开发秋招一面](README.md#int546)（2026；后台开发秋招一面）
 
 ### 参考资料
 
@@ -730,6 +799,11 @@
 - [INT401 · 字节业务中台AI全栈凉经](README.md#int401)（2026；业务中台AI全栈日常实习一二面及HR面）
 - [INT412 · 字节跳动 后端 Agent 二面 面经](README.md#int412)（2026；后端Agent二面：营销场景与方案比较）
 - [INT505 · AI Infra面经 攒人品版](README.md#int505)（年份未确认；AI Infra多题回顾（公司未公开））
+- [INT548 · 快手 AI Platform 面经](README.md#int548)（2026；AI Platform 秋招技术面）
+- [INT547 · 京东零售商品审核 Agent 一、二面](README.md#int547)（2026；商品审核 Agent 应用一、二面）
+- [INT540 · 米哈游 NPC Agent 一面](README.md#int540)（2026；游戏 NPC Agent 一面）
+- [INT539 · 阿里云 MaaS AI 评测工程师二面](README.md#int539)（2026；MaaS AI 评测工程师二面）
+- [INT523 · 快手大模型算法实习面经](README.md#int523)（2026；大模型算法实习）
 
 ### 参考资料
 
@@ -828,6 +902,26 @@
 - [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
 - [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（年份未确认；大模型算法一面：智能问数）
+- [INT553 · 腾讯 Agent 开发一面](README.md#int553)（2026；Agent 开发一面）
+- [INT551 · 拼多多人才计划一面](README.md#int551)（2026；人才计划大模型技术一面）
+- [INT550 · 淘天 AI Agent 与大模型应用研发二面](README.md#int550)（2026；AI Agent / 大模型应用研发秋招二面）
+- [INT549 · 百度 AI Agent 开发工程师一面](README.md#int549)（2026；AI Agent 开发工程师一面）
+- [INT547 · 京东零售商品审核 Agent 一、二面](README.md#int547)（2026；商品审核 Agent 应用一、二面）
+- [INT543 · 美团业务后台秋招二面](README.md#int543)（2026；业务后台 / 大模型应用工程化二面）
+- [INT540 · 米哈游 NPC Agent 一面](README.md#int540)（2026；游戏 NPC Agent 一面）
+- [INT539 · 阿里云 MaaS AI 评测工程师二面](README.md#int539)（2026；MaaS AI 评测工程师二面）
+- [INT538 · 阶跃星辰 AI 评测算法一面](README.md#int538)（2026；AI 评测算法一面）
+- [INT536 · 科大讯飞 Agent 一面](README.md#int536)（2026；Agent 秋招一面）
+- [INT534 · 科大讯飞后端与 Agent 开发秋招一面](README.md#int534)（2026；后端 / Agent 开发秋招一面）
+- [INT533 · 滴滴 AI 应用与 Java 后端秋招一面](README.md#int533)（2026；AI 应用 / Java 后端秋招一面）
+- [INT532 · 滴滴 AI 应用与 Java 后端秋招二面](README.md#int532)（2026；AI 应用 / Java 后端秋招二面）
+- [INT531 · 快手电商一面](README.md#int531)（2026；快手电商实习一面（代码审查项目））
+- [INT530 · 数字政通 Agent 研发二面](README.md#int530)（2026；Agent 研发二面）
+- [INT523 · 快手大模型算法实习面经](README.md#int523)（2026；大模型算法实习）
+- [INT522 · 科大讯飞秋招一面](README.md#int522)（2026；秋招一面（Agent 应用相关））
+- [INT521 · 科大讯飞秋招二面](README.md#int521)（2026；秋招二面（Agent 应用相关））
+- [INT554 · 字节跳动 AI Agent 开发工程师三面](README.md#int554)（2026；AI Agent 开发工程师三面）
+- [INT555 · 科大讯飞 Agent 秋招二面复盘](README.md#int555)（2026；秋招二面（Agent 应用相关））
 
 ### 参考资料
 
@@ -883,6 +977,12 @@
 - [INT407 · 百度后端实习二面面经](README.md#int407)（2026；后端实习二面：飞书Agent与工程可靠性）
 - [INT411 · 科大讯飞后端 timeline&面经](README.md#int411)（2026；后端秋招一二面及HR面复盘）
 - [INT413 · 百度agent一面](README.md#int413)（2026；Agent实习一面：代码生成与多Agent）
+- [INT545 · 海康威视总部 Agent 开发实习一面](README.md#int545)（2026；Agent 开发日常实习一面）
+- [INT543 · 美团业务后台秋招二面](README.md#int543)（2026；业务后台 / 大模型应用工程化二面）
+- [INT532 · 滴滴 AI 应用与 Java 后端秋招二面](README.md#int532)（2026；AI 应用 / Java 后端秋招二面）
+- [INT531 · 快手电商一面](README.md#int531)（2026；快手电商实习一面（代码审查项目））
+- [INT527 · 绿盟科技 AI 研发工程师一、二面](README.md#int527)（2026；AI 研发工程师校招一、二面）
+- [INT555 · 科大讯飞 Agent 秋招二面复盘](README.md#int555)（2026；秋招二面（Agent 应用相关））
 
 ### 参考资料
 
@@ -926,6 +1026,8 @@
 - [INT231 · Google | Hiring Manager Round | Gemini Applications | SWE III ML | Bengaluru](README.md#int231)（年份未确认；SWE III ML，Gemini Applications团队HM轮）
 - [INT507 · 百川智能医疗大模型后训练面经](README.md#int507)（2026；医疗大模型后训练一面）
 - [INT515 · 第四范式一面](README.md#int515)（2025；一面：合同审查RAG与国产卡适配）
+- [INT552 · 美团到店推荐算法三轮复盘](README.md#int552)（2026；推荐算法一至三面）
+- [INT524 · 泰康资产总部软件开发秋招面经](README.md#int524)（2026；总部软件开发秋招技术面）
 
 ### 参考资料
 
@@ -955,6 +1057,7 @@
 - [INT204 · 京东零售大模型搜索算法实习一面](README.md#int204)（年份未确认；京东零售/大模型搜索算法实习）
 - [INT310 · 字节搜广推算法秋招一面](README.md#int310)（2026；搜广推算法秋招一面）
 - [INT401 · 字节业务中台AI全栈凉经](README.md#int401)（2026；业务中台AI全栈日常实习一二面及HR面）
+- [INT537 · 字节搜索大模型一面](README.md#int537)（2026；搜索大模型一面）
 
 ### 参考资料
 
@@ -1007,6 +1110,8 @@
 - [INT310 · 字节搜广推算法秋招一面](README.md#int310)（2026；搜广推算法秋招一面）
 - [INT322 · 字节推荐大模型算法岗一二面面经](README.md#int322)（2026；推荐大模型算法一二面）
 - [INT404 · 快手OneRec算法岗一二面面经](README.md#int404)（2026；OneRec算法一二面）
+- [INT552 · 美团到店推荐算法三轮复盘](README.md#int552)（2026；推荐算法一至三面）
+- [INT537 · 字节搜索大模型一面](README.md#int537)（2026；搜索大模型一面）
 
 ### 参考资料
 
@@ -1054,6 +1159,7 @@
 - [INT215 · 字节风控算法面经](README.md#int215)（2025；风控算法（校招或社招性质未说明））
 - [INT223 · BAT集齐？暑期实习面经分享](README.md#int223)（2025；后端/AI应用与大模型工程暑期实习（多公司））
 - [INT517 · 腾讯 260824 一面面经](README.md#int517)（2026；安全技术/风控算法方向Agent一面）
+- [INT547 · 京东零售商品审核 Agent 一、二面](README.md#int547)（2026；商品审核 Agent 应用一、二面）
 
 ### 参考资料
 
@@ -1070,6 +1176,7 @@
 - [INT224 · 有赞面经](README.md#int224)（年份未确认；技术面，具体职位名未写（Java后端与RAG项目））
 - [INT513 · 豆包手机测开面经](README.md#int513)（2026；豆包手机测开一二面）
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（年份未确认；TikTok Agent秋招一面：会议语音转写）
+- [INT540 · 米哈游 NPC Agent 一面](README.md#int540)（2026；游戏 NPC Agent 一面）
 
 ### 参考资料
 

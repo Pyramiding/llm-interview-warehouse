@@ -2,20 +2,20 @@
 
 [返回首页](../../README.md) · [按公司](by-company.md) · [研究专题](by-topic.md) · [细分方向](by-specialty.md) · [LLM Infra专页](llm-infra.md)
 
-更新于2026-11-06，共16篇面经、9份参考资料。同一篇跨方向收录时只计一次。
+更新于2026-11-20，共25篇面经、9份参考资料。同一篇跨方向收录时只计一次。
 
 Infra岗位的差别很大：有的做训练框架，有的写算子，有的负责推理服务或GPU平台。先看目标团队做哪一层，再挑面经。
 
 | 方向 | 主要内容 | 面经 | 参考资料 |
 |---|---|---:|---:|
-| [分布式训练与显存管理](by-specialty.md#infra-training) | 并行切分、ZeRO/FSDP、训练状态、重计算和训练故障排查。 | 4 | 4 |
+| [分布式训练与显存管理](by-specialty.md#infra-training) | 并行切分、ZeRO/FSDP、训练状态、重计算和训练故障排查。 | 5 | 4 |
 | [RL Infra与Rollout系统](by-specialty.md#infra-rl) | 采样环境、Rollout、AgentLoop、训练与采样协同，以及多轮RL评测。 | 1 | 3 |
 | [CUDA、Triton与算子优化](by-specialty.md#infra-kernel) | GEMM、Attention、归约、访存、确定性、手写kernel和数值校验。 | 8 | 6 |
 | [图执行与AI编译](by-specialty.md#infra-compiler) | CUDA Graph、动态shape和编译执行。目前面经主要涉及图执行，编译器专岗还待补充。 | 1 | 2 |
 | [NCCL、互联与多卡通信](by-specialty.md#infra-communication) | 集合通信、网络拓扑、同步、跨节点KV传输和通信瓶颈。 | 4 | 4 |
-| [LLM推理引擎与Serving](by-specialty.md#infra-serving) | vLLM/SGLang、KV管理、批处理、PD分离、投机解码、吞吐和延迟。 | 9 | 7 |
-| [GPU调度与云原生平台](by-specialty.md#infra-platform) | GPU池化、隔离、弹性伸缩和Kubernetes训练推理任务。现有资料以教程为主。 | 1 | 5 |
-| [性能分析与Benchmark](by-specialty.md#infra-profiling) | Roofline、时间线、Nsight、显存分析，以及固定负载下的优化对比。 | 4 | 6 |
+| [LLM推理引擎与Serving](by-specialty.md#infra-serving) | vLLM/SGLang、KV管理、批处理、PD分离、投机解码、吞吐和延迟。 | 14 | 7 |
+| [GPU调度与云原生平台](by-specialty.md#infra-platform) | GPU 池化、集群可观测性、节点故障和 Kubernetes 训练推理任务。 | 3 | 5 |
+| [性能分析与Benchmark](by-specialty.md#infra-profiling) | Roofline、时间线、Nsight、显存分析，以及固定负载下的优化对比。 | 8 | 6 |
 | [异构硬件、国产卡与端侧](by-specialty.md#infra-hardware) | CUDA/HIP生态迁移、模型与算子适配、量化、设备内存和能耗。 | 6 | 4 |
 
 ## 可以从这几篇开始

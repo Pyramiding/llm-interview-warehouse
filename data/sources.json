@@ -7825,6 +7825,1354 @@
     ]
   },
   {
+    "id": "INT521",
+    "title": "科大讯飞秋招二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/f42d0f8b3a264cb98bd07e55dc1a9e78",
+    "year": 2026,
+    "published": "2026-11-19",
+    "published_at": "2026-11-19T11:31:26+08:00",
+    "updated_at": "2026-11-19T11:31:26+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": "11 月 16 日",
+    "companies": [
+      "科大讯飞"
+    ],
+    "role": "秋招二面（Agent 应用相关）",
+    "topics": [
+      "07",
+      "08",
+      "13"
+    ],
+    "domains": [],
+    "summary": "讨论工具调用的审批与取消、SSE 断开后的后台执行、租户配额和任务延迟排查。",
+    "reading_tip": "准备一张工具执行状态图，标出审批、调用、取消和回执的边界。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "Decadeqqq",
+    "note": "面试月日沿用原帖。",
+    "question_prompts": [
+      "审批后参数变化，执行侧如何只使用获批版本？",
+      "一次有副作用的调用已经开始，用户取消时怎么收尾？",
+      "长任务积压时如何按租户约束并发和费用？"
+    ],
+    "content_fingerprint": "4d359ef9217e9c61a380d4270c32ba12b078f15b5d5b383b41b8c067d1f5464d",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/f42d0f8b3a264cb98bd07e55dc1a9e78",
+    "aliases": [
+      "INT521"
+    ]
+  },
+  {
+    "id": "INT522",
+    "title": "科大讯飞秋招一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/36f79403b25b4ae8afa08de37625bba5",
+    "year": 2026,
+    "published": "2026-11-19",
+    "published_at": "2026-11-19T11:24:54+08:00",
+    "updated_at": "2026-11-19T11:24:54+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": "11 月 12 日",
+    "companies": [
+      "科大讯飞"
+    ],
+    "role": "秋招一面（Agent 应用相关）",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "从实习的主子 Agent 分工问到双路召回、上下文持久化、工具返回裁剪和工具改动回归。",
+    "reading_tip": "把一次任务的消息、执行状态和模型输入画成三条线。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "Decadeqqq",
+    "note": "面试月日沿用原帖。",
+    "question_prompts": [
+      "双路召回中，BM25 与向量检索各补哪类问题？",
+      "工具参数通过 Schema 校验却违反业务约束时怎么回退？",
+      "怎样用历史任务回归一版工具描述？"
+    ],
+    "content_fingerprint": "01f08c253456db455d73f4017b05883543f2214e8e1aeb5c55e99ac3cba40bd1",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/36f79403b25b4ae8afa08de37625bba5",
+    "aliases": [
+      "INT522"
+    ]
+  },
+  {
+    "id": "INT523",
+    "title": "快手大模型算法实习面经",
+    "url": "https://www.nowcoder.com/discuss/952744636378882048",
+    "year": 2026,
+    "published": "2026-11-19",
+    "published_at": "2026-11-19T01:47:02+08:00",
+    "updated_at": "2026-11-19T01:47:02+08:00",
+    "publication_basis": "nowcoder_createTime",
+    "event_date": "2026-09-01",
+    "companies": [
+      "快手"
+    ],
+    "role": "大模型算法实习",
+    "topics": [
+      "06",
+      "07",
+      "08",
+      "12",
+      "13"
+    ],
+    "domains": [],
+    "summary": "围绕知识库分块、向量化前置、Rerank、引用有效性和视频 Agent 的分层意图识别追问。",
+    "reading_tip": "准备一个检索质量、引用忠实度和 P95 延迟的对照实验。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "林小白zii",
+    "note": "面试日期沿用原帖自述。",
+    "question_prompts": [
+      "如何拆开判断召回没找到和生成时错误引用？",
+      "向量预计算或请求内复用怎样分别测收益？",
+      "两级意图识别如何测量准确率和延迟？"
+    ],
+    "content_fingerprint": "3e8ca7ee48a2ccc8855bb521cf5da88ab7e9a1adc9c0607941ff0818d926b93e",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/discuss/952744636378882048",
+    "aliases": [
+      "INT523"
+    ]
+  },
+  {
+    "id": "INT524",
+    "title": "泰康资产总部软件开发秋招面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/a87ce11fb5e14f6faa941409d2fb970e",
+    "year": 2026,
+    "published": "2026-11-18",
+    "published_at": "2026-11-18T17:04:13+08:00",
+    "updated_at": "2026-11-18T17:04:13+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": "11 月 18 日",
+    "companies": [
+      "泰康资产"
+    ],
+    "role": "总部软件开发秋招技术面",
+    "topics": [
+      "06",
+      "07",
+      "15"
+    ],
+    "domains": [],
+    "summary": "项目环节问多 Agent 分工、调用量、关键词和向量召回的融合权重，也问浏览器和进程线程基础。",
+    "reading_tip": "用同一批金融文档查询比较关键词、向量和融合三条路径。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "中二的西红柿起床了",
+    "note": "面试月日沿用原帖。",
+    "question_prompts": [
+      "多个 Agent 怎样交换中间结果？",
+      "在什么查询下应该提高关键词检索的权重？"
+    ],
+    "content_fingerprint": "be280f66bf21a78804f2ffb34a386bbdbb0dced5d73897e3673159b45e421206",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/a87ce11fb5e14f6faa941409d2fb970e",
+    "aliases": [
+      "INT524"
+    ]
+  },
+  {
+    "id": "INT525",
+    "title": "MiniMax AI Infra 平台研发二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/2435bd0ffe464e008a3b9501e29ccc24",
+    "year": 2026,
+    "published": "2026-11-18",
+    "published_at": "2026-11-18T02:24:29+08:00",
+    "updated_at": "2026-11-18T02:24:29+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "MiniMax"
+    ],
+    "role": "AI Infra 平台研发二面",
+    "topics": [
+      "08",
+      "09"
+    ],
+    "domains": [],
+    "summary": "从工作流指标和容器运行时安装聊到几千卡训练的慢节点定位及采集系统设计。",
+    "reading_tip": "把训练 step、通信、卡和主机指标放到同一条时间线上。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "雷古曼666",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "多机训练吞吐掉下来，怎样缩小嫌疑节点范围？",
+      "数千卡的硬件指标如何分层采集和保留？"
+    ],
+    "content_fingerprint": "30e1f7d5d197cf250445ff3cd6880c42d5df91d16e813860863ab0dc32c86fc4",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/2435bd0ffe464e008a3b9501e29ccc24",
+    "aliases": [
+      "INT525"
+    ]
+  },
+  {
+    "id": "INT526",
+    "title": "MiniMax AI Infra 平台研发一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/3d1ba60026c740eea61128f3b7dcfb58",
+    "year": 2026,
+    "published": "2026-11-18",
+    "published_at": "2026-11-18T02:23:39+08:00",
+    "updated_at": "2026-11-18T02:23:39+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "MiniMax"
+    ],
+    "role": "AI Infra 平台研发一面",
+    "topics": [
+      "09"
+    ],
+    "domains": [],
+    "summary": "追问工作流故障告警、容器运行时安装、告警准确率与 Kubernetes 的隔离机制。",
+    "reading_tip": "准备一次告警误报收敛案例，说明指标、对照和排障结果。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "雷古曼666",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "怎样把工作流失败日志转成可告警指标？",
+      "排查容器创建失败时如何区分控制面与节点运行时？"
+    ],
+    "content_fingerprint": "a9c0de47a2763b100461fd93e3fd01da6545f9e7055855738ce31c89e33338a9",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/3d1ba60026c740eea61128f3b7dcfb58",
+    "aliases": [
+      "INT526"
+    ]
+  },
+  {
+    "id": "INT527",
+    "title": "绿盟科技 AI 研发工程师一、二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/02005c06ed934bd293e40eda31517b4b",
+    "year": 2026,
+    "published": "2026-11-17",
+    "published_at": "2026-11-17T21:55:45+08:00",
+    "updated_at": "2026-11-17T21:56:39+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "绿盟科技"
+    ],
+    "role": "AI 研发工程师校招一、二面",
+    "topics": [
+      "06",
+      "07",
+      "14"
+    ],
+    "domains": [],
+    "summary": "RAG 的检索和长连接选择之后，继续考 SQL、事务、代码 Agent 质量和研发流程。",
+    "reading_tip": "结合现有服务说明为什么选 SSE，以及流式失败后客户端看到什么。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "吃饱喝足rip",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "传统 RAG 瓶颈如何定位？",
+      "单向流与双向长连接如何选？",
+      "怎样验证 AI 修改的代码符合需求？"
+    ],
+    "content_fingerprint": "0e35c19a6f41d1d5c1eba1c903a38e211b807da83f3deb30182ef777e1aeeccb",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/02005c06ed934bd293e40eda31517b4b",
+    "aliases": [
+      "INT527"
+    ]
+  },
+  {
+    "id": "INT528",
+    "title": "百度大模型算法工程师二面",
+    "url": "https://www.nowcoder.com/discuss/952267085965533184",
+    "year": 2026,
+    "published": "2026-11-17",
+    "published_at": "2026-11-17T18:09:26+08:00",
+    "updated_at": "2026-11-17T18:09:26+08:00",
+    "publication_basis": "nowcoder_createTime",
+    "event_date": null,
+    "companies": [
+      "百度"
+    ],
+    "role": "大模型算法工程师二面",
+    "topics": [
+      "02",
+      "03",
+      "04"
+    ],
+    "domains": [],
+    "summary": "原帖简述了两段实习、论文、继续预训练和 SFT、RL 的阶段分工，以及单词搜索编程题。",
+    "reading_tip": "带上一个训练流水线例子，逐阶段交代数据和验证目标。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "Zechariah",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "继续预训练、SFT、RL 的目标和数据分别是什么？",
+      "做过的论文和实习怎样验证实际贡献？"
+    ],
+    "content_fingerprint": "fa0b3f64d01168f67e822fc3c9e7369b7f632a0ee62bc7c4fb65ca2dc2d4e04f",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/discuss/952267085965533184",
+    "aliases": [
+      "INT528"
+    ]
+  },
+  {
+    "id": "INT529",
+    "title": "小红书 Agent 日常实习面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/c1f274e8fbce49f092216137644b57f5",
+    "year": 2026,
+    "published": "2026-11-17",
+    "published_at": "2026-11-17T15:44:42+08:00",
+    "updated_at": "2026-11-17T17:36:56+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "小红书"
+    ],
+    "role": "Agent 日常实习面试",
+    "topics": [
+      "07",
+      "08"
+    ],
+    "domains": [],
+    "summary": "从 API 首次返回和结束时间切入，主要追问大规模通知、发布扩散和实时排行榜。",
+    "reading_tip": "补齐首字延迟与完成延迟的度量，同时准备读写扩散和缓存设计。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "情景题slayer",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "怎样分解一次模型 API 的用户可见时延？",
+      "几百万用户看同一条通知时如何处理未读量和正文？"
+    ],
+    "content_fingerprint": "6ab0c58ab824353e58a010347eb3b1ae4ba6ecf72f591876345f8dea4e72d008",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/c1f274e8fbce49f092216137644b57f5",
+    "aliases": [
+      "INT529"
+    ]
+  },
+  {
+    "id": "INT530",
+    "title": "数字政通 Agent 研发二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/87ccbe8787ba4656ab3a61b2509e2b73",
+    "year": 2026,
+    "published": "2026-11-17",
+    "published_at": "2026-11-17T01:25:47+08:00",
+    "updated_at": "2026-11-17T01:25:47+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "数字政通"
+    ],
+    "role": "Agent 研发二面",
+    "topics": [
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "深挖 Agent 应用项目的目标、系统结构和隐私数据传输方案。",
+    "reading_tip": "按环境、处理数据和外部调用说明安全边界。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "沙琪玛队长",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "项目里的隐私数据从输入到存储经过哪些部件？",
+      "如何给出加密传输方案的具体职责与验证方式？"
+    ],
+    "content_fingerprint": "df8091e901f19d3db33e546fed371e0564eabdb189afb1886c45fd98daa56a15",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/87ccbe8787ba4656ab3a61b2509e2b73",
+    "aliases": [
+      "INT530"
+    ]
+  },
+  {
+    "id": "INT531",
+    "title": "快手电商一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/b032165e207d4c6b8df8c6eb3f291d06",
+    "year": 2026,
+    "published": "2026-11-16",
+    "published_at": "2026-11-16T15:45:11+08:00",
+    "updated_at": "2026-11-16T15:45:11+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "快手"
+    ],
+    "role": "快手电商实习一面（代码审查项目）",
+    "topics": [
+      "07",
+      "13",
+      "14"
+    ],
+    "domains": [],
+    "summary": "围绕代码审查 Agent 问团队规则差异、并行审查的 P99、跨文件依赖和上下文上限。",
+    "reading_tip": "用一次横跨多个文件的改动解释分组、汇合和全局复核。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "Bk7",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "并行子 Agent 怎样发现通过未改动文件形成的间接依赖？",
+      "变更太大时如何控制上下文并保留全局检查？"
+    ],
+    "content_fingerprint": "376b3a1ee2c2995d3a536c18bae4817d3253e0cfc42b630f00fbcf3cda0e3585",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/b032165e207d4c6b8df8c6eb3f291d06",
+    "aliases": [
+      "INT531"
+    ]
+  },
+  {
+    "id": "INT532",
+    "title": "滴滴 AI 应用与 Java 后端秋招二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/68dd246542734742bceccc8f771dba3f",
+    "year": 2026,
+    "published": "2026-11-16",
+    "published_at": "2026-11-16T15:25:56+08:00",
+    "updated_at": "2026-11-16T15:25:56+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "滴滴"
+    ],
+    "role": "AI 应用 / Java 后端秋招二面",
+    "topics": [
+      "07",
+      "13",
+      "14"
+    ],
+    "domains": [],
+    "summary": "项目讨论集中在强规则与模型的边界，随后问 AI 辅助改旧系统、上线验证和 Java 并发。",
+    "reading_tip": "区分生成、校验和执行，说明什么错误必须在进入下一步之前阻断。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "雾已散声宜慢",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "什么时候该增加确定性校验？",
+      "如何验收 AI 对老系统的代码和数据库改动？"
+    ],
+    "content_fingerprint": "5e8ce8837e6749719fdac72977d67bf7fbb9400d019d9bb0d1eb20b163927127",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/68dd246542734742bceccc8f771dba3f",
+    "aliases": [
+      "INT532"
+    ]
+  },
+  {
+    "id": "INT533",
+    "title": "滴滴 AI 应用与 Java 后端秋招一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/2201dc2f401148b8b314002fc9184f0e",
+    "year": 2026,
+    "published": "2026-11-16",
+    "published_at": "2026-11-16T02:09:31+08:00",
+    "updated_at": "2026-11-16T02:09:31+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "滴滴"
+    ],
+    "role": "AI 应用 / Java 后端秋招一面",
+    "topics": [
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "从候选人的数据标准化项目追问输出稳定性、强规则来源、领域建模和底层接口适配。",
+    "reading_tip": "用一个有多种输入格式的场景解释规则、提示和评测如何配合。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "雾已散声宜慢",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "不同来源的数据如何统一后再交给模型？",
+      "业务本体、Action 和领域服务如何划分职责？"
+    ],
+    "content_fingerprint": "04569e37752e692d7a34580da51f205469ff4424912ad657fdb1d71dd422975f",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/2201dc2f401148b8b314002fc9184f0e",
+    "aliases": [
+      "INT533"
+    ]
+  },
+  {
+    "id": "INT534",
+    "title": "科大讯飞后端与 Agent 开发秋招一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/e5abd2dc95934bf58177525b5736f290",
+    "year": 2026,
+    "published": "2026-11-15",
+    "published_at": "2026-11-15T11:59:05+08:00",
+    "updated_at": "2026-11-15T11:59:05+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "科大讯飞"
+    ],
+    "role": "后端 / Agent 开发秋招一面",
+    "topics": [
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "候选人复盘从实习项目和 Agent 工程化延伸到技术选型及实际开发验证。",
+    "reading_tip": "介绍项目时列明负责模块，并准备能复现的失败样例。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "雾已散声宜慢",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "怎样证明你本人完成的模块发挥了作用？",
+      "如果模型输出有偏差，你会从哪些工程环节排查？"
+    ],
+    "content_fingerprint": "354a2172c9ece4c7ed1332d0f1fdc36d696e8cebafca13f37be7c79a84ed8082",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/e5abd2dc95934bf58177525b5736f290",
+    "aliases": [
+      "INT534"
+    ]
+  },
+  {
+    "id": "INT535",
+    "title": "光轮 Data Infra 二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/92e9aa18ff44479dab9570bb7361124b",
+    "year": 2026,
+    "published": "2026-11-14",
+    "published_at": "2026-11-14T15:13:34+08:00",
+    "updated_at": "2026-11-14T15:13:34+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": "11 月 13 日",
+    "companies": [
+      "光轮智能"
+    ],
+    "role": "Data Infra 二面",
+    "topics": [
+      "02",
+      "06",
+      "07",
+      "09"
+    ],
+    "domains": [],
+    "summary": "从指标口径、数仓血缘和数据倾斜问到自然语言取数的表选路由与 SQL 执行反馈。",
+    "reading_tip": "给同一个指标设计版本、血缘和回填记录，说明 Text-to-SQL 如何识别口径变化。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "AAA野生原子弹批发",
+    "note": "面试月日沿用原帖。",
+    "question_prompts": [
+      "指标改定义时如何找出下游并安全重算？",
+      "自然语言取数服务如何选表并处理 SQL 执行报错？"
+    ],
+    "content_fingerprint": "0205f19a70442d04be3b4e8a0b0454635d77ef5ff1c9ff180709a172a7a48c25",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/92e9aa18ff44479dab9570bb7361124b",
+    "aliases": [
+      "INT535"
+    ]
+  },
+  {
+    "id": "INT536",
+    "title": "科大讯飞 Agent 一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/c325a58591c44b42919f2a4984ed12b8",
+    "year": 2026,
+    "published": "2026-11-13",
+    "published_at": "2026-11-13T15:04:47+08:00",
+    "updated_at": "2026-11-13T15:04:47+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": "10 月 12 日",
+    "companies": [
+      "科大讯飞"
+    ],
+    "role": "Agent 秋招一面",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "涉及结构化输出的恢复、长期记忆与最新指令冲突、HNSW、任务超时后恢复以及提示注入防御。",
+    "reading_tip": "用状态快照和可重试操作做一次中断恢复演练。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "在抱佛脚的芝士很完美",
+    "note": "面试月日沿用原帖。",
+    "question_prompts": [
+      "客户端超时退出时，服务端需要保存哪些执行状态？",
+      "长期记忆和用户新指令冲突时如何裁决？"
+    ],
+    "content_fingerprint": "8372d9630a950f488d58a2bd0b62f98c4111d8b12d9266ee85b315dd3265cf62",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/c325a58591c44b42919f2a4984ed12b8",
+    "aliases": [
+      "INT536"
+    ]
+  },
+  {
+    "id": "INT537",
+    "title": "字节搜索大模型一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/f3991feac126477cb244984b8ea09d94",
+    "year": 2026,
+    "published": "2026-11-12",
+    "published_at": "2026-11-12T21:25:16+08:00",
+    "updated_at": "2026-11-12T21:33:02+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": "10 月 28 日",
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "搜索大模型一面",
+    "topics": [
+      "03",
+      "04",
+      "08",
+      "16",
+      "18"
+    ],
+    "domains": [
+      "搜索",
+      "推荐"
+    ],
+    "summary": "原帖同时记录搜索意图、延迟兜底和生成式推荐项目，追问语义 ID、量化聚类、双塔训练及 GRPO。",
+    "reading_tip": "对搜索与推荐分别交代样本分布、评价指标和延迟预算。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "正在关机",
+    "note": "面试月日沿用原帖。",
+    "question_prompts": [
+      "线上意图样本和训练样本分布不一致时如何验证？",
+      "RQ-KMeans 码本规模用什么指标来选？",
+      "搜索链路超延迟预算时怎样降级？"
+    ],
+    "content_fingerprint": "8b886291e4c1241eaed0dcea04a4bc0733c2756868c783923eee34daf36a4d14",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/f3991feac126477cb244984b8ea09d94",
+    "aliases": [
+      "INT537"
+    ]
+  },
+  {
+    "id": "INT538",
+    "title": "阶跃星辰 AI 评测算法一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/68924c2475314c068f0bb31dc2b2a732",
+    "year": 2026,
+    "published": "2026-11-12",
+    "published_at": "2026-11-12T21:04:02+08:00",
+    "updated_at": "2026-11-12T21:04:02+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "阶跃星辰"
+    ],
+    "role": "AI 评测算法一面",
+    "topics": [
+      "02",
+      "04",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "岗位侧关心办公任务的合成数据、评测集和裁判模型。现场讨论 GDPval-AA、评测执行链及工具隔离。",
+    "reading_tip": "拆开执行环境、轨迹、评分和结果复核，说明哪些数据需要保存。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "仁者小无敌",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "如何说明自建评测集与公开 benchmark 的差异？",
+      "评测运行环境怎样隔离工具并留存产物？"
+    ],
+    "content_fingerprint": "17db7ba3e15de433de18a38f14a4bc4adc31a9995519140045050dba0ac511f0",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/68924c2475314c068f0bb31dc2b2a732",
+    "aliases": [
+      "INT538"
+    ]
+  },
+  {
+    "id": "INT539",
+    "title": "阿里云 MaaS AI 评测工程师二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/2cce296790c846ef8ddf4a1e657045fc",
+    "year": 2026,
+    "published": "2026-11-12",
+    "published_at": "2026-11-12T20:41:49+08:00",
+    "updated_at": "2026-11-12T20:41:49+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "阿里云"
+    ],
+    "role": "MaaS AI 评测工程师二面",
+    "topics": [
+      "12",
+      "13"
+    ],
+    "domains": [],
+    "summary": "围绕多模态扩展、评测集难度与分布、基线选择、偏差分析和专用裁判模型展开。",
+    "reading_tip": "准备一个评测集设计案例，提前说明难度分层、采样和裁判一致性。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "仁者小无敌",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "评测数据覆盖多个领域、难度和生成模型时怎么抽样？",
+      "观察到偏差时怎样区分数据与评分器的影响？"
+    ],
+    "content_fingerprint": "15b25e5ecb60c9432dce19492956a17f8d965067dea133a3dfc7088b74da1886",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/2cce296790c846ef8ddf4a1e657045fc",
+    "aliases": [
+      "INT539"
+    ]
+  },
+  {
+    "id": "INT540",
+    "title": "米哈游 NPC Agent 一面",
+    "url": "https://www.nowcoder.com/discuss/950396618505768960",
+    "year": 2026,
+    "published": "2026-11-12",
+    "published_at": "2026-11-12T14:16:51+08:00",
+    "updated_at": "2026-11-12T14:16:51+08:00",
+    "publication_basis": "nowcoder_createTime",
+    "event_date": "11 月 10 日",
+    "companies": [
+      "米哈游"
+    ],
+    "role": "游戏 NPC Agent 一面",
+    "topics": [
+      "06",
+      "07",
+      "12",
+      "13",
+      "22"
+    ],
+    "domains": [
+      "语音"
+    ],
+    "summary": "公开片段覆盖角色与剧情约束、未解锁内容过滤、玩家记忆以及语音和表情的实时输出。",
+    "reading_tip": "先画出剧情授权和语音延迟预算，再说明如何测试角色稳定性。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "AIGC小白入门记",
+    "note": "原帖后半部分付费，摘要和问题仅据公开部分。",
+    "question_prompts": [
+      "剧情检索怎样按玩家进度过滤？",
+      "NPC 情绪标签和语音输出怎样同步？",
+      "已经开始流式播放时怎样处理违规内容？"
+    ],
+    "content_fingerprint": "16dfd8f86b15d105eb7d0552d507cea3a626a596d9e368d286cefef719fbcf6a",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/discuss/950396618505768960",
+    "aliases": [
+      "INT540"
+    ]
+  },
+  {
+    "id": "INT541",
+    "title": "MiniMax 大模型应用一面",
+    "url": "https://www.nowcoder.com/discuss/950396237935566848",
+    "year": 2026,
+    "published": "2026-11-12",
+    "published_at": "2026-11-12T14:15:21+08:00",
+    "updated_at": "2026-11-12T14:15:21+08:00",
+    "publication_basis": "nowcoder_createTime",
+    "event_date": "11 月 11 日",
+    "companies": [
+      "MiniMax"
+    ],
+    "role": "大模型应用 / Agent 一面",
+    "topics": [
+      "01",
+      "05",
+      "06",
+      "07",
+      "08"
+    ],
+    "domains": [],
+    "summary": "公开片段从 Agent 和 RAG 项目转到注意力数值稳定、RoPE、位置外推、稀疏注意力及 MoE。",
+    "reading_tip": "把模型能力、上下文开销和线上推理的瓶颈对应起来。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "AIGC小白入门记",
+    "note": "原帖后半部分付费，摘要和问题仅据公开部分。",
+    "question_prompts": [
+      "RoPE 如何实现，较长序列上的外推有什么问题？",
+      "滑动窗口加全局 token 对可见范围和成本有什么影响？"
+    ],
+    "content_fingerprint": "22116eb0196096412a4242baf7bfa1731884520e4bec27b804af701aa9bfc250",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/discuss/950396237935566848",
+    "aliases": [
+      "INT541"
+    ]
+  },
+  {
+    "id": "INT542",
+    "title": "阿里云后端与 Agent 开发秋招二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/6cc04f7329d94320841b22b3e7951125",
+    "year": 2026,
+    "published": "2026-11-12",
+    "published_at": "2026-11-12T11:20:51+08:00",
+    "updated_at": "2026-11-12T11:20:51+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "阿里云"
+    ],
+    "role": "后端 / Agent 开发秋招二面",
+    "topics": [
+      "05",
+      "07",
+      "08",
+      "09"
+    ],
+    "domains": [],
+    "summary": "项目侧问 Ontology、Action、DDD；基础侧问 Transformer、KV Cache、模型并行，以及 Java 和 Redis。",
+    "reading_tip": "用一个业务动作串起对象建模、接口协议和执行控制，再解释模型服务成本。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "雾已散声宜慢",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "业务 Ontology 与 MCP 工具描述承担哪些不同职责？",
+      "模型推理缓存和分布式训练并行各在解决什么问题？"
+    ],
+    "content_fingerprint": "ab0cb68a170a6f472529f57678e0996249e69e77cdd6685de7415b055fd75b90",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/6cc04f7329d94320841b22b3e7951125",
+    "aliases": [
+      "INT542"
+    ]
+  },
+  {
+    "id": "INT543",
+    "title": "美团业务后台秋招二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/17e3b65daa1c42089d3aea9346bfbc98",
+    "year": 2026,
+    "published": "2026-11-10",
+    "published_at": "2026-11-10T19:07:24+08:00",
+    "updated_at": "2026-11-10T19:07:24+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "美团"
+    ],
+    "role": "业务后台 / 大模型应用工程化二面",
+    "topics": [
+      "07",
+      "13",
+      "14"
+    ],
+    "domains": [],
+    "summary": "追问模型选型基线、评测样本更新、线上错误分类，以及 AI 编码与 Java 后端实践。",
+    "reading_tip": "按版本对比模型及规则，用分桶样本复盘线上退化。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "雾已散声宜慢",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "怎样把模型横评、日常测试集和线上指标接起来？",
+      "持续根据错误修改系统时，如何保留可信的回归对照？"
+    ],
+    "content_fingerprint": "f46b7900f28caafc7de1a0f7c90edda64ae2cea43545d208c0bfa8a5ec932daf",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/17e3b65daa1c42089d3aea9346bfbc98",
+    "aliases": [
+      "INT543"
+    ]
+  },
+  {
+    "id": "INT544",
+    "title": "同程全栈一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/1d4dd5c02aaf452e891548edfff50e56",
+    "year": 2026,
+    "published": "2026-11-10",
+    "published_at": "2026-11-10T16:11:01+08:00",
+    "updated_at": "2026-11-10T16:11:01+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": "10 月 28 日",
+    "companies": [
+      "同程旅行"
+    ],
+    "role": "全栈开发一面",
+    "topics": [
+      "06",
+      "07"
+    ],
+    "domains": [],
+    "summary": "问检索子 Agent 的拆分、可信验证、双路召回降级和多轮停止条件，后段考前端基础。",
+    "reading_tip": "给图片和文本两种资料准备一条失败路径，说明降级时留下的证据。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "前端秋招求个offer",
+    "note": "面试月日沿用原帖。",
+    "question_prompts": [
+      "为什么把检索放入子 Agent，返回给主 Agent 哪些信息？",
+      "两路召回之一失败时怎样降级？"
+    ],
+    "content_fingerprint": "e26d9bd1d9b666333becac0110bd2f695ce80077b4ec3b758c40c32b090c23fd",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/1d4dd5c02aaf452e891548edfff50e56",
+    "aliases": [
+      "INT544"
+    ]
+  },
+  {
+    "id": "INT545",
+    "title": "海康威视总部 Agent 开发实习一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/b3f0a1b58fba41a9bffb5df3497da289",
+    "year": 2026,
+    "published": "2026-11-10",
+    "published_at": "2026-11-10T11:41:07+08:00",
+    "updated_at": "2026-11-10T11:41:07+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "海康威视"
+    ],
+    "role": "Agent 开发日常实习一面",
+    "topics": [
+      "07",
+      "14"
+    ],
+    "domains": [],
+    "summary": "围绕多 Agent 跨设备协作，以及 Skill 的分层、独立设计和技能选择混淆。",
+    "reading_tip": "分别讲清工具发现、远程执行和结果回传三个接口。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "只会ai_coding",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "跨设备 Agent 怎样委派并追踪任务？",
+      "Skill 数量变大后怎样鉴别技能路由错误？"
+    ],
+    "content_fingerprint": "bb84b72022193fb233e49cacf1a470bdd0ea9704dd4ede017904b920e4ab3225",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/b3f0a1b58fba41a9bffb5df3497da289",
+    "aliases": [
+      "INT545"
+    ]
+  },
+  {
+    "id": "INT546",
+    "title": "字节后台开发秋招一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/4f2163157380484d96ed07f5dbed0537",
+    "year": 2026,
+    "published": "2026-11-10",
+    "published_at": "2026-11-10T10:34:15+08:00",
+    "updated_at": "2026-11-11T10:10:28+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": "11 月 9 日",
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "后台开发秋招一面",
+    "topics": [
+      "07",
+      "10"
+    ],
+    "domains": [],
+    "summary": "除了 Agent Skill 和 Workflow、模型蒸馏，还考 Trace ID 的跨线程传递及 HTTP 协议基础。",
+    "reading_tip": "准备一个跨线程链路追踪的例子，并区分技能定义和确定性流程。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "音律",
+    "note": "面试月日沿用原帖。",
+    "question_prompts": [
+      "Skill 和确定性 Workflow 的执行边界怎样判断？",
+      "异步任务怎样承接上游 Trace ID？"
+    ],
+    "content_fingerprint": "47e533baba415645d39489c6644fd7415a8716b54886e43c68133a05b8d2490d",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/4f2163157380484d96ed07f5dbed0537",
+    "aliases": [
+      "INT546"
+    ]
+  },
+  {
+    "id": "INT547",
+    "title": "京东零售商品审核 Agent 一、二面",
+    "url": "https://www.nowcoder.com/discuss/949423805343035392",
+    "year": 2026,
+    "published": "2026-11-09",
+    "published_at": "2026-11-09T21:51:15+08:00",
+    "updated_at": "2026-11-09T21:51:15+08:00",
+    "publication_basis": "nowcoder_createTime",
+    "event_date": "11 月 3 日、11 月 5 日",
+    "companies": [
+      "京东"
+    ],
+    "role": "商品审核 Agent 应用一、二面",
+    "topics": [
+      "07",
+      "12",
+      "13",
+      "21"
+    ],
+    "domains": [
+      "风控"
+    ],
+    "summary": "公开部分集中在 OCR 错误传播、图文冲突、规则优先级、人审流转和准确率统计。",
+    "reading_tip": "按风险桶说明审核口径，并量化规则新增对存量商品的影响。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "AIGC小白入门记",
+    "note": "原帖后半部分付费，摘要和问题仅据公开部分。",
+    "question_prompts": [
+      "图文信息冲突时如何分配模型、规则和人工的权限？",
+      "如何在 class imbalance 下评估审核质量？"
+    ],
+    "content_fingerprint": "cde2c1287f5b4bd0cdca6b4bf263eb981eba9b5e3fffb8a2238a6630845be5bb",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/discuss/949423805343035392",
+    "aliases": [
+      "INT547"
+    ]
+  },
+  {
+    "id": "INT548",
+    "title": "快手 AI Platform 面经",
+    "url": "https://www.nowcoder.com/feed/main/detail/762f8d3c098c472cb0d4255d00bccdde",
+    "year": 2026,
+    "published": "2026-11-09",
+    "published_at": "2026-11-09T14:10:17+08:00",
+    "updated_at": "2026-11-09T14:13:20+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "快手"
+    ],
+    "role": "AI Platform 秋招技术面",
+    "topics": [
+      "05",
+      "08",
+      "09",
+      "12"
+    ],
+    "domains": [],
+    "summary": "原帖短记涉及 GPU 显存监控、MoE 负载均衡和 profiling，作者称团队做多模态大模型。",
+    "reading_tip": "用一个显存或吞吐故障解释 profiling 的观测方法。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "awdcasqweas",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "怎样把显存开销归因到权重、激活与缓存？",
+      "如何识别 MoE 的专家负载倾斜？"
+    ],
+    "content_fingerprint": "297194f48d53f1414a679750ce284e9f042145c5963eaa071de48a68f8a0ba24",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/762f8d3c098c472cb0d4255d00bccdde",
+    "aliases": [
+      "INT548"
+    ]
+  },
+  {
+    "id": "INT549",
+    "title": "百度 AI Agent 开发工程师一面",
+    "url": "https://www.nowcoder.com/discuss/948980939399372800",
+    "year": 2026,
+    "published": "2026-11-08",
+    "published_at": "2026-11-08T16:31:27+08:00",
+    "updated_at": "2026-11-08T16:31:27+08:00",
+    "publication_basis": "nowcoder_createTime",
+    "event_date": null,
+    "companies": [
+      "百度"
+    ],
+    "role": "AI Agent 开发工程师一面",
+    "topics": [
+      "06",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "以根据笔记出题的助手为例，讨论 few-shot、采样参数、结构化结果以及有界并发。",
+    "reading_tip": "用失败样例验证提示词、解析校验和并发边界。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "天亮咯",
+    "note": "原帖附作者整理的参考答案，回答内容可另行核对。面试日未公开。",
+    "question_prompts": [
+      "为什么温度和 top-p 控制的行为不同？",
+      "部分并发请求失败时，怎样返回可处理的结果与错误？"
+    ],
+    "content_fingerprint": "97d3a0f57b6d2fa09731bb7d43e2164cdc6f19236e773d3edf89ece4a6d71fb4",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/discuss/948980939399372800",
+    "aliases": [
+      "INT549"
+    ]
+  },
+  {
+    "id": "INT550",
+    "title": "淘天 AI Agent 与大模型应用研发二面",
+    "url": "https://www.nowcoder.com/feed/main/detail/f2995b761244484db735fd2ccf62db50",
+    "year": 2026,
+    "published": "2026-11-07",
+    "published_at": "2026-11-07T23:40:29+08:00",
+    "updated_at": "2026-11-12T10:49:58+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "淘天"
+    ],
+    "role": "AI Agent / 大模型应用研发秋招二面",
+    "topics": [
+      "04",
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "从幻觉归因、线上评测数据回流问到多步任务重规划，以及如何从成功轨迹构造 DPO 偏好样本。",
+    "reading_tip": "用一组轨迹区分通过流程修复的问题和需要训练优化的问题。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "雾已散声宜慢",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "失败后如何重规划且保留已经完成的步骤？",
+      "两次成功轨迹耗时和工具数不同，如何构造偏好对？"
+    ],
+    "content_fingerprint": "671f1fb86f898df3225d7e6989486681b4a27661a95c433f7926139d586f91ca",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/f2995b761244484db735fd2ccf62db50",
+    "aliases": [
+      "INT550"
+    ]
+  },
+  {
+    "id": "INT551",
+    "title": "拼多多人才计划一面",
+    "url": "https://www.nowcoder.com/discuss/948587502992977920",
+    "year": 2026,
+    "published": "2026-11-07",
+    "published_at": "2026-11-07T14:28:05+08:00",
+    "updated_at": "2026-11-07T14:28:05+08:00",
+    "publication_basis": "nowcoder_createTime",
+    "event_date": null,
+    "companies": [
+      "拼多多"
+    ],
+    "role": "人才计划大模型技术一面",
+    "topics": [
+      "02",
+      "03",
+      "06",
+      "13"
+    ],
+    "domains": [],
+    "summary": "公开问答围绕知识内化的训练成本、事实更新、冲突消解和 RAG 回退展开。",
+    "reading_tip": "给高频稳定知识和低频易变事实分别估算训练、检索和更新成本。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "AIGC小白入门记",
+    "note": "原帖后半部分付费，面试日未公开。",
+    "question_prompts": [
+      "怎样验证继续预训练真的补充了事实知识？",
+      "新旧事实冲突时如何让 RAG 回退并降低遗忘？"
+    ],
+    "content_fingerprint": "2cb6f38b9d7bfbef80579817f66891d84cf606ecccd3c1275686d5fa3a83fc4b",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/discuss/948587502992977920",
+    "aliases": [
+      "INT551"
+    ]
+  },
+  {
+    "id": "INT552",
+    "title": "美团到店推荐算法三轮复盘",
+    "url": "https://www.nowcoder.com/discuss/948585871480025088",
+    "year": 2026,
+    "published": "2026-11-07",
+    "published_at": "2026-11-07T14:21:36+08:00",
+    "updated_at": "2026-11-07T14:24:35+08:00",
+    "publication_basis": "nowcoder_createTime",
+    "event_date": "10 月 26 日、10 月 30 日、11 月 1 日",
+    "companies": [
+      "美团到店"
+    ],
+    "role": "推荐算法一至三面",
+    "topics": [
+      "15",
+      "18"
+    ],
+    "domains": [
+      "推荐"
+    ],
+    "summary": "公开题集中在双塔召回、负采样、时序特征穿越、离线和线上不一致及 CTR/CVR 多目标。",
+    "reading_tip": "准备一个线上 CTR 不涨的排查过程，区分模型指标与流量变化。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "AIGC小白入门记",
+    "note": "原帖后半部分付费。面试日期用作者列出的各轮月日。",
+    "question_prompts": [
+      "曝光未点击能否都当负样本，采样会怎样影响估计？",
+      "如何避免训练特征读取了未来信息？"
+    ],
+    "content_fingerprint": "f4bde31ea78d4cea628b638618726bf3c0b82d400a3e2ed36e4db9cf46afd456",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/discuss/948585871480025088",
+    "aliases": [
+      "INT552"
+    ]
+  },
+  {
+    "id": "INT553",
+    "title": "腾讯 Agent 开发一面",
+    "url": "https://www.nowcoder.com/feed/main/detail/3df8a071701941d484e5a01a1b358655",
+    "year": 2026,
+    "published": "2026-11-07",
+    "published_at": "2026-11-07T12:41:54+08:00",
+    "updated_at": "2026-11-07T12:41:54+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": null,
+    "companies": [
+      "腾讯"
+    ],
+    "role": "Agent 开发一面",
+    "topics": [
+      "07",
+      "08",
+      "13"
+    ],
+    "domains": [],
+    "summary": "追问 LangChain 与 LangGraph 的选型、主子 Agent 的上下文传递、KV Cache 命中和独立审核评测。",
+    "reading_tip": "为一次调用统计 token、缓存命中和执行结果，验证删减上下文的实际效果。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "吾乃韩跑跑",
+    "note": "原帖未给出确切面试日期。",
+    "question_prompts": [
+      "压缩上下文造成缓存失效时，如何比较成本和时延？",
+      "生成与审核用同一个模型时，怎样寻找共同盲区？"
+    ],
+    "content_fingerprint": "41e992013e940e44d46ec7cc21332472e754570571d529e2e1101a054ea1cc0d",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/3df8a071701941d484e5a01a1b358655",
+    "aliases": [
+      "INT553"
+    ]
+  },
+  {
+    "id": "INT554",
+    "title": "字节跳动 AI Agent 开发工程师三面",
+    "url": "https://www.nowcoder.com/discuss/953075892136259584",
+    "year": 2026,
+    "published": "2026-11-19",
+    "published_at": "2026-11-19T23:43:20+08:00",
+    "updated_at": "2026-11-19T23:43:20+08:00",
+    "publication_basis": "nowcoder_createTime",
+    "event_date": null,
+    "companies": [
+      "字节跳动"
+    ],
+    "role": "AI Agent 开发工程师三面",
+    "topics": [
+      "07",
+      "13"
+    ],
+    "domains": [],
+    "summary": "从异步生成的草稿版本乱序切入，追问输入快照、可复现评测、成对实验和模型裁判偏差。",
+    "reading_tip": "分别准备版本回放测试和模型回归实验，说明哪类故障能在回放中复现。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "天亮咯",
+    "note": "作者只记录了部分面试，原帖还附有作答思路。",
+    "question_prompts": [
+      "两个生成任务以相反顺序完成时，如何阻止旧结果覆盖新草稿？",
+      "怎样区分输入可追溯与输出可复现？",
+      "用同一组任务比较两个模型时，哪些样本最能说明差异？"
+    ],
+    "content_fingerprint": "3dd4223cef9cdc44dffa3f793b4a72231e5664168862c7a0f3004a28cfe4fb40",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/discuss/953075892136259584",
+    "aliases": [
+      "INT554"
+    ]
+  },
+  {
+    "id": "INT555",
+    "title": "科大讯飞 Agent 秋招二面复盘",
+    "url": "https://www.nowcoder.com/feed/main/detail/0d53d7c1b74744ce9446d91a1fe6ddcf",
+    "year": 2026,
+    "published": "2026-11-20",
+    "published_at": "2026-11-20T10:40:48+08:00",
+    "updated_at": "2026-11-20T10:59:54+08:00",
+    "publication_basis": "nowcoder_createdAt",
+    "event_date": "11 月 16 日",
+    "companies": [
+      "科大讯飞"
+    ],
+    "role": "秋招二面（Agent 应用相关）",
+    "topics": [
+      "06",
+      "07",
+      "13",
+      "14"
+    ],
+    "domains": [],
+    "summary": "围绕生产项目落地、领域知识库、Agent 记忆持久化、循环纠错以及 Spec 驱动开发追问。",
+    "reading_tip": "准备一次上线后的坏样本回收流程，标出记忆写入、异常修复和代码验收。",
+    "source_type": "interview_self_report",
+    "accessed": "2026-11-20",
+    "verification": "opened",
+    "author": "在抱佛脚的芝士很完美",
+    "note": "面试月日沿用原帖。",
+    "question_prompts": [
+      "哪些项目状态要长期持久化，哪些只保留在本轮上下文？",
+      "Agent 循环出错后如何选择重试、改计划或结束？"
+    ],
+    "content_fingerprint": "3fdca0c37709d77e28060e448d811c3f70f8513e26ae2214f6be6678558929a5",
+    "platform": "牛客",
+    "canonical_url": "https://www.nowcoder.com/feed/main/detail/0d53d7c1b74744ce9446d91a1fe6ddcf",
+    "aliases": [
+      "INT555"
+    ]
+  },
+  {
     "id": "RB001",
     "title": "AI-Interview-Code",
     "url": "https://github.com/bbruceyuan/AI-Interview-Code",

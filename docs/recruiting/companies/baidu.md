@@ -2,7 +2,7 @@
 
 [返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://talent.baidu.com/jobs/list?recruitType=GRADUATE) · [企业社招](https://talent.baidu.com/jobs/list?recruitType=SOCIAL)
 
-共 31 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 35 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
 ## 校招（17）
 
@@ -709,7 +709,7 @@ LLM Infra 与推理 · 社招 · 北京、上海、深圳 · 有投递入口
 
 涉及技术关键词为 多模态、强化学习、推荐系统、查询理解、深度学习、C++、机器学习、NLP。
 
-## 实习（2）
+## 实习（6）
 
 <a id="job757"></a>
 
@@ -755,3 +755,101 @@ Agent 与 RAG · 实习 · 北京 · 投递待确认
 - 要求涉及Agent、Java。
 
 涉及技术关键词为 风险识别、Agent、Java。
+
+<a id="job1303"></a>
+
+### JOB1303 · 百度 · 生成式排序模型算法工程师（J107378）
+
+广告算法 · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://talent.baidu.com/jobs/detail/INTERN/d3802660-86e9-4cb5-927f-0c25b5160f5a) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1303)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读百度招聘官网职位详情，页面状态为有效。
+
+团队 / 业务为 MEG。
+
+原页日期 2026-11-18 · 官网更新 2026-11-19
+
+**主要职责**
+
+- 在推荐广告中验证生成式排序、多模态商品表征和长周期广告优化。
+- 参与离线评估、在线实验及训练推理优化。
+
+**任职要求**
+
+- 本科及以上在读，熟悉机器学习和常见搜推模型，能用 Python 与 PyTorch 或 TensorFlow。
+
+涉及技术关键词为 生成式排序、广告、CTR/CVR、量化。
+
+<a id="job1308"></a>
+
+### JOB1308 · 百度 · 算法研究员（J101312）
+
+Agent 与 RAG · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://talent.baidu.com/jobs/detail/INTERN/71d54248-37aa-41a2-a208-001580042a39) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1308)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读百度招聘官网职位详情，页面状态为有效。
+
+团队 / 业务为 ACG。
+
+原页日期 2026-11-17 · 官网更新 2026-11-18
+
+**主要职责**
+
+- 研究代码理解、代码生成及上下文工程，设计实验并在真实编程系统核对效果。
+
+**任职要求**
+
+- 硕士及以上，具备机器学习与 NLP 基础，有 AI Coding、代码模型或 Agent 研究经历者优先。
+
+涉及技术关键词为 Coding、Agent、上下文工程、代码生成。
+
+<a id="job1309"></a>
+
+### JOB1309 · 百度 · 推荐广告算法实习生（J107453）
+
+广告算法 · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://talent.baidu.com/jobs/detail/INTERN/f2a5e7e7-c9d2-4fb6-aec0-3ac79bb56582) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1309)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读百度招聘官网职位详情，页面状态为有效。
+
+团队 / 业务为 MEG。
+
+原页日期 2026-11-18 · 官网更新 2026-11-18
+
+**主要职责**
+
+- 参与广告点击与转化模型、生成式推荐及多目标建模，或做智能出价与投放策略。
+
+**任职要求**
+
+- 硕士及以上，熟悉机器学习和数据挖掘，连续实习六个月，每周五天。
+
+涉及技术关键词为 生成式推荐、Uplift、智能出价、因果推断。
+
+<a id="job1310"></a>
+
+### JOB1310 · 百度 · 大模型&Agentic RL实习生（J107371）
+
+后训练与强化学习 · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://talent.baidu.com/jobs/detail/INTERN/179ca572-c5bb-48fc-a7d8-8335235aa745) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1310)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读百度招聘官网职位详情，页面状态为有效。
+
+团队 / 业务为 ACG。
+
+原页日期 2026-11-17 · 官网更新 2026-11-18
+
+**主要职责**
+
+- 研究多步工具任务的信用分配、过程奖励和结果奖励。
+- 搭建训练采样链路，测试长程任务上的成功率与稳定性。
+
+**任职要求**
+
+- 硕士及以上为主，特别优秀的本科生可考虑。熟悉主流强化学习算法及 LLM 后训练。
+
+涉及技术关键词为 Agentic、RL、GRPO、PPO、PRM。

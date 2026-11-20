@@ -2,7 +2,7 @@
 
 [返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://join.qq.com/post.html) · [企业社招](https://careers.tencent.com/jobopportunity.html)
 
-共 204 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 205 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
 ## 校招（14）
 
@@ -325,7 +325,7 @@ LLM Infra 与推理 · 校招 · 深圳、北京、上海 · 有投递入口
 
 涉及技术关键词为 强化学习、多智能体、Agent、RLHF、世界模型、深度学习、运筹优化。
 
-## 社招（190）
+## 社招（191）
 
 <a id="job038"></a>
 
@@ -4721,3 +4721,27 @@ Agent 与 RAG · 社招 · 深圳 · 有投递入口
 - 任职要求涉及强化学习。
 
 涉及技术关键词为 强化学习、用户增长、工具调用。
+
+<a id="job1326"></a>
+
+### JOB1326 · 腾讯 · 腾讯游戏-视觉语言模型(VLM)算法工程师
+
+多模态与生成 · 社招 · 深圳 · 有投递入口
+
+[在原平台查看](https://careers.tencent.com/zh-cn/jobdesc.html?postId=2119685008418586624) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1326)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已核对腾讯社招职位详情，官网显示申请入口。
+
+团队 / 业务为 IEG。
+
+官网更新 2026-11-16
+
+**主要职责**
+
+- 研发面向游戏和多模态搜索的视觉语言模型，改进架构与微调效果。
+
+**任职要求**
+
+- 硕士及以上，掌握 Python、C++ 与 PyTorch，熟悉主流 VLM，有分布式训练经验者优先。
+
+涉及技术关键词为 VLM、多模态搜索、SFT、游戏。

@@ -143,7 +143,16 @@ test('question search renders the answer and resources remain distinct', async (
 
 test('recruiting filters and a shareable JD survive reload', async ({page}) => {
   await ready(page, '/?view=jobs');
-  await expect(page.getByRole('tab', {name: /招聘与 JD/})).toHaveAttribute('aria-selected', 'true');
+  await expect(page.getByRole('tab', {name: /找岗位/})).toHaveAttribute('aria-selected', 'true');
+  await expect(page.getByRole('heading', {name: '大模型与算法岗位', exact: true})).toBeVisible();
+  await page.getByRole('button', {name: '只看官网可投'}).click();
+  await expect(page).toHaveURL(/job_status=apply_link/);
+  await expect(page.getByRole('button', {name: '只看官网可投'})).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.locator('.job-card .job-status:not([data-status="apply_link"])')).toHaveCount(0);
+  await page.getByRole('button', {name: '只看官网可投'}).click();
+  await expect(page).not.toHaveURL(/job_status=/);
+  await page.getByLabel('排序方式').selectOption('published');
+  await expect(page).toHaveURL(/sort=published/);
   await page.getByText('查看招聘渠道', {exact: true}).click();
   await expect(page.locator('#job-channels').getByRole('link', {name: '微信公众号'})).toBeVisible();
   await page.getByText('查看招聘渠道', {exact: true}).click();
@@ -167,6 +176,7 @@ test('recruiting filters and a shareable JD survive reload', async ({page}) => {
   await expect(page.locator('.record-card')).toHaveCount(2);
   await page.locator('#tab-interviews').click();
   await expect(page.locator('#job-filters')).toBeHidden();
+  await expect(page.getByRole('heading', {name: '面经原帖', exact: true})).toBeVisible();
   await expect(page).toHaveURL(/\/$/);
 });
 

@@ -1,8 +1,8 @@
 # 小米 · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://hr.xiaomi.com/website/campus.html) · [企业社招](https://career.mi.com/jobs)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://hr.xiaomi.com/website/campus.html) · [企业社招](https://career.mi.com/jobs)
 
-共 6 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 7 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
 ## 校招（5）
 
@@ -111,6 +111,31 @@ Agent 与 RAG · 校招 · 武汉、北京 · 投递待确认
 - 2027 届硕士及以上学历;掌握 Python、Java 或 Go,理解大模型、机器学习和 Agent 系统。
 
 涉及技术关键词为 Agent、Agent 运行时、工作流、MCP、Python、Java、Go、机器学习。
+
+## 社招（1）
+
+<a id="job1305"></a>
+
+### JOB1305 · 小米 · 大模型异构集群与存储系统研究员-MiMo
+
+LLM Infra 与推理 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://xiaomi.jobs.f.mioffice.cn/index/position/7709847325229336842/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1305)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-11-19
+
+**主要职责**
+
+- 构建面向训练、推理和强化学习的异构算力池与通信路径。
+- 优化训练数据、KV Cache、Checkpoint 的分布式存储和集群可靠性。
+
+**任职要求**
+
+- 熟悉 Linux 与系统编程，在调度、高性能网络、分布式存储或性能分析中有深入实践，能做可复现的实验。
+
+涉及技术关键词为 异构训练、RDMA、分布式存储、GPU/NPU。
 
 ## 实习（1）
 

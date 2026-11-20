@@ -5,14 +5,14 @@
 **[打开网页版 →](https://pyramiding.github.io/llm-interview-warehouse/)** · 搜索、按公司与方向筛选、收藏、阅读题解。
 
 <!-- STATS:START -->
-161篇面经 · 23个专题 · 29个细分方向
+196篇面经 · 23个专题 · 29个细分方向
 
-另有96份参考资料、414道专题题解和26道项目/手写练习。论文、文档和原帖共440个去重链接，见[来源目录](docs/source-catalog.md)。
+另有96份参考资料、414道专题题解和26道项目/手写练习。论文、文档和原帖共475个去重链接，见[来源目录](docs/source-catalog.md)。
 <!-- STATS:END -->
 
-## 招聘与 JD
+## 找岗位
 
-[打开招聘模块](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library) · [在 GitHub 按公司、方向看 JD](docs/recruiting/README.md)。
+[打开岗位列表](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library) · [在 GitHub 按公司、方向查岗位](docs/recruiting/README.md)。
 
 官网岗位直达 [校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E6%A0%A1%E6%8B%9B#library) · [社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91&job_type=%E7%A4%BE%E6%8B%9B#library)。
 
@@ -68,6 +68,8 @@
 | 23 | [大模型与客服](docs/topics/23-llm-service.md) | 知识、多轮状态、工具执行、转人工与质检 |
 
 ## 最近更新
+
+**2026-11-20** [近期面经与岗位](docs/incremental-2026-11-20.md)。新增 35 篇面经和 47 条官网岗位，另复核 39 条已有岗位。网页统一使用「找岗位」，可以一键筛选官网可投的条目。
 
 **2026-11-06：** [复核8篇既有面经](docs/source-verification-2026-11-06.md)，补充32条改写问题与可读范围说明，不增加面经或专题练习计数。网页新增桌面与移动浏览器端到端测试，覆盖搜索、收藏、分享、历史导航和加载失败重试。
 

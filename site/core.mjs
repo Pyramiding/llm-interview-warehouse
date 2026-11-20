@@ -83,7 +83,10 @@ export function filterRecords(records, state, saved = new Set()) {
     if (state.sort === 'title') return a.title.localeCompare(b.title, 'zh-CN');
     if (isJob) {
       return Number(a.job_status === 'closed') - Number(b.job_status === 'closed') ||
-        b.accessed.localeCompare(a.accessed) || a.order - b.order;
+        (state.sort === 'published' ? dateValue(b).localeCompare(dateValue(a)) : 0) ||
+        b.accessed.localeCompare(a.accessed) ||
+        Number(b.job_status === 'apply_link') - Number(a.job_status === 'apply_link') ||
+        (b.updated || b.published || '').localeCompare(a.updated || a.published || '') || a.order - b.order;
     }
     if (state.sort === 'published' && !isQuestion) return dateValue(b).localeCompare(dateValue(a)) || b.order - a.order;
     return isQuestion ? a.order - b.order : b.order - a.order;

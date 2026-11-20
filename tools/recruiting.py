@@ -39,13 +39,18 @@ DOMESTIC_EMPLOYERS = {
     '滴滴': ('滴滴', 'didi', 'https://talent.didiglobal.com/campus/', 'https://talent.didiglobal.com/social/'),
     '小红书': ('小红书', 'xiaohongshu', 'https://job.xiaohongshu.com/campus/position',
              'https://job.xiaohongshu.com/social/position'),
+    '蚂蚁集团': ('蚂蚁集团', 'ant-group', 'https://talent.antgroup.com/campus',
+                 'https://talent.antgroup.com/off-campus'),
+    '携程': ('携程集团', 'trip-com', None, 'https://job.ctrip.com/'),
+    '蔚来': ('蔚来', 'nio', 'https://nio.jobs.feishu.cn/campus', None),
 }
 MODEL_EMPLOYERS = {
     '智谱': ('智谱（Z.ai）', 'zhipu', 'https://app.mokahr.com/campus-recruitment/zphz/148984',
            'https://app.mokahr.com/social-recruitment/zphz/148983'),
     '月之暗面': ('月之暗面（Kimi）', 'moonshot', 'https://careers.kimi.com/campus', 'https://careers.kimi.com/'),
     'DeepSeek': ('DeepSeek', 'deepseek', None, 'https://talent.deepseek.com/'),
-    'MiniMax': ('MiniMax（稀宇科技）', 'minimax', None, 'https://www.minimax.cn/careers'),
+    'MiniMax': ('MiniMax（稀宇科技）', 'minimax', 'https://vrfi1sk8a0.jobs.feishu.cn/379481/',
+                'https://www.minimax.cn/careers'),
     '智源研究院': ('北京智源人工智能研究院', 'baai', 'https://app.mokahr.com/campus-recruitment/baai/42174',
               'https://app.mokahr.com/social-recruitment/baai/42173'),
     '阶跃星辰': ('阶跃星辰（StepFun）', 'stepfun', 'https://app.mokahr.com/campus-recruitment/step/94905', None),
@@ -144,11 +149,11 @@ def load_recruiting(known_topics):
         assert job['responsibilities'] and job['topics'] and set(job['topics']) <= known_topics, job_id
         assert job['requirements'] or job['verification'] != 'opened', f'Missing requirements: {job_id}'
         accessed = date.fromisoformat(job['accessed'])
-        for key in ('published', 'deadline'):
+        for key in ('published', 'updated', 'deadline'):
             if job.get(key):
                 parsed = date.fromisoformat(job[key])
-                if key == 'published':
-                    assert parsed <= accessed, f'Publication later than check: {job_id}'
+                if key in {'published', 'updated'}:
+                    assert parsed <= accessed, f'{key} later than check: {job_id}'
                 elif parsed < accessed:
                     assert job['job_status'] == 'closed', f'Expired posting must be archived: {job_id}'
     return data
@@ -224,10 +229,10 @@ def build_recruiting_index(known_topics):
         return f'  - [{label}]({company_pages.get(job["company_key"], "")}#{job["id"].lower()})'
 
     lines = [
-        '# 大模型与算法岗招聘 / JD', '',
+        '# 大模型与算法岗位', '',
         f'[打开招聘网页]({recruiting_url()}) · [返回面经仓库](../../README.md)', '',
-        f'{last_checked} 更新，共收录 {len(jobs)} 条岗位与 JD。记录附岗位原页或招聘公告、职责和要求摘要、核验日期与投递状态。',
-        '“有投递入口”表示核验时确认了官网申请入口。投递状态与招聘类型以原页为准，已结束的批次保留作往届 JD。', '',
+        f'{last_checked} 更新，共收录 {len(jobs)} 条岗位。记录附招聘原页、职责和要求摘要、核验日期与投递状态。',
+        '“有投递入口”表示核验时确认了申请入口。发布日期和官网更新日按原站标记记录。已结束的批次保留供对照。', '',
         '## 官网岗位', '',
         '| 招聘类型 | 官网岗位 | 有投递入口 | 网页入口 |',
         '|---|---:|---:|---|',
@@ -336,6 +341,8 @@ def job_detail(job, directions):
     if job.get('published'):
         date_label = '转载日期' if job['verification'] == 'reprint' else '原页日期'
         dates.append(f'{date_label} {job["published"]}')
+    if job.get('updated'):
+        dates.append(f'官网更新 {job["updated"]}')
     if job.get('deadline'):
         dates.append(f'投递截止 {job["deadline"]}')
     if dates:

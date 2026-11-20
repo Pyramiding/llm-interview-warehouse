@@ -6,26 +6,26 @@
 
 | 方向 | 面经 | 参考资料 |
 |---|---:|---:|
-| [分布式训练与显存管理](#infra-training) | 4 | 4 |
+| [分布式训练与显存管理](#infra-training) | 5 | 4 |
 | [RL Infra与Rollout系统](#infra-rl) | 1 | 3 |
 | [CUDA、Triton与算子优化](#infra-kernel) | 8 | 6 |
 | [图执行与AI编译](#infra-compiler) | 1 | 2 |
 | [NCCL、互联与多卡通信](#infra-communication) | 4 | 4 |
-| [LLM推理引擎与Serving](#infra-serving) | 9 | 7 |
-| [GPU调度与云原生平台](#infra-platform) | 1 | 5 |
-| [性能分析与Benchmark](#infra-profiling) | 4 | 6 |
+| [LLM推理引擎与Serving](#infra-serving) | 14 | 7 |
+| [GPU调度与云原生平台](#infra-platform) | 3 | 5 |
+| [性能分析与Benchmark](#infra-profiling) | 8 | 6 |
 | [异构硬件、国产卡与端侧](#infra-hardware) | 6 | 4 |
-| [Agent Runtime与Harness](#eng-runtime) | 6 | 1 |
-| [上下文工程与长期记忆](#eng-memory) | 5 | 3 |
-| [Coding Agent与代码生成](#eng-code-agent) | 2 | 2 |
-| [评测工程与可观测性](#eng-evaluation) | 7 | 3 |
+| [Agent Runtime与Harness](#eng-runtime) | 23 | 1 |
+| [上下文工程与长期记忆](#eng-memory) | 7 | 3 |
+| [Coding Agent与代码生成](#eng-code-agent) | 7 | 2 |
+| [评测工程与可观测性](#eng-evaluation) | 20 | 3 |
 | [合成数据与数据闭环](#eng-data) | 3 | 1 |
-| [模型与Agent运行安全](#eng-safety) | 6 | 2 |
+| [模型与Agent运行安全](#eng-safety) | 10 | 2 |
 | [用户增长与营销](#app-growth-marketing) | 3 | 0 |
 | [客服、外呼与业务执行](#app-service) | 4 | 3 |
-| [实时语音与会议转写](#app-speech) | 4 | 2 |
-| [电商与商家Agent](#app-commerce) | 2 | 0 |
-| [智能问数、NL2SQL与BI](#app-bi) | 4 | 2 |
+| [实时语音与会议转写](#app-speech) | 5 | 2 |
+| [电商与商家Agent](#app-commerce) | 3 | 0 |
+| [智能问数、NL2SQL与BI](#app-bi) | 5 | 2 |
 | [办公助手与文档智能](#app-office) | 2 | 2 |
 | [内容生成、视频与数字人](#app-creative) | 2 | 0 |
 | [医疗模型与医疗Agent](#app-medical) | 2 | 0 |
@@ -33,7 +33,7 @@
 | [法律、合同与文档审查](#app-legal) | 1 | 0 |
 | [AI前端、全栈与交互](#app-frontend) | 2 | 0 |
 | [个性化助手与用户画像](#app-personalization) | 2 | 0 |
-| [风控、审核与反欺诈](#app-risk) | 3 | 0 |
+| [风控、审核与反欺诈](#app-risk) | 4 | 0 |
 | [具身智能与世界模型](#app-embodied) | 0 | 1 |
 
 ## LLM Infra
@@ -50,6 +50,7 @@
 - [INT219 · 2025春招实习面经汇总（已接阿里offer）](README.md#int219)（已读正文）
 - [INT502 · 阿里AI Infra 二面 面经](README.md#int502)（已读正文）
 - [INT511 · 暑期第二周面试情况](README.md#int511)（已读正文）
+- [INT548 · 快手 AI Platform 面经](README.md#int548)（已读正文）
 
 **参考资料：**
 
@@ -147,6 +148,11 @@ vLLM/SGLang、KV管理、批处理、PD分离、投机解码、吞吐和延迟�
 - [INT503 · 字节AI infra校招一面面经 1h](README.md#int503)（已读正文）
 - [INT504 · 字节data AI infra实习一面](README.md#int504)（已读正文）
 - [INT505 · AI Infra面经 攒人品版](README.md#int505)（已读正文）
+- [INT529 · 小红书 Agent 日常实习面经](README.md#int529)（已读正文）
+- [INT537 · 字节搜索大模型一面](README.md#int537)（已读正文）
+- [INT541 · MiniMax 大模型应用一面](README.md#int541)（已读正文）
+- [INT542 · 阿里云后端与 Agent 开发秋招二面](README.md#int542)（已读正文）
+- [INT553 · 腾讯 Agent 开发一面](README.md#int553)（已读正文）
 
 **参考资料：**
 
@@ -161,11 +167,13 @@ vLLM/SGLang、KV管理、批处理、PD分离、投机解码、吞吐和延迟�
 
 ### GPU调度与云原生平台
 
-GPU池化、隔离、弹性伸缩和Kubernetes训练推理任务。现有资料以教程为主。
+GPU 池化、集群可观测性、节点故障和 Kubernetes 训练推理任务。
 
 **面经：**
 
 - [INT306 · 10.26 科大讯飞 推理工程部 AI Infra 一面](README.md#int306)（已读正文）
+- [INT525 · MiniMax AI Infra 平台研发二面](README.md#int525)（已读正文）
+- [INT526 · MiniMax AI Infra 平台研发一面](README.md#int526)（已读正文）
 
 **参考资料：**
 
@@ -186,6 +194,10 @@ Roofline、时间线、Nsight、显存分析，以及固定负载下的优化对
 - [INT309 · 10月面试退展](README.md#int309)（已读正文）
 - [INT312 · pdd 提前批 AI Infra一面 凉经（一个月前）](README.md#int312)（已读正文）
 - [INT504 · 字节data AI infra实习一面](README.md#int504)（已读正文）
+- [INT525 · MiniMax AI Infra 平台研发二面](README.md#int525)（已读正文）
+- [INT526 · MiniMax AI Infra 平台研发一面](README.md#int526)（已读正文）
+- [INT535 · 光轮 Data Infra 二面](README.md#int535)（已读正文）
+- [INT548 · 快手 AI Platform 面经](README.md#int548)（已读正文）
 
 **参考资料：**
 
@@ -233,6 +245,23 @@ CUDA/HIP生态迁移、模型与算子适配、量化、设备内存和能耗。
 - [INT407 · 百度后端实习二面面经](README.md#int407)（已读正文）
 - [INT413 · 百度agent一面](README.md#int413)（已读正文）
 - [INT514 · 某教育agent开发面经](README.md#int514)（已读正文）
+- [INT521 · 科大讯飞秋招二面](README.md#int521)（已读正文）
+- [INT522 · 科大讯飞秋招一面](README.md#int522)（已读正文）
+- [INT524 · 泰康资产总部软件开发秋招面经](README.md#int524)（已读正文）
+- [INT527 · 绿盟科技 AI 研发工程师一、二面](README.md#int527)（已读正文）
+- [INT531 · 快手电商一面](README.md#int531)（已读正文）
+- [INT533 · 滴滴 AI 应用与 Java 后端秋招一面](README.md#int533)（已读正文）
+- [INT534 · 科大讯飞后端与 Agent 开发秋招一面](README.md#int534)（已读正文）
+- [INT536 · 科大讯飞 Agent 一面](README.md#int536)（已读正文）
+- [INT542 · 阿里云后端与 Agent 开发秋招二面](README.md#int542)（已读正文）
+- [INT544 · 同程全栈一面](README.md#int544)（已读正文）
+- [INT545 · 海康威视总部 Agent 开发实习一面](README.md#int545)（已读正文）
+- [INT546 · 字节后台开发秋招一面](README.md#int546)（已读正文）
+- [INT549 · 百度 AI Agent 开发工程师一面](README.md#int549)（已读正文）
+- [INT550 · 淘天 AI Agent 与大模型应用研发二面](README.md#int550)（已读正文）
+- [INT553 · 腾讯 Agent 开发一面](README.md#int553)（已读正文）
+- [INT554 · 字节跳动 AI Agent 开发工程师三面](README.md#int554)（已读正文）
+- [INT555 · 科大讯飞 Agent 秋招二面复盘](README.md#int555)（已读正文）
 
 **参考资料：**
 
@@ -250,6 +279,8 @@ CUDA/HIP生态迁移、模型与算子适配、量化、设备内存和能耗。
 - [INT408 · 字节跳动 后端 Agent 一面 面经](README.md#int408)（已读正文）
 - [INT511 · 暑期第二周面试情况](README.md#int511)（已读正文）
 - [INT512 · 抖音电商Agent全栈开发工程师一面](README.md#int512)（已读正文）
+- [INT540 · 米哈游 NPC Agent 一面](README.md#int540)（已读正文）
+- [INT555 · 科大讯飞 Agent 秋招二面复盘](README.md#int555)（已读正文）
 
 **参考资料：**
 
@@ -266,6 +297,11 @@ CUDA/HIP生态迁移、模型与算子适配、量化、设备内存和能耗。
 
 - [INT407 · 百度后端实习二面面经](README.md#int407)（已读正文）
 - [INT413 · 百度agent一面](README.md#int413)（已读正文）
+- [INT527 · 绿盟科技 AI 研发工程师一、二面](README.md#int527)（已读正文）
+- [INT531 · 快手电商一面](README.md#int531)（已读正文）
+- [INT532 · 滴滴 AI 应用与 Java 后端秋招二面](README.md#int532)（已读正文）
+- [INT543 · 美团业务后台秋招二面](README.md#int543)（已读正文）
+- [INT555 · 科大讯飞 Agent 秋招二面复盘](README.md#int555)（已读正文）
 
 **参考资料：**
 
@@ -286,6 +322,19 @@ CUDA/HIP生态迁移、模型与算子适配、量化、设备内存和能耗。
 - [INT410 · 得物三面 11.3](README.md#int410)（已读正文）
 - [INT411 · 科大讯飞后端 timeline&面经](README.md#int411)（已读正文）
 - [INT517 · 腾讯 260824 一面面经](README.md#int517)（已读正文）
+- [INT522 · 科大讯飞秋招一面](README.md#int522)（已读正文）
+- [INT523 · 快手大模型算法实习面经](README.md#int523)（已读正文）
+- [INT531 · 快手电商一面](README.md#int531)（已读正文）
+- [INT532 · 滴滴 AI 应用与 Java 后端秋招二面](README.md#int532)（已读正文）
+- [INT533 · 滴滴 AI 应用与 Java 后端秋招一面](README.md#int533)（已读正文）
+- [INT538 · 阶跃星辰 AI 评测算法一面](README.md#int538)（已读正文）
+- [INT539 · 阿里云 MaaS AI 评测工程师二面](README.md#int539)（已读正文）
+- [INT543 · 美团业务后台秋招二面](README.md#int543)（已读正文）
+- [INT547 · 京东零售商品审核 Agent 一、二面](README.md#int547)（已读正文）
+- [INT549 · 百度 AI Agent 开发工程师一面](README.md#int549)（已读正文）
+- [INT550 · 淘天 AI Agent 与大模型应用研发二面](README.md#int550)（已读正文）
+- [INT553 · 腾讯 Agent 开发一面](README.md#int553)（已读正文）
+- [INT554 · 字节跳动 AI Agent 开发工程师三面](README.md#int554)（已读正文）
 
 **参考资料：**
 
@@ -321,6 +370,10 @@ CUDA/HIP生态迁移、模型与算子适配、量化、设备内存和能耗。
 - [INT514 · 某教育agent开发面经](README.md#int514)（已读正文）
 - [INT517 · 腾讯 260824 一面面经](README.md#int517)（已读正文）
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（已读正文）
+- [INT521 · 科大讯飞秋招二面](README.md#int521)（已读正文）
+- [INT530 · 数字政通 Agent 研发二面](README.md#int530)（已读正文）
+- [INT536 · 科大讯飞 Agent 一面](README.md#int536)（已读正文）
+- [INT540 · 米哈游 NPC Agent 一面](README.md#int540)（已读正文）
 
 **参考资料：**
 
@@ -370,6 +423,7 @@ ASR、TTS、语音质量、弱网、转写隐私、流式打断和恢复。
 - [INT224 · 有赞面经](README.md#int224)（已读正文）
 - [INT513 · 豆包手机测开面经](README.md#int513)（已读正文）
 - [INT518 · 字节AI Agent开发秋招一面面经](README.md#int518)（已读正文）
+- [INT540 · 米哈游 NPC Agent 一面](README.md#int540)（已读正文）
 
 **参考资料：**
 
@@ -379,12 +433,13 @@ ASR、TTS、语音质量、弱网、转写隐私、流式打断和恢复。
 
 ### 电商与商家Agent
 
-电商岗位和商品场景。目前面经主要涉及知识库项目，导购与交易流程还待补充。
+电商 Agent、商品审核、知识库和交易流程。
 
 **面经：**
 
 - [INT109 · 拼多多多模态大模型算法工程师面试（编目标题）](README.md#int109)（已读正文）
 - [INT512 · 抖音电商Agent全栈开发工程师一面](README.md#int512)（已读正文）
+- [INT547 · 京东零售商品审核 Agent 一、二面](README.md#int547)（已读正文）
 <a id="app-bi"></a>
 
 ### 智能问数、NL2SQL与BI
@@ -397,6 +452,7 @@ ASR、TTS、语音质量、弱网、转写隐私、流式打断和恢复。
 - [INT508 · 小红书暑期实习 AI全栈开发 二面](README.md#int508)（已读正文）
 - [INT511 · 暑期第二周面试情况](README.md#int511)（已读正文）
 - [INT519 · 滴滴大模型算法岗一面面经](README.md#int519)（仅搜索摘要）
+- [INT535 · 光轮 Data Infra 二面](README.md#int535)（已读正文）
 
 **参考资料：**
 
@@ -487,6 +543,7 @@ Agent状态展示、递归组件、流式交互、端侧WebLLM和国际化。
 - [INT214 · 字节跳动风控算法一面](README.md#int214)（已读正文）
 - [INT215 · 字节风控算法面经](README.md#int215)（已读正文）
 - [INT517 · 腾讯 260824 一面面经](README.md#int517)（已读正文）
+- [INT547 · 京东零售商品审核 Agent 一、二面](README.md#int547)（已读正文）
 <a id="app-embodied"></a>
 
 ### 具身智能与世界模型

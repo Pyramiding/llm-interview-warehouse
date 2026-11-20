@@ -4,6 +4,7 @@ const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
 const icon = name => '<svg class="icon" aria-hidden="true"><use href="#i-' + name + '"></use></svg>';
 const VIEW_NAMES = {interviews: '面经', questions: '题解与练习', resources: '参考资料', jobs: '招聘岗位'};
+const VIEW_HEADINGS = {interviews: '面经原帖', questions: '专题题解与练习', resources: '参考资料', jobs: '大模型与算法岗位'};
 const VIEW_UNITS = {interviews: '篇', questions: '道', resources: '份', jobs: '个'};
 const VIEW_ICONS = {interviews: 'doc', questions: 'code', resources: 'layers', jobs: 'briefcase'};
 const COLLECTION_NAMES = {infra: 'LLM Infra', rag: 'RAG', agent: 'Agent', search: '搜广推', speech: '语音与客服'};
@@ -275,6 +276,11 @@ function syncControls() {
   const jobs = state.view === 'jobs';
   const question = state.view === 'questions';
   fillFilters();
+  if ($('#library-title')) {
+    $('#library-title').textContent = VIEW_HEADINGS[state.view];
+    $('#library').dataset.view = state.view;
+  }
+  $('#official-open-toggle')?.setAttribute('aria-pressed', String(officialOpenSelected()));
   for (const tab of $$('.library-tab')) {
     const active = tab.dataset.view === state.view;
     tab.setAttribute('aria-selected', String(active));
@@ -292,10 +298,10 @@ function syncControls() {
     chip.setAttribute('aria-pressed', String(active));
   }
   if ($('#search-input').value !== state.q) $('#search-input').value = state.q;
-  $('#search-input').placeholder = jobs ? '搜公司、岗位或技能，例如：后训练、CUDA' : question ? '搜题目或作答要点，例如：KV cache、DPO、RRF' : '搜公司、技术词或项目，例如：字节、RAG、CUDA';
+  $('#search-input').placeholder = jobs ? '搜公司、岗位或技能' : question ? '搜题目或作答要点' : '搜公司、技术词或项目';
   $('#sort-select').innerHTML = option('recent', jobs ? '最近核验' : question ? '专题顺序' : '最近收录') +
-    (jobs || question ? '' : option('published', '发布时间')) + option('title', jobs ? '岗位名称' : '标题顺序');
-  if ((jobs || question) && state.sort === 'published') state.sort = 'recent';
+    (question ? '' : option('published', '发布时间')) + option('title', jobs ? '岗位名称' : '标题顺序');
+  if (question && state.sort === 'published') state.sort = 'recent';
   $('#sort-select').value = state.sort;
   $('#saved-toggle').setAttribute('aria-pressed', String(state.saved));
   $('#saved-toggle').setAttribute('aria-label', '只看我的收藏，共' + saved.size + '项');
@@ -313,6 +319,10 @@ function syncControls() {
   $('#active-filters').innerHTML = active.map(key => '<button class="filter-tag" data-remove="' + key + '" aria-label="移除条件：' + esc(filterLabel(key, state[key])) + '">' + esc(filterLabel(key, state[key])) + icon('close') + '</button>').join('');
   $('#mobile-filter-count').textContent = active.length ? '· ' + active.length : '';
   $('#results').setAttribute('aria-labelledby', 'tab-' + state.view);
+}
+
+function officialOpenSelected() {
+  return state.job_status === 'apply_link' && state.platform === '招聘官网';
 }
 
 function externalLink(url, label, className = '') {
@@ -347,6 +357,9 @@ function bookmarkButton(record) {
 function jobCard(record) {
   const tags = [record.direction_label, ...record.skills.slice(0, 2)];
   const sourceLabel = record.verification === 'reprint' ? '查看转载' : '招聘原页';
+  const facts = [record.job_type, record.cities.join(' / ') || '地点待确认'];
+  if (record.updated) facts.push(record.updated + ' 更新');
+  else if (record.published) facts.push(record.published + (record.verification === 'reprint' ? ' 转载' : ' 发布'));
   return `<article class="record-card job-card" data-tone="${cardTone(record)}" data-record="${esc(record.id)}">
     <div class="record-eyebrow">
       <span class="record-company">${esc(record.company)}</span>
@@ -355,13 +368,13 @@ function jobCard(record) {
       ${bookmarkButton(record)}
     </div>
     <h3><button class="record-title" data-open="${esc(record.id)}">${esc(record.title)}</button></h3>
-    <p class="job-facts">${esc([record.job_type, record.cities.join(' / ') || '地点待确认'].join(' · '))}</p>
+    <p class="job-facts">${esc(facts.join(' · '))}</p>
     <p class="record-excerpt">${esc(record.summary)}</p>
     <div class="record-bottom">
       <div class="record-tags">${tags.map(tag => '<span class="record-tag">' + esc(tag) + '</span>').join('')}</div>
       <div class="record-actions">
         ${externalLink(record.url, sourceLabel, 'read-source')}
-        <button class="read-detail" data-open="${esc(record.id)}">查看 JD${icon('chevron')}</button>
+        <button class="read-detail" data-open="${esc(record.id)}">岗位详情${icon('chevron')}</button>
       </div>
     </div>
   </article>`;
@@ -446,11 +459,12 @@ function section(title, content, extraClass = '') {
 function jobDetails(record) {
   const list = (items = []) => items.length
     ? '<ul>' + items.map(item => '<li>' + esc(item) + '</li>').join('') + '</ul>' : '';
-  const dateLabel = record.verification === 'reprint' ? '转载日期' : '原页日期';
+  const dateLabel = record.verification === 'reprint' ? '转载日期' : '发布日期';
   let content = '<dl class="detail-metadata">' + [
     ['公司 / 机构', record.company], ['团队 / 业务', record.team], ['工作地点', record.cities.length ? record.cities : '待确认'],
     ['招聘类型', record.job_type], ['岗位方向', record.direction_label], ['来源', record.platform + ' · ' + record.access_label],
     ['投递状态', record.status_label], ['核验日期', record.accessed], [dateLabel, record.published],
+    ['官网更新', record.updated],
     ['投递截止', record.deadline],
   ].map(([label, value]) => metadataRow(label, value)).join('') + '</dl>';
   content += section('主要职责', list(record.responsibilities));
@@ -528,8 +542,19 @@ function reset() { navigate({...DEFAULT_STATE, view: state.view}); }
 // A cached older HTML document can still use the core browser with newer assets.
 function bindExperienceEvents() {
   if (!$('#command-dialog') || !$('#explore') || !$('#company-quick')) return;
-  $('#start-browsing').addEventListener('click', () => { $('#library').scrollIntoView({block: 'start'}); $('#search-input').focus({preventScroll: true}); });
-  $('#nav-companies').addEventListener('click', () => { setQuickMode('companies'); $('#library').scrollIntoView({block: 'start'}); $('#company-quick button')?.focus({preventScroll: true}); });
+  $('#start-browsing').addEventListener('click', event => {
+    if (!catalog || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    navigate({...DEFAULT_STATE, view: 'interviews'});
+    $('#library').scrollIntoView({block: 'start'});
+    $('#search-input').focus({preventScroll: true});
+  });
+  $('#nav-companies').addEventListener('click', () => {
+    if (state.view !== 'interviews') navigate({...DEFAULT_STATE, view: 'interviews'});
+    setQuickMode('companies');
+    $('#library').scrollIntoView({block: 'start'});
+    $('#company-quick button')?.focus({preventScroll: true});
+  });
   $('#quick-directions').addEventListener('click', () => setQuickMode('directions'));
   $('#quick-companies').addEventListener('click', () => setQuickMode('companies'));
   $('#company-quick').addEventListener('click', event => { const chip = event.target.closest('[data-company]'); if (chip) navigate({...DEFAULT_STATE, view: 'interviews', company: chip.dataset.company}, {scroll: true}); });
@@ -569,6 +594,10 @@ function bindExperienceEvents() {
 
 function bindEvents() {
   bindExperienceEvents();
+  $('#official-open-toggle')?.addEventListener('click', () => {
+    const selected = officialOpenSelected();
+    navigate({job_status: selected ? '' : 'apply_link', platform: selected ? '' : '招聘官网'});
+  });
   for (const link of $$('.jobs-entry')) link.addEventListener('click', event => {
     if (!catalog || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();

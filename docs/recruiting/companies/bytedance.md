@@ -1,8 +1,8 @@
 # 字节跳动 · 大模型与算法岗
 
-[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://jobs.bytedance.com/campus/position?type=2) · [企业社招](https://jobs.bytedance.com/experienced/position)
+[返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页实习](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82&job_type=%E5%AE%9E%E4%B9%A0&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://jobs.bytedance.com/campus/position?type=2) · [企业社招](https://jobs.bytedance.com/experienced/position)
 
-共 215 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 227 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
 ## 校招（112）
 
@@ -37,9 +37,11 @@ LLM Infra 与推理 · 校招 · 杭州、北京、上海 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7670458147907209525/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB078)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
 
 团队 / 业务为 火山方舟。
+
+原页日期 2026-08-05
 
 **主要职责**
 
@@ -61,9 +63,11 @@ LLM Infra 与推理 · 校招 · 杭州、北京、上海 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7669717661270608181/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB079)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
 
 团队 / 业务为 火山方舟。
+
+原页日期 2026-08-03
 
 **主要职责**
 
@@ -85,9 +89,11 @@ LLM Infra 与推理 · 校招 · 杭州、北京、上海 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7669705537843382581/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB080)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
 
 团队 / 业务为 火山方舟。
+
+原页日期 2026-08-03
 
 **主要职责**
 
@@ -109,7 +115,9 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622896106985015605/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB081)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-30
 
 **主要职责**
 
@@ -130,9 +138,11 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7670743700485949749/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB082)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
 
 团队 / 业务为 内容质量与数据服务平台。
+
+原页日期 2026-08-06
 
 **主要职责**
 
@@ -154,9 +164,11 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622244680471529733/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB083)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
 
 团队 / 业务为 Seed大模型人才校招。
+
+原页日期 2026-03-28
 
 **主要职责**
 
@@ -177,7 +189,9 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622245198294436149/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB084)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-28
 
 **主要职责**
 
@@ -198,7 +212,9 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622244847551203589/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB085)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-28
 
 **主要职责**
 
@@ -240,7 +256,9 @@ LLM Infra 与推理 · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622996256818071861/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB087)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-30
 
 **主要职责**
 
@@ -261,7 +279,9 @@ Agent 与 RAG · 校招 · 上海 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622488785499277621/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB088)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-29
 
 **主要职责**
 
@@ -282,7 +302,9 @@ LLM Infra 与推理 · 校招 · 杭州 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622926879775770933/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB089)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-30
 
 **主要职责**
 
@@ -303,7 +325,9 @@ LLM Infra 与推理 · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622926628482959669/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB090)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-30
 
 **主要职责**
 
@@ -324,7 +348,9 @@ LLM Infra 与推理 · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622204674259912965/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB091)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-28
 
 **主要职责**
 
@@ -345,7 +371,9 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622485584813279541/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB092)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-29
 
 **主要职责**
 
@@ -366,9 +394,11 @@ LLM Infra 与推理 · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7678972772802185525/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB093)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
 
 团队 / 业务为 Seed大模型人才校招。
+
+原页日期 2026-08-28
 
 **主要职责**
 
@@ -389,7 +419,9 @@ LLM Infra 与推理 · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622996922623297797/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB094)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-30
 
 **主要职责**
 
@@ -410,7 +442,9 @@ LLM Infra 与推理 · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622995745822542133/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB095)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-30
 
 **主要职责**
 
@@ -431,7 +465,9 @@ Agent 与 RAG · 校招 · 上海 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622493697615841541/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB096)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-29
 
 **主要职责**
 
@@ -452,7 +488,9 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622493697326582069/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB097)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-29
 
 **主要职责**
 
@@ -473,7 +511,9 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622996923042072885/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB098)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-30
 
 **主要职责**
 
@@ -494,7 +534,9 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622204336257534261/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB099)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-28
 
 **主要职责**
 
@@ -515,7 +557,9 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622204931247966517/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB100)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-28
 
 **主要职责**
 
@@ -536,9 +580,11 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7685665306794969397/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB101)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
 
 团队 / 业务为 Seed大模型人才校招。
+
+原页日期 2026-09-15
 
 **主要职责**
 
@@ -559,9 +605,11 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622246931633768757/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB102)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
 
 团队 / 业务为 Seed大模型人才校招。
+
+原页日期 2026-03-28
 
 **主要职责**
 
@@ -582,7 +630,9 @@ Agent 与 RAG · 校招 · 北京 · 有投递入口
 
 [在原平台查看](https://jobs.bytedance.com/campus/position/7622246696441399605/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB103)
 
-招聘官网 · 已读公开 JD · 核验于 2026-11-17。已核对官网职责与要求，职位页显示投递入口。
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+原页日期 2026-03-28
 
 **主要职责**
 
@@ -2201,7 +2251,7 @@ Agent 与 RAG · 校招 · 北京 · 投递待确认
 
 涉及技术关键词为 生成式推荐、召回、排序建模、推荐排序、内容理解、推荐系统、强化学习。
 
-## 社招（102）
+## 社招（110）
 
 <a id="job012"></a>
 
@@ -4123,7 +4173,210 @@ Agent 与 RAG · 社招 · 上海 · 投递待确认
 
 涉及技术关键词为 内容审核、知识库、评测体系。
 
-## 实习（1）
+<a id="job1306"></a>
+
+### JOB1306 · 字节跳动 · Agent平台工程架构师 - TikTok研发
+
+Agent 与 RAG · 社招 · 上海、北京 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/experienced/position/7709710983439305013/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1306)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 TikTok研发。
+
+原页日期 2026-11-19
+
+**主要职责**
+
+- 建设 TikTok 内部运营 Agent 平台的后端，优化运行成本、容量和稳定性。
+- 处理跨数据中心部署与一致性。
+
+**任职要求**
+
+- 本科及以上，熟悉分布式服务设计与数据库、缓存、消息队列，能使用至少一门服务端语言。
+
+涉及技术关键词为 Agent、平台、多地域、可用性、分布式系统。
+
+<a id="job1314"></a>
+
+### JOB1314 · 字节跳动 · AI Agent for Kernel Codegen工程师 - 芯片研发
+
+LLM Infra 与推理 · 社招 · 北京、上海、深圳、杭州、西安 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/experienced/position/7709507550920902917/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1314)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 芯片研发。
+
+原页日期 2026-11-18
+
+**主要职责**
+
+- 为自研 AI 芯片做算子代码生成 Agent，连接代码生成、编译、数值验证与性能调优。
+- 搭建真机评测、性能归因和可重复回归流程。
+
+**任职要求**
+
+- 至少一年 AI 编译器、算子或程序合成研发经验。
+- 熟悉 C/C++、Python、异构编程和算子到设备代码的链路。
+
+涉及技术关键词为 Kernel、Codegen、LLVM/MLIR、Triton、自动调优。
+
+<a id="job1319"></a>
+
+### JOB1319 · 字节跳动 · 视频模型应用算法专家 - 抖音
+
+多模态与生成 · 社招 · 杭州、北京、上海、深圳 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/experienced/position/7709080257765263669/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1319)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 抖音。
+
+原页日期 2026-11-17
+
+**主要职责**
+
+- 以画质、动作与跨帧一致性改进抖音视频生成模型。
+- 研发适用于图像和视频的强化学习后训练与多模态奖励模型。
+
+**任职要求**
+
+- 有视觉或多模态相关研究实践，熟悉生成模型后训练、数据、评测或奖励建模中的至少一个方向。
+
+涉及技术关键词为 DiT、视频生成、GRPO、奖励模型。
+
+<a id="job1320"></a>
+
+### JOB1320 · 字节跳动 · 数字人算法专家 - 抖音
+
+多模态与生成 · 社招 · 杭州、北京、上海、深圳 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/experienced/position/7709081062497519877/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1320)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 抖音。
+
+原页日期 2026-11-17
+
+**主要职责**
+
+- 研究多模态驱动的实时数字人视频，降低互动延迟并改善人物表现。
+- 推动创作与互动场景的产品部署。
+
+**任职要求**
+
+- 两年以上视觉或多模态生成经验。具有数字人、口型动作、推理加速等项目经历者优先。
+
+涉及技术关键词为 数字人、视频生成、口型、实时交互。
+
+<a id="job1321"></a>
+
+### JOB1321 · 字节跳动 · 推荐排序/大模型后训练算法专家 - 豆包输入法
+
+推荐算法 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/experienced/position/7709106065287252277/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1321)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 豆包输入法。
+
+原页日期 2026-11-17
+
+**主要职责**
+
+- 优化豆包输入法的多路召回与排序，把键盘候选和语音识别候选纳入联合模型。
+- 探索大模型后训练如何改善纠错、联想及输入效率。
+
+**任职要求**
+
+- 本科及以上，三年以上机器学习研发，具备搜广推建模或大模型后训练项目经验。
+
+涉及技术关键词为 推荐排序、语音、N-best、蒸馏、SFT。
+
+<a id="job1323"></a>
+
+### JOB1323 · 字节跳动 · 图片生成算法专家 - 抖音
+
+多模态与生成 · 社招 · 杭州、北京、深圳、上海 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/experienced/position/7709010268084586805/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1323)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 抖音。
+
+原页日期 2026-11-17
+
+**主要职责**
+
+- 面向抖音人像与编辑场景训练生图模型，建立自动评测与奖励建模流程。
+- 把用户采纳和内容消费行为整理为可用的偏好信号。
+
+**任职要求**
+
+- 相关专业硕士及以上，掌握扩散模型，有微调、偏好建模、RL 或蒸馏的实战经验。
+- 熟悉 Python、PyTorch 与 GPU 集群训练。
+
+涉及技术关键词为 扩散模型、生图、后训练、奖励模型、蒸馏。
+
+<a id="job1324"></a>
+
+### JOB1324 · 字节跳动 · Agent算法专家 - 抖音
+
+Agent 与 RAG · 社招 · 杭州、北京、深圳、上海 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/experienced/position/7709011236084812085/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1324)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 抖音。
+
+原页日期 2026-11-17
+
+**主要职责**
+
+- 研发抖音创作 Agent 的意图理解、多模态上下文与长程任务执行。
+- 利用用户反馈做指令微调与强化学习，关注成功率、时延和推理成本。
+
+**任职要求**
+
+- 相关专业硕士及以上，熟悉视觉语言模型，有模型后训练或偏好建模经验。
+- 熟悉 PyTorch 和集群训练调优。
+
+涉及技术关键词为 创作、Agent、视觉语言模型、工具编排、偏好学习。
+
+<a id="job1325"></a>
+
+### JOB1325 · 字节跳动 · 3D内容生成算法专家 - 抖音
+
+多模态与生成 · 社招 · 杭州、北京、上海 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/experienced/position/7709080252513618229/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1325)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 抖音。
+
+原页日期 2026-11-17
+
+**主要职责**
+
+- 研究文字及图像驱动的三维生成，覆盖几何、纹理与材质。
+- 探索三维生成技术在抖音创作功能里的使用。
+
+**任职要求**
+
+- 硕士及以上，对三维视觉、重建或生成有研究积累，具备图形学与深度学习基础。
+
+涉及技术关键词为 3D、生成、三维重建、纹理、材质。
+
+## 实习（5）
 
 <a id="job013"></a>
 
@@ -4152,3 +4405,100 @@ Agent 与 RAG · 社招 · 上海 · 投递待确认
 - 分布式训练、混合精度、TensorRT 或大模型服务优化经验。
 
 涉及技术关键词为 知识图谱、商品表征、跨语种匹配、RAG。
+
+<a id="job1313"></a>
+
+### JOB1313 · 字节跳动 · 语音大模型数据实习生（对话评测方向） - AI数据与安全
+
+语音与实时交互 · 实习 · 北京 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/campus/position/7709405717568735541/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1313)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 AI数据与安全。
+
+原页日期 2026-11-18
+
+**主要职责**
+
+- 设计语音对话模型的评测标准和题集，抽样分析用户体验，探索自动化打分。
+
+**任职要求**
+
+- 本科及以上在读，具备一定的提示工程或代码能力，对语音和数据分析感兴趣。
+
+涉及技术关键词为 语音大模型、对话评测、数据集、PE。
+
+<a id="job1322"></a>
+
+### JOB1322 · 字节跳动 · 多模态大模型算法实习生（内容创作） - TikTok算法
+
+多模态与生成 · 实习 · 北京、上海 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/campus/position/7709102944117754165/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1322)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 TikTok算法。
+
+原页日期 2026-11-17
+
+**主要职责**
+
+- 研发短视频创作相关的 NLP 和多模态能力，参与从实验到线上服务的部署。
+
+**任职要求**
+
+- 本科及以上在读，具备 NLP 基础并熟悉 Linux 及 PyTorch、TensorFlow 这类框架。
+
+涉及技术关键词为 内容创作、NLP、多模态、TikTok。
+
+<a id="job1327"></a>
+
+### JOB1327 · 字节跳动 · 多模态大模型训练推理优化实习生 - Data-抖音/直播/电商/剪映
+
+LLM Infra 与推理 · 实习 · 深圳、北京、上海、杭州 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/campus/position/7708595816134363445/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1327)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 Data-抖音/直播/电商/剪映。
+
+原页日期 2026-11-16
+
+**主要职责**
+
+- 参与多模态模型部署、训练和推理加速，做低比特推理、算子调优或异构设备适配。
+
+**任职要求**
+
+- 本科及以上在读，有后端或算法工程化基础，熟悉 Python、Go 或 C/C++。
+
+涉及技术关键词为 多模态推理、量化、蒸馏、算子优化。
+
+<a id="job1328"></a>
+
+### JOB1328 · 字节跳动 · 多模态大模型后端开发实习生 - Data-抖音/直播/电商/剪映
+
+LLM Infra 与推理 · 实习 · 深圳、北京、上海、杭州 · 有投递入口
+
+[在原平台查看](https://jobs.bytedance.com/campus/position/7708593744442886453/detail) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1328)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已读官网职位详情。招聘渠道状态显示岗位在线，官网保留投递入口。
+
+团队 / 业务为 Data-抖音/直播/电商/剪映。
+
+原页日期 2026-11-16
+
+**主要职责**
+
+- 集成多模态推理引擎，开发模型接入、故障治理与智能运维能力。
+- 支持现场问题定位和模型服务交付。
+
+**任职要求**
+
+- 本科及以上在读，熟悉服务端技术与至少一门编程语言，有 AI 工程化经验。
+
+涉及技术关键词为 vLLM、SGLang、ComfyUI、模型接入。

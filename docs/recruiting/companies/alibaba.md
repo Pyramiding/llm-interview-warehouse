@@ -2,7 +2,7 @@
 
 [返回招聘索引](../README.md) · [网页校招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&job_type=%E6%A0%A1%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [网页社招](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C&job_type=%E7%A4%BE%E6%8B%9B&platform=%E6%8B%9B%E8%81%98%E5%AE%98%E7%BD%91#library) · [企业校招](https://campus-talent.alibaba.com/campus/position) · [企业社招](https://talent-holding.alibaba.com/off-campus/position-list)
 
-共 148 条岗位与 JD。投递前可在条目的招聘原页确认状态。
+共 159 条岗位与 JD。投递前可在条目的招聘原页确认状态。
 
 ## 校招（77）
 
@@ -1835,7 +1835,7 @@ Agent 与 RAG · 校招 · 杭州 · 投递待确认
 
 涉及技术关键词为 PPO、模型对齐、工具调用、世界模型、继续预训练、多智能体、Agent。
 
-## 社招（71）
+## 社招（82）
 
 <a id="job076"></a>
 
@@ -3445,3 +3445,275 @@ Agent 与 RAG · 社招 · 杭州 · 有投递入口
 - 任职要求涉及时序建模、强化学习、SFT、风险识别、反欺诈、深度学习。
 
 涉及技术关键词为 风险识别、多模态、时序建模、强化学习、SFT、反欺诈、深度学习。
+
+<a id="job1296"></a>
+
+### JOB1296 · 阿里巴巴 · AI推理平台-百炼技术专家 / 高级开发工程师（企业 Agent 平台架构方向）-杭州/北京
+
+Agent 与 RAG · 社招 · 北京、杭州 · 有投递入口
+
+[在原平台查看](https://talent-holding.alibaba.com/off-campus/position-detail?positionId=100058000002) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1296)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 阿里集团。
+
+官网更新 2026-11-20
+
+**主要职责**
+
+- 建设百炼企业 Agent 接入架构，统一企业登录、权限、配额和预算。
+- 提供不同 Agent 的任务质效、耗时及成本观测。
+
+**任职要求**
+
+- 扎实的 Java 和分布式后端经历，有领域建模、平台上线及 Agent 工程经验。
+
+涉及技术关键词为 百炼、企业、Agent、多租户、评测、计量。
+
+<a id="job1297"></a>
+
+### JOB1297 · 阿里巴巴 · 高德-增长算法专家-信息业务中心
+
+用户增长与营销 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://talent.amap.com/off-campus/position-detail?positionId=100058000003) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1297)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 高德。
+
+官网更新 2026-11-19
+
+**主要职责**
+
+- 建设供需分析、商家生命周期与流失归因模型，提升商机分发效率。
+- 评估推荐、匹配和运维动作带来的增量。
+
+**任职要求**
+
+- 掌握因果推断、运筹、强化学习或时序预测，有增长模型及跨团队落地经验。
+
+涉及技术关键词为 LTV、因果推断、商家增长、商机分发。
+
+<a id="job1298"></a>
+
+### JOB1298 · 阿里巴巴 · 阿里控股-大模型部署架构与调度技术专家-杭州
+
+LLM Infra 与推理 · 社招 · 杭州 · 有投递入口
+
+[在原平台查看](https://talent-holding.alibaba.com/off-campus/position-detail?positionId=100057840006) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1298)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 阿里集团。
+
+官网更新 2026-11-19
+
+**主要职责**
+
+- 负责异构大模型推理的部署拓扑和请求调度，按缓存、实例负载和服务目标做路由。
+- 优化弹性容量、背压和多租户隔离。
+
+**任职要求**
+
+- 熟悉 Linux、Kubernetes 和分布式系统，理解动态批处理、KV Cache 及推理引擎。
+
+涉及技术关键词为 PD、分离、流量治理、多租户、KV、Cache。
+
+<a id="job1299"></a>
+
+### JOB1299 · 阿里巴巴 · 千问事业部-多模态大模型训练与应用算法工程师-北京/杭州
+
+多模态与生成 · 社招 · 北京、杭州 · 有投递入口
+
+[在原平台查看](https://talent.quark.cn/off-campus/position-detail?positionId=100058020002) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1299)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 千问事业部。
+
+官网更新 2026-11-19
+
+**主要职责**
+
+- 研究文本、图像、语音和视频的融合与时序对齐，改善跨模态推理和实时交互。
+- 结合数据闭环做后训练与 Agent 执行优化。
+
+**任职要求**
+
+- 硕士及以上，熟悉 Python、PyTorch 和主流训模框架，在多模态、后训练或 Agent 实践中有积累。
+
+涉及技术关键词为 多模态对齐、流式感知、奖励建模。
+
+<a id="job1300"></a>
+
+### JOB1300 · 阿里巴巴 · 千问事业部-多模态大模型与 Agent 算法专家-北京/杭州
+
+Agent 与 RAG · 社招 · 北京、杭州 · 有投递入口
+
+[在原平台查看](https://talent.quark.cn/off-campus/position-detail?positionId=100057760003) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1300)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 千问事业部。
+
+官网更新 2026-11-19
+
+**主要职责**
+
+- 建设千问及智能硬件场景的多模态 Agent，改进音视频交互、搜索与长程执行。
+- 用真实轨迹和过程评测发现训练、检索和部署瓶颈。
+
+**任职要求**
+
+- 硕士及以上，在多模态或 Agent 有研发落地经验，能独立完成数据、训练及验证。
+
+涉及技术关键词为 多模态、Agent、真实任务轨迹、Agentic、Search。
+
+<a id="job1301"></a>
+
+### JOB1301 · 阿里巴巴 · 千问事业部-AI Agent算法专家（消费决策方向）-杭州/北京
+
+Agent 与 RAG · 社招 · 北京、杭州 · 有投递入口
+
+[在原平台查看](https://talent.quark.cn/off-campus/position-detail?positionId=100057540001) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1301)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 千问事业部。
+
+官网更新 2026-11-19
+
+**主要职责**
+
+- 开发千问的购物决策 Agent，把商品理解、搜索和工具执行串到消费建议流程。
+- 负责数据、训练与线上任务成功率的持续迭代。
+
+**任职要求**
+
+- 硕士可考虑，博士优先，三年以上 NLP 或大模型研发经历，熟悉 Agent 规划、工具学习或 RL。
+
+涉及技术关键词为 消费决策、购物、Agent、商品理解、工具学习。
+
+<a id="job1307"></a>
+
+### JOB1307 · 阿里巴巴 · 智能算法产品事业部-广告大模型算法工程师（搜索召回&粗排）-北京
+
+广告算法 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://talent.taotian.com/off-campus/position-detail?positionId=100057400002) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1307)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 淘天集团。
+
+官网更新 2026-11-18
+
+**主要职责**
+
+- 改进淘宝搜索广告的召回和粗排，研究基于大模型的商品表征、用户兴趣与冷启动。
+
+**任职要求**
+
+- 具备推荐、搜索或广告模型的实践，掌握 Python、C/C++、Java 中至少一种。
+
+涉及技术关键词为 搜索广告、召回、粗排、冷启动。
+
+<a id="job1316"></a>
+
+### JOB1316 · 阿里巴巴 · 高德-推荐算法工程师-信息业务中心
+
+推荐算法 · 社招 · 北京 · 有投递入口
+
+[在原平台查看](https://talent.amap.com/off-campus/position-detail?positionId=100057180002) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1316)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 高德。
+
+官网更新 2026-11-17
+
+**主要职责**
+
+- 建设本地生活推荐链路，把位置、时间、出行意图及供给纳入多场景排序。
+- 通过在线对照试验验证长尾分发和转化。
+
+**任职要求**
+
+- 本科及以上，熟悉搜推算法至少一个环节，有向量召回、序列建模或多目标经验。
+
+涉及技术关键词为 本地生活、推荐排序、多目标、A/B、实验。
+
+<a id="job1317"></a>
+
+### JOB1317 · 阿里巴巴 · 集团安全部-网络安全-应用算法
+
+Agent 与 RAG · 社招 · 北京、杭州 · 有投递入口
+
+[在原平台查看](https://talent-holding.alibaba.com/off-campus/position-detail?positionId=100056960001) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1317)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 阿里集团。
+
+官网更新 2026-11-17
+
+**主要职责**
+
+- 构建面向数据和应用安全的领域模型及安全助理，完善知识检索、工具调用和评测。
+
+**任职要求**
+
+- 硕士及以上，有深度学习和大模型基础，做过模型后训练、RAG 或安全项目者优先。
+
+涉及技术关键词为 安全、Agent、知识库、大模型、后训练。
+
+<a id="job1318"></a>
+
+### JOB1318 · 阿里巴巴 · 阿里云智能-大模型前沿部署工程师（工业场景）-政企事业部（杭州/广州）
+
+Agent 与 RAG · 社招 · 杭州、广州 · 有投递入口
+
+[在原平台查看](https://careers.aliyun.com/off-campus/position-detail?positionId=100056720004) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1318)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 阿里云。
+
+原页日期 2026-11-17 · 官网更新 2026-11-17
+
+**主要职责**
+
+- 面向制造、能源等场景设计大模型方案，参与工业知识库、时序感知和轻量部署。
+- 对接工业软件及设备，按现场实时性与稳定性要求验收。
+
+**任职要求**
+
+- 熟练使用 Python 或 Java，熟悉 RAG、MCP、工作流与场景部署，有行业项目或云平台经验者优先。
+
+涉及技术关键词为 工业、Agent、边缘部署、RAG、MCP。
+
+<a id="job1329"></a>
+
+### JOB1329 · 阿里巴巴 · 业务技术-语音算法专家-直播
+
+语音与实时交互 · 社招 · 北京、杭州 · 有投递入口
+
+[在原平台查看](https://talent.taotian.com/off-campus/position-detail?positionId=100056120005) · [网页 JD](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&record=JOB1329)
+
+招聘官网 · 已读公开 JD · 核验于 2026-11-20。已在招聘官网读到职责和要求，职位页显示投递入口。
+
+团队 / 业务为 淘天集团。
+
+官网更新 2026-11-13
+
+**主要职责**
+
+- 研发电商直播数字人的可控 TTS 与全双工交互，完善打断、回声处理和低延迟语音生成。
+
+**任职要求**
+
+- 硕士或博士，熟悉语音识别、合成或对话系统，熟练使用 Python 与 C++。
+
+涉及技术关键词为 TTS、全双工、VAD、语音大模型。
