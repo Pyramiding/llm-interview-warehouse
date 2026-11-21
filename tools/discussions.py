@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 import re
 from datetime import date
-from urllib.parse import urlsplit
+from urllib.parse import urlencode, urlsplit
 
 from recruiting import ROOT, SITE_URL, is_https
 
@@ -23,7 +23,7 @@ PLATFORM_HOSTS = {
     '公司官网': ('anthropic.com', 'microsoft.com'),
     'Engadget': ('engadget.com',),
     'TechCrunch': ('techcrunch.com',),
-    '小红书': ('xiaohongshu.com', 'xhslink.com'),
+    '小红书': ('xiaohongshu.com', 'xhslink.com', 'xhslink.cn'),
     '牛客网': ('nowcoder.com',),
     '微信公众号': ('mp.weixin.qq.com',),
     'X': ('x.com', 'twitter.com'),
@@ -77,6 +77,14 @@ def build_discussion_index():
     by_category = {key: [row for row in rows if row['category'] == key] for key in data['categories']}
     lines.extend([' · '.join(f'[{label}（{len(by_category[key])}）](#discussions-{key})'
                              for key, label in data['categories'].items() if by_category[key]), ''])
+    channel_links = []
+    for platform in ('脉脉', '小红书'):
+        count = sum(row['platform'] == platform for row in rows)
+        if count:
+            query = urlencode({'view': 'discussions', 'platform': platform})
+            channel_links.append(f'[{platform}（{count}）]({SITE_URL}?{query}#library)')
+    if channel_links:
+        lines.extend(['在网页按来源浏览 ' + ' · '.join(channel_links), ''])
     for category, label in data['categories'].items():
         selected = by_category[category]
         if not selected:
