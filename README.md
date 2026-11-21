@@ -26,6 +26,8 @@
 
 逛逛算法和大模型圈的公开讨论，看看模型实测、Agent 踩坑、LLM Infra 和求职动态。可按话题和平台筛选，回原帖看评论。[打开网页版](https://pyramiding.github.io/llm-interview-warehouse/?view=discussions#library) · [话题索引](docs/discussions.md)
 
+大厂日报、脉脉讨论和公司回应可以在「大厂动态」里一起看。[逛大厂动态](https://pyramiding.github.io/llm-interview-warehouse/?view=discussions&discussion_category=bigtech#library)
+
 ## 找面经
 
 | 查找方式 | 内容 |

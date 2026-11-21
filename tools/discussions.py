@@ -10,6 +10,10 @@ from recruiting import ROOT, SITE_URL, is_https
 
 PLATFORM_HOSTS = {
     '脉脉': ('maimai.cn',),
+    '大厂观察': ('innews.site',),
+    '凤凰网科技': ('ifeng.com',),
+    '澎湃新闻': ('thepaper.cn',),
+    'IT之家': ('ithome.com',),
     '小红书': ('xiaohongshu.com', 'xhslink.com'),
     '牛客网': ('nowcoder.com',),
     '微信公众号': ('mp.weixin.qq.com',),
@@ -53,7 +57,8 @@ def build_discussion_index():
     rows = sorted(data['discussions'], key=lambda row: (row['published'] or '', row['id']), reverse=True)
     lines = [
         '# 算法圈话题', '', f'[打开网页话题区]({SITE_URL}?view=discussions#library) · [返回仓库首页](../README.md)', '',
-        '收录算法和大模型相关的公开观点、实测与职场讨论。标题为整理稿，正文和评论见原帖。',
+        '收录算法和大模型相关的大厂动态、职场讨论、公开观点与实测。标题为整理稿，正文和评论见原帖。',
+        '大厂动态收录日报、人事报道和社区观点。有对应的公司回应、公告或报道时，附在条目下方。',
         '日期为原帖发布时间。部分页面需登录或在 App 里继续阅读，已知限制见各条备注。', '',
         f'共 {len(rows)} 条，按话题分组，组内按发帖日期倒序。', '',
     ]
