@@ -14,12 +14,24 @@ PLATFORM_HOSTS = {
     '凤凰网科技': ('ifeng.com',),
     '澎湃新闻': ('thepaper.cn',),
     'IT之家': ('ithome.com',),
+    '36氪': ('36kr.com',),
+    '新浪财经': ('sina.com.cn',),
+    '雷峰网': ('leiphone.com',),
+    '第一财经': ('yicai.com',),
+    '美团技术团队': ('tech.meituan.com',),
+    '路透社': ('reuters.com',),
+    '公司官网': ('anthropic.com', 'microsoft.com'),
+    'Engadget': ('engadget.com',),
+    'TechCrunch': ('techcrunch.com',),
     '小红书': ('xiaohongshu.com', 'xhslink.com'),
     '牛客网': ('nowcoder.com',),
     '微信公众号': ('mp.weixin.qq.com',),
     'X': ('x.com', 'twitter.com'),
     'V2EX': ('v2ex.com',),
     'Hacker News': ('news.ycombinator.com',),
+    'LINUX DO': ('linux.do',),
+    'Reddit': ('reddit.com',),
+    'GitHub': ('github.com',),
 }
 VERIFICATION_LABELS = {'opened': '已读原帖', 'excerpt': '已读公开摘录'}
 
@@ -62,11 +74,14 @@ def build_discussion_index():
         '日期为原帖发布时间。部分页面需登录或在 App 里继续阅读，已知限制见各条备注。', '',
         f'共 {len(rows)} 条，按话题分组，组内按发帖日期倒序。', '',
     ]
+    by_category = {key: [row for row in rows if row['category'] == key] for key in data['categories']}
+    lines.extend([' · '.join(f'[{label}（{len(by_category[key])}）](#discussions-{key})'
+                             for key, label in data['categories'].items() if by_category[key]), ''])
     for category, label in data['categories'].items():
-        selected = [row for row in rows if row['category'] == category]
+        selected = by_category[category]
         if not selected:
             continue
-        lines.extend([f'## {label}', ''])
+        lines.extend([f'<a id="discussions-{category}"></a>', '', f'## {label}', ''])
         for row in selected:
             published = row['published'] or '日期未确认'
             verification = VERIFICATION_LABELS[row['verification']]
