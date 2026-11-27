@@ -1,6 +1,6 @@
 # 大模型与算法岗位
 
-[打开招聘网页](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library) · [返回面经仓库](../../README.md)
+[打开招聘网页](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs#library) · [裁员动态](../layoffs.md) · [返回面经仓库](../../README.md)
 
 2026-11-20 更新，共收录 1342 条岗位。记录附招聘原页、职责和要求摘要、核验日期与投递状态。
 “有投递入口”表示核验时确认了申请入口。发布日期和官网更新日按原站标记记录。已结束的批次保留供对照。

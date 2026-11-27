@@ -341,6 +341,14 @@ html[data-motion="on"] .network-stars { animation: star-glow 5s ease-in-out infi
 .discussion-card .record-tag { --tag-color: var(--card-color); }
 .discussion-card .record-title { overflow-wrap: anywhere; }
 
+.library-tab[data-view="layoffs"] { --tab-color: var(--violet); }
+.library-heading[data-view="layoffs"] { --heading-accent: var(--violet); }
+.command-kind.kind-layoffs, .layoffs-entry[aria-current="page"] { color: var(--violet); }
+#library[data-view="layoffs"] ~ .workspace .results-toolbar { margin-top: 14px; }
+.layoff-card .record-eyebrow { flex-wrap: wrap; row-gap: 4px; }
+.layoff-card time { font-variant-numeric: tabular-nums; }
+.layoff-card .record-tag { --tag-color: var(--card-color); }
+
 @media (max-width: 760px) {
   #library[data-view="discussions"] ~ .workspace .mobile-filter-button { display: none; }
   #library[data-view="discussions"] ~ .workspace .filters {
@@ -354,6 +362,7 @@ html[data-motion="on"] .network-stars { animation: star-glow 5s ease-in-out infi
   #library[data-view="discussions"] ~ .workspace .filter-row { grid-template-columns: minmax(0, 1fr); }
   #library[data-view="discussions"] ~ .workspace .filter-field { margin-bottom: 0; }
   #library[data-view="discussions"] ~ .workspace .filter-field select { min-height: 48px; font-size: 1rem; }
+  #library[data-view="layoffs"] ~ .workspace .filter-field select { min-height: 48px; font-size: 1rem; }
 }
 
 @media (max-width: 510px) {

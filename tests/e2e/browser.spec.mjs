@@ -180,6 +180,39 @@ test('recruiting filters and a shareable JD survive reload', async ({page}) => {
   await expect(page).toHaveURL(/\/$/);
 });
 
+test('layoffs share recruiting companies and preserve event links', async ({page}) => {
+  await ready(page, '/?view=jobs');
+  await filters(page);
+  const company = page.getByLabel('公司', {exact: true});
+  const companies = await company.locator('option').evaluateAll(options => options.map(option => option.value));
+  const tab = page.getByRole('tab', {name: /裁员动态/});
+  await tab.click();
+  await expect(tab).toHaveAttribute('aria-selected', 'true');
+  await expect(page.getByRole('heading', {name: '裁员动态', exact: true})).toBeVisible();
+  expect(await company.locator('option').evaluateAll(options => options.map(option => option.value))).toEqual(companies);
+
+  await company.selectOption('Amazon');
+  await page.getByLabel('公开状态').selectOption('confirmed');
+  await expect(page).toHaveURL(/layoff_status=confirmed/);
+  await page.getByRole('searchbox', {name: '搜索资料'}).fill('LAY017');
+  await page.locator('[data-record="LAY017"] .record-title').click();
+  await expect(page).toHaveURL(/record=LAY017/);
+  await page.reload();
+  const reader = page.getByRole('dialog');
+  await expect(reader.getByRole('heading', {name: '事件摘要'})).toBeVisible();
+  await expect(reader.getByRole('link', {name: '查看原始来源'})).toHaveAttribute('href', /aboutamazon\.com/);
+  const jobsLink = reader.getByRole('link', {name: '查看同公司岗位'});
+  await jobsLink.click();
+  await expect(page).toHaveURL(/view=jobs&company=Amazon/);
+  await expect(page.getByRole('heading', {name: '大模型与算法岗位'})).toBeVisible();
+
+  await tab.click();
+  await page.getByRole('searchbox', {name: '搜索资料'}).fill('');
+  await filters(page);
+  await company.selectOption('公司未明确');
+  await expect(page.getByRole('heading', {name: '该公司暂无收录'})).toBeVisible();
+});
+
 test('global search finds archived JDs and links to company interviews', async ({page}) => {
   await ready(page);
   await page.keyboard.press('ControlOrMeta+k');

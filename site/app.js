@@ -3,11 +3,11 @@ import {DEFAULT_STATE, PAGE_SIZE, readState, stateQuery, filterRecords, paginate
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
 const icon = name => '<svg class="icon" aria-hidden="true"><use href="#i-' + name + '"></use></svg>';
-const VIEW_NAMES = {interviews: '面经', questions: '题解与练习', resources: '参考资料', jobs: '招聘岗位', discussions: '话题'};
-const VIEW_HEADINGS = {interviews: '面经原帖', questions: '专题题解与练习', resources: '参考资料', jobs: '大模型与算法岗位', discussions: '算法圈话题'};
-const VIEW_UNITS = {interviews: '篇', questions: '道', resources: '份', jobs: '个', discussions: '条'};
-const VIEW_ICONS = {interviews: 'doc', questions: 'code', resources: 'layers', jobs: 'briefcase', discussions: 'chat'};
-const SEPARATE_VIEWS = new Set(['jobs', 'discussions']);
+const VIEW_NAMES = {interviews: '面经', questions: '题解与练习', resources: '参考资料', jobs: '招聘岗位', discussions: '话题', layoffs: '裁员动态'};
+const VIEW_HEADINGS = {interviews: '面经原帖', questions: '专题题解与练习', resources: '参考资料', jobs: '大模型与算法岗位', discussions: '算法圈话题', layoffs: '裁员动态'};
+const VIEW_UNITS = {interviews: '篇', questions: '道', resources: '份', jobs: '个', discussions: '条', layoffs: '条'};
+const VIEW_ICONS = {interviews: 'doc', questions: 'code', resources: 'layers', jobs: 'briefcase', discussions: 'chat', layoffs: 'list'};
+const SEPARATE_VIEWS = new Set(['jobs', 'discussions', 'layoffs']);
 const COLLECTION_NAMES = {infra: 'LLM Infra', rag: 'RAG', agent: 'Agent', search: '搜广推', speech: '语音与客服'};
 const STORE_KEY = 'llm-interview-warehouse:saved:v1';
 const THEME_KEY = 'llm-interview-warehouse:theme';
@@ -217,8 +217,10 @@ function option(value, label) {
 
 function fillFilters() {
   const discussions = state.view === 'discussions';
+  const layoffs = state.view === 'layoffs';
   const rows = state.view === 'questions' ? catalog.interviews : catalog[state.view];
-  const companies = new Map(), years = new Map(), platforms = new Map();
+  const companies = new Map(layoffs ? catalog.jobs.map(job => [job.company_key, 0]) : []);
+  const years = new Map(), platforms = new Map();
   for (const record of rows) {
     for (const company of record.company_keys || []) companies.set(company, (companies.get(company) || 0) + 1);
     const year = record.year ? String(record.year) : 'unknown';
@@ -234,6 +236,9 @@ function fillFilters() {
   $('#platform-filter').innerHTML = option('', '全部平台') + [...platforms].sort((a, b) => b[1] - a[1]).map(([name, count]) => option(name, name + ' · ' + count)).join('');
   if (discussions) {
     $('#discussion-category-filter').innerHTML = option('', '全部话题') + Object.entries(catalog.discussion_categories || {}).map(([key, name]) => option(key, name)).join('');
+  }
+  if (layoffs) {
+    $('#layoff-status-filter').innerHTML = option('', '全部状态') + Object.entries(catalog.layoff_status_labels || {}).map(([key, name]) => option(key, name)).join('');
   }
   if (SEPARATE_VIEWS.has(state.view)) return;
   $('#topic-filter').innerHTML = option('', '全部专题') + catalog.topics.filter(topic => state.view === 'questions' || !topic.id.startsWith('practice-')).map(topic => option(topic.id, (topic.id.startsWith('practice-') ? '' : topic.id + ' · ') + topic.name)).join('');
@@ -278,13 +283,17 @@ function filterLabel(key, value) {
   if (key === 'direction') return catalog.job_directions?.[value] || value;
   if (key === 'job_status') return catalog.job_status_labels?.[value] || value;
   if (key === 'discussion_category') return catalog.discussion_categories?.[value] || value;
+  if (key === 'layoff_status') return catalog.layoff_status_labels?.[value] || value;
   return value;
 }
 
 function syncControls() {
   const jobs = state.view === 'jobs';
   const discussions = state.view === 'discussions';
+  const layoffs = state.view === 'layoffs';
   const question = state.view === 'questions';
+  const separate = SEPARATE_VIEWS.has(state.view);
+  const dated = discussions || layoffs;
   fillFilters();
   if ($('#library-title')) {
     $('#library-title').textContent = VIEW_HEADINGS[state.view];
@@ -297,11 +306,12 @@ function syncControls() {
     tab.tabIndex = active ? 0 : -1;
   }
   $$('.source-filter').forEach(field => { field.hidden = question; });
-  $$('.study-filter').forEach(field => { field.hidden = jobs || discussions || (question && field.classList.contains('source-filter')); });
+  $$('.study-filter').forEach(field => { field.hidden = separate || (question && field.classList.contains('source-filter')); });
   $('#company-filter').closest('.filter-field').hidden = question || discussions;
   for (const id of ['jobs-intro', 'job-filters']) if ($('#' + id)) $('#' + id).hidden = !jobs;
   for (const id of ['discussion-caption', 'discussion-filters']) if ($('#' + id)) $('#' + id).hidden = !discussions;
-  if ($('#discovery-rail')) $('#discovery-rail').hidden = jobs || discussions;
+  for (const id of ['layoff-caption', 'layoff-filters']) if ($('#' + id)) $('#' + id).hidden = !layoffs;
+  if ($('#discovery-rail')) $('#discovery-rail').hidden = separate;
   for (const link of $$('[data-library-view], .jobs-entry')) {
     if (state.view === (link.dataset.libraryView || 'jobs')) link.setAttribute('aria-current', 'page');
     else link.removeAttribute('aria-current');
@@ -313,23 +323,24 @@ function syncControls() {
     chip.setAttribute('aria-pressed', String(active));
   }
   if ($('#search-input').value !== state.q) $('#search-input').value = state.q;
-  $('#search-input').placeholder = jobs ? '搜公司、岗位或技能' : discussions ? '搜模型、工具或讨论内容' : question ? '搜题目或作答要点' : '搜公司、技术词或项目';
-  $('#sort-select').innerHTML = option('recent', jobs ? '最近核验' : discussions ? '最新发帖' : question ? '专题顺序' : '最近收录') +
-    (question || discussions ? '' : option('published', '发布时间')) + option('title', jobs ? '岗位名称' : '标题顺序');
-  if ((question || discussions) && state.sort === 'published') state.sort = 'recent';
+  $('#search-input').placeholder = layoffs ? '搜公司、业务或地区' : jobs ? '搜公司、岗位或技能' : discussions ? '搜模型、工具或讨论内容' : question ? '搜题目或作答要点' : '搜公司、技术词或项目';
+  $('#sort-select').innerHTML = option('recent', layoffs ? '最新披露' : jobs ? '最近核验' : discussions ? '最新发帖' : question ? '专题顺序' : '最近收录') +
+    (question || dated ? '' : option('published', '发布时间')) + option('title', jobs ? '岗位名称' : '标题顺序');
+  if ((question || dated) && state.sort === 'published') state.sort = 'recent';
   $('#sort-select').value = state.sort;
   $('#saved-toggle').setAttribute('aria-pressed', String(state.saved));
   $('#saved-toggle').setAttribute('aria-label', '只看我的收藏，共' + saved.size + '项');
   $('#saved-count').textContent = saved.size;
   for (const chip of $$('#company-quick [data-company]')) chip.setAttribute('aria-pressed', String(state.view === 'interviews' && state.company === chip.dataset.company));
-  $('.sidebar-note-title').textContent = jobs ? '关于投递状态' : discussions ? '原帖与评论' : question ? '按知识点复习' : '读面经，也看上下文';
-  $('.sidebar-note p').textContent = jobs ? '状态以条目所列核验日期为准。招聘方可随时关闭或调整岗位。' : discussions ? '原帖保留作者和上下文。部分平台在 App 里才能查看完整内容或评论。' : question ? '题解按公开论文与文档编写，参考链接随题保留。具体企业问了什么，可以回面经原帖查看。' : '公司、岗位和过程沿用原作者描述。日期疑问、付费截断等情况见条目备注。';
+  $('.sidebar-note-title').textContent = layoffs ? '怎么看人数' : jobs ? '关于投递状态' : discussions ? '原帖与评论' : question ? '按知识点复习' : '读面经，也看上下文';
+  $('.sidebar-note p').textContent = layoffs ? '人数按来源的业务、地区和时间口径记录。暂无收录的公司仍保留在筛选清单里。' : jobs ? '状态以条目所列核验日期为准。招聘方可随时关闭或调整岗位。' : discussions ? '原帖保留作者和上下文。部分平台在 App 里才能查看完整内容或评论。' : question ? '题解按公开论文与文档编写，参考链接随题保留。具体企业问了什么，可以回面经原帖查看。' : '公司、岗位和过程沿用原作者描述。日期疑问、付费截断等情况见条目备注。';
   if ($('.sidebar-note a')) {
-    $('.sidebar-note a').href = catalog.repo_url + (jobs ? '/blob/main/docs/recruiting/README.md' : discussions ? '/blob/main/docs/discussions.md' : '/blob/main/docs/methodology.md');
-    $('.sidebar-note a span')?.replaceChildren(discussions ? '在 GitHub 读话题' : '来源说明');
+    $('.sidebar-note a').href = catalog.repo_url + (layoffs ? '/blob/main/docs/layoffs.md' : jobs ? '/blob/main/docs/recruiting/README.md' : discussions ? '/blob/main/docs/discussions.md' : '/blob/main/docs/methodology.md');
+    $('.sidebar-note a span')?.replaceChildren(layoffs ? '在 GitHub 读时间线' : discussions ? '在 GitHub 读话题' : '来源说明');
   }
-  if ($('.contribute-link')) $('.contribute-link').hidden = jobs || discussions;
+  if ($('.contribute-link')) $('.contribute-link').hidden = separate;
   const filterKeys = jobs ? ['q', 'direction', 'company', 'city', 'job_type', 'job_status', 'platform', 'saved'] :
+    layoffs ? ['q', 'company', 'layoff_status', 'platform', 'saved'] :
     discussions ? ['q', 'discussion_category', 'platform', 'saved'] : question ? ['q', 'collection', 'topic', 'saved'] : ['q', 'collection', 'company', 'topic', 'specialty', 'domain', 'year', 'platform', 'saved'];
   const active = filterKeys.filter(key => state[key]);
   $('#active-filters').innerHTML = active.map(key => '<button class="filter-tag" data-remove="' + key + '" aria-label="移除条件：' + esc(filterLabel(key, state[key])) + '">' + esc(filterLabel(key, state[key])) + icon('close') + '</button>').join('');
@@ -345,6 +356,10 @@ function externalLink(url, label, className = '', context = '') {
   const href = safeUrl(url);
   const description = context ? '<span class="sr-only">：' + esc(context) + '</span>' : '';
   return href ? '<a class="' + className + '" href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">' + esc(label) + description + icon('arrow') + '</a>' : '';
+}
+
+function companyPage(view, company) {
+  return '?' + stateQuery({...DEFAULT_STATE, view, company}) + '#library';
 }
 
 function shortDate(record) {
@@ -413,9 +428,33 @@ function discussionCard(record) {
   </article>`;
 }
 
+function layoffCard(record) {
+  const tones = {confirmed: 'violet', reported: 'amber', response: 'cyan'};
+  const facts = [record.scope, record.impact].filter(Boolean).join(' · ');
+  return `<article class="record-card layoff-card" data-tone="${tones[record.status]}" data-record="${esc(record.id)}">
+    <div class="record-eyebrow">
+      <span class="record-company">${esc(record.company_key)}</span>
+      <time datetime="${esc(record.published)}">${esc(record.published)}</time>
+      <span>${esc(record.platform)}</span>
+      ${bookmarkButton(record)}
+    </div>
+    <h3><button type="button" class="record-title" data-open="${esc(record.id)}">${esc(record.title)}</button></h3>
+    <p class="job-facts">${esc(facts)}</p>
+    <p class="record-excerpt">${esc(record.summary)}</p>
+    <div class="record-bottom">
+      <div class="record-tags"><span class="record-tag">${esc(record.status_label)}</span></div>
+      <div class="record-actions">
+        ${externalLink(record.url, '看来源', 'read-source', record.title)}
+        <button type="button" class="read-detail" data-open="${esc(record.id)}">查看详情${icon('chevron')}</button>
+      </div>
+    </div>
+  </article>`;
+}
+
 function card(record) {
   if (record.kind === 'jobs') return jobCard(record);
   if (record.kind === 'discussions') return discussionCard(record);
+  if (record.kind === 'layoffs') return layoffCard(record);
   const question = state.view === 'questions';
   const company = record.companies?.length ? record.companies.slice(0, 2).join(' / ') + (record.companies.length > 2 ? ' 等' : '') : (record.company_keys?.[0] || '通用资料');
   const tags = question ? [record.chapter, record.difficulty] : (record.topic_names.length ? record.topic_names.slice(0, 2) : [record.source_label]);
@@ -431,6 +470,10 @@ function card(record) {
 }
 
 function emptyState() {
+  if (state.view === 'layoffs' && state.company && !catalog.layoffs.some(record => record.company_key === state.company)) {
+    const jobsLink = state.company === '公司未明确' ? '' : ' <a class="secondary-button" href="' + esc(companyPage('jobs', state.company)) + '">查看同公司岗位</a>';
+    return '<div class="empty-state">' + icon('search') + '<h3>该公司暂无收录</h3><p>这个专题暂缺可核验的公开记录。</p><button type="button" class="primary-button" data-reset>查看全部裁员动态</button>' + jobsLink + '</div>';
+  }
   return '<div class="empty-state">' + icon(state.saved ? 'bookmark' : 'search') + '<h3>' + (state.saved ? '这里还没有匹配的收藏' : '没有找到匹配的资料') + '</h3><p>' + (state.saved ? '点击资料右上角的书签收藏，也可以试试减少筛选条件。' : '试试减少筛选条件，或换个关键词。') + '</p><button class="primary-button" data-reset>查看全部' + esc(VIEW_NAMES[state.view]) + '</button></div>';
 }
 
@@ -511,6 +554,10 @@ function jobDetails(record) {
     content += section('同公司面经',
       '<button class="topic-link" data-company-interviews="' + esc(record.company_key) + '">查看' + esc(record.company) + '面经</button>');
   }
+  if ($('#tab-layoffs') && record.company_key !== '公司未明确') {
+    content += section('同公司裁员动态',
+      '<a class="topic-link" href="' + esc(companyPage('layoffs', record.company_key)) + '">查看裁员动态</a>');
+  }
   return content;
 }
 
@@ -525,6 +572,18 @@ function discussionDetails(record) {
     section('来源备注', record.note ? '<p>' + esc(record.note) + '</p>' : '', 'notes');
 }
 
+function layoffDetails(record) {
+  const metadata = [
+    ['公司', record.company_key], ['公告或报道日期', record.published], ['公开状态', record.status_label],
+    ['涉及范围', record.scope], ['人数口径', record.impact], ['来源', record.platform],
+  ];
+  return '<dl class="detail-metadata">' + metadata.map(([label, value]) => metadataRow(label, value)).join('') + '</dl>' +
+    section('事件摘要', '<p>' + esc(record.summary) + '</p>') +
+    section('来源说明', '<p>' + esc(record.note) + '</p>', 'notes') +
+    section('同公司岗位',
+      '<a class="topic-link" href="' + esc(companyPage('jobs', record.company_key)) + '">查看同公司岗位</a>');
+}
+
 function showRecord(record) {
   const dialog = $('#detail-dialog');
   currentRecord = record;
@@ -536,16 +595,18 @@ function showRecord(record) {
   const question = record.kind === 'questions';
   const jobs = record.kind === 'jobs';
   const discussions = record.kind === 'discussions';
+  const layoffs = record.kind === 'layoffs';
   $('#detail-kicker').textContent = question ? '专题题解 / ' + record.chapter : VIEW_NAMES[record.kind] + ' / ' + record.platform;
   let content = '<span class="detail-id">' + esc(record.id) + '</span><h2 id="detail-title" tabindex="-1">' + esc(record.title) + '</h2>';
   const sourceLabel = jobs ? (record.verification === 'reprint' ? '查看公开转载' : '查看招聘原页') :
-    question ? '在GitHub读本专题' : record.kind === 'resources' ? '打开资料' : '阅读原帖';
+    layoffs ? '查看原始来源' : question ? '在GitHub读本专题' : record.kind === 'resources' ? '打开资料' : '阅读原帖';
   content += '<div class="detail-links">' + externalLink(record.url, sourceLabel, 'primary-button');
   if (record.evidence_url) content += externalLink(record.evidence_url, record.evidence_label || (jobs ? '查看公开摘要' : '其他阅读入口'), 'secondary-button');
   content += '</div>';
   if (question) content += '<div class="markdown">' + renderMarkdown(record.body, record.url) + '</div>';
   else if (jobs) content += jobDetails(record);
   else if (discussions) content += discussionDetails(record);
+  else if (layoffs) content += layoffDetails(record);
   else {
     content += '<dl class="detail-metadata">' + metadataRow('公司', record.companies?.length ? record.companies : '未明确') + metadataRow('岗位 / 内容', record.role) + metadataRow('面试时间', record.event_date) + metadataRow(record.published_at ? '发布时间' : '页面日期', displayTime(record.published_at || record.published)) + metadataRow('编辑时间', record.updated_at !== record.published_at ? displayTime(record.updated_at) : '') + metadataRow('查阅日期', record.accessed) + metadataRow('作者', record.author) + metadataRow('阅读情况', record.access_label) + metadataRow('资料类型', record.source_label) + '</dl>';
     content += section('主要内容', record.summary ? '<p>' + esc(record.summary) + '</p>' : '');
@@ -752,6 +813,7 @@ async function initialize() {
     catalog.resources = prepare(catalog.resources);
     catalog.jobs = prepare(catalog.jobs ?? []);
     catalog.discussions = prepare(catalog.discussions ?? []);
+    catalog.layoffs = prepare(catalog.layoffs ?? []);
     setupJobModule();
     renderDiscoveries();
     const commandOpen = $('#command-open');

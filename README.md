@@ -22,6 +22,10 @@
 
 [在华外企](docs/recruiting/README.md#china-foreign-employers) · [大模型公司与研究机构](docs/recruiting/README.md#model-employers) · [机器人与计算机视觉](docs/recruiting/README.md#robotics-employers) · [运营商与金融机构](docs/recruiting/README.md#telecom-finance-employers)。
 
+## 裁员动态
+
+按岗位栏的同一份公司清单查询公开裁员信息。条目记录涉及的地区或业务、人数口径、公开状态和来源，也可以跳转查看该公司的岗位。[打开网页专题](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs#library) · [GitHub 时间线与公司清单](docs/layoffs.md)
+
 ## 话题区
 
 逛逛算法和大模型圈的公开讨论，看看模型实测、Agent 踩坑、LLM Infra 和求职动态。可按话题和平台筛选，回原帖看评论。[打开网页版](https://pyramiding.github.io/llm-interview-warehouse/?view=discussions#library) · [话题索引](docs/discussions.md)

@@ -230,7 +230,7 @@ def build_recruiting_index(known_topics):
 
     lines = [
         '# 大模型与算法岗位', '',
-        f'[打开招聘网页]({recruiting_url()}) · [返回面经仓库](../../README.md)', '',
+        f'[打开招聘网页]({recruiting_url()}) · [裁员动态](../layoffs.md) · [返回面经仓库](../../README.md)', '',
         f'{last_checked} 更新，共收录 {len(jobs)} 条岗位。记录附招聘原页、职责和要求摘要、核验日期与投递状态。',
         '“有投递入口”表示核验时确认了申请入口。发布日期和官网更新日按原站标记记录。已结束的批次保留供对照。', '',
         '## 官网岗位', '',
@@ -317,6 +317,7 @@ def build_recruiting_index(known_topics):
                 for job in subset:
                     company_lines.extend(job_detail(job, directions))
         write_index(output / company_pages[key], company_lines)
+    return data
 
 
 def job_detail(job, directions):

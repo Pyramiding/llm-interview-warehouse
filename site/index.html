@@ -56,6 +56,7 @@
         <a href="#explore">按方向</a>
         <button type="button" id="nav-companies">按公司</button>
         <a class="jobs-entry" href="?view=jobs#library">找岗位</a>
+        <a class="layoffs-entry" data-library-view="layoffs" href="?view=layoffs#library">裁员动态</a>
         <a class="discussions-entry" data-library-view="discussions" href="?view=discussions#library">话题区</a>
       </nav>
       <div class="header-actions">
@@ -123,6 +124,7 @@
     <div class="library-heading" id="library" data-view="interviews">
       <h2 id="library-title">面经原帖</h2>
       <p id="discussion-caption" class="discussion-caption" hidden>算法和大模型圈最近在聊什么？从模型实测、工程踩坑到求职故事，点原帖接着看。</p>
+      <p id="layoff-caption" class="discussion-caption" hidden>公司清单与「找岗位」同步，按公告或报道日期倒序。最近核验 <time datetime="__LAYOFF_CHECKED__">__LAYOFF_CHECKED__</time>。</p>
     </div>
     <div class="library-tabs">
       <div class="tab-buttons" role="tablist" aria-label="资料类型">
@@ -130,6 +132,7 @@
       <button class="library-tab" id="tab-questions" role="tab" aria-selected="false" aria-controls="results" tabindex="-1" data-view="questions"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg>专题题解<span>__QUESTION_COUNT__</span></button>
       <button class="library-tab" id="tab-resources" role="tab" aria-selected="false" aria-controls="results" tabindex="-1" data-view="resources"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>参考资料<span>__RESOURCE_COUNT__</span></button>
       <button class="library-tab" id="tab-jobs" role="tab" aria-selected="false" aria-controls="results" tabindex="-1" data-view="jobs"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg>找岗位<span>__JOB_COUNT__</span></button>
+      <button class="library-tab" id="tab-layoffs" role="tab" aria-selected="false" aria-controls="results" tabindex="-1" data-view="layoffs"><svg class="icon" aria-hidden="true"><use href="#i-list"/></svg>裁员动态<span>__LAYOFF_COUNT__</span></button>
       <button class="library-tab" id="tab-discussions" role="tab" aria-selected="false" aria-controls="results" tabindex="-1" data-view="discussions"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>话题区<span>__DISCUSSION_COUNT__</span></button>
       </div>
       <button class="saved-toggle" id="saved-toggle" aria-pressed="false" title="收藏保存在当前浏览器"><svg class="icon"><use href="#i-bookmark"/></svg><span>我的收藏</span><span class="saved-count" id="saved-count">0</span></button>
@@ -141,7 +144,7 @@
         <div class="filter-heading"><h2>筛选</h2><button class="text-button" id="reset-filters">重置</button></div>
         <div class="filter-field source-filter">
           <label for="company-filter">公司</label>
-          <select id="company-filter" data-filter="company"><option value="">全部公司</option></select>
+          <select id="company-filter" name="company" data-filter="company"><option value="">全部公司</option></select>
         </div>
         <div class="filter-field study-filter">
           <label for="topic-filter">技术专题</label>
@@ -158,6 +161,10 @@
         <div class="filter-field" id="discussion-filters" hidden>
           <label for="discussion-category-filter">话题分类</label>
           <select id="discussion-category-filter" data-filter="discussion_category"><option value="">全部话题</option></select>
+        </div>
+        <div class="filter-field" id="layoff-filters" hidden>
+          <label for="layoff-status-filter">公开状态</label>
+          <select id="layoff-status-filter" name="layoff_status" data-filter="layoff_status"><option value="">全部状态</option></select>
         </div>
         <div class="filter-row source-filter">
           <div class="filter-field study-filter"><label for="year-filter">年份</label><select id="year-filter" data-filter="year"><option value="">全部年份</option></select></div>
@@ -211,7 +218,7 @@
           <div class="skeleton-card"><div></div><div></div><div></div></div>
         </div>
         <nav class="pagination" id="pagination" aria-label="资料分页"></nav>
-        <noscript><p class="empty-state">请启用 JavaScript 浏览，或在 GitHub 阅读<a href="__REPO_URL__">面经资料</a>和<a href="__REPO_URL__/blob/main/docs/discussions.md">话题索引</a>。</p></noscript>
+        <noscript><p class="empty-state">在 GitHub 阅读<a href="__REPO_URL__">面经资料</a>、<a href="__REPO_URL__/blob/main/docs/discussions.md">话题索引</a>与<a href="__REPO_URL__/blob/main/docs/layoffs.md">裁员动态</a>。</p></noscript>
       </section>
     </div>
 

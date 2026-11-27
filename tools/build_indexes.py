@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 from discussions import build_discussion_index
+from layoffs import build_layoff_index
 from recruiting import build_recruiting_index
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -271,8 +272,9 @@ def build_facets(interviews, resources):
 
 
 def main():
-    build_recruiting_index({code for code, *_ in TOPICS})
+    recruiting = build_recruiting_index({code for code, *_ in TOPICS})
     build_discussion_index()
+    build_layoff_index(recruiting['jobs'])
     interviews = read_json(ROOT/'data/interviews.json')
     resources = read_json(ROOT/'data/resources.json')
     source_fragments = sorted((ROOT/'data').glob('sources-*.json'))
