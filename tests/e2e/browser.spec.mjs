@@ -194,8 +194,14 @@ test('layoffs share recruiting companies and preserve event links', async ({page
   await company.selectOption('Amazon');
   await page.getByLabel('公开状态').selectOption('confirmed');
   await expect(page).toHaveURL(/layoff_status=confirmed/);
-  await page.getByRole('searchbox', {name: '搜索资料'}).fill('LAY017');
-  await page.locator('[data-record="LAY017"] .record-title').click();
+  // Open the result in the same browser turn as typing so the search is pending.
+  await page.getByRole('searchbox', {name: '搜索资料'}).evaluate(input => {
+    input.value = 'LAY017';
+    input.dispatchEvent(new Event('input', {bubbles: true}));
+    document.querySelector('[data-record="LAY017"] .record-title').click();
+  });
+  await page.waitForTimeout(250);
+  await expect(page).toHaveURL(/q=LAY017/);
   await expect(page).toHaveURL(/record=LAY017/);
   await page.reload();
   const reader = page.getByRole('dialog');

@@ -629,6 +629,8 @@ async function openRecord(id) {
   const records = state.view === 'questions' ? await loadQuestions() : catalog[state.view];
   const record = records.find(item => item.id === id);
   if (!record) return;
+  clearTimeout(searchTimer);
+  if ($('#search-input').value !== state.q) navigate({}, {replace: true});
   state.record = id;
   writeUrl('push');
   showRecord(record);
