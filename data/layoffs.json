@@ -12,7 +12,17 @@
       "impact": "约 12,000 个岗位",
       "summary": "Alphabet 首席执行官在员工信中公布缩减规模，称美国受影响员工已收到通知。各国执行时间受当地流程影响。",
       "note": "这是 2023 年公布的集团计划，记录日期取员工信发布日。",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/january-update/"
+      "url": "https://blog.google/company-news/inside-google/message-ceo/january-update/",
+      "community_sources": [
+        {
+          "platform": "Reddit",
+          "title": "r/technology 讨论 Alphabet 公告",
+          "url": "https://www.reddit.com/r/technology/comments/10gtlde/google_cutting_12000_jobs_in_6_slash_to_global/",
+          "verification": "opened",
+          "published": "2023-01-20",
+          "note": "跟帖讨论通知方式及对团队的影响。各地安排以公告为准。"
+        }
+      ]
     },
     {
       "id": "LAY002",
@@ -27,7 +37,17 @@
       "note": "员工信公布的是整轮规模。新加坡人力部的答复对应当地用工通报。",
       "url": "https://www.grab.com/inside-grab/stories/message-from-ceo/",
       "evidence_label": "看新加坡人力部答复",
-      "evidence_url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2023/0705-oral-answer-to-pq-on-grab-retrenchment"
+      "evidence_url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2023/0705-oral-answer-to-pq-on-grab-retrenchment",
+      "community_sources": [
+        {
+          "platform": "Reddit",
+          "title": "r/singapore 讨论 Grab 减岗",
+          "url": "https://www.reddit.com/r/singapore/comments/14ebq8m",
+          "verification": "opened",
+          "published": "2023-06-20",
+          "note": "帖子转发当日媒体报道，新加坡站友讨论对地区业务的影响。集团官网披露的是跨地区口径。"
+        }
+      ]
     },
     {
       "id": "LAY003",
@@ -79,7 +99,16 @@
       "note": "报道截稿时公司暂无回应。涉及团队、最终人数和执行进度均待确认。",
       "url": "https://www.thepaper.cn/newsDetail_forward_27984933",
       "evidence_label": "看 21 世纪经济报道求证",
-      "evidence_url": "https://m.21jingji.com/article/20240705/herald/16b00f7973853a79078e63595579432a_zaker.html"
+      "evidence_url": "https://m.21jingji.com/article/20240705/herald/16b00f7973853a79078e63595579432a_zaker.html",
+      "community_sources": [
+        {
+          "platform": "脉脉",
+          "title": "小红书年中人员盘点讨论",
+          "url": "https://maimai.cn/article/detail?efid=ght-GmOdICLGuSvRX6FIBw&fid=1838623215",
+          "verification": "excerpt",
+          "note": "帖文把调整和绩效联系起来，具体门槛及适用范围没有独立确认。"
+        }
+      ]
     },
     {
       "id": "LAY007",
@@ -167,7 +196,17 @@
       "impact": "约 14,000 个岗位",
       "summary": "亚马逊在公开员工信中公布整体缩减规模，并说明不同国家的内部转岗期限会随当地规定变化。",
       "note": "这是此轮的企业职能口径，仓储和配送人员另有用工口径。",
-      "url": "https://www.aboutamazon.com/news/company-news/amazon-workforce-reduction"
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-workforce-reduction",
+      "community_sources": [
+        {
+          "platform": "微信公众号",
+          "title": "电厂 · 科技公司的 AI 提效与两轮减岗",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODM5NTE0Ng==&mid=2653194874&idx=1&sn=9529aba829ebf1f15e7c1fd1b41ca4bd&chksm=bce8f4bce2681aa30c4528f5cd569f606b8115a9b90b3ab2de69557909ecae32cac90decc8b5#rd",
+          "verification": "mirror",
+          "note": "回顾亚马逊 2025 年 10 月和 2026 年 1 月两次公告。本文同时讨论其他公司。",
+          "mirror_url": "https://www.huxiu.com/article/4863826.html"
+        }
+      ]
     },
     {
       "id": "LAY014",
@@ -220,7 +259,39 @@
       "note": "此条保留 1 月公司公告所列范围。各地转岗及执行时间按当地规定。",
       "url": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026",
       "evidence_label": "看美联社报道",
-      "evidence_url": "https://apnews.com/article/74387fae2313ff7b0b1e638c00863443"
+      "evidence_url": "https://apnews.com/article/74387fae2313ff7b0b1e638c00863443",
+      "community_sources": [
+        {
+          "platform": "Reddit",
+          "title": "r/stocks 讨论亚马逊 1 月公开信",
+          "url": "https://www.reddit.com/r/stocks/comments/1qphkkk/tech_amazon_laying_off_about_16000_corporate/",
+          "verification": "opened",
+          "published": "2026-01-28",
+          "note": "发帖引用 CNBC 同日的报道，讨论公司职能团队变化。美国转岗窗口见公司公告。"
+        },
+        {
+          "platform": "知乎",
+          "title": "极客公园回顾 2026 年初硅谷减岗",
+          "url": "https://zhuanlan.zhihu.com/p/2014688788488676304",
+          "verification": "excerpt",
+          "note": "文章把此次亚马逊公告放进更广的科技行业就业数据中。行业统计各有时间和样本口径。"
+        },
+        {
+          "platform": "脉脉",
+          "title": "从 4 月底盘点回看亚马逊两次公开调整",
+          "url": "https://maimai.cn/article/detail?efid=t9v1MfQSWrEUMndJufMPEw&fid=1912391018",
+          "verification": "opened",
+          "note": "盘点分别列了 2025 年 10 月和 2026 年 1 月的公告。其他公司的数字需查各自原始来源。"
+        },
+        {
+          "platform": "微信公众号",
+          "title": "极客公园 · 回顾年初美国科技行业减岗",
+          "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653100639&idx=1&sn=60d03d145f792660f08e25513f2f1043&chksm=7f01389bcb84a02f761c46d54fdba5b3d52354222aca366d9fe160635818de4bd37be954b566#rd",
+          "verification": "mirror",
+          "note": "与知乎的极客公园文章同文，回顾 1 月亚马逊公司公告及行业就业统计。",
+          "mirror_url": "https://www.huxiu.com/article/4840455.html"
+        }
+      ]
     },
     {
       "id": "LAY018",
@@ -233,7 +304,32 @@
       "impact": "约 4,800 个岗位（约 2.1%）",
       "summary": "微软向路透社确认全球减岗计划。报道同时记录了 Xbox 业务重组及公司考虑处置部分工作室。",
       "note": "4,800 个岗位对应当轮全球范围，Xbox 是报道涉及的其中一部分。",
-      "url": "https://www.reuters.com/business/world-at-work/microsoft-joins-ai-driven-tech-layoff-wave-with-4800-job-cuts-2026-07-06/"
+      "url": "https://www.reuters.com/business/world-at-work/microsoft-joins-ai-driven-tech-layoff-wave-with-4800-job-cuts-2026-07-06/",
+      "community_sources": [
+        {
+          "platform": "Reddit",
+          "title": "r/microsoft 讨论 Xbox 和销售部门调整",
+          "url": "https://www.reddit.com/r/microsoft/comments/1up2a76/microsoft_cuts_4800_jobs_and_shrinks_xbox_in/",
+          "verification": "opened",
+          "published": "2026-07-06",
+          "note": "跟帖讨论游戏部门、销售与其他业务的影响。团队和人数以原报道为准。"
+        },
+        {
+          "platform": "知乎",
+          "title": "游戏业务如何受到微软这轮调整影响",
+          "url": "https://zhuanlan.zhihu.com/p/2057947355765289596",
+          "verification": "excerpt",
+          "note": "专栏关注 Xbox 和游戏业务。各数字对应全球范围、游戏业务或其他轮次，需要分别看。"
+        },
+        {
+          "platform": "微信公众号",
+          "title": "机核 · Xbox 重组与受影响的工作室",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTAzMjg0MA==&mid=2650611481&idx=1&sn=1ff55a31ebea8a2baa90dcbc8eb74932&chksm=bf202c667aefed0e9771b069f86e4f766a4bb79d04b4fb8bc1b12d5eb2f3e34dc257f1bade76#rd",
+          "verification": "mirror",
+          "note": "文章聚焦游戏工作室。微软的总体岗位缩减口径见本条路透社报道。",
+          "mirror_url": "https://www.huxiu.com/article/4874421.html"
+        }
+      ]
     },
     {
       "id": "LAY019",
@@ -248,7 +344,31 @@
       "note": "公司公布的是期间离职人数。各业务裁员人数未单列。",
       "url": "https://companies.caixin.com/2026-07-10/102462653.html",
       "evidence_label": "看 IT 之家公开整理",
-      "evidence_url": "https://www.ithome.com/0/975/217.htm"
+      "evidence_url": "https://www.ithome.com/0/975/217.htm",
+      "community_sources": [
+        {
+          "platform": "脉脉",
+          "title": "美团多业务线人员变化讨论",
+          "url": "https://maimai.cn/article/detail?efid=8DAHLjeVzieiCdmCOTI3Jw&fid=1920117742",
+          "verification": "opened",
+          "note": "帖子转述财新报道及公司回应。「不到 2,000」是两个月的离职口径。"
+        },
+        {
+          "platform": "微博",
+          "title": "创业邦早报转述美团回应",
+          "url": "https://weibo.com/ttarticle/p/show?id=2309405319423803392040",
+          "verification": "excerpt",
+          "note": "早报同时收录多条新闻。美团段落引用财新，保留了离职人数口径。"
+        },
+        {
+          "platform": "微信公众号",
+          "title": "时代周报 · 大厂管理岗位变化及美团员工走访",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&mid=2653348352&idx=1&sn=7245a32cb227611463f73f50fefc3597&chksm=bc7451e907b9c9288fd3070fd85b92a23468941960e7b9982f154097be61b1e2b5703636fea6#rd",
+          "verification": "mirror",
+          "note": "报道走访员工并回顾人员离职口径。文中也涉及腾讯、京东等公司的职级调整。",
+          "mirror_url": "https://www.huxiu.com/article/4874883.html"
+        }
+      ]
     },
     {
       "id": "LAY020",
@@ -273,7 +393,17 @@
       "impact": "飞猪称变动比例不到 10%",
       "summary": "财新采访员工后报道飞猪在 6 月进行人员调整。飞猪回应称，正在招聘的人数与离职人数大致持平。",
       "note": "比例是飞猪提供的整体变动口径。飞猪各部门的最终人数尚未披露。",
-      "url": "https://www.caixin.com/2026-07-17/102465033.html"
+      "url": "https://www.caixin.com/2026-07-17/102465033.html",
+      "community_sources": [
+        {
+          "platform": "微博",
+          "title": "飞猪回应人员变动比例",
+          "url": "https://weibo.com/2/detail/5321663575228768",
+          "verification": "excerpt",
+          "published": "2026-07-17",
+          "note": "公开摘要转述飞猪回应。文中的变动比例涵盖招聘及离职。"
+        }
+      ]
     },
     {
       "id": "LAY022",
@@ -312,7 +442,31 @@
       "scope": "豆包 Session 团队",
       "summary": "每日经济新闻引用豆包公关负责人的公开回应，称裁员说法失实，实际安排涉及团队分工。",
       "note": "回应指向这次 Session 团队相关传言。",
-      "url": "https://www.nbd.com.cn/articles/2026-09-24/4591433.html"
+      "url": "https://www.nbd.com.cn/articles/2026-09-24/4591433.html",
+      "community_sources": [
+        {
+          "platform": "微博",
+          "title": "豆包公关回应 Session 团队传闻",
+          "url": "https://weibo.com/2/detail/5346618901005781",
+          "verification": "excerpt",
+          "published": "2026-09-24",
+          "note": "公开摘要转述负责人对分工调整的解释。"
+        },
+        {
+          "platform": "脉脉",
+          "title": "讨论豆包调整对话团队分工",
+          "url": "https://maimai.cn/article/detail?efid=5IpuGMkxgf9kTrWnsvGVfg&fid=1928859734",
+          "verification": "excerpt",
+          "note": "帖文保留了当时对业务收缩的讨论。裁员说法随后收到豆包公关回应。"
+        },
+        {
+          "platform": "知乎",
+          "title": "豆包 Session 人员调整的早期报道转载",
+          "url": "https://zhuanlan.zhihu.com/p/2086019761377371961",
+          "verification": "excerpt",
+          "note": "页面摘要包含早期转岗及裁撤说法。对应的公司回应见本条主来源。"
+        }
+      ]
     },
     {
       "id": "LAY025",
@@ -325,7 +479,16 @@
       "impact": "约 250 个岗位（路透援引知情人士）",
       "summary": "路透社报道设备与服务部门削减岗位。亚马逊发言人确认有少量岗位被取消。",
       "note": "公司确认了减岗，约 250 个岗位为媒体援引的估计。",
-      "url": "https://www.reuters.com/business/world-at-work/amazon-cuts-more-jobs-devices-unit-after-flurry-product-rollouts-2026-10-28/"
+      "url": "https://www.reuters.com/business/world-at-work/amazon-cuts-more-jobs-devices-unit-after-flurry-product-rollouts-2026-10-28/",
+      "community_sources": [
+        {
+          "platform": "Reddit",
+          "title": "r/cscareerquestions 讨论设备业务减岗",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1xi9x34/amazon_cuts_250_jobs_mostly_swe_after_cutting/",
+          "verification": "opened",
+          "note": "帖文直接链接 10 月 28 日的路透社报道，在讨论软件岗位时还提到另外一轮调整。"
+        }
+      ]
     },
     {
       "id": "LAY026",
@@ -339,7 +502,41 @@
       "note": "条目记录公司对该次传言的澄清。",
       "url": "https://www.thepaper.cn/newsDetail_forward_34459324",
       "evidence_label": "看联合早报转述的公开回应",
-      "evidence_url": "https://www.zaobao.com.sg/news/china/story20261112-9986323"
+      "evidence_url": "https://www.zaobao.com.sg/news/china/story20261112-9986323",
+      "community_sources": [
+        {
+          "platform": "微博",
+          "title": "腾讯公关就司庆讲话误读作出回应",
+          "url": "https://weibo.com/2/detail/5364442785385489",
+          "verification": "excerpt",
+          "published": "2026-11-12",
+          "note": "公开摘要记录腾讯公关负责人对网传说法的否认。"
+        },
+        {
+          "platform": "微信公众号",
+          "title": "腾讯文化刊出的司庆 LinkTime 笔记",
+          "url": "https://mp.weixin.qq.com/s/VcIDzPk6IVo1099f2VXalA",
+          "verification": "reference",
+          "published": "2026-11-16",
+          "note": "话题区此前核对过腾讯文化原文。本文记录业务分工的讲话，再次访问时公众号页面要求验证。"
+        },
+        {
+          "platform": "微信公众号",
+          "title": "中外管理传媒评论腾讯讲话如何被转述",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkxMzIyNDI1Mg==&mid=2247723159&idx=1&sn=32357d6eff406e6dca0d11688d19f3a6&chksm=c0ab854e31cf39476c56a32e7cbf74f8c581702222cfab9c2894fa93dc4cad486e5ed6c182f3#rd",
+          "verification": "mirror",
+          "note": "虎嗅转载注明该公众号，并保留了原文链接。文章关注传闻传播及公司回应。",
+          "mirror_url": "https://www.huxiu.com/article/4905537.html"
+        },
+        {
+          "platform": "小红书",
+          "title": "腾讯司庆讲话与人员调整讨论",
+          "url": "https://www.xiaohongshu.com/discovery/item/6af5487c000000002b03c324?xsec_source=app_share&xsec_token=CBtVqhcG6VzvEem8XwklsBhbrfKEbWtEK-e-Q9j0qxyQM=",
+          "verification": "mirror",
+          "note": "公开转载留有原帖入口。笔记转述了讲话与当时的讨论，腾讯文化刊发的笔记和公关回应可一并对照。",
+          "mirror_url": "https://t.me/s/xhsyp/69558"
+        }
+      ]
     },
     {
       "id": "LAY027",
@@ -351,7 +548,16 @@
       "scope": "Salesforce，具体部门范围待披露",
       "summary": "Business Insider 查阅内部消息后报道，Salesforce 在 11 月中旬又启动一轮减岗。公开报道未给出涉及的完整业务清单。",
       "note": "规模和执行范围仍待公司披露。以原报道标记的 11 月 17 日为日期。",
-      "url": "https://www.businessinsider.com/salesforce-starts-cutting-more-jobs-internal-messages-show-2026-11"
+      "url": "https://www.businessinsider.com/salesforce-starts-cutting-more-jobs-internal-messages-show-2026-11",
+      "community_sources": [
+        {
+          "platform": "Reddit",
+          "title": "r/salesforce 讨论新一轮调整",
+          "url": "https://www.reddit.com/r/salesforce/comments/1xzh30k/salesforce_layoff/",
+          "verification": "opened",
+          "note": "帖子链接了对 Business Insider 报道的新闻转述。跟帖经验的地区和部门口径各异。"
+        }
+      ]
     },
     {
       "id": "LAY028",
@@ -378,7 +584,17 @@
       "note": "首发报道未给出可核验的裁撤总人数。",
       "url": "https://finance.sina.com.cn/tech/digi/2026-11-27/doc-inkacqym1129170.shtml",
       "evidence_label": "看 IT 之家公开转载",
-      "evidence_url": "https://www.ithome.com/1/033/169.htm"
+      "evidence_url": "https://www.ithome.com/1/033/169.htm",
+      "community_sources": [
+        {
+          "platform": "微博",
+          "title": "快手生活服务事业部撤销与业务并入",
+          "url": "https://weibo.com/2/detail/5369794696054674",
+          "verification": "excerpt",
+          "published": "2026-11-27",
+          "note": "公开摘要跟进业务合并的去向。涉及人数仍以公司披露为准。"
+        }
+      ]
     },
     {
       "id": "LAY030",
@@ -390,7 +606,74 @@
       "scope": "SAP 集团层面的计划（媒体报道）",
       "summary": "路透社援引两位知情人士称 SAP 正在准备减少岗位。报道同时转述彭博对潜在规模的估计。",
       "note": "截至报道发布，人数、实施节奏和地区范围均待正式披露。",
-      "url": "https://www.reuters.com/business/world-at-work/sap-seeks-cut-sizeable-number-jobs-sources-say-2026-11-27/"
+      "url": "https://www.reuters.com/business/world-at-work/sap-seeks-cut-sizeable-number-jobs-sources-say-2026-11-27/",
+      "community_sources": [
+        {
+          "platform": "Reddit",
+          "title": "r/cscareerquestions 讨论 SAP 减岗计划",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1y6amgp/sap_cutting_10000_in_ai_restructuring/",
+          "verification": "opened",
+          "published": "2026-11-26",
+          "note": "帖子转述彭博对筹划阶段的报道。具体人数、执行时间和范围尚未获公司确认。"
+        }
+      ]
+    },
+    {
+      "id": "LAY031",
+      "company_key": "快手",
+      "published": "2026-11-16",
+      "status": "reported",
+      "platform": "i黑马（华盛通转载）",
+      "title": "媒体报道快手国际、游戏和本地生活等业务涉及人员调整",
+      "scope": "报道涉及国际业务、游戏直播和外卖到店等业务",
+      "summary": "i黑马援引消息报道称，快手多条业务线开始人员调整，包括部分国际及游戏直播岗位，本地生活也出现业务收缩。",
+      "note": "报道发出时暂缺快手公开回应和统一人数。与 11 月 27 日的本地生活业务合并报道可能存在范围重叠，两条按各自披露口径阅读。",
+      "url": "https://www.hstong.com/news/detail/26111709192536616",
+      "evidence_label": "看鞭牛士对报道的转述",
+      "evidence_url": "https://www.bianews.com/news/details?id=249289",
+      "community_sources": [
+        {
+          "platform": "微博",
+          "title": "快手多条业务线调整引发讨论",
+          "url": "https://m.weibo.cn/2/detail/5366565310563743",
+          "verification": "excerpt",
+          "published": "2026-11-16",
+          "note": "微博公开摘要转述媒体消息。帖中涉及补偿方案，适用范围仍待确认。"
+        }
+      ]
+    },
+    {
+      "id": "LAY032",
+      "company_key": "微软",
+      "published": "2026-10-27",
+      "status": "confirmed",
+      "platform": "财新",
+      "title": "微软向部分员工提供自愿离职方案",
+      "scope": "微软全球参与方案的部门",
+      "impact": "约 6 万人为邀约覆盖人数",
+      "summary": "财新报道微软推出自愿离职方案。收到邀约的员工可以选择领取补偿离职，也可以留在原岗位。",
+      "note": "约 6 万是方案预计覆盖人数，报道当时尚无最终接受人数。7 月的强制岗位裁减另见对应条目。",
+      "url": "https://www.caixin.com/2026-10-27/102497916.html",
+      "evidence_label": "看媒体取得微软证实",
+      "evidence_url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+      "community_sources": [
+        {
+          "platform": "微信公众号",
+          "title": "界面新闻 · 微软自愿离职方案覆盖哪些员工",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5NTE0ODc2Nw==&mid=2650992803&idx=1&sn=6db28fed7ecc52d6e768458b99147f6b&chksm=bc9ff7d9c4b36c3a60b16de3ee528b1602f9521c52bb392f4deb3d3dfc814453f657808b1eeb#rd",
+          "verification": "mirror",
+          "note": "报道讨论邀约范围和资本开支，另回顾微软此前几轮人事调整。",
+          "mirror_url": "https://www.huxiu.com/article/4901205.html"
+        },
+        {
+          "platform": "小红书",
+          "title": "微软自愿离职的覆盖人数引发讨论",
+          "url": "https://www.xiaohongshu.com/discovery/item/6ae043e0000000001803a52f?xsec_source=app_share&xsec_token=CB4VPl9AUDK2rSRpycOtZwf-aIHoV4bgxYQd2GWLK1QN0=",
+          "verification": "mirror",
+          "note": "公开转载留有原帖入口。笔记讨论约 6 万名员工收到自愿离职邀约，实际接受人数以其后披露为准。",
+          "mirror_url": "https://t.me/s/xhsyp/68603"
+        }
+      ]
     }
   ]
 }

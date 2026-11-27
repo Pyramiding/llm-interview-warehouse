@@ -225,7 +225,9 @@ function fillFilters() {
     for (const company of record.company_keys || []) companies.set(company, (companies.get(company) || 0) + 1);
     const year = record.year ? String(record.year) : 'unknown';
     years.set(year, (years.get(year) || 0) + 1);
-    platforms.set(record.platform, (platforms.get(record.platform) || 0) + 1);
+    for (const platform of record.platforms ?? [record.platform]) {
+      platforms.set(platform, (platforms.get(platform) || 0) + 1);
+    }
   }
   const priority = ['字节', '阿里', '腾讯', '美团', '百度', '快手', '小红书', '蚂蚁集团'];
   const companyOrder = (a, b) => {
@@ -431,6 +433,7 @@ function discussionCard(record) {
 function layoffCard(record) {
   const tones = {confirmed: 'violet', reported: 'amber', response: 'cyan'};
   const facts = [record.scope, record.impact].filter(Boolean).join(' · ');
+  const community = record.platforms?.slice(1).join(' · ');
   return `<article class="record-card layoff-card" data-tone="${tones[record.status]}" data-record="${esc(record.id)}">
     <div class="record-eyebrow">
       <span class="record-company">${esc(record.company_key)}</span>
@@ -442,7 +445,7 @@ function layoffCard(record) {
     <p class="job-facts">${esc(facts)}</p>
     <p class="record-excerpt">${esc(record.summary)}</p>
     <div class="record-bottom">
-      <div class="record-tags"><span class="record-tag">${esc(record.status_label)}</span></div>
+      <div class="record-tags"><span class="record-tag">${esc(record.status_label)}</span>${community ? '<span class="record-tag">' + esc(community) + '</span>' : ''}</div>
       <div class="record-actions">
         ${externalLink(record.url, '看来源', 'read-source', record.title)}
         <button type="button" class="read-detail" data-open="${esc(record.id)}">查看详情${icon('chevron')}</button>
@@ -577,9 +580,17 @@ function layoffDetails(record) {
     ['公司', record.company_key], ['公告或报道日期', record.published], ['公开状态', record.status_label],
     ['涉及范围', record.scope], ['人数口径', record.impact], ['来源', record.platform],
   ];
+  const communityLinks = (record.community_sources ?? []).map(source => {
+    const access = catalog.layoff_access_labels?.[source.verification];
+    const context = [source.published, access].filter(Boolean).join(' · ');
+    const link = externalLink(source.url, source.platform + ' · ' + source.title);
+    const mirror = source.mirror_url ? ' · ' + externalLink(source.mirror_url, '读公开转载', '', source.title) : '';
+    return '<li>' + link + '<p>' + esc(context ? context + '。' + source.note : source.note) + mirror + '</p></li>';
+  }).join('');
   return '<dl class="detail-metadata">' + metadata.map(([label, value]) => metadataRow(label, value)).join('') + '</dl>' +
     section('事件摘要', '<p>' + esc(record.summary) + '</p>') +
     section('来源说明', '<p>' + esc(record.note) + '</p>', 'notes') +
+    section('平台原帖', communityLinks && '<ul class="community-source-list">' + communityLinks + '</ul>') +
     section('同公司岗位',
       '<a class="topic-link" href="' + esc(companyPage('jobs', record.company_key)) + '">查看同公司岗位</a>');
 }

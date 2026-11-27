@@ -76,6 +76,7 @@ def main():
         assert all(published[key] == value for key, value in source.items()), source['id']
         assert published['company_keys'] == [source['company_key']]
         assert source['company_key'] in recruiting_companies, source['id']
+        assert set(published['platforms']) == {source['platform'], *(post['platform'] for post in source.get('community_sources', []))}
     page = (output / 'index.html').read_text()
     parser = PageParser()
     parser.feed(page)

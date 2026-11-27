@@ -193,7 +193,9 @@ test('layoffs share recruiting companies and preserve event links', async ({page
 
   await company.selectOption('Amazon');
   await page.getByLabel('公开状态').selectOption('confirmed');
+  await page.getByLabel('平台', {exact: true}).selectOption('Reddit');
   await expect(page).toHaveURL(/layoff_status=confirmed/);
+  await expect(page).toHaveURL(/platform=Reddit/);
   // Open the result in the same browser turn as typing so the search is pending.
   await page.getByRole('searchbox', {name: '搜索资料'}).evaluate(input => {
     input.value = 'LAY017';
@@ -207,6 +209,8 @@ test('layoffs share recruiting companies and preserve event links', async ({page
   const reader = page.getByRole('dialog');
   await expect(reader.getByRole('heading', {name: '事件摘要'})).toBeVisible();
   await expect(reader.getByRole('link', {name: '查看原始来源'})).toHaveAttribute('href', /aboutamazon\.com/);
+  await expect(reader.getByRole('heading', {name: '平台原帖'})).toBeVisible();
+  await expect(reader.getByRole('link', {name: /^Reddit · /})).toHaveAttribute('href', /reddit\.com\/r\//);
   const jobsLink = reader.getByRole('link', {name: '查看同公司岗位'});
   await jobsLink.click();
   await expect(page).toHaveURL(/view=jobs&company=Amazon/);

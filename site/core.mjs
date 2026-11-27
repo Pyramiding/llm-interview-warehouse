@@ -43,7 +43,8 @@ export function normalize(value) {
 export function searchableText(record) {
   return normalize([record.id, record.title, record.role, record.summary, record.reading_tip, record.note, record.body, record.chapter, record.platform,
     record.team, record.direction_label, record.job_type, record.category_label, record.post_type, record.angle,
-    record.scope, record.impact, record.status_label,
+    record.scope, record.impact, record.status_label, ...(record.platforms ?? []),
+    ...(record.community_sources ?? []).map(source => source.title),
     ...(record.companies || []), ...(record.company_keys || []), ...(record.topic_names || []), ...(record.specialty_names || []),
     ...(record.domains || []), ...(record.question_prompts || []), ...(record.cities || []), ...(record.skills || []),
     ...(record.responsibilities || []), ...(record.requirements || []), ...(record.preferred || [])].filter(Boolean).join(' '));
@@ -66,7 +67,7 @@ export function filterRecords(records, state, saved = new Set()) {
     if (state.saved && !saved.has(record.id)) return false;
     if (hasStudyFilters && state.topic && !(record.topic_ids || []).includes(state.topic)) return false;
     if (hasStudyFilters && state.collection && !(record.collections || []).includes(state.collection)) return false;
-    if (!isQuestion && state.platform && record.platform !== state.platform) return false;
+    if (!isQuestion && state.platform && !(record.platforms ?? [record.platform]).includes(state.platform)) return false;
     if (isDiscussion) {
       if (state.discussion_category && record.category !== state.discussion_category) return false;
     } else if (!isQuestion) {

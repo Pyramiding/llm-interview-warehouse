@@ -1,14 +1,29 @@
 # 裁员动态
 
-[打开网页专题](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs#library) · [回到岗位索引](recruiting/README.md) · [公司清单](#employer-index)
+[打开网页专题](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs#library) · [平台索引](#platform-index) · [公司清单](#employer-index) · [回到岗位索引](recruiting/README.md)
 
-截至 2026-11-27，已收录 30 条公开动态，涉及 19 家公司。按公告或报道日期倒序。
+截至 2026-11-27，已收录 32 条公开动态，涉及 19 家公司。按公告或报道日期倒序。
 
 - **正式披露**以公司公告、媒体引述的公司确认或监管文件为依据。
 - **媒体报道**按报道所述记录范围，保留人数和执行进度的不确定性。
 - **公司回应**收录对流传说法的澄清，离职人数、岗位减少和人员调动各按原文口径记录。
 
 公司清单沿用岗位库。页面上的「暂无收录」表示暂缺可查证的公开资料。
+
+<a id="platform-index"></a>
+
+## 平台索引
+
+平台原帖随相关事件列出，发帖时间单独标注。事件的状态、人数和范围以条目里的公告或报道为准。
+
+| 平台 | 有平台原帖的动态 | 入口 |
+| --- | ---: | --- |
+| 小红书 | 2 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E5%B0%8F%E7%BA%A2%E4%B9%A6#library) · [站内搜索（需登录）](https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E5%8E%82+%E8%A3%81%E5%91%98) |
+| 微信公众号 | 6 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7#library) |
+| 脉脉 | 4 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E8%84%89%E8%84%89#library) |
+| 知乎 | 3 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E7%9F%A5%E4%B9%8E#library) |
+| Reddit | 7 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=Reddit#library) |
+| 微博 | 6 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E5%BE%AE%E5%8D%9A#library) |
 
 ## 时间线
 
@@ -26,6 +41,10 @@
 
 [原始来源](https://www.reuters.com/business/world-at-work/sap-seeks-cut-sizeable-number-jobs-sources-say-2026-11-27/) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=SAP#library)
 
+**平台原帖**
+
+- 2026-11-26 · [Reddit · r/cscareerquestions 讨论 SAP 减岗计划](https://www.reddit.com/r/cscareerquestions/comments/1y6amgp/sap_cutting_10000_in_ai_restructuring/) · 已读正文。帖子转述彭博对筹划阶段的报道。具体人数、执行时间和范围尚未获公司确认。
+
 <a id="lay029"></a>
 
 ### 快手生活服务并入电商和商业化，媒体报道涉及人员优化
@@ -39,6 +58,10 @@
 首发报道未给出可核验的裁撤总人数。
 
 [原始来源](https://finance.sina.com.cn/tech/digi/2026-11-27/doc-inkacqym1129170.shtml) · [看 IT 之家公开转载](https://www.ithome.com/1/033/169.htm) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B#library)
+
+**平台原帖**
+
+- 2026-11-27 · [微博 · 快手生活服务事业部撤销与业务并入](https://weibo.com/2/detail/5369794696054674) · 可读公开摘要。公开摘要跟进业务合并的去向。涉及人数仍以公司披露为准。
 
 <a id="lay028"></a>
 
@@ -68,6 +91,28 @@ Business Insider 查阅内部消息后报道，Salesforce 在 11 月中旬又启
 
 [原始来源](https://www.businessinsider.com/salesforce-starts-cutting-more-jobs-internal-messages-show-2026-11) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Salesforce#library)
 
+**平台原帖**
+
+- [Reddit · r/salesforce 讨论新一轮调整](https://www.reddit.com/r/salesforce/comments/1xzh30k/salesforce_layoff/) · 已读正文。帖子链接了对 Business Insider 报道的新闻转述。跟帖经验的地区和部门口径各异。
+
+<a id="lay031"></a>
+
+### 媒体报道快手国际、游戏和本地生活等业务涉及人员调整
+
+2026-11-16 · 快手 · 媒体报道 · i黑马（华盛通转载）
+
+**涉及范围** 报道涉及国际业务、游戏直播和外卖到店等业务
+
+i黑马援引消息报道称，快手多条业务线开始人员调整，包括部分国际及游戏直播岗位，本地生活也出现业务收缩。
+
+报道发出时暂缺快手公开回应和统一人数。与 11 月 27 日的本地生活业务合并报道可能存在范围重叠，两条按各自披露口径阅读。
+
+[原始来源](https://www.hstong.com/news/detail/26111709192536616) · [看鞭牛士对报道的转述](https://www.bianews.com/news/details?id=249289) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B#library)
+
+**平台原帖**
+
+- 2026-11-16 · [微博 · 快手多条业务线调整引发讨论](https://m.weibo.cn/2/detail/5366565310563743) · 可读公开摘要。微博公开摘要转述媒体消息。帖中涉及补偿方案，适用范围仍待确认。
+
 <a id="lay026"></a>
 
 ### 腾讯澄清司庆后的裁员传言，称内部讲话被误读
@@ -81,6 +126,13 @@ Business Insider 查阅内部消息后报道，Salesforce 在 11 月中旬又启
 条目记录公司对该次传言的澄清。
 
 [原始来源](https://www.thepaper.cn/newsDetail_forward_34459324) · [看联合早报转述的公开回应](https://www.zaobao.com.sg/news/china/story20261112-9986323) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF#library)
+
+**平台原帖**
+
+- 2026-11-12 · [微博 · 腾讯公关就司庆讲话误读作出回应](https://weibo.com/2/detail/5364442785385489) · 可读公开摘要。公开摘要记录腾讯公关负责人对网传说法的否认。
+- 2026-11-16 · [微信公众号 · 腾讯文化刊出的司庆 LinkTime 笔记](https://mp.weixin.qq.com/s/VcIDzPk6IVo1099f2VXalA) · 已有原文链接。话题区此前核对过腾讯文化原文。本文记录业务分工的讲话，再次访问时公众号页面要求验证。
+- [微信公众号 · 中外管理传媒评论腾讯讲话如何被转述](https://mp.weixin.qq.com/s?__biz=MzkxMzIyNDI1Mg==&mid=2247723159&idx=1&sn=32357d6eff406e6dca0d11688d19f3a6&chksm=c0ab854e31cf39476c56a32e7cbf74f8c581702222cfab9c2894fa93dc4cad486e5ed6c182f3#rd) · 公开转载可读。虎嗅转载注明该公众号，并保留了原文链接。文章关注传闻传播及公司回应。 · [读公开转载](https://www.huxiu.com/article/4905537.html)
+- [小红书 · 腾讯司庆讲话与人员调整讨论](https://www.xiaohongshu.com/discovery/item/6af5487c000000002b03c324?xsec_source=app_share&xsec_token=CBtVqhcG6VzvEem8XwklsBhbrfKEbWtEK-e-Q9j0qxyQM=) · 公开转载可读。公开转载留有原帖入口。笔记转述了讲话与当时的讨论，腾讯文化刊发的笔记和公关回应可一并对照。 · [读公开转载](https://t.me/s/xhsyp/69558)
 
 <a id="lay025"></a>
 
@@ -96,6 +148,29 @@ Business Insider 查阅内部消息后报道，Salesforce 在 11 月中旬又启
 
 [原始来源](https://www.reuters.com/business/world-at-work/amazon-cuts-more-jobs-devices-unit-after-flurry-product-rollouts-2026-10-28/) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon#library)
 
+**平台原帖**
+
+- [Reddit · r/cscareerquestions 讨论设备业务减岗](https://www.reddit.com/r/cscareerquestions/comments/1xi9x34/amazon_cuts_250_jobs_mostly_swe_after_cutting/) · 已读正文。帖文直接链接 10 月 28 日的路透社报道，在讨论软件岗位时还提到另外一轮调整。
+
+<a id="lay032"></a>
+
+### 微软向部分员工提供自愿离职方案
+
+2026-10-27 · 微软 · 正式披露 · 财新
+
+**涉及范围** 微软全球参与方案的部门 · 约 6 万人为邀约覆盖人数
+
+财新报道微软推出自愿离职方案。收到邀约的员工可以选择领取补偿离职，也可以留在原岗位。
+
+约 6 万是方案预计覆盖人数，报道当时尚无最终接受人数。7 月的强制岗位裁减另见对应条目。
+
+[原始来源](https://www.caixin.com/2026-10-27/102497916.html) · [看媒体取得微软证实](https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF#library)
+
+**平台原帖**
+
+- [微信公众号 · 界面新闻 · 微软自愿离职方案覆盖哪些员工](https://mp.weixin.qq.com/s?__biz=MjM5NTE0ODc2Nw==&mid=2650992803&idx=1&sn=6db28fed7ecc52d6e768458b99147f6b&chksm=bc9ff7d9c4b36c3a60b16de3ee528b1602f9521c52bb392f4deb3d3dfc814453f657808b1eeb#rd) · 公开转载可读。报道讨论邀约范围和资本开支，另回顾微软此前几轮人事调整。 · [读公开转载](https://www.huxiu.com/article/4901205.html)
+- [小红书 · 微软自愿离职的覆盖人数引发讨论](https://www.xiaohongshu.com/discovery/item/6ae043e0000000001803a52f?xsec_source=app_share&xsec_token=CB4VPl9AUDK2rSRpycOtZwf-aIHoV4bgxYQd2GWLK1QN0=) · 公开转载可读。公开转载留有原帖入口。笔记讨论约 6 万名员工收到自愿离职邀约，实际接受人数以其后披露为准。 · [读公开转载](https://t.me/s/xhsyp/68603)
+
 <a id="lay024"></a>
 
 ### 豆包回应 Session 团队裁员传言，称调整的是分工
@@ -109,6 +184,12 @@ Business Insider 查阅内部消息后报道，Salesforce 在 11 月中旬又启
 回应指向这次 Session 团队相关传言。
 
 [原始来源](https://www.nbd.com.cn/articles/2026-09-24/4591433.html) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82#library)
+
+**平台原帖**
+
+- 2026-09-24 · [微博 · 豆包公关回应 Session 团队传闻](https://weibo.com/2/detail/5346618901005781) · 可读公开摘要。公开摘要转述负责人对分工调整的解释。
+- [脉脉 · 讨论豆包调整对话团队分工](https://maimai.cn/article/detail?efid=5IpuGMkxgf9kTrWnsvGVfg&fid=1928859734) · 可读公开摘要。帖文保留了当时对业务收缩的讨论。裁员说法随后收到豆包公关回应。
+- [知乎 · 豆包 Session 人员调整的早期报道转载](https://zhuanlan.zhihu.com/p/2086019761377371961) · 可读公开摘要。页面摘要包含早期转岗及裁撤说法。对应的公司回应见本条主来源。
 
 <a id="lay023"></a>
 
@@ -152,6 +233,10 @@ GeekWire 查阅当地公开文件，报道艺术、游戏设计和制作职能�
 
 [原始来源](https://www.caixin.com/2026-07-17/102465033.html) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E9%98%BF%E9%87%8C#library)
 
+**平台原帖**
+
+- 2026-07-17 · [微博 · 飞猪回应人员变动比例](https://weibo.com/2/detail/5321663575228768) · 可读公开摘要。公开摘要转述飞猪回应。文中的变动比例涵盖招聘及离职。
+
 <a id="lay020"></a>
 
 ### 小米回应手机、汽车等团队的人员调整报道
@@ -180,6 +265,12 @@ GeekWire 查阅当地公开文件，报道艺术、游戏设计和制作职能�
 
 [原始来源](https://companies.caixin.com/2026-07-10/102462653.html) · [看 IT 之家公开整理](https://www.ithome.com/0/975/217.htm) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%BE%8E%E5%9B%A2#library)
 
+**平台原帖**
+
+- [脉脉 · 美团多业务线人员变化讨论](https://maimai.cn/article/detail?efid=8DAHLjeVzieiCdmCOTI3Jw&fid=1920117742) · 已读正文。帖子转述财新报道及公司回应。「不到 2,000」是两个月的离职口径。
+- [微博 · 创业邦早报转述美团回应](https://weibo.com/ttarticle/p/show?id=2309405319423803392040) · 可读公开摘要。早报同时收录多条新闻。美团段落引用财新，保留了离职人数口径。
+- [微信公众号 · 时代周报 · 大厂管理岗位变化及美团员工走访](https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&mid=2653348352&idx=1&sn=7245a32cb227611463f73f50fefc3597&chksm=bc7451e907b9c9288fd3070fd85b92a23468941960e7b9982f154097be61b1e2b5703636fea6#rd) · 公开转载可读。报道走访员工并回顾人员离职口径。文中也涉及腾讯、京东等公司的职级调整。 · [读公开转载](https://www.huxiu.com/article/4874883.html)
+
 <a id="lay018"></a>
 
 ### 微软公布全球约 4,800 个岗位缩减并调整 Xbox
@@ -194,6 +285,12 @@ GeekWire 查阅当地公开文件，报道艺术、游戏设计和制作职能�
 
 [原始来源](https://www.reuters.com/business/world-at-work/microsoft-joins-ai-driven-tech-layoff-wave-with-4800-job-cuts-2026-07-06/) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF#library)
 
+**平台原帖**
+
+- 2026-07-06 · [Reddit · r/microsoft 讨论 Xbox 和销售部门调整](https://www.reddit.com/r/microsoft/comments/1up2a76/microsoft_cuts_4800_jobs_and_shrinks_xbox_in/) · 已读正文。跟帖讨论游戏部门、销售与其他业务的影响。团队和人数以原报道为准。
+- [知乎 · 游戏业务如何受到微软这轮调整影响](https://zhuanlan.zhihu.com/p/2057947355765289596) · 可读公开摘要。专栏关注 Xbox 和游戏业务。各数字对应全球范围、游戏业务或其他轮次，需要分别看。
+- [微信公众号 · 机核 · Xbox 重组与受影响的工作室](https://mp.weixin.qq.com/s?__biz=MjM5OTAzMjg0MA==&mid=2650611481&idx=1&sn=1ff55a31ebea8a2baa90dcbc8eb74932&chksm=bf202c667aefed0e9771b069f86e4f766a4bb79d04b4fb8bc1b12d5eb2f3e34dc257f1bade76#rd) · 公开转载可读。文章聚焦游戏工作室。微软的总体岗位缩减口径见本条路透社报道。 · [读公开转载](https://www.huxiu.com/article/4874421.html)
+
 <a id="lay017"></a>
 
 ### 亚马逊披露新一轮约 1.6 万个岗位调整
@@ -207,6 +304,13 @@ GeekWire 查阅当地公开文件，报道艺术、游戏设计和制作职能�
 此条保留 1 月公司公告所列范围。各地转岗及执行时间按当地规定。
 
 [原始来源](https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026) · [看美联社报道](https://apnews.com/article/74387fae2313ff7b0b1e638c00863443) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon#library)
+
+**平台原帖**
+
+- 2026-01-28 · [Reddit · r/stocks 讨论亚马逊 1 月公开信](https://www.reddit.com/r/stocks/comments/1qphkkk/tech_amazon_laying_off_about_16000_corporate/) · 已读正文。发帖引用 CNBC 同日的报道，讨论公司职能团队变化。美国转岗窗口见公司公告。
+- [知乎 · 极客公园回顾 2026 年初硅谷减岗](https://zhuanlan.zhihu.com/p/2014688788488676304) · 可读公开摘要。文章把此次亚马逊公告放进更广的科技行业就业数据中。行业统计各有时间和样本口径。
+- [脉脉 · 从 4 月底盘点回看亚马逊两次公开调整](https://maimai.cn/article/detail?efid=t9v1MfQSWrEUMndJufMPEw&fid=1912391018) · 已读正文。盘点分别列了 2025 年 10 月和 2026 年 1 月的公告。其他公司的数字需查各自原始来源。
+- [微信公众号 · 极客公园 · 回顾年初美国科技行业减岗](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653100639&idx=1&sn=60d03d145f792660f08e25513f2f1043&chksm=7f01389bcb84a02f761c46d54fdba5b3d52354222aca366d9fe160635818de4bd37be954b566#rd) · 公开转载可读。与知乎的极客公园文章同文，回顾 1 月亚马逊公司公告及行业就业统计。 · [读公开转载](https://www.huxiu.com/article/4840455.html)
 
 <a id="lay016"></a>
 
@@ -263,6 +367,10 @@ GeekWire 查阅当地公开文件，报道艺术、游戏设计和制作职能�
 这是此轮的企业职能口径，仓储和配送人员另有用工口径。
 
 [原始来源](https://www.aboutamazon.com/news/company-news/amazon-workforce-reduction) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon#library)
+
+**平台原帖**
+
+- [微信公众号 · 电厂 · 科技公司的 AI 提效与两轮减岗](https://mp.weixin.qq.com/s?__biz=MjM5ODM5NTE0Ng==&mid=2653194874&idx=1&sn=9529aba829ebf1f15e7c1fd1b41ca4bd&chksm=bce8f4bce2681aa30c4528f5cd569f606b8115a9b90b3ab2de69557909ecae32cac90decc8b5#rd) · 公开转载可读。回顾亚马逊 2025 年 10 月和 2026 年 1 月两次公告。本文同时讨论其他公司。 · [读公开转载](https://www.huxiu.com/article/4863826.html)
 
 <a id="lay012"></a>
 
@@ -362,6 +470,10 @@ TikTok 向路透社确认全球有数百名员工受到影响，同时计划在�
 
 [原始来源](https://www.thepaper.cn/newsDetail_forward_27984933) · [看 21 世纪经济报道求证](https://m.21jingji.com/article/20240705/herald/16b00f7973853a79078e63595579432a_zaker.html) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%BA%A2%E4%B9%A6#library)
 
+**平台原帖**
+
+- [脉脉 · 小红书年中人员盘点讨论](https://maimai.cn/article/detail?efid=ght-GmOdICLGuSvRX6FIBw&fid=1838623215) · 可读公开摘要。帖文把调整和绩效联系起来，具体门槛及适用范围没有独立确认。
+
 <a id="lay005"></a>
 
 ### 加州 WARN 文件列出苹果 614 名受影响员工
@@ -418,6 +530,10 @@ Grab 在公开员工信中宣布人员缩减。新加坡人力部在国会答复
 
 [原始来源](https://www.grab.com/inside-grab/stories/message-from-ceo/) · [看新加坡人力部答复](https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2023/0705-oral-answer-to-pq-on-grab-retrenchment) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Grab#library)
 
+**平台原帖**
+
+- 2023-06-20 · [Reddit · r/singapore 讨论 Grab 减岗](https://www.reddit.com/r/singapore/comments/14ebq8m) · 已读正文。帖子转发当日媒体报道，新加坡站友讨论对地区业务的影响。集团官网披露的是跨地区口径。
+
 <a id="lay001"></a>
 
 ### Alphabet 公布约 1.2 万个岗位的缩减计划
@@ -431,6 +547,10 @@ Alphabet 首席执行官在员工信中公布缩减规模，称美国受影响�
 这是 2023 年公布的集团计划，记录日期取员工信发布日。
 
 [原始来源](https://blog.google/company-news/inside-google/message-ceo/january-update/) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Google#library)
+
+**平台原帖**
+
+- 2023-01-20 · [Reddit · r/technology 讨论 Alphabet 公告](https://www.reddit.com/r/technology/comments/10gtlde/google_cutting_12000_jobs_in_6_slash_to_global/) · 已读正文。跟帖讨论通知方式及对团队的影响。各地安排以公告为准。
 
 <a id="employer-index"></a>
 
@@ -465,8 +585,8 @@ Alphabet 首席执行官在员工信中公布缩减规模，称美国受影响�
 | 小红书 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%B0%8F%E7%BA%A2%E4%B9%A6#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%BA%A2%E4%B9%A6#library) |
 | 工银科技 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%B7%A5%E9%93%B6%E7%A7%91%E6%8A%80#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B7%A5%E9%93%B6%E7%A7%91%E6%8A%80#library) |
 | 建信金科 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%BB%BA%E4%BF%A1%E9%87%91%E7%A7%91#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BB%BA%E4%BF%A1%E9%87%91%E7%A7%91#library) |
-| 微软 | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%BE%AE%E8%BD%AF#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF#library) |
-| 快手 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%BF%AB%E6%89%8B#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B#library) |
+| 微软 | [3 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%BE%AE%E8%BD%AF#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF#library) |
+| 快手 | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%BF%AB%E6%89%8B#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B#library) |
 | 思必驰 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E6%80%9D%E5%BF%85%E9%A9%B0#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%80%9D%E5%BF%85%E9%A9%B0#library) |
 | 招商银行 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C#library) |
 | 招银网络科技 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E6%8B%9B%E9%93%B6%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E9%93%B6%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80#library) |

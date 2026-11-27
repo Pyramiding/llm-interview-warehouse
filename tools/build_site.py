@@ -11,7 +11,8 @@ from xml.sax.saxutils import escape as xml_escape
 from build_indexes import (ROOT, TOPICS, access_label, normalized_companies,
                            platform, read_json, source_label, source_note)
 from discussions import VERIFICATION_LABELS as DISCUSSION_ACCESS_LABELS, load_discussions
-from layoffs import STATUS_LABELS as LAYOFF_STATUS_LABELS, load_layoffs
+from layoffs import (COMMUNITY_ACCESS_LABELS, REDNOTE_SEARCH_URL,
+                     STATUS_LABELS as LAYOFF_STATUS_LABELS, load_layoffs)
 from recruiting import STATUS_LABELS, VERIFICATION_LABELS, load_recruiting
 
 SITE_URL = 'https://pyramiding.github.io/llm-interview-warehouse/'
@@ -138,9 +139,11 @@ def build(output=ROOT / '_site'):
                         access_label=DISCUSSION_ACCESS_LABELS[row['verification']])
                    for order, row in enumerate(discussion_data['discussions'])]
     layoff_data = load_layoffs(recruiting['jobs'])
-    layoffs = [dict(row, kind='layoffs', order=order, companies=[row['company_key']], company_keys=[row['company_key']],
-                    status_label=LAYOFF_STATUS_LABELS[row['status']])
-               for order, row in enumerate(layoff_data['layoffs'])]
+    layoffs = []
+    for order, row in enumerate(layoff_data['layoffs']):
+        platforms = dict.fromkeys([row['platform'], *(source['platform'] for source in row.get('community_sources', []))])
+        layoffs.append(dict(row, kind='layoffs', order=order, companies=[row['company_key']], company_keys=[row['company_key']],
+                            status_label=LAYOFF_STATUS_LABELS[row['status']], platforms=list(platforms)))
     counts = Counter(topic for item in questions for topic in item['topic_ids'])
     topics = [dict(id=code, name=name, description=description, path='docs/topics/' + filename, count=counts[code])
               for code, name, filename, description in TOPICS]
@@ -149,7 +152,7 @@ def build(output=ROOT / '_site'):
     catalog = dict(repo_url=REPO_URL, site_url=SITE_URL, stats=stats, topics=topics,
                    specialties=specialties, interviews=interviews, resources=resources, jobs=jobs,
                    discussion_categories=discussion_categories, discussions=discussions,
-                   layoffs=layoffs, layoff_status_labels=LAYOFF_STATUS_LABELS,
+                   layoffs=layoffs, layoff_status_labels=LAYOFF_STATUS_LABELS, layoff_access_labels=COMMUNITY_ACCESS_LABELS,
                    job_channels=recruiting['channels'], job_directions=recruiting['directions'],
                    job_status_labels=STATUS_LABELS, jobs_checked=max(job['accessed'] for job in jobs))
     assert len(interviews) == stats['interview_records']
@@ -169,7 +172,7 @@ def build(output=ROOT / '_site'):
                     'QUESTION_COUNT': str(len(questions)), 'SPECIALTY_COUNT': str(len(specialties)),
                     'RESOURCE_COUNT': str(len(resources)), 'JOB_COUNT': str(len(jobs)),
                     'DISCUSSION_COUNT': str(len(discussions)), 'LAYOFF_COUNT': str(len(layoffs)),
-                    'LAYOFF_CHECKED': layoff_data['checked'],
+                    'LAYOFF_CHECKED': layoff_data['checked'], 'LAYOFF_REDNOTE_SEARCH': REDNOTE_SEARCH_URL,
                     'CATALOG_DATA': script_json(catalog), 'QUESTION_DATA': script_json(questions)}
     output = Path(output)
     (output / 'data').mkdir(parents=True, exist_ok=True)
