@@ -367,6 +367,14 @@
           "verification": "mirror",
           "note": "报道走访员工并回顾人员离职口径。文中也涉及腾讯、京东等公司的职级调整。",
           "mirror_url": "https://www.huxiu.com/article/4874883.html"
+        },
+        {
+          "platform": "脉脉",
+          "title": "美团一支业务组转岗安排的转述",
+          "url": "https://maimai.cn/article/detail?efid=zVbY7bN017fN443tQNvKVw&fid=1920690174",
+          "verification": "opened",
+          "published": "2026-07-15",
+          "note": "作者转述一名在职员工对小组转岗及岗位变动的说法。团队比例和个案未独立核实，公司的不到 2,000 人口径为实际离职。"
         }
       ]
     },
@@ -652,7 +660,7 @@
       "scope": "微软全球参与方案的部门",
       "impact": "约 6 万人为邀约覆盖人数",
       "summary": "财新报道微软推出自愿离职方案。收到邀约的员工可以选择领取补偿离职，也可以留在原岗位。",
-      "note": "约 6 万是方案预计覆盖人数，报道当时尚无最终接受人数。7 月的强制岗位裁减另见对应条目。",
+      "note": "约 6 万是方案预计覆盖人数。公司发言人和 CFO 其后预计接受人数不超过约 3,000，最终人数仍待披露。11 月纳德拉的后续说明另有记录。",
       "url": "https://www.caixin.com/2026-10-27/102497916.html",
       "evidence_label": "看媒体取得微软证实",
       "evidence_url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
@@ -672,6 +680,229 @@
           "verification": "mirror",
           "note": "公开转载留有原帖入口。笔记讨论约 6 万名员工收到自愿离职邀约，实际接受人数以其后披露为准。",
           "mirror_url": "https://t.me/s/xhsyp/68603"
+        },
+        {
+          "platform": "小红书",
+          "title": "微软发言人及 CFO 对接受人数的预期",
+          "url": "https://www.xiaohongshu.com/discovery/item/6ae2a8ce000000002c023bb3?xsec_source=app_share&xsec_token=CBTQUSFo--zdm07ZMwoaoJXo2rELdjlr4Mx0SnhnbtW8M=",
+          "verification": "mirror",
+          "note": "帖文转述公司发言人及 10 月 28 日 CFO 备忘录，IT 之家报道也记录了不超过约 3,000 人的预期。该数为估计，最终实际接受人数待披露。",
+          "mirror_url": "https://t.me/s/xhsyp/68737"
+        },
+        {
+          "platform": "脉脉",
+          "title": "从员工角度讨论微软的自愿离职选项",
+          "url": "https://maimai.cn/article/detail?efid=kP7dozoCddvbacWlWxIwWA&fid=1932990527",
+          "verification": "opened",
+          "published": "2026-10-28",
+          "note": "招聘从业者解读邀约及为什么员工可能接受或留下。方案性质与覆盖范围已对照报道，帖子所列补偿、职级细则按员工实际收到的文件核对。"
+        }
+      ]
+    },
+    {
+      "id": "LAY033",
+      "company_key": "字节",
+      "published": "2026-08-11",
+      "status": "reported",
+      "platform": "36氪",
+      "title": "媒体报道字节新设 AI 数据与安全一级部门",
+      "scope": "字节 AI 数据与安全一级部门",
+      "summary": "36氪援引多个信源报道，字节将 AI 数据与安全设为与 Seed、Flow 平行的一级部门，由此前负责 TikTok 平台责任业务的王赢磊负责。",
+      "note": "部门设置来自媒体采访。同期有报道提及原相关负责人将离任，发稿时未获公司确认。",
+      "url": "https://www.36kr.com/newsflashes/3934989813710209",
+      "evidence_label": "看原负责人变动报道",
+      "evidence_url": "https://www.36kr.com/newsflashes/3934965810592901",
+      "community_sources": [
+        {
+          "platform": "小红书",
+          "title": "8 月的 AI 数据与安全负责人变动讨论",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a7aba6600000000060062b8?xsec_source=app_share&xsec_token=CBotG3EqYxUd9QelBuskDR2OJl06aukiEduQ6L5TqhWjU=",
+          "verification": "mirror",
+          "note": "帖子转述知情人士消息，原链接在匿名访问时转至访问提示页，公开转载可读。离任去向暂无独立核实。",
+          "mirror_url": "https://t.me/s/xhsyp/64813"
+        },
+        {
+          "platform": "脉脉",
+          "title": "AI 数据与安全换帅讨论",
+          "url": "https://maimai.cn/article/detail?efid=rQyOsK4-G5K57rJXnwBmnQ&fid=1923821991",
+          "verification": "opened",
+          "published": "2026-08-11",
+          "note": "脉脉帖复述同期报道。新部门与任命以媒体采访口径记录，文中的后续职业去向为推测。"
+        }
+      ]
+    },
+    {
+      "id": "LAY034",
+      "company_key": "字节",
+      "published": "2026-08-19",
+      "status": "confirmed",
+      "platform": "GeekWire",
+      "title": "TikTok 向华盛顿州申报 Bellevue 电商岗位裁减",
+      "scope": "美国 Bellevue 办公点，主要涉及 TikTok Shop 和全球电商岗位",
+      "impact": "75 个岗位（华盛顿州 WARN），通知所列离岗日为 10 月 19 日",
+      "summary": "GeekWire 查阅华盛顿州接收的通知后报道，75 个受影响岗位包括电商运营、活动、风控治理、数据科学及前后端开发等。",
+      "note": "75 个岗位只覆盖州文件所列办公点。两篇小红书帖讨论同期北美绩效沟通，暂未核实与 Bellevue 这批岗位是否关联。",
+      "url": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/",
+      "evidence_label": "看本地媒体对州文件的报道",
+      "evidence_url": "https://www.fox13seattle.com/news/seattle-layoffs-tiktok-bellevue",
+      "community_sources": [
+        {
+          "platform": "小红书",
+          "title": "自述关注 TikTok 绩效面谈后的安排",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a869d090000000008011219?xsec_source=app_share&xsec_token=CB4XLr68ujnzOoBUzYbZpt_IYYCf31M9ttHYFgPsRJcwg=",
+          "verification": "mirror",
+          "note": "发帖者从本人视角询问面谈及后续人事流程。本人任职、具体团队及最终结果尚未独立核实。原帖匿名打开转至访问提示页，公开转载可读。",
+          "mirror_url": "https://t.me/s/xhsyp/65425"
+        },
+        {
+          "platform": "小红书",
+          "title": "北美 TikTok 的 9 月 HR 面谈讨论",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a9786c80000000026031dab?xsec_source=app_share&xsec_token=CBRHGlvyIgB5Fua0vurHWkli0dDLhtmwfh7FNk0eHKpFs=",
+          "verification": "mirror",
+          "note": "帖文描述北美员工收到约谈的说法，发布者身份、涉及人数及所在团队未获外部确认。监管文件只证实其列出的岗位。",
+          "mirror_url": "https://t.me/s/xhsyp/66149"
+        }
+      ]
+    },
+    {
+      "id": "LAY035",
+      "company_key": "Amazon",
+      "published": "2026-10-09",
+      "status": "confirmed",
+      "platform": "IT之家",
+      "title": "亚马逊确认 10 月上旬调整零售等团队岗位",
+      "scope": "Stores 零售为主，报道同时涉及零售工程、客户服务及卖家支持",
+      "impact": "不到 1,000 人（媒体援引知情人士估计）",
+      "summary": "IT之家援引路透社和 Business Insider 报道，亚马逊发言人确认部分团队减岗，影响以零售业务为主。报道列出了部分受影响团队。",
+      "note": "公司确认了减岗。人数来自知情人士估计，10 月下旬设备与服务部门的调整另有记录。",
+      "url": "https://www.ithome.com/1/010/811.htm",
+      "evidence_label": "看路透社报道转载",
+      "evidence_url": "https://www.investing.com/news/stock-market-news/amazon-makes-fresh-job-cuts-mainly-in-retail-division-4937790"
+    },
+    {
+      "id": "LAY036",
+      "company_key": "百度",
+      "published": "2026-10-28",
+      "status": "reported",
+      "platform": "科创板日报（澎湃号）",
+      "title": "百度智能云调整智能应用业务归属，小度负责人轮岗",
+      "scope": "百度智能云 ACG 智能应用、小度科技",
+      "summary": "科创板日报报道称，原智能应用事业部的业务按职责分至基础设施、智能体和服务交付相关团队，百度副总裁阮瑜轮岗担任小度科技组织负责人。",
+      "note": "公开报道列出了组织归属和负责人。脉脉另有关于部分 QA 调岗的转述，暂未核实团队和人员范围。",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34351620",
+      "evidence_label": "看各业务线归属",
+      "evidence_url": "https://www.ithome.com/1/019/073.htm",
+      "community_sources": [
+        {
+          "platform": "脉脉",
+          "title": "猎头转述百度智能云部分 QA 调岗",
+          "url": "https://maimai.cn/article/detail?efid=KDi7KJSIikrpE_hH806d6Q&fid=1933085584",
+          "verification": "opened",
+          "published": "2026-10-29",
+          "note": "帖子还讨论了其他公司。百度这部分涉及 QA 与业务线的分工和个别调岗沟通。业务归属能与报道对照，具体调岗个案和人员范围尚未独立核实。"
+        }
+      ]
+    },
+    {
+      "id": "LAY037",
+      "company_key": "百度",
+      "published": "2026-10-29",
+      "status": "response",
+      "platform": "新浪科技",
+      "title": "百度回应吴甜已结束任职",
+      "scope": "百度研究院及基础模型方向的管理岗位",
+      "summary": "新浪科技引述百度方面回应，确认吴甜已结束在百度的任职，并表示基础模型等技术工作仍在推进。",
+      "note": "公司公开回应确认的是个别管理岗位变动。具体接任安排和团队人员规模按后续公开披露核对。",
+      "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtuu2755358.shtml",
+      "evidence_label": "看每经对公司回应的报道",
+      "evidence_url": "https://www.nbd.com.cn/articles/2026-10-29/4626735.html",
+      "community_sources": [
+        {
+          "platform": "脉脉",
+          "title": "百度研究院负责人人事变动讨论",
+          "url": "https://maimai.cn/article/detail?efid=yxQbwEl5vosCCEfk0uGkJg&fid=1933090939",
+          "verification": "opened",
+          "note": "脉脉帖回顾了其在飞桨、文心等团队的职责。任职结束已和百度方面回应对照。"
+        }
+      ]
+    },
+    {
+      "id": "LAY038",
+      "company_key": "腾讯",
+      "published": "2026-11-02",
+      "status": "reported",
+      "platform": "36氪 Tech商业",
+      "title": "36氪报道腾讯混元多模态强化学习负责人离任",
+      "scope": "腾讯混元多模态强化学习方向",
+      "summary": "36氪援引多家信源报道，混元多模态强化学习负责人庞天宇已离任。报道并回顾了 7 月语言模型部与多模态模型部并入基础模型部的安排。",
+      "note": "媒体核实的是离任消息，离任原因、后续去向及团队内部安排暂无公司或本人确认。",
+      "url": "https://www.36kr.com/p/4052393536984968",
+      "community_sources": [
+        {
+          "platform": "脉脉",
+          "title": "11 月 3 日人才动态回顾混元负责人的变动",
+          "url": "https://maimai.cn/article/detail?efid=3ez1Fy--lKw_dsfNv99T-w&fid=1933609184",
+          "verification": "opened",
+          "published": "2026-11-03",
+          "note": "猎头帖转述 36氪报道，并讨论混元的模型组织。帖文对个人离任原因的推断尚待核实。"
+        }
+      ]
+    },
+    {
+      "id": "LAY039",
+      "company_key": "字节",
+      "published": "2026-11-14",
+      "status": "reported",
+      "platform": "虎嗅",
+      "title": "媒体报道今日头条研发改按业务模块分组",
+      "scope": "今日头条的前端、客户端和服务端研发",
+      "summary": "虎嗅回顾 10 月底的调整消息，今日头条将原来分开的三端研发按业务模块配置，由业务负责人统筹交付。",
+      "note": "报道与脉脉帖描述的是研发分工调整。涉及岗位增减及实施范围暂无独立披露。",
+      "url": "https://www.huxiu.com/article/4905554.html",
+      "community_sources": [
+        {
+          "platform": "脉脉",
+          "title": "头条研发按业务分组的讨论",
+          "url": "https://maimai.cn/article/detail?efid=eBrXtDE0iHAVcQGGVIAXKA&fid=1934674274",
+          "verification": "opened",
+          "published": "2026-11-12",
+          "note": "脉脉作者转述内部通知的媒体消息，列出搜索、内容、算法等业务线。三端按业务整合的方向可与虎嗅报道对照。"
+        }
+      ]
+    },
+    {
+      "id": "LAY040",
+      "company_key": "微软",
+      "published": "2026-11-18",
+      "status": "response",
+      "platform": "TechCrunch",
+      "title": "纳德拉在公开活动解释微软自愿离职方案",
+      "scope": "微软 10 月已披露的自愿离职方案",
+      "summary": "纳德拉在 DealBook 峰会上谈到方案，称公司希望为员工提供选择，同时把工作组织到使用 AI 的流程中。",
+      "note": "这次是对 10 月方案的后续说明。约 6 万是邀约覆盖范围，实际接受人数仍需后续披露。",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "evidence_label": "看中文报道",
+      "evidence_url": "https://www.ithome.com/1/029/147.htm"
+    },
+    {
+      "id": "LAY041",
+      "company_key": "NVIDIA",
+      "published": "2026-11-23",
+      "status": "confirmed",
+      "platform": "NVIDIA Newsroom",
+      "title": "英伟达董事会恢复黄仁勋总裁与 CEO 职务",
+      "scope": "英伟达管理层与董事会",
+      "summary": "英伟达董事会公告，黄仁勋即日起恢复总裁、首席执行官和董事职务。",
+      "note": "以董事会公告为准。公开信息涉及管理层交接。",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director/",
+      "community_sources": [
+        {
+          "platform": "小红书",
+          "title": "小红书讨论 CEO 复任与回办公室的画面",
+          "url": "https://www.xiaohongshu.com/discovery/item/6b04a99f000000002b004f05?xsec_source=app_share&xsec_token=CBA0wVOCXz1hxGSx6-NAdCOEEAUGtDhvICdQVC4HEB7ew=",
+          "verification": "mirror",
+          "note": "帖子分享复任当天的办公室画面，拍摄者和具体经过未独立核实。正式任命及生效时间已和董事会公告核对。",
+          "mirror_url": "https://t.me/s/xhsyp/70084"
         }
       ]
     }

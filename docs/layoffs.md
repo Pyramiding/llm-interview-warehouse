@@ -2,7 +2,7 @@
 
 [打开网页专题](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs#library) · [平台索引](#platform-index) · [公司清单](#employer-index) · [回到岗位索引](recruiting/README.md)
 
-截至 2026-11-27，已收录 32 条公开动态，涉及 19 家公司。按公告或报道日期倒序。
+截至 2026-11-27，已收录 41 条公开动态，涉及 20 家公司。按公告或报道日期倒序。
 
 - **正式披露**以公司公告、媒体引述的公司确认或监管文件为依据。
 - **媒体报道**按报道所述记录范围，保留人数和执行进度的不确定性。
@@ -14,13 +14,13 @@
 
 ## 平台索引
 
-平台原帖随相关事件列出，发帖时间单独标注。事件的状态、人数和范围以条目里的公告或报道为准。
+平台原帖随相关事件列出，能核对的发帖日期单独标注。每条链接标明阅读情况，发帖者身份、个案细节和公司回应的核实范围见备注。事件的状态、人数和范围以条目里的公告或报道为准。
 
 | 平台 | 有平台原帖的动态 | 入口 |
 | --- | ---: | --- |
-| 小红书 | 2 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E5%B0%8F%E7%BA%A2%E4%B9%A6#library) · [站内搜索（需登录）](https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E5%8E%82+%E8%A3%81%E5%91%98) |
+| 小红书 | 5 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E5%B0%8F%E7%BA%A2%E4%B9%A6#library) · [站内搜索（需登录）](https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E5%8E%82+%E8%A3%81%E5%91%98) |
 | 微信公众号 | 6 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7#library) |
-| 脉脉 | 4 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E8%84%89%E8%84%89#library) |
+| 脉脉 | 10 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E8%84%89%E8%84%89#library) |
 | 知乎 | 3 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E7%9F%A5%E4%B9%8E#library) |
 | Reddit | 7 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=Reddit#library) |
 | 微博 | 6 | [查看记录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&platform=%E5%BE%AE%E5%8D%9A#library) |
@@ -77,6 +77,38 @@ Google Cloud 向媒体确认印度团队的少量岗位调整，并将其描述�
 
 [原始来源](https://inc42.com/buzz/google-cloud-confirms-around-30-job-cuts-in-india-rejects-wider-layoff-rumours/) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Google#library)
 
+<a id="lay041"></a>
+
+### 英伟达董事会恢复黄仁勋总裁与 CEO 职务
+
+2026-11-23 · NVIDIA · 正式披露 · NVIDIA Newsroom
+
+**涉及范围** 英伟达管理层与董事会
+
+英伟达董事会公告，黄仁勋即日起恢复总裁、首席执行官和董事职务。
+
+以董事会公告为准。公开信息涉及管理层交接。
+
+[原始来源](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director/) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA#library)
+
+**平台原帖**
+
+- [小红书 · 小红书讨论 CEO 复任与回办公室的画面](https://www.xiaohongshu.com/discovery/item/6b04a99f000000002b004f05?xsec_source=app_share&xsec_token=CBA0wVOCXz1hxGSx6-NAdCOEEAUGtDhvICdQVC4HEB7ew=) · 公开转载可读。帖子分享复任当天的办公室画面，拍摄者和具体经过未独立核实。正式任命及生效时间已和董事会公告核对。 · [读公开转载](https://t.me/s/xhsyp/70084)
+
+<a id="lay040"></a>
+
+### 纳德拉在公开活动解释微软自愿离职方案
+
+2026-11-18 · 微软 · 公司回应 · TechCrunch
+
+**涉及范围** 微软 10 月已披露的自愿离职方案
+
+纳德拉在 DealBook 峰会上谈到方案，称公司希望为员工提供选择，同时把工作组织到使用 AI 的流程中。
+
+这次是对 10 月方案的后续说明。约 6 万是邀约覆盖范围，实际接受人数仍需后续披露。
+
+[原始来源](https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/) · [看中文报道](https://www.ithome.com/1/029/147.htm) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF#library)
+
 <a id="lay027"></a>
 
 ### Business Insider 报道 Salesforce 再次调整岗位
@@ -113,6 +145,24 @@ i黑马援引消息报道称，快手多条业务线开始人员调整，包括�
 
 - 2026-11-16 · [微博 · 快手多条业务线调整引发讨论](https://m.weibo.cn/2/detail/5366565310563743) · 可读公开摘要。微博公开摘要转述媒体消息。帖中涉及补偿方案，适用范围仍待确认。
 
+<a id="lay039"></a>
+
+### 媒体报道今日头条研发改按业务模块分组
+
+2026-11-14 · 字节 · 媒体报道 · 虎嗅
+
+**涉及范围** 今日头条的前端、客户端和服务端研发
+
+虎嗅回顾 10 月底的调整消息，今日头条将原来分开的三端研发按业务模块配置，由业务负责人统筹交付。
+
+报道与脉脉帖描述的是研发分工调整。涉及岗位增减及实施范围暂无独立披露。
+
+[原始来源](https://www.huxiu.com/article/4905554.html) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82#library)
+
+**平台原帖**
+
+- 2026-11-12 · [脉脉 · 头条研发按业务分组的讨论](https://maimai.cn/article/detail?efid=eBrXtDE0iHAVcQGGVIAXKA&fid=1934674274) · 已读正文。脉脉作者转述内部通知的媒体消息，列出搜索、内容、算法等业务线。三端按业务整合的方向可与虎嗅报道对照。
+
 <a id="lay026"></a>
 
 ### 腾讯澄清司庆后的裁员传言，称内部讲话被误读
@@ -133,6 +183,60 @@ i黑马援引消息报道称，快手多条业务线开始人员调整，包括�
 - 2026-11-16 · [微信公众号 · 腾讯文化刊出的司庆 LinkTime 笔记](https://mp.weixin.qq.com/s/VcIDzPk6IVo1099f2VXalA) · 已有原文链接。话题区此前核对过腾讯文化原文。本文记录业务分工的讲话，再次访问时公众号页面要求验证。
 - [微信公众号 · 中外管理传媒评论腾讯讲话如何被转述](https://mp.weixin.qq.com/s?__biz=MzkxMzIyNDI1Mg==&mid=2247723159&idx=1&sn=32357d6eff406e6dca0d11688d19f3a6&chksm=c0ab854e31cf39476c56a32e7cbf74f8c581702222cfab9c2894fa93dc4cad486e5ed6c182f3#rd) · 公开转载可读。虎嗅转载注明该公众号，并保留了原文链接。文章关注传闻传播及公司回应。 · [读公开转载](https://www.huxiu.com/article/4905537.html)
 - [小红书 · 腾讯司庆讲话与人员调整讨论](https://www.xiaohongshu.com/discovery/item/6af5487c000000002b03c324?xsec_source=app_share&xsec_token=CBtVqhcG6VzvEem8XwklsBhbrfKEbWtEK-e-Q9j0qxyQM=) · 公开转载可读。公开转载留有原帖入口。笔记转述了讲话与当时的讨论，腾讯文化刊发的笔记和公关回应可一并对照。 · [读公开转载](https://t.me/s/xhsyp/69558)
+
+<a id="lay038"></a>
+
+### 36氪报道腾讯混元多模态强化学习负责人离任
+
+2026-11-02 · 腾讯 · 媒体报道 · 36氪 Tech商业
+
+**涉及范围** 腾讯混元多模态强化学习方向
+
+36氪援引多家信源报道，混元多模态强化学习负责人庞天宇已离任。报道并回顾了 7 月语言模型部与多模态模型部并入基础模型部的安排。
+
+媒体核实的是离任消息，离任原因、后续去向及团队内部安排暂无公司或本人确认。
+
+[原始来源](https://www.36kr.com/p/4052393536984968) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF#library)
+
+**平台原帖**
+
+- 2026-11-03 · [脉脉 · 11 月 3 日人才动态回顾混元负责人的变动](https://maimai.cn/article/detail?efid=3ez1Fy--lKw_dsfNv99T-w&fid=1933609184) · 已读正文。猎头帖转述 36氪报道，并讨论混元的模型组织。帖文对个人离任原因的推断尚待核实。
+
+<a id="lay037"></a>
+
+### 百度回应吴甜已结束任职
+
+2026-10-29 · 百度 · 公司回应 · 新浪科技
+
+**涉及范围** 百度研究院及基础模型方向的管理岗位
+
+新浪科技引述百度方面回应，确认吴甜已结束在百度的任职，并表示基础模型等技术工作仍在推进。
+
+公司公开回应确认的是个别管理岗位变动。具体接任安排和团队人员规模按后续公开披露核对。
+
+[原始来源](https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtuu2755358.shtml) · [看每经对公司回应的报道](https://www.nbd.com.cn/articles/2026-10-29/4626735.html) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6#library)
+
+**平台原帖**
+
+- [脉脉 · 百度研究院负责人人事变动讨论](https://maimai.cn/article/detail?efid=yxQbwEl5vosCCEfk0uGkJg&fid=1933090939) · 已读正文。脉脉帖回顾了其在飞桨、文心等团队的职责。任职结束已和百度方面回应对照。
+
+<a id="lay036"></a>
+
+### 百度智能云调整智能应用业务归属，小度负责人轮岗
+
+2026-10-28 · 百度 · 媒体报道 · 科创板日报（澎湃号）
+
+**涉及范围** 百度智能云 ACG 智能应用、小度科技
+
+科创板日报报道称，原智能应用事业部的业务按职责分至基础设施、智能体和服务交付相关团队，百度副总裁阮瑜轮岗担任小度科技组织负责人。
+
+公开报道列出了组织归属和负责人。脉脉另有关于部分 QA 调岗的转述，暂未核实团队和人员范围。
+
+[原始来源](https://www.thepaper.cn/newsDetail_forward_34351620) · [看各业务线归属](https://www.ithome.com/1/019/073.htm) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6#library)
+
+**平台原帖**
+
+- 2026-10-29 · [脉脉 · 猎头转述百度智能云部分 QA 调岗](https://maimai.cn/article/detail?efid=KDi7KJSIikrpE_hH806d6Q&fid=1933085584) · 已读正文。帖子还讨论了其他公司。百度这部分涉及 QA 与业务线的分工和个别调岗沟通。业务归属能与报道对照，具体调岗个案和人员范围尚未独立核实。
 
 <a id="lay025"></a>
 
@@ -162,7 +266,7 @@ i黑马援引消息报道称，快手多条业务线开始人员调整，包括�
 
 财新报道微软推出自愿离职方案。收到邀约的员工可以选择领取补偿离职，也可以留在原岗位。
 
-约 6 万是方案预计覆盖人数，报道当时尚无最终接受人数。7 月的强制岗位裁减另见对应条目。
+约 6 万是方案预计覆盖人数。公司发言人和 CFO 其后预计接受人数不超过约 3,000，最终人数仍待披露。11 月纳德拉的后续说明另有记录。
 
 [原始来源](https://www.caixin.com/2026-10-27/102497916.html) · [看媒体取得微软证实](https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF#library)
 
@@ -170,6 +274,22 @@ i黑马援引消息报道称，快手多条业务线开始人员调整，包括�
 
 - [微信公众号 · 界面新闻 · 微软自愿离职方案覆盖哪些员工](https://mp.weixin.qq.com/s?__biz=MjM5NTE0ODc2Nw==&mid=2650992803&idx=1&sn=6db28fed7ecc52d6e768458b99147f6b&chksm=bc9ff7d9c4b36c3a60b16de3ee528b1602f9521c52bb392f4deb3d3dfc814453f657808b1eeb#rd) · 公开转载可读。报道讨论邀约范围和资本开支，另回顾微软此前几轮人事调整。 · [读公开转载](https://www.huxiu.com/article/4901205.html)
 - [小红书 · 微软自愿离职的覆盖人数引发讨论](https://www.xiaohongshu.com/discovery/item/6ae043e0000000001803a52f?xsec_source=app_share&xsec_token=CB4VPl9AUDK2rSRpycOtZwf-aIHoV4bgxYQd2GWLK1QN0=) · 公开转载可读。公开转载留有原帖入口。笔记讨论约 6 万名员工收到自愿离职邀约，实际接受人数以其后披露为准。 · [读公开转载](https://t.me/s/xhsyp/68603)
+- [小红书 · 微软发言人及 CFO 对接受人数的预期](https://www.xiaohongshu.com/discovery/item/6ae2a8ce000000002c023bb3?xsec_source=app_share&xsec_token=CBTQUSFo--zdm07ZMwoaoJXo2rELdjlr4Mx0SnhnbtW8M=) · 公开转载可读。帖文转述公司发言人及 10 月 28 日 CFO 备忘录，IT 之家报道也记录了不超过约 3,000 人的预期。该数为估计，最终实际接受人数待披露。 · [读公开转载](https://t.me/s/xhsyp/68737)
+- 2026-10-28 · [脉脉 · 从员工角度讨论微软的自愿离职选项](https://maimai.cn/article/detail?efid=kP7dozoCddvbacWlWxIwWA&fid=1932990527) · 已读正文。招聘从业者解读邀约及为什么员工可能接受或留下。方案性质与覆盖范围已对照报道，帖子所列补偿、职级细则按员工实际收到的文件核对。
+
+<a id="lay035"></a>
+
+### 亚马逊确认 10 月上旬调整零售等团队岗位
+
+2026-10-09 · Amazon · 正式披露 · IT之家
+
+**涉及范围** Stores 零售为主，报道同时涉及零售工程、客户服务及卖家支持 · 不到 1,000 人（媒体援引知情人士估计）
+
+IT之家援引路透社和 Business Insider 报道，亚马逊发言人确认部分团队减岗，影响以零售业务为主。报道列出了部分受影响团队。
+
+公司确认了减岗。人数来自知情人士估计，10 月下旬设备与服务部门的调整另有记录。
+
+[原始来源](https://www.ithome.com/1/010/811.htm) · [看路透社报道转载](https://www.investing.com/news/stock-market-news/amazon-makes-fresh-job-cuts-mainly-in-retail-division-4937790) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon#library)
 
 <a id="lay024"></a>
 
@@ -218,6 +338,44 @@ GeekWire 查阅当地公开文件，报道艺术、游戏设计和制作职能�
 年报和中报披露的是员工存量。本条暂缺可单独核验的裁撤人数。
 
 [原始来源](https://companies.caixin.com/m/2026-08-27/102478351.html) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%95%86%E6%B1%A4%E7%A7%91%E6%8A%80#library)
+
+<a id="lay034"></a>
+
+### TikTok 向华盛顿州申报 Bellevue 电商岗位裁减
+
+2026-08-19 · 字节 · 正式披露 · GeekWire
+
+**涉及范围** 美国 Bellevue 办公点，主要涉及 TikTok Shop 和全球电商岗位 · 75 个岗位（华盛顿州 WARN），通知所列离岗日为 10 月 19 日
+
+GeekWire 查阅华盛顿州接收的通知后报道，75 个受影响岗位包括电商运营、活动、风控治理、数据科学及前后端开发等。
+
+75 个岗位只覆盖州文件所列办公点。两篇小红书帖讨论同期北美绩效沟通，暂未核实与 Bellevue 这批岗位是否关联。
+
+[原始来源](https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/) · [看本地媒体对州文件的报道](https://www.fox13seattle.com/news/seattle-layoffs-tiktok-bellevue) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82#library)
+
+**平台原帖**
+
+- [小红书 · 自述关注 TikTok 绩效面谈后的安排](https://www.xiaohongshu.com/discovery/item/6a869d090000000008011219?xsec_source=app_share&xsec_token=CB4XLr68ujnzOoBUzYbZpt_IYYCf31M9ttHYFgPsRJcwg=) · 公开转载可读。发帖者从本人视角询问面谈及后续人事流程。本人任职、具体团队及最终结果尚未独立核实。原帖匿名打开转至访问提示页，公开转载可读。 · [读公开转载](https://t.me/s/xhsyp/65425)
+- [小红书 · 北美 TikTok 的 9 月 HR 面谈讨论](https://www.xiaohongshu.com/discovery/item/6a9786c80000000026031dab?xsec_source=app_share&xsec_token=CBRHGlvyIgB5Fua0vurHWkli0dDLhtmwfh7FNk0eHKpFs=) · 公开转载可读。帖文描述北美员工收到约谈的说法，发布者身份、涉及人数及所在团队未获外部确认。监管文件只证实其列出的岗位。 · [读公开转载](https://t.me/s/xhsyp/66149)
+
+<a id="lay033"></a>
+
+### 媒体报道字节新设 AI 数据与安全一级部门
+
+2026-08-11 · 字节 · 媒体报道 · 36氪
+
+**涉及范围** 字节 AI 数据与安全一级部门
+
+36氪援引多个信源报道，字节将 AI 数据与安全设为与 Seed、Flow 平行的一级部门，由此前负责 TikTok 平台责任业务的王赢磊负责。
+
+部门设置来自媒体采访。同期有报道提及原相关负责人将离任，发稿时未获公司确认。
+
+[原始来源](https://www.36kr.com/newsflashes/3934989813710209) · [看原负责人变动报道](https://www.36kr.com/newsflashes/3934965810592901) · [看同公司岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82#library)
+
+**平台原帖**
+
+- [小红书 · 8 月的 AI 数据与安全负责人变动讨论](https://www.xiaohongshu.com/discovery/item/6a7aba6600000000060062b8?xsec_source=app_share&xsec_token=CBotG3EqYxUd9QelBuskDR2OJl06aukiEduQ6L5TqhWjU=) · 公开转载可读。帖子转述知情人士消息，原链接在匿名访问时转至访问提示页，公开转载可读。离任去向暂无独立核实。 · [读公开转载](https://t.me/s/xhsyp/64813)
+- 2026-08-11 · [脉脉 · AI 数据与安全换帅讨论](https://maimai.cn/article/detail?efid=rQyOsK4-G5K57rJXnwBmnQ&fid=1923821991) · 已读正文。脉脉帖复述同期报道。新部门与任命以媒体采访口径记录，文中的后续职业去向为推测。
 
 <a id="lay021"></a>
 
@@ -270,6 +428,7 @@ GeekWire 查阅当地公开文件，报道艺术、游戏设计和制作职能�
 - [脉脉 · 美团多业务线人员变化讨论](https://maimai.cn/article/detail?efid=8DAHLjeVzieiCdmCOTI3Jw&fid=1920117742) · 已读正文。帖子转述财新报道及公司回应。「不到 2,000」是两个月的离职口径。
 - [微博 · 创业邦早报转述美团回应](https://weibo.com/ttarticle/p/show?id=2309405319423803392040) · 可读公开摘要。早报同时收录多条新闻。美团段落引用财新，保留了离职人数口径。
 - [微信公众号 · 时代周报 · 大厂管理岗位变化及美团员工走访](https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&mid=2653348352&idx=1&sn=7245a32cb227611463f73f50fefc3597&chksm=bc7451e907b9c9288fd3070fd85b92a23468941960e7b9982f154097be61b1e2b5703636fea6#rd) · 公开转载可读。报道走访员工并回顾人员离职口径。文中也涉及腾讯、京东等公司的职级调整。 · [读公开转载](https://www.huxiu.com/article/4874883.html)
+- 2026-07-15 · [脉脉 · 美团一支业务组转岗安排的转述](https://maimai.cn/article/detail?efid=zVbY7bN017fN443tQNvKVw&fid=1920690174) · 已读正文。作者转述一名在职员工对小组转岗及岗位变动的说法。团队比例和个案未独立核实，公司的不到 2,000 人口径为实际离职。
 
 <a id="lay018"></a>
 
@@ -558,14 +717,14 @@ Alphabet 首席执行官在员工信中公布缩减规模，称美国受影响�
 
 | 公司 | 裁员专题 | 岗位 |
 | --- | --- | --- |
-| Amazon | [3 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=Amazon#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon#library) |
+| Amazon | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=Amazon#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Amazon#library) |
 | Anthropic | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=Anthropic#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Anthropic#library) |
 | Apple | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=Apple#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Apple#library) |
 | DeepSeek | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=DeepSeek#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=DeepSeek#library) |
 | Google | [3 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=Google#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Google#library) |
 | Grab | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=Grab#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Grab#library) |
 | MiniMax | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=MiniMax#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=MiniMax#library) |
-| NVIDIA | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=NVIDIA#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA#library) |
+| NVIDIA | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=NVIDIA#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=NVIDIA#library) |
 | OpenAI | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=OpenAI#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=OpenAI#library) |
 | Salesforce | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=Salesforce#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=Salesforce#library) |
 | SAP | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=SAP#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=SAP#library) |
@@ -580,12 +739,12 @@ Alphabet 首席执行官在员工信中公布缩减规模，称美国受影响�
 | 华为 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%8D%8E%E4%B8%BA#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%8D%8E%E4%B8%BA#library) |
 | 同花顺 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%90%8C%E8%8A%B1%E9%A1%BA#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%90%8C%E8%8A%B1%E9%A1%BA#library) |
 | 商汤科技 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%95%86%E6%B1%A4%E7%A7%91%E6%8A%80#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%95%86%E6%B1%A4%E7%A7%91%E6%8A%80#library) |
-| 字节 | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%AD%97%E8%8A%82#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82#library) |
+| 字节 | [7 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%AD%97%E8%8A%82#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%AD%97%E8%8A%82#library) |
 | 小米 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%B0%8F%E7%B1%B3#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%B1%B3#library) |
 | 小红书 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%B0%8F%E7%BA%A2%E4%B9%A6#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B0%8F%E7%BA%A2%E4%B9%A6#library) |
 | 工银科技 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%B7%A5%E9%93%B6%E7%A7%91%E6%8A%80#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%B7%A5%E9%93%B6%E7%A7%91%E6%8A%80#library) |
 | 建信金科 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%BB%BA%E4%BF%A1%E9%87%91%E7%A7%91#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BB%BA%E4%BF%A1%E9%87%91%E7%A7%91#library) |
-| 微软 | [3 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%BE%AE%E8%BD%AF#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF#library) |
+| 微软 | [4 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%BE%AE%E8%BD%AF#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BE%AE%E8%BD%AF#library) |
 | 快手 | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E5%BF%AB%E6%89%8B#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E5%BF%AB%E6%89%8B#library) |
 | 思必驰 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E6%80%9D%E5%BF%85%E9%A9%B0#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%80%9D%E5%BF%85%E9%A9%B0#library) |
 | 招商银行 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C#library) |
@@ -600,9 +759,9 @@ Alphabet 首席执行官在员工信中公布缩减规模，称美国受影响�
 | 滴普科技 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E6%BB%B4%E6%99%AE%E7%A7%91%E6%8A%80#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%BB%B4%E6%99%AE%E7%A7%91%E6%8A%80#library) |
 | 滴滴 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E6%BB%B4%E6%BB%B4#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E6%BB%B4%E6%BB%B4#library) |
 | 百川智能 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E7%99%BE%E5%B7%9D%E6%99%BA%E8%83%BD#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%B7%9D%E6%99%BA%E8%83%BD#library) |
-| 百度 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E7%99%BE%E5%BA%A6#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6#library) |
+| 百度 | [3 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E7%99%BE%E5%BA%A6#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%99%BE%E5%BA%A6#library) |
 | 美团 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E7%BE%8E%E5%9B%A2#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E7%BE%8E%E5%9B%A2#library) |
-| 腾讯 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E8%85%BE%E8%AE%AF#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF#library) |
+| 腾讯 | [2 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E8%85%BE%E8%AE%AF#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%85%BE%E8%AE%AF#library) |
 | 蔚来 | [3 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E8%94%9A%E6%9D%A5#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%94%9A%E6%9D%A5#library) |
 | 蚂蚁集团 | [暂无收录](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E8%9A%82%E8%9A%81%E9%9B%86%E5%9B%A2#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%9A%82%E8%9A%81%E9%9B%86%E5%9B%A2#library) |
 | 贝壳找房 | [1 条](https://pyramiding.github.io/llm-interview-warehouse/?view=layoffs&company=%E8%B4%9D%E5%A3%B3%E6%89%BE%E6%88%BF#library) | [看岗位](https://pyramiding.github.io/llm-interview-warehouse/?view=jobs&company=%E8%B4%9D%E5%A3%B3%E6%89%BE%E6%88%BF#library) |
